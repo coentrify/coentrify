@@ -64,6 +64,14 @@ Adopt the defaults, pick what to use, and customize to fit the project.
 
 [Onboarding](docs/onboarding.md)
 
+## Why Coentrify
+
+Coentrify comes from Coen, the author, and his habit of structuring and organizing everything, seemingly to excess. His brother coined the verb as a lighthearted joke, with judgment for the excess and respect for the results.
+
+The verb stayed because one word does the job. `coentrify` is easy to type and easy to remember. No other project uses the word, so an agent that searches for `coentrify` lands here.
+
+The intention is one word that both names the goal and starts the work. Coentrified should mean a well-organized, structured and harmonious codebase.
+
 ## License
 
 MIT-0. Take what you need; there is no notice to carry.
