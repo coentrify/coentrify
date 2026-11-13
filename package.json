@@ -1,0 +1,16 @@
+{
+  "name": "coentrify",
+  "private": true,
+  "type": "module",
+  "license": "MIT-0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start:wiki": "vitepress dev",
+    "build:wiki": "vitepress build"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4"
+  }
+}
