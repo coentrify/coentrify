@@ -1,11 +1,17 @@
-import { readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import type { Dirent } from 'node:fs';
 import { join } from 'node:path';
 import type { DefaultTheme } from 'vitepress';
 
 const MARKDOWN_EXTENSION: string = '.md';
 const HOME_PAGE: string = 'README.md';
-const ROOT_PAGE_ORDER: readonly string[] = [HOME_PAGE];
+const FLATTENED_FOLDER: string = 'docs';
+const ROOT_PAGE_ORDER: readonly string[] = [
+  HOME_PAGE,
+  'philosophy.md',
+  'standards.md',
+  'way-of-working.md',
+];
 const TITLE_PATTERN: RegExp = /^# (.+)$/m;
 
 function pageTitle(filePath: string, fallback: string): string {
@@ -44,7 +50,7 @@ function folderItems(
   const pages: DefaultTheme.SidebarItem[] = entries
     .filter((entry: Dirent): boolean => entry.isFile() && entry.name.endsWith(MARKDOWN_EXTENSION))
     .sort((a: Dirent, b: Dirent): number =>
-      relativeFolder === ''
+      relativeFolder === '' || relativeFolder === FLATTENED_FOLDER
         ? rootRank(a.name) - rootRank(b.name) || a.name.localeCompare(b.name)
         : a.name.localeCompare(b.name),
     )
@@ -72,5 +78,9 @@ function folderItems(
 }
 
 export function buildSidebar(root: string, excluded: readonly string[]): DefaultTheme.SidebarItem[] {
-  return folderItems(root, '', excluded);
+  const rootItems: DefaultTheme.SidebarItem[] = folderItems(root, '', [...excluded, FLATTENED_FOLDER]);
+  const flattenedItems: DefaultTheme.SidebarItem[] = existsSync(join(root, FLATTENED_FOLDER))
+    ? folderItems(root, FLATTENED_FOLDER, excluded)
+    : [];
+  return [...rootItems, ...flattenedItems];
 }
