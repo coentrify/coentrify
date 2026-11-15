@@ -1,10 +1,10 @@
 # Onboarding
 
-How an agent coentrifies a project and onboards its user.
+How an agent coentrifies a project and onboards its director.
 
 ## The Greeting
 
-Greet the user first, so the user sees that the prompt worked.
+Greet the director first, so the director sees that the prompt worked.
 ```
  ████   ███   █████  █   █  █████  ████   ███  █████  █   █
 █      █   █  █      ██  █    █    █   █   █   █       █ █

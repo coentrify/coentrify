@@ -12,6 +12,8 @@ Prompt your agent to start the [onboarding](onboarding.md):
 coentrify
 ```
 
+Adopt the defaults, pick what to use, and customize to fit the project.
+
 See all [commands](commands.md).
 
 ## The Problem With Vibe Coding
@@ -32,21 +34,13 @@ Spec-driven development (SDD) starts with one question:
 
 What you want is written down in layers. Overview and feature docs come first, then use cases and specs, then tests and code. Every layer is checked against the layer before, and a gap between two layers shows what is missing.
 
-Humans are creative, agents are hardworking, and systems are rigid. So humans decide what the product does, agents do the work, and systems run the checks.
+Humans are creative, agents are hardworking, and systems are rigid. So humans decide what the product does, agents do the work, and systems run the checks. The human who directs a project is called the director.
 
 ## Elements
 
 - [Philosophy](philosophy.md) - The ideas and concepts the system is based on, a compass.
 - [Standards](standards.md) - The rules and templates a project adopts.
 - [How It Works](how-it-works.md) - From any input to what you want.
-
-## Onboarding
-
-The onboarding explains coentrify to the user and sets up the project.
-
-Adopt the defaults, pick what to use, and customize to fit the project.
-
-[Onboarding](onboarding.md)
 
 ## License
 

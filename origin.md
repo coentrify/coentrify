@@ -8,7 +8,7 @@ Coentrify comes from Coen, the author, and his habit of structuring and organizi
 
 ## One Word
 
-The verb stayed because one word does the job. `coentrify` is easy to type and easy to remember. No other project uses the word, so an agent that searches for `coentrify` lands here.
+The verb stayed because one word does the job. `coentrify` is easy to type, easy to remember, and unusual enough to be easy to find.
 
 ## The Intention
 

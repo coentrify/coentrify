@@ -1,6 +1,6 @@
 # Overview
 
-The what: the rules, conventions and templates a project adopts.
+The rules, conventions and templates a project adopts.
 
 ## Behavior
 

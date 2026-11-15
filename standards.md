@@ -36,3 +36,7 @@ The standards are a foundation. A project is meant to pick, override and extend.
 - Add standards of the project's own.
 
 Anyone can build a version of coentrify of their own on the same foundation.
+
+### Example
+
+Nick took an early version of coentrify and made it his own: Nicktrify.

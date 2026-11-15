@@ -1,6 +1,6 @@
 # Commands
 
-What a user can ask an agent to do with coentrify. A command is matched by intent, so the exact words do not matter.
+What a director can ask an agent to do with coentrify. A command is matched by intent, so the exact words do not matter.
 
 - `coentrify` - set the project up
 - `coentrify make no mistakes` - set the project up with minimal questions
@@ -15,7 +15,7 @@ Any request to set the project up. Follow the [onboarding](onboarding.md).
 
 ## `coentrify make no mistakes`
 
-The onboarding with minimal questions. The agent analyzes the project and takes what the project needs. Every choice the agent made is listed afterwards, for the user to veto.
+The onboarding with minimal questions. The agent analyzes the project and takes what the project needs. Every choice the agent made is listed afterwards, for the director to veto.
 
 The agent starts with this line:
 
