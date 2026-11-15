@@ -11,6 +11,8 @@ const ROOT_PAGE_ORDER: readonly string[] = [
   'standards.md',
   'how-it-works.md',
   'onboarding.md',
+  'recommendations.md',
+  'lock-file.md',
   'commands.md',
   'origin.md',
 ];

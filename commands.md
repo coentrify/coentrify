@@ -29,4 +29,9 @@ Any question about what coentrify is. Explain from the [README](README.md), the 
 
 ## `coentrify update`
 
-Any request to bring the project up to date. Compare the project's standards with this repository and report what changed.
+Any request to bring the project up to date. Read the [lock file](lock-file.md), and compare every standard in it with the latest version.
+
+- Replace a tracked standard that changed at the source.
+- Report what changed for a drifted standard.
+- Report new standards worth considering.
+- Write the new version to the lock file.
