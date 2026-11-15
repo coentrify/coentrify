@@ -65,3 +65,7 @@ The director says: "the test fails, fix it."
 - The need is a product that does what the spec says.
 - The quick solution changes the test until the test passes.
 - The right solution finds out whether the product or the test is wrong, and fixes that one.
+
+## Related
+
+- [The Quality Of The Question](the-quality-of-the-question.md)

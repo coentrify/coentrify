@@ -1,0 +1,53 @@
+# Overview
+
+The Behavior standards: how an agent works and what an agent checks.
+
+- [A Go Before Work Elsewhere](a-go-before-work-elsewhere.md) - never start sessions, agents or work in another project without an explicit go; \"next is X\" names the topic, it is not a go; projects come from the director's words, never a recent-folders list
+- [A Maybe Is A Trigger To Investigate](a-maybe-is-a-trigger-to-investigate.md) - a director's maybe gets investigated in the same go, never parked
+- [A Quiet Tree While A Suite Runs](a-quiet-tree-while-a-suite-runs.md) - no source edits while a suite runs on a live dev server
+- [Agent Roles](agent-roles.md) - the conductor runs the agents; a builder per story until its verdict, a docs agent for sweeps and backlogs, a scout for spikes; the number of agents follows token and devbox capacity; no agent names in the docs
+- [Always Make No Mistakes](always-make-no-mistakes.md) - use your standards; own mistakes and strengthen the harness with a rule or check
+- [Always Verify Before Reporting Done](always-verify-before-reporting-done.md) - run the check that matches the change before claiming done
+- [Always Work from a Plan](always-work-from-a-plan.md) - multi-step work runs from a written plan; in a project all work follows the project's workflow
+- [Anchor Edits After Formatting](anchor-edits-after-formatting.md) - re-read before anchoring an edit after a formatter or hook
+- [Backward-Trace Missing Prerequisites](backward-trace-missing-prerequisites.md) - a missing prerequisite becomes a ticket above the item; recurse, never patch around
+- [Code Review Compounds Into Patterns and Sweeps](code-review-compounds-into-patterns-and-sweeps.md) - a review finding is a pattern: review check, how-to memory, sweep ticket
+- [Commits](commits.md) - a ticket's commits start with its id, FEAT-123: description; every other commit is a lowercase conventional commit; NO AI attribution anywhere; split by review interest
+- [Communication Boundary](communication-boundary.md) - never contact players or playtesters or speak for the director; file `Tell <name>` tasks
+- [Decide, Don't Wait](decide-dont-wait.md) - decide easy choices and flag them; only costly ones wait; the order of work is yours
+- [Dev Tiers](dev-tiers.md) - work order: build, bugs, debt, features, each tier counting only what hurts the current phase's goal; all other debt waits for its phase
+- [Docs Hold Only What the Director Decided](docs-hold-only-what-the-director-decided.md) - docs hold only what the director decided; ideas go to chat first
+- [Don't Filter Data Without a Spec](dont-filter-data-without-a-spec.md) - never drop data unless the exclusion is specced and tested
+- [Don't Introduce Tech Debt](dont-introduce-tech-debt.md) - new code follows conventions even when neighbors don't; a ticket lands right, solved now, a follow-up only as a split; fix what your change caused
+- [Feature Workflow](feature-workflow.md) - plan -> doc -> spec -> failing e2e -> implement -> regression -> proof the user can verify
+- [Flag Every Addition of Your Own](flag-every-addition-of-your-own.md) - name every addition of your own in the report for a veto
+- [Free Text Replies, No Buttons](free-text-replies-no-buttons.md) - no answer buttons or wrap-up questions; ask in prose and keep going; no closing prompts where a dashboard shows the director's inboxes
+- [Gate Commits on Exit Codes](gate-commits-on-exit-codes.md) - commit and tag hang on the check's exit code with &&; never a grep, tail or ;
+- [General Working Rules](general-working-rules.md) - think first, keep it simple, surgical changes, verify goals, surface conflicts, read before write, fail loud
+- [Honest Assessments](honest-assessments.md) - realistic over optimistic; push back once, plainly
+- [Main Stays Green, Work Stays Clean](main-stays-green-work-stays-clean.md) - main always green and versionable; nothing lands red; agents clean their own mess
+- [Memory Over Skills](memory-over-skills.md) - on conflict memory wins; fix the skill's contradicted line
+- [Non-Destructive Documenting and Test Automation](non-destructive-documenting-and-test-automation.md) - doc, spec and test phases never touch production code
+- [Normal Dashes](normal-dashes.md) - always `-`, never em or en dashes
+- [Note Issues](note-issues.md) - write down every finding: debt or bug ticket, or a question; never only in chat
+- [Own Ports, Own Processes](own-ports-own-processes.md) - own fixed non-default port per project; kill only your own PIDs; stop what you started
+- [Pixel-Perfect Design Check](pixel-perfect-design-check.md) - compare app and design side by side at the widths that matter
+- [Project Lifecycle](project-lifecycle.md) - a project is in one phase at a time, and the phase decides what matters now
+- [Propagate Renames and Convention Changes Everywhere](propagate-renames-and-convention-changes-everywhere.md) - a rename or convention change updates every site; grep before and after
+- [Prose Style](prose-style.md) - no AI sentence patterns; calm, concrete, varied; reports brief
+- [Prototype Mode Is Speed First](prototype-mode-is-speed-first.md) - prototyping means speed: no tests, a standalone one-pager, run it and share the link
+- [Regular Layered Gap Analysis](regular-layered-gap-analysis.md) - walk the doc, spec, test and code layers both ways; rules against the code too
+- [Reload The Standards After Compacting](reload-the-standards-after-compacting.md) - after a compaction, read the Read First standards again, by a hook where the agent has one
+- [Review Changes Before Reporting Done](review-changes-before-reporting-done.md) - re-read the diff and touched files before claiming done
+- [Review Every Capture Before Reporting](review-every-capture-before-reporting.md) - read every capture for regressions, caption match and unintended shapes
+- [Standards Maintenance](standards-maintenance.md) - a periodic sweep for bloat, stale rules, duplicates, drift and dead links, with a word budget per standard
+- [Sweeps Enumerate Into Tech-Debt First](sweeps-enumerate-into-tech-debt-first.md) - a sweep lists every instance in one debt ticket before fixing
+- [Sync The Docs After Every Change](sync-the-docs-after-every-change.md) - after a landing, grep the docs for its terms and fix what went stale; update every reference
+- [The Conductor](the-conductor.md) - the conductor processes every message and builds nothing; its chat reads as a log, a line per event: the ticket id, its context and a title of a few words; whatever it surfaces is filed first, and what stands in a ticket is never repeated
+- [The Quality Of The Question](the-quality-of-the-question.md) - a better question gets a better answer; suspect the question first, and ask how good over is it good
+- [UI Components First](ui-components-first.md) - use existing design-system and shared UI components; add one rather than roll custom
+- [Understand The Need](understand-the-need.md) - the need before the solution, and the right solution fitted to the need
+- [Use US English Everywhere](use-us-english-everywhere.md) - US spelling everywhere; convert British spellings when touching them
+- [Verify APIs Against Docs And The Installed Artifact](verify-apis-against-docs-and-the-installed-artifact.md) - check docs AND installed types before ruling on an API; pinned: the artifact decides
+- [Verify Control Before Rename](verify-control-before-rename.md) - trace a control to its handler before relabeling it
+- [Verify Staging Before Committing](verify-staging-before-committing.md) - read the staged list before every commit; explicit paths when others share the tree

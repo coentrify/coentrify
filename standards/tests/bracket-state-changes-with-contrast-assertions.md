@@ -1,0 +1,29 @@
+# Bracket State Changes With Contrast Assertions
+
+For any test that observes a state change - a toggle, a switch, an open/close, a navigation, a selection - assert both axes on both sides of the change. Before: A is true, B is false. After: A is false, B is true.
+
+## Why
+
+A test that only asserts the new positive state passes for free when both states are always visible, a real bug class where the switch never swaps and only adds the new state beside the old. The within-test negative proves one state replaced the other.
+
+## How to apply
+
+- Toggle (collapse/expand, open/close): before, closed visible and open not; after, open visible and closed not.
+- Switch (app, theme, mode): before, A active and B not; after, B active and A not.
+- Navigation: before, source page visible and destination not; after, destination visible and source not.
+- Selection in a list: before, nothing selected; after, the picked item selected and the rest not.
+- No-op: identical assertions before and after prove the action changed nothing.
+- Assert both axes with [Implementation-Agnostic Assertions](implementation-agnostic-assertions.md).
+- Overview tests skip the bracketing ([Per-Feature Overview Test](../e2e/per-feature-overview-test.md)).
+
+## Combine simple opposites into one bracketed test
+
+Two tests for opposite sides of one binary toggle (`hidden when disabled` and `visible when enabled`, `disabled when invalid` and `enabled when valid`, `closed by default` and `open after click`) become one bracketed test of the transition. It carries both use-case ids, so the mapping in the feature spec stays intact and `e2e:case <id>` resolves either way.
+
+- Two single-axis tests both pass on an implementation that always shows the positive state; one bracketed test catches it.
+- It halves boot and teardown cost and reads as the behavior the user sees: flip the flag, see the change.
+- Contrasts that are functionally distinct scenarios with different inputs keep separate tests: lookup hit and miss, mutation success, server error and validation error, normal flow and auth error.
+
+## Related
+
+- [E2E Tests Must Demonstrate Behavior](../e2e/e2e-tests-must-demonstrate-behavior.md)
