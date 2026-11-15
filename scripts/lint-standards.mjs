@@ -75,14 +75,21 @@ function latestVersionSection(changelog) {
   return next === -1 ? rest : rest.slice(0, next);
 }
 
+function stagedPaths(filter) {
+  return git(['diff', '--cached', '--name-only', `--diff-filter=${filter}`])
+    .split('\n')
+    .filter((path) => STANDARD_PATH.test(path) && !path.endsWith(`/${INDEX_PAGE}`));
+}
+
 function stagedErrors() {
-  const staged = git(['diff', '--cached', '--name-only', '--diff-filter=ACMRD']).split('\n');
-  const changed = staged.filter((path) => STANDARD_PATH.test(path) && !path.endsWith(`/${INDEX_PAGE}`));
-  if (changed.length === 0) {
+  const changed = stagedPaths('ACMR');
+  const removed = stagedPaths('D');
+  if (changed.length === 0 && removed.length === 0) {
     return [];
   }
+  const staged = git(['diff', '--cached', '--name-only']).split('\n');
   if (!staged.includes(CHANGELOG)) {
-    return changed.map((path) => `${path} changed, and ${CHANGELOG} did not`);
+    return [...changed, ...removed].map((path) => `${path} changed, and ${CHANGELOG} did not`);
   }
   const section = latestVersionSection(git(['show', `:${CHANGELOG}`]));
   return changed
