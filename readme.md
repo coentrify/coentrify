@@ -42,6 +42,10 @@ Humans are creative, agents are hardworking, and systems are rigid. So humans de
 - [Standards](standards.md) - The rules and templates a project adopts.
 - [How It Works](how-it-works.md) - From any input to what you want.
 
+## Wiki
+
+Everything here reads as a wiki at [coentrify.github.io/coentrify](https://coentrify.github.io/coentrify/).
+
 ## License
 
 MIT-0. Take what you need; there is no notice to carry.
