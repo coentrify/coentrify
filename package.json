@@ -8,7 +8,8 @@
   },
   "scripts": {
     "start:wiki": "vitepress dev",
-    "build:wiki": "vitepress build"
+    "build:wiki": "vitepress build",
+    "ci:wiki": "WIKI_BASE=/coentrify/ vitepress build"
   },
   "devDependencies": {
     "vitepress": "1.6.4"
