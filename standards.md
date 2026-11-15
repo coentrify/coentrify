@@ -16,6 +16,10 @@ The system learns. With every fix more is automated, and the project becomes mor
 
 Standards come in modules. A module holds the standards on one subject, such as Behavior, Docs or Tests. The [overview](standards/overview.md) lists every module and its standards.
 
+## Versions
+
+Coentrify has one version. The [changelog](changelog.md) names every standard that a version changed, so a project updates what moved and skips the rest.
+
 ## Template
 
 Every standard follows one template.

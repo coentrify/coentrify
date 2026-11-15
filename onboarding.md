@@ -67,8 +67,10 @@ With `coentrify make no mistakes` the agent asks nothing. The agent takes every 
 - Remove every link to a standard the project did not adopt.
 - Write the index.
 - Point the entry point at the index.
-- Write the lock file.
-- Set up the `docs` folder, and the wiki where chosen.
+- Write `coentrify.json`.
+- Write the decisions.
+- Set up the `docs` folder.
+- Create the wiki, where chosen.
 
 ### The Index
 
@@ -78,9 +80,17 @@ With `coentrify make no mistakes` the agent asks nothing. The agent takes every 
 
 The entry point is the file an agent reads when a session starts, such as `AGENTS.md` or `CLAUDE.md`. The entry point gets one line that points at the index, and holds no standards itself. A project without an entry point gets an `AGENTS.md`.
 
-### The Lock File
+### The Coentrify File
 
-`standards/coentrify.lock` records what was taken, and from which version. The [lock file](lock-file.md) page has the format.
+`coentrify.json` holds the choices, the version and the state of every standard ([coentrify.json](coentrify-json.md)).
+
+### The Decisions
+
+`standards/decisions.md` holds the reasoning behind the choices, in free form: why a standard was adopted or customized, and what to revisit later, such as a module to adopt once the project switches stack.
+
+### The Wiki
+
+The wiki serves the docs and the standards as pages, so the director can read everything in one place. VitePress is recommended, or a similar tool that builds a site from markdown.
 
 ## Report
 

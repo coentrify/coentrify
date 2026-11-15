@@ -29,9 +29,12 @@ Any question about what coentrify is. Explain from the [README](README.md), the 
 
 ## `coentrify update`
 
-Any request to bring the project up to date. Read the [lock file](lock-file.md), and compare every standard in it with the latest version.
+Any request to bring the project up to date. Read the version in the project's `coentrify.json`, and read the [changelog](changelog.md) from that version on.
 
-- Replace a tracked standard that changed at the source.
-- Report what changed for a drifted standard.
+- Read `standards/decisions.md` for the reasoning behind the earlier choices.
+- Skip every standard the changelog does not name.
+- Replace a tracked standard, and show the director a changed rule first.
+- Report the changes for a customized standard.
 - Report new standards worth considering.
-- Write the new version to the lock file.
+- Surface a new standard that has the same name as one of the project's own.
+- Write the new version to `coentrify.json`, and update the decisions.

@@ -67,7 +67,7 @@ Records also keep their value. A newer or better model can go back through the r
 
 ## Wiki
 
-- A wiki - recommended for every project that keeps docs
+- A wiki - recommended for every project that keeps docs, built with VitePress or a similar tool
 - No wiki - for a project too small to need one
 
 ## Folders

@@ -12,7 +12,8 @@ const ROOT_PAGE_ORDER: readonly string[] = [
   'how-it-works.md',
   'onboarding.md',
   'recommendations.md',
-  'lock-file.md',
+  'coentrify-json.md',
+  'changelog.md',
   'commands.md',
   'origin.md',
 ];

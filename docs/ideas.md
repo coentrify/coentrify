@@ -13,7 +13,3 @@ The idea is about running coentrify across several devices. The idea can grow in
 - The channel is a source of input for coentrify.
 
 The order: onboard one project, then more projects, then more devices.
-
-## A Changelog And Migrations Page
-
-`coentrify update` needs a root page that describes each version: what changed, and how a project migrates.
