@@ -93,3 +93,7 @@ Four legs, no spares.
 - A conflict between two rules is settled once, in the open.
 - A mistake becomes a rule or a check, so the same mistake happens once.
 - The director is free for judgment, taste and creation.
+
+## Will AI Replace You?
+
+The expected answer is no. The better answer is yes: you replace the parts of your own work that bore you. What stays is the part you wanted all along, to direct and to create.

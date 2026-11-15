@@ -25,7 +25,7 @@ coentrifying. making no mistakes.
 
 ## `coentrify explain`
 
-Any question about what coentrify is. Explain from the [README](README.md), the [philosophy](philosophy.md) and [how it works](how-it-works.md).
+Any question about what coentrify is. Explain from the [readme](readme.md), the [philosophy](philosophy.md) and [how it works](how-it-works.md).
 
 ## `coentrify update`
 

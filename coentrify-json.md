@@ -32,6 +32,9 @@ The onboarding writes `coentrify.json`, and the director changes it after.
 - `folders` - where the docs and the standards live
 - `workflow`, `records`, `wiki` - the choices from the onboarding
 - `modules` - every standard taken from coentrify, by module, with its state
+- `contributor` - left out by default. Set to `true`, the project may file changes at the source.
+
+A module whose standards come from somewhere else can carry a `source` of its own.
 
 ## States
 
