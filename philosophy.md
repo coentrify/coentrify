@@ -13,7 +13,7 @@ The four principles the system rests on.
 
 ## Specs & Checks
 
-What is wanted gets documented and specified first. What is built gets shown, and checked against what was written. Done means demonstrated.
+Specs & Checks is a claim paired with its proof. What is wanted gets documented and specified first. What is built gets shown, and checked against what was written. Done means demonstrated.
 
 - Write before building
 - Every case verified
@@ -53,7 +53,7 @@ The strongest guardrail is an example. An agent repeats what the agent reads, so
 
 A rule followed everywhere stops needing attention. The rule becomes a habit, and the habit becomes character.
 
-Strictness is a kindness: every removed choice removes a debate, and then a mistake. An agent wants to produce, and a guardrail makes the agent wait until the human knows what is wanted. A fence that lives in one head fades, so every fence is written down.
+Strictness is a kindness: every removed choice removes a debate, and then a mistake. An agent wants to produce, and a guardrail makes the agent wait until the director knows what is wanted. A fence that lives in one head fades, so every fence is written down.
 
 A rule can still be broken. A rule is called a rule because a suggestion was skipped too easily, so breaking the rule stays possible and gets harder. As agents grow, the strictness can fade. The strictness of a rule is a tension too, held in balance like every other.
 
@@ -62,10 +62,11 @@ A rule can still be broken. A rule is called a rule because a suggestion was ski
 - Written ways of working
 - Strict defaults
 - One obvious path per task
+- Sweeps that bring old work in line with a new rule
 
 ## The Pillars Together
 
-The four pillars work through each other.
+The four pillars work through each other. Together the pillars are distributed layers of harmonic tension that guide your project.
 
 Specs layered on docs can be verified against each other. The difference between the two layers is the tension and the harmony in one.
 
@@ -89,6 +90,4 @@ Four legs, no spares.
 - The project has one shared truth, and the checks keep that truth honest.
 - A conflict between two rules is settled once, in the open.
 - A mistake becomes a rule or a check, so the same mistake happens once.
-- The human is free for judgment, taste and creation.
-
-Distributed layers of harmonic tension that guide your project.
+- The director is free for judgment, taste and creation.
