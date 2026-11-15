@@ -4,7 +4,7 @@ import { join } from 'node:path';
 import type { DefaultTheme } from 'vitepress';
 
 const MARKDOWN_EXTENSION: string = '.md';
-const HOME_PAGE: string = 'README.md';
+const HOME_PAGE: string = 'readme.md';
 const ROOT_PAGE_ORDER: readonly string[] = [
   HOME_PAGE,
   'philosophy.md',
@@ -19,6 +19,14 @@ const ROOT_PAGE_ORDER: readonly string[] = [
 ];
 const FOLDER_PAGE_ORDER: readonly string[] = ['overview.md'];
 const TITLE_PATTERN: RegExp = /^# (.+)$/m;
+const FOLDER_TITLES: Readonly<Record<string, string>> = {
+  ai: 'AI',
+  e2e: 'E2E',
+  ui: 'UI',
+  typescript: 'TypeScript',
+};
+
+type RankedPage = { rank: number; text: string; link: string };
 
 function pageTitle(filePath: string, fallback: string): string {
   const match: RegExpMatchArray | null = readFileSync(filePath, 'utf8').match(TITLE_PATTERN);
@@ -26,6 +34,9 @@ function pageTitle(filePath: string, fallback: string): string {
 }
 
 function folderTitle(name: string): string {
+  if (FOLDER_TITLES[name]) {
+    return FOLDER_TITLES[name];
+  }
   return name
     .split('-')
     .map((word: string): string => word.charAt(0).toUpperCase() + word.slice(1))
@@ -57,17 +68,16 @@ function folderItems(
 
   const pages: DefaultTheme.SidebarItem[] = entries
     .filter((entry: Dirent): boolean => entry.isFile() && entry.name.endsWith(MARKDOWN_EXTENSION))
-    .sort(
-      (a: Dirent, b: Dirent): number =>
-        pageRank(a.name, order) - pageRank(b.name, order) || a.name.localeCompare(b.name),
-    )
-    .map((entry: Dirent): DefaultTheme.SidebarItem => {
+    .map((entry: Dirent): RankedPage => {
       const relativePath: string = join(relativeFolder, entry.name);
       return {
+        rank: pageRank(entry.name, order),
         text: pageTitle(join(root, relativePath), entry.name),
         link: pageLink(relativePath),
       };
-    });
+    })
+    .sort((a: RankedPage, b: RankedPage): number => a.rank - b.rank || a.text.localeCompare(b.text))
+    .map(({ text, link }: RankedPage): DefaultTheme.SidebarItem => ({ text, link }));
 
   const groups: DefaultTheme.SidebarItem[] = entries
     .filter((entry: Dirent): boolean => entry.isDirectory())
