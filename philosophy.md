@@ -15,6 +15,8 @@ The four principles the system rests on.
 
 Specs & Checks is a claim paired with its proof. What is wanted gets documented and specified first. What is built gets shown, and checked against what was written. Done means demonstrated.
 
+The writing lives with the work. The docs sit beside the code, and the standards sit beside the project. A wiki shows all of it as one readable whole.
+
 - Write before building
 - Every case verified
 - Demos over status reports
