@@ -36,6 +36,7 @@ Normal Dashes and Prose Style are taste. Coentrify recommends both, because docs
 
 - Gamedev - a game, where the director picks the game design laws that apply
 - Reporting - a project whose director wants reports and reels
+- Commits - how work is committed and gated. The module is strongly opinionated, so the director decides which of its standards to adopt
 
 ## Workflow
 
@@ -52,10 +53,10 @@ Tracking the work is part of coentrify, and a workflow is strongly recommended.
 
 A record is a dated trail, written as things happen. An agent starts every session without the last one, so records are how a project remembers.
 
-- Request log - everything the director asks, a page per day, so nothing that was asked gets lost
-- Activity log - the work that was done, a page per day that opens like a standup, so the director catches up at a glance
-- Changelog - a page per version, so everyone sees what landed
-- Playtests - a page per playtest of a game, so feedback turns into work
+- [Request log](standards/records/request-log.md) - everything the director asks, a page per day, so nothing that was asked gets lost
+- [Activity log](standards/records/activity-log.md) - the work that was done, a page per day that opens like a standup, so the director catches up at a glance
+- [Changelog](standards/records/changelog-per-version.md) - a page per version, so everyone sees what landed
+- [Playtests](standards/records/playtest-files.md) - a page per playtest of a game, so feedback turns into work
 - User tests - the same for a product, a page per session with real users
 
 Which records to keep depends on the project.

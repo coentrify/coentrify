@@ -11,6 +11,6 @@ The scripts and hooks that enforce a standard, for a project to copy.
 
 ## Hooks
 
-- `hooks/gate-commit-on-exit-codes.py` - refuses a commit that does not hang on its check ([Gate Commits on Exit Codes](../standards/behavior/gate-commits-on-exit-codes.md))
+- `hooks/gate-commit-on-exit-codes.py` - refuses a commit that does not hang on its check ([Gate Commits on Exit Codes](../standards/commits/gate-commits-on-exit-codes.md))
 - `hooks/reload-read-first.sh` - prints the Read First standards after a compaction ([Reload The Standards After Compacting](../standards/behavior/reload-the-standards-after-compacting.md))
 - `hooks/refuse-wrap-up-questions.sh` - refuses answer buttons at the end of a turn ([Free Text Replies, No Buttons](../standards/behavior/free-text-replies-no-buttons.md))
