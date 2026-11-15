@@ -13,21 +13,25 @@ The four principles the system rests on.
 
 ## Specs & Checks
 
-A specification answers one question: what do you want? A check answers the next: is this what you said you wanted? Both questions hold for a painting or a book as much as for software. Done means demonstrated.
+What is wanted gets documented and specified first. What is built gets shown, and checked against what was written. Done means demonstrated.
 
 - Write before building
-- Functional docs apart from technical docs
 - Every case verified
 - Demos over status reports
 - Knowledge filed where it belongs
 
 ## Layering
 
-Everything has a place, every piece is small, and every layer comes in order. Layers run in three directions: across responsibilities, down from an overview to a detail, and forward through time. A small piece can be read, verified and replaced.
+Layering is structure in small, dedicated pieces. Layering starts from single responsibility: one piece, one job. A small piece is easier to check and harder to get wrong, and a small piece gives focus.
+
+Every layer rests on the layer below, and is made solid before the next layer goes on top. The same shape repeats at every scale, from a whole project down to a single page.
+
+Two layers can be held against each other. A gap between the two shows what is missing.
 
 - One purpose per file
 - One step per change
 - Prerequisites before features
+- Layers checked against each other
 - Converge only once proven
 
 ## Harmony
@@ -58,6 +62,16 @@ A rule can still be broken. A rule is called a rule because a suggestion was ski
 - Written ways of working
 - Strict defaults
 - One obvious path per task
+
+## The Pillars Together
+
+The four pillars work through each other.
+
+Specs layered on docs can be verified against each other. The difference between the two layers is the tension and the harmony in one.
+
+- Layering gives Specs & Checks small pieces to check.
+- Harmony keeps Shepherding kind, because the strictness of a rule is a tension too.
+- Shepherding holds the other three in place.
 
 ## The Chair Test
 

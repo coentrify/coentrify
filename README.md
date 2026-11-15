@@ -4,19 +4,15 @@ Humans direct. Systems check. Agents work.
 
 ## Quick Start
 
-Prompt your agent with:
+To coentrify a project is to align the project with spec-driven development.
+
+Prompt your agent to start the [onboarding](onboarding.md):
 
 ```
 coentrify
 ```
 
-## Coentrify
-
-If you are an agent and your user prompted you with `coentrify`, start with the [onboarding](docs/onboarding.md).
-
-If you are a human and you want to know more, welcome. Coentrify is built to be read by agents. Prompt your agent with `coentrify` to start the onboarding.
-
-To coentrify a project is to align the project with spec-driven development.
+See all [commands](commands.md).
 
 ## The Problem With Vibe Coding
 
@@ -34,27 +30,15 @@ Spec-driven development (SDD) starts with one question:
 
 > What is it, exactly, that you want?
 
-You create layered documentation. Overview and feature docs first. Then use cases and specs. Then tests and code.
+What you want is written down in layers. Overview and feature docs come first, then use cases and specs, then tests and code. Every layer is checked against the layer before, and a gap between two layers shows what is missing.
 
 Humans are creative, agents are hardworking, and systems are rigid. So humans decide what the product does, agents do the work, and systems run the checks.
 
 ## Elements
 
-- [Philosophy](docs/philosophy.md) - The Why
-- [Standards](docs/standards.md) - The What
-- [Way Of Working](docs/way-of-working.md) - The How And When
-
-### Philosophy
-
-The pillars every standard is built on. Where no standard applies, the pillars decide.
-
-### Standards
-
-The rules, conventions and templates a project adopts where it needs them.
-
-### Way Of Working
-
-The roadmap, the plan, and the path each request takes to its proof.
+- [Philosophy](philosophy.md) - The ideas and concepts the system is based on, a compass.
+- [Standards](standards.md) - The rules and templates a project adopts.
+- [How It Works](how-it-works.md) - From any input to what you want.
 
 ## Onboarding
 
@@ -62,15 +46,7 @@ The onboarding explains coentrify to the user and sets up the project.
 
 Adopt the defaults, pick what to use, and customize to fit the project.
 
-[Onboarding](docs/onboarding.md)
-
-## Why Coentrify
-
-Coentrify comes from Coen, the author, and his habit of structuring and organizing everything, seemingly to excess. His brother coined the verb as a lighthearted joke, with judgment for the excess and respect for the results.
-
-The verb stayed because one word does the job. `coentrify` is easy to type and easy to remember. No other project uses the word, so an agent that searches for `coentrify` lands here.
-
-The intention is one word that both names the goal and starts the work. Coentrified should mean a well-organized, structured and harmonious codebase.
+[Onboarding](onboarding.md)
 
 ## License
 
