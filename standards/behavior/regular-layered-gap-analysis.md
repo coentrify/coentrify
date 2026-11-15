@@ -10,7 +10,7 @@ Each layer rests on the one above it. A gap - a feature with no spec, a spec cas
 
 - Documentation depth: workspace -> app -> feature. Confirm each level describes the same reality.
 - Build pipeline: functional doc -> spec -> e2e test -> implementation. Confirm each step lines up with the ones before and after it - every feature specced, every spec case tested, every test reflecting real behavior, nothing shipped undocumented.
-- Rules against the system: the memories, conventions, and documented standards versus the actual codebase. Re-check that the code still meets them, and that a newly added or strengthened rule has been swept across everything that predates it.
+- Rules against the system: the standards and conventions versus the actual codebase. Re-check that the code still meets them, and that a newly added or strengthened rule has been swept across everything that predates it.
 - Walk each dimension in both directions and file the gaps as issues.
 
 ## Related

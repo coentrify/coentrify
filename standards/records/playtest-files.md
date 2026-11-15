@@ -8,7 +8,7 @@ Kept apart from the changelog, which says what was built, the playtest file reco
 
 ## The File
 
-- The H1 carries the number and the DEV day, the way the log's does: `# Playtest 46 - DEV day 13`, so the wiki's menu shows it. The head repeats the day (`- Day: DEV day 13`), counted as in the log ([Request Log](../records/request-log.md)).
+- The H1 carries the number and the DEV day, the way the log's does: `# Playtest 46 - DEV day 13`, so the wiki's menu shows it. The head repeats the day (`- Day: DEV day 13`), counted as in the log ([Request Log](request-log.md)).
 - A playtest on an untagged build names the version in progress.
 - The summary is two or three lines naming the themes; the items stay in the list.
 
@@ -32,4 +32,4 @@ Kept apart from the changelog, which says what was built, the playtest file reco
 ## Related
 
 - [Changelog Per Version](changelog-per-version.md)
-- [Gamedev Working Cadence](gamedev-working-cadence.md)
+- [Gamedev Working Cadence](../gamedev/gamedev-working-cadence.md)

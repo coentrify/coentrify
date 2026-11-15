@@ -2,7 +2,7 @@
 
 A knowledge page (feature docs, specs, design pages, laws, architecture, overview, development) stands on its own and states what is true, the way an encyclopedia does: no attribution markers, no dates of decisions, no quoted sentences of the director's, no account of how a decision came about or what it replaced.
 
-The provenance lives in the request log, where every message is written first, and in the process records that point back to it: playtests, changelogs, activity, the plan, the refine list, agent ideas. Those may name who said what and when.
+The provenance lives in the request log, where every message is written first, and in the process records that point back to it: user tests, changelogs, activity, the plan, the refine list, agent ideas. Those may name who said what and when.
 
 ## Why
 
@@ -20,4 +20,4 @@ A page full of log statements reads as a history and buries the functional descr
 
 - [Documentation Philosophy](documentation-philosophy.md)
 - [Request Log](../records/request-log.md)
-- [Agent Roles](../behavior/agent-roles.md)
+- [Agent Roles](../tickets-workflow/agent-roles.md)

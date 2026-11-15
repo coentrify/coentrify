@@ -20,6 +20,6 @@ The index is shared with everything else in the tree. A batched `git add a b c` 
 
 ## Related
 
-- [Review Changes Before Reporting Done](review-changes-before-reporting-done.md)
+- [Review Changes Before Reporting Done](../behavior/review-changes-before-reporting-done.md)
 - [Gate Commits on Exit Codes](gate-commits-on-exit-codes.md)
 - [Commits](commits.md)

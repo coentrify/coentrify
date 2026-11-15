@@ -1,6 +1,6 @@
 # Ticket Template
 
-A ticket is one file, the single source of truth for one piece of work. This memory holds its shape; how to fill it is in [Writing A Ticket](writing-a-ticket.md), and the tracking around it in [Work Tracking](work-tracking.md).
+A ticket is one file, the single source of truth for one piece of work. This standard holds its shape; how to fill it is in [Writing A Ticket](writing-a-ticket.md), and the tracking around it in [Work Tracking](work-tracking.md).
 
 ## The Template
 

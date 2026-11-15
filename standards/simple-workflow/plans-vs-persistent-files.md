@@ -8,7 +8,7 @@ Hold what's being done right now: status, ordered tasks, blockers, scope-of-effo
 
 ## Persistent
 
-Hold knowledge, conventions, functionality, and reference. They evolve but never get "completed". Single responsibility per file: one purpose, one shape. Examples: memory files, skills, architecture docs, library feedback docs.
+Hold knowledge, conventions, functionality, and reference. They evolve but never get "completed". Single responsibility per file: one purpose, one shape. Examples: standards, skills, architecture docs, library feedback docs.
 
 ## Why
 
@@ -18,7 +18,7 @@ Mixing rots both. Plans accumulate convention sections that drift out of sync wi
 
 When writing, ask: is this *how* something works (or should), or *what* we're doing right now?
 
-- *How* -> persistent (memory file, skill, doc).
+- *How* -> persistent (standard, skill, doc).
 - *What* -> plan.
 
 When reviewing a plan, extract any "always X" / "never Y" text to a persistent home and replace with a one-line pointer; keep status tables and ordered tasks in the plan. When reviewing a persistent file, strip any time-bound status into the relevant plan.

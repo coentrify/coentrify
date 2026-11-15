@@ -13,4 +13,4 @@ The fix keeps the transition and limits it to the moments the user toggled the s
 
 ## Related
 
-- [UI Component Design](ui-component-design.md)
+- [UI Component Design](../ui/ui-component-design.md)

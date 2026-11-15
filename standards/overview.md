@@ -26,6 +26,7 @@ Every module has an overview of its own standards.
 - [Architecture](architecture/overview.md) - patterns that cut across a codebase
 - [Behavior](behavior/overview.md) - how an agent works and what an agent checks
 - [Code](code/overview.md) - rules that hold in any language
+- [Commits](commits/overview.md) - how work is committed
 - [Docs](docs/overview.md) - documentation rules and templates
 - [E2E](e2e/overview.md) - end-to-end tests
 - [Electron](electron/overview.md) - the Electron shell
@@ -40,3 +41,4 @@ Every module has an overview of its own standards.
 - [Tooling](tooling/overview.md) - development tools
 - [TypeScript](typescript/overview.md) - rules for TypeScript
 - [UI](ui/overview.md) - components and styling
+- [Web](web/overview.md) - rules for HTML and CSS

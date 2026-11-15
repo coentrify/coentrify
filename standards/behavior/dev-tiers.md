@@ -4,12 +4,12 @@ Pick work in a fixed order, higher tiers first: CI/CD and build, then bugs, then
 
 ## Why
 
-Adding features on top of a red build or known bugs compounds the mess, and bugs are no fun for the player.
+Adding features on top of a red build or known bugs compounds the mess, and bugs are no fun for the user.
 
 ## How to apply
 
 - Before starting a feature, check the build, the bug tickets and the debt tickets; work the highest non-empty tier first.
-- Only bugs that hurt the current phase's goal take the bug tier: in Pre-Alpha, a bug in a gameplay mechanic or one that stops the game from being played from start to finish. Every other bug is filed for a later phase, under the epic it belongs to there ([Work Tracking](../tickets-workflow/work-tracking.md#phases)).
+- Only bugs that hurt the current phase's goal take the bug tier: early on, a bug in a core feature or one that stops the product from being used from start to finish. Every other bug is filed for a later phase, under the epic it belongs to there ([Work Tracking](../tickets-workflow/work-tracking.md#phases)).
 - Only debt that hurts the current phase's goal takes the debt tier: it slows the current work, causes a bug, or blocks a check. Every other debt is noted all the same and filed for a later phase, where a ticket that touches its code often resolves it on the way.
 - Debt in code that will not reach the product, a prototype or a throwaway probe, is never scheduled ahead of the work that decides whether the code stays.
 - A fun glitch may be kept on purpose; then it is documented as a feature, not left as a bug.

@@ -43,7 +43,7 @@ Example:
 
 - An action states the user's intent: what they are trying to do and, where it helps, what for. "The user submits the details to get into the records", not "clicks the login button" and not "triggers the login" - a reworded gesture is still a gesture.
 - Each layer toward the code gets more technical: the feature doc states a capability ("the user can save a draft"), the spec states the intent per step ("saves the draft to finish it later"), the e2e does the gestures ("fill the form, press save").
-- Never implementation verbs: tap, click, type, drag, swipe, press, hover, unless the gesture is the gameplay itself.
+- Never implementation verbs: tap, click, type, drag, swipe, press, hover, unless the gesture is the feature itself.
 - One user intent per step.
 
 ### Confirms

@@ -17,7 +17,7 @@ ever entering the context.
   so the result lands in a file; extract it with a regex on the base64
   alphabet and decode with node.
 - Pixel art captures at native size, then nearest-neighbor upscaled with
-  ffmpeg (`scale=W:H:flags=neighbor`), flattened onto the game's ground
+  ffmpeg (`scale=W:H:flags=neighbor`), flattened onto the app's ground
   color when the canvas is transparent.
 - Review every capture with the image reader before it lands on a page
   ([Review Every Capture Before Reporting](../behavior/review-every-capture-before-reporting.md)).

@@ -15,7 +15,7 @@ Color, padding, spacing, and alignment drift is invisible to type checks, lint, 
 
 ## Related
 
-- [Always Verify Before Reporting Done](always-verify-before-reporting-done.md)
-- [Review Changes Before Reporting Done](review-changes-before-reporting-done.md)
-- [Always Use Design Tokens for Colors](../ui/always-use-design-tokens-for-colors.md)
-- [Note Issues](note-issues.md)
+- [Always Verify Before Reporting Done](../behavior/always-verify-before-reporting-done.md)
+- [Review Changes Before Reporting Done](../behavior/review-changes-before-reporting-done.md)
+- [Always Use Design Tokens for Colors](../web/always-use-design-tokens-for-colors.md)
+- [Note Issues](../behavior/note-issues.md)

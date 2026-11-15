@@ -19,4 +19,4 @@ A green test that doesn't show the feature working is a worse signal than a red 
 A bug or behavior gap that surfaces while the tests are green means the suite has a gap too:
 
 - Write a test case for the failing behavior and file the bug ticket per [Note Issues](../behavior/note-issues.md).
-- The case becomes the bug's reproducing test and lands with the fix; it is never marked to fail or skipped on main ([Main Stays Green, Work Stays Clean](../behavior/main-stays-green-work-stays-clean.md)).
+- The case becomes the bug's reproducing test and lands with the fix; it is never marked to fail or skipped on main ([Main Stays Green, Work Stays Clean](../commits/main-stays-green-work-stays-clean.md)).

@@ -18,7 +18,7 @@ Answers "what's next?" at a glance. Active surfaces the current focus; Prioritie
 ## Item shape
 
 - Every item name makes three things clear at a glance: the type of work, the topic, and the direction of the issue or outcome. That is the level of awareness a top-level list needs; each type of work reads slightly differently:
-  - A feature epic is a goal from the user's perspective: `Start a new game`, `Buy your first producer`. It says it is a feature, names the topic and hints at the outcome (you can start a new game). A feature is the state left after its epics have run their course, so an item is an epic, never a bare feature name.
+  - A feature epic is a goal from the user's perspective: `Create an account`, `Place your first order`. It says it is a feature, names the topic and hints at the outcome (you can create an account). A feature is the state left after its epics have run their course, so an item is an epic, never a bare feature name.
   - An addition leads with its verb: `Add Contact Search`.
   - A fix leads with `Fix`: `Fix Auth Session Redirect` says it is a bug, names the topic and hints at what goes wrong.
   - An investigation leads with `Investigate`: `Investigate Multi-Role Editing`, for work that starts with understanding the problem before a solution is picked.
@@ -42,7 +42,7 @@ Answers "what's next?" at a glance. Active surfaces the current focus; Prioritie
 
 ## The Todo Beside It
 
-Beside the roadmap a `docs/todo.md` lists the biggish gameplay
+Beside the roadmap a `docs/todo.md` lists the biggish
 features and tasks decided to build but not in the plan yet, still to
 be workshopped; Nice To Have keeps what can wait until after the release
 (1.1 features); undecided ideas stay on the concepts page. Before asking the director whether an unbuilt item is still wanted,

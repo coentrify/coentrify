@@ -28,7 +28,7 @@ The director tests by hand between versions; work without a version has no name 
 - The version closes with the suites green and the version tagged. Green includes the whole pre-push hook (`npm run hooks:pre-push`: production build, bundle check, styleguide, wiki build, hygiene, types, unit, the stories in a browser) by its exit code, run before the tag and never left for the director's push.
 - The full browser suite runs as two halves when it outlasts the background cap ([Playwright Parallel Runs](../tooling/playwright-parallel-runs.md)).
 - Nothing lands between the full suites and the tag without its touched suite run again.
-- The next version is bumped and its changelog page opened only when its first item lands ([Changelog Per Version](changelog-per-version.md)).
+- The next version is bumped and its changelog page opened only when its first item lands ([Changelog Per Version](../records/changelog-per-version.md)).
 
 ## Wind-Down
 
@@ -42,9 +42,9 @@ The director tests by hand between versions; work without a version has no name 
 
 ## Related
 
-- [The Conductor](../behavior/the-conductor.md)
-- [Agent Roles](../behavior/agent-roles.md)
+- [The Conductor](../tickets-workflow/the-conductor.md)
+- [Agent Roles](../tickets-workflow/agent-roles.md)
 - [Game Work Workflow](game-work-workflow.md)
 - [Request Log](../records/request-log.md)
-- [Playtest Files](playtest-files.md)
+- [Playtest Files](../records/playtest-files.md)
 - [Decide, Don't Wait](../behavior/decide-dont-wait.md)

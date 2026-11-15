@@ -15,6 +15,6 @@ The deprecated APIs draw review comments, carry the old `CommonModule` import we
 
 ## Related
 
-- [Always Use Design Tokens for Colors](../ui/always-use-design-tokens-for-colors.md)
+- [Always Use Design Tokens for Colors](../web/always-use-design-tokens-for-colors.md)
 - [Pre-empt Recurring Code-Review Nits](../code/pre-empt-recurring-code-review-nits.md)
 - [Don't Introduce Tech Debt](../behavior/dont-introduce-tech-debt.md)

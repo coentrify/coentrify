@@ -2,7 +2,7 @@
 
 Every piece of work takes one path: the director's words are logged, turned into tickets and refined until ready, given a go, built from the plan, checked against the Definition of Done, archived and accepted. The director's time goes to the creative side, steering, deciding and testing the product; everything between the director's words and a landed, provable change is the agents' job. Refinement should feel like play: its chores are automated step by step, by code where code can decide and by an agent's judgment where it cannot.
 
-This policy is strict on purpose. It starts as a best guess and tightens itself: see Tightening at the end. The ticket's shape is in [Work Tracking](work-tracking.md), the agents' roles in [Agent Roles](../behavior/agent-roles.md), the main session's in [The Conductor](../behavior/the-conductor.md), and what changes for a game in [Game Work Workflow](../gamedev/game-work-workflow.md).
+This policy is strict on purpose. It starts as a best guess and tightens itself: see Tightening at the end. The ticket's shape is in [Work Tracking](work-tracking.md), the agents' roles in [Agent Roles](agent-roles.md), the main session's in [The Conductor](the-conductor.md), and what changes for a game in [Game Work Workflow](../gamedev/game-work-workflow.md).
 
 ## Intake
 
@@ -14,7 +14,7 @@ Every message from the director runs through these steps before any work on it s
 - Turn each unit of work into a ticket that meets the Definition of Ready, or a bare line when it needs no explanation. The ticket holds the director's words parsed, never extended ([Docs Hold Only What the Director Decided](../behavior/docs-hold-only-what-the-director-decided.md)). A unit that cannot be made ready yet becomes a ticket all the same, with its question.
 - A new epic gets its phase ([Work Tracking](work-tracking.md#phases)); work that does not serve the current phase's goal is filed for its own phase.
 - Schedule it where the director named. Without a name: a bug or debt that hurts the current phase's goal goes on the planning page, and any other waits in its epic in a later phase ([Dev Tiers](../behavior/dev-tiers.md)); something new while a version stabilizes goes into its epic ([Stabilize Before Adding](../gamedev/stabilize-before-adding.md)); "for later", "after the release" and "feedback for now" land in their epic and phase, built later and never parked; anything else lands in its epic and phase, a new epic in its phase where none fits, and the report says so.
-- Report: a line per ticket created, its id, its context and a title of a few words ([The Conductor](../behavior/the-conductor.md#what-it-says)); the agent's own decisions stand in the ticket's Veto section.
+- Report: a line per ticket created, its id, its context and a title of a few words ([The Conductor](the-conductor.md#what-it-says)); the agent's own decisions stand in the ticket's Veto section.
 
 ### Classifying A Unit
 
@@ -23,7 +23,7 @@ Every message from the director runs through these steps before any work on it s
 - A question for the director goes into the ticket it is about, under Question, which puts the ticket on the refine list.
 - An answer to an open question is logged, moved into the docs it decides, and the question dropped.
 - Feedback from someone outside the project waits for the director's review before it becomes work.
-- An instruction about how to work goes to the project's docs, or into a memory ticket once the director says it holds everywhere (Memory Changes Go Through A Ticket).
+- An instruction about how to work goes to the project's docs, or into the project's standards once the director says it holds everywhere.
 
 ## The Go
 
@@ -82,7 +82,7 @@ The director steers, decides and accepts; the agents groom.
 - Once its builder meets the Definition of Done, a ticket lands on main with its Done part. Its story reaches the accept list once every ticket in it has landed, a ticket outside a story at once. The director accepts a story, never a ticket of one: on main, by using it through from its page with the Done parts beside it, and never checks out a branch. The story's builder and branch are kept until the verdict.
 - A debt ticket never waits on the accept list: the workspace's own code and tooling cannot be checked by using the product, so a verdict adds a step and no check. A debt that changes what the user sees or hears is a feature or a bug by its nature and keeps the list.
 - Every verdict archives the ticket and deletes its branch; an accepted story archives every ticket in it and ends its builder. The director writes findings in the chat as they come, and the conductor sorts them into new tickets in the story, each with `priority: high` and a `rework` field. Once done with findings, the director gives the story's go, which starts the rework. The story returns to the accept list once it lands, and the cycle repeats until the story is accepted. A landed ticket is never reopened.
-- Work that comes back a second time gets an investigation into why its refinement missed: a spike, or a memory ticket when the cause is the workflow.
+- Work that comes back a second time gets an investigation into why its refinement missed: a spike, or a change to the standards when the cause is the workflow.
 - The director's work comes down to three inboxes: the refine, the planning and the accept lists. Their order runs right to left, finishing before starting: accept what landed, then plan enough work to keep the builders working, and only then refine and brainstorm. A session to braindump or prototype has a normal priority.
 
 ## Spikes, Workshops And Experiments
@@ -97,4 +97,4 @@ Sometimes the right first step is to find out or to try something. That is fine,
 
 ## Tightening
 
-This policy is a starting point. Every deviation that happens anyway is a gap in it, never a one-off: fix the work, then ask first whether it is easy enough to get wrong for a check to catch it, and put the rule change in as a memory ticket (Memory Changes Go Through A Ticket, [Always Make No Mistakes](../behavior/always-make-no-mistakes.md)). A rule that only adds friction and catches nothing is loosened, with the director's yes. A Veto line that keeps coming back is a pattern and becomes a rule, so the Veto empties over time. The aim is to automate every step that needs no human, once it runs right by hand.
+This policy is a starting point. Every deviation that happens anyway is a gap in it, never a one-off: fix the work, then ask first whether it is easy enough to get wrong for a check to catch it, and put the rule change into the project's standards ([Always Make No Mistakes](../behavior/always-make-no-mistakes.md)). A rule that only adds friction and catches nothing is loosened, with the director's yes. A Veto line that keeps coming back is a pattern and becomes a rule, so the Veto empties over time. The aim is to automate every step that needs no human, once it runs right by hand.

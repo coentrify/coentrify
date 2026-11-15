@@ -15,7 +15,7 @@ Constant implicit references and long bullets of several sentences are very hard
 - The look of the thing goes under an `## <Thing> Aesthetics` heading, in prose.
 - A section with subsections opens with a short list of them as in-page links before its own text.
 - A page holds only what relates to its own thing and its state; a fact that is always true, or that belongs to another thing, lives on that thing's page.
-- An overview summarizes functionally at its own level of awareness: what a thing means to the player there, never details or technical description; stages nest by their grouping, never one flat list across groups.
+- An overview summarizes functionally at its own level of awareness: what a thing means to the user there, never details or technical description; stages nest by their grouping, never one flat list across groups.
 
 ## Folders
 

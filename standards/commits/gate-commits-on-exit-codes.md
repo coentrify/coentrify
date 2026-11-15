@@ -16,6 +16,6 @@ A pipe returns the exit code of its last command, so `build | grep ERROR && git 
 
 ## Related
 
-- [Always Verify Before Reporting Done](always-verify-before-reporting-done.md)
+- [Always Verify Before Reporting Done](../behavior/always-verify-before-reporting-done.md)
 - [Verify Staging Before Committing](verify-staging-before-committing.md)
 - [Angular Build Checks The Templates](../angular/angular-build-checks-the-templates.md)

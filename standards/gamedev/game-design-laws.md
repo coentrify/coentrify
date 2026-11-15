@@ -1,6 +1,6 @@
 # Game Design Laws
 
-Laws are short rules that hold unless there is a very good reason to break one. The generic set lives in memory, in four parts by theme, and this memory is its index. A game's own laws and overrides stand in the game's docs.
+Laws are short rules that hold unless there is a very good reason to break one. The generic set lives in the standards, in four parts by theme, and this standard is its index. A game's own laws and overrides stand in the game's docs.
 
 ## The Set
 

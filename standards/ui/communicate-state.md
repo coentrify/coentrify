@@ -10,7 +10,7 @@ Visibility of system status is the first usability heuristic: the system keeps t
 
 - Model async data as explicit states (loading / loaded / empty / error) instead of a single value with an empty fallback. Each gets its own affordance: skeleton or spinner, empty state, error callout, success toast.
 - Disabled or locked controls signal why they are inert.
-- Use an existing design-system component for the feedback (callout, toast, empty state) per [UI Components First](../behavior/ui-components-first.md).
+- Use an existing design-system component for the feedback (callout, toast, empty state) per [UI Components First](ui-components-first.md).
 
 ## Related
 

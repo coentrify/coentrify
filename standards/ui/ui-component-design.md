@@ -26,7 +26,7 @@ When projection genuinely can't model the variation (a boolean that only changes
 
 Component CSS follows strict BEM: `block`, `block__element`, `block--modifier`, `block__element--modifier`. Each component owns only its own block: never reach into another component's BEM tree, style descendants by tag or let selectors cascade across components.
 
-A feature's style applies to the feature alone: HUD elements outside it, a music player or an action bar, keep their own look.
+A feature's style applies to the feature alone: elements outside it, a media player or an action bar, keep their own look.
 
 ## Related
 

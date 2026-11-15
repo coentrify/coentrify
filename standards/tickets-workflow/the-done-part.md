@@ -10,7 +10,7 @@ The builder writes the Done part into a ticket in its landing commit: a bulleted
 - Veto: each choice the build made that the ticket did not and the director could want undone, in a few words; a departure from a criterion is a Veto line. Placement, wording that follows the page and bookkeeping are no decisions.
 - Code details stay in the commit messages.
 - A spike's Proof holds its findings, a line per criterion with how it was checked.
-- Commits are never listed in a ticket: every commit made for it starts with its id ([Commits](../behavior/commits.md#ticket-prefix)), so `git log --grep FEAT-214` finds them.
+- Commits are never listed in a ticket: every commit made for it starts with its id ([Commits](../commits/commits.md#ticket-prefix)), so `git log --grep FEAT-214` finds them.
 
 ## Related
 

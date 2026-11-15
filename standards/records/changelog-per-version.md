@@ -22,6 +22,6 @@ The changelog is the list the director plays a version against: which tickets la
 ## Related
 
 - [Work Tracking](../tickets-workflow/work-tracking.md)
-- [Captures And Reels](captures-and-reels.md)
+- [Captures And Reels](../gamedev/captures-and-reels.md)
 - [Playtest Files](playtest-files.md)
 - [Change Report](../reporting/change-report.md)

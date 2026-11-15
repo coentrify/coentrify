@@ -27,7 +27,7 @@ the file's job, it lives in another file.
 
 Don't open a doc with a paragraph explaining what the doc is for or
 how to read it ("Known bugs in the current build. Each entry links
-to..."). That kind of rule lives in the template/memory for the doc
+to..."). That kind of rule lives in the template or standard for the doc
 type. The doc itself jumps straight to content - readers know what
 `bugs.md` is from the filename and the H1.
 

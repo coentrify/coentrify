@@ -19,7 +19,7 @@ Drop sections that don't apply. Screenshots over prose; videos only when the poi
 
 ## Deliverable
 
-Where a project keeps a changelog per version, that page is the record and this report is not written ([Changelog Per Version](../gamedev/changelog-per-version.md)). Elsewhere the report is a page in the docs wiki, kept so the team can always go back and see what changed: a per-target changelog with a curated newest-first index, entry pages dated and slugged, screenshots stored alongside. The mechanics for this workspace (VitePress paths, asset folder, index format) live in the project skill `changelog-report` and its `TEMPLATE.md` / `EXAMPLE.md`, not here.
+Where a project keeps a changelog per version, that page is the record and this report is not written ([Changelog Per Version](../records/changelog-per-version.md)). Elsewhere the report is a page in the docs wiki, kept so the team can always go back and see what changed: a per-target changelog with a curated newest-first index, entry pages dated and slugged, screenshots stored alongside. The mechanics for this workspace (VitePress paths, asset folder, index format) live in the project skill `changelog-report` and its `TEMPLATE.md` / `EXAMPLE.md`, not here.
 
 ## Why
 
@@ -28,7 +28,7 @@ A commit message says what changed; a change report proves it and shows the spre
 ## How to apply
 
 - Reach for this when picking an item off a bugs list, recording a finding, or finishing a feature.
-- Only product changes are entries: what the user of the app or game sees or does differently. Changes to the wiki, the capture and reel scripts, lint or hooks are not changelog entries; their commit is the record.
+- Only product changes are entries: what the user of the product sees or does differently. Changes to the wiki, the capture and reel scripts, lint or hooks are not changelog entries; their commit is the record.
 - Run the enumerate-first sweep before declaring the pattern closed.
 - Capture proof and verify before reporting; never soften a state in the proof.
 

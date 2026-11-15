@@ -17,5 +17,5 @@ Custom UI scattered across the app diverges from the design system, bypasses the
 - [No Inline Templates](../angular/no-inline-templates.md)
 - [One Component per Folder, Flat](../angular/one-component-per-folder-flat.md)
 - [Prefer Content Projection over Props (Angular)](../angular/prefer-content-projection-over-props-angular.md)
-- [UI Component Design](../ui/ui-component-design.md)
-- [UI Variants By Function, Not By Color](../ui/ui-variants-by-function-not-by-color.md)
+- [UI Component Design](ui-component-design.md)
+- [UI Variants By Function, Not By Color](ui-variants-by-function-not-by-color.md)

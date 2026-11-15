@@ -9,7 +9,7 @@ The keychain is the user's private credential store; probing it is an intrusion 
 ## How to apply
 
 - When a task needs a secret (credentials, tokens, API keys), ask the user for it or look in project-scoped config the user points to - never the keychain.
-- Store shareable, low-sensitivity references in the repo (docs), not in memory - they are repo-specific.
+- Store shareable, low-sensitivity references in the repo (docs), not in the standards - they are repo-specific.
 - Also avoid the adjacent forbidden reads already denied in settings (`.env*`).
 
 ## Related

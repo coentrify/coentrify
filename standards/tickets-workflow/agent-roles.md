@@ -1,6 +1,6 @@
 # Agent Roles
 
-In project work the main session is the conductor: it takes in everything the director says, keeps the lists moving and runs the other agents. The other roles are the builder, the docs agent and the scout. Agents go by their role; a name for an agent never enters the docs or the memory.
+In project work the main session is the conductor: it takes in everything the director says, keeps the lists moving and runs the other agents. The other roles are the builder, the docs agent and the scout. Agents go by their role; a name for an agent never enters the docs or the standards.
 
 ## Why
 
@@ -12,7 +12,7 @@ When the main session builds things itself while agents run, the director's mess
 
 ## The Builder
 
-- Its own pages are [Building A Ticket](../tickets-workflow/building-a-ticket.md) and [The Done Part](../tickets-workflow/the-done-part.md).
+- Its own pages are [Building A Ticket](building-a-ticket.md) and [The Done Part](the-done-part.md).
 - Builds one story in a worktree of its own: the story's tickets in order, one in flight, a commit per ticket.
 - Stays until the story's verdict: it works the director's findings in as they come back as tickets, and ends once the story is accepted.
 - Never carries on into a next story and is never compacted: a next story gets a fresh builder, since the code, the docs and the Done parts hold what it needs.
@@ -22,7 +22,7 @@ When the main session builds things itself while agents run, the director's mess
 - Never waits for the conductor's merge: it cuts each next ticket from its last landed branch, keeps going and reports every landing; the conductor merges the stack in order.
 - Never merges into main itself.
 - Writes its Done part in its landing commit, as the Definition of Done lists; the lists and the changelog follow by themselves.
-- A builder on debt takes debt that was found, never a mess another agent just made ([Main Stays Green, Work Stays Clean](main-stays-green-work-stays-clean.md)).
+- A builder on debt takes debt that was found, never a mess another agent just made ([Main Stays Green, Work Stays Clean](../commits/main-stays-green-work-stays-clean.md)).
 
 ## The Docs Agent
 
@@ -38,7 +38,7 @@ When the main session builds things itself while agents run, the director's mess
 ## How Many
 
 - The number of agents running at once follows token and devbox capacity; nothing else fixes it.
-- The devbox's capacity counts only the agents that run browser suites. An agent whose checks are hygiene, types, unit and the wiki build starts whatever the machine's load: a docs agent, and a builder on a light debt story ([Work Tracking](../tickets-workflow/work-tracking.md#stories)).
+- The devbox's capacity counts only the agents that run browser suites. An agent whose checks are hygiene, types, unit and the wiki build starts whatever the machine's load: a docs agent, and a builder on a light debt story ([Work Tracking](work-tracking.md#stories)).
 - One builder per story. Stories run side by side only where the files they touch are disjoint.
 - A large job, a hundred tickets say, goes to one agent with the whole queue, in the background.
 - Read-only lookups the conductor can do itself are done there, without an agent.
@@ -46,12 +46,12 @@ When the main session builds things itself while agents run, the director's mess
 
 ## Every Brief Says
 
-- The ticket it works, linked; its acceptance criteria are the target ([Work Workflow](../tickets-workflow/work-workflow.md)).
+- The ticket it works, linked; its acceptance criteria are the target ([Work Workflow](work-workflow.md)).
 - The setup commands, exact and with absolute paths.
-- Never a list of memories to read in full, and never a summary of them: the eager rules and the index load by themselves, and the agent opens the memories its work touches.
+- Never a list of standards to read in full, and never a summary of them: the Read First standards and the index load by themselves, and the agent opens the standards its work touches.
 - The branch only ever holds commits ready to land; a commit is never amended once made, and a fix goes in as a new commit.
 - A criterion is measured once and proved from that run; a measure that cannot hold goes back to the conductor, who restates it under Veto or asks the director.
-- Before each commit: hygiene, types and unit, each by its exit code ([Gate Commits on Exit Codes](gate-commits-on-exit-codes.md)).
+- Before each commit: hygiene, types and unit, each by its exit code ([Gate Commits on Exit Codes](../commits/gate-commits-on-exit-codes.md)).
 - Run only what the change affects: the specs of every feature that uses what it touched, and the reels and captures that cross it. Never every suite at once.
 - A check that needs no browser is a unit test, never an e2e case.
 - Leave the change clean: what it makes unused or duplicated goes in the same commit; a small found fix rides on the ticket's go as a Veto line, anything bigger becomes a ticket.

@@ -3,7 +3,6 @@
 The Gamedev standards: game development.
 
 - [Captures And Reels](captures-and-reels.md) - proof from scripted captures per item, never by hand; reels on demand; videos untracked in git
-- [Changelog Per Version](changelog-per-version.md) - a page per version, generated: the tickets that landed in it, each its id and link, in landing order; nothing written by hand but the header
 - [Code Based Sound](code-based-sound.md) - generated, soft, varied sound; levels measured, never guessed
 - [Devbox](devbox.md) - a one-key devbox on every scene, on the shared seeded scenarios
 - [Game Design Laws](game-design-laws.md) - the generic game design laws as an index; a game's laws doc adopts, leaves out or overrides them by name
@@ -16,7 +15,6 @@ The Gamedev standards: game development.
 - [Gamedev Working Cadence](gamedev-working-cadence.md) - the game day loop; feedback on an open version is a cutoff; full pre-push hook before the tag; nothing new after a wind-down
 - [Own Icons](own-icons.md) - own icon sprite, named by concept, with a wiki index page
 - [Pacing Docs](pacing-docs.md) - a pacing doc per stage mirroring the configuration
-- [Playtest Files](playtest-files.md) - a numbered file per playtest; feedback units become tickets
 - [Silent Runs](silent-runs.md) - an agent's runs of a game make no sound: muted Playwright captures for a walk, never the browser pane on a game with sound
 - [Sprite Sheet Frames](sprite-sheet-frames.md) - read frame size and row order from the sheet's pixels
 - [Stabilize Before Adding](stabilize-before-adding.md) - while stabilizing, only bugs and tweaks; new things go later

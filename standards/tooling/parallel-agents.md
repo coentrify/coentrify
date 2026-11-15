@@ -1,6 +1,6 @@
 # Parallel Agents
 
-The toolchain that lets several agents work one repository at once: git worktrees, ports, the landing scripts and the cleanup. Who does what is in [Agent Roles](../behavior/agent-roles.md) and [The Conductor](../behavior/the-conductor.md).
+The toolchain that lets several agents work one repository at once: git worktrees, ports, the landing scripts and the cleanup. Who does what is in [Agent Roles](../tickets-workflow/agent-roles.md) and [The Conductor](../tickets-workflow/the-conductor.md).
 
 ## Worktrees
 

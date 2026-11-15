@@ -4,13 +4,13 @@ Per-feature functional docs follow the hierarchical page shape: summary, content
 
 ## Purpose
 
-The functional source of truth for a single feature, the product as decided: a new joiner or a playtester should grasp what the feature does. Basis for the spec, the e2e tests and the feature's tickets. Pairs with a [spec](feature-spec-template.md).
+The functional source of truth for a single feature, the product as decided: a new joiner or a tester should grasp what the feature does. Basis for the spec, the e2e tests and the feature's tickets. Pairs with a [spec](feature-spec-template.md).
 
 ## Sections
 
 - Title: `# <Feature Name>` in Title Case.
 - The summary is no link hub; cross-references go inline where the related concept is mentioned.
-- Item headings are short Title Case noun phrases ("Inventory", "Map"). Under each: one short sentence per thing it does ("Shows the items the player carries"), each a spec that leads to a test.
+- Item headings are short Title Case noun phrases ("Profile", "Search"). Under each: one short sentence per thing it does ("Shows the orders the user placed"), each a spec that leads to a test.
 - `## Edge Cases`: rules that fall out of the feature's boundaries with other features or contexts; `###` per edge case when needed.
 - A part not built yet carries `(Not Yet Implemented)` and a link to its ticket.
 - Optional closing pointer to the matching spec.

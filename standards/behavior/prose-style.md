@@ -15,7 +15,7 @@ concrete.
   "X, not Y", "not X but Y", "it's not about X, it's about Y".
 - Don't chain copulas: "the x is the y, and the y is the z".
 - One thought per bullet or sentence. Never pair two contrasting cases in
-  one line with a semicolon, "a player who does not know it is invited;
+  one line with a semicolon, "a user who does not know it is invited;
   one who does is told something new": that pairing is the same
   scaffolding in disguise. Give each case its own bullet.
 - Drop hype adjectives and rhetorical build-ups; state the thing.

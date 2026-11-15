@@ -32,7 +32,7 @@ A ticket's type is its folder, and the archive keeps the same folders. No front 
 - Bug, in `bugs`, prefix `BUG`: what goes wrong for the user. User-facing only: what a real user never hits is debt. It describes the symptom as the user meets it, never a guess at the cause, and links its feature doc and spec case.
 - Debt, in `debt`, prefix `DEBT`: the workspace's own code and tooling, its test gaps and its structure. It holds just enough to start, what is broken and what success looks like, and never prescribes the implementation or names the classes and files.
 - Docs, in `docs`, prefix `DOCS`: the work on the docs and the work tracking. The wiki's own tooling is code, so Debt.
-- Spike, in `spikes`, prefix `SPIKE`: finding out how something is now, worked by the scout ([Agent Roles](../behavior/agent-roles.md)).
+- Spike, in `spikes`, prefix `SPIKE`: finding out how something is now, worked by the scout ([Agent Roles](agent-roles.md)).
 - Epic, in `epics`, prefix `EPIC`: a ticket that groups others under one outcome. Its file holds its `phase` field, a `## Goal` section of one short line and a Source, no summary and no acceptance criteria since its tickets hold their own; which tickets belong to it lives only in each ticket's `epic` field, and the wiki lists them.
 
 A ticket's type never changes. Work that turns out to be of another type is a new ticket with an id of its own, and the old ticket is dropped: at once when the director never saw or refined it, otherwise with the director's yes. A new type applies to tickets filed from then on; an existing ticket keeps its type. A product layer may add types of its own, a game's in [Game Work Workflow](../gamedev/game-work-workflow.md).
@@ -77,15 +77,15 @@ Goal: the one outcome this phase delivers.
 
 ## Areas
 
-An area is a category of the product (gameplay, the UI), one layer above the epic like a phase, which is a stage of the road. An area is a page, an epic's `area` field names it, and the wiki lists an area's epics on its page the way it lists a phase's.
+An area is a category of the product (the checkout, the UI), one layer above the epic like a phase, which is a stage of the road. An area is a page, an epic's `area` field names it, and the wiki lists an area's epics on its page the way it lists a phase's.
 
 ## Stories
 
-A story is one layer between the epic and the ticket: the unit the director refines, gives a go and accepts, and the unit one builder builds ([Agent Roles](../behavior/agent-roles.md#the-builder)). The ticket stays the unit of building, small and refined part by part.
+A story is one layer between the epic and the ticket: the unit the director refines, gives a go and accepts, and the unit one builder builds ([Agent Roles](agent-roles.md#the-builder)). The ticket stays the unit of building, small and refined part by part.
 
 - A story of product work is a stretch of the product the director uses from start to end.
 - A story of debt or docs is a group of tickets of one epic that share an area and the load of their checks. It gets a go and no verdict: it ends when its last ticket lands.
-- A debt story is cut in refinement to be light or heavy, never mixed. A light one needs no browser suite and starts whatever the machine's load; a heavy one waits for the machine ([Agent Roles](../behavior/agent-roles.md#how-many)).
+- A debt story is cut in refinement to be light or heavy, never mixed. A light one needs no browser suite and starts whatever the machine's load; a heavy one waits for the machine ([Agent Roles](agent-roles.md#how-many)).
 - A ticket names its story in its `story` field. A ticket outside any story is the exception, refined, planned and accepted by itself; loose tickets of one epic are grouped into a story, so they show as one line and get one go and one agent.
 - A story is a page in `stories` with an id of its own, `STORY-8`, and its epic in its `epic` field: what to use and how to start it.
 - The wiki lists a story's tickets on its page from their `story` field, in three lists: to refine, ready and done. A rework ticket carries a rework mark there.
@@ -113,7 +113,7 @@ The unit of a list is the story. Each story of the current phase stands on exact
 - Every debt, docs and spike ticket sits in an epic, a new one in its phase where none fits, so it reaches the refine list once its phase is current.
 - No backlog and no nice to have list: decided work not yet scheduled waits in its epic and phase.
 - A list line is one line: the ticket's id and a link, never a description, a status or history. The one exception is the landing stamp on a story's done list.
-- A list page holds its title, its list and its hand-kept sections, never a text on how the list works: the rules stand in the memory, once.
+- A list page holds its title, its list and its hand-kept sections, never a text on how the list works: the rules stand in the standards, once.
 - A hygiene check fails a current-phase ticket whose story stands on no list, or that stands on none by itself, and prose on a list page that explains its list.
 - A hygiene check fails a ticket whose Depends On names a ticket outside its story, and a story whose Depends On names anything but a story.
 - A hygiene check fails more than three tickets of one epic outside a story on the planning page.
@@ -140,7 +140,7 @@ A question lives in the ticket that has the unclarity, under `## Question`: the 
 
 - A ticket is archived at the director's verdict on it or on its story, a debt ticket at its landing: a `git mv` to `archive/<type>/`, which is the verdict's whole bookkeeping, since every list follows by itself.
 - Every verdict archives the ticket, and an accepted story archives every ticket in it; more work on it, or a rework, is a new ticket.
-- A version's changelog lists the tickets that landed in it, generated ([Changelog Per Version](../gamedev/changelog-per-version.md)); a bare-line task has no ticket and stands on none.
+- A version's changelog lists the tickets that landed in it, generated ([Changelog Per Version](../records/changelog-per-version.md)); a bare-line task has no ticket and stands on none.
 - Archived tickets are never edited again; new work on the same topic is a new ticket.
 
 ## The Index
@@ -152,7 +152,7 @@ A question lives in the ticket that has the unclarity, under `## Question`: the 
 
 - [Work Workflow](work-workflow.md)
 - [Work Item Names](work-item-names.md)
-- [Commits](../behavior/commits.md)
+- [Commits](../commits/commits.md)
 - [Don't Introduce Tech Debt](../behavior/dont-introduce-tech-debt.md)
 - [Plans vs Persistent Files](../simple-workflow/plans-vs-persistent-files.md)
 - [Docs State Knowledge](../docs/docs-state-knowledge.md)

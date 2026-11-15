@@ -40,14 +40,12 @@ What changed in each version of coentrify.
 - Added [A Go Before Work Elsewhere](standards/behavior/a-go-before-work-elsewhere.md)
 - Added [A Maybe Is A Trigger To Investigate](standards/behavior/a-maybe-is-a-trigger-to-investigate.md)
 - Added [A Quiet Tree While A Suite Runs](standards/behavior/a-quiet-tree-while-a-suite-runs.md)
-- Added [Agent Roles](standards/behavior/agent-roles.md)
 - Added [Always Make No Mistakes](standards/behavior/always-make-no-mistakes.md)
 - Added [Always Verify Before Reporting Done](standards/behavior/always-verify-before-reporting-done.md)
 - Added [Always Work from a Plan](standards/behavior/always-work-from-a-plan.md)
 - Added [Anchor Edits After Formatting](standards/behavior/anchor-edits-after-formatting.md)
 - Added [Backward-Trace Missing Prerequisites](standards/behavior/backward-trace-missing-prerequisites.md)
 - Added [Code Review Compounds Into Patterns and Sweeps](standards/behavior/code-review-compounds-into-patterns-and-sweeps.md)
-- Added [Commits](standards/behavior/commits.md)
 - Added [Communication Boundary](standards/behavior/communication-boundary.md)
 - Added [Decide, Don't Wait](standards/behavior/decide-dont-wait.md)
 - Added [Dev Tiers](standards/behavior/dev-tiers.md)
@@ -57,16 +55,12 @@ What changed in each version of coentrify.
 - Added [Feature Workflow](standards/behavior/feature-workflow.md)
 - Added [Flag Every Addition of Your Own](standards/behavior/flag-every-addition-of-your-own.md)
 - Added [Free Text Replies, No Buttons](standards/behavior/free-text-replies-no-buttons.md)
-- Added [Gate Commits on Exit Codes](standards/behavior/gate-commits-on-exit-codes.md)
 - Added [General Working Rules](standards/behavior/general-working-rules.md)
 - Added [Honest Assessments](standards/behavior/honest-assessments.md)
-- Added [Main Stays Green, Work Stays Clean](standards/behavior/main-stays-green-work-stays-clean.md)
-- Added [Memory Over Skills](standards/behavior/memory-over-skills.md)
 - Added [Non-Destructive Documenting and Test Automation](standards/behavior/non-destructive-documenting-and-test-automation.md)
 - Added [Normal Dashes](standards/behavior/normal-dashes.md)
 - Added [Note Issues](standards/behavior/note-issues.md)
 - Added [Own Ports, Own Processes](standards/behavior/own-ports-own-processes.md)
-- Added [Pixel-Perfect Design Check](standards/behavior/pixel-perfect-design-check.md)
 - Added [Project Lifecycle](standards/behavior/project-lifecycle.md)
 - Added [Propagate Renames and Convention Changes Everywhere](standards/behavior/propagate-renames-and-convention-changes-everywhere.md)
 - Added [Prose Style](standards/behavior/prose-style.md)
@@ -76,16 +70,14 @@ What changed in each version of coentrify.
 - Added [Review Changes Before Reporting Done](standards/behavior/review-changes-before-reporting-done.md)
 - Added [Review Every Capture Before Reporting](standards/behavior/review-every-capture-before-reporting.md)
 - Added [Standards Maintenance](standards/behavior/standards-maintenance.md)
+- Added [Standards Over Skills](standards/behavior/standards-over-skills.md)
 - Added [Sweeps Enumerate Into Tech-Debt First](standards/behavior/sweeps-enumerate-into-tech-debt-first.md)
 - Added [Sync The Docs After Every Change](standards/behavior/sync-the-docs-after-every-change.md)
-- Added [The Conductor](standards/behavior/the-conductor.md)
 - Added [The Quality Of The Question](standards/behavior/the-quality-of-the-question.md)
-- Added [UI Components First](standards/behavior/ui-components-first.md)
 - Added [Understand The Need](standards/behavior/understand-the-need.md)
 - Added [Use US English Everywhere](standards/behavior/use-us-english-everywhere.md)
 - Added [Verify APIs Against Docs And The Installed Artifact](standards/behavior/verify-apis-against-docs-and-the-installed-artifact.md)
 - Added [Verify Control Before Rename](standards/behavior/verify-control-before-rename.md)
-- Added [Verify Staging Before Committing](standards/behavior/verify-staging-before-committing.md)
 
 ### Code
 
@@ -95,6 +87,13 @@ What changed in each version of coentrify.
 - Added [No Abbreviated Names](standards/code/no-abbreviated-names.md)
 - Added [No Describe-What Comments](standards/code/no-describe-what-comments.md)
 - Added [Pre-empt Recurring Code-Review Nits](standards/code/pre-empt-recurring-code-review-nits.md)
+
+### Commits
+
+- Added [Commits](standards/commits/commits.md)
+- Added [Gate Commits on Exit Codes](standards/commits/gate-commits-on-exit-codes.md)
+- Added [Main Stays Green, Work Stays Clean](standards/commits/main-stays-green-work-stays-clean.md)
+- Added [Verify Staging Before Committing](standards/commits/verify-staging-before-committing.md)
 
 ### Docs
 
@@ -135,7 +134,6 @@ What changed in each version of coentrify.
 ### Gamedev
 
 - Added [Captures And Reels](standards/gamedev/captures-and-reels.md)
-- Added [Changelog Per Version](standards/gamedev/changelog-per-version.md)
 - Added [Code Based Sound](standards/gamedev/code-based-sound.md)
 - Added [Devbox](standards/gamedev/devbox.md)
 - Added [Game Design Laws](standards/gamedev/game-design-laws.md)
@@ -148,7 +146,6 @@ What changed in each version of coentrify.
 - Added [Gamedev Working Cadence](standards/gamedev/gamedev-working-cadence.md)
 - Added [Own Icons](standards/gamedev/own-icons.md)
 - Added [Pacing Docs](standards/gamedev/pacing-docs.md)
-- Added [Playtest Files](standards/gamedev/playtest-files.md)
 - Added [Silent Runs](standards/gamedev/silent-runs.md)
 - Added [Sprite Sheet Frames](standards/gamedev/sprite-sheet-frames.md)
 - Added [Stabilize Before Adding](standards/gamedev/stabilize-before-adding.md)
@@ -157,6 +154,8 @@ What changed in each version of coentrify.
 ### Records
 
 - Added [Activity Log](standards/records/activity-log.md)
+- Added [Changelog Per Version](standards/records/changelog-per-version.md)
+- Added [Playtest Files](standards/records/playtest-files.md)
 - Added [Request Log](standards/records/request-log.md)
 
 ### Reporting
@@ -198,7 +197,9 @@ What changed in each version of coentrify.
 
 ### Tickets Workflow
 
+- Added [Agent Roles](standards/tickets-workflow/agent-roles.md)
 - Added [Building A Ticket](standards/tickets-workflow/building-a-ticket.md)
+- Added [The Conductor](standards/tickets-workflow/the-conductor.md)
 - Added [The Done Part](standards/tickets-workflow/the-done-part.md)
 - Added [Ticket Template](standards/tickets-workflow/ticket-template.md)
 - Added [Work Item Names](standards/tickets-workflow/work-item-names.md)
@@ -232,14 +233,11 @@ What changed in each version of coentrify.
 
 ### UI
 
-- Added [Always Use Design Tokens for Colors](standards/ui/always-use-design-tokens-for-colors.md)
 - Added [Communicate State](standards/ui/communicate-state.md)
-- Added [Dark Mode Through Tokens](standards/ui/dark-mode-through-tokens.md)
-- Added [Hidden Attribute Loses To Display](standards/ui/hidden-attribute-loses-to-display.md)
 - Added [Never Obscure Information the User Needs](standards/ui/never-obscure-information-the-user-needs.md)
-- Added [SCSS Shared Partial Imports](standards/ui/scss-shared-partial-imports.md)
-- Added [Transitions Only On User Toggle](standards/ui/transitions-only-on-user-toggle.md)
+- Added [Pixel-Perfect Design Check](standards/ui/pixel-perfect-design-check.md)
 - Added [UI Component Design](standards/ui/ui-component-design.md)
+- Added [UI Components First](standards/ui/ui-components-first.md)
 - Added [UI Layout via Slot Composition](standards/ui/ui-layout-via-slot-composition.md)
 - Added [UI Library Is Domain-Agnostic](standards/ui/ui-library-is-domain-agnostic.md)
 - Added [UI Refactor: Preserve, Don't Redesign](standards/ui/ui-refactor-preserve-dont-redesign.md)
@@ -247,3 +245,11 @@ What changed in each version of coentrify.
 - Added [UI Variants By Function, Not By Color](standards/ui/ui-variants-by-function-not-by-color.md)
 - Added [Validation Errors Fire on Submit](standards/ui/validation-errors-fire-on-submit.md)
 - Added [Walk The User's Journey](standards/ui/walk-the-users-journey.md)
+
+### Web
+
+- Added [Always Use Design Tokens for Colors](standards/web/always-use-design-tokens-for-colors.md)
+- Added [Dark Mode Through Tokens](standards/web/dark-mode-through-tokens.md)
+- Added [Hidden Attribute Loses To Display](standards/web/hidden-attribute-loses-to-display.md)
+- Added [SCSS Shared Partial Imports](standards/web/scss-shared-partial-imports.md)
+- Added [Transitions Only On User Toggle](standards/web/transitions-only-on-user-toggle.md)

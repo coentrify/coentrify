@@ -1,6 +1,6 @@
 # Review Every Capture Before Reporting
 
-Look at each capture the pipeline produced before the report, and check it against the states list and the last playtest feedback. A capture that shows a regression is a finding, not an attachment.
+Look at each capture the pipeline produced before the report, and check it against the states list and the last feedback from testers. A capture that shows a regression is a finding, not an attachment.
 
 ## Why
 
@@ -17,5 +17,5 @@ A regression that sits in a picture already on the page still reaches the direct
 
 ## Related
 
-- [Pixel-Perfect Design Check](pixel-perfect-design-check.md)
+- [Pixel-Perfect Design Check](../ui/pixel-perfect-design-check.md)
 - [Always Verify Before Reporting Done](always-verify-before-reporting-done.md)

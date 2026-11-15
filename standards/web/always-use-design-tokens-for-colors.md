@@ -16,6 +16,6 @@ The custom property is the design system's internal plumbing: referencing the ra
 
 ## Related
 
-- [UI Refactor: Preserve, Don't Redesign](ui-refactor-preserve-dont-redesign.md)
+- [UI Refactor: Preserve, Don't Redesign](../ui/ui-refactor-preserve-dont-redesign.md)
 - [Dark Mode Through Tokens](dark-mode-through-tokens.md)
 - [Don't Introduce Tech Debt](../behavior/dont-introduce-tech-debt.md)

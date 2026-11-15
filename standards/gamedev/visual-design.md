@@ -19,4 +19,4 @@ Perspective is what drawn scenes miss most often on the first try, and every rou
 
 - [Work Tracking](../tickets-workflow/work-tracking.md)
 - [Review Every Capture Before Reporting](../behavior/review-every-capture-before-reporting.md)
-- [Pixel-Perfect Design Check](../behavior/pixel-perfect-design-check.md)
+- [Pixel-Perfect Design Check](../ui/pixel-perfect-design-check.md)

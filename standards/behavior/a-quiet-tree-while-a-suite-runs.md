@@ -8,11 +8,11 @@ The server sees every save and rebuilds the app under the tests, so a half-writt
 
 ## How to apply
 
-- While a suite runs, work on what the server does not watch: docs, memory, the plan, reading code.
+- While a suite runs, work on what the server does not watch: docs, standards, the plan, reading code.
 - Start the next code edit after the result is in.
 - A run that overlapped with edits is invalid; rerun it before reading anything into it.
 
 ## Related
 
 - [Always Verify Before Reporting Done](always-verify-before-reporting-done.md)
-- [Gate Commits on Exit Codes](gate-commits-on-exit-codes.md)
+- [Gate Commits on Exit Codes](../commits/gate-commits-on-exit-codes.md)

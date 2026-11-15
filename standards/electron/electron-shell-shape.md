@@ -1,6 +1,6 @@
 # Electron Shell Shape
 
-An Electron game is a website in a shell. The archive holds the main
+An Electron app is a website in a shell. The archive holds the main
 process, the preload and the Electron package's own dependencies,
 declared in the app folder's own package file; the browser build sits as
 plain files under the app's resources, served by the main process itself
@@ -21,13 +21,13 @@ production, and an update replaces the website while Electron stays.
   and streams, and answers a request with the file if it exists and the
   index otherwise.
 - Saves live in an electron store under the user data folder; an
-  environment variable overrides that folder so suites and playtesters
+  environment variable overrides that folder so suites and testers
   never touch real saves.
 - The packaged app opens fullscreen with a key to toggle it and a key for
-  the devtools, so a playtester can read the console; a windowed
+  the devtools, so a tester can read the console; a windowed
   environment flag exists for the suites.
 - A splash can be skipped by a flag for quick starts.
-- Keep the shell thin: the game never imports from the shell.
+- Keep the shell thin: the app never imports from the shell.
 
 ## Related
 
