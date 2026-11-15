@@ -4,7 +4,7 @@ The rules, conventions and templates a project adopts.
 
 ## Make No Mistakes
 
-[Make No Mistakes](standards/behavior_always_make_no_mistakes.md) is the core of the standards. `make no mistakes` is a meme, and coentrify gave the words a job: every mistake that is caught becomes a standard or a check.
+[Make No Mistakes](standards/behavior/always-make-no-mistakes.md) is the core of the standards. `make no mistakes` is a meme, and coentrify gave the words a job: every mistake that is caught becomes a standard or a check.
 
 The system heals itself. A mistake that became a check cannot happen again.
 
