@@ -8,6 +8,7 @@ The scripts and hooks that enforce a standard, for a project to copy.
 - `scripts/main-checks.sh` - the named checks on main, by exit code
 - `scripts/docs-commit.sh` - a docs commit that only lands when the hygiene check passes
 - `scripts/changelog-append.py` - adds one entry to a version's changelog, in a fixed shape, so the changelog is never written free hand
+- `scripts/check-coentrify-json.py` - fails when `coentrify.json` names a folder or a standard that is not there, and refuses a commit that changes a tracked standard by hand ([coentrify.json](../coentrify-json.md))
 
 ## Hooks
 

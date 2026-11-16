@@ -101,7 +101,7 @@ The entry point also says to read the Read First standards again after a compact
 
 ### The Coentrify File
 
-`coentrify.json` holds the choices, the version and the state of every standard ([coentrify.json](coentrify-json.md)).
+`coentrify.json` holds the choices, the version and the state of every standard ([coentrify.json](coentrify-json.md)). Where the project has a pre-commit hook, the check from the [tools](tools/overview.md) keeps the file true.
 
 ### The Decisions
 

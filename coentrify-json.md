@@ -5,6 +5,7 @@ One file at the root of a project says how the project uses coentrify.
 - The File - what it holds
 - States - how a project follows a standard
 - Versions - how a change is found
+- The Check - what keeps the file true
 
 ## The File
 
@@ -50,3 +51,13 @@ A standard the project wrote itself is not listed. It goes in the module it belo
 Coentrify has one version, and a project is at one version. The [changelog](changelog.md) names every standard that a version changed.
 
 A standard the changelog does not name needs no attention.
+
+## The Check
+
+`check-coentrify-json.py` from the [tools](tools/overview.md) keeps the file true.
+
+- A folder the file names has to exist.
+- A standard the file lists has to be on disk.
+- A state is `tracked` or `customized`.
+
+With `--staged`, as a pre-commit step, the check also refuses a commit that changes a tracked standard by hand. The commit passes once the state is `customized`, or when the commit changes the version, as an update does.
