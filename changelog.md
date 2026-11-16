@@ -128,6 +128,7 @@ What changed in each version of coentrify.
 ### Records
 
 - Changed [Activity Log](standards/records/activity-log.md)
+- Changed [Changelog Per Version](standards/records/changelog-per-version.md)
 - Changed [Playtest Files](standards/records/playtest-files.md)
 - Changed [Request Log](standards/records/request-log.md)
 

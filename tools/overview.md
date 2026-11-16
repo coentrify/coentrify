@@ -7,7 +7,7 @@ The scripts and hooks that enforce a standard, for a project to copy.
 - `scripts/pick.sh` - one guarded cherry-pick onto main ([Parallel Agents](../standards/tooling/parallel-agents.md))
 - `scripts/main-checks.sh` - the named checks on main, by exit code
 - `scripts/docs-commit.sh` - a docs commit that only lands when the hygiene check passes
-- `scripts/changelog-append.py` - adds one entry to a version's changelog, in a fixed shape, so the changelog is never written free hand
+- `scripts/changelog-append.py` - adds one entry to a version's changelog, in a fixed shape, so the changelog is never written free hand ([Changelog Per Version](../standards/records/changelog-per-version.md))
 - `scripts/unlink-missing-standards.py` - removes every link to a standard the project did not adopt, and keeps the words
 - `scripts/check-coentrify-json.py` - fails when `coentrify.json` names a folder or a standard that is not there, and refuses a commit that changes a tracked standard by hand ([coentrify.json](../coentrify-json.md))
 

@@ -1,5 +1,5 @@
 import os, re, subprocess, sys
-# usage: cl.py <changelog.md> <block file>
+# usage: changelog-append.py <changelog.md> <block file>
 # Appends one entry at the very bottom of the page's one Changed list.
 # Refuses: a pick in progress in the page's repo, a page with any section but Changed, a block with a heading,
 # a bullet with a semicolon, more than one bullet per block, a bullet without its `HH:MM` stamp.

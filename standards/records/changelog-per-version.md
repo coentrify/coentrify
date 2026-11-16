@@ -19,6 +19,15 @@ The changelog is the list the director plays a version against: which tickets la
 - Every batch of work closes with a version: the closing commit is tagged `v<version>`.
 - The bump and the next page wait for the next version's first landing, which bumps the app and creates the page with its header; an unused version gets deleted.
 
+## Without Tickets
+
+A project without tickets keeps the list by hand.
+
+- The page holds one `## Changed` list.
+- Every landing appends one line at the bottom, ending in its time: ``- <what changed> `HH:MM` ``.
+- The line goes in through `tools/scripts/changelog-append.py`, so the list is never written free hand.
+- The script refuses a second bullet, a semicolon that chains two items, and a line without its time.
+
 ## Related
 
 - [Work Tracking](../tickets-workflow/work-tracking.md)
