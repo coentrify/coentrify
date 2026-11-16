@@ -53,9 +53,10 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 
 ### Gate Commits on Exit Codes
 
-- Estimate: still needed. The standard says the trap was hit with the rule loaded, and a hook now refuses it.
-- The rule could shrink to a line that points at the hook.
-- Probe: a check with long output before a commit, to see whether the agent pipes it into `tail`.
+- Probed on a failing check with a quiet tail and on a passing one ([Proof](../proof.md)).
+- No run committed on a failing check, and no run hung a commit on a filtered check, in 14 runs without the rule.
+- The standard says the trap was hit with the rule loaded, and a hook refuses it.
+- Every line of it comes from an incident.
 
 ### Read Before You Truncate
 
