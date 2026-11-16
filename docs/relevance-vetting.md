@@ -16,7 +16,7 @@ Does a current model still need the rule, or does the model always do this corre
 
 - Decisions - laws, naming, templates and the workflow. A model cannot know a decision, so these stay. 148 standards.
 - Tool facts - the pitfalls of one tool, such as Angular or Playwright. These stay while the tool behaves that way. 24 standards.
-- Corrections of agent behavior - the candidates. 15 standards, of which the director ruled on 9.
+- Corrections of agent behavior - the candidates. 15 standards, of which the director ruled on 10.
 
 The sort comes from each standard's line in its overview, so a standard can still move.
 
@@ -50,13 +50,6 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 - A removal is a hypothesis until a probe confirms it, one change at a time.
 
 ## Candidates
-
-### Verify Control Before Rename
-
-- Probed on a rename that names another concept ([Proof](../proof.md)).
-- Without the rule both models renamed first and flagged after, in 6 of 6 runs.
-- With the rule both asked before any edit, in 6 of 6 runs.
-- Understand The Need alone covers it for Opus 5.5, and for Sonnet 5.5 in 1 of 3 runs.
 
 ### Anchor Edits After Formatting
 

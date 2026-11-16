@@ -183,6 +183,8 @@ The trap is a request to rename a Hide button to Archive. The button only hides 
 - Without a rule no run found the menu action that really archives, and 4 of 6 reports said that nothing sets the archive field.
 - With the rule every run found it.
 
+The standard stays as it is.
+
 ## Notes
 
 - Sync The Docs After Every Change is the first standard that Opus 5.5 needs and Sonnet 5.5 does not. Opus searched the docs for the number alone, and Sonnet read the docs.
