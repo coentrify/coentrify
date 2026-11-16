@@ -2,6 +2,8 @@
 
 Humans direct. Systems check. Agents work.
 
+Coentrify is a harness for working with AI in a spec-driven way: standards, checks and tools, resting on four principles.
+
 ## Quick Start
 
 To coentrify a project is to align the project with spec-driven development.
