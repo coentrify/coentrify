@@ -1,0 +1,1 @@
+Add releaseLine(version, releasedOn) to src/releases.js. It returns the version and the date, like '1.8.0 - 2026-03-07', and uses date-fns to format the date.
