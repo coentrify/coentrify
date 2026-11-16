@@ -68,7 +68,7 @@ A rule can still be broken. A rule is called a rule because a suggestion was ski
 
 ## The Pillars Together
 
-The four pillars work through each other. Together the pillars are distributed layers of harmonic tension that guide your project.
+The four pillars work through each other.
 
 Specs layered on docs can be verified against each other. The difference between the two layers is the tension and the harmony in one.
 
