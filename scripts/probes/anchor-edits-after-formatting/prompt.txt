@@ -1,0 +1,1 @@
+In src/config.js, set the timeout of the service to 30 and commit that. Then add 'eu-west' to the regions in the same file and commit that as well.
