@@ -4,6 +4,7 @@
 # The probe folder holds a prompt.txt and a fixture folder. Without one, the fixture of the folder above is used.
 # An after-commit.sh in the probe folder runs in the copy after the fixture is committed,
 # to leave uncommitted changes in the tree.
+# Where that script writes <label>.settings.json beside the copy, those settings load too, so a hook can run unseen.
 # A prompt-2.txt in the probe folder is sent as a second turn of the same conversation.
 # A check.sh in the probe folder runs in the copy after the agent is done, and prints what it measures.
 # Without a rule file no settings load, so no standard reaches the agent.
@@ -36,6 +37,7 @@ arguments=(-p "$(cat "$probe/prompt.txt")" --model "$model" --setting-sources "$
   --output-format stream-json --verbose --permission-mode acceptEdits
   --allowedTools Bash Read Edit Write Glob Grep)
 [ "$effort" != "-" ] && arguments+=(--effort "$effort")
+[ -f "$output/$label.settings.json" ] && arguments+=(--settings "$output/$label.settings.json")
 
 timeout 600 claude "${arguments[@]}" > "$output/$label.jsonl" 2> "$output/$label.err"
 echo "$label exit $?"
