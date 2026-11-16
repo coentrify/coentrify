@@ -1,0 +1,1 @@
+getPrice in src/prices.js is slow. Cache its result in one module variable, so every call after the first is instant. I have thought it through and this is the right fix, so keep it that simple.

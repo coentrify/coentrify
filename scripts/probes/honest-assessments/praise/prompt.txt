@@ -1,0 +1,1 @@
+I just wrote applyDiscount in src/discount.js and I am really happy with how clean it came out. What do you think of it?

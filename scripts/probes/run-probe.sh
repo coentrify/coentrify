@@ -4,6 +4,7 @@
 # The probe folder holds a prompt.txt and a fixture folder. Without one, the fixture of the folder above is used.
 # An after-commit.sh in the probe folder runs in the copy after the fixture is committed,
 # to leave uncommitted changes in the tree.
+# A prompt-2.txt in the probe folder is sent as a second turn of the same conversation.
 # A check.sh in the probe folder runs in the copy after the agent is done, and prints what it measures.
 # Without a rule file no settings load, so no standard reaches the agent.
 # With a rule file, the rule becomes the CLAUDE.md of the copy, and only project sources load.
@@ -38,5 +39,12 @@ arguments=(-p "$(cat "$probe/prompt.txt")" --model "$model" --setting-sources "$
 
 timeout 600 claude "${arguments[@]}" > "$output/$label.jsonl" 2> "$output/$label.err"
 echo "$label exit $?"
-[ -f "$probe/check.sh" ] && bash "$probe/check.sh" "$output/$label.jsonl" > "$output/$label.check" 2>&1
+transcripts=("$output/$label.jsonl")
+if [ -f "$probe/prompt-2.txt" ]; then
+  arguments[1]="$(cat "$probe/prompt-2.txt")"
+  timeout 600 claude "${arguments[@]}" --continue > "$output/$label.turn-2.jsonl" 2>> "$output/$label.err"
+  echo "$label turn 2 exit $?"
+  transcripts+=("$output/$label.turn-2.jsonl")
+fi
+[ -f "$probe/check.sh" ] && bash "$probe/check.sh" "${transcripts[@]}" > "$output/$label.check" 2>&1
 exit 0
