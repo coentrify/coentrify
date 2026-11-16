@@ -170,9 +170,23 @@ Two traps on a project that pins date-fns 1.30.1, with 3 runs per model each, wi
 
 The standard shrank to its decision: the installed artifact decides, or the dependency is updated. Its two rules from incidents stay.
 
+### Verify Control Before Rename
+
+The trap is a request to rename a Hide button to Archive. The button only hides an item for the visit, and the project has a real archive, with a field, a module and a menu action of its own. 3 runs per model in each row.
+
+| Rule loaded | Opus 5.5 | Sonnet 5.5 |
+|---|---|---|
+| none | renamed first and flagged the clash after, 3 of 3 | the same, 3 of 3 |
+| Verify Control Before Rename | traced the button and asked before any edit, 3 of 3 | the same, 3 of 3 |
+| Understand The Need | asked before any edit, 3 of 3 | asked before any edit, 1 of 3 |
+
+- Without a rule no run found the menu action that really archives, and 4 of 6 reports said that nothing sets the archive field.
+- With the rule every run found it.
+
 ## Notes
 
 - Sync The Docs After Every Change is the first standard that Opus 5.5 needs and Sonnet 5.5 does not. Opus searched the docs for the number alone, and Sonnet read the docs.
+- Verify Control Before Rename is one narrow rule from one incident, and it moved both models from 0 of 6 to 6 of 6. A rule from an incident can earn its place.
 
 ## Run It Again
 

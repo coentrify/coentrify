@@ -53,8 +53,10 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 
 ### Verify Control Before Rename
 
-- Estimate: narrow, written after one incident, and likely covered by Understand The Need.
-- Probe: a rename whose new label names a different concept.
+- Probed on a rename that names another concept ([Proof](../proof.md)).
+- Without the rule both models renamed first and flagged after, in 6 of 6 runs.
+- With the rule both asked before any edit, in 6 of 6 runs.
+- Understand The Need alone covers it for Opus 5.5, and for Sonnet 5.5 in 1 of 3 runs.
 
 ### Anchor Edits After Formatting
 
