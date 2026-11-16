@@ -39,5 +39,5 @@ The Behavior standards: how an agent works and what an agent checks.
 - [The Quality Of The Question](the-quality-of-the-question.md) - a better question gets a better answer; suspect the question first, and ask how good over is it good
 - [Understand The Need](understand-the-need.md) - the need before the solution, and the right solution fitted to the need
 - [Use US English Everywhere](use-us-english-everywhere.md) - US spelling everywhere; convert British spellings when touching them
-- [Verify APIs Against Docs And The Installed Artifact](verify-apis-against-docs-and-the-installed-artifact.md) - check docs AND installed types before ruling on an API; pinned: the artifact decides
+- [Verify APIs Against Docs And The Installed Artifact](verify-apis-against-docs-and-the-installed-artifact.md) - pinned and the docs disagree: the installed artifact decides, or the dependency is updated; endpoints against the spec, generated assets against their rule
 - [Verify Control Before Rename](verify-control-before-rename.md) - trace a control to its handler before relabeling it

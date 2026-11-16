@@ -168,6 +168,8 @@ Two traps on a project that pins date-fns 1.30.1, with 3 runs per model each, wi
 - In 11 of 12 runs the agent looked at the installed package, and in the other one it ran the code.
 - Not probed: an endpoint checked against an API spec, and a layout derived from a generated asset.
 
+The standard shrank to its decision: the installed artifact decides, or the dependency is updated. Its two rules from incidents stay.
+
 ## Notes
 
 - Sync The Docs After Every Change is the first standard that Opus 5.5 needs and Sonnet 5.5 does not. Opus searched the docs for the number alone, and Sonnet read the docs.
