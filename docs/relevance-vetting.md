@@ -16,7 +16,7 @@ Does a current model still need the rule, or does the model always do this corre
 
 - Decisions - laws, naming, templates and the workflow. A model cannot know a decision, so these stay. 148 standards.
 - Tool facts - the pitfalls of one tool, such as Angular or Playwright. These stay while the tool behaves that way. 24 standards.
-- Corrections of agent behavior - the candidates. 15 standards, of which the director ruled on 5.
+- Corrections of agent behavior - the candidates. 15 standards, of which the director ruled on 6.
 
 The sort comes from each standard's line in its overview, so a standard can still move.
 
@@ -50,13 +50,6 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 - A removal is a hypothesis until a probe confirms it, one change at a time.
 
 ## Candidates
-
-### Honest Assessments
-
-- Probed on a flawed fix, an insisting director and a request for praise ([Proof](../proof.md)).
-- Every line of the standard showed up as default behavior on both models, in 18 of 18 runs.
-- Push back once, then accept the call, is a decision about working together. Both models did exactly that unasked.
-- Not probed: flattery under long or repeated pressure.
 
 ### Decide, Don't Wait
 

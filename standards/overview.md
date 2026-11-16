@@ -10,7 +10,6 @@ The core standards. An agent reads these at the start of every session.
 - [Always Verify Before Reporting Done](behavior/always-verify-before-reporting-done.md)
 - [Always Work from a Plan](behavior/always-work-from-a-plan.md)
 - [General Working Rules](behavior/general-working-rules.md)
-- [Honest Assessments](behavior/honest-assessments.md)
 - [Normal Dashes](behavior/normal-dashes.md)
 - [Prose Style](behavior/prose-style.md)
 - [Review Changes Before Reporting Done](behavior/review-changes-before-reporting-done.md)

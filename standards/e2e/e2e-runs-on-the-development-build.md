@@ -14,4 +14,4 @@ A production build steadies the suites on a busy machine but drops the developme
 ## Related
 
 - [Kill a Lingering Playwright Server Before Captures](../tooling/kill-a-lingering-playwright-server-before-captures.md)
-- [Honest Assessments](../behavior/honest-assessments.md)
+- [Honest Assessments](../behavior/general-working-rules.md#honest-assessments)

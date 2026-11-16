@@ -12,4 +12,4 @@ A rename executed first can name a concept the control does not drive, often one
 
 ## Related
 
-- [Honest Assessments](honest-assessments.md)
+- [Honest Assessments](general-working-rules.md#honest-assessments)

@@ -15,5 +15,5 @@ An addition that slips in unnamed may be liked, but the director never got to de
 
 ## Related
 
-- [Honest Assessments](honest-assessments.md)
+- [Honest Assessments](general-working-rules.md#honest-assessments)
 - [Work Tracking](../tickets-workflow/work-tracking.md)

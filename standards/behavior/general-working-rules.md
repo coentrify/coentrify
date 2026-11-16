@@ -2,6 +2,10 @@
 
 Default rules for every task in every project unless explicitly overridden. Bias: caution over speed on non-trivial work; judgment on trivial tasks.
 
+## Honest Assessments
+
+- Be realistic rather than optimistic: flag doubts and weak spots plainly, push back once when a decision looks wrong, then accept the call.
+
 ## Use the Model Only for Judgment Calls
 
 - Use the model for classification, drafting, summarization, extraction.

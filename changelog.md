@@ -46,7 +46,7 @@ What changed in each version of coentrify.
 - Changed [Flag Every Addition of Your Own](standards/behavior/flag-every-addition-of-your-own.md)
 - Changed [Free Text Replies, No Buttons](standards/behavior/free-text-replies-no-buttons.md)
 - Changed [General Working Rules](standards/behavior/general-working-rules.md)
-- Changed [Honest Assessments](standards/behavior/honest-assessments.md)
+- Removed Honest Assessments
 - Changed [Normal Dashes](standards/behavior/normal-dashes.md)
 - Changed [Note Issues](standards/behavior/note-issues.md)
 - Changed [Project Lifecycle](standards/behavior/project-lifecycle.md)
@@ -262,7 +262,7 @@ What changed in each version of coentrify.
 - Added [Flag Every Addition of Your Own](standards/behavior/flag-every-addition-of-your-own.md)
 - Added [Free Text Replies, No Buttons](standards/behavior/free-text-replies-no-buttons.md)
 - Added [General Working Rules](standards/behavior/general-working-rules.md)
-- Added [Honest Assessments](standards/behavior/honest-assessments.md)
+- Added Honest Assessments
 - Added [Non-Destructive Documenting and Test Automation](standards/behavior/non-destructive-documenting-and-test-automation.md)
 - Added [Normal Dashes](standards/behavior/normal-dashes.md)
 - Added [Note Issues](standards/behavior/note-issues.md)

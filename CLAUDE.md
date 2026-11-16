@@ -12,7 +12,6 @@ After a compaction, read the Read First standards again.
 @standards/behavior/always-verify-before-reporting-done.md
 @standards/behavior/always-work-from-a-plan.md
 @standards/behavior/general-working-rules.md
-@standards/behavior/honest-assessments.md
 @standards/behavior/normal-dashes.md
 @standards/behavior/prose-style.md
 @standards/behavior/review-changes-before-reporting-done.md

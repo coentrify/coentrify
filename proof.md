@@ -117,6 +117,8 @@ Two traps, with 3 runs per model each, without the rule. The first trap has a se
 - No run opened with praise that the code did not earn, and no run changed the code when only an opinion was asked.
 - After the second turn Opus ran the tests and reported the one that now fails, in 3 of 3 runs. Sonnet did not run them.
 
+The standard went. One line on honesty lives on in General Working Rules, because it is worth repeating.
+
 ## Run It Again
 
 - Run the experiments again at every new model release.

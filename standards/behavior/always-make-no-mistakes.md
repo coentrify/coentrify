@@ -39,4 +39,4 @@ A mistake is a gap in the instructions and context, never a personal failing of 
 ## Related
 
 - [Code Review Compounds Into Patterns and Sweeps](code-review-compounds-into-patterns-and-sweeps.md)
-- [Honest Assessments](honest-assessments.md)
+- [Honest Assessments](general-working-rules.md#honest-assessments)

@@ -19,4 +19,4 @@ Finding something in the docs the director was not aware of breaks trust in the 
 ## Related
 
 - [Request Log](../records/request-log.md)
-- [Honest Assessments](honest-assessments.md)
+- [Honest Assessments](general-working-rules.md#honest-assessments)

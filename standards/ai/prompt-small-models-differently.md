@@ -17,4 +17,4 @@ Small models lose the thread in long, multi-part instructions and fill gaps conf
 ## Related
 
 - [Match Known Commands Deterministically, Classify the Rest](match-known-commands-deterministically-classify-the-rest.md)
-- [Honest Assessments](../behavior/honest-assessments.md)
+- [Honest Assessments](../behavior/general-working-rules.md#honest-assessments)

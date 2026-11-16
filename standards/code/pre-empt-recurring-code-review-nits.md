@@ -17,7 +17,7 @@ Each of these costs a review round on something mechanical and lint- or spec-dec
 
 ## Related
 
-- [Honest Assessments](../behavior/honest-assessments.md)
+- [Honest Assessments](../behavior/general-working-rules.md#honest-assessments)
 - [Escape Hatch Comments](escape-hatch-comments.md)
 - [Static Attribute, Not Literal Binding](../angular/static-attribute-not-literal-binding.md)
 - [Don't Introduce Tech Debt](../behavior/dont-introduce-tech-debt.md)
