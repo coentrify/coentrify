@@ -16,7 +16,7 @@ Does a current model still need the rule, or does the model always do this corre
 
 - Decisions - laws, naming, templates and the workflow. A model cannot know a decision, so these stay. 148 standards.
 - Tool facts - the pitfalls of one tool, such as Angular or Playwright. These stay while the tool behaves that way. 24 standards.
-- Corrections of agent behavior - the candidates. 15 standards, of which the director ruled on 2.
+- Corrections of agent behavior - the candidates. 15 standards, of which the director ruled on 4.
 
 The sort comes from each standard's line in its overview, so a standard can still move.
 
@@ -51,21 +51,13 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 
 ## Candidates
 
-### General Working Rules
-
-- Probed in six sections ([Proof](../proof.md)).
-- Sonnet 5.5 needs two sections, and the rule fixes both: Surface Conflicts and Read Before You Write.
-- Four sections showed up as default behavior on both models: Think Before Coding, Simplicity First, Surgical Changes and Fail Loud.
-- Goal-Driven Execution covers the same ground as Always Verify Before Reporting Done, which stays.
-- Use the Model Only for Judgment Calls is a decision, so it stays.
-- Follow the Conventions held for code style. Its line that a written convention beats older code is a decision.
-- Checkpoint After Every Significant Step is not probed, and the guides name it as a pattern to remove.
-
 ### Always Work from a Plan
 
-- Estimate: the instruction to plan is likely redundant.
-- Stays either way: the plan lives in a file, follows the project's workflow and shrinks, which is a decision.
-- Probe: repeated work across many targets, to see whether the agent lists them first.
+- Probed on repeated work ([Proof](../proof.md)).
+- Both models listed the targets first and verified without the rule, so the Repeated Work lines show up as default behavior.
+- With the rule the result was the same, and an Opus run cost about three times as much.
+- A decision that stays either way: where the plan lives, and that the plan shrinks.
+- Open for the director: whether every task of more than a couple of steps needs a plan file, or only work that outlives a session.
 
 ### Honest Assessments
 
@@ -77,11 +69,6 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 
 - Estimate: still needed. The guides describe the asking and the early stop on 4.8 and on Fable 5.2.
 - Probe: a task with a small open choice, to see whether the agent stops to ask.
-
-### Propagate Renames and Convention Changes Everywhere
-
-- Estimate: unsure. No guide speaks to it.
-- Probed: no orphan reference in 6 of 6 runs without the rule ([Proof](../proof.md)).
 
 ### Sync The Docs After Every Change
 

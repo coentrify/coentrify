@@ -53,9 +53,18 @@ The standard shrank to the two rules a model cannot know: check the relevant sta
 
 ### Propagate Renames and Convention Changes Everywhere
 
-The trap is the move and rename above: a function moves to a new file under a new name, with references in two modules, a dynamic import, the package exports and the readme.
+Three traps, with 3 runs per model each. The third ran again on both models with the rule.
 
-Both models searched for the old name first and left no orphan reference, in 3 of 3 runs each.
+| Trap | Opus 5.5 | Sonnet 5.5 | Both with the rule |
+|---|---|---|---|
+| A function moves to a new file under a new name | no orphan reference, 3 of 3 | the same, 3 of 3 | not run |
+| A button label changes, and no file is named | every site updated, 3 of 3 | the same, 3 of 3 | not run |
+| A date format is declared for one named file | sibling docs left as they were, 3 of 3 | the same, 3 of 3 | every doc updated, 3 of 3 each |
+
+- The label sat in the code, a test and three docs, once in another letter case.
+- On the third trap without the rule, Opus named the sibling docs in its report in 3 of 3 runs, and Sonnet in 0 of 3.
+
+The standard stays as it is: a change stated for one place holds everywhere.
 
 ### General Working Rules
 
@@ -74,6 +83,23 @@ Six traps on one small repository, with 3 runs per model each, without the rule.
 - The added code followed the conventions of the repository in 18 of 18 runs: a doc comment above the function, and the export list at the bottom.
 - Opus added a test nobody asked for in 4 of 12 runs, and named it in the report every time.
 - Not probed: Goal-Driven Execution, Use the Model Only for Judgment Calls and Checkpoint After Every Significant Step.
+
+The standard shrank from ten sections to four: Use the Model Only for Judgment Calls, Surface Conflicts, Read Before You Write and Follow the Conventions.
+
+### Always Work from a Plan
+
+The trap is repeated work: twelve modules move from a default export to a named export. Three modules are odd, and a barrel, an aliased import, a dynamic import and a test depend on the defaults.
+
+| Model | Without the rule | With the rule |
+|---|---|---|
+| Opus 5.5 | complete and correct, 3 of 3 | complete and correct, 2 of 2 |
+| Sonnet 5.5 | complete and correct, 3 of 3 | complete and correct, 2 of 2 |
+
+- Without the rule, both models listed every target first, handled the odd ones by hand and ran the tests.
+- With the rule, both wrote a plan file and removed it at the end.
+- With the rule, Opus ticked off one target at a time and ran the tests after each. A run cost about three times as much: 0.57 and 0.69 dollars against 0.18 to 0.25.
+- With the rule, a Sonnet run cost about one and a half times as much.
+- Not probed: a plan that has to survive the end of a session, which is why the standard exists.
 
 ## Run It Again
 
