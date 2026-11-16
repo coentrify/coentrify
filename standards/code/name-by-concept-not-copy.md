@@ -6,7 +6,7 @@ Identifiers carry the generic concept they represent, never the specific UI copy
 
 Copy gets reworded and localized; the concept it names does not. An identifier named after the Dutch label reads as a translation, breaks the all-English-identifiers convention, and goes stale the moment the wording changes or a second locale appears. Naming by concept keeps the code stable while the copy is free to move.
 
-## How to apply
+## How to Apply
 
 - Name the identifier for what it represents in generic English: `observationsTab`, `DEVELOPMENT_TAB`, `notesLabel`.
 - Keep the literal copy as the string value it points at: `tab(page, 'Observaties')`.

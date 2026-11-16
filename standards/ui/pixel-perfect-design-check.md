@@ -6,7 +6,7 @@ When building or reviewing UI against a design, compare the rendered pixels to t
 
 Color, padding, spacing, and alignment drift is invisible to type checks, lint, and unit tests - it shows only in the rendered output, where a side-by-side comparison makes it obvious and a prose review walks past it.
 
-## How to apply
+## How to Apply
 
 - Capture the design (Figma screenshot) and the running app at the same view, and compare them side by side: colors, padding, spacing, type, alignment.
 - Check at the resolutions that matter - the breakpoints the view targets - since responsive rules change layout (e.g. callouts hidden at narrow widths, so verify at a width where they show).

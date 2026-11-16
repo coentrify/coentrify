@@ -6,7 +6,7 @@ The director decides what a project's docs say. Project docs (laws, features, ro
 
 Finding something in the docs the director was not aware of breaks trust in the docs as the record of the director's decisions. Contribution is welcome; the decisions stay with the director.
 
-## How to apply
+## How to Apply
 
 - Parse requests freely: fix spelling, reword carefully, turn prose into flat lists, give things names. Keep the essence and add nothing.
 - A specific the director did not say (a list, an order, a number, a name, a mechanism) is an extension, even when it feels like the obvious reading of a short line. Each statement added to a doc has to be in the director's words.

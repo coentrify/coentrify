@@ -6,7 +6,7 @@ Extracting feature markup into shared `ui` primitives, or consolidating duplicat
 
 Consolidation can quietly change visuals: a brand-colored count goes gray, compact details grow, panel padding shifts. That is a redesign smuggled into a refactor, and the design decision is not the agent's to make. Variants keep the refactor faithful while still giving one source of truth.
 
-## How to apply
+## How to Apply
 
 - Before extracting, diff the old per-consumer values (color, font scale and weight, spacing, border and fill). Every difference becomes a variant input with a functional name (`size`, `tone`, `variant`), defaulting to the most common case; the other consumers opt in.
 - Verify fidelity by comparing computed styles in preview against the originals; "looks close" is not enough.

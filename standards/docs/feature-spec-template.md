@@ -14,7 +14,7 @@ Title: `# <Feature Name>`, matching the feature doc; a subtitle only when the sc
 
 `## Use Cases` opens with a flat overview list of every case, ``<description> (`<feature-id>-N`)``, ordered by id. Below it, each case is its own `###` heading.
 
-## Use case shape
+## Use Case Shape
 
 - Subheading: ``### <imperative title> (`<feature-id>-N`)``. ID format matches the overview list so the two read identically.
 - Body: flat dash list. No nesting.
@@ -31,7 +31,7 @@ Example:
 - confirm the list shows the unresolved requests
 ```
 
-### Start state
+### Start State
 
 - First step describes the start state functionally, not as an action. Prefix with `On ` so it reads as a state declaration: "On mobile viewport, sidebar overlay open."
 - Auth, navigation, and prior setup are implied by the state, not enumerated as steps. Auth is mocked - never write "Sign in" as a step.
@@ -53,7 +53,7 @@ Example:
 - Insert an intermediate confirm between two actions when the first action could realistically fail or produce an unexpected state - otherwise the second action runs on an unverified premise and the eventual failure points the wrong way. Pure data-entry actions (type a comment, tick a box) can skip the intermediate confirm and merge with the next action.
 - Negative confirms must be observable. "No silent re-auth is attempted" is too vague to assert; "no redirect to the sign-in provider occurs" is concrete.
 
-### Other rules
+### Other Rules
 
 - No state-marker tags like `(auth required)` on cases; a case that is about such a state lives in that feature's own spec.
 - Steps stay brief, succinct, and functional - no selectors, no component names, no implementation language. Literal UI labels in backticks are allowed (e.g. `Bronnen`).

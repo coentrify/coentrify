@@ -6,7 +6,7 @@ Workspace-level `docs/tech-debt.md` uses a fixed shape.
 
 Catalogues internal debt: infrastructure friction, tooling gaps, missing abstractions. Things developers trip over but real users never see. Distinct from user-facing bugs and third-party feedback - see the split below.
 
-## Bug / debt / feedback split
+## Bug / Debt / Feedback Split
 
 - User-facing symptom -> [Bugs Template](bugs-template.md).
 - Third-party library limitation (even with a workaround) -> [Library Feedback](../docs/library-feedback.md).
@@ -18,14 +18,14 @@ Catalogues internal debt: infrastructure friction, tooling gaps, missing abstrac
 - Overview list: flat dash list, one bullet per item, formatted as ``- <description>`` or ``- <description> (`<severity>`)`` when severity applies. Always present. Sorted by severity, highest first (blockers at the top); items without a severity sit below.
 - Per item: `##` subheading with the title, then the body shape.
 
-## Item shape
+## Item Shape
 
 - Subheading: `## <concise title>`.
 - Optional severity line right after the title: `Severity: <level>`. Use sparingly: `Blocker` for items actively blocking other work. Other levels (`high`, `medium`, `low`) are optional and used when meaningful.
 - Body: *just enough* to start the work. State what's broken and what success looks like. Brief - one short paragraph, often two sentences.
 - Affected use cases or features can be mentioned briefly when they sharpen the impact. Don't enumerate exhaustively; readers can follow the spec docs.
 
-## What doesn't belong
+## What Doesn't Belong
 
 - Implementation prescriptions (e.g. "introduce a single SCSS map with names X, Y, Z"). That belongs in the eventual PR, not the debt entry. The HOW gets figured out when the work begins.
 - Detailed mechanism (which classes, which methods, which file). Same reason.

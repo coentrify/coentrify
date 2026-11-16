@@ -6,7 +6,7 @@ The shared `ui` library must stand on its own, extractable as-is into another ap
 
 A domain-to-presentation map (a record status to a badge color, a status to an icon) is domain knowledge; baking it into ui couples the library to one domain and breaks reuse. "Can this component drop into an unrelated app unchanged?" is the separation-of-concerns test for every ui component.
 
-## How to apply
+## How to Apply
 
 - The consumer (feature or app) owns the domain-to-primitive mapping and passes the resolved value in, such as a `color` to a generic badge.
 - Domain-to-presentation maps live in the feature or app layer, never in ui or `data`; `data` stays design-system-free and imports no design-system package. A duplicated map consolidates into one shared feature module instead of moving to ui.

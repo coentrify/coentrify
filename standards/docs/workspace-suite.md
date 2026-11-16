@@ -24,6 +24,6 @@ Maturity scale for a workspace, in the spirit of the Kardashev scale. Each level
 - Level 4 - Fully up to date. All dependencies current, not just the primary framework.
 - Level 5 - Tool complete. Every suite deliverable exists and its deployment is green.
 
-## Tooling and the levels
+## Tooling and the Levels
 
 Heavyweight tooling (visual regression, contract testing, reporting dashboards, accessibility automation) follows level maturity rather than leading it. See [Defer Tooling Until The Cost Shows Up](../tooling/defer-tooling-until-the-cost-shows-up.md): a workspace at Level 1-2 doesn't need them; a workspace approaching Level 5 has likely earned them.

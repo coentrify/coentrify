@@ -15,7 +15,7 @@ Answers "what's next?" at a glance. Active surfaces the current focus; Prioritie
 - `## Waiting For Response` - paused on external dependencies (third parties, partners, vendors). We can't unblock ourselves.
 - `## Nice To Have` - future ideas, no current commitment.
 
-## Item shape
+## Item Shape
 
 - Every item name makes three things clear at a glance: the type of work, the topic, and the direction of the issue or outcome. That is the level of awareness a top-level list needs; each type of work reads slightly differently:
   - A feature epic is a goal from the user's perspective: `Create an account`, `Place your first order`. It says it is a feature, names the topic and hints at the outcome (you can create an account). A feature is the state left after its epics have run their course, so an item is an epic, never a bare feature name.
@@ -27,7 +27,7 @@ Answers "what's next?" at a glance. Active surfaces the current focus; Prioritie
 - Blocked / Waiting items: include the blocker inline, e.g. ``X - blocked by Y`` or ``X - waiting for Z``.
 - Reference the feature doc when an item maps to one, e.g. ``[Mobile Responsive](features/responsive.md) - blocked on ...``.
 
-## What doesn't belong on the roadmap
+## What Doesn't Belong on the Roadmap
 
 - Specific bugs - they live in [Bugs Template](bugs-template.md).
 - Tech-debt entries - they live in `tech-debt.md`.
@@ -42,8 +42,4 @@ Answers "what's next?" at a glance. Active surfaces the current focus; Prioritie
 
 ## The Todo Beside It
 
-Beside the roadmap a `docs/todo.md` lists the biggish
-features and tasks decided to build but not in the plan yet, still to
-be workshopped; Nice To Have keeps what can wait until after the release
-(1.1 features); undecided ideas stay on the concepts page. Before asking the director whether an unbuilt item is still wanted,
-check whether it belongs on the todo, Nice To Have or concepts.
+Beside the roadmap a `docs/todo.md` lists the biggish features and tasks decided to build but not in the plan yet, still to be workshopped; Nice To Have keeps what can wait until after the release (1.1 features); undecided ideas stay on the concepts page. Before asking the director whether an unbuilt item is still wanted, check whether it belongs on the todo, Nice To Have or concepts.

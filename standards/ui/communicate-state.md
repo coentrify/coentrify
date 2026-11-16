@@ -6,7 +6,7 @@ Every state the user cares about - loading, empty, error, success, disabled/lock
 
 Visibility of system status is the first usability heuristic: the system keeps the user informed through appropriate feedback within reasonable time. A silent state leaves the user guessing whether the action worked, whether data is still coming or whether something broke. A failed fetch that falls back to an empty list tells the user there is nothing, when the truth is that it could not load.
 
-## How to apply
+## How to Apply
 
 - Model async data as explicit states (loading / loaded / empty / error) instead of a single value with an empty fallback. Each gets its own affordance: skeleton or spinner, empty state, error callout, success toast.
 - Disabled or locked controls signal why they are inert.

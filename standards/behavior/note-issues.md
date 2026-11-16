@@ -6,7 +6,7 @@ When you encounter a problem during other work (bug, code smell, lint suppressio
 
 Issues found in passing are easy to forget once the current work is shipped. Silent suppression compounds: every workaround that goes unnoted becomes invisible debt.
 
-## Where to note
+## Where to Note
 
 Pick the most specific home; every ticket follows [Work Tracking](../tickets-workflow/work-tracking.md):
 
@@ -17,7 +17,7 @@ Pick the most specific home; every ticket follows [Work Tracking](../tickets-wor
 - Friction with a library -> surfaced to the director in the report ([Library Feedback](../docs/library-feedback.md)).
 - A ticket filed this way lands in the phase where it hurts the goal, a later one unless it hurts the current goal now ([Dev Tiers](dev-tiers.md)), and stays unscheduled until the director plans it; the report names it.
 
-## How to apply
+## How to Apply
 
 - Stop briefly, add a short entry to the right doc, return to current work. One line is enough most of the time; supporting context only when necessary.
 - Never just suppress (eslint-disable, ts-ignore, swallowed error) without a matching note.

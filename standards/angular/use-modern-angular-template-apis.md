@@ -6,7 +6,7 @@ Use the current Angular idiom over the legacy one it replaced. The directives `N
 
 The deprecated APIs draw review comments, carry the old `CommonModule` import weight, and drift from the framework's direction. The replacements are first-class, smaller, and (for class and style) merge cleanly with static attributes.
 
-## How to apply
+## How to Apply
 
 - Bind classes with `[class]="expr"` (a string of classes, merges with the static `class` attribute) or `[class.name]="condition"`; never `[ngClass]`.
 - Bind styles with `[style.prop]="value"` or `[style]="obj"`; never `[ngStyle]`.

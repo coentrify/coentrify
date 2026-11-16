@@ -6,7 +6,7 @@ Decide easy-to-change choices yourself and keep working; name them in the report
 
 Waiting on the director for a choice a small edit undoes costs a round trip for nothing: a color is a token swap.
 
-## How to apply
+## How to Apply
 
 - Pick the option that best fits the director's earlier words, build it, and list it among the agent's own decisions in the report ([Flag Every Addition of Your Own](flag-every-addition-of-your-own.md)).
 - Ask only where the answer changes what gets built in a way that is costly to undo: scope, mechanics, what a feature does, where something lives in the product.

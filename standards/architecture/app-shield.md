@@ -36,7 +36,7 @@ Environment shape, types, and configuration tokens. Pure types/interfaces and DI
 
 Each layer has one job and one direction it depends on. Misplacing a file (e.g. putting a guard in a lazy-loaded route lib) creates circular deps, breaks lazy-loading boundaries, and forces static imports across edges that should stay decoupled. In Nx workspaces this is enforced mechanically; without Nx, the same discipline applies by convention.
 
-## How to apply
+## How to Apply
 
 Before creating a new file, ask "which layer does this belong to?":
 

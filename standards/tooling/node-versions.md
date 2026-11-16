@@ -6,7 +6,7 @@ Only use even-numbered Node.js major versions (22, 24, 26, etc.). Never upgrade 
 
 Only even Node major versions enter LTS (Long-Term Support). Odd versions are "Current" releases that get deprecated when the next even version hits LTS. Production should be LTS.
 
-## How to apply
+## How to Apply
 
 When picking a Node version, stick to even majors across every place Node is pinned:
 

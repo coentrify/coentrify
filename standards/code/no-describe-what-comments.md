@@ -6,7 +6,7 @@ Don't add comments that describe what a class/function does or which other code 
 
 Comments duplicate or drift from the code. Something like "Builds one config per entity; triggered by the selection page..." is just a call-graph paraphrase. Hardcoded routes or paths inside comments are a smell because they rot the moment a route moves.
 
-## How to apply
+## How to Apply
 
 Default is no comment. Only keep one for:
 

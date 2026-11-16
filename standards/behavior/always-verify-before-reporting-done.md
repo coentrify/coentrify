@@ -6,7 +6,7 @@ The verification step always applies. The mechanism varies by what was changed.
 
 Changes a browser preview can't exercise (e2e specs, types, build config, scripts, mocks, docs that drive tests) still break at runtime, and only the matching check proves they work. Re-reading the diff catches mistakes in what you wrote; running the check catches mistakes in whether it works.
 
-## How to apply
+## How to Apply
 
 - Pick the verification surface that matches the change: browser preview for UI, e2e run for spec edits, type check for type changes, unit run for logic, lint for style-rule fixes, build for tooling.
 - Run it before declaring done. "I read the diff" never substitutes for "I ran the check" when a check exists.

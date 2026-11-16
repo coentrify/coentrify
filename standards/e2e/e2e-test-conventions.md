@@ -6,7 +6,7 @@
 - A developer tool, such as a devbox or a seed endpoint, may seed the state a case starts from; its own routes (a jump, a scenario, a reset) are never the flow under test.
 - A bug only a tool can reach belongs to the tool and gets a unit test of the tool.
 
-## File and describe
+## File and Describe
 
 - One spec file per feature; happy and error variants are siblings in the same file.
 - Every test sits in a `describe('<Feature Name>', ...)` block, so the report heading reads as the feature ("User List", "Search User") instead of the file name. The describe names the feature, never the flow.
@@ -37,12 +37,12 @@ The test title is the use-case name: no "happy path", no flow prefix, no ID pref
   - New patterns stay functional and user-perceived; never a tag for a feature name (the spec file is the feature), an implementation mechanic (redirects, pickers, layouts) or a single-test category.
 - No application-name tag on per-flow tests; the test-runner project name already labels every test by application.
 
-## Helpers and shared data
+## Helpers and Shared Data
 
 - Spec-side helpers (URL builder, named timeouts, locator factories) live next to the specs they support.
 - Tests that assert on seeded data import it from the application's testing lib ([Realistic Test Data Variance](../tests/realistic-test-data-variance.md)); never hardcode the seeded values.
 
-## Use-case linkage
+## Use-Case Linkage
 
 Every test maps to a use case in the feature's spec.md by its `@<use-case-id>` tag. The use case lands in the spec first, the test second ([Feature Spec Template](../docs/feature-spec-template.md)).
 

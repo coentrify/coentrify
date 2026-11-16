@@ -24,7 +24,7 @@ The project docs are served as a VitePress wiki on a fixed non-default port, sta
 
 The director reads the wiki while the agent works: it is the review surface for docs, changelogs, captures and reels. A generated sidebar means a new page is reachable the moment it exists, and the lightbox with the arrow keys turns a changelog's captures into a slideshow.
 
-## How to apply
+## How to Apply
 
 - Set the wiki up on day one with the docs skeleton, before any feature.
 - At session start, run the wiki when the project has one and hand over its URL; it keeps running after the session when the director asked for it ([Own Ports, Own Processes](../behavior/own-ports-own-processes.md)).

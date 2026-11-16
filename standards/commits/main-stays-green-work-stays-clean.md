@@ -6,7 +6,7 @@ Main is always green, so a version can be cut from it at any moment. Every unit 
 
 Tests exist to fail when something breaks; a red test left standing, or marked to be ignored, teaches everyone to look past red. A human team does not let one developer leave a mess for another to tidy, and agents should not either.
 
-## How to apply
+## How to Apply
 
 - A builder's branch merges into main with `--no-commit` first; the merged tree's types, unit specs and build run, and the touched suites when two branches meet the same screen, before the merge commit lands. Two branches green apart can be red together (a new field from one, a spec without it from the other).
 - A red main is priority one: it is fixed before anything else lands ([Dev Tiers](../behavior/dev-tiers.md)).

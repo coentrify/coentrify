@@ -6,7 +6,7 @@ A design system's surface and shadow tokens may carry no dark-mode value, and co
 
 A literal override is a magic value per color mode: it drifts from the palette, has to be found again for every new mode, and skips theming. A token with a dark value flips with the mode everywhere it is used.
 
-## How to apply
+## How to Apply
 
 - When adding or auditing dark mode, find the hardcoded color literals used as opaque fills and replace each with a token.
 - A token without a dark value gets one in the token layer, derived from the composite the element sits on: the surface's alpha over the dark page background. Where the design system is not the project's own, the project's token layer adds it and the gap is surfaced to the director ([Library Feedback](../docs/library-feedback.md)).

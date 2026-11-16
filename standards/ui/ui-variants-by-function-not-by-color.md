@@ -11,7 +11,7 @@ When a UI component supports multiple visual variants, the input describes the f
 
 Color is a visual concern that belongs inside the UI layer. Letting callers pick colors fragments the design system, makes rebrands painful, and couples consumers to current visual choices.
 
-## How to apply
+## How to Apply
 
 - Name inputs after intent: `severity`, `tone`, `variant`, `state`, `type`.
 - Accept a closed set of semantic values in generic presentation vocabulary (`'info' | 'warning' | 'error' | 'success'`), never domain values (`'active' | 'ended'`); the consumer maps a domain value to a variant ([UI Library Is Domain-Agnostic](ui-library-is-domain-agnostic.md)).

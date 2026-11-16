@@ -10,7 +10,7 @@ The work is tracked in a few flat lists, and the director asks one question: wha
 - Plan - the active file, with what is in flight now
 - Bugs, debt and the technical roadmap - the other lists the plan pulls from
 
-## How to apply
+## How to Apply
 
 - Put anything new in the inbox.
 - When the director rants, extract one bullet per topic or idea.

@@ -6,7 +6,7 @@ When cleaning up the codebase, getting app-shield layer separation clean comes f
 
 Layer placement is the structural foundation. Once each file is in the right layer, each layer can be audited against its own standards without churn; polishing a layer before its files are correctly placed means redoing that work when files later move.
 
-## How to apply
+## How to Apply
 
 - Land layer-placement moves first, for example domain data-access out of core into its proper data or feature layer.
 - Then go layer by layer against each one's standards (ui: content projection over props; data: mappers / types / DTOs; core: generic infra only; and so on).

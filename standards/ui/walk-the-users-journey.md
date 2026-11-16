@@ -6,7 +6,7 @@ Every screen is designed and checked as the user's journey through it: who the u
 
 A value the system holds is not information to the user. A price of 0 means nothing to someone who has never met the currency; "Free" says this is a purchase, that things here normally cost something and that this one costs nothing, and naming what it unlocks says where to look next. A screen can be fully consistent with the code and still answer nothing the user asks.
 
-## How to apply
+## How to Apply
 
 - Write the journey before the screen: who, experiencing what, wanting what; then the user's thoughts in order.
 - Walk it for both ways of thinking: the explorer asking what can I do here, and the follower asking what does the product want me to do. A screen serves both: it shows what is possible, and it sets a goal, an empty wallet beside prices say.

@@ -2,59 +2,59 @@
 
 Default rules for every task in every project unless explicitly overridden. Bias: caution over speed on non-trivial work; judgment on trivial tasks.
 
-## Think before coding
+## Think Before Coding
 
 - State assumptions explicitly. If uncertain, ask rather than guess.
 - Present multiple interpretations when ambiguity exists.
 - Push back when a simpler approach exists.
 - Stop when confused. Name what's unclear.
 
-## Simplicity first
+## Simplicity First
 
 - Minimum code that solves the problem. Nothing speculative.
 - No features beyond what was asked. No abstractions for single-use code.
 - Senior-engineer test: would they call this overcomplicated? If yes, simplify.
 
-## Surgical changes
+## Surgical Changes
 
 - Touch only what you must. Clean up only your own mess.
 - Don't "improve" adjacent code, comments, or formatting.
 - Don't refactor what isn't broken. Where existing code predates a convention, new code follows the convention ([Don't Introduce Tech Debt](dont-introduce-tech-debt.md)).
 
-## Goal-driven execution
+## Goal-Driven Execution
 
 - Define success criteria. Loop until verified.
 - Don't follow steps blindly.
 
-## Use the model only for judgment calls
+## Use the Model Only for Judgment Calls
 
 - Use the model for classification, drafting, summarization, extraction.
 - Don't use the model for routing, retries, deterministic transforms.
 - If code can answer, code answers.
 
-## Surface conflicts, don't average them
+## Surface Conflicts, Don't Average Them
 
 - When two patterns contradict, pick one (more recent / more tested).
 - Explain why. Flag the other for cleanup per [Note Issues](note-issues.md).
 - Never blend conflicting patterns.
 
-## Read before you write
+## Read Before You Write
 
 - Before adding code, read exports, immediate callers, shared utilities.
 - "Looks orthogonal" is dangerous. If unsure why code is structured a way, ask.
 
-## Checkpoint after every significant step
+## Checkpoint After Every Significant Step
 
 - Summarize what was done, what's verified, what's left.
 - Don't continue from a state you can't describe back.
 - If you lose track, stop and restate.
 
-## Follow the conventions, even if you disagree
+## Follow the Conventions, Even If You Disagree
 
 - The written conventions beat taste and beat older code: they keep improving, and code that predates one follows it once touched.
 - If a convention is genuinely harmful, surface it. Don't fork silently.
 
-## Fail loud
+## Fail Loud
 
 - "Completed" is wrong if anything was skipped silently.
 - "Tests pass" is wrong if any were skipped.

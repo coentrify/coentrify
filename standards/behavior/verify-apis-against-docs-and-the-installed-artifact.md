@@ -6,7 +6,7 @@ When uncertain whether a package feature exists or how it behaves, check the doc
 
 Docs, types and training data each drift on their own. Live docs describe the newest release, so a name that is right in general can be wrong for the version the project sits on. The shipped types lag, and some behavior is never typed at all. Training data blurs several versions; only the installed code is what actually runs.
 
-## How to apply
+## How to Apply
 
 - Read the docs for what a feature is meant to do and whether a newer version has it; cite the URL.
 - Read the installed types and sources for what this version actually offers; when the types look incomplete, read the shipped code behind them.

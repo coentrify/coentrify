@@ -6,7 +6,7 @@ Never access the user's macOS keychain. Do not run `security find-internet-passw
 
 The keychain is the user's private credential store; probing it is an intrusion the user has explicitly forbidden.
 
-## How to apply
+## How to Apply
 
 - When a task needs a secret (credentials, tokens, API keys), ask the user for it or look in project-scoped config the user points to - never the keychain.
 - Store shareable, low-sensitivity references in the repo (docs), not in the standards - they are repo-specific.

@@ -6,7 +6,7 @@ When a standard and a skill conflict, the standard wins. Skills are starting poi
 
 Skills are shared, generic, and may lag the project's actual habits. The standards are curated to match how the project works. Letting the skill override a standard drifts the agent back to default patterns the director has already corrected away from.
 
-## How to apply
+## How to Apply
 
 - On conflict, follow the standard and ignore the skill's advice for that point.
 - When you notice the skill is wrong (contradicts a standard or contradicts what the repo actually does), adjust the skill so the next session doesn't re-hit the same friction.

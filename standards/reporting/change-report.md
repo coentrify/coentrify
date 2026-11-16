@@ -2,7 +2,7 @@
 
 When a unit of work is done - a fixed bug, a resolved finding, an improvement, a new or changed feature - write a short report a teammate can read in two minutes and trust. It shows the problem with proof, where it lived, why it happened, what else it touched, and the fix with the same proof. For a feature it shows the old flow, what changed, and the user benefit.
 
-## Section shape
+## Section Shape
 
 - Headline + one-sentence hook - what was wrong (or what's new) and what changed.
 - TL;DR - what / where / fix, three lines, in a callout.
@@ -25,7 +25,7 @@ Where a project keeps a changelog per version, that page is the record and this 
 
 A commit message says what changed; a change report proves it and shows the spread. The sweep turns one fix into a closed pattern, and the before/after proof makes the work reviewable without re-running it.
 
-## How to apply
+## How to Apply
 
 - Reach for this when picking an item off a bugs list, recording a finding, or finishing a feature.
 - Only product changes are entries: what the user of the product sees or does differently. Changes to the wiki, the capture and reel scripts, lint or hooks are not changelog entries; their commit is the record.

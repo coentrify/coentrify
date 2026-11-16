@@ -6,7 +6,7 @@ Anything that goes into the product or its docs that the director did not ask fo
 
 An addition that slips in unnamed may be liked, but the director never got to decide it. [Docs Hold Only What the Director Decided](docs-hold-only-what-the-director-decided.md) guards the same thing for docs.
 
-## How to apply
+## How to Apply
 
 - Keep a running list of what you added beyond the request while working.
 - Put that list under a "to veto" or "my additions" heading in the report; in a ticket, the list is its Veto section, holding only what the director could want undone, in a few words ([The Done Part](../tickets-workflow/the-done-part.md)).

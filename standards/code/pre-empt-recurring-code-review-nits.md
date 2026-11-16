@@ -6,7 +6,7 @@ A small set of avoidable nits keep coming back in review. Pre-empt them when wri
 
 Each of these costs a review round on something mechanical and lint- or spec-decidable, so it should never reach a human reviewer.
 
-## How to apply
+## How to Apply
 
 - CI action pins: keep GitHub Actions on their latest major (`@vN`). When one workflow is already ahead, align the rest in the same change.
 - Angular template attribute order: STRUCTURAL_DIRECTIVE -> ATTRIBUTE_BINDING -> TEMPLATE_REFERENCE -> INPUT_BINDING -> TWO_WAY_BINDING -> OUTPUT_BINDING. Enforce with `@angular-eslint/template/attributes-order` (one shared fragment spread into every template-bearing project's config) and `lint --fix`, never by eye.

@@ -6,7 +6,7 @@ A sweep for a pattern begins by finding every instance and listing them in one d
 
 The inventory is the real deliverable: a clean, actionable list of every place to fix. A partial fix hides the instances left behind and reads as done. Enumerating up front also lets the work pause and resume across sessions, and keeps the count honest.
 
-## How to apply
+## How to Apply
 
 - First pass: scan thoroughly for every instance - watch for casing, singular/plural, and shape variants that a narrow grep misses - and list each in the debt ticket's body.
 - Then work the list, removing items as they are fixed, per [Remove Completed Items from Docs](../simple-workflow/remove-completed-items-from-docs.md).

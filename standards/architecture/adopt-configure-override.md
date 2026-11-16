@@ -10,7 +10,7 @@ Anything made to be reused across projects comes in three layers. A project adop
 
 A person's time is the bottleneck, so a default that asks questions costs every project that adopts it. Configs keep the common differences cheap. Overrides let a project run ahead without waiting for the source to change.
 
-## How to apply
+## How to Apply
 
 - The default path asks nothing. The person is involved only for a decision that is really theirs.
 - A choice becomes a config only once projects truly differ on it; until then it is a default.

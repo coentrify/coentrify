@@ -8,7 +8,7 @@ Selectors bound to implementation break the moment a component is renamed, wrapp
 
 Role and label locators also force the app to expose proper accessibility, a product baseline regardless of testing.
 
-## How to apply
+## How to Apply
 
 - An element that genuinely lacks a role (a custom dropdown trigger that isn't a button yet) gets its implementation selector wrapped in exactly one helper per user gesture (`openRowActionMenu`, `openRoleFilter`). Specs only call the helper; when the UI is upgraded, only the helper changes.
 - Don't match on translated strings inside boot or async wait code: translations load asynchronously and create races. Wait for a stable non-translated marker first; translated text is safe for assertions after that.

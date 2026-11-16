@@ -8,7 +8,7 @@ The provenance lives in the request log, where every message is written first, a
 
 A page full of log statements reads as a history and buries the functional description. Attribution markers also spread fast once briefs or rules ask for a source on every line, until most pages carry them. The log already holds who said what and when.
 
-## How to apply
+## How to Apply
 
 - Writing or editing a knowledge page: state the fact in plain present tense; leave the attribution, the date and the quote in the log.
 - The director's say over the docs still holds ([Docs Hold Only What the Director Decided](../behavior/docs-hold-only-what-the-director-decided.md)): only what the director said or approved goes in. The check is the log, never a marker on the line.

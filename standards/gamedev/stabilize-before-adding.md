@@ -6,7 +6,7 @@ While a version is being made stable and clean, its plan holds bugs and tweaks t
 
 New things ride in from playtest notes easily, and a version that mixes them with its fixes is never stable. Stable and clean comes first, then the short-term roadmap, then new things.
 
-## How to apply
+## How to Apply
 
 - When parsing a note, ask whether the thing exists in the game today; if not, it is new and goes into its epic, unless the director explicitly pulls it into the version.
 

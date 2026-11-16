@@ -12,7 +12,7 @@ The log closes the gap between the prompt and its interpretation: every parsed d
 - One `##` per message, titled with its time. The heading is written by the shell itself in the append, `printf '\n## %s\n\n' "$(date +%H:%M)"`, never typed: typed headings run ahead of the clock.
 - The days before the agent are reconstructed from the commit history as entries of their own, so the count starts at the project's first day.
 
-## How to apply
+## How to Apply
 
 - Log first, in the same turn, then run intake.
 - A message that lands mid-turn is logged the same way, with its own time, before the work goes on.

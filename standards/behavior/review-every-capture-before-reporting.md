@@ -6,7 +6,7 @@ Look at each capture the pipeline produced before the report, and check it again
 
 A regression that sits in a picture already on the page still reaches the director, who then has to point it out. Seeded content and new art can also compose into an offensive shape. The same eyes that verify a diff verify the captures.
 
-## How to apply
+## How to Apply
 
 - After a capture run, read every new image and compare it with the previous set of the same state.
 - Fix what regressed before committing, or file it and say so.

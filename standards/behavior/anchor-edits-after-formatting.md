@@ -6,7 +6,7 @@ An anchored text edit (replace this exact snippet) should be made against the fi
 
 A formatter pass, a lint-staged commit hook, or a migration in between rewrites line breaks and import order, and the anchor silently stops matching.
 
-## How to apply
+## How to Apply
 
 - After any formatter run or commit, re-read the lines you are about to anchor on, or rewrite the whole file when it is small.
 - Never write files while a commit hook is running; lint-staged stashes and restores the working tree, and a concurrent write can be lost.

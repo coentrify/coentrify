@@ -2,7 +2,7 @@
 
 The quality of an answer depends on the quality of the question. That holds for a question to the director, to another agent, and to yourself.
 
-## How to apply
+## How to Apply
 
 - When an answer disappoints or contradicts itself, suspect the question first.
 - Ask a vector question over a binary one. "How good is the code?" leaves room for nuance. "Is the code good?" invites a verdict and a debate.

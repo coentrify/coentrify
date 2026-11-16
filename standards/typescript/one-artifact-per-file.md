@@ -8,7 +8,7 @@ Each exported artifact - a type, a `const … as const`, a class, an interface, 
 - The file list reveals the app's scale and surface at a glance, without opening anything.
 - Bundling obfuscates how much exists and forces a whole-file read just to use one symbol.
 
-## How to apply
+## How to Apply
 
 - Split any bundle (wire-type god-files are the usual offender) into one file per artifact.
 - Re-export siblings from the folder barrel so consumers still import from one place.

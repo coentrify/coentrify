@@ -18,7 +18,7 @@ Technical (categorical) - sub-folders are types of artifact:
 - `ui/` -> `components/`, `types/`, `generics/`.
 - `admin/` -> `pages/`, `dialogs/`, `routes/`.
 
-## How to apply
+## How to Apply
 
 When adding a sub-folder, match the kind of its existing siblings. If it would be the other kind, refactor first: insert a level above to separate the concerns, or rethink the structure.
 

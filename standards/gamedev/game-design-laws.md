@@ -62,7 +62,7 @@ The full text is in [Game Design Laws: Story](game-design-laws-story.md).
 
 The player is a human who walks the dog, answers the door, goes to sleep and continues the next day. Laws about that human, such as Easy Pause, Never Wait and AFK Safe, translate into any genre; only their concrete shape changes. A written set with director-approved exceptions stops every design talk from starting over.
 
-## How to apply
+## How to Apply
 
 - A game's laws doc has three parts: the generic laws it adopts, the ones it leaves out with a reason, and its own laws and overrides in full.
 - An adopted or left-out law is named by its name in this set, never copied.

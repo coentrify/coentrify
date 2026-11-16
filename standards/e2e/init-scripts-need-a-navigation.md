@@ -6,7 +6,7 @@
 
 A spec that boots in `beforeEach` (sign-in plus `page.goto('/')`) has already navigated when the test body runs, so a scenario set inside the test still meets the old one at the mock. Writing the value with `page.evaluate` into session storage is no substitute: the app has already bootstrapped, and only later reads see the new value.
 
-## How to apply
+## How to Apply
 
 - Per-test scenario change in a suite that navigates in `beforeEach`: `await setScenario(...); await page.reload();` before exercising the feature.
 - A test that needs the scenario before its only navigation sets it first, then calls `page.goto`; no reload needed.

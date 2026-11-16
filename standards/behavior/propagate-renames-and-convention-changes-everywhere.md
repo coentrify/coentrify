@@ -6,7 +6,7 @@ When you rename a concept, file, route, or label, or change a doc/code conventio
 
 A rename or convention change almost never lives in one place.
 
-## How to apply
+## How to Apply
 
 Enumerate first: grep the old term to list every site. Sweep them all. Re-grep afterwards to confirm none remain.
 

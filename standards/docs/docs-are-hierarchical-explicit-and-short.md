@@ -31,7 +31,7 @@ Constant implicit references and long bullets of several sentences are very hard
 - Good organization beats both lists and prose: structure first, then short lists, prose only for descriptive matter such as the look.
 - Plans, logs and changelogs keep their own shapes.
 
-## How to apply
+## How to Apply
 
 - Legacy pages get rewritten page by page, with one model page reviewed by the director first; the wiki's tree is workshopped with the director before pages move.
 

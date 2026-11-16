@@ -6,7 +6,7 @@ A file is named after its title, in lowercase, with a dash between the words.
 
 A name that follows the title can be guessed, reads well in a link, and sorts the same way the titles do.
 
-## How to apply
+## How to Apply
 
 - Use lowercase letters, and a dash between words.
 - Use no spaces, underscores or capitals.

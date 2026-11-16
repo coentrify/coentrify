@@ -6,7 +6,7 @@ When the director calls a piece of work prototyping (a throwaway tool, a one-pag
 
 A prototype grown into a layered tool before the director can try it once loses the point of prototyping: the director wants to hear or click the idea, fast.
 
-## How to apply
+## How to Apply
 
 - Keep a prototype apart from the product's code, in its own folder with its own copies, no imports from it.
 - Time to the first thing the director can hear or click is the measure; ask before growing it.

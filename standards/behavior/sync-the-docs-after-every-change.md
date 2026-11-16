@@ -6,7 +6,7 @@ When something changed or a feature landed, check the docs for related informati
 
 A feature's own doc gets updated when it is built, while the docs that mention it in passing drift. Every duplicate statement is a place to go stale.
 
-## How to apply
+## How to Apply
 
 - After an item lands, grep the docs for its feature's terms (names, labels, the old behavior) and read every hit, beyond the feature's own doc.
 - A statement the change made untrue gets fixed in the same commit or the next one.

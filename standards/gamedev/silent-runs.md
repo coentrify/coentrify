@@ -6,7 +6,7 @@ Every run of a game the agent starts is silent. A walk through the game, a check
 
 The director works beside the agent, and sound from a preview an agent opened plays on until someone closes it in that agent's session, breaking the director's focus.
 
-## How to apply
+## How to Apply
 
 - Walk a player journey through a capture spec, its screenshots read step by step, with `CAPTURE_DIR` sending them to the scratchpad.
 - Any browser the agent launches for a game takes `--mute-audio`; a new Playwright config carries it from the start.

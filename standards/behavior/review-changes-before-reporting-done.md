@@ -6,7 +6,7 @@ Before reporting work as done or committing, re-read the full diff and the files
 
 Edits accumulate side effects that aren't visible while making them: missed imports, half-finished refactors, files still referencing renamed symbols, auto-fix side effects, dropped consumers of a moved export. The diff is the only place these show up before review.
 
-## How to apply
+## How to Apply
 
 - For renames or moves, search for the old name across the repo to confirm no orphan references remain.
 - Scope the re-read to the change - the hunk alone for trivial edits, the contextually relevant surrounding logic for refactors and behavior changes.

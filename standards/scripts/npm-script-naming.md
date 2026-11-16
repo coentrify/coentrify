@@ -2,7 +2,7 @@
 
 Two patterns, depending on who runs the script.
 
-## Tasks (run by humans or shared)
+## Tasks (Run by Humans or Shared)
 
 Format: `<verb>:<app>:<thing>`. App always comes second, never `<verb>:<thing>:<app>`. Omit `<app>` in single-app projects; omit `<thing>` when not needed.
 
@@ -16,7 +16,7 @@ Format: `<verb>:<app>:<thing>`. App always comes second, never `<verb>:<thing>:<
 - `start:admin` - run the admin dev server.
 - `e2e:admin:report` - run the full e2e suite with HTML report and videos.
 
-## Contexts (run by automation)
+## Contexts (Run by Automation)
 
 Format: `<context>:<thing>`. Each automation context gets its own dedicated scripts, distinct from the human-run tasks above. The `hooks:` and `ci:` prefixes are examples of the general pattern: one prefix per context.
 

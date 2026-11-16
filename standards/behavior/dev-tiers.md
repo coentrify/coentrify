@@ -6,7 +6,7 @@ Pick work in a fixed order, higher tiers first: CI/CD and build, then bugs, then
 
 Adding features on top of a red build or known bugs compounds the mess, and bugs are no fun for the user.
 
-## How to apply
+## How to Apply
 
 - Before starting a feature, check the build, the bug tickets and the debt tickets; work the highest non-empty tier first.
 - Only bugs that hurt the current phase's goal take the bug tier: early on, a bug in a core feature or one that stops the product from being used from start to finish. Every other bug is filed for a later phase, under the epic it belongs to there ([Work Tracking](../tickets-workflow/work-tracking.md#phases)).

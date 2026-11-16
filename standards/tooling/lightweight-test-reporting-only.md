@@ -6,7 +6,7 @@ Test reporting should show whether the suite is green right now, nothing more. S
 
 What matters is speed, consistency, and reliability of the signal - did it pass, did it fail, where. Trends, history, and flaky analytics add weight and one more thing to learn, with no real payoff at typical project maturity.
 
-## How to apply
+## How to Apply
 
 - Pick the reporter that maximizes speed, consistent output, and reliable signal - usually the test runner's own.
 - Add small custom reporters only when they answer a concrete question, like click count per flow.

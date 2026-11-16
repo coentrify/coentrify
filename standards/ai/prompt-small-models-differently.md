@@ -6,7 +6,7 @@ A prompt written for a frontier model degrades a small local one. Give each mode
 
 Small models lose the thread in long, multi-part instructions and fill gaps confidently: asked about state it cannot see, a small model answers with a plausible number instead of saying it cannot know. Default sampling settings make this worse for rule-following work.
 
-## How to apply
+## How to Apply
 
 - Keep the instruction short and rule-shaped: a numbered list of hard rules beats prose paragraphs.
 - Lower the temperature for rule-following work; creative defaults invent state.

@@ -21,7 +21,7 @@ Proof regenerates from the scenarios after every change ([Reels And Video Proof]
 - A stage's reel runs on into the next stage's opening; the changelog keeps a copy under the version's name.
 - An edge flow worked on in the iteration goes into the stage's reel or a small video of its own, so the director sees the flow that changed.
 
-## How to apply
+## How to Apply
 
 - Suites and capture runs are muted ([Silent Runs](silent-runs.md)); only the reel records sound.
 - The videos stay untracked in git, the reels and the changelog's copies alike, since they are heavy and change every version; only chosen ones, such as a store page's, get tracked later. Ignore the video folders on day one.

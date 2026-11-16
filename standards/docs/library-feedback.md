@@ -6,7 +6,7 @@ Friction with a library never gets a doc in the project. It is surfaced to the d
 
 The project's docs describe the product and its work; feedback on someone else's library belongs with that library, and only the director has the relationship to take it there. A workaround still needs its reason beside it, or the next reader removes it.
 
-## How to apply
+## How to Apply
 
 - The first time a friction point shows up (a missing data-testid, an unintuitive event, a bug, an API shape that forces a hack), name it in the report: the library, the friction, and the workaround if there is one.
 - A workaround gets a why-comment at the code, naming the library's friction.

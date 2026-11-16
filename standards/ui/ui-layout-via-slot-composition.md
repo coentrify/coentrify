@@ -13,7 +13,7 @@ Generic slots keep a layout component's responsibility clear and reusable; colum
 - Two or more slots are usually one default (the body) plus a couple of named ones (`top`, `actions`, `footer`).
 - Only when a default makes no sense (genuinely symmetric regions, such as left and right) are there two named slots and no default; in practice this is rare.
 
-## How to apply
+## How to Apply
 
 - A slot names a region of the component, the place where content sits: `title`, `header`, `actions`, `footer`, `top`. Whatever sits in that region goes into its slot: a chip after a card's title text, or a tooltip on it, is projected into the title slot along with the text.
 - A slot never names a kind of content (`chip`, `badge`, `tooltip`, `button`): a region holds whatever the consumer puts there.

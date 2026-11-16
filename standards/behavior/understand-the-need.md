@@ -8,7 +8,7 @@ An agent is eager to solve. The first solution that works feels like the end, so
 
 A director seldom states a need completely, and the words can seem inconsistent. A solution to the words misses the need behind the words.
 
-## How to apply
+## How to Apply
 
 - Work out the need before choosing a solution.
 - Weigh the need of now against the need of later.

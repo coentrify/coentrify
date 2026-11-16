@@ -6,7 +6,7 @@ Never drop or filter out data - client-side or server-side - unless that exclusi
 
 Filtering data away sweeps issues under the rug: an unexpected status, a malformed record or a backend bug disappears instead of surfacing. An undocumented filter is a behavior nobody agreed to and nobody can see.
 
-## How to apply
+## How to Apply
 
 - Before adding any filter - a `.filter()`, a narrowing request param, a guard that skips records - confirm the exclusion is specified. If it isn't, surface the data and get it specced first.
 - When the exclusion is genuinely wanted, document it (feature doc or spec) and add a test that asserts it.

@@ -14,7 +14,7 @@ Hold knowledge, conventions, functionality, and reference. They evolve but never
 
 Mixing rots both. Plans accumulate convention sections that drift out of sync with the persistent source of truth. Persistent files accumulate status text that goes stale and clutters every read.
 
-## How to apply
+## How to Apply
 
 When writing, ask: is this *how* something works (or should), or *what* we're doing right now?
 

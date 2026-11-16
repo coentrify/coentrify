@@ -6,7 +6,7 @@ Workspace-level `docs/workspace/bugs.md` and per-app `docs/<app>/bugs.md` use a 
 
 Catalogues user-facing bugs in the current build. A reader scans bugs.md to know exactly what's broken for real users right now, sorted by impact.
 
-## Bug vs tech-debt
+## Bug vs Tech-Debt
 
 - User-facing bug -> bugs.md.
 - Test-tooling limitation, dev-mock gap, internal-only issue -> [tech-debt.md].
@@ -18,7 +18,7 @@ Catalogues user-facing bugs in the current build. A reader scans bugs.md to know
 - Overview list: flat dash list, one bullet per bug, formatted as ``- <description> (`<priority>`)``. Always present, even when there's only one bug. Sorted by priority, highest first.
 - Per bug: `## <title>` subheading, then the bug shape below.
 
-## Bug shape
+## Bug Shape
 
 - Subheading: `## <user-perspective title>`. The title is the user-experienced symptom, not the suspected cause.
 - Priority line right after the title: `Priority: <level>`. Levels: `high`, `medium`, `low` (extend as needed).

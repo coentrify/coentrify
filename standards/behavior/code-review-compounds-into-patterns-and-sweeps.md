@@ -6,7 +6,7 @@ A code-review finding is rarely a one-off. When something surfaces in review, ch
 
 Fixing one instance and moving on leaves the same mistake elsewhere and lets it come back. Capturing the pattern once protects the whole codebase and every later session, so the review round spent on it pays off more than once.
 
-## How to apply
+## How to Apply
 
 - On any finding, look for sibling instances before treating it as isolated.
 - When it is a pattern:

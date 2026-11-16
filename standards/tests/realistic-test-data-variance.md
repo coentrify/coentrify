@@ -6,7 +6,7 @@ Test datasets should mirror production variance across every dimension a feature
 
 A role filter that does nothing still looks fine when every seeded user is an admin. A status sort produces the right (uniform) order when every record has the same status. A "show mine" toggle passes when every record has the same owner. The bug only surfaces in production, where data actually varies.
 
-## How to apply
+## How to Apply
 
 - Vary every dimension a feature acts on: role, status, organization, owner, dates, counts.
 - Factories randomize these dimensions by default; tests pin specific values only when the assertion requires them.

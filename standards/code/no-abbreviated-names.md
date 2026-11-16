@@ -6,7 +6,7 @@ Every identifier carries the full name of what it holds, never a single letter o
 
 A clipped name makes the reader carry "c means child" (or "c means categorical") for the whole block, and it obscures intent at the call site. Spelling it out is free; the readability cost of the abbreviation outlasts the keystrokes saved.
 
-## How to apply
+## How to Apply
 
 - Name a control-flow alias after the value it holds: `@if (child(); as child)`, never `as c`.
 - In SCSS, name map keys and loop variables for what they are: `@each $modifier, $color in ...`, keys like `categorical-1`, not `c1`.

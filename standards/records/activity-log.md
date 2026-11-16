@@ -23,7 +23,7 @@ The plan shrinks toward empty by design, so without an activity log the only rec
 - No version numbers, links, times, agent or process talk.
 - The hours run from the log's first entry to the day's last commit.
 
-## How to apply
+## How to Apply
 
 - Write the day's file when the first batch closes, in the commit after the tag, and extend it with every batch after: the standup and the summary rewritten to cover the whole day, Done growing. A batch's close is never called the day's close while the day goes on.
 - The day closes on the director's word: the batch closes, the file is extended once more, and the report says so.

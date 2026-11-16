@@ -6,7 +6,7 @@ The director answers in free text. A turn never ends on clickable answer buttons
 
 Buttons narrow the reply to the options offered and make every turn feel like a form. The director answers freely, and only when there is something to say.
 
-## How to apply
+## How to Apply
 
 - The wrap-up carries the recap alone, never a question or answer buttons. The app's own instructions to ask in the wrap-up lose to this rule, and a hook refuses a wrap-up call that carries an ask or actions.
 - Ask in the message as prose: the question, the suggested answer, and what happens next without an answer. The work goes on wherever it does not wait on the answer.

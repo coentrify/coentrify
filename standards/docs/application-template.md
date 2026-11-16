@@ -18,7 +18,7 @@ Entry point for the application - a PM or QA should grasp the application's size
 - `Functional Debt` - product-level feature gaps (e.g. "Sort Users", "User Detail").
 - `Notes` - caveats and product quirks (e.g. "Role is set on Create; it cannot be changed on Edit.").
 
-### Status markers
+### Status Markers
 
 - Mark a not-yet-built feature or view with a `(Not Yet Implemented)` suffix rather than explaining the gap.
 - The mark stands only on the feature itself, where it is described; a page that merely refers to it carries no mark, since marks spread over references rot once the feature lands.
@@ -32,8 +32,7 @@ Entry point for the application - a PM or QA should grasp the application's size
 
 ### Features Naming
 
-Lookup/info features use a noun: `<Entity> <Noun>` (e.g. "User Overview").
-Action features use a verb: `<Verb> <Entity>` (e.g. "Create User").
+Lookup/info features use a noun: `<Entity> <Noun>` (e.g. "User Overview"). Action features use a verb: `<Verb> <Entity>` (e.g. "Create User").
 
 Standard nouns:
 

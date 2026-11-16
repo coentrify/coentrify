@@ -4,20 +4,208 @@ What changed in each version of coentrify.
 
 ## 0.0.2
 
+### AI
+
+- Changed [Match Known Commands Deterministically, Classify the Rest](standards/ai/match-known-commands-deterministically-classify-the-rest.md)
+- Changed [Prompt Small Models Differently](standards/ai/prompt-small-models-differently.md)
+
+### Angular
+
+- Changed [Angular Build Checks The Templates](standards/angular/angular-build-checks-the-templates.md)
+- Changed [Interface, Not Abstract Class, For Mock Swap](standards/angular/interface-not-abstract-class-for-mock-swap.md)
+- Changed [One Projected Node Per Control-Flow Block](standards/angular/one-projected-node-per-control-flow-block.md)
+- Changed [Projected Content Is Never Styled by the Host](standards/angular/projected-content-is-never-styled-by-the-host.md)
+- Changed [Track Timed Items by an Id](standards/angular/track-timed-items-by-an-id.md)
+- Changed [Use Modern Angular Template APIs](standards/angular/use-modern-angular-template-apis.md)
+
+### Architecture
+
+- Changed [Adopt, Configure, Override](standards/architecture/adopt-configure-override.md)
+- Changed [App-Shield](standards/architecture/app-shield.md)
+- Changed [Converge Only Once Proven](standards/architecture/converge-only-once-proven.md)
+- Changed [Folder Concerns](standards/architecture/folder-concerns.md)
+- Changed [Interceptor Ordering](standards/architecture/interceptor-ordering.md)
+- Changed [Per-Application Split Over Shared Branching](standards/architecture/per-application-split-over-shared-branching.md)
+- Changed [Separation Before Layer Standards](standards/architecture/separation-before-layer-standards.md)
+
 ### Behavior
 
+- Changed [A Go Before Work Elsewhere](standards/behavior/a-go-before-work-elsewhere.md)
+- Changed [A Maybe Is A Trigger To Investigate](standards/behavior/a-maybe-is-a-trigger-to-investigate.md)
+- Changed [A Quiet Tree While A Suite Runs](standards/behavior/a-quiet-tree-while-a-suite-runs.md)
+- Changed [Always Make No Mistakes](standards/behavior/always-make-no-mistakes.md)
+- Changed [Always Verify Before Reporting Done](standards/behavior/always-verify-before-reporting-done.md)
+- Changed [Always Work from a Plan](standards/behavior/always-work-from-a-plan.md)
 - Changed [Anchor Edits After Formatting](standards/behavior/anchor-edits-after-formatting.md)
+- Changed [Code Review Compounds Into Patterns and Sweeps](standards/behavior/code-review-compounds-into-patterns-and-sweeps.md)
+- Changed [Decide, Don't Wait](standards/behavior/decide-dont-wait.md)
+- Changed [Dev Tiers](standards/behavior/dev-tiers.md)
+- Changed [Docs Hold Only What the Director Decided](standards/behavior/docs-hold-only-what-the-director-decided.md)
+- Changed [Don't Filter Data Without a Spec](standards/behavior/dont-filter-data-without-a-spec.md)
+- Changed [Don't Introduce Tech Debt](standards/behavior/dont-introduce-tech-debt.md)
+- Changed [Flag Every Addition of Your Own](standards/behavior/flag-every-addition-of-your-own.md)
+- Changed [Free Text Replies, No Buttons](standards/behavior/free-text-replies-no-buttons.md)
+- Changed [General Working Rules](standards/behavior/general-working-rules.md)
+- Changed [Honest Assessments](standards/behavior/honest-assessments.md)
+- Changed [Normal Dashes](standards/behavior/normal-dashes.md)
+- Changed [Note Issues](standards/behavior/note-issues.md)
+- Changed [Project Lifecycle](standards/behavior/project-lifecycle.md)
 - Changed [Propagate Renames and Convention Changes Everywhere](standards/behavior/propagate-renames-and-convention-changes-everywhere.md)
 - Changed [Prose Style](standards/behavior/prose-style.md)
+- Changed [Prototype Mode Is Speed First](standards/behavior/prototype-mode-is-speed-first.md)
+- Changed [Regular Layered Gap Analysis](standards/behavior/regular-layered-gap-analysis.md)
+- Changed [Reload The Standards After Compacting](standards/behavior/reload-the-standards-after-compacting.md)
+- Changed [Review Changes Before Reporting Done](standards/behavior/review-changes-before-reporting-done.md)
+- Changed [Review Every Capture Before Reporting](standards/behavior/review-every-capture-before-reporting.md)
 - Changed [Standards Maintenance](standards/behavior/standards-maintenance.md)
+- Changed [Standards Over Skills](standards/behavior/standards-over-skills.md)
+- Changed [Sweeps Enumerate Into Tech-Debt First](standards/behavior/sweeps-enumerate-into-tech-debt-first.md)
+- Changed [Sync The Docs After Every Change](standards/behavior/sync-the-docs-after-every-change.md)
+- Changed [The Quality Of The Question](standards/behavior/the-quality-of-the-question.md)
+- Changed [Understand The Need](standards/behavior/understand-the-need.md)
+- Changed [Verify APIs Against Docs And The Installed Artifact](standards/behavior/verify-apis-against-docs-and-the-installed-artifact.md)
+- Changed [Verify Control Before Rename](standards/behavior/verify-control-before-rename.md)
+
+### Code
+
+- Changed [Escape Hatch Comments](standards/code/escape-hatch-comments.md)
+- Changed [Name by Concept, Not Copy](standards/code/name-by-concept-not-copy.md)
+- Changed [No Abbreviated Names](standards/code/no-abbreviated-names.md)
+- Changed [No Describe-What Comments](standards/code/no-describe-what-comments.md)
+- Changed [Pre-empt Recurring Code-Review Nits](standards/code/pre-empt-recurring-code-review-nits.md)
+
+### Commits
+
+- Changed [Gate Commits on Exit Codes](standards/commits/gate-commits-on-exit-codes.md)
+- Changed [Main Stays Green, Work Stays Clean](standards/commits/main-stays-green-work-stays-clean.md)
+- Changed [Verify Staging Before Committing](standards/commits/verify-staging-before-committing.md)
+
+### Docs
+
+- Changed [Application Template](standards/docs/application-template.md)
+- Changed [Docs Are Hierarchical, Explicit And Short](standards/docs/docs-are-hierarchical-explicit-and-short.md)
+- Changed [Docs State Knowledge](standards/docs/docs-state-knowledge.md)
+- Changed [Documentation Philosophy](standards/docs/documentation-philosophy.md)
+- Changed [Feature Spec Template](standards/docs/feature-spec-template.md)
+- Changed [Feature Template](standards/docs/feature-template.md)
+- Changed [File Names](standards/docs/file-names.md)
+- Changed [Library Feedback](standards/docs/library-feedback.md)
+- Changed [No Faux Headers In Lists](standards/docs/no-faux-headers-in-lists.md)
+- Changed [UI Vocabulary](standards/docs/ui-vocabulary.md)
+- Changed [Workspace Suite](standards/docs/workspace-suite.md)
 
 ### E2E
 
 - Changed [Canvas Clicks by Coordinates](standards/e2e/canvas-clicks-by-coordinates.md)
+- Changed [E2E Assert Before Interacting](standards/e2e/e2e-assert-before-interacting.md)
+- Changed [E2E Mock Contract](standards/e2e/e2e-mock-contract.md)
+- Changed [E2E Runs On The Development Build](standards/e2e/e2e-runs-on-the-development-build.md)
+- Changed [E2E Test Conventions](standards/e2e/e2e-test-conventions.md)
+- Changed [E2E Tests Must Demonstrate Behavior](standards/e2e/e2e-tests-must-demonstrate-behavior.md)
+- Changed [Init Scripts Need a Navigation](standards/e2e/init-scripts-need-a-navigation.md)
+- Changed [Per-Feature Overview Test](standards/e2e/per-feature-overview-test.md)
+- Changed [Real Input For Frame Races](standards/e2e/real-input-for-frame-races.md)
+- Changed [Substring Locator Collisions](standards/e2e/substring-locator-collisions.md)
+- Changed [Use the E2E Pipeline for Browser Probing](standards/e2e/use-the-e2e-pipeline-for-browser-probing.md)
+
+### Electron
+
+- Changed [Electron Packaging And Suite](standards/electron/electron-packaging-and-suite.md)
+- Changed [Electron Shell Shape](standards/electron/electron-shell-shape.md)
+
+### Gamedev
+
+- Changed [Captures And Reels](standards/gamedev/captures-and-reels.md)
+- Changed [Code Based Sound](standards/gamedev/code-based-sound.md)
+- Changed [Devbox](standards/gamedev/devbox.md)
+- Changed [Game Design Laws](standards/gamedev/game-design-laws.md)
+- Changed [Own Icons](standards/gamedev/own-icons.md)
+- Changed [Pacing Docs](standards/gamedev/pacing-docs.md)
+- Changed [Silent Runs](standards/gamedev/silent-runs.md)
+- Changed [Sprite Sheet Frames](standards/gamedev/sprite-sheet-frames.md)
+- Changed [Stabilize Before Adding](standards/gamedev/stabilize-before-adding.md)
+
+### Records
+
+- Changed [Activity Log](standards/records/activity-log.md)
+- Changed [Playtest Files](standards/records/playtest-files.md)
+- Changed [Request Log](standards/records/request-log.md)
+
+### Reporting
+
+- Changed [Change Report](standards/reporting/change-report.md)
+
+### Scripts
+
+- Changed [npm Script Naming](standards/scripts/npm-script-naming.md)
+- Changed [Thin Wrappers in CI and Hooks](standards/scripts/thin-wrappers-in-ci-and-hooks.md)
+
+### Security
+
+- Changed [Never Access the Keychain](standards/security/never-access-the-keychain.md)
+
+### Simple Workflow
+
+- Changed [Bugs Template](standards/simple-workflow/bugs-template.md)
+- Changed [Plan Template](standards/simple-workflow/plan-template.md)
+- Changed [Plans vs Persistent Files](standards/simple-workflow/plans-vs-persistent-files.md)
+- Changed [Remove Completed Items from Docs](standards/simple-workflow/remove-completed-items-from-docs.md)
+- Changed [Roadmap Template](standards/simple-workflow/roadmap-template.md)
+- Changed [Technical Debt Template](standards/simple-workflow/technical-debt-template.md)
+- Changed [The Simple Workflow](standards/simple-workflow/the-simple-workflow.md)
+- Changed [Todo Template](standards/simple-workflow/todo-template.md)
+
+### Tests
+
+- Changed [A Bug's Test Reproduces With Real Input](standards/tests/a-bugs-test-reproduces-with-real-input.md)
+- Changed [Bracket State Changes With Contrast Assertions](standards/tests/bracket-state-changes-with-contrast-assertions.md)
+- Changed [Implementation-Agnostic Assertions](standards/tests/implementation-agnostic-assertions.md)
+- Changed [Implementation-Agnostic Locators](standards/tests/implementation-agnostic-locators.md)
+- Changed [Realistic Test Data Variance](standards/tests/realistic-test-data-variance.md)
+- Changed [Seed Surfaces Every State on Page 1](standards/tests/seed-surfaces-every-state-on-page-1.md)
+- Changed [Test Design](standards/tests/test-design.md)
+
+### Tooling
+
+- Changed [Browser Captures Go To Disk](standards/tooling/browser-captures-go-to-disk.md)
+- Changed [Check Where A Pane Click Landed](standards/tooling/check-where-a-pane-click-landed.md)
+- Changed [Defer Tooling Until The Cost Shows Up](standards/tooling/defer-tooling-until-the-cost-shows-up.md)
+- Changed [Hygiene Tests Run on Their Own Runner](standards/tooling/hygiene-tests-run-on-their-own-runner.md)
+- Changed [Kill a Lingering Playwright Server Before Captures](standards/tooling/kill-a-lingering-playwright-server-before-captures.md)
+- Changed [Lightweight Test Reporting Only](standards/tooling/lightweight-test-reporting-only.md)
+- Changed [Node Versions](standards/tooling/node-versions.md)
+- Changed [Read Before You Truncate](standards/tooling/read-before-you-truncate.md)
+- Changed [Settings Changes Need a Fresh Session](standards/tooling/settings-changes-need-a-fresh-session.md)
+- Changed [VitePress Wiki](standards/tooling/vitepress-wiki.md)
 
 ### TypeScript
 
 - Changed [Always Add Explicit Types](standards/typescript/always-add-explicit-types.md)
+- Changed [Barrel Imports](standards/typescript/barrel-imports.md)
+- Changed [One Artifact Per File](standards/typescript/one-artifact-per-file.md)
+
+### UI
+
+- Changed [Communicate State](standards/ui/communicate-state.md)
+- Changed [Never Obscure Information the User Needs](standards/ui/never-obscure-information-the-user-needs.md)
+- Changed [Pixel-Perfect Design Check](standards/ui/pixel-perfect-design-check.md)
+- Changed [UI Component Design](standards/ui/ui-component-design.md)
+- Changed [UI Components First](standards/ui/ui-components-first.md)
+- Changed [UI Layout via Slot Composition](standards/ui/ui-layout-via-slot-composition.md)
+- Changed [UI Library Is Domain-Agnostic](standards/ui/ui-library-is-domain-agnostic.md)
+- Changed [UI Refactor: Preserve, Don't Redesign](standards/ui/ui-refactor-preserve-dont-redesign.md)
+- Changed [UI Styleguide](standards/ui/ui-styleguide.md)
+- Changed [UI Variants By Function, Not By Color](standards/ui/ui-variants-by-function-not-by-color.md)
+- Changed [Validation Errors Fire on Submit](standards/ui/validation-errors-fire-on-submit.md)
+- Changed [Walk The User's Journey](standards/ui/walk-the-users-journey.md)
+
+### Web
+
+- Changed [Always Use Design Tokens for Colors](standards/web/always-use-design-tokens-for-colors.md)
+- Changed [Dark Mode Through Tokens](standards/web/dark-mode-through-tokens.md)
+- Changed [Hidden Attribute Loses To Display](standards/web/hidden-attribute-loses-to-display.md)
+- Changed [SCSS Shared Partial Imports](standards/web/scss-shared-partial-imports.md)
+- Changed [Transitions Only On User Toggle](standards/web/transitions-only-on-user-toggle.md)
 
 ## 0.0.1
 

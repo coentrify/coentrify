@@ -6,7 +6,7 @@ UI primitives (buttons, icons, callouts, tooltips, dialogs, toasts, inputs, layo
 
 Custom UI scattered across the app diverges from the design system, bypasses theming and a11y guarantees, and duplicates effort that should live in (or be requested from) the shared system. Funneling everything through the UI layer keeps the UI coherent and gives the design system a clear pressure point when something is missing.
 
-## How to apply
+## How to Apply
 
 - Reach for an existing component first. Verify icon and component names against the package before using.
 - If the design-system package doesn't have what you need, add a component to the workspace's shared UI library. Composition stays in the app and feature layers; UI primitives stay in the UI library.

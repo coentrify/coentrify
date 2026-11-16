@@ -2,7 +2,7 @@
 
 Standards rot if left alone. Sweep periodically to keep them tight and lean.
 
-## Recurring sweep
+## Recurring Sweep
 
 Once the standards feel heavy, scan for and fix:
 
@@ -29,13 +29,13 @@ Soft caps: past a cap, a standard is trimmed or split before anything is added t
 - A template: about 1,200 words.
 - A hub, such as a workflow: about 3,000 words.
 
-## When to sweep
+## When to Sweep
 
 - Triggered by a `coentrify update`.
 - Triggered by reading a standard that no longer makes sense in the moment.
 - Never unprompted in the middle of unrelated work - note the friction per [Note Issues](note-issues.md) and continue.
 
-## How to apply
+## How to Apply
 
 - Apply format fixes freely.
 - Surface a rule change for the director's call before applying it.

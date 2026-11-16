@@ -4,7 +4,7 @@ Use functional names for UI patterns - terms that say what the thing does. Be co
 
 A drawer is a drawer because of its role ("CreateUserDrawer"). Motion descriptors ("slide-in") and component-file names don't earn their keep at the product level.
 
-## Drawer vs sheet
+## Drawer vs Sheet
 
 Both are valid functional names for distinct patterns - don't collapse them into one. A panel can be a drawer on desktop and a sheet on mobile - call each by its role in that layout.
 
@@ -16,7 +16,7 @@ Side-attached panel that opens from a screen edge (typically right or left), use
 
 Mobile-style panel that slides up from the bottom and modally covers the lower portion of the screen. Example: the mobile sources panel.
 
-## Don't use "surface" as a UI-area noun
+## Don't Use "Surface" as a UI-Area Noun
 
 "The chat surface", "the conversation surface" - product-design jargon that reads as wordy and weirdly abstract. Use the feature's name or natural English: "the chat", "the app-selection screen", "in the chat". "Surface" the verb (to surface, surfaced) is fine - it means "bring up / show" and is unrelated.
 

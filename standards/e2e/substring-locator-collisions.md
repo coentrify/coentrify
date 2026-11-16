@@ -6,7 +6,7 @@
 
 A new loading label that contains a panel heading's word breaks every spec that locates the heading by that word, demo reels included. Substring matchers age badly because they depend implicitly on every other string in the rendered DOM.
 
-## How to apply
+## How to Apply
 
 - Before introducing new UI text in app code, grep the e2e specs for `getByText\('<short>'` and similar. If the new text contains an existing literal, change the locator first.
 - `getByRole('button', { name: 'X' })` matches the name by substring too, so names within one family must not contain each other: a helper that waits for the `Save` button to disappear keeps finding `Save All`. Pick names that stand alone or locate with `exact: true`.

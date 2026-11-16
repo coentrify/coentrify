@@ -11,14 +11,14 @@ Flat list of concrete follow-ups and cleanups that fall out of larger work. Thin
 - Title: `# Todo`.
 - Flat dash list of one-liner items. No overview list - the file is already an overview.
 
-## Item shape
+## Item Shape
 
 - Default: a single-line task. Reference a file or doc inline with backticks or a link when useful.
 - No periods on bullet items.
 - Strip items as soon as they're done; git history preserves what was there.
 - When an item genuinely needs more explanation, promote it to a `## <task title>` subheading with a short paragraph or list underneath. Don't bloat one-liners with parenthetical context - if it doesn't fit on one line, give it its own section ([No Faux Headers In Lists](../docs/no-faux-headers-in-lists.md)).
 
-## What doesn't belong on the todo
+## What Doesn't Belong on the Todo
 
 - User-facing bugs - [Bugs Template](bugs-template.md).
 - Roadmap items - [Roadmap Template](roadmap-template.md).

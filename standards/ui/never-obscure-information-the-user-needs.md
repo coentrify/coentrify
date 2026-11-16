@@ -6,7 +6,7 @@ Information the user acts on must reach the screen intact. Collapsing distinct s
 
 A mapper that folds a distinct status into another (expired shown as pending) makes the user act on the wrong urgency. A filter that lists same-named entities by name alone hands the user a choice that cannot be made correctly. Both are missing-information defects.
 
-## How to apply
+## How to Apply
 
 - A presentation map (mapper or view-model) that sends several distinct source values to one target is suspect. Confirm each collapse is genuinely equivalent; one that drops a state the user must see is a high-priority bug and a sweep across the other mappers.
 - Cover every source enum value in mapper tests and assert distinct, faithful outputs.

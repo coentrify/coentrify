@@ -22,7 +22,7 @@ export class MockChildrenApiService implements ChildrenApi { /* mock */ }
 
 `implements` on both sides makes the compiler enforce parity, so the mock cannot silently drift from the real surface; with bare structural typing a missing method only bites at runtime. An interface adds no inheritance, no runtime layer and nothing to construct, which keeps the DI seam simple.
 
-## How to apply
+## How to Apply
 
 - Declare an `interface` for the service's public surface and write `implements` on both `XService` and `MockXService`.
 - Swap via `useClass` at the app-config layer.

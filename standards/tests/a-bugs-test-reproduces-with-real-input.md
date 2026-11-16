@@ -6,7 +6,7 @@ A test that guards a reported bug reproduces the director's own steps with real 
 
 A bug can keep happening for the director while every case passes. A case that sets a field directly skips what real typing fires, and a case never seen failing on the old code proves nothing. The report itself can come from a stale dev server, which such a test would not tell apart either.
 
-## How to apply
+## How to Apply
 
 - Write the case from the director's words before the fix: red on the old code, green after.
 - When the director reports a bug the tests say is fixed, check what the running app serves (the dev server's bundle, the save file) before hunting in the code.

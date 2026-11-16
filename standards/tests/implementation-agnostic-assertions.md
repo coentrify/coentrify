@@ -6,7 +6,7 @@ Any test that asserts on rendered UI should assert what the user perceives. Pref
 
 An assertion phrased as DOM state (count of matching nodes, attached or detached, attribute presence) breaks the day someone changes how visibility is achieved: a conditional render swapped for `display: none`, a lazy render, an exit animation, a portal. The user sees no change, yet the test fails. User-perceived assertions survive those refactors and match what the feature promises.
 
-## How to apply
+## How to Apply
 
 - For presence: `toBeVisible` (and `not.toBeVisible` for absence).
 - For interaction state: `toBeEnabled` / `toBeDisabled`, `toBeEditable`, `toBeChecked`, `toBeFocused`.

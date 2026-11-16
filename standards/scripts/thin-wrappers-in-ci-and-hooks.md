@@ -6,7 +6,7 @@ Git hooks and CI workflow steps are thin dispatchers: each is a one-line `npm ru
 
 Behavior buried in a hook file or a CI yaml step is invisible from `package.json` and easy to miss when reading scripts; centralizing the logic keeps it discoverable and lets the same script run from CI, manual runs, or other tools.
 
-## How to apply
+## How to Apply
 
 - Git hooks call `hooks:<name>` and CI calls `ci:<name>`, a dedicated script per context ([npm Script Naming](npm-script-naming.md)).
 - Git hook (husky example): `.husky/<name>` is the husky preamble + a single `npm run hooks:<name>` line and nothing else. Real commands go in `package.json` under `hooks:<name>` (e.g. `"hooks:pre-commit": "npm run lint"`).

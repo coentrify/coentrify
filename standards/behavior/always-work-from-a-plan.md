@@ -6,7 +6,7 @@ Any task with more than a couple of steps gets a written plan first. Don't hold 
 
 Sessions end. Agents context-switch. Without a written plan, picking up the work later means rediscovering the goal, the ordering, and what's already done. A plan in a file lets any other session or agent continue from where the previous one stopped.
 
-## How to apply
+## How to Apply
 
 ### Where The Plan Lives
 

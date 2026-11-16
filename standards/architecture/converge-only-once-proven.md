@@ -6,7 +6,7 @@ In a multi-app workspace, apps can legitimately start divergent - different desi
 
 Collapsing apps early couples every app to one app's choices and breeds app-flag branching; premature uniformity costs as much as premature abstraction. Waiting keeps the shared layer honest: it only holds what has proven shared.
 
-## How to apply
+## How to Apply
 
 - Fold a pattern up to the shared layer only once it has repeated, stabilized and the apps demonstrably agree on it; convergence is earned, never scheduled.
 - Keep per-app technical specifics in per-app docs (`docs/<app>/architecture.md`); the workspace architecture doc holds only genuinely shared concerns and points to the per-app docs.

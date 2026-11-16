@@ -6,7 +6,7 @@ Code you write or extend should follow the established conventions, whatever the
 
 The path of least resistance (one more member on a bare union, one more type in a bundle file, one more deep-path import) matches the file, so it slips through diff review, and it compounds every time it happens. Catching it at write-time is far cheaper than a later cleanup pass.
 
-## How to apply
+## How to Apply
 
 - Before extending a type, const, or file, check it against the relevant conventions (as-const + `Enum` over bare unions, one artifact per file, barrel imports). New or extended code conforms even when its neighbors don't.
 - When the file you must touch already violates a convention: conform it in place if the fix is cheap and in scope; otherwise flag it as tech debt and continue.
