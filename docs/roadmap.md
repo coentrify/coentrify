@@ -25,4 +25,3 @@ The versions on the way to 1.0.
 
 - Whether How It Works keeps its line on the one-word prompt.
 - Whether Always Work from a Plan keeps its title, now that its rule is conditional.
-- Whether every version gets a tag.

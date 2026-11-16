@@ -11,7 +11,8 @@
     "build:wiki": "vitepress build",
     "lint:standards": "node scripts/lint-standards.mjs",
     "hooks:pre-commit": "node scripts/lint-standards.mjs --staged",
-    "ci:wiki": "WIKI_BASE=/coentrify/ vitepress build"
+    "ci:wiki": "WIKI_BASE=/coentrify/ vitepress build",
+    "ci:tag": "node scripts/tag-version.mjs"
   },
   "devDependencies": {
     "vitepress": "1.6.4"
