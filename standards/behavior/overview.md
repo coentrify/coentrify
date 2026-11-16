@@ -20,7 +20,7 @@ The Behavior standards: how an agent works and what an agent checks.
 - [Feature Workflow](feature-workflow.md) - plan -> doc -> spec -> failing e2e -> implement -> regression -> proof the user can verify
 - [Flag Every Addition of Your Own](flag-every-addition-of-your-own.md) - name every addition of your own in the report for a veto
 - [Free Text Replies, No Buttons](free-text-replies-no-buttons.md) - no answer buttons or wrap-up questions; ask in prose and keep going; no closing prompts where a dashboard shows the director's inboxes
-- [General Working Rules](general-working-rules.md) - think first, keep it simple, surgical changes, verify goals, surface conflicts, read before write, fail loud
+- [General Working Rules](general-working-rules.md) - the model only for judgment calls, surface conflicts, read before you write, follow the written conventions
 - [Honest Assessments](honest-assessments.md) - realistic over optimistic; push back once, plainly
 - [Non-Destructive Documenting and Test Automation](non-destructive-documenting-and-test-automation.md) - doc, spec and test phases never touch production code
 - [Normal Dashes](normal-dashes.md) - always `-`, never em or en dashes
