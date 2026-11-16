@@ -2,6 +2,8 @@
 # Runs one probe: a headless agent works on a copy of a fixture, with or without a rule.
 # usage: run-probe.sh <probe folder> <output folder> <label> <model> <effort or -> [rule file]
 # The probe folder holds a fixture folder and a prompt.txt.
+# An after-commit.sh in the probe folder runs in the copy after the fixture is committed,
+# to leave uncommitted changes in the tree.
 # Without a rule file no settings load, so no standard reaches the agent.
 # With a rule file, the rule becomes the CLAUDE.md of the copy, and only project sources load.
 set -u
@@ -23,6 +25,8 @@ if [ -n "$rule" ]; then
   sources="project"
 fi
 git init -q . && git add -A && git -c user.name=probe -c user.email=probe@example.com commit -qm "fixture"
+git config user.name probe && git config user.email probe@example.com
+[ -f "$probe/after-commit.sh" ] && bash "$probe/after-commit.sh"
 
 arguments=(-p "$(cat "$probe/prompt.txt")" --model "$model" --setting-sources "$sources"
   --output-format stream-json --verbose --permission-mode acceptEdits

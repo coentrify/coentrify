@@ -1,0 +1,1 @@
+Move formatMoney from src/money.js into a new file src/format.js, rename it to formatAmount, and delete src/money.js.
