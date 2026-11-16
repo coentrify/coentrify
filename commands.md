@@ -34,6 +34,7 @@ Any request to bring the project up to date. Read the version in the project's `
 - Read `standards/decisions.md` for the reasoning behind the earlier choices.
 - Skip every standard the changelog does not name.
 - Replace a tracked standard, and show the director a changed rule first.
+- Run the unlink script again, since a replaced standard brings its links back.
 - Report the changes for a customized standard.
 - Report new standards worth considering.
 - Surface a new standard that has the same name as one of the project's own.

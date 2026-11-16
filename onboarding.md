@@ -83,6 +83,10 @@ With `coentrify make no mistakes` the agent asks nothing. The agent takes every 
 - Create the wiki, where chosen.
 - Offer a setup script for personal content, where the director uses cloud sessions.
 
+### The Links
+
+A link to a standard the project did not adopt points at nothing. The unlink script from the [tools](tools/overview.md) removes every such link and keeps the words.
+
 ### The Index
 
 `standards/overview.md` lists the adopted modules, and every module has an overview of its own standards, with one line each. An agent reads a module's overview, and then a standard, when the work calls for it.
