@@ -198,6 +198,8 @@ The trap is two edits to one file with a commit between them. The commit hook re
 - No run edited by line number.
 - Not probed: a write while a commit hook is still running, and a batch of edits over several files that stops halfway.
 
+The standard shrank to its three rules from incidents.
+
 ## Notes
 
 - Sync The Docs After Every Change is the first standard that Opus 5.5 needs and Sonnet 5.5 does not. Opus searched the docs for the number alone, and Sonnet read the docs.

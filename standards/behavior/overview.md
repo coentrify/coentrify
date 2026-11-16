@@ -8,7 +8,7 @@ The Behavior standards: how an agent works and what an agent checks.
 - [Always Make No Mistakes](always-make-no-mistakes.md) - use your standards; own mistakes and strengthen the harness with a rule or check
 - [Always Verify Before Reporting Done](always-verify-before-reporting-done.md) - run the check that matches the change before claiming done
 - [Always Work from a Plan](always-work-from-a-plan.md) - work that survives the session or grows out of scope gets a written plan; in a project all work follows the project's workflow
-- [Anchor Edits After Formatting](anchor-edits-after-formatting.md) - re-read before anchoring an edit after a formatter or hook
+- [Anchor Edits After Formatting](anchor-edits-after-formatting.md) - no write while a commit hook runs, check every anchor of a batch first, no edit by line number after a formatter
 - [Backward-Trace Missing Prerequisites](backward-trace-missing-prerequisites.md) - a missing prerequisite becomes a ticket above the item; recurse, never patch around
 - [Code Review Compounds Into Patterns and Sweeps](code-review-compounds-into-patterns-and-sweeps.md) - a review finding is a pattern: review check, how-to standard, sweep ticket
 - [Communication Boundary](communication-boundary.md) - never contact users or testers or speak for the director; file `Tell <name>` tasks
