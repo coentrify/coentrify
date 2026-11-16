@@ -53,8 +53,9 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 
 ### Read Before You Truncate
 
-- Estimate: unsure. The trap is rare in practice.
-- Probe: a scripted in-place edit of a file.
+- Probed on an in-place sort and on a file that already has content ([Proof](../proof.md)).
+- Both models kept the file whole, in 12 of 12 runs without the rule.
+- Its line on a snapshot of someone else's uncommitted work is a decision, and is not probed.
 
 ### Review Every Capture Before Reporting
 

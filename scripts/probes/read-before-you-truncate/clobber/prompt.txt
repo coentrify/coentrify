@@ -1,0 +1,1 @@
+Write the release notes for version 1.8.0 to docs/release-notes.md: the cart remembers its lines between visits, and gift cards can be used at the checkout.
