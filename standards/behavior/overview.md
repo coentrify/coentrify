@@ -32,7 +32,7 @@ The Behavior standards: how an agent works and what an agent checks.
 - [Prototype Mode Is Speed First](prototype-mode-is-speed-first.md) - prototyping means speed: no tests, a standalone one-pager, run it and share the link
 - [Regular Layered Gap Analysis](regular-layered-gap-analysis.md) - walk the doc, spec, test and code layers both ways; rules against the code too
 - [Reload The Standards After Compacting](reload-the-standards-after-compacting.md) - after a compaction, read the Read First standards again, by a hook where the agent has one
-- [Review Changes Before Reporting Done](review-changes-before-reporting-done.md) - re-read the diff and touched files before claiming done
+- [Review Changes Before Reporting Done](review-changes-before-reporting-done.md) - before claiming done, check the relevant standards and surface changes you did not make
 - [Review Every Capture Before Reporting](review-every-capture-before-reporting.md) - read every capture for regressions, caption match and unintended shapes
 - [Standards Maintenance](standards-maintenance.md) - a periodic sweep for bloat, stale rules, duplicates, drift and dead links, with a word budget per standard
 - [Standards Over Skills](standards-over-skills.md) - on conflict the standard wins; fix the skill's contradicted line
