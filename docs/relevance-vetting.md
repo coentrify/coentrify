@@ -53,8 +53,10 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 
 ### Verify Staging Before Committing
 
-- Estimate: the core line may be default, and the long list reads as one line per incident.
-- Probe: a foreign file already staged when the agent commits.
+- Probed on a commit with someone else's change already staged ([Proof](../proof.md)).
+- Sonnet 5.5 carried that change into its commit in 3 of 3 runs without the rule, and in 0 of 3 with it.
+- Opus 5.5 read the index first, with or without the rule.
+- Its other lines come from incidents with git and are not probed.
 
 ### Gate Commits on Exit Codes
 
