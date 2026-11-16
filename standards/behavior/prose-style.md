@@ -20,6 +20,8 @@ concrete.
   scaffolding in disguise. Give each case its own bullet.
 - Drop hype adjectives and rhetorical build-ups; state the thing.
 - Vary sentence length and structure across a paragraph.
+- A reference resolves inside its own text.
+- A point is made in one sentence, once.
 - Reports to the director are brief, a helicopter view: what changed, what needs the director's call. Detail only on request.
 
 ## Related

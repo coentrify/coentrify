@@ -2,6 +2,12 @@
 
 What changed in each version of coentrify.
 
+## 0.0.2
+
+### Behavior
+
+- Changed [Prose Style](standards/behavior/prose-style.md)
+
 ## 0.0.1
 
 ### AI
