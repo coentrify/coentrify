@@ -2,7 +2,7 @@
 
 The Behavior standards: how an agent works and what an agent checks.
 
-- [A Go Before Work Elsewhere](a-go-before-work-elsewhere.md) - never start sessions, agents or work in another project without an explicit go; \"next is X\" names the topic, it is not a go; projects come from the director's words, never a recent-folders list
+- [A Go Before Work Elsewhere](a-go-before-work-elsewhere.md) - never start sessions, agents or work in another project without an explicit go; "next is X" names the topic, it is not a go; projects come from the director's words, never a recent-folders list
 - [A Maybe Is A Trigger To Investigate](a-maybe-is-a-trigger-to-investigate.md) - a director's maybe gets investigated in the same go, never parked
 - [A Quiet Tree While A Suite Runs](a-quiet-tree-while-a-suite-runs.md) - no source edits while a suite runs on a live dev server
 - [Always Make No Mistakes](always-make-no-mistakes.md) - use your standards; own mistakes and strengthen the harness with a rule or check
