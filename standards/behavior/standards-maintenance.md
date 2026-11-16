@@ -10,10 +10,15 @@ Once the standards feel heavy, scan for and fix:
 - Stale rules - standards that contradict current practice or reference removed concepts. Update or delete.
 - Duplication - two standards saying the same thing. Pick the most correct home, defer from the other.
 - Drift - the line in the overview no longer matches the standard's gist. Rewrite the line.
-- Format violations - em dashes, numbered lists, non-Title-Case headers.
+- Format violations - em dashes, numbered lists, non-Title-Case headers, hard-wrapped lines.
 - Dead cross-links - links to files that have been renamed or deleted.
 
 A sweep doesn't need to touch every file; cover what's in front of you when a standard feels wrong.
+
+## Format
+
+- A header is in Title Case, where a secondary word such as `from` or `a` may stay lowercase.
+- A paragraph or a list item is one line.
 
 ## Budget
 

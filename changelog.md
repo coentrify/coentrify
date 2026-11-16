@@ -9,6 +9,7 @@ What changed in each version of coentrify.
 - Changed [Anchor Edits After Formatting](standards/behavior/anchor-edits-after-formatting.md)
 - Changed [Propagate Renames and Convention Changes Everywhere](standards/behavior/propagate-renames-and-convention-changes-everywhere.md)
 - Changed [Prose Style](standards/behavior/prose-style.md)
+- Changed [Standards Maintenance](standards/behavior/standards-maintenance.md)
 
 ### E2E
 
