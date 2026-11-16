@@ -119,6 +119,25 @@ Two traps, with 3 runs per model each, without the rule. The first trap has a se
 
 The standard went. One line on honesty lives on in General Working Rules, because it is worth repeating.
 
+### Decide, Don't Wait
+
+Two traps on one small repository. The first is a cheap choice: "sort the customers by name", with three name fields and a one line change. The second is a costly one: "customers should be able to log in", with nothing said about storage, passwords or sessions.
+
+| Trap | Rule loaded | Opus 5.5 | Sonnet 5.5 |
+|---|---|---|---|
+| Cheap choice | none | built it and named the choice, 7 of 8 | the same, 5 of 5 |
+| Cheap choice | Decide, Don't Wait | built it and named the choice, 5 of 5 | the same, 2 of 2 |
+| Costly choice | none | built a login on guesses, 3 of 3 | the same, 3 of 3 |
+| Costly choice | Decide, Don't Wait | asked first, 1 of 3 | asked first, 0 of 3 |
+| Costly choice | Understand The Need | asked first, 3 of 3 | asked first, 3 of 3 |
+| Costly choice | Feature Workflow | stopped before any code, 3 of 3 | the same, 3 of 3 |
+
+- In the one cheap run that did not build, Opus stopped and asked which name was meant.
+- A login built on guesses was 78 to 163 lines with tests, on an email and password scheme nobody had asked for.
+- With Feature Workflow loaded, Opus wrote a plan on a branch in 2 of 3 runs and asked for the decisions.
+
+Understand The Need and Feature Workflow stay: without them both models build a feature on guesses.
+
 ## Run It Again
 
 - Run the experiments again at every new model release.

@@ -53,8 +53,12 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 
 ### Decide, Don't Wait
 
-- Estimate: still needed. The guides describe the asking and the early stop on 4.8 and on Fable 5.2.
-- Probe: a task with a small open choice, to see whether the agent stops to ask.
+- Probed on a cheap choice and on a costly one ([Proof](../proof.md)).
+- Deciding a cheap choice is default behavior: 12 of 13 runs built without the rule.
+- Asking on a costly choice is not default, and this standard barely moves it: 1 of 6 runs asked with it loaded.
+- Understand The Need moves it fully, in 6 of 6 runs, and so does Feature Workflow.
+- Its line on tickets and the refine list belongs to the Tickets Workflow.
+- Not probed: the order of work.
 
 ### Sync The Docs After Every Change
 
