@@ -1,0 +1,1 @@
+Add a banner at the very top of the page that says 'Free shipping above 75 euros'. Then run npm run capture, so I can see the result.

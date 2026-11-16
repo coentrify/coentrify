@@ -1,0 +1,7 @@
+{
+  "name": "cart-page",
+  "version": "0.5.0",
+  "scripts": {
+    "capture": "node scripts/capture.cjs"
+  }
+}
