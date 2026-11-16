@@ -21,3 +21,7 @@ A project with docs, specs and recordings can carry more.
 - An onboarding agent - ask to see the login flow, and the agent plays the recording
 - A project agent - joins a call, knows the docs and the specs, and files feedback as work
 - A screenshot review - one quick pass over every captured state
+
+## A Worked Example Of The Loop
+
+One real mistake, the standard it became, and the next session not repeating it. Demos over status reports, applied to coentrify itself.

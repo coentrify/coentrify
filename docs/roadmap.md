@@ -12,9 +12,5 @@ The versions on the way to 1.0.
 - Vet the standards. Three of the 187 have been reviewed.
 - Test the overviews as an index: whether an agent finds the right standard through them.
 - Test on a real project: the one word, the onboarding, the reload hook and the update.
+- Record a video of the install, as proof that it works.
 - Remove the eager rules from the personal memory once the standards hold.
-
-## Open
-
-- The check that keeps a project's `coentrify.json` true is not built.
-- Two writing rules to add to Prose Style: a reference resolves inside its own text, and a point is made in one sentence, once.
