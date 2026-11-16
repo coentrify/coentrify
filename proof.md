@@ -227,10 +227,26 @@ Two traps on one project, without the rule: "add a function, run the check, and 
 - No run hung a commit on a filtered check, so the exit code rule of the hook would have refused nothing in 14 runs.
 - On the passing check, 6 of 6 runs chained the `git add` and the commit in one command. The staging rule of the hook would have refused every one.
 
+The standard stays as it is.
+
+### The Commit Gate Hook In Use
+
+The task is three small changes, each in a commit of its own. The hook is live, and out of the agent's sight.
+
+| Rule loaded | Opus 5.5 | Sonnet 5.5 |
+|---|---|---|
+| none | one refused command, then three clean commits, 3 of 3 | the same, 3 of 3 |
+| Verify Staging Before Committing | no refusal, and three clean commits, 2 of 2 | the same, 2 of 2 |
+
+- Without a rule the first commit came as one command that edits, checks, stages and commits. The hook refused it for the chained add in 6 of 6 runs, and for the exit code rule in 4 of 6.
+- After that one refusal every commit followed both rules.
+- So the hook costs one round trip in a session at most, and none where the standard is loaded.
+
 ## Notes
 
 - Sync The Docs After Every Change is the first standard that Opus 5.5 needs and Sonnet 5.5 does not. Opus searched the docs for the number alone, and Sonnet read the docs.
 - Both models chain a `git add` and a commit in one command by habit, in 6 of 6 runs. Opus reads the index first, and Sonnet does not.
+- An instruction and a hook work together. With Verify Staging Before Committing loaded no run chained, in 9 of 9. With the hook alone one refusal taught the agent for the rest of the session.
 - Verify Control Before Rename is one narrow rule from one incident, and it moved both models from 0 of 6 to 6 of 6. A rule from an incident can earn its place.
 
 ## Run It Again

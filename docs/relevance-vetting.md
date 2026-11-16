@@ -16,7 +16,7 @@ Does a current model still need the rule, or does the model always do this corre
 
 - Decisions - laws, naming, templates and the workflow. A model cannot know a decision, so these stay. 148 standards.
 - Tool facts - the pitfalls of one tool, such as Angular or Playwright. These stay while the tool behaves that way. 24 standards.
-- Corrections of agent behavior - the candidates. 15 standards, of which the director ruled on 12.
+- Corrections of agent behavior - the candidates. 15 standards, of which the director ruled on 13.
 
 The sort comes from each standard's line in its overview, so a standard can still move.
 
@@ -50,13 +50,6 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 - A removal is a hypothesis until a probe confirms it, one change at a time.
 
 ## Candidates
-
-### Gate Commits on Exit Codes
-
-- Probed on a failing check with a quiet tail and on a passing one ([Proof](../proof.md)).
-- No run committed on a failing check, and no run hung a commit on a filtered check, in 14 runs without the rule.
-- The standard says the trap was hit with the rule loaded, and a hook refuses it.
-- Every line of it comes from an incident.
 
 ### Read Before You Truncate
 
