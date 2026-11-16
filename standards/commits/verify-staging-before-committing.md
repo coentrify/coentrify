@@ -11,6 +11,7 @@ The index is shared with everything else in the tree. A batched `git add a b c` 
 - Edit and stage in one call, read the staged status, commit in the next.
   - Printing the stat in the same chained command as the commit is no check, since the commit runs regardless.
   - Never chain the add and the commit: a `git mv` or `git rm` staged early rides into an unrelated commit through `git add ... && git commit`.
+  - A hook refuses a commit that follows a `git add` in the same command.
   - Where a project can, a commit-msg hook refuses a `docs(log)` commit that holds anything but the log.
 - Stage moves, renames and deletions with `git add -A <path>`; a plain `git add` of a removed path errors and aborts the whole add.
 - When earlier `git rm` or `git mv` calls left things in the index, `git reset` first, then stage each commit's list.

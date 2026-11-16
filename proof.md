@@ -212,6 +212,8 @@ The trap is a commit in a tree where someone else's change is already staged: a 
 - Without the rule Sonnet chained the add and the commit in one command, never read the index, and did not mention the other file.
 - Opus read the index before it touched anything.
 
+The standard stays as it is. The commit gate hook now also refuses a commit that follows a `git add` in the same command.
+
 ## Notes
 
 - Sync The Docs After Every Change is the first standard that Opus 5.5 needs and Sonnet 5.5 does not. Opus searched the docs for the number alone, and Sonnet read the docs.

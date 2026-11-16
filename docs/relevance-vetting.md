@@ -16,7 +16,7 @@ Does a current model still need the rule, or does the model always do this corre
 
 - Decisions - laws, naming, templates and the workflow. A model cannot know a decision, so these stay. 148 standards.
 - Tool facts - the pitfalls of one tool, such as Angular or Playwright. These stay while the tool behaves that way. 24 standards.
-- Corrections of agent behavior - the candidates. 15 standards, of which the director ruled on 11.
+- Corrections of agent behavior - the candidates. 15 standards, of which the director ruled on 12.
 
 The sort comes from each standard's line in its overview, so a standard can still move.
 
@@ -50,13 +50,6 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 - A removal is a hypothesis until a probe confirms it, one change at a time.
 
 ## Candidates
-
-### Verify Staging Before Committing
-
-- Probed on a commit with someone else's change already staged ([Proof](../proof.md)).
-- Sonnet 5.5 carried that change into its commit in 3 of 3 runs without the rule, and in 0 of 3 with it.
-- Opus 5.5 read the index first, with or without the rule.
-- Its other lines come from incidents with git and are not probed.
 
 ### Gate Commits on Exit Codes
 
