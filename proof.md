@@ -140,6 +140,19 @@ Understand The Need and Feature Workflow stay: without them both models build a 
 
 Decide, Don't Wait went. Deciding a cheap choice is default behavior, and Understand The Need carries the asking.
 
+### Sync The Docs After Every Change
+
+The trap is a threshold that changes in the code: free shipping moves from 50 to 75 euros, and the request names no doc. Five docs state the old value, one of them written out as a word, and the roadmap plans to lower it to 40.
+
+| Model | Without the rule | With the rule |
+|---|---|---|
+| Opus 5.5 | every doc updated and the roadmap named, 3 of 6 | the same, 3 of 3 |
+| Sonnet 5.5 | every doc updated and the roadmap named, 3 of 3 | the same, 2 of 2 |
+
+- Every run updated the code, the test and the docs that state the value as a number.
+- In its three other runs Opus missed the doc with the value as a word, and did not mention the roadmap.
+- No run rewrote the roadmap line.
+
 ## Run It Again
 
 - Run the experiments again at every new model release.

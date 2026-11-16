@@ -53,8 +53,10 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 
 ### Sync The Docs After Every Change
 
-- Estimate: unsure. No guide speaks to it.
-- Probe: a behavior change that a second doc mentions in passing.
+- Probed on a changed threshold with five docs and a roadmap line ([Proof](../proof.md)).
+- Both models update the docs unasked.
+- Opus 5.5 missed a stale statement and the roadmap conflict in 3 of 6 runs without the rule, and in 0 of 3 with it.
+- Sonnet 5.5 missed nothing, with or without the rule.
 
 ### Verify APIs Against Docs And The Installed Artifact
 
