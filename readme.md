@@ -38,6 +38,8 @@ What you want is written down in layers. Overview and feature docs come first, t
 
 Humans are creative, agents are hardworking, and systems are rigid. So humans decide what the product does, agents do the work, and systems run the checks. The human who directs a project is called the director.
 
+Coentrify gives any input a quality baseline. The creating and the deciding stay with the director.
+
 ## Elements
 
 - [Philosophy](philosophy.md) - The four principles the system rests on, a compass.
