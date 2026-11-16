@@ -168,13 +168,15 @@ function stagedErrors() {
     return [];
   }
   const staged = git(['diff', '--cached', '--name-only']).split('\n');
-  if (!staged.includes(CHANGELOG)) {
-    return [...changed, ...removed].map((path) => `${path} changed, and ${CHANGELOG} did not`);
-  }
   const section = latestVersionSection(git(['show', `:${CHANGELOG}`]));
-  return changed
-    .filter((path) => !section.includes(path))
-    .map((path) => `${path} changed, and the latest version in ${CHANGELOG} does not name it`);
+  return [
+    ...changed
+      .filter((path) => !section.includes(path))
+      .map((path) => `${path} changed, and the latest version in ${CHANGELOG} does not name it`),
+    ...(staged.includes(CHANGELOG) ? [] : removed).map(
+      (path) => `${path} was removed, and ${CHANGELOG} did not change`,
+    ),
+  ];
 }
 
 const errors = [
