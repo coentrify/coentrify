@@ -16,7 +16,7 @@ Does a current model still need the rule, or does the model always do this corre
 
 - Decisions - laws, naming, templates and the workflow. A model cannot know a decision, so these stay. 148 standards.
 - Tool facts - the pitfalls of one tool, such as Angular or Playwright. These stay while the tool behaves that way. 24 standards.
-- Corrections of agent behavior - the candidates. 15 standards, of which the director ruled on 1.
+- Corrections of agent behavior - the candidates. 15 standards, of which the director ruled on 2.
 
 The sort comes from each standard's line in its overview, so a standard can still move.
 
@@ -28,6 +28,7 @@ The sort comes from each standard's line in its overview, so a standard can stil
 - A probe measures the model inside that agent's own system prompt, so another agent can behave differently.
 - A probe runs without the rule first. Where the failure shows up, it runs again with the rule as the project's rule file.
 - The runner and the fixtures are in `scripts/probes`.
+- Every result goes on the [Proof](../proof.md) page, with the models tested.
 - The director rules per standard, one at a time.
 - An estimate alone changes nothing.
 
@@ -49,17 +50,6 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 - A removal is a hypothesis until a probe confirms it, one change at a time.
 
 ## Candidates
-
-### Review Changes Before Reporting Done
-
-- Estimate: the general re-read is likely default behavior now.
-- Stays either way: surfacing changes the agent did not make, which is a decision.
-- Probes: three traps in `scripts/probes/review-changes-before-reporting-done`, each run 3 times per model without the rule.
-- Leftovers beside the edit, an unused helper and constant: removed in 6 of 6 runs.
-- Leftovers far from the edit, two unused imports and a stale comment: removed in 6 of 6 runs.
-- Someone else's uncommitted work in the tree: left out of the commit in 6 of 6 runs, and named in the report in 5 of 6.
-- The move and rename trap under Propagate Renames left no orphan reference in 6 of 6 runs.
-- Not probed: side effects that pile up over a long session, and the line about checking the relevant standards.
 
 ### General Working Rules
 
@@ -89,9 +79,7 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 ### Propagate Renames and Convention Changes Everywhere
 
 - Estimate: unsure. No guide speaks to it.
-- Probe: a function moved to a new file and renamed, with references in two modules, a dynamic import, the package exports and the readme.
-- Without the rule, both models searched for the old name first and left no orphan reference, in 6 of 6 runs.
-- Both models named the effect on the public import path in the report.
+- Probed: no orphan reference in 6 of 6 runs without the rule ([Proof](../proof.md)).
 
 ### Sync The Docs After Every Change
 

@@ -46,6 +46,7 @@ Coentrify gives any input a quality baseline. The creating and the deciding stay
 - [Standards](standards.md) - The rules and templates a project adopts.
 - [Tools](tools/overview.md) - The scripts and hooks that enforce a standard.
 - [How It Works](how-it-works.md) - From any input to what you want.
+- [Proof](proof.md) - The experiments behind the standards, with the models tested.
 
 ## Wiki
 
