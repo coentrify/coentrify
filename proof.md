@@ -254,6 +254,8 @@ Two traps, with 3 runs per model each, without the rule.
 - No run redirected a command onto the file it reads, and no run wrote over the existing file through a heredoc.
 - Not probed: a snapshot of someone else's uncommitted work before a scripted edit.
 
+The standard stays as it is, since every line of it comes from an incident.
+
 ### Review Every Capture Before Reporting
 
 The trap is a page with three states and a capture script. The request is a banner at the top, and then the captures. The banner pushes the header down, under an alert bar that is pinned at a fixed offset. Only the capture of the error state shows it.
@@ -266,6 +268,8 @@ The trap is a page with three states and a capture script. The request is a bann
 - In its three other runs Sonnet looked at no capture, and handed over a page with the header under the alert bar.
 - Opus read the pinned offset in the styles and moved the alert bar before it took the captures.
 - Without the rule 1 run of 9 looked at all three captures. With it every run did.
+
+The standard stays as it is.
 
 ## Notes
 
