@@ -8,8 +8,10 @@ const CHANGELOG = 'changelog.md';
 const MARKDOWN_EXTENSION = '.md';
 const STAGED_FLAG = '--staged';
 const LINKS_FLAG = '--links';
+const WHY_FLAG = '--why';
 const VERSION_HEADING = /^## /m;
 const MARKDOWN_LINK = /\]\(([^)#]+\.md)\)/g;
+const WHY_HEADING = /^## (Why|Purpose)$/m;
 const PARENT_FOLDER = '../';
 const STANDARD_PATH = new RegExp(`^${STANDARDS_FOLDER}/[^/]+/[^/]+\\${MARKDOWN_EXTENSION}$`);
 
@@ -65,6 +67,12 @@ function moduleLinkNotes() {
   return notes;
 }
 
+function missingWhyNotes() {
+  return standardsOnDisk()
+    .filter((standard) => !WHY_HEADING.test(readFileSync(join(STANDARDS_FOLDER, standard), 'utf8')))
+    .map((standard) => `${STANDARDS_FOLDER}/${standard} has no Why section`);
+}
+
 function latestVersionSection(changelog) {
   const start = changelog.search(VERSION_HEADING);
   if (start === -1) {
@@ -106,6 +114,13 @@ if (process.argv.includes(LINKS_FLAG)) {
   }
 }
 console.log(`standards: ${notes.length} links between modules`);
+const whyNotes = missingWhyNotes();
+if (process.argv.includes(WHY_FLAG)) {
+  for (const note of whyNotes) {
+    console.log(`standards: ${note}`);
+  }
+}
+console.log(`standards: ${whyNotes.length} without a Why section`);
 for (const error of errors) {
   console.error(`standards: ${error}`);
 }
