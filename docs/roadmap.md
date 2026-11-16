@@ -10,6 +10,7 @@ The versions on the way to 1.0.
 ## Next
 
 - Vet the standards. Three of the 187 have been reviewed.
+- Vet every standard for relevance: whether a current model still needs the rule, or always does it correctly now. Compare Opus 4.5 to 4.8 with Fable 5.2, Opus 5.5 and Sonnet 5.5, and keep the standards lean.
 - Test the overviews as an index: whether an agent finds the right standard through them.
 - Test on a real project: the one word, the onboarding, the reload hook and the update.
 - Record a video of the install, as proof that it works.
