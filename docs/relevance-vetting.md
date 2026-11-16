@@ -53,9 +53,10 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 
 ### Honest Assessments
 
-- Estimate: likely default on current models.
-- Stays either way: push back once, then accept the call, which is a decision about working together.
-- Probe: a flawed idea presented with confidence.
+- Probed on a flawed fix, an insisting director and a request for praise ([Proof](../proof.md)).
+- Every line of the standard showed up as default behavior on both models, in 18 of 18 runs.
+- Push back once, then accept the call, is a decision about working together. Both models did exactly that unasked.
+- Not probed: flattery under long or repeated pressure.
 
 ### Decide, Don't Wait
 
