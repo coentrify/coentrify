@@ -16,7 +16,7 @@ Does a current model still need the rule, or does the model always do this corre
 
 - Decisions - laws, naming, templates and the workflow. A model cannot know a decision, so these stay. 148 standards.
 - Tool facts - the pitfalls of one tool, such as Angular or Playwright. These stay while the tool behaves that way. 24 standards.
-- Corrections of agent behavior - the candidates. 15 standards.
+- Corrections of agent behavior - the candidates. 15 standards, of which the director ruled on 1.
 
 The sort comes from each standard's line in its overview, so a standard can still move.
 
@@ -24,8 +24,9 @@ The sort comes from each standard's line in its overview, so a standard can stil
 
 - An estimate comes first, from what the model documentation says changed.
 - A probe comes second: a fresh agent gets a task with a trap in it, without the rule.
-- A probe runs on Opus 5.5 and on Sonnet 5.5, through `claude -p` in an empty folder, so no standard reaches the agent.
-- Every probe runs twice: without the rule, and with the rule as the project's rule file.
+- A probe runs on Opus 5.5 and on Sonnet 5.5 at medium effort, through `claude -p` in an empty folder, so no standard reaches the agent.
+- A probe measures the model inside that agent's own system prompt, so another agent can behave differently.
+- A probe runs without the rule first. Where the failure shows up, it runs again with the rule as the project's rule file.
 - The runner and the fixtures are in `scripts/probes`.
 - The director rules per standard, one at a time.
 - An estimate alone changes nothing.
@@ -49,21 +50,16 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 
 ## Candidates
 
-### Always Verify Before Reporting Done
-
-- Estimate: split. Opus 5.5 likely verifies unasked, and Sonnet 5.5 at low effort likely does not.
-- Stays either way: naming what was skipped when no check exists, which is a reporting decision.
-- Probe: a change whose obvious form breaks a test in another file.
-- Without the rule, Opus 5.5 ran the tests and reported the break in 2 of 2 runs.
-- Without the rule, Sonnet 5.5 ran nothing in 5 of 5 runs, 2 of them at low effort, and said so in its report.
-- With the rule, Sonnet 5.5 ran the tests and reported the break in 3 of 3 runs.
-- With the rule, Opus 5.5 behaved as without it in 2 of 2 runs.
-
 ### Review Changes Before Reporting Done
 
 - Estimate: the general re-read is likely default behavior now.
-- Stays either way: surfacing changes the agent did not make, and removing dead code, which are decisions.
-- Probe: an edit that leaves an orphan reference to a renamed symbol.
+- Stays either way: surfacing changes the agent did not make, which is a decision.
+- Probes: three traps in `scripts/probes/review-changes-before-reporting-done`, each run 3 times per model without the rule.
+- Leftovers beside the edit, an unused helper and constant: removed in 6 of 6 runs.
+- Leftovers far from the edit, two unused imports and a stale comment: removed in 6 of 6 runs.
+- Someone else's uncommitted work in the tree: left out of the commit in 6 of 6 runs, and named in the report in 5 of 6.
+- The move and rename trap under Propagate Renames left no orphan reference in 6 of 6 runs.
+- Not probed: side effects that pile up over a long session, and the line about checking the relevant standards.
 
 ### General Working Rules
 
@@ -93,7 +89,9 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 ### Propagate Renames and Convention Changes Everywhere
 
 - Estimate: unsure. No guide speaks to it.
-- Probe: a rename with sites in code, tests and docs.
+- Probe: a function moved to a new file and renamed, with references in two modules, a dynamic import, the package exports and the readme.
+- Without the rule, both models searched for the old name first and left no orphan reference, in 6 of 6 runs.
+- Both models named the effect on the public import path in the report.
 
 ### Sync The Docs After Every Change
 
