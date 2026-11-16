@@ -12,6 +12,17 @@ const WHY_FLAG = '--why';
 const VERSION_HEADING = /^## /m;
 const MARKDOWN_LINK = /\]\(([^)#]+\.md)\)/g;
 const WHY_HEADING = /^## (Why|Purpose)$/m;
+const FENCE = '```';
+const HEADING = /^#{1,6} (.+)$/;
+const CODE_SPAN = /(`+).+?\1/g;
+const BLOCK_START = /^\s*(#{1,6} |[-*+] |\d+[.)] |>|\||```|<)|^\s*(-{3,}|\*{3,}|_{3,})\s*$/;
+const NO_JOIN_AFTER = /^\s*(#{1,6} |\||```)|^\s*(-{3,}|\*{3,}|_{3,})\s*$/;
+const HARD_BREAKS = ['  ', '\\'];
+const SECONDARY_WORDS = new Set([
+  'a', 'an', 'the', 'and', 'or', 'but', 'nor', 'so', 'yet', 'as', 'at', 'by', 'for', 'from', 'in', 'into',
+  'of', 'off', 'on', 'onto', 'out', 'over', 'per', 'to', 'up', 'via', 'vs', 'with',
+]);
+const LOWERCASE_NAMES = new Set(['npm', 'npx']);
 const PARENT_FOLDER = '../';
 const STANDARD_PATH = new RegExp(`^${STANDARDS_FOLDER}/[^/]+/[^/]+\\${MARKDOWN_EXTENSION}$`);
 
@@ -73,6 +84,67 @@ function missingWhyNotes() {
     .map((standard) => `${STANDARDS_FOLDER}/${standard} has no Why section`);
 }
 
+function pagesOnDisk() {
+  return readdirSync(STANDARDS_FOLDER, { recursive: true })
+    .filter((page) => page.endsWith(MARKDOWN_EXTENSION))
+    .map((page) => join(STANDARDS_FOLDER, page))
+    .sort();
+}
+
+function lowercaseHeadingWord(heading) {
+  const text = heading.replace(CODE_SPAN, '');
+  if (text === text.toLowerCase()) {
+    return undefined;
+  }
+  return text
+    .split(/\s+/)
+    .map((token) => token.replace(/^[^A-Za-z]+/, '').replace(/[^A-Za-z']+$/, ''))
+    .find(
+      (word, index) =>
+        /^[a-z]/.test(word) &&
+        !/[A-Z./]/.test(word) &&
+        !LOWERCASE_NAMES.has(word) &&
+        !(index > 0 && SECONDARY_WORDS.has(word)),
+    );
+}
+
+function formatErrors() {
+  const errors = [];
+  for (const page of pagesOnDisk()) {
+    let inCode = false;
+    let previous = '';
+    let previousInCode = false;
+    readFileSync(page, 'utf8')
+      .split('\n')
+      .forEach((line, index) => {
+        const fence = line.trimStart().startsWith(FENCE);
+        if (fence) {
+          inCode = !inCode;
+        }
+        const plain = !inCode && !fence;
+        const heading = plain ? line.match(HEADING) : null;
+        const word = heading ? lowercaseHeadingWord(heading[1]) : undefined;
+        if (word) {
+          errors.push(`${page}:${index + 1} the heading word "${word}" is not in Title Case`);
+        }
+        const wrapped =
+          plain &&
+          !previousInCode &&
+          line.trim() !== '' &&
+          previous.trim() !== '' &&
+          !BLOCK_START.test(line) &&
+          !NO_JOIN_AFTER.test(previous) &&
+          !HARD_BREAKS.some((ending) => previous.endsWith(ending));
+        if (wrapped) {
+          errors.push(`${page}:${index + 1} is a wrapped line, and a paragraph or a list item is one line`);
+        }
+        previous = line;
+        previousInCode = inCode || fence;
+      });
+  }
+  return errors;
+}
+
 function latestVersionSection(changelog) {
   const start = changelog.search(VERSION_HEADING);
   if (start === -1) {
@@ -105,7 +177,11 @@ function stagedErrors() {
     .map((path) => `${path} changed, and the latest version in ${CHANGELOG} does not name it`);
 }
 
-const errors = [...indexErrors(), ...(process.argv.includes(STAGED_FLAG) ? stagedErrors() : [])];
+const errors = [
+  ...indexErrors(),
+  ...formatErrors(),
+  ...(process.argv.includes(STAGED_FLAG) ? stagedErrors() : []),
+];
 
 const notes = moduleLinkNotes();
 if (process.argv.includes(LINKS_FLAG)) {
