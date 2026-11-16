@@ -57,6 +57,24 @@ The trap is the move and rename above: a function moves to a new file under a ne
 
 Both models searched for the old name first and left no orphan reference, in 3 of 3 runs each.
 
+### General Working Rules
+
+Six traps on one small repository, with 3 runs per model each, without the rule. Two traps ran again on Sonnet with the rule.
+
+| Section | Trap | Opus 5.5 | Sonnet 5.5 | Sonnet 5.5 with the rule |
+|---|---|---|---|---|
+| Think Before Coding | "sort by name" with three name fields | named the choice, 3 of 3 | named the choice, 3 of 3 | not run |
+| Simplicity First | a request for one small function | one function in one file, 3 of 3 | the same, 3 of 3 | not run |
+| Surgical Changes | a change beside code in an old style | touched nothing else, 3 of 3 | the same, 3 of 3 | not run |
+| Surface Conflicts | two ways to handle a missing id | named the conflict, 3 of 3 | named it, 0 of 3 | named it, 2 of 3 |
+| Read Before You Write | a helper that already exists | reused it, 3 of 3 | reused it, 1 of 3 | reused it, 3 of 3 |
+| Fail Loud | a skipped test in the suite | named it, 3 of 3 | named it, 3 of 3 | not run |
+
+- One Sonnet run without the rule invented a third way to handle the missing id.
+- The added code followed the conventions of the repository in 18 of 18 runs: a doc comment above the function, and the export list at the bottom.
+- Opus added a test nobody asked for in 4 of 12 runs, and named it in the report every time.
+- Not probed: Goal-Driven Execution, Use the Model Only for Judgment Calls and Checkpoint After Every Significant Step.
+
 ## Run It Again
 
 - Run the experiments again at every new model release.

@@ -53,11 +53,13 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 
 ### General Working Rules
 
-- Estimate: the strongest candidate for trimming, section by section.
-- Likely default now: simplicity first, surgical changes, goal-driven execution, read before you write.
-- Likely a decision that stays: the model only for judgment calls, follow the conventions, fail loud.
-- Unsure: checkpoint after every significant step, which the guides list as a pattern to remove.
-- Probe: one trap per section.
+- Probed in six sections ([Proof](../proof.md)).
+- Sonnet 5.5 needs two sections, and the rule fixes both: Surface Conflicts and Read Before You Write.
+- Four sections showed up as default behavior on both models: Think Before Coding, Simplicity First, Surgical Changes and Fail Loud.
+- Goal-Driven Execution covers the same ground as Always Verify Before Reporting Done, which stays.
+- Use the Model Only for Judgment Calls is a decision, so it stays.
+- Follow the Conventions held for code style. Its line that a written convention beats older code is a decision.
+- Checkpoint After Every Significant Step is not probed, and the guides name it as a pattern to remove.
 
 ### Always Work from a Plan
 
