@@ -6,7 +6,17 @@ What changed in each version of coentrify.
 
 ### Behavior
 
+- Changed [Anchor Edits After Formatting](standards/behavior/anchor-edits-after-formatting.md)
+- Changed [Propagate Renames and Convention Changes Everywhere](standards/behavior/propagate-renames-and-convention-changes-everywhere.md)
 - Changed [Prose Style](standards/behavior/prose-style.md)
+
+### E2E
+
+- Changed [Canvas Clicks by Coordinates](standards/e2e/canvas-clicks-by-coordinates.md)
+
+### TypeScript
+
+- Changed [Always Add Explicit Types](standards/typescript/always-add-explicit-types.md)
 
 ## 0.0.1
 

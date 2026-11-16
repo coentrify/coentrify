@@ -1,6 +1,10 @@
 # Anchor Edits After Formatting
 
-An anchored text edit (replace this exact snippet) should be made against the file as it is on disk right now, not as it was last read. A formatter pass, a lint-staged commit hook, or a migration in between rewrites line breaks and import order, and the anchor silently stops matching.
+An anchored text edit (replace this exact snippet) should be made against the file as it is on disk right now, not as it was last read.
+
+## Why
+
+A formatter pass, a lint-staged commit hook, or a migration in between rewrites line breaks and import order, and the anchor silently stops matching.
 
 ## How to apply
 

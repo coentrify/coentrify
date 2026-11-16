@@ -15,7 +15,7 @@ const handler = (event: Event): void => { ... };
 
 If a linter rule forbids explicit annotations on inferrable bindings, change the rule, not the code.
 
-## Reasons
+## Why
 
 - The type is always included in the file that is checked.
 - Readable for an agent and for code reviews.
