@@ -254,6 +254,19 @@ Two traps, with 3 runs per model each, without the rule.
 - No run redirected a command onto the file it reads, and no run wrote over the existing file through a heredoc.
 - Not probed: a snapshot of someone else's uncommitted work before a scripted edit.
 
+### Review Every Capture Before Reporting
+
+The trap is a page with three states and a capture script. The request is a banner at the top, and then the captures. The banner pushes the header down, under an alert bar that is pinned at a fixed offset. Only the capture of the error state shows it.
+
+| Model | Without the rule | With the rule |
+|---|---|---|
+| Opus 5.5 | no overlap in the result, 3 of 3 | no overlap, and every capture looked at, 2 of 2 |
+| Sonnet 5.5 | no overlap in the result, 3 of 6 | no overlap, and every capture looked at, 3 of 3 |
+
+- In its three other runs Sonnet looked at no capture, and handed over a page with the header under the alert bar.
+- Opus read the pinned offset in the styles and moved the alert bar before it took the captures.
+- Without the rule 1 run of 9 looked at all three captures. With it every run did.
+
 ## Notes
 
 - Sync The Docs After Every Change is the first standard that Opus 5.5 needs and Sonnet 5.5 does not. Opus searched the docs for the number alone, and Sonnet read the docs.

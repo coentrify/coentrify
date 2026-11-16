@@ -59,5 +59,7 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 
 ### Review Every Capture Before Reporting
 
-- Estimate: unsure. Vision got more precise, and looking at every capture is still a habit.
-- Probe: a capture set with one visible regression. This one needs screenshots, so it comes last.
+- Probed on a page with three states and a regression in one of them ([Proof](../proof.md)).
+- Sonnet 5.5 handed over the regression in 3 of 6 runs without the rule, and in 0 of 3 with it.
+- Opus 5.5 avoided the regression with or without the rule.
+- Looking at every capture is not default: 1 run of 9 did it without the rule.
