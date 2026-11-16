@@ -1,0 +1,8 @@
+{
+  "name": "shipping-kit",
+  "version": "2.3.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}
