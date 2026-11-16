@@ -40,8 +40,9 @@ Humans are creative, agents are hardworking, and systems are rigid. So humans de
 
 ## Elements
 
-- [Philosophy](philosophy.md) - The ideas and concepts the system is based on, a compass.
+- [Philosophy](philosophy.md) - The four principles the system rests on, a compass.
 - [Standards](standards.md) - The rules and templates a project adopts.
+- [Tools](tools/overview.md) - The scripts and hooks that enforce a standard.
 - [How It Works](how-it-works.md) - From any input to what you want.
 
 ## Wiki
