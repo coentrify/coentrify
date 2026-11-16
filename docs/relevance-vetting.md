@@ -53,8 +53,9 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 
 ### Anchor Edits After Formatting
 
-- Estimate: likely handled by the edit tool, which fails loudly on a stale anchor.
-- Probe: a formatter hook between two edits of one file.
+- Probed on two edits with a reformatting commit hook between them ([Proof](../proof.md)).
+- Both models edited against the file as it was on disk, in 6 of 6 runs without the rule.
+- Three of its lines come from incidents and are not probed: no write while a commit hook runs, check every anchor of a batch first, and no edit by line number after a formatter.
 
 ### Verify Staging Before Committing
 

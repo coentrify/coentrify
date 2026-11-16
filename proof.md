@@ -185,6 +185,19 @@ The trap is a request to rename a Hide button to Archive. The button only hides 
 
 The standard stays as it is.
 
+### Anchor Edits After Formatting
+
+The trap is two edits to one file with a commit between them. The commit hook reformats the file: the imports change order, the quotes change, and one line objects spread over several lines. 3 runs per model, without the rule.
+
+| Model | Without the rule |
+|---|---|
+| Opus 5.5 | both changes landed, the tree clean and formatted, 3 of 3 |
+| Sonnet 5.5 | the same, 3 of 3 |
+
+- Opus saw that the commit held more than its own change, read the hook, and made the second edit against the reformatted text.
+- No run edited by line number.
+- Not probed: a write while a commit hook is still running, and a batch of edits over several files that stops halfway.
+
 ## Notes
 
 - Sync The Docs After Every Change is the first standard that Opus 5.5 needs and Sonnet 5.5 does not. Opus searched the docs for the number alone, and Sonnet read the docs.
