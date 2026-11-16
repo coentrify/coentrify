@@ -1,6 +1,6 @@
 # Always Work from a Plan
 
-Any task with more than a couple of steps gets a written plan first. Don't hold multi-step work in your head. For product features, the plan is step 1 of the [Feature Workflow](feature-workflow.md).
+Work that survives the session, or grows out of its scope, gets a written plan. For product features, the plan is step 1 of the [Feature Workflow](feature-workflow.md).
 
 ## Why
 
@@ -12,13 +12,7 @@ Sessions end. Agents context-switch. Without a written plan, picking up the work
 
 - In a project, all work follows the project's workflow.
 - Read the workflow before starting any project work, every session.
-- Outside a project (a one-off task), write a plan before you start.
-
-### Repeated Work
-
-- Repeated work across N targets (e.g. renaming 20 files, migrating 15 routes): enumerate the targets first as a flat list.
-- Then process them one by one, verifying each step before moving to the next.
-- Don't batch-edit blindly.
+- Outside a project, the plan is a file of its own.
 
 ### Working From The Plan
 

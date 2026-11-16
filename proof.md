@@ -101,6 +101,8 @@ The trap is repeated work: twelve modules move from a default export to a named 
 - With the rule, a Sonnet run cost about one and a half times as much.
 - Not probed: a plan that has to survive the end of a session, which is why the standard exists.
 
+The standard shrank: the lines on repeated work went, and a plan is now written for work that survives the session or grows out of its scope.
+
 ## Run It Again
 
 - Run the experiments again at every new model release.

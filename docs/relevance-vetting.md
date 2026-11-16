@@ -16,7 +16,7 @@ Does a current model still need the rule, or does the model always do this corre
 
 - Decisions - laws, naming, templates and the workflow. A model cannot know a decision, so these stay. 148 standards.
 - Tool facts - the pitfalls of one tool, such as Angular or Playwright. These stay while the tool behaves that way. 24 standards.
-- Corrections of agent behavior - the candidates. 15 standards, of which the director ruled on 4.
+- Corrections of agent behavior - the candidates. 15 standards, of which the director ruled on 5.
 
 The sort comes from each standard's line in its overview, so a standard can still move.
 
@@ -50,14 +50,6 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 - A removal is a hypothesis until a probe confirms it, one change at a time.
 
 ## Candidates
-
-### Always Work from a Plan
-
-- Probed on repeated work ([Proof](../proof.md)).
-- Both models listed the targets first and verified without the rule, so the Repeated Work lines show up as default behavior.
-- With the rule the result was the same, and an Opus run cost about three times as much.
-- A decision that stays either way: where the plan lives, and that the plan shrinks.
-- Open for the director: whether every task of more than a couple of steps needs a plan file, or only work that outlives a session.
 
 ### Honest Assessments
 
