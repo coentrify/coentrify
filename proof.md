@@ -4,6 +4,7 @@ The experiments behind the standards. Every result names the models it was measu
 
 - The Method - how an experiment runs
 - The Results - what was measured, per standard
+- Notes - what stands out across the results
 - Run It Again - when and how
 
 ## The Method
@@ -152,6 +153,12 @@ The trap is a threshold that changes in the code: free shipping moves from 50 to
 - Every run updated the code, the test and the docs that state the value as a number.
 - In its three other runs Opus missed the doc with the value as a word, and did not mention the roadmap.
 - No run rewrote the roadmap line.
+
+The standard stays as it is.
+
+## Notes
+
+- Sync The Docs After Every Change is the first standard that Opus 5.5 needs and Sonnet 5.5 does not. Opus searched the docs for the number alone, and Sonnet read the docs.
 
 ## Run It Again
 
