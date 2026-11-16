@@ -1,0 +1,1 @@
+Add isEmpty(list) to src/lists.js. Run npm run check and commit when it passes.
