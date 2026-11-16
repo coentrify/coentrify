@@ -12,7 +12,6 @@ The Behavior standards: how an agent works and what an agent checks.
 - [Backward-Trace Missing Prerequisites](backward-trace-missing-prerequisites.md) - a missing prerequisite becomes a ticket above the item; recurse, never patch around
 - [Code Review Compounds Into Patterns and Sweeps](code-review-compounds-into-patterns-and-sweeps.md) - a review finding is a pattern: review check, how-to standard, sweep ticket
 - [Communication Boundary](communication-boundary.md) - never contact users or testers or speak for the director; file `Tell <name>` tasks
-- [Decide, Don't Wait](decide-dont-wait.md) - decide easy choices and flag them; only costly ones wait; the order of work is yours
 - [Dev Tiers](dev-tiers.md) - work order: build, bugs, debt, features, each tier counting only what hurts the current phase's goal; all other debt waits for its phase
 - [Docs Hold Only What the Director Decided](docs-hold-only-what-the-director-decided.md) - docs hold only what the director decided; ideas go to chat first
 - [Don't Filter Data Without a Spec](dont-filter-data-without-a-spec.md) - never drop data unless the exclusion is specced and tested

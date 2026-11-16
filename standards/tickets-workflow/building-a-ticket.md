@@ -8,7 +8,7 @@ The builder's page: how a ticket with its go is built, and when it counts as don
 - One item in flight per agent: the first ticket of its plan section ([Work Tracking](work-tracking.md#the-lists)). A bare line stands in the plan's Tasks section with its go linked, and a line without one cannot stand there.
 - Every word and number a change shows, configuration data included, is weighed along the ticket's entry points by what it means to the user at that moment ([Walk The User's Journey](../ui/walk-the-users-journey.md)). A text the user reads speaks the product's own words, never the workspace's internal terms.
 - A feature runs the feature workflow inside its ticket ([Feature Workflow](../behavior/feature-workflow.md)).
-- Easy-to-change choices are made and written under Veto; only costly-to-undo ones wait, as a question in their ticket ([Decide, Don't Wait](../behavior/decide-dont-wait.md)).
+- Easy-to-change choices are made and written under Veto; only costly-to-undo ones wait, as a question in their ticket.
 
 ## Definition Of Done
 

@@ -15,4 +15,3 @@ Work started elsewhere is hard to follow and easy to get wrong, and a project in
 ## Related
 
 - [Work Workflow](../tickets-workflow/work-workflow.md)
-- [Decide, Don't Wait](decide-dont-wait.md)

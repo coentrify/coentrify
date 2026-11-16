@@ -47,4 +47,3 @@ The director tests by hand between versions; work without a version has no name 
 - [Game Work Workflow](game-work-workflow.md)
 - [Request Log](../records/request-log.md)
 - [Playtest Files](../records/playtest-files.md)
-- [Decide, Don't Wait](../behavior/decide-dont-wait.md)

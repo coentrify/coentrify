@@ -138,6 +138,8 @@ Two traps on one small repository. The first is a cheap choice: "sort the custom
 
 Understand The Need and Feature Workflow stay: without them both models build a feature on guesses.
 
+Decide, Don't Wait went. Deciding a cheap choice is default behavior, and Understand The Need carries the asking.
+
 ## Run It Again
 
 - Run the experiments again at every new model release.

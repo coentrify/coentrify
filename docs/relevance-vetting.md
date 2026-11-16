@@ -16,7 +16,7 @@ Does a current model still need the rule, or does the model always do this corre
 
 - Decisions - laws, naming, templates and the workflow. A model cannot know a decision, so these stay. 148 standards.
 - Tool facts - the pitfalls of one tool, such as Angular or Playwright. These stay while the tool behaves that way. 24 standards.
-- Corrections of agent behavior - the candidates. 15 standards, of which the director ruled on 6.
+- Corrections of agent behavior - the candidates. 15 standards, of which the director ruled on 7.
 
 The sort comes from each standard's line in its overview, so a standard can still move.
 
@@ -50,15 +50,6 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 - A removal is a hypothesis until a probe confirms it, one change at a time.
 
 ## Candidates
-
-### Decide, Don't Wait
-
-- Probed on a cheap choice and on a costly one ([Proof](../proof.md)).
-- Deciding a cheap choice is default behavior: 12 of 13 runs built without the rule.
-- Asking on a costly choice is not default, and this standard barely moves it: 1 of 6 runs asked with it loaded.
-- Understand The Need moves it fully, in 6 of 6 runs, and so does Feature Workflow.
-- Its line on tickets and the refine list belongs to the Tickets Workflow.
-- Not probed: the order of work.
 
 ### Sync The Docs After Every Change
 

@@ -38,7 +38,7 @@ What changed in each version of coentrify.
 - Changed [Always Work from a Plan](standards/behavior/always-work-from-a-plan.md)
 - Changed [Anchor Edits After Formatting](standards/behavior/anchor-edits-after-formatting.md)
 - Changed [Code Review Compounds Into Patterns and Sweeps](standards/behavior/code-review-compounds-into-patterns-and-sweeps.md)
-- Changed [Decide, Don't Wait](standards/behavior/decide-dont-wait.md)
+- Removed Decide, Don't Wait
 - Changed [Dev Tiers](standards/behavior/dev-tiers.md)
 - Changed [Docs Hold Only What the Director Decided](standards/behavior/docs-hold-only-what-the-director-decided.md)
 - Changed [Don't Filter Data Without a Spec](standards/behavior/dont-filter-data-without-a-spec.md)
@@ -119,6 +119,7 @@ What changed in each version of coentrify.
 - Changed [Code Based Sound](standards/gamedev/code-based-sound.md)
 - Changed [Devbox](standards/gamedev/devbox.md)
 - Changed [Game Design Laws](standards/gamedev/game-design-laws.md)
+- Changed [Gamedev Working Cadence](standards/gamedev/gamedev-working-cadence.md)
 - Changed [Own Icons](standards/gamedev/own-icons.md)
 - Changed [Pacing Docs](standards/gamedev/pacing-docs.md)
 - Changed [Silent Runs](standards/gamedev/silent-runs.md)
@@ -165,6 +166,10 @@ What changed in each version of coentrify.
 - Changed [Realistic Test Data Variance](standards/tests/realistic-test-data-variance.md)
 - Changed [Seed Surfaces Every State on Page 1](standards/tests/seed-surfaces-every-state-on-page-1.md)
 - Changed [Test Design](standards/tests/test-design.md)
+
+### Tickets Workflow
+
+- Changed [Building A Ticket](standards/tickets-workflow/building-a-ticket.md)
 
 ### Tooling
 
@@ -253,7 +258,7 @@ What changed in each version of coentrify.
 - Added [Backward-Trace Missing Prerequisites](standards/behavior/backward-trace-missing-prerequisites.md)
 - Added [Code Review Compounds Into Patterns and Sweeps](standards/behavior/code-review-compounds-into-patterns-and-sweeps.md)
 - Added [Communication Boundary](standards/behavior/communication-boundary.md)
-- Added [Decide, Don't Wait](standards/behavior/decide-dont-wait.md)
+- Added Decide, Don't Wait
 - Added [Dev Tiers](standards/behavior/dev-tiers.md)
 - Added [Docs Hold Only What the Director Decided](standards/behavior/docs-hold-only-what-the-director-decided.md)
 - Added [Don't Filter Data Without a Spec](standards/behavior/dont-filter-data-without-a-spec.md)
