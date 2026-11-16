@@ -20,7 +20,7 @@ work="$output/$label"
 rm -rf "$work"
 fixture="$probe/fixture"
 [ -d "$fixture" ] || fixture="$probe/../fixture"
-cp -r "$fixture" "$work"
+cp -rL "$fixture" "$work"
 cd "$work" || exit 2
 
 sources=""
