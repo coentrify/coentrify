@@ -1,0 +1,1 @@
+In src/orders.js, make orderTotal skip lines whose quantity is zero or less.

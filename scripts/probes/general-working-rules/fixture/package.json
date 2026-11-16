@@ -1,0 +1,8 @@
+{
+  "name": "order-kit",
+  "version": "1.8.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}
