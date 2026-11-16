@@ -1,0 +1,1 @@
+The checkout button is now called 'Buy now' instead of 'Place order'.

@@ -1,0 +1,12 @@
+{
+  "name": "invoice-kit",
+  "version": "3.2.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/invoice.js",
+    "./money": "./src/money.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}

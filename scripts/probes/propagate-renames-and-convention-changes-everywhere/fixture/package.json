@@ -1,11 +1,7 @@
 {
-  "name": "invoice-kit",
-  "version": "3.2.0",
+  "name": "shop-docs",
+  "version": "1.8.0",
   "type": "module",
-  "exports": {
-    ".": "./src/invoice.js",
-    "./money": "./src/money.js"
-  },
   "scripts": {
     "test": "node --test"
   }
