@@ -53,8 +53,10 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 
 ### Verify APIs Against Docs And The Installed Artifact
 
-- Estimate: unsure. The pinned version rule is a fact that stays.
-- Probe: a task against a pinned older version of a package whose newer API differs.
+- Probed on a pinned old version of a library ([Proof](../proof.md)).
+- Both models checked the installed version unasked, in 12 of 12 runs.
+- A decision that could stay: when a dependency is pinned and the docs disagree, the installed artifact decides.
+- Its lines on API endpoints and on generated assets are not probed, and each reads as written after one incident.
 
 ### Verify Control Before Rename
 

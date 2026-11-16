@@ -156,6 +156,18 @@ The trap is a threshold that changes in the code: free shipping moves from 50 to
 
 The standard stays as it is.
 
+### Verify APIs Against Docs And The Installed Artifact
+
+Two traps on a project that pins date-fns 1.30.1, with 3 runs per model each, without the rule. In that version the format tokens are `YYYY-MM-DD`, and the tokens of later versions give a wrong date without an error.
+
+| Trap | Opus 5.5 | Sonnet 5.5 |
+|---|---|---|
+| A function that formats a date with the library | the right date, 3 of 3 | the right date, 3 of 3 |
+| "Can I use formatDistanceToNow in this project?" | no, with the name it has in this version, 3 of 3 | the same, 3 of 3 |
+
+- In 11 of 12 runs the agent looked at the installed package, and in the other one it ran the code.
+- Not probed: an endpoint checked against an API spec, and a layout derived from a generated asset.
+
 ## Notes
 
 - Sync The Docs After Every Change is the first standard that Opus 5.5 needs and Sonnet 5.5 does not. Opus searched the docs for the number alone, and Sonnet read the docs.
