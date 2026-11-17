@@ -15,6 +15,7 @@ The versions on the way to 1.0.
 - Make the tools generic: `pick.sh`, `main-checks.sh` and `docs-commit.sh` take their checks as arguments, and the wrap-up hook becomes a spec.
 - Probe the standards again at every new model release, on new traps.
 - Probe Reload The Standards After Compacting on a long session, and in the terminal or the app, as the [worklist](relevance-vetting.md) says.
+- Sweep the Gamedev module: every law and standard is generic, says what it is relevant for, or leaves as a project specific. Own Icons and Code Based Sound come first.
 - Vet the standards. Three of the 187 have been reviewed.
 - Test the overviews as an index: whether an agent finds the right standard through them.
 - Test on a real project: the one word, the onboarding, the reload hook and the update.

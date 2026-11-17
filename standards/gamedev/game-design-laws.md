@@ -83,7 +83,7 @@ The laws also give an agent room to decide small things without asking. They are
 
 - A game's laws doc has three parts: the generic laws it adopts, the ones it leaves out with a reason, and its own laws and overrides in full.
 - An adopted or left-out law is named by its name in this set, never copied.
-- A law with a condition (a player character, a PC game, an incremental game, dialog, a world, an economy) is adopted or left out by that condition.
+- A law that holds for one kind of game says so in a `Relevant for:` line under its name, and is adopted or left out by it.
 - An exception is a paragraph under the law in the game's overrides, naming the feature and the reason, added only when the director affirms it.
 - Check a new feature against the laws before its spec; a conflict is surfaced, never averaged.
 - Feature docs link the law they lean on instead of repeating it.

@@ -22,6 +22,6 @@ The Gamedev standards: game development.
 - [Own Icons](own-icons.md) - own icon sprite, named by concept, with a wiki index page
 - [Pacing Docs](pacing-docs.md) - a pacing doc per level mirroring the configuration
 - [Silent Runs](silent-runs.md) - an agent's runs of a game make no sound: muted Playwright captures for a walk, never the browser pane on a game with sound
-- [Sprite Sheet Frames](sprite-sheet-frames.md) - read frame size and row order from the sheet's pixels
+- [Sprite Sheet Frames](sprite-sheet-frames.md) - read frame size and row order from the sheet's pixels; for a 2D game with sprite sheets
 - [Stabilize Before Adding](stabilize-before-adding.md) - while stabilizing, only bugs and tweaks; new things go later
-- [Visual Design](visual-design.md) - drawn scenes keep one perspective: verticals vertical, edges to the vanishing point, repeats converging, patterns foreshortened; checked with lines drawn over a capture
+- [Visual Design](visual-design.md) - drawn scenes keep one perspective: verticals vertical, edges to the vanishing point, repeats converging, patterns foreshortened; checked with lines drawn over a capture; for a game with drawn 2D scenes

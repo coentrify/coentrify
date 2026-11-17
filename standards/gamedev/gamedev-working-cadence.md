@@ -25,10 +25,14 @@ The director tests by hand between versions; work without a version has no name 
 ## Version Close
 
 - What a version is follows the game's phase ([Game Phases](game-phases.md)). In Pre-Alpha a version is a day of work: closing the day closes the version. Once builds go out, a version is a build, and a playtest names the version it played.
-- The version closes with the suites green and the version tagged. Green includes the whole pre-push hook (`npm run hooks:pre-push`: production build, bundle check, styleguide, wiki build, hygiene, types, unit, the stories in a browser) by its exit code, run before the tag and never left for the director's push.
-- The full browser suite runs as two halves when it outlasts the background cap ([Playwright Parallel Runs](../tooling/playwright-parallel-runs.md)).
+- The version closes with the suites green and the version tagged.
 - Nothing lands between the full suites and the tag without its touched suite run again.
 - The next version is bumped and its changelog page opened only when its first item lands ([Changelog Per Version](../records/changelog-per-version.md)).
+
+## For A Browser Game
+
+- Green at the close includes the whole pre-push hook (`npm run hooks:pre-push`: production build, bundle check, styleguide, wiki build, hygiene, types, unit, the stories in a browser) by its exit code, run before the tag and never left for the director's push.
+- The full browser suite runs as two halves when it outlasts the background cap ([Playwright Parallel Runs](../tooling/playwright-parallel-runs.md)).
 
 ## Wind-Down
 

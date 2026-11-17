@@ -12,6 +12,9 @@ const WHY_FLAG = '--why';
 const VERSION_HEADING = /^## /m;
 const MARKDOWN_LINK = /\]\(([^)#]+\.md)\)/g;
 const WHY_HEADING = /^## (Why|Purpose)$/m;
+const RELEVANT_FOR_HEADING = '## Relevant For';
+const SECTION_HEADING = /^## /;
+const LIST_ITEM = /^- (.+)$/;
 const FENCE = '```';
 const HEADING = /^#{1,6} (.+)$/;
 const CODE_SPAN = /(`+).+?\1/g;
@@ -60,6 +63,44 @@ function indexErrors() {
     const index = readFileSync(join(STANDARDS_FOLDER, module, INDEX_PAGE), 'utf8');
     if (!index.includes(`(${file})`)) {
       errors.push(`${STANDARDS_FOLDER}/${standard} is not listed in ${STANDARDS_FOLDER}/${module}/${INDEX_PAGE}`);
+    }
+  }
+  return errors;
+}
+
+function relevantFor(text) {
+  const lines = text.split('\n');
+  const start = lines.indexOf(RELEVANT_FOR_HEADING);
+  if (start === -1) {
+    return [];
+  }
+  const tags = [];
+  for (const line of lines.slice(start + 1)) {
+    if (SECTION_HEADING.test(line)) {
+      break;
+    }
+    const item = line.match(LIST_ITEM);
+    if (item) {
+      tags.push(item[1].trim());
+    }
+  }
+  return tags;
+}
+
+function relevantForErrors() {
+  const errors = [];
+  for (const standard of standardsOnDisk()) {
+    const [module, file] = standard.split('/');
+    const tags = relevantFor(readFileSync(join(STANDARDS_FOLDER, standard), 'utf8'));
+    if (tags.length === 0) {
+      continue;
+    }
+    const index = readFileSync(join(STANDARDS_FOLDER, module, INDEX_PAGE), 'utf8');
+    const line = index.split('\n').find((entry) => entry.includes(`(${file})`)) ?? '';
+    for (const tag of tags) {
+      if (!line.includes(tag)) {
+        errors.push(`${STANDARDS_FOLDER}/${standard} is relevant for "${tag}", and its line in ${STANDARDS_FOLDER}/${module}/${INDEX_PAGE} does not say so`);
+      }
     }
   }
   return errors;
@@ -182,6 +223,7 @@ function stagedErrors() {
 const errors = [
   ...indexErrors(),
   ...formatErrors(),
+  ...relevantForErrors(),
   ...(process.argv.includes(STAGED_FLAG) ? stagedErrors() : []),
 ];
 

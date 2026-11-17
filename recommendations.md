@@ -34,7 +34,7 @@ Normal Dashes and Prose Style are taste. Coentrify recommends both, because docs
 
 ### Picked By The Director
 
-- Gamedev - a game, where the director picks the game design laws that apply
+- Gamedev - a game, where the director picks the game design laws that apply. A law or a standard for one kind of game says what it is relevant for, and a game takes more of the module as its phase asks
 - Reporting - a project whose director wants reports and reels
 - Commits - how work is committed and gated. The module is strongly opinionated, so the director decides which of its standards to adopt
 

@@ -16,6 +16,10 @@ The system learns. With every fix more is automated, and the project becomes mor
 
 Standards come in modules. A module holds the standards on one subject, such as Behavior, Docs or Tests. The [overview](standards/overview.md) lists every module and its standards.
 
+A module joins when its subject comes up: a framework, an engine or a kind of product. Its standards arrive once a project has proven them.
+
+A standard that does not hold for every project says so in a Relevant For section: a flat list of what it is relevant for, in plain words. A standard without the section holds everywhere in its module, and its line in the overview repeats the list.
+
 ## Skills
 
 A skill is a standard for one task: a file of instructions an agent follows when the task comes up. A skill lives in the module it belongs to, and a project prefers a skill over working from scratch.
@@ -29,6 +33,7 @@ Coentrify has one version. The [changelog](changelog.md) names every standard th
 Every standard follows one template.
 
 - The rule, in one or two sentences
+- What the rule is relevant for, where it does not hold for every project
 - Why the rule exists
 - How to apply the rule
 - An example, where a story helps

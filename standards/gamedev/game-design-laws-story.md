@@ -8,14 +8,18 @@ Never tell the player what happened, what to feel or what to experience; let the
 
 ## Worth Reading
 
-Applies to a game with dialog. Part of what makes a game good is that the player can miss something, which gives them a reason to read.
+Relevant for: a game with dialog.
+
+Part of what makes a game good is that the player can miss something, which gives them a reason to read.
 
 - no dialog has arrows to walk its lines again
 - a line missed stays missed
 
 ## Dialog Gives Context
 
-Applies to a game with dialog. Dialog accompanies what is on screen as its narrative: it gives the player the context the picture alone leaves out, what is going on, who is there and what is at stake.
+Relevant for: a game with dialog.
+
+Dialog accompanies what is on screen as its narrative: it gives the player the context the picture alone leaves out, what is going on, who is there and what is at stake.
 
 - The context comes from characters speaking about what they see and want: "Who is that?" "I don't know, he looks scary. Let's get out of here before he sees us."
 - A guide checks in, explains and asks whether the player is ready.
@@ -24,7 +28,9 @@ Applies to a game with dialog. Dialog accompanies what is on screen as its narra
 
 ## Make Yourself
 
-Applies to a game with a player character. The player can personalize the game to reflect themselves: the character can look like them, their hair, their face, their build, and the world carries what they stand for. Being represented matters more than a look of a certain vibe or graphical realism; a player who cannot make themselves is missing something.
+Relevant for: a game with a player character.
+
+The player can personalize the game to reflect themselves: the character can look like them, their hair, their face, their build, and the world carries what they stand for. Being represented matters more than a look of a certain vibe or graphical realism; a player who cannot make themselves is missing something.
 
 The player needs the ability and the space to represent themselves: the personalization options, and no steering of their judgment. The game stays as neutral as it can, so the character can relate. That is no indifference when a bad guy is being bad; it means not clouding it with external reasoning or noise, the writer's judgment among them.
 

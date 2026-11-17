@@ -32,7 +32,9 @@ A warning says what is wrong. A warning sign alone leaves the player fishing for
 
 ## Mouse First
 
-Applies to a PC game. The game plays best on a mouse and its wheel, the way most gamers play; a trackpad is taken into account for accessibility, never at the mouse's cost.
+Relevant for: a PC game.
+
+The game plays best on a mouse and its wheel, the way most gamers play; a trackpad is taken into account for accessibility, never at the mouse's cost.
 
 - every notch of a wheel moves a list by one step, at once, however fast the wheel turns
 - a trackpad's small movements add up to a step, so a list stays usable on one

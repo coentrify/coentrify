@@ -2,6 +2,10 @@
 
 Before a sheet is sliced into frames, the frame size and the row order are read from the pixels, never assumed from the tile size or a preview at a glance: print the alpha mask of the first cell, or render the sheet with a labeled grid, and check where a character's feet land and which way each row faces.
 
+## Relevant For
+
+- a 2D game with sprite sheets
+
 ## Why
 
 A 16 by 32 character sheet sliced at the 16 pixel tile size shows every character as a head only, and side rows read backwards from a small preview make a character walk the wrong way. Both slip through when the frame is assumed instead of read.
