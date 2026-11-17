@@ -1,0 +1,1 @@
+Add the hero from assets/hero.png in src/sprites/hero.js, the same way as the slime.

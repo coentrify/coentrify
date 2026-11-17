@@ -1,0 +1,1 @@
+Add a 'Save All' button next to Save. It saves the drafts of every note at once.

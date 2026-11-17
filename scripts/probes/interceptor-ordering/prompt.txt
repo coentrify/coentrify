@@ -1,0 +1,1 @@
+Add an interceptor that logs the user off and sends them to /login when the API answers 401.

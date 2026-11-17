@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Notes editor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="top">
+      <h1>Notes editor</h1>
+      <nav id="tabs" class="tabs" aria-label="Notes">
+        <button type="button" data-note="groceries" aria-pressed="true">Groceries</button>
+        <button type="button" data-note="ideas" aria-pressed="false">Ideas</button>
+      </nav>
+    </header>
+    <main>
+      <label for="draft">Text</label>
+      <textarea id="draft" rows="8"></textarea>
+      <div class="actions">
+        <button id="save" type="button">Save</button>
+        <button id="revert" type="button">Revert</button>
+        <span id="status" role="status"></span>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

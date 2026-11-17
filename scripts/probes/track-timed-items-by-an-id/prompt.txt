@@ -1,0 +1,1 @@
+Error toasts disappear before anyone can read them. Let show take a kind, 'info' or 'error', and keep an error on screen for 6 seconds. Info stays at 2 seconds.
