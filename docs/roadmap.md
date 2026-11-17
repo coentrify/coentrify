@@ -25,3 +25,6 @@ The versions on the way to 1.0.
 
 - Whether How It Works keeps its line on the one-word prompt.
 - Whether Always Work from a Plan keeps its title, now that its rule is conditional.
+- Whether the changelog gets a page per version, with the summaries on an index, as Changelog Per Version says for a project.
+- Whether the first round of the vetting is probed again on hard traps, with every shrunk standard tested shrunk and in full.
+- Whether a part page, of the laws or the phases, needs a Why of its own.
