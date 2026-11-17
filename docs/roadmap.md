@@ -12,7 +12,6 @@ The versions on the way to 1.0.
 - Finish [the first filing](https://github.com/coentrify/coentrify/issues/1): a Why for the 46 standards without one, the Harmony rewrite and the two voices, and the loop in the readme once it can be shown.
 - Move the workflow rules out of Behavior, starting with Note Issues.
 - Make the tools generic: `pick.sh`, `main-checks.sh` and `docs-commit.sh` take their checks as arguments, and the wrap-up hook becomes a spec.
-- Let the commit check pass a standard that is back at its released text. Today it wants the standard named in the changelog, and the entry removed in a second commit.
 - Probe the standards again at every new model release, on new traps.
 - Probe Reload The Standards After Compacting on a long session, and in the terminal or the app, as the [worklist](relevance-vetting.md) says.
 - Sweep the Gamedev module: every law and standard is generic, says what it is relevant for, or leaves as a project specific. Own Icons comes first.

@@ -8,6 +8,8 @@ The checks this repository runs on itself.
 - `npm run lint:standards` fails on an overview line that leaves out an entry of its standard's Relevant For list.
 - `npm run lint:standards -- --why` prints every standard without a Why section.
 - The pre-commit hook refuses a commit that changes a standard without naming it in the latest version of the changelog.
+- A standard that is back at its text in the latest version tag passes without a name, so its entry leaves the changelog in the same commit.
+- A clone without a version tag cannot tell, and the hook says so.
 - The hook is switched on once per clone, with `git config core.hooksPath .githooks`.
 - The Tag the version workflow is started by hand when a version is called. It tags main with the top version of the changelog, and publishes the release of that tag.
 - A version in the changelog opens with its summary, and the workflow fails without one.

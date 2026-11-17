@@ -10,6 +10,7 @@ const STAGED_FLAG = '--staged';
 const LINKS_FLAG = '--links';
 const WHY_FLAG = '--why';
 const VERSION_HEADING = /^## /m;
+const VERSION_TAG_PATTERN = 'v[0-9]*';
 const MARKDOWN_LINK = /\]\(([^)#]+\.md)\)/g;
 const WHY_HEADING = /^## (Why|Purpose)$/m;
 const RELEVANT_FOR_HEADING = '## Relevant For';
@@ -31,6 +32,14 @@ const STANDARD_PATH = new RegExp(`^${STANDARDS_FOLDER}/[^/]+/[^/]+\\${MARKDOWN_E
 
 function git(args) {
   return execFileSync('git', args, { encoding: 'utf8' });
+}
+
+function gitOrNothing(args) {
+  try {
+    return execFileSync('git', args, { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).trim();
+  } catch {
+    return undefined;
+  }
 }
 
 function standardsOnDisk() {
@@ -202,6 +211,18 @@ function stagedPaths(filter) {
     .filter((path) => STANDARD_PATH.test(path) && !path.endsWith(`/${INDEX_PAGE}`));
 }
 
+function releasedTag() {
+  return gitOrNothing(['describe', '--tags', '--abbrev=0', '--match', VERSION_TAG_PATTERN]);
+}
+
+function isBackAtReleasedText(tag, path) {
+  if (tag === undefined) {
+    return false;
+  }
+  const released = gitOrNothing(['rev-parse', '--verify', `${tag}:${path}`]);
+  return released !== undefined && released === gitOrNothing(['rev-parse', '--verify', `:${path}`]);
+}
+
 function stagedErrors() {
   const changed = stagedPaths('ACMR');
   const removed = stagedPaths('D');
@@ -210,10 +231,13 @@ function stagedErrors() {
   }
   const staged = git(['diff', '--cached', '--name-only']).split('\n');
   const section = latestVersionSection(git(['show', `:${CHANGELOG}`]));
+  const tag = releasedTag();
+  const unnamed = changed.filter((path) => !section.includes(path) && !isBackAtReleasedText(tag, path));
   return [
-    ...changed
-      .filter((path) => !section.includes(path))
-      .map((path) => `${path} changed, and the latest version in ${CHANGELOG} does not name it`),
+    ...unnamed.map((path) => `${path} changed, and the latest version in ${CHANGELOG} does not name it`),
+    ...(unnamed.length > 0 && tag === undefined
+      ? ['this clone has no version tag, so a standard back at its released text is not recognized: fetch the tags']
+      : []),
     ...(staged.includes(CHANGELOG) ? [] : removed).map(
       (path) => `${path} was removed, and ${CHANGELOG} did not change`,
     ),
