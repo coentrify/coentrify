@@ -62,7 +62,6 @@ The tool facts are vetted against current models, on traps built to catch them. 
 - Changed [Gamedev Working Cadence](standards/gamedev/gamedev-working-cadence.md)
 - Renamed Pacing Docs to [Incremental Pacing](standards/gamedev/incremental-pacing.md)
 - Changed [Silent Runs](standards/gamedev/silent-runs.md)
-- Changed [Sprite Sheet Frames](standards/gamedev/sprite-sheet-frames.md)
 
 ### Tickets Workflow
 
