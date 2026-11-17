@@ -1,6 +1,6 @@
 # Game Design Laws
 
-Laws are short rules that hold unless there is a very good reason to break one. The generic set lives in the standards, in six parts by theme, and this standard is its index. A game's own laws and overrides stand in the game's docs.
+Laws are short rules that hold unless there is a very good reason to break one. The generic set lives in the standards, in seven parts by theme, and this standard is its index. A game's own laws and overrides stand in the game's docs.
 
 ## The Set
 
@@ -17,6 +17,7 @@ The full text is in [Game Design Laws: Experience](game-design-laws-experience.m
 - [Once Per Save](game-design-laws-experience.md#once-per-save) - a story cutscene and a progression minigame play once per save
 - [AFK Safe](game-design-laws-experience.md#afk-safe) - away without negative effect; nothing is lost and nothing auto progresses
 - [Easy Pause](game-design-laws-experience.md#easy-pause) - pausing is always easy
+- [Soft Sound](game-design-laws-experience.md#soft-sound) - a soft mix, varied repeats, a layer per scene
 - [Fun First](game-design-laws-experience.md#fun-first) - player experience is priority one; a good game clips well
 - [Loop First](game-design-laws-experience.md#loop-first) - the core loop is fun in a greybox, before anything is built on it
 
@@ -72,6 +73,16 @@ The full text is in [Game Design Laws: World](game-design-laws-world.md).
 - [Fair Surprise](game-design-laws-world.md#fair-surprise) - the world has rules the player finds by playing; a surprise answers the player, warns once and is readable after
 - [The World Reacts](game-design-laws-world.md#the-world-reacts) - an action leaves a trace that can be seen
 - [Friction In The World](game-design-laws-world.md#friction-in-the-world) - friction is something the player does there, never a menu or a wait
+
+### Own Style
+
+The full text is in [Game Design Laws: Own Style](game-design-laws-own-style.md).
+
+- [No Asset Flips](game-design-laws-own-style.md#no-asset-flips) - every asset is the game's own
+- [Blueprint First](game-design-laws-own-style.md#blueprint-first) - things of one kind come from one blueprint
+- [Shown Together](game-design-laws-own-style.md#shown-together) - everything of one kind is shown in one place
+- [Generate, Never Reuse](game-design-laws-own-style.md#generate-never-reuse) - generate an asset, never reuse a pack
+- [Unique Where It Counts](game-design-laws-own-style.md#unique-where-it-counts) - unique in what makes the game, best practice for the rest
 
 ## Why
 

@@ -8,3 +8,4 @@ The Architecture standards: patterns that cut across a codebase.
 - [Folder Concerns](folder-concerns.md) - sibling folders are all domain or all technical; flat over nested
 - [Per-Application Split Over Shared Branching](per-application-split-over-shared-branching.md) - split per application instead of branching on app flags; whitelist gates
 - [Separation Before Layer Standards](separation-before-layer-standards.md) - clean up layer placement before per-layer standards
+- [Unique Where It Counts](unique-where-it-counts.md) - unique in what makes the project that project; best practice for the rest

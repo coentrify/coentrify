@@ -14,5 +14,6 @@ Icons carry the game's look as much as the colors do, and a third party set carr
 
 ## Related
 
+- [Game Design Laws: Own Style](game-design-laws-own-style.md)
 - [Name by Concept, Not Copy](../code/name-by-concept-not-copy.md)
 - [VitePress Wiki](../tooling/vitepress-wiki.md)

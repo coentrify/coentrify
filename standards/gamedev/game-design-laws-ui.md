@@ -48,3 +48,4 @@ The game plays best on a mouse and its wheel, the way most gamers play; a trackp
 - [Game Design Laws: Story](game-design-laws-story.md)
 - [Game Design Laws: Guidance](game-design-laws-guidance.md)
 - [Game Design Laws: World](game-design-laws-world.md)
+- [Game Design Laws: Own Style](game-design-laws-own-style.md)

@@ -40,6 +40,10 @@ The player can always be away, planned, unplanned or urgent, without negative ef
 
 Pausing is always easy.
 
+## Soft Sound
+
+The mix is soft. A repeated sound varies a bit in pitch and length. A layer belongs to its scene: it starts with the scene and stops when the scene leaves. Playtest feedback on sound asks for softer, lower and more varied, never for louder.
+
 ## Fun First
 
 Player experience is priority number one. The game is fun, and so is the main gameplay loop.
@@ -59,3 +63,4 @@ The core loop is fun in a greybox, before anything is built on it. Looks, conten
 - [Game Design Laws: Story](game-design-laws-story.md)
 - [Game Design Laws: Guidance](game-design-laws-guidance.md)
 - [Game Design Laws: World](game-design-laws-world.md)
+- [Game Design Laws: Own Style](game-design-laws-own-style.md)

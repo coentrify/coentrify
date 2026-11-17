@@ -6,12 +6,12 @@ What changed in each version of coentrify. A version opens with its summary, whi
 
 The tool facts are vetted against current models, on traps built to catch them. Nothing in it is stable yet.
 
-- 187 standards in 21 modules: 23 changed, two renamed, six came in and four went
+- 189 standards in 21 modules: 24 changed, two renamed, nine came in and five went
 - The second round of the relevance vetting: 15 tool facts, probed on Claude Opus 5.5 and Claude Sonnet 5.5. Five stay, six shrank and four went
 - A rule for the traps: the wrong way is the easy way, and a pass on a trap in plain sight is no test
 - Three standards that a hard trap showed a model needs
 - The game phases in four stages, with a gate at the end of every phase
-- Four new game design laws: Loop First, Fair Surprise, The World Reacts and Friction In The World. The laws stand in six parts
+- Ten new game design laws, among them Loop First, Fair Surprise and No Asset Flips. The laws stand in seven parts
 - A standard for one kind of project says so in its title, or in a Relevant For section
 - The workflow that tags a version publishes its release as well, from the summary in the changelog
 
@@ -26,6 +26,7 @@ The tool facts are vetted against current models, on traps built to catch them. 
 ### Architecture
 
 - Removed Interceptor Ordering
+- Added [Unique Where It Counts](standards/architecture/unique-where-it-counts.md)
 
 ### Behavior
 
@@ -45,10 +46,12 @@ The tool facts are vetted against current models, on traps built to catch them. 
 
 - Renamed Visual Design to [2D Visual Design](standards/gamedev/2d-visual-design.md)
 - Changed [Captures And Reels](standards/gamedev/captures-and-reels.md)
+- Removed Code Based Sound
 - Changed [Devbox](standards/gamedev/devbox.md)
 - Changed [Game Design Laws](standards/gamedev/game-design-laws.md)
 - Changed [Game Design Laws: Experience](standards/gamedev/game-design-laws-experience.md)
 - Added [Game Design Laws: Guidance](standards/gamedev/game-design-laws-guidance.md)
+- Added [Game Design Laws: Own Style](standards/gamedev/game-design-laws-own-style.md)
 - Changed [Game Design Laws: Progress](standards/gamedev/game-design-laws-progress.md)
 - Changed [Game Design Laws: Story](standards/gamedev/game-design-laws-story.md)
 - Changed [Game Design Laws: UI](standards/gamedev/game-design-laws-ui.md)
@@ -61,6 +64,8 @@ The tool facts are vetted against current models, on traps built to catch them. 
 - Changed [Game Work Workflow](standards/gamedev/game-work-workflow.md)
 - Changed [Gamedev Working Cadence](standards/gamedev/gamedev-working-cadence.md)
 - Renamed Pacing Docs to [Incremental Pacing](standards/gamedev/incremental-pacing.md)
+- Added [Measure Sound, Never Guess](standards/gamedev/measure-sound-never-guess.md)
+- Changed [Own Icons](standards/gamedev/own-icons.md)
 - Changed [Silent Runs](standards/gamedev/silent-runs.md)
 
 ### Tickets Workflow
@@ -200,7 +205,7 @@ The standards are vetted against current models for the first time. Nothing in i
 ### Gamedev
 
 - Changed [Captures And Reels](standards/gamedev/captures-and-reels.md)
-- Changed [Code Based Sound](standards/gamedev/code-based-sound.md)
+- Changed Code Based Sound
 - Changed [Devbox](standards/gamedev/devbox.md)
 - Changed [Game Design Laws](standards/gamedev/game-design-laws.md)
 - Changed [Gamedev Working Cadence](standards/gamedev/gamedev-working-cadence.md)
@@ -437,7 +442,7 @@ The first version of coentrify. Nothing in it is stable yet.
 ### Gamedev
 
 - Added [Captures And Reels](standards/gamedev/captures-and-reels.md)
-- Added [Code Based Sound](standards/gamedev/code-based-sound.md)
+- Added Code Based Sound
 - Added [Devbox](standards/gamedev/devbox.md)
 - Added [Game Design Laws](standards/gamedev/game-design-laws.md)
 - Added [Game Design Laws: Experience](standards/gamedev/game-design-laws-experience.md)
