@@ -1,6 +1,6 @@
 # Devbox
 
-Every game has a devbox: a small panel toggled by one key, open on every scene and staying open across them, whose options follow the scene. It hands out currency, rehearses an achievement or a toast, drops any rare event on the spot, loads any seeded scenario into the running save and switches stages. It ships in the playtest builds and is stripped for a release. Webdev has the same thing as mock toggles.
+Every game has a devbox: a small panel toggled by one key, open on every scene and staying open across them, whose options follow the scene. It hands out currency, rehearses an achievement or a toast, drops any rare event on the spot, loads any seeded scenario into the running save and switches levels. It ships in the playtest builds and is stripped for a release. Webdev has the same thing as mock toggles.
 
 ## Why
 

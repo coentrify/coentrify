@@ -10,7 +10,7 @@ The game has a start and an end. That also counts for prestige and new game plus
 
 The game is as long as it is interesting, not the other way around.
 
-- no stage, scene or story beat has a target length; everything is there as it should be
+- no level, scene or story beat has a target length; everything is there as it should be
 - nothing is stretched to fill a playtime, and nothing is cut to meet one
 - a fast player goes fast
 
@@ -44,7 +44,7 @@ Systems whose mere existence opens possibilities for the player, playstyles amon
 
 ## Know What Is Coming
 
-The player always knows what is coming in the short future: the next upgrade, the next unlock, the distance to the goal, and when it is the end. There is always something coming, so the next upgrade or stage is always looming.
+The player always knows what is coming in the short future: the next upgrade, the next unlock, the distance to the goal, and when it is the end. There is always something coming, so the next upgrade or level is always looming.
 
 ## Related
 

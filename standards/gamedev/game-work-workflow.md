@@ -17,24 +17,21 @@ The work workflow is generic ([Work Workflow](../tickets-workflow/work-workflow.
 
 ## Design Ticket Types
 
-A game's design work before Pre-Alpha is tracked in two types of its own, on top of [Work Tracking](../tickets-workflow/work-tracking.md#types). Both carry the sections of a Debt ticket ([Ticket Template](../tickets-workflow/ticket-template.md#sections-per-type)).
+A game's work in the Design stage is tracked in two types of its own, on top of [Work Tracking](../tickets-workflow/work-tracking.md#types). Both carry the sections of a Debt ticket ([Ticket Template](../tickets-workflow/ticket-template.md#sections-per-type)).
 
-- Lore, in `lore`, prefix `LORE`: the design of the world and its story. Its outcome is a decided lore doc.
-- Game, in `game`, prefix `GAME`: the design of the game. Its outcome is a decided feature doc and the refined feature tickets it leads to.
+- Lore, in `lore`, prefix `LORE`: the design of the world and its story. Its outcome is a decided lore doc. Lore tickets carry the Lore and World Building phases.
+- Game, in `game`, prefix `GAME`: the design of the game. Its outcome is a decided feature doc and the refined feature tickets it leads to. Game tickets carry the Gameplay, First Playable and Game Design phases.
+- The Concept stage has no tickets, apart from an idea that Gathering files for later.
 - A Game or Lore ticket names, in its Current Situation, each conflict between the docs and the intended design that it resolves, one per bullet.
 
 ## Phases
 
-Each phase in full is in [Game Phases](game-phases.md).
+A game's phases sit in four stages. Each phase in full is in [Game Phases](game-phases.md).
 
-- World Building - the world's framework, in Lore tickets.
-- Game Design - the world translated into levels and features, in docs and Game tickets.
-- Pre-Alpha - functionally complete.
-- Alpha - complete and polished everywhere.
-- Beta - external, controlled playtesters.
-- Release - 1.0 going out.
-- Aftercare - what breaks fixed fast.
-- Post-Release - the public's feedback, for as long as the game lives.
+- Concept - Idea, Gathering, Outline and Prototype: everything can change.
+- Design - Lore, World Building, Gameplay, First Playable and Game Design: the game is decided.
+- Development - Pre-Alpha, Alpha and Beta: the designed game is built.
+- Live - Release, Aftercare and Post-Release: the game is out.
 
 ## Related
 

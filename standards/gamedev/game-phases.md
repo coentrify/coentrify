@@ -1,46 +1,56 @@
 # Game Phases
 
-The phases a game goes through, each in full. The page shape of a phase is in [Work Tracking](../tickets-workflow/work-tracking.md#phases), and the game layer around them in [Game Work Workflow](game-work-workflow.md).
+A game goes through four stages, and each stage holds phases. A phase ends at a gate. The page shape of a phase is in [Work Tracking](../tickets-workflow/work-tracking.md#phases), and the game layer around the phases in [Game Work Workflow](game-work-workflow.md).
 
-## World Building
+## Why
 
-The global framework to design the game from, the red thread of the world: how the story starts, how it ends and how its parts connect. Not every dialog and every person. Done When: the lore holds that framework and the director has approved it. Its work is Lore tickets.
+- The phases keep the work effective and efficient, and leave room for creativity.
+- Small phases give steady progress and some predictability.
+- With every phase the game is specified better, until agents can pick up the work and the playtests are few.
+- The director polices as little as possible, and stays fully creative: directing, and steering toward the vision.
+- A director can then run several games, as long as no game loses its focus.
+- A gate stands where a mistake is still cheap, so no big mistake is made.
 
-## Game Design
+## Three Words
 
-The world translated into the game's levels and features, represented by docs and tickets; nothing is built. Done When: every part of the world has its levels and features in docs and ready tickets, and the director has approved the design as a whole. Its work is Game tickets.
+- A stage groups phases. A studio with several games reads each game's place in one word.
+- A phase is what Work Tracking calls a phase: an epic names it, and every rule about the current phase holds for it.
+- A gate is the one question that ends a phase. Its answer sends the game on, or back a phase: a gate finds the right path forward.
+- The industry calls a gate a milestone.
+- A unit of the game's content is a level, never a stage.
 
-Further phases may join before Pre-Alpha as a game needs them, prototyping, greyboxing or a demo for a 3D game say.
+## The Stages
 
-## Pre-Alpha
+| Stage | What It Is | Phases |
+|---|---|---|
+| [Concept](game-phases-concept.md) | divergent: everything can change and nothing is wrong | Idea, Gathering, Outline, Prototype |
+| [Design](game-phases-design.md) | convergent: the game is decided, on paper and in a first playable | Lore, World Building, Gameplay, First Playable, Game Design |
+| [Development](game-phases-development.md) | the designed game is built | Pre-Alpha, Alpha, Beta |
+| [Live](game-phases-live.md) | the game is out | Release, Aftercare, Post-Release |
 
-Functionally complete: the full game playable from start to finish, perhaps badly paced, buggy and visually imperfect, with every part there.
+## How to Apply
 
-- Every part a stage needs is present and reads as what it is: its objects, sounds, voices, music or its silence, quest log and hud.
-- A rough part is fine. A missing part is not.
-- The right vibe counts.
-- Polish waits: how a working part looks, feels or performs belongs to Alpha, and so does its debt, until the game's whole shape stands. An agent pushes back on polish.
-- Content the director has not decided, dialog lines, names, quest wording or a song's pick, takes the agent's recommendation as long as its core message is clear, and stands under Veto. It never waits on refinement; Alpha polishes it.
-- A Veto decides how a part looks, sounds or counts, never that a part is left out. A Veto that drops a part is sent back before it lands.
-- A ticket names the parts it adds in refinement, by kind, so a story shows what it brings: ten sound effects, say.
-- Before a stage lands, an inventory checks every part its tickets and its feature doc name: each is present and reads as what it is.
+- Concept is loose inside: its phases may overlap and loop back.
+- For every rule about the current phase, Concept counts as one phase.
+- From Design on, a game is in one phase at a time.
+- The page of a phase carries its gate in a `Gate:` line.
+- No gate closes Live, since the game is an everlasting project.
 
-## Alpha
+## The Greybox
 
-Completeness: everything implemented properly everywhere and looking good, its sweeps passed. A sweep is an epic of checks and finetuning across every stage, never new mechanics, so it belongs to Alpha.
+A greybox is the tool of three phases.
 
-## Beta
+- Prototype greyboxes the core loop.
+- World Building greyboxes the world of a 3D game, since only moving through it shows whether its size is right.
+- First Playable is a greybox with one of everything.
+- Pre-Alpha replaces the grey boxes with parts that read as what they are.
 
-External, controlled playtesters.
+## Outsiders
 
-## Release
+- A public demo is no phase. It is cut from the game during Alpha, when the main gameplay works and one part of the content is polished.
+- A demo is never built early.
+- The gates of Pre-Alpha and Alpha allow a playtest by outsiders. Beta stays the phase that is about them.
 
-1.0 going out, once the director feels good about it.
+## Related
 
-## Aftercare
-
-Right after the release, what breaks fixed fast and the first feedback sorted.
-
-## Post-Release
-
-The public's feedback, for as long as the game lives. The game is an everlasting project: no version is scoped as the release, and after 1.0 the players' feedback lands on the same lists.
+- [Project Lifecycle](../behavior/project-lifecycle.md)

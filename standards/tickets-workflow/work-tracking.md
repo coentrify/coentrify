@@ -54,12 +54,14 @@ A ticket is one file in its type's folder. Its sections and front matter are in 
 
 ## Phases
 
-A phase is a stage on the product's road, one layer above the epic: one goal and the conditions that end it, so the work in it serves that goal and nothing else.
+A phase is a step on the product's road, one layer above the epic: one goal, the conditions that end it and the gate that closes it, so the work in it serves that goal and nothing else.
 
 ```
 # <Phase Name>
 
 Goal: the one outcome this phase delivers.
+
+Gate: the one question that ends this phase.
 
 ## Done When
 
@@ -70,14 +72,16 @@ Goal: the one outcome this phase delivers.
 - What waits for a later phase.
 ```
 
+- A phase ends at its gate: one question, whose answer sends the product on or back a phase. Done When lists what answers it.
+- A hygiene check fails a phase page without its `Gate:` line.
 - Which epics belong to a phase lives only in each epic's `phase` field; the wiki lists them on the phase's page.
 - Anything that does not serve the current phase's goal is filed and waits for its phase, never refined or built early. Bugs and debt too: one that does not hurt the goal waits ([Dev Tiers](../behavior/dev-tiers.md)).
 - A ticket's phase and priority are the director's call. An agent files a finding in the phase where it hurts the goal, a later one unless it hurts the current goal now, and leaves the priority out.
-- A game's phases are in [Game Phases](../gamedev/game-phases.md).
+- A game's phases, in their four stages, are in [Game Phases](../gamedev/game-phases.md).
 
 ## Areas
 
-An area is a category of the product (the checkout, the UI), one layer above the epic like a phase, which is a stage of the road. An area is a page, an epic's `area` field names it, and the wiki lists an area's epics on its page the way it lists a phase's.
+An area is a category of the product (the checkout, the UI), one layer above the epic like a phase, which is a step of the road. An area is a page, an epic's `area` field names it, and the wiki lists an area's epics on its page the way it lists a phase's.
 
 ## Stories
 

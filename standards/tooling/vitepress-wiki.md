@@ -29,7 +29,7 @@ The director reads the wiki while the agent works: it is the review surface for 
 - Set the wiki up on day one with the docs skeleton, before any feature.
 - At session start, run the wiki when the project has one and hand over its URL; it keeps running after the session when the director asked for it ([Own Ports, Own Processes](../behavior/own-ports-own-processes.md)).
 - Keep the config generic, with no hand-kept page lists.
-- A full wiki cleanup check against the product as it is sits on the tech roadmap and repeats now and then: stale stage names, drifted references, duplicated facts, the reconstructed history checked against the changelogs.
+- A full wiki cleanup check against the product as it is sits on the tech roadmap and repeats now and then: stale names, drifted references, duplicated facts, the reconstructed history checked against the changelogs.
 - Verify a theme change on a fresh navigation, with a page at rest and one with the feature in use, by what is painted ([Hidden Attribute Loses To Display](../web/hidden-attribute-loses-to-display.md)); a hot reload replaces a page's images without the lightbox listeners, so a stale page reads as a broken lightbox.
 
 ## Related

@@ -6,10 +6,11 @@ What changed in each version of coentrify. A version opens with its summary, whi
 
 The tool facts are vetted against current models, on traps built to catch them. Nothing in it is stable yet.
 
-- 181 standards in 21 modules: eight changed and four went
+- 185 standards in 21 modules: 18 changed, four came in and four went
 - The second round of the relevance vetting: 15 tool facts, probed on Claude Opus 5.5 and Claude Sonnet 5.5. Four stay, seven shrank and four went
 - A rule for the traps: the wrong way is the easy way, and a pass on a trap in plain sight is no test
 - Two standards that only a hard trap showed a model needs
+- The game phases in four stages, with a gate at the end of every phase
 - The workflow that tags a version publishes its release as well, from the summary in the changelog
 
 ### AI
@@ -28,6 +29,10 @@ The tool facts are vetted against current models, on traps built to catch them. 
 
 - Removed Interceptor Ordering
 
+### Behavior
+
+- Changed [Project Lifecycle](standards/behavior/project-lifecycle.md)
+
 ### Commits
 
 - Changed [Gate Commits on Exit Codes](standards/commits/gate-commits-on-exit-codes.md)
@@ -37,9 +42,28 @@ The tool facts are vetted against current models, on traps built to catch them. 
 - Removed Init Scripts Need a Navigation
 - Changed [Substring Locator Collisions](standards/e2e/substring-locator-collisions.md)
 
+### Gamedev
+
+- Changed [Captures And Reels](standards/gamedev/captures-and-reels.md)
+- Changed [Devbox](standards/gamedev/devbox.md)
+- Changed [Game Design Laws: Progress](standards/gamedev/game-design-laws-progress.md)
+- Changed [Game Phases](standards/gamedev/game-phases.md)
+- Added [Game Phases: Concept](standards/gamedev/game-phases-concept.md)
+- Added [Game Phases: Design](standards/gamedev/game-phases-design.md)
+- Added [Game Phases: Development](standards/gamedev/game-phases-development.md)
+- Added [Game Phases: Live](standards/gamedev/game-phases-live.md)
+- Changed [Game Work Workflow](standards/gamedev/game-work-workflow.md)
+- Changed [Pacing Docs](standards/gamedev/pacing-docs.md)
+
+### Tickets Workflow
+
+- Changed [Work Item Names](standards/tickets-workflow/work-item-names.md)
+- Changed [Work Tracking](standards/tickets-workflow/work-tracking.md)
+
 ### Tooling
 
 - Removed Settings Changes Need a Fresh Session
+- Changed [VitePress Wiki](standards/tooling/vitepress-wiki.md)
 
 ### Web
 
