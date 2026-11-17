@@ -9,7 +9,7 @@ The versions on the way to 1.0.
 
 ## Next
 
-- Handle the open filings: [what a law is relevant for](https://github.com/coentrify/coentrify/issues/4) and [the launch strategy](https://github.com/coentrify/coentrify/issues/5).
+- Handle the open filing on [the launch strategy](https://github.com/coentrify/coentrify/issues/5).
 - Finish [the first filing](https://github.com/coentrify/coentrify/issues/1): a Why for the 46 standards without one, the Harmony rewrite and the two voices, and the loop in the readme once it can be shown.
 - Move the workflow rules out of Behavior, starting with Note Issues.
 - Make the tools generic: `pick.sh`, `main-checks.sh` and `docs-commit.sh` take their checks as arguments, and the wrap-up hook becomes a spec.
