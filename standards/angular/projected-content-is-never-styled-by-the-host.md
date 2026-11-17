@@ -1,6 +1,6 @@
 # Projected Content Is Never Styled by the Host
 
-With Angular's emulated encapsulation a component's styles only reach the elements of its own template. Content projected through `ng-content` carries the parent's scoping attribute, so selectors like `.overlay > * > *` or `.section__empty` in the host's SCSS silently miss it.
+A component's styles never reach content projected through `ng-content`. The content is styled from its own component, or the host renders the element itself.
 
 ## Why
 

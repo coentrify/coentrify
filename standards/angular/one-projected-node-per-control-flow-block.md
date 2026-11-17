@@ -1,6 +1,6 @@
 # One Projected Node Per Control-Flow Block
 
-Two nodes with `slot="x"` under one `@if` never reach the named slot of the parent component: Angular projects the block as one unit into the default slot. Give every projected node its own `@if`, or wrap the block's content in an `<ng-container slot="x">`.
+Two nodes with `slot="x"` under one `@if` never reach the named slot of the parent component. A visibility check passes on them all the same, so the build log and a capture are the checks.
 
 ## Why
 
@@ -8,7 +8,6 @@ The misplaced nodes still have a size, so an e2e visibility check passes while t
 
 ## How to Apply
 
-- One projectable node per `@if`/`@for` root when it targets a named slot.
 - Treat an NG8011 warning in the build log as a failure; read the dev server's log after a template change.
 - A visibility check does not prove projection; a capture or a position check does.
 

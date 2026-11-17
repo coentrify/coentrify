@@ -10,14 +10,23 @@ What changed in each version of coentrify.
 
 ### Angular
 
+- Removed Angular Build Checks The Templates
+- Changed [One Projected Node Per Control-Flow Block](standards/angular/one-projected-node-per-control-flow-block.md)
+- Changed [Projected Content Is Never Styled by the Host](standards/angular/projected-content-is-never-styled-by-the-host.md)
 - Changed [Track Timed Items by an Id](standards/angular/track-timed-items-by-an-id.md)
+- Changed [Use Modern Angular Template APIs](standards/angular/use-modern-angular-template-apis.md)
 
 ### Architecture
 
 - Removed Interceptor Ordering
 
+### Commits
+
+- Changed [Gate Commits on Exit Codes](standards/commits/gate-commits-on-exit-codes.md)
+
 ### E2E
 
+- Removed Init Scripts Need a Navigation
 - Changed [Substring Locator Collisions](standards/e2e/substring-locator-collisions.md)
 
 ### Web
@@ -33,7 +42,7 @@ What changed in each version of coentrify.
 
 ### Angular
 
-- Changed [Angular Build Checks The Templates](standards/angular/angular-build-checks-the-templates.md)
+- Changed Angular Build Checks The Templates
 - Changed [Interface, Not Abstract Class, For Mock Swap](standards/angular/interface-not-abstract-class-for-mock-swap.md)
 - Changed [One Projected Node Per Control-Flow Block](standards/angular/one-projected-node-per-control-flow-block.md)
 - Changed [Projected Content Is Never Styled by the Host](standards/angular/projected-content-is-never-styled-by-the-host.md)
@@ -124,7 +133,7 @@ What changed in each version of coentrify.
 - Changed [E2E Runs On The Development Build](standards/e2e/e2e-runs-on-the-development-build.md)
 - Changed [E2E Test Conventions](standards/e2e/e2e-test-conventions.md)
 - Changed [E2E Tests Must Demonstrate Behavior](standards/e2e/e2e-tests-must-demonstrate-behavior.md)
-- Changed [Init Scripts Need a Navigation](standards/e2e/init-scripts-need-a-navigation.md)
+- Changed Init Scripts Need a Navigation
 - Changed [Per-Feature Overview Test](standards/e2e/per-feature-overview-test.md)
 - Changed [Real Input For Frame Races](standards/e2e/real-input-for-frame-races.md)
 - Changed [Substring Locator Collisions](standards/e2e/substring-locator-collisions.md)
@@ -244,7 +253,7 @@ What changed in each version of coentrify.
 
 ### Angular
 
-- Added [Angular Build Checks The Templates](standards/angular/angular-build-checks-the-templates.md)
+- Added Angular Build Checks The Templates
 - Added [canMatch + Wildcard for Route Access](standards/angular/canmatch-wildcard-for-route-access.md)
 - Added [Interface, Not Abstract Class, For Mock Swap](standards/angular/interface-not-abstract-class-for-mock-swap.md)
 - Added [No `$any` in Templates](standards/angular/no-any-in-templates.md)
@@ -353,7 +362,7 @@ What changed in each version of coentrify.
 - Added [E2E Runs On The Development Build](standards/e2e/e2e-runs-on-the-development-build.md)
 - Added [E2E Test Conventions](standards/e2e/e2e-test-conventions.md)
 - Added [E2E Tests Must Demonstrate Behavior](standards/e2e/e2e-tests-must-demonstrate-behavior.md)
-- Added [Init Scripts Need a Navigation](standards/e2e/init-scripts-need-a-navigation.md)
+- Added Init Scripts Need a Navigation
 - Added [Per-Feature Overview Test](standards/e2e/per-feature-overview-test.md)
 - Added [Real Input For Frame Races](standards/e2e/real-input-for-frame-races.md)
 - Added [Substring Locator Collisions](standards/e2e/substring-locator-collisions.md)

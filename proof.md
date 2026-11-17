@@ -372,6 +372,8 @@ The four Angular traps share one small app on Angular 22, with strict templates 
 
 - No run used `tsc` as its check.
 
+Angular Build Checks The Templates went.
+
 ### One Projected Node Per Control-Flow Block
 
 The trap is a card with a named slot for its actions. The request is two more buttons for a paid order, which fit under one `@if`.
@@ -384,6 +386,8 @@ The trap is a card with a named slot for its actions. The request is two more bu
 - Every report named the reason for the two blocks.
 - Sonnet ran no build in 3 of 3 runs, so it wrote the two blocks from what it knows.
 - Not probed: the lines on a visibility check and on the dev server's log.
+
+The standard shrank to its two lines that were not probed.
 
 ### Projected Content Is Never Styled by the Host
 
@@ -398,6 +402,8 @@ The trap is an empty line with the class `section__empty`, projected into a sect
 - The fixes differ: the global styles in 3 runs, a component for the line in 1, the styles of each page in 1, and `::ng-deep` in 1.
 - The fact is known. The choice of a fix is not default, and 1 run of 6 took the one the standard rules out.
 
+The standard shrank to the choice of a fix.
+
 ### Use Modern Angular Template APIs
 
 The trap is a neighbor: the price tag is written with `NgIf` and `NgClass`. The request is a stock badge next to it.
@@ -410,6 +416,8 @@ The trap is a neighbor: the price tag is written with `NgIf` and `NgClass`. The 
 - No run converted the price tag, and 2 reports of 6 named its legacy APIs.
 - The sweep of the workspace is not default.
 
+The standard shrank to the sweep.
+
 ### Init Scripts Need a Navigation
 
 The trap is a spec that loads the page before every case, and a helper that sets a scenario through an init script. The request is a case for another scenario.
@@ -421,6 +429,8 @@ The trap is a spec that loads the page before every case, and a helper that sets
 
 - 5 runs of 6 wrote the second load before the first run of the specs. The sixth met the failure and fixed it.
 - Another spec in the folder sets its scenario before its only load, so the pattern was in sight.
+
+Init Scripts Need a Navigation went.
 
 ### Kill a Lingering Playwright Server Before Captures
 
@@ -435,6 +445,8 @@ The trap is a server from an earlier run that still listens on the capture port,
 - Sonnet without the rule handed over the old page once, and once reported that it had no valid capture.
 - With the rule every run looked for a listener first. A run that took the server for its own killed it, and a run that did not took another port.
 - The runs of one cell ran at the same time, so an agent saw the servers of its neighbors.
+
+The standard stays as it is.
 
 ## Notes
 

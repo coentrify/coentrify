@@ -1,6 +1,6 @@
 # Use Modern Angular Template APIs
 
-Use the current Angular idiom over the legacy one it replaced. The directives `NgClass` and `NgStyle` are deprecated, and built-in control flow supersedes the structural directives `*ngIf` / `*ngFor` / `*ngSwitch`.
+Use the current Angular idiom over the legacy one it replaced. One legacy usage that surfaces is the start of a sweep.
 
 ## Why
 
@@ -8,9 +8,6 @@ The deprecated APIs draw review comments, carry the old `CommonModule` import we
 
 ## How to Apply
 
-- Bind classes with `[class]="expr"` (a string of classes, merges with the static `class` attribute) or `[class.name]="condition"`; never `[ngClass]`.
-- Bind styles with `[style.prop]="value"` or `[style]="obj"`; never `[ngStyle]`.
-- Use `@if` / `@for` / `@switch` over `*ngIf` / `*ngFor` / `*ngSwitch`, and drop the now-unneeded `NgIf` / `NgFor` / `NgClass` / `NgStyle` imports.
 - It's a pattern: when one legacy usage surfaces, sweep the workspace for the rest and convert them.
 
 ## Related

@@ -15,8 +15,8 @@ Does a current model still need the rule, or does the model always do this corre
 
 ## Three Kinds
 
-- Decisions - laws, naming, templates and the workflow. A model cannot know a decision, so these stay. 148 standards.
-- Tool facts - the pitfalls of one tool, such as Angular or Playwright. These stay while the tool behaves that way. 23 standards, after one went.
+- Decisions - laws, naming, templates and the workflow. A model cannot know a decision, so these stay. 152 standards, after four moved in from the tool facts.
+- Tool facts - the pitfalls of one tool, such as Angular or Playwright. These stay while the tool behaves that way. 17 standards, after three went and four moved to the decisions.
 - Corrections of agent behavior - the candidates. 15 standards, and the director ruled on all of them.
 
 The sort comes from each standard's line in its overview, so a standard can still move.
@@ -64,31 +64,28 @@ The round in progress. A tool fact is probed the same way: a fresh agent meets t
 
 ### Ruled
 
-Six are probed and ruled on, with the results on the [Proof](../proof.md) page. A line that was not probed stays, and so does a standard whose trap was too easy.
+Twelve are probed and ruled on, with the results on the [Proof](../proof.md) page. A line that was not probed stays, and so does a standard whose trap was too easy.
 
-- Stays as it is: Sprite Sheet Frames.
-- Shrank: Hidden Attribute Loses To Display, Substring Locator Collisions, Track Timed Items by an Id and Prompt Small Models Differently.
-- Went: Interceptor Ordering.
-
-### Probed, Waiting For The Ruling
-
-Six more are probed, with the results on the [Proof](../proof.md) page.
-
-- Angular - Angular Build Checks The Templates. Both models ran the build, in 6 of 6 runs.
-- Angular - One Projected Node Per Control-Flow Block. Both models wrote one block per node, in 6 of 6 runs.
-- Angular - Projected Content Is Never Styled by the Host. The fact is known in 6 of 6 runs. The choice of a fix is not default, and 1 run used `::ng-deep`.
-- Angular - Use Modern Angular Template APIs. No legacy API in new code, in 6 of 6 runs. The sweep is not default.
-- E2E - Init Scripts Need a Navigation. Both models loaded the page again, in 6 of 6 runs.
-- Tooling - Kill a Lingering Playwright Server Before Captures. Sonnet 5.5 needs it: 1 of 3 without the rule, 3 of 3 with it.
+- Stay as they are: Sprite Sheet Frames and Kill a Lingering Playwright Server Before Captures.
+- Shrank: Hidden Attribute Loses To Display, Substring Locator Collisions, Track Timed Items by an Id, Prompt Small Models Differently, One Projected Node Per Control-Flow Block, Projected Content Is Never Styled by the Host and Use Modern Angular Template APIs.
+- Went: Interceptor Ordering, Angular Build Checks The Templates and Init Scripts Need a Navigation.
 
 ### Not Probed
 
 No trap here can show the failure, so these stay.
 
-- E2E Assert Before Interacting, E2E Runs On The Development Build, Hygiene Tests Run on Their Own Runner and Playwright Parallel Runs are decisions. A model cannot know them.
 - Canvas Clicks by Coordinates fails only on a loaded machine with parallel workers.
 - Real Input For Frame Races needs a race between a timer and a frame.
 - Playwright Video Recording holds one fact that Playwright reports itself, and decisions beside it.
+
+### Moved To The Decisions
+
+A model cannot know these, so they were never candidates.
+
+- E2E Assert Before Interacting
+- E2E Runs On The Development Build
+- Hygiene Tests Run on Their Own Runner
+- Playwright Parallel Runs
 
 ### Last: Facts About The Harness
 
