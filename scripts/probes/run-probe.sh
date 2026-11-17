@@ -2,6 +2,7 @@
 # Runs one probe: a headless agent works on a copy of a fixture, with or without a rule.
 # usage: run-probe.sh <probe folder> <output folder> <label> <model> <effort or -> [rule file]
 # The probe folder holds a prompt.txt and a fixture folder. Without one, the fixture of the folder above is used.
+# A fixture can be a link to the fixture of another probe. An after-commit.sh then lays the files of its own trap over the copy.
 # An after-commit.sh in the probe folder runs in the copy after the fixture is committed,
 # to leave uncommitted changes in the tree.
 # Where that script writes <label>.settings.json beside the copy, those settings load too, so a hook can run unseen.
