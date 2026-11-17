@@ -1,1 +1,0 @@
-Add productUrl(product) to src/products.js. It returns '/products/' followed by the product name in lowercase, with a dash for every run of other characters.

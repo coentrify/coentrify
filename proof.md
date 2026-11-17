@@ -14,12 +14,12 @@ The experiments behind the standards. Every result names the models it was measu
 - The agent works in an empty folder, so no standard reaches it.
 - The task runs without the rule first.
 - Where the failure shows up, the task runs again with the rule as the project's rule file.
-- Every experiment is in `scripts/probes`, with its fixture and its prompt.
-- An easy trap that a hard one replaced is not kept, since a run of it proves nothing.
+- A trap is built for its round and thrown away after it. The results stay on this page.
+- How a trap is built and run is in the [worklist](docs/relevance-vetting.md#how-a-trap-is-built-and-run).
 
 ### The Limits
 
-- The tasks are short, the repositories are small, and the code is JavaScript.
+- The tasks are short, the repositories are small, and the code is JavaScript and TypeScript.
 - A cell holds two to five runs.
 - The agent's own system prompt is part of every run, so another agent can behave differently.
 
@@ -275,32 +275,31 @@ The standard stays as it is.
 
 ### Hidden Attribute Loses To Display
 
-The first of the tool facts, measured in Claude Code 2.1.326. A tool fact is probed without the rule, 3 runs per model.
+The first of the tool facts, measured in Claude Code 2.1.326. A tool fact is probed without the rule, 3 runs per model. Two traps here. The request in both is a layer that dims the page, with a centered panel.
 
-The trap is a page that toggles its menu with the hidden attribute. The request is a help overlay that dims the page, with a centered panel, so the overlay needs a display rule of its own.
+| Trap | Opus 5.5 | Sonnet 5.5 |
+|---|---|---|
+| The agent writes the display rule of the layer itself | the layer closed on load, 3 of 3 | the same, 3 of 3 |
+| The display rule comes with a utility class, from a stylesheet the request never names, and the page hides everything through helpers that set the hidden attribute | the layer closed on load, 3 of 3 | the same, 3 of 3 |
 
-| Model | Without the rule |
-|---|---|
-| Opus 5.5 | the overlay closed on load, 3 of 3 |
-| Sonnet 5.5 | the same, 3 of 3 |
-
-- Every run toggled the hidden attribute, and every run wrote the rule that makes hidden win.
-- Opus opened the page in a browser and looked at a screenshot in 3 of 3 runs. Sonnet opened no browser in 3 of 3.
+- The first trap was easy.
+- In the second, a layer with that class and the hidden attribute covers the page on load. Every run saw that the class beats the attribute, and wrote the rule that makes hidden win.
+- Opus opened the page in a browser and looked at a screenshot in 6 of 6 runs. Sonnet opened no browser in 6 of 6, and said so.
 
 The standard shrank to its lines on the painted state.
 
 ### Substring Locator Collisions
 
-The trap is a page with a Save button and specs that locate it by role and name. The request is a Save All button beside it.
+Two traps, with 3 runs per model each, without the rule. The request in both is a second button whose name holds the name of the first.
 
-| Model | Without the rule |
-|---|---|
-| Opus 5.5 | the specs pass, 3 of 3 |
-| Sonnet 5.5 | the same, 3 of 3 |
+| Trap | Opus 5.5 | Sonnet 5.5 |
+|---|---|---|
+| The specs that locate the first button sit beside the page | the specs pass, 3 of 3 | the same, 3 of 3 |
+| The locator sits in a support file of a browser suite that the request never names, beside unit tests that pass either way | the browser suite passes, 3 of 3 | the same, 3 of 3 |
 
-- Every run made the Save locators exact before its first run of the specs, and named the substring match in its report.
-- No run met the collision as a failure.
-- Not probed: new text that collides with a `getByText` locator in a spec the agent has no reason to open.
+- The first trap was easy.
+- In the second every run went into the browser suite to add a case for the new button, and made the locator exact there. No run met the collision as a failure.
+- Not probed: new text that collides with a `getByText` locator, with no case to add.
 
 The standard shrank to the collisions that were not probed: new text against a `getByText` locator, a helper that waits for a button to disappear, and a subtitle overlay.
 
@@ -313,7 +312,7 @@ Two traps, with 3 runs per model each, without the rule. The request in both is 
 | A chain in plain JavaScript, where a mock in the middle throws its own 401 | the catcher ahead of the mock, 3 of 3 | the same, 3 of 3 |
 | Angular's own chain, with the mock in front, in a folder the request never names | the catcher in front of the mock, 3 of 3 | the same, 3 of 3 |
 
-- The first trap was easy: the agent had to open the file that builds the chain. It is not kept.
+- The first trap was easy: the agent had to open the file that builds the chain.
 - In the second, a catcher added behind the mock builds and never sees the mock's 401. The app has no tests, so only the running app shows it.
 - Every run of the second trap found the mock, put the catcher in front, and gave the reason in its report. Sonnet built nothing in 3 of 3 runs, so it wrote the order from what it knows.
 
@@ -321,17 +320,20 @@ Interceptor Ordering went.
 
 ### Track Timed Items by an Id
 
-The trap is a list of toasts that drops its first entry when a timer ends. The request is a longer lifetime for an error.
+Two traps, with 3 runs per model each, without the rule.
 
-| Model | Without the rule |
-|---|---|
-| Opus 5.5 | the toast that closed is the one removed, 3 of 3 |
-| Sonnet 5.5 | the same, 3 of 3 |
+| Trap | Opus 5.5 | Sonnet 5.5 |
+|---|---|---|
+| A list of toasts in plain JavaScript drops its first entry when a timer ends, and the request is a longer lifetime for an error | the toast that closed is the one removed, 3 of 3 | the same, 3 of 3 |
+| An Angular list tracked by its index, with that timer in a service, and the request is a Close button on every toast | the right toasts stay after a close, 3 of 3 | the same, 3 of 3 |
 
-- Every run replaced the drop of the first entry, and added a test with an error and an info together.
-- The list is plain JavaScript. Not probed: the track expression of an Angular template, and the NG0956 warning.
+- The first trap was easy.
+- In the second, a Close button that removes one toast leaves the timers running, so the timer of a closed toast takes the next one early. Nothing fails until a toast is closed out of order.
+- Every run gave a toast an id, removed by that id from the timer and from the button, and tracked the list by it. Every report named the timer.
+- Sonnet built nothing in 3 of 3 runs.
+- Not probed: the NG0956 warning.
 
-The standard shrank to its two Angular lines, which were not probed.
+The standard shrank to its two Angular lines.
 
 ### Sprite Sheet Frames
 
@@ -349,20 +351,22 @@ The standard stays as it is. The trap was too easy to count as a test.
 
 ### Prompt Small Models Differently
 
-The trap is a shopkeeper that answers through a large model, with a long prompt in prose. The request is a fallback through a small local model.
+Two traps. The first was easy: a shopkeeper answers through a large model, with a long prompt in prose, and the request is a fallback through a small local model. All 6 runs wrote a shorter prompt of its own for the small model, and the standard shrank.
 
-| Model | Without the rule |
-|---|---|
-| Opus 5.5 | a shorter prompt of its own for the small model, 3 of 3 |
-| Sonnet 5.5 | the same, 3 of 3 |
+The second trap is a switch. Three villagers answer through a large model, each with a long prompt in prose, in files the request never names. The adapter for a local server is there already, so the request, to switch the villagers to a small local model, is one line in the config.
 
-- Every run bounded the reply length in the request.
-- 5 of 6 runs set a temperature, between 0.6 and 0.7. That is just under the default of the local server.
-- 1 run of 6 wrote the prompt as numbered rules.
-- No run could try the small model, and every report said so.
-- Not probed: the last line of the standard, on rules that contradict a new capability.
+| Model | Without the rule | With the shrunk standard | With the full standard |
+|---|---|---|---|
+| Opus 5.5 | the long prompts go to the small model as they are, 3 of 3 | numbered rules at a low temperature, written over the one prompt, 3 of 3 | a short prompt of its own for the small model, 3 of 3 |
+| Sonnet 5.5 | the same, 3 of 3 | the same, 3 of 3 | the same, 3 of 3 |
 
-The standard shrank to the numbered rules, the low temperature, and its two lines that were not probed.
+- Without the rule no run touched a prompt. Every report warned that a small model would struggle with them.
+- Without the rule Opus bounded the reply in the request, and Sonnet did not. No run set a temperature.
+- With the shrunk standard every run rewrote the prompts as numbered rules, at about nine tenths of their length. The prompt of the large model was gone after it, in 6 of 6 runs.
+- With the full standard every run kept the prompt of the large model and wrote one for the small model, at about half the length. The bound on the reply went from 300 to 120 or less.
+- The lines that went in the shrink are the ones that made the difference: a prompt per tier, a short instruction, and a bound on the reply.
+
+The standard is back in full.
 
 ### Angular Build Checks The Templates
 
@@ -432,7 +436,7 @@ Two traps, with 3 runs per model each, without the rule. The request in both is 
 | Another spec in the folder sets its scenario before its only load | the case loads the page again and passes, 3 of 3 | the same, 3 of 3 |
 | The load sits in a support file, the readme says the helper switches the scenario, and no spec sets one inside a case | the case passes, 3 of 3 | the same, 3 of 3 |
 
-- The first trap was easy, since the pattern was in sight. It is not kept.
+- The first trap was easy, since the pattern was in sight.
 - In the second no run met the old scenario in a run of the specs. Four runs loaded the page again, one opened a page of its own, and one gave the case a suite of its own.
 - Four reports of six said that the scenario is read when the page loads.
 
@@ -511,17 +515,18 @@ Settings Changes Need a Fresh Session went.
 - Sync The Docs After Every Change is the first standard that Opus 5.5 needs and Sonnet 5.5 does not. Opus searched the docs for the number alone, and Sonnet read the docs.
 - Both models chain a `git add` and a commit in one command by habit, in 6 of 6 runs. Opus reads the index first, and Sonnet does not.
 - An instruction and a hook work together. With Verify Staging Before Committing loaded no run chained, in 9 of 9. With the hook alone one refusal taught the agent for the rest of the session.
-- The first six tool facts are known to both models: 36 of 36 runs avoided the trap without the rule. Those traps were easy.
+- The first six tool facts passed an easy trap: 36 of 36 runs avoided it without the rule. On a hard trap one of them failed.
 - Kill a Lingering Playwright Server Before Captures is the first tool fact that a model needs: Sonnet 5.5 went from 1 of 3 to 3 of 3 with it.
 - A Quiet Tree While A Suite Runs is the second: Sonnet 5.5 went from 1 of 3 to 3 of 3 with it. Both show on a hard trap only.
-- An easy trap proves nothing. Five standards got a second, harder trap. Four passed it as well, and the fifth, A Quiet Tree While A Suite Runs, caught Sonnet 5.5.
+- An easy trap proves nothing. Nine standards got a second, harder trap. Seven passed it as well. A Quiet Tree While A Suite Runs caught Sonnet 5.5, and Prompt Small Models Differently caught both models.
+- A shrunk standard is tested as the rule, beside the full one. Prompt Small Models Differently had lost the lines that did the work.
 - A model reads a standard again after a compaction when the summary does not carry it, without a rule that says so.
 - Two facts about the harness no longer hold in Claude Code 2.1.326: a running session reads the permission rules again, and an imported rule file survives a compaction.
 - Verify Control Before Rename is one narrow rule from one incident, and it moved both models from 0 of 6 to 6 of 6. A rule from an incident can earn its place.
 
 ## Run It Again
 
-- Run the experiments again at every new model release.
+- Probe the standards again at every new model release.
 - A standard that a newer model no longer needs is a candidate to shrink or to go.
 - A standard that shrank is tested again as well, since a newer model can lose a habit.
-- `scripts/probes/run-probe.sh` runs one experiment, and prints its own usage.
+- Every round gets new traps. An old trap may have reached a newer model through its training.

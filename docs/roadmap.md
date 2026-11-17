@@ -13,7 +13,7 @@ The versions on the way to 1.0.
 - Finish [the first filing](https://github.com/coentrify/coentrify/issues/1): a Why for the 44 standards without one, the Harmony rewrite and the two voices, and the loop in the readme once it can be shown.
 - Move the workflow rules out of Behavior, starting with Note Issues.
 - Make the tools generic: `pick.sh`, `main-checks.sh` and `docs-commit.sh` take their checks as arguments, and the wrap-up hook becomes a spec.
-- Run the probes again at every new model release.
+- Probe the standards again at every new model release, on new traps.
 - Probe Reload The Standards After Compacting on a long session, and in the terminal or the app, as the [worklist](relevance-vetting.md) says.
 - Vet the standards. Three of the 187 have been reviewed.
 - Test the overviews as an index: whether an agent finds the right standard through them.

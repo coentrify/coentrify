@@ -1,1 +1,0 @@
-formatTotal in src/invoice.js formats the amount by hand. Use formatMoney from src/money.js instead, and commit the change.

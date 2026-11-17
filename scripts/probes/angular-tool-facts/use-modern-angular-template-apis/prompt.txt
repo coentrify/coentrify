@@ -1,1 +1,0 @@
-Add a stock badge in ui, next to the price tag. It takes a quantity and shows 'In stock' from 10 up, 'Low stock' from 1 to 9 and 'Sold out' at 0, each in its own color. Show it on the order card, under the price.

@@ -1,9 +1,0 @@
-{
-  "name": "shop-core",
-  "version": "4.1.0",
-  "type": "module",
-  "scripts": {
-    "check": "node scripts/check.mjs",
-    "test": "node --test"
-  }
-}

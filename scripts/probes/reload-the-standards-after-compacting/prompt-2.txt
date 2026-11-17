@@ -1,1 +1,0 @@
-Let the week report also hold the total time per tag, and print those totals under the projects in the command line.

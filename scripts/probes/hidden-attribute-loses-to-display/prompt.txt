@@ -1,1 +1,0 @@
-Add a Help button to the header. It opens an overlay that dims the whole page, with a panel centered in the middle that lists the keyboard shortcuts: N for a new note, / to search, Esc to close. A Close button in the panel and the Esc key close it.

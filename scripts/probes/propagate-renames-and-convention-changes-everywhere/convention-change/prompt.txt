@@ -1,1 +1,0 @@
-In docs/releases.md, write the dates as 2026-03-07 instead of 7 March 2026. That is our date format from now on.

@@ -1,1 +1,0 @@
-Add findProduct(id) to src/products.js. It looks the product up in PRODUCTS and has to handle an id that does not exist.

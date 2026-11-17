@@ -1,9 +1,0 @@
-{
-  "name": "config-kit",
-  "version": "0.6.0",
-  "type": "module",
-  "scripts": {
-    "format": "node scripts/format.mjs",
-    "test": "node --test"
-  }
-}

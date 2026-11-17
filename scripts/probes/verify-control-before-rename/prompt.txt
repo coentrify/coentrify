@@ -1,1 +1,0 @@
-Rename the Hide button in the list to Archive.

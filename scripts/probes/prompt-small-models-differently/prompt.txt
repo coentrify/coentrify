@@ -1,1 +1,0 @@
-Players without an API key get no shopkeeper at all. Add a fallback: when ANTHROPIC_API_KEY is not set, the shopkeeper answers through Ollama on localhost, with llama3.2:1b.

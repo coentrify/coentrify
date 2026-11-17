@@ -1,1 +1,0 @@
-reportTitle and reportFileName in src/report.js build the date stamp by hand. Use formatDate from src/dates.js in both instead.

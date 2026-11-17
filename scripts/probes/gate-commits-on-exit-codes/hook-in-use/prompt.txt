@@ -1,1 +1,0 @@
-Add three functions to src/lists.js, each in a commit of its own: isEmpty(list), first(list) and size(list).

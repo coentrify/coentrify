@@ -5,6 +5,7 @@ The worklist for vetting the standards against current models. A standard leaves
 - The Question - what is asked of every standard
 - Three Kinds - which standards are candidates
 - How A Candidate Is Vetted - the estimate, the probe and the ruling
+- How A Trap Is Built And Run - the fixture, the prompt, the run and the check
 - What Changed In The Models - the basis for every estimate
 - The Corrections - the 15 candidates and how each was ruled
 - The Tool Facts - the 24 tool facts and how each was ruled
@@ -31,10 +32,25 @@ The sort comes from each standard's line in its overview, so a standard can stil
 - A trap sits where the agent has no reason to look, and the wrong way is the easy way.
 - Nothing near the trap shows the answer: no sibling file with the pattern, no comment, no check that fails on its own.
 - A probe that every run passes on a trap in plain sight is no test. The trap is rebuilt, or the standard stays.
-- The runner and the fixtures are in `scripts/probes`.
+- A trap is built for its round and thrown away after it. Only the results are kept.
 - Every result goes on the [Proof](../proof.md) page, with the models tested.
 - The director rules per standard, one at a time.
 - An estimate alone changes nothing.
+
+## How A Trap Is Built And Run
+
+- A fixture is a small project that holds the trap, in a folder of its own with one commit.
+- A prompt is the request, in the words a director would use. It never names the trap.
+- A run is a headless agent in a copy of the fixture: `claude -p` with the prompt, a model, an effort and no settings loaded, so no standard reaches the agent.
+- With the rule, the standard becomes the `CLAUDE.md` of the copy, and only the settings of the project load.
+- A check reads the tree and the transcript after the run, and prints what it measures. A number comes from the check, never from the agent's report.
+- A cell is three runs per model. A cell that fails gets a second cell with the rule.
+- A standard that shrank is tested twice as the rule: once shrunk and once in full.
+- A fixture that needs packages installs them after its commit, so the agent can build and test.
+- A second prompt continues the conversation of the first. A turn that holds only `/compact` compacts it.
+- A fact about the harness is tested without a trap: the thing is changed while a session runs, and the session shows whether it noticed.
+- A check is run once on a right answer and once on a wrong one before any agent sees the trap.
+- No script that runs a trap is edited while a trap runs.
 
 ## What Changed In The Models
 
@@ -69,8 +85,8 @@ A tool fact is probed the same way: a fresh agent meets the pitfall without the 
 
 Fifteen are probed and ruled on, with the results on the [Proof](../proof.md) page. A line that was not probed stays, and so does a standard whose trap was too easy.
 
-- Stay as they are: Sprite Sheet Frames, Kill a Lingering Playwright Server Before Captures, A Quiet Tree While A Suite Runs and Reload The Standards After Compacting.
-- Shrank: Hidden Attribute Loses To Display, Substring Locator Collisions, Track Timed Items by an Id, Prompt Small Models Differently, One Projected Node Per Control-Flow Block, Projected Content Is Never Styled by the Host and Use Modern Angular Template APIs.
+- Stay as they are: Sprite Sheet Frames, Prompt Small Models Differently, Kill a Lingering Playwright Server Before Captures, A Quiet Tree While A Suite Runs and Reload The Standards After Compacting.
+- Shrank: Hidden Attribute Loses To Display, Substring Locator Collisions, Track Timed Items by an Id, One Projected Node Per Control-Flow Block, Projected Content Is Never Styled by the Host and Use Modern Angular Template APIs.
 - Went: Interceptor Ordering, Angular Build Checks The Templates, Init Scripts Need a Navigation and Settings Changes Need a Fresh Session.
 
 ### Not Probed
@@ -99,8 +115,8 @@ A model cannot know these, so they were never candidates.
 
 ### Probed Twice
 
-A standard that went on an easy trap got a hard one after. All three passed it, so they stay gone.
+A standard that went or shrank on an easy trap got a hard one after.
 
-- Interceptor Ordering, on Angular's own chain with the mock in front
-- Angular Build Checks The Templates, with a documented check that passes while the build fails
-- Init Scripts Need a Navigation, with no spec that shows the pattern
+- Three that went passed it, so they stay gone: Interceptor Ordering, Angular Build Checks The Templates and Init Scripts Need a Navigation.
+- Three that shrank passed it, so they stay shrunk: Hidden Attribute Loses To Display, Substring Locator Collisions and Track Timed Items by an Id.
+- Prompt Small Models Differently failed it, and is back in full.

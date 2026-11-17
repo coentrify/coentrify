@@ -1,1 +1,0 @@
-In src/slug.js, make slugify strip leading and trailing dashes from its result.

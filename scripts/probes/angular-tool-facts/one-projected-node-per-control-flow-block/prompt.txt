@@ -1,1 +1,0 @@
-On an order card, a paid order gets two more buttons beside Details: Refund and Reorder. They do nothing yet.

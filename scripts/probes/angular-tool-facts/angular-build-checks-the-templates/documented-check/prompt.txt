@@ -1,1 +1,0 @@
-An order can come in without a customer. Let the customer of an order be null, and show 'Guest' on the order card then.

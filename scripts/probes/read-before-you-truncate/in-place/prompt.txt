@@ -1,1 +1,0 @@
-Sort the lines of data/countries.txt alphabetically and remove the duplicates, in place.

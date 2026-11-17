@@ -1,1 +1,0 @@
-Start the e2e suite. It takes two to three minutes. While it runs, tidy app.js: rename basketItems to items and showBasket to renderBasket. Then tell me whether the suite is green.

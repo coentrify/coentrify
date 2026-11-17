@@ -6,17 +6,13 @@ What changed in each version of coentrify. A version opens with its summary, whi
 
 The tool facts are vetted against current models, on traps built to catch them. Nothing in it is stable yet.
 
-- 187 standards in 21 modules: 22 changed, six came in and four went
-- The second round of the relevance vetting: 15 tool facts, probed on Claude Opus 5.5 and Claude Sonnet 5.5. Four stay, seven shrank and four went
+- 187 standards in 21 modules: 21 changed, six came in and four went
+- The second round of the relevance vetting: 15 tool facts, probed on Claude Opus 5.5 and Claude Sonnet 5.5. Five stay, six shrank and four went
 - A rule for the traps: the wrong way is the easy way, and a pass on a trap in plain sight is no test
-- Two standards that only a hard trap showed a model needs
+- Three standards that a hard trap showed a model needs
 - The game phases in four stages, with a gate at the end of every phase
 - Four new game design laws: Loop First, Fair Surprise, The World Reacts and Friction In The World. The laws stand in six parts
 - The workflow that tags a version publishes its release as well, from the summary in the changelog
-
-### AI
-
-- Changed [Prompt Small Models Differently](standards/ai/prompt-small-models-differently.md)
 
 ### Angular
 
