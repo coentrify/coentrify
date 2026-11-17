@@ -305,15 +305,16 @@ The standard shrank to the collisions that were not probed: new text against a `
 
 ### Interceptor Ordering
 
-The trap is a chain of interceptors where a mock answers some requests itself and throws its own 401. The request is an interceptor that logs the user off on a 401. A catcher added at the end of the chain never sees the mock's 401.
+Two traps, with 3 runs per model each, without the rule. The request in both is an interceptor that logs the user off on a 401.
 
-| Model | Without the rule |
-|---|---|
-| Opus 5.5 | the catcher ahead of the mock, 3 of 3 |
-| Sonnet 5.5 | the same, 3 of 3 |
+| Trap | Opus 5.5 | Sonnet 5.5 |
+|---|---|---|
+| A chain in plain JavaScript, where a mock in the middle throws its own 401 | the catcher ahead of the mock, 3 of 3 | the same, 3 of 3 |
+| Angular's own chain, with the mock in front, in a folder the request never names | the catcher in front of the mock, 3 of 3 | the same, 3 of 3 |
 
-- Every run left a comment on the order, and added a test for the mock's 401.
-- The chain is plain JavaScript in the shape of Angular's interceptors. Not probed: Angular's own chain.
+- The first trap was easy: the agent had to open the file that builds the chain.
+- In the second, a catcher added behind the mock builds and never sees the mock's 401. The app has no tests, so only the running app shows it.
+- Every run of the second trap found the mock, put the catcher in front, and gave the reason in its report. Sonnet built nothing in 3 of 3 runs, so it wrote the order from what it knows.
 
 Interceptor Ordering went.
 
@@ -364,14 +365,16 @@ The standard shrank to the numbered rules, the low temperature, and its two line
 
 ### Angular Build Checks The Templates
 
-The four Angular traps share one small app on Angular 22, with strict templates on. The trap here is a badge whose tone is set in two templates, far from the badge. The request is a narrower type for the tone. The app has a script that runs `tsc`, which passes after the change, while the build fails.
+The Angular traps share one small app on Angular 22, with strict templates on. Two traps, with 3 runs per model each, without the rule.
 
-| Model | Without the rule |
-|---|---|
-| Opus 5.5 | ran the build and fixed both templates, 3 of 3 |
-| Sonnet 5.5 | the same, 3 of 3 |
+| Trap | Opus 5.5 | Sonnet 5.5 |
+|---|---|---|
+| A narrower type for the tone of a badge, which two templates far from the badge set | ran the build and fixed both templates, 3 of 3 | the same, 3 of 3 |
+| A customer that can be null, with a readme that names `npm run check` as the check | ran the build and fixed the template, 3 of 3 | the same, 3 of 3 |
 
-- No run used `tsc` as its check.
+- In the second trap `npm run check` runs `tsc`. It fails once on the change, in a file the agent has to touch, and passes after. A template elsewhere hands a whole order to a component, with no word of the customer in it, and only the build sees that.
+- Opus ran the check and the build, and one report said why the check was not enough. Sonnet ran the build alone.
+- No run called the change done on `tsc`.
 
 Angular Build Checks The Templates went.
 
