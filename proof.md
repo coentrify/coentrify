@@ -361,6 +361,67 @@ The trap is a shopkeeper that answers through a large model, with a long prompt 
 
 The standard shrank to the numbered rules, the low temperature, and its two lines that were not probed.
 
+### Angular Build Checks The Templates
+
+The four Angular traps share one small app on Angular 22, with strict templates on. The trap here is a badge whose tone is set in two templates, far from the badge. The request is a narrower type for the tone. The app has a script that runs `tsc`, which passes after the change, while the build fails.
+
+| Model | Without the rule |
+|---|---|
+| Opus 5.5 | ran the build and fixed both templates, 3 of 3 |
+| Sonnet 5.5 | the same, 3 of 3 |
+
+- No run used `tsc` as its check.
+
+### One Projected Node Per Control-Flow Block
+
+The trap is a card with a named slot for its actions. The request is two more buttons for a paid order, which fit under one `@if`.
+
+| Model | Without the rule |
+|---|---|
+| Opus 5.5 | each button in its own `@if`, both in the slot, 3 of 3 |
+| Sonnet 5.5 | the same, 3 of 3 |
+
+- Every report named the reason for the two blocks.
+- Sonnet ran no build in 3 of 3 runs, so it wrote the two blocks from what it knows.
+- Not probed: the lines on a visibility check and on the dev server's log.
+
+### Projected Content Is Never Styled by the Host
+
+The trap is an empty line with the class `section__empty`, projected into a section from two pages. The request is a gray and italic empty line. A rule in the styles of the section never reaches it.
+
+| Model | Without the rule |
+|---|---|
+| Opus 5.5 | the line gray and italic, 3 of 3 |
+| Sonnet 5.5 | the same, 3 of 3 |
+
+- No run put a plain rule in the styles of the section, and every report named the encapsulation.
+- The fixes differ: the global styles in 3 runs, a component for the line in 1, the styles of each page in 1, and `::ng-deep` in 1.
+- The fact is known. The choice of a fix is not default, and 1 run of 6 took the one the standard rules out.
+
+### Use Modern Angular Template APIs
+
+The trap is a neighbor: the price tag is written with `NgIf` and `NgClass`. The request is a stock badge next to it.
+
+| Model | Without the rule |
+|---|---|
+| Opus 5.5 | no legacy API in the new component, 3 of 3 |
+| Sonnet 5.5 | the same, 3 of 3 |
+
+- No run converted the price tag, and 2 reports of 6 named its legacy APIs.
+- The sweep of the workspace is not default.
+
+### Init Scripts Need a Navigation
+
+The trap is a spec that loads the page before every case, and a helper that sets a scenario through an init script. The request is a case for another scenario.
+
+| Model | Without the rule |
+|---|---|
+| Opus 5.5 | the case loads the page again and passes, 3 of 3 |
+| Sonnet 5.5 | the same, 3 of 3 |
+
+- 5 runs of 6 wrote the second load before the first run of the specs. The sixth met the failure and fixed it.
+- Another spec in the folder sets its scenario before its only load, so the pattern was in sight.
+
 ## Notes
 
 - Sync The Docs After Every Change is the first standard that Opus 5.5 needs and Sonnet 5.5 does not. Opus searched the docs for the number alone, and Sonnet read the docs.
