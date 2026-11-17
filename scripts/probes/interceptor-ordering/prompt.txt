@@ -1,1 +1,1 @@
-Add an interceptor that logs the user off and sends them to /login when the API answers 401.
+When the API answers 401, log the user off, so the sign-in shows.

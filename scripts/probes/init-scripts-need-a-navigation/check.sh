@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
-# The spec navigates before every case, so a scenario set inside a case only counts after the next navigation.
+# The suite opens the shop before every case, in a support file, and the readme says the helper switches the scenario.
+# No spec sets a scenario inside a case, so nothing shows that it only counts after the next navigation.
 # Prints whether the new case is there and passes, and whether the agent ran the specs.
 echo "a case for the offline scenario: $(grep -c "offline" e2e/shop.e2e.test.cjs | sed 's/^0$/no/; s/^[1-9][0-9]*$/yes/')"
 npm run --silent e2e > .probe-e2e.log 2>&1; code=$?
 echo "specs pass at the end: $([ $code -eq 0 ] && echo yes || echo no)"
 echo "cases: $(grep -E '^# (pass|fail) ' .probe-e2e.log | tr '\n' ' ')"
 rm -f .probe-e2e.log
-echo "navigates again after the scenario: $(git diff HEAD -- e2e | grep -E '^\+' | grep -cE 'reload\(|boot\(|goto\(' | sed 's/^0$/no/; s/^[1-9][0-9]*$/yes/')"
+echo "navigates again after the scenario: $(git diff HEAD -- e2e | grep -E '^\+' | grep -cE 'reload\(|goto\(' | sed 's/^0$/no/; s/^[1-9][0-9]*$/yes/')"
 echo "files changed: $(git status --short | cut -c4- | tr '\n' ' ')"
 python3 - "$1" <<'PY'
 import json, sys

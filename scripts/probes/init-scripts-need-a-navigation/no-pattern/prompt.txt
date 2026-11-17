@@ -1,1 +1,0 @@
-Add a case to e2e/shop.e2e.test.cjs: in the offline scenario the page says 'The shop is closed.' and lists no products.

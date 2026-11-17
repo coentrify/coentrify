@@ -15,6 +15,7 @@ The experiments behind the standards. Every result names the models it was measu
 - The task runs without the rule first.
 - Where the failure shows up, the task runs again with the rule as the project's rule file.
 - Every experiment is in `scripts/probes`, with its fixture and its prompt.
+- An easy trap that a hard one replaced is not kept, since a run of it proves nothing.
 
 ### The Limits
 
@@ -312,7 +313,7 @@ Two traps, with 3 runs per model each, without the rule. The request in both is 
 | A chain in plain JavaScript, where a mock in the middle throws its own 401 | the catcher ahead of the mock, 3 of 3 | the same, 3 of 3 |
 | Angular's own chain, with the mock in front, in a folder the request never names | the catcher in front of the mock, 3 of 3 | the same, 3 of 3 |
 
-- The first trap was easy: the agent had to open the file that builds the chain.
+- The first trap was easy: the agent had to open the file that builds the chain. It is not kept.
 - In the second, a catcher added behind the mock builds and never sees the mock's 401. The app has no tests, so only the running app shows it.
 - Every run of the second trap found the mock, put the catcher in front, and gave the reason in its report. Sonnet built nothing in 3 of 3 runs, so it wrote the order from what it knows.
 
@@ -431,7 +432,7 @@ Two traps, with 3 runs per model each, without the rule. The request in both is 
 | Another spec in the folder sets its scenario before its only load | the case loads the page again and passes, 3 of 3 | the same, 3 of 3 |
 | The load sits in a support file, the readme says the helper switches the scenario, and no spec sets one inside a case | the case passes, 3 of 3 | the same, 3 of 3 |
 
-- The first trap was easy, since the pattern was in sight.
+- The first trap was easy, since the pattern was in sight. It is not kept.
 - In the second no run met the old scenario in a run of the specs. Four runs loaded the page again, one opened a page of its own, and one gave the case a suite of its own.
 - Four reports of six said that the scenario is read when the page loads.
 
