@@ -7,7 +7,7 @@ The worklist for vetting the standards against current models. A standard leaves
 - How A Candidate Is Vetted - the estimate, the probe and the ruling
 - What Changed In The Models - the basis for every estimate
 - The Corrections - the 15 candidates and how each was ruled
-- The Tool Facts - the next round
+- The Tool Facts - the round in progress
 
 ## The Question
 
@@ -60,13 +60,28 @@ All 15 are probed and ruled on, with the results on the [Proof](../proof.md) pag
 
 ## The Tool Facts
 
-The next round. A tool fact is probed the same way: a fresh agent meets the pitfall without the rule.
+The round in progress. A tool fact is probed the same way: a fresh agent meets the pitfall without the rule.
 
-- AI - Prompt Small Models Differently
-- Angular - Angular Build Checks The Templates, One Projected Node Per Control-Flow Block, Projected Content Is Never Styled by the Host, Track Timed Items by an Id, Use Modern Angular Template APIs
+### Probed, Waiting For The Ruling
+
+Both models avoided the trap without the rule in 3 of 3 runs each, with the results on the [Proof](../proof.md) page.
+
+- AI - Prompt Small Models Differently. The numbered rules and the low temperature are not default.
+- Angular - Track Timed Items by an Id. Probed in plain JavaScript, so the Angular lines are untested.
 - Architecture - Interceptor Ordering
-- Behavior - A Quiet Tree While A Suite Runs, Reload The Standards After Compacting
-- E2E - Canvas Clicks by Coordinates, E2E Assert Before Interacting, E2E Runs On The Development Build, Init Scripts Need a Navigation, Real Input For Frame Races, Substring Locator Collisions
+- E2E - Substring Locator Collisions
 - Gamedev - Sprite Sheet Frames
-- Tooling - Browser Captures Go To Disk, Check Where A Pane Click Landed, Hygiene Tests Run on Their Own Runner, Kill a Lingering Playwright Server Before Captures, Playwright Parallel Runs, Playwright Video Recording, Settings Changes Need a Fresh Session
-- Web - Hidden Attribute Loses To Display
+- Web - Hidden Attribute Loses To Display. Sonnet 5.5 never looked at the page, so the line on the painted state is not default.
+
+### Next: A Project Fixture With Installs
+
+- Angular - Angular Build Checks The Templates, One Projected Node Per Control-Flow Block, Projected Content Is Never Styled by the Host, Use Modern Angular Template APIs
+- E2E - Canvas Clicks by Coordinates, E2E Assert Before Interacting, E2E Runs On The Development Build, Init Scripts Need a Navigation, Real Input For Frame Races
+- Tooling - Hygiene Tests Run on Their Own Runner, Kill a Lingering Playwright Server Before Captures, Playwright Parallel Runs, Playwright Video Recording
+
+### Last: Facts About The Harness
+
+A probe in an empty folder cannot exercise most of these.
+
+- Behavior - A Quiet Tree While A Suite Runs, Reload The Standards After Compacting
+- Tooling - Browser Captures Go To Disk, Check Where A Pane Click Landed, Settings Changes Need a Fresh Session

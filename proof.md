@@ -271,11 +271,90 @@ The trap is a page with three states and a capture script. The request is a bann
 
 The standard stays as it is.
 
+### Hidden Attribute Loses To Display
+
+The first of the tool facts, measured in Claude Code 2.1.326. A tool fact is probed without the rule, 3 runs per model.
+
+The trap is a page that toggles its menu with the hidden attribute. The request is a help overlay that dims the page, with a centered panel, so the overlay needs a display rule of its own.
+
+| Model | Without the rule |
+|---|---|
+| Opus 5.5 | the overlay closed on load, 3 of 3 |
+| Sonnet 5.5 | the same, 3 of 3 |
+
+- Every run toggled the hidden attribute, and every run wrote the rule that makes hidden win.
+- Opus opened the page in a browser and looked at a screenshot in 3 of 3 runs. Sonnet opened no browser in 3 of 3.
+
+### Substring Locator Collisions
+
+The trap is a page with a Save button and specs that locate it by role and name. The request is a Save All button beside it.
+
+| Model | Without the rule |
+|---|---|
+| Opus 5.5 | the specs pass, 3 of 3 |
+| Sonnet 5.5 | the same, 3 of 3 |
+
+- Every run made the Save locators exact before its first run of the specs, and named the substring match in its report.
+- No run met the collision as a failure.
+- Not probed: new text that collides with a `getByText` locator in a spec the agent has no reason to open.
+
+### Interceptor Ordering
+
+The trap is a chain of interceptors where a mock answers some requests itself and throws its own 401. The request is an interceptor that logs the user off on a 401. A catcher added at the end of the chain never sees the mock's 401.
+
+| Model | Without the rule |
+|---|---|
+| Opus 5.5 | the catcher ahead of the mock, 3 of 3 |
+| Sonnet 5.5 | the same, 3 of 3 |
+
+- Every run left a comment on the order, and added a test for the mock's 401.
+- The chain is plain JavaScript in the shape of Angular's interceptors. Not probed: Angular's own chain.
+
+### Track Timed Items by an Id
+
+The trap is a list of toasts that drops its first entry when a timer ends. The request is a longer lifetime for an error.
+
+| Model | Without the rule |
+|---|---|
+| Opus 5.5 | the toast that closed is the one removed, 3 of 3 |
+| Sonnet 5.5 | the same, 3 of 3 |
+
+- Every run replaced the drop of the first entry, and added a test with an error and an info together.
+- The list is plain JavaScript. Not probed: the track expression of an Angular template, and the NG0956 warning.
+
+### Sprite Sheet Frames
+
+The trap is a hero sheet of 16 by 32 frames beside a slime of 16 by 16, in a project with a tile size of 16. The rows of the two sheets are in another order. The request is the hero, the same way as the slime.
+
+| Model | Without the rule |
+|---|---|
+| Opus 5.5 | the frame size and the rows right, 3 of 3 |
+| Sonnet 5.5 | the same, 3 of 3 |
+
+- Every run read the sheet with code, and 5 of 6 also looked at it as an image. The sixth read the rows from the pixels alone.
+- The sheet is small and clean. Not probed: a sheet with padding, or with frames that differ in size.
+
+### Prompt Small Models Differently
+
+The trap is a shopkeeper that answers through a large model, with a long prompt in prose. The request is a fallback through a small local model.
+
+| Model | Without the rule |
+|---|---|
+| Opus 5.5 | a shorter prompt of its own for the small model, 3 of 3 |
+| Sonnet 5.5 | the same, 3 of 3 |
+
+- Every run bounded the reply length in the request.
+- 5 of 6 runs set a temperature, between 0.6 and 0.7. That is just under the default of the local server.
+- 1 run of 6 wrote the prompt as numbered rules.
+- No run could try the small model, and every report said so.
+- Not probed: the last line of the standard, on rules that contradict a new capability.
+
 ## Notes
 
 - Sync The Docs After Every Change is the first standard that Opus 5.5 needs and Sonnet 5.5 does not. Opus searched the docs for the number alone, and Sonnet read the docs.
 - Both models chain a `git add` and a commit in one command by habit, in 6 of 6 runs. Opus reads the index first, and Sonnet does not.
 - An instruction and a hook work together. With Verify Staging Before Committing loaded no run chained, in 9 of 9. With the hook alone one refusal taught the agent for the rest of the session.
+- The first six tool facts are known to both models: 36 of 36 runs avoided the trap without the rule.
 - Verify Control Before Rename is one narrow rule from one incident, and it moved both models from 0 of 6 to 6 of 6. A rule from an incident can earn its place.
 
 ## Run It Again

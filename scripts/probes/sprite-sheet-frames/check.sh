@@ -11,8 +11,21 @@ console.log('rows:', rows, rows === '{"down":2,"left":1,"right":3,"up":0}' ? 'ri
 JS
 node .probe-check.mjs 2>&1 | tail -3
 rm -f .probe-check.mjs
-echo "read the sheet as an image: $(grep -cE '"name":"Read","input":\{"file_path":"[^"]*hero[^"]*\.png' "$1" | sed 's/^0$/no/; s/^[1-9][0-9]*$/yes/')"
-echo "ran code on the pixels: $(grep -cE '"command":"[^"]*(PIL|getpixel|sharp|pngjs|convert |identify |magick|zlib)' "$1" | sed 's/^0$/no/; s/^[1-9][0-9]*$/yes/')"
+python3 - "$1" <<'PY'
+import json, re, sys
+calls = []
+for line in open(sys.argv[1]):
+    try:
+        event = json.loads(line)
+    except json.JSONDecodeError:
+        continue
+    content = event.get('message', {}).get('content', [])
+    for block in content if isinstance(content, list) else []:
+        if block.get('type') == 'tool_use':
+            calls.append((block['name'], json.dumps(block.get('input', {}))))
+print('looked at the sheet as an image:', 'yes' if any(name == 'Read' and '.png' in data for name, data in calls) else 'no')
+print('ran code on the pixels:', 'yes' if any(name == 'Bash' and re.search('PIL|getpixel|pngjs|zlib|magick|convert ', data) for name, data in calls) else 'no')
+PY
 python3 - "$1" <<'PY'
 import json, sys
 text = ''

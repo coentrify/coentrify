@@ -21,7 +21,7 @@ console.log('just before 6 seconds:', texts(), texts() === '["Payment failed"]' 
 mock.timers.tick(1);
 console.log('at 6 seconds:', texts(), texts() === '[]' ? 'right' : 'wrong');
 JS
-node .probe-check.mjs 2>&1 | tail -4
+node --no-warnings .probe-check.mjs 2>&1 | tail -4
 rm -f .probe-check.mjs
 echo "still drops the first entry: $(grep -cE '\.shift\(\)' src/toasts.js | sed 's/^0$/no/; s/^[1-9][0-9]*$/yes/')"
 npm test --silent > /dev/null 2>&1; echo "tests pass: $([ $? -eq 0 ] && echo yes || echo no)"

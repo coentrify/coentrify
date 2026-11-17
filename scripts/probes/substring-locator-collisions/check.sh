@@ -11,25 +11,20 @@ echo "locators made exact: $(git diff HEAD -- e2e | grep -cE '^\+.*exact: true')
 python3 - "$1" <<'PY'
 import json, sys
 runs = 0
-edits = []
-order = []
+met = False
 for line in open(sys.argv[1]):
     try:
         event = json.loads(line)
     except json.JSONDecodeError:
         continue
-    if event.get('type') != 'assistant':
-        continue
-    for block in event.get('message', {}).get('content', []):
-        if block.get('type') != 'tool_use':
-            continue
-        data = block.get('input', {})
-        command = str(data.get('command', ''))
-        if 'e2e' in command and ('npm' in command or 'node' in command):
-            runs += 1
-            order.append('run')
-        if 'e2e/' in str(data.get('file_path', '')) and block['name'] in ('Edit', 'Write'):
-            order.append('spec edit')
+    content = event.get('message', {}).get('content', [])
+    for block in content if isinstance(content, list) else []:
+        if block.get('type') == 'tool_use':
+            command = str(block.get('input', {}).get('command', ''))
+            if 'npm run' in command and 'e2e' in command or 'node --test' in command:
+                runs += 1
+        if block.get('type') == 'tool_result' and 'strict mode violation' in json.dumps(block.get('content', '')):
+            met = True
 print('agent ran the specs:', runs)
-print('spec edit before the first run:', 'yes' if order and order[0] == 'spec edit' else 'no')
+print('agent met the collision in a run:', 'yes' if met else 'no')
 PY

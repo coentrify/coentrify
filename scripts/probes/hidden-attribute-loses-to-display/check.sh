@@ -36,4 +36,18 @@ const { chromium } = require('playwright');
 "
 echo "a rule that makes hidden win: $(grep -cE '\[hidden\]' style.css | sed 's/^0$/no/; s/^[1-9][0-9]*$/yes/')"
 echo "toggles the hidden attribute: $(git diff HEAD -- app.js index.html | grep -cE '^\+.*hidden' | sed 's/^0$/no/; s/^[1-9][0-9]*$/yes/')"
-echo "agent opened the page in a browser: $(grep -cE '"command":"[^"]*(playwright|chromium)' "$1" | sed 's/^0$/no/; s/^[1-9][0-9]*$/yes/')"
+python3 - "$1" <<'PY'
+import json, re, sys
+calls = []
+for line in open(sys.argv[1]):
+    try:
+        event = json.loads(line)
+    except json.JSONDecodeError:
+        continue
+    content = event.get('message', {}).get('content', [])
+    for block in content if isinstance(content, list) else []:
+        if block.get('type') == 'tool_use':
+            calls.append((block['name'], json.dumps(block.get('input', {}))))
+print('agent opened the page in a browser:', 'yes' if any(re.search('playwright|chromium', data) for _, data in calls) else 'no')
+print('agent looked at a screenshot:', 'yes' if any(name == 'Read' and '.png' in data for name, data in calls) else 'no')
+PY
