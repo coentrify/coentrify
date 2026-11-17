@@ -10,6 +10,12 @@ How an issue or an addition to this repository is handled.
 
 An issue holds no project details, since the repository is public.
 
+## Closing An Issue
+
+- When work from an issue lands, a comment on the issue says what was done, and names the version it ships in.
+- An issue closes once every point in it is processed.
+- When only a remainder is left, the issue closes as well, and the remainder moves to an issue of its own.
+
 ## The Conduct
 
 - Discuss each change with the director one by one before it is applied: what the audit found, an opinion and a recommendation, then the director's go.
