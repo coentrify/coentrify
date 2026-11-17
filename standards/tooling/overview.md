@@ -14,5 +14,4 @@ The Tooling standards: development tools.
 - [Playwright Parallel Runs](playwright-parallel-runs.md) - one worker per agent run; a long suite runs as two halves
 - [Playwright Video Recording](playwright-video-recording.md) - video options per file; variants share one flow function
 - [Read Before You Truncate](read-before-you-truncate.md) - read a file into a variable before opening it for write
-- [Settings Changes Need a Fresh Session](settings-changes-need-a-fresh-session.md) - settings.json loads at session start; edits apply to new sessions
 - [VitePress Wiki](vitepress-wiki.md) - the docs wiki on its own port, open at session start

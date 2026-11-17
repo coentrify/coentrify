@@ -1,8 +1,16 @@
 # Changelog
 
-What changed in each version of coentrify.
+What changed in each version of coentrify. A version opens with its summary, which is also the text of its release.
 
 ## 0.0.3
+
+The tool facts are vetted against current models, on traps built to catch them. Nothing in it is stable yet.
+
+- 181 standards in 21 modules: eight changed and four went
+- The second round of the relevance vetting: 15 tool facts, probed on Claude Opus 5.5 and Claude Sonnet 5.5. Four stay, seven shrank and four went
+- A rule for the traps: the wrong way is the easy way, and a pass on a trap in plain sight is no test
+- Two standards that only a hard trap showed a model needs
+- The workflow that tags a version publishes its release as well, from the summary in the changelog
 
 ### AI
 
@@ -29,11 +37,24 @@ What changed in each version of coentrify.
 - Removed Init Scripts Need a Navigation
 - Changed [Substring Locator Collisions](standards/e2e/substring-locator-collisions.md)
 
+### Tooling
+
+- Removed Settings Changes Need a Fresh Session
+
 ### Web
 
 - Changed [Hidden Attribute Loses To Display](standards/web/hidden-attribute-loses-to-display.md)
 
 ## 0.0.2
+
+The standards are vetted against current models for the first time. Nothing in it is stable yet.
+
+- 185 standards in 21 modules: 144 changed and two went
+- The first round of the relevance vetting: 15 corrections of agent behavior, probed on Claude Opus 5.5 and Claude Sonnet 5.5. Eight stay, five shrank and two went
+- The proof page, with every experiment and the models it was measured on
+- The commit gate hook refuses a commit that follows a `git add` in the same command
+- Scripts that check `coentrify.json` and that remove links to standards a project did not take
+- Title case for every section header, with a check that fails on one out of it
 
 ### AI
 
@@ -212,7 +233,7 @@ What changed in each version of coentrify.
 - Changed [Lightweight Test Reporting Only](standards/tooling/lightweight-test-reporting-only.md)
 - Changed [Node Versions](standards/tooling/node-versions.md)
 - Changed [Read Before You Truncate](standards/tooling/read-before-you-truncate.md)
-- Changed [Settings Changes Need a Fresh Session](standards/tooling/settings-changes-need-a-fresh-session.md)
+- Changed Settings Changes Need a Fresh Session
 - Changed [VitePress Wiki](standards/tooling/vitepress-wiki.md)
 
 ### TypeScript
@@ -245,6 +266,14 @@ What changed in each version of coentrify.
 - Changed [Transitions Only On User Toggle](standards/web/transitions-only-on-user-toggle.md)
 
 ## 0.0.1
+
+The first version of coentrify. Nothing in it is stable yet.
+
+- 187 standards in 21 modules, each module with an overview of its own
+- Ten Read First standards, starting with Always Make No Mistakes
+- The onboarding, the recommendations and the commands
+- `coentrify.json`, with the version and the state of every standard a project takes
+- Scripts and hooks in `tools/`
 
 ### AI
 
@@ -463,7 +492,7 @@ What changed in each version of coentrify.
 - Added [Playwright Parallel Runs](standards/tooling/playwright-parallel-runs.md)
 - Added [Playwright Video Recording](standards/tooling/playwright-video-recording.md)
 - Added [Read Before You Truncate](standards/tooling/read-before-you-truncate.md)
-- Added [Settings Changes Need a Fresh Session](standards/tooling/settings-changes-need-a-fresh-session.md)
+- Added Settings Changes Need a Fresh Session
 - Added [VitePress Wiki](standards/tooling/vitepress-wiki.md)
 
 ### TypeScript

@@ -488,6 +488,8 @@ The second is a trap of four turns. The standards of a project are ten pages wit
 - An easier trap came first: one page of 30 decisions, with one turn before the compaction. There the summary carried every decision. Opus worked from the summary and Sonnet read the page again, and all 6 runs followed the decisions.
 - Not probed: a compaction of a long session, where the summary is far smaller than what it replaces.
 
+The standard stays as it is, until a long session can be probed.
+
 ### Settings Changes Need a Fresh Session
 
 A test of the harness, with no trap for a model, in Claude Code 2.1.326. A headless session starts with one command denied in the settings. Halfway, the settings deny another command in its place.
@@ -500,6 +502,8 @@ A test of the harness, with no trap for a model, in Claude Code 2.1.326. A headl
 - The session refused the first command at the start and ran it after the change. The second command ran at the start and was refused after.
 - So a running session reads the permission rules again, and the fact in the standard no longer holds for this version.
 - Not probed: a session in the terminal or in the app.
+
+Settings Changes Need a Fresh Session went.
 
 ## Notes
 

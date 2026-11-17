@@ -7,7 +7,7 @@ The worklist for vetting the standards against current models. A standard leaves
 - How A Candidate Is Vetted - the estimate, the probe and the ruling
 - What Changed In The Models - the basis for every estimate
 - The Corrections - the 15 candidates and how each was ruled
-- The Tool Facts - the round in progress
+- The Tool Facts - the 24 tool facts and how each was ruled
 
 ## The Question
 
@@ -16,7 +16,7 @@ Does a current model still need the rule, or does the model always do this corre
 ## Three Kinds
 
 - Decisions - laws, naming, templates and the workflow. A model cannot know a decision, so these stay. 152 standards, after four moved in from the tool facts.
-- Tool facts - the pitfalls of one tool, such as Angular or Playwright. These stay while the tool behaves that way. 17 standards, after three went and four moved to the decisions.
+- Tool facts - the pitfalls of one tool, such as Angular or Playwright. These stay while the tool behaves that way. 16 standards, after four went and four moved to the decisions.
 - Corrections of agent behavior - the candidates. 15 standards, and the director ruled on all of them.
 
 The sort comes from each standard's line in its overview, so a standard can still move.
@@ -63,15 +63,15 @@ All 15 are probed and ruled on, with the results on the [Proof](../proof.md) pag
 
 ## The Tool Facts
 
-The round in progress. A tool fact is probed the same way: a fresh agent meets the pitfall without the rule.
+A tool fact is probed the same way: a fresh agent meets the pitfall without the rule. The round is closed.
 
 ### Ruled
 
-Twelve are probed and ruled on, with the results on the [Proof](../proof.md) page. A line that was not probed stays, and so does a standard whose trap was too easy.
+Fifteen are probed and ruled on, with the results on the [Proof](../proof.md) page. A line that was not probed stays, and so does a standard whose trap was too easy.
 
-- Stay as they are: Sprite Sheet Frames and Kill a Lingering Playwright Server Before Captures.
+- Stay as they are: Sprite Sheet Frames, Kill a Lingering Playwright Server Before Captures, A Quiet Tree While A Suite Runs and Reload The Standards After Compacting.
 - Shrank: Hidden Attribute Loses To Display, Substring Locator Collisions, Track Timed Items by an Id, Prompt Small Models Differently, One Projected Node Per Control-Flow Block, Projected Content Is Never Styled by the Host and Use Modern Angular Template APIs.
-- Went: Interceptor Ordering, Angular Build Checks The Templates and Init Scripts Need a Navigation.
+- Went: Interceptor Ordering, Angular Build Checks The Templates, Init Scripts Need a Navigation and Settings Changes Need a Fresh Session.
 
 ### Not Probed
 
@@ -90,18 +90,12 @@ A model cannot know these, so they were never candidates.
 - Hygiene Tests Run on Their Own Runner
 - Playwright Parallel Runs
 
-### The Facts About The Harness, Waiting For The Ruling
+### The Facts About The Harness
 
-Three of the five are probed, with the results on the [Proof](../proof.md) page.
-
-- Behavior - A Quiet Tree While A Suite Runs. Sonnet 5.5 needs it: 1 of 3 without the rule, 3 of 3 with it.
-- Behavior - Reload The Standards After Compacting. An imported rule file survives a compaction on its own, and both models read the other standards again unasked, in 6 of 6 runs. Not probed: a long session, and a session in the terminal or the app.
-- Tooling - Settings Changes Need a Fresh Session. The fact no longer holds: a headless session reads the permission rules again, on both levels. Not probed: a session in the terminal or the app.
-
-Two are about the browser pane of the app. A headless run has no pane, so these stay.
-
-- Tooling - Browser Captures Go To Disk
-- Tooling - Check Where A Pane Click Landed
+- A Quiet Tree While A Suite Runs stays. Sonnet 5.5 needs it: 1 of 3 without the rule, 3 of 3 with it.
+- Reload The Standards After Compacting stays for now. An imported rule file survives a compaction on its own, and both models read the other standards again unasked. A long session, and a session in the terminal or the app, are not probed yet.
+- Settings Changes Need a Fresh Session went. A headless session reads the permission rules again, so its fact no longer holds.
+- Browser Captures Go To Disk and Check Where A Pane Click Landed are about the browser pane of the app. A headless run has no pane, so these stay.
 
 ### Probed Twice
 
