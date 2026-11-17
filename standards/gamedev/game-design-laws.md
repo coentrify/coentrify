@@ -1,6 +1,6 @@
 # Game Design Laws
 
-Laws are short rules that hold unless there is a very good reason to break one. The generic set lives in the standards, in four parts by theme, and this standard is its index. A game's own laws and overrides stand in the game's docs.
+Laws are short rules that hold unless there is a very good reason to break one. The generic set lives in the standards, in five parts by theme, and this standard is its index. A game's own laws and overrides stand in the game's docs.
 
 ## The Set
 
@@ -17,7 +17,9 @@ The full text is in [Game Design Laws: Experience](game-design-laws-experience.m
 - [Once Per Save](game-design-laws-experience.md#once-per-save) - a story cutscene and a progression minigame play once per save
 - [AFK Safe](game-design-laws-experience.md#afk-safe) - away without negative effect; nothing is lost and nothing auto progresses
 - [Easy Pause](game-design-laws-experience.md#easy-pause) - pausing is always easy
-- [Fun First](game-design-laws-experience.md#fun-first) - player experience is priority one
+- [Fun First](game-design-laws-experience.md#fun-first) - player experience is priority one; a good game clips well
+- [Loop First](game-design-laws-experience.md#loop-first) - the core loop is fun in a greybox, before anything is built on it
+
 ### Progress
 
 The full text is in [Game Design Laws: Progress](game-design-laws-progress.md).
@@ -58,15 +60,25 @@ The full text is in [Game Design Laws: Story](game-design-laws-story.md).
 - [Make Yourself](game-design-laws-story.md#make-yourself) - a game with a player character; the player can represent themselves
 - [Adopt, Repeat, Confirm (ARC)](game-design-laws-story.md#adopt-repeat-confirm-arc) - a five step pattern for every new thing: awareness, trigger, adopt, repeat, confirm
 
+### World
+
+The full text is in [Game Design Laws: World](game-design-laws-world.md).
+
+- [Fair Surprise](game-design-laws-world.md#fair-surprise) - the world has rules the player finds by playing; a surprise answers the player, warns once and is readable after
+- [The World Reacts](game-design-laws-world.md#the-world-reacts) - an action leaves a trace that can be seen
+- [Friction In The World](game-design-laws-world.md#friction-in-the-world) - a game with a world; friction is something the player does there, never a menu or a wait
+
 ## Why
 
 The player is a human who walks the dog, answers the door, goes to sleep and continues the next day. Laws about that human, such as Easy Pause, Never Wait and AFK Safe, translate into any genre; only their concrete shape changes. A written set with director-approved exceptions stops every design talk from starting over.
+
+The laws also give an agent room to decide small things without asking. They are flexible guidance, the navigation along the way, so the director stays out of the loop for small things.
 
 ## How to Apply
 
 - A game's laws doc has three parts: the generic laws it adopts, the ones it leaves out with a reason, and its own laws and overrides in full.
 - An adopted or left-out law is named by its name in this set, never copied.
-- A law with a condition (a player character, a PC game, an incremental game, dialog) is adopted or left out by that condition.
+- A law with a condition (a player character, a PC game, an incremental game, dialog, a world, an economy) is adopted or left out by that condition.
 - An exception is a paragraph under the law in the game's overrides, naming the feature and the reason, added only when the director affirms it.
 - Check a new feature against the laws before its spec; a conflict is surfaced, never averaged.
 - Feature docs link the law they lean on instead of repeating it.

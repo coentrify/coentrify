@@ -6,10 +6,11 @@ The Gamedev standards: game development.
 - [Code Based Sound](code-based-sound.md) - generated, soft, varied sound; levels measured, never guessed
 - [Devbox](devbox.md) - a one-key devbox on every scene, on the shared seeded scenarios
 - [Game Design Laws](game-design-laws.md) - the generic game design laws as an index; a game's laws doc adopts, leaves out or overrides them by name
-- [Game Design Laws: Experience](game-design-laws-experience.md) - the generic game design laws about what the player lives moment to moment: waiting, doing, control, what plays once, time away, pausing and fun
+- [Game Design Laws: Experience](game-design-laws-experience.md) - the generic game design laws about what the player lives moment to moment: waiting, doing, control, what plays once, time away, pausing, fun and the loop
 - [Game Design Laws: Progress](game-design-laws-progress.md) - the generic game design laws about the shape of the whole game: length, completion, quality, progress, mechanics and what is coming
 - [Game Design Laws: Story](game-design-laws-story.md) - the generic game design laws about what the game says and teaches: showing, steering, answering, reading, representing the player, introducing things
 - [Game Design Laws: UI](game-design-laws-ui.md) - the generic game design laws about the screen and the controls: state, motion, edges, glow, layout, triggers, warnings, mouse
+- [Game Design Laws: World](game-design-laws-world.md) - the generic game design laws about the world the player moves through: its secrets, its reactions and its friction
 - [Game Phases](game-phases.md) - a game's phases in four stages, each phase ending at a gate; the three words stage, phase and gate; the greybox; demos and outside playtests
 - [Game Phases: Concept](game-phases-concept.md) - the divergent stage: Idea, Gathering, Outline and Prototype, loose inside and without tickets
 - [Game Phases: Design](game-phases-design.md) - the convergent stage: Lore, World Building, Gameplay, First Playable and Game Design; a first playable is never a demo

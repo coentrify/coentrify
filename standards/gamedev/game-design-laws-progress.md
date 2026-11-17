@@ -13,6 +13,7 @@ The game is as long as it is interesting, not the other way around.
 - no level, scene or story beat has a target length; everything is there as it should be
 - nothing is stretched to fill a playtime, and nothing is cut to meet one
 - a fast player goes fast
+- the game ends while the player still wants more
 
 ## Doable 100%
 
@@ -30,9 +31,19 @@ The end result is a polished, fully done game, not early access, apart from cont
 
 The player feels the progress made, so the gap between where the player starts and where the player ends is as big as it can be: the player starts with as little as possible and earns the rest. Nothing that can be earned is handed over; what comes for free is worth nothing. A free first step that starts a climb is no gift but the climb's first rung.
 
+- Quality of life is earned too. A task is done by hand first and automated later, so losing friction is progress.
+- Upgrades come in small, regular steps that are felt in play.
+- Applies to a game with an economy: every step up brings a new risk beside the new unlock.
+
 ## Every Mechanic Matters
 
 Every mechanic has an impact and adds to the experience; none is added for the sake of having one more. A mechanic gone irrelevant makes the player stop caring, and a game with boring elements is less interesting.
+
+The law holds for everything added, content and systems included. Everything added adds value, or it lowers the quality of the game by design.
+
+- A thing that fits no purpose is considered for cutting.
+- That look ends one of two ways: a purpose nobody had named is found, or the thing was distracting from the main game.
+- An example: a player who can enter every house gets an endless loop of exploring without reward. The houses stay when the game is about feeling free and needing places to hide, or when a house has something to do.
 
 ## Lasting Impact
 
@@ -44,10 +55,11 @@ Systems whose mere existence opens possibilities for the player, playstyles amon
 
 ## Know What Is Coming
 
-The player always knows what is coming in the short future: the next upgrade, the next unlock, the distance to the goal, and when it is the end. There is always something coming, so the next upgrade or level is always looming.
+The player always knows what is coming in the short future: the next upgrade, the next unlock, the distance to the goal, and when it is the end. There is always something coming, so the next upgrade or level is always looming. The progress stays visible, and the world keeps its secrets ([Fair Surprise](game-design-laws-world.md#fair-surprise)).
 
 ## Related
 
 - [Game Design Laws: Experience](game-design-laws-experience.md)
 - [Game Design Laws: UI](game-design-laws-ui.md)
 - [Game Design Laws: Story](game-design-laws-story.md)
+- [Game Design Laws: World](game-design-laws-world.md)

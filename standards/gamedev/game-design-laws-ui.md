@@ -44,3 +44,4 @@ Applies to a PC game. The game plays best on a mouse and its wheel, the way most
 - [Game Design Laws: Experience](game-design-laws-experience.md)
 - [Game Design Laws: Progress](game-design-laws-progress.md)
 - [Game Design Laws: Story](game-design-laws-story.md)
+- [Game Design Laws: World](game-design-laws-world.md)

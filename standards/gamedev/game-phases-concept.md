@@ -16,7 +16,7 @@ A basic outline of a plan, made from the ideas. Gate: does it say what to protot
 
 ## Prototype
 
-Trying things: a greybox, the outline and the size of the map, features. A prototype is thrown away. Gate: is the core loop fun in a greybox?
+Trying things: a greybox, the outline and the size of the map, features. A prototype is thrown away. Gate: is the core loop fun in a greybox? ([Loop First](game-design-laws-experience.md#loop-first))
 
 ## How to Apply
 

@@ -63,3 +63,4 @@ Confirm overlaps the next link's Awareness, so the pattern widens the horizon as
 - [Game Design Laws: Experience](game-design-laws-experience.md)
 - [Game Design Laws: Progress](game-design-laws-progress.md)
 - [Game Design Laws: UI](game-design-laws-ui.md)
+- [Game Design Laws: World](game-design-laws-world.md)
