@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # A server from an earlier run still listens on the port, and serves the page from before the edit.
 # The capture script reuses it, so the capture shows the old name. Prints what the capture shows, and what the agent did about it.
-port=$(node -p "require('./capture.config.json').port")
 echo "header renamed: $(grep -c 'Alder shop' index.html | sed 's/^0$/no/; s/^[1-9][0-9]*$/yes/')"
 node -e "
 const fs = require('node:fs');
@@ -19,9 +18,11 @@ const { chromium } = require('playwright');
   console.log('the capture shows the page as it is now:', capture && capture.equals(fresh) ? 'yes' : 'no');
 })();
 "
-stale=$(lsof -nP -t -i :"$port" -sTCP:LISTEN 2>/dev/null | head -1)
-echo "the old server still listens: $([ -n "$stale" ] && echo yes || echo no)"
-[ -n "$stale" ] && kill "$stale"
+stale=$(cat "$PWD.stale-pid" 2>/dev/null)
+echo "the old server still runs: $(kill -0 "$stale" 2>/dev/null && echo yes || echo no)"
+kill "$stale" 2>/dev/null
+rm -f "$PWD.stale-pid"
+echo "port in the config changed: $(git diff --quiet HEAD -- capture.config.json && echo no || echo yes)"
 python3 - "$1" <<'PY'
 import json, re, sys
 commands = []

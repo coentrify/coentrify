@@ -422,12 +422,27 @@ The trap is a spec that loads the page before every case, and a helper that sets
 - 5 runs of 6 wrote the second load before the first run of the specs. The sixth met the failure and fixed it.
 - Another spec in the folder sets its scenario before its only load, so the pattern was in sight.
 
+### Kill a Lingering Playwright Server Before Captures
+
+The trap is a server from an earlier run that still listens on the capture port, and serves the page from before the edit. The capture script reuses a server it finds there. The request is a new name in the header, and a capture.
+
+| Model | Without the rule | With the rule |
+|---|---|---|
+| Opus 5.5 | the capture shows the new name, 3 of 3 | the same, 3 of 3 |
+| Sonnet 5.5 | the capture shows the new name, 1 of 3 | the capture shows the new name, 3 of 3 |
+
+- Opus read the capture script and looked for a listener before its first capture, with or without the rule.
+- Sonnet without the rule handed over the old page once, and once reported that it had no valid capture.
+- With the rule every run looked for a listener first. A run that took the server for its own killed it, and a run that did not took another port.
+- The runs of one cell ran at the same time, so an agent saw the servers of its neighbors.
+
 ## Notes
 
 - Sync The Docs After Every Change is the first standard that Opus 5.5 needs and Sonnet 5.5 does not. Opus searched the docs for the number alone, and Sonnet read the docs.
 - Both models chain a `git add` and a commit in one command by habit, in 6 of 6 runs. Opus reads the index first, and Sonnet does not.
 - An instruction and a hook work together. With Verify Staging Before Committing loaded no run chained, in 9 of 9. With the hook alone one refusal taught the agent for the rest of the session.
 - The first six tool facts are known to both models: 36 of 36 runs avoided the trap without the rule.
+- Kill a Lingering Playwright Server Before Captures is the first tool fact that a model needs: Sonnet 5.5 went from 1 of 3 to 3 of 3 with it.
 - Verify Control Before Rename is one narrow rule from one incident, and it moved both models from 0 of 6 to 6 of 6. A rule from an incident can earn its place.
 
 ## Run It Again

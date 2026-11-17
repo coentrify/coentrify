@@ -70,11 +70,25 @@ Six are probed and ruled on, with the results on the [Proof](../proof.md) page. 
 - Shrank: Hidden Attribute Loses To Display, Substring Locator Collisions, Track Timed Items by an Id and Prompt Small Models Differently.
 - Went: Interceptor Ordering.
 
-### Next: A Project Fixture With Installs
+### Probed, Waiting For The Ruling
 
-- Angular - Angular Build Checks The Templates, One Projected Node Per Control-Flow Block, Projected Content Is Never Styled by the Host, Use Modern Angular Template APIs
-- E2E - Canvas Clicks by Coordinates, E2E Assert Before Interacting, E2E Runs On The Development Build, Init Scripts Need a Navigation, Real Input For Frame Races
-- Tooling - Hygiene Tests Run on Their Own Runner, Kill a Lingering Playwright Server Before Captures, Playwright Parallel Runs, Playwright Video Recording
+Six more are probed, with the results on the [Proof](../proof.md) page.
+
+- Angular - Angular Build Checks The Templates. Both models ran the build, in 6 of 6 runs.
+- Angular - One Projected Node Per Control-Flow Block. Both models wrote one block per node, in 6 of 6 runs.
+- Angular - Projected Content Is Never Styled by the Host. The fact is known in 6 of 6 runs. The choice of a fix is not default, and 1 run used `::ng-deep`.
+- Angular - Use Modern Angular Template APIs. No legacy API in new code, in 6 of 6 runs. The sweep is not default.
+- E2E - Init Scripts Need a Navigation. Both models loaded the page again, in 6 of 6 runs.
+- Tooling - Kill a Lingering Playwright Server Before Captures. Sonnet 5.5 needs it: 1 of 3 without the rule, 3 of 3 with it.
+
+### Not Probed
+
+No trap here can show the failure, so these stay.
+
+- E2E Assert Before Interacting, E2E Runs On The Development Build, Hygiene Tests Run on Their Own Runner and Playwright Parallel Runs are decisions. A model cannot know them.
+- Canvas Clicks by Coordinates fails only on a loaded machine with parallel workers.
+- Real Input For Frame Races needs a race between a timer and a frame.
+- Playwright Video Recording holds one fact that Playwright reports itself, and decisions beside it.
 
 ### Last: Facts About The Harness
 
