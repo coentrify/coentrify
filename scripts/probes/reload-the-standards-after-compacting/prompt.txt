@@ -1,0 +1,1 @@
+Read docs/conventions.md first. Then add a function to src/duration.js that formats a number of seconds as a text like '1h 30m', with a test.

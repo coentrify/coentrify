@@ -1,0 +1,1 @@
+Run the e2e suite and tell me whether it is green. It takes two to three minutes. And rename the basket to a cart everywhere: on the page, in the code and in the specs.
