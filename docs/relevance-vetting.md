@@ -90,9 +90,23 @@ A model cannot know these, so they were never candidates.
 - Hygiene Tests Run on Their Own Runner
 - Playwright Parallel Runs
 
-### Last: Facts About The Harness
+### The Facts About The Harness, Waiting For The Ruling
 
-A probe in an empty folder cannot exercise most of these.
+Three of the five are probed, with the results on the [Proof](../proof.md) page.
 
-- Behavior - A Quiet Tree While A Suite Runs, Reload The Standards After Compacting
-- Tooling - Browser Captures Go To Disk, Check Where A Pane Click Landed, Settings Changes Need a Fresh Session
+- Behavior - A Quiet Tree While A Suite Runs. Sonnet 5.5 needs it: 1 of 3 without the rule, 3 of 3 with it.
+- Behavior - Reload The Standards After Compacting. An imported rule file survives a compaction on its own, and both models read the other standards again unasked, in 6 of 6 runs. Not probed: a long session, and a session in the terminal or the app.
+- Tooling - Settings Changes Need a Fresh Session. The fact no longer holds: a headless session reads the permission rules again, on both levels. Not probed: a session in the terminal or the app.
+
+Two are about the browser pane of the app. A headless run has no pane, so these stay.
+
+- Tooling - Browser Captures Go To Disk
+- Tooling - Check Where A Pane Click Landed
+
+### Probed Twice
+
+A standard that went on an easy trap got a hard one after. All three passed it, so they stay gone.
+
+- Interceptor Ordering, on Angular's own chain with the mock in front
+- Angular Build Checks The Templates, with a documented check that passes while the build fails
+- Init Scripts Need a Navigation, with no spec that shows the pattern

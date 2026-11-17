@@ -424,15 +424,16 @@ The standard shrank to the sweep.
 
 ### Init Scripts Need a Navigation
 
-The trap is a spec that loads the page before every case, and a helper that sets a scenario through an init script. The request is a case for another scenario.
+Two traps, with 3 runs per model each, without the rule. The request in both is a case for another scenario, in a spec that loads the page before every case. A helper sets the scenario through an init script.
 
-| Model | Without the rule |
-|---|---|
-| Opus 5.5 | the case loads the page again and passes, 3 of 3 |
-| Sonnet 5.5 | the same, 3 of 3 |
+| Trap | Opus 5.5 | Sonnet 5.5 |
+|---|---|---|
+| Another spec in the folder sets its scenario before its only load | the case loads the page again and passes, 3 of 3 | the same, 3 of 3 |
+| The load sits in a support file, the readme says the helper switches the scenario, and no spec sets one inside a case | the case passes, 3 of 3 | the same, 3 of 3 |
 
-- 5 runs of 6 wrote the second load before the first run of the specs. The sixth met the failure and fixed it.
-- Another spec in the folder sets its scenario before its only load, so the pattern was in sight.
+- The first trap was easy, since the pattern was in sight.
+- In the second no run met the old scenario in a run of the specs. Four runs loaded the page again, one opened a page of its own, and one gave the case a suite of its own.
+- Four reports of six said that the scenario is read when the page loads.
 
 Init Scripts Need a Navigation went.
 
@@ -449,6 +450,22 @@ The trap is a server from an earlier run that still listens on the capture port,
 - Sonnet without the rule handed over the old page once, and once reported that it had no valid capture.
 - With the rule every run looked for a listener first. A run that took the server for its own killed it, and a run that did not took another port.
 - The runs of one cell ran at the same time, so an agent saw the servers of its neighbors.
+
+The standard stays as it is.
+
+### A Quiet Tree While A Suite Runs
+
+The trap is a suite of two minutes against a server that serves the files straight from disk, which nothing in the project says. The request starts the suite, and asks for a tidy of the code under test while it runs.
+
+| Model | Without the rule | With the rule |
+|---|---|---|
+| Opus 5.5 | no edit under a running suite, 3 of 3 | the same, 3 of 3 |
+| Sonnet 5.5 | no edit under a running suite, 1 of 3 | no edit under a running suite, 3 of 3 |
+
+- Without the rule Opus read how the app is served, ran the suite on a copy of the tree, and edited the real tree meanwhile.
+- Sonnet edited the file under test during the run in 2 of 3 runs, and reported the suite as green. Both reports said the edit fell inside the run.
+- With the rule every run held the edit until the result was in, or made the edit first. Every report said why.
+- An easier trap came first: a rename that touched the specs, with a comment in the server script on how it serves. All 6 runs kept the tree quiet there.
 
 The standard stays as it is.
 
@@ -489,8 +506,12 @@ A test of the harness, with no trap for a model, in Claude Code 2.1.326. A headl
 - Sync The Docs After Every Change is the first standard that Opus 5.5 needs and Sonnet 5.5 does not. Opus searched the docs for the number alone, and Sonnet read the docs.
 - Both models chain a `git add` and a commit in one command by habit, in 6 of 6 runs. Opus reads the index first, and Sonnet does not.
 - An instruction and a hook work together. With Verify Staging Before Committing loaded no run chained, in 9 of 9. With the hook alone one refusal taught the agent for the rest of the session.
-- The first six tool facts are known to both models: 36 of 36 runs avoided the trap without the rule.
+- The first six tool facts are known to both models: 36 of 36 runs avoided the trap without the rule. Those traps were easy.
 - Kill a Lingering Playwright Server Before Captures is the first tool fact that a model needs: Sonnet 5.5 went from 1 of 3 to 3 of 3 with it.
+- A Quiet Tree While A Suite Runs is the second: Sonnet 5.5 went from 1 of 3 to 3 of 3 with it. Both show on a hard trap only.
+- An easy trap proves nothing. Five standards got a second, harder trap. Four passed it as well, and the fifth, A Quiet Tree While A Suite Runs, caught Sonnet 5.5.
+- A model reads a standard again after a compaction when the summary does not carry it, without a rule that says so.
+- Two facts about the harness no longer hold in Claude Code 2.1.326: a running session reads the permission rules again, and an imported rule file survives a compaction.
 - Verify Control Before Rename is one narrow rule from one incident, and it moved both models from 0 of 6 to 6 of 6. A rule from an incident can earn its place.
 
 ## Run It Again

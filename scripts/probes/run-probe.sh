@@ -11,46 +11,52 @@
 # A check.sh in the probe folder runs in the copy after the agent is done, and prints what it measures.
 # Without a rule file no settings load, so no standard reaches the agent.
 # With a rule file, the rule becomes the CLAUDE.md of the copy, and only project sources load.
+# The whole run sits in one function, so bash reads the script to its end before it starts.
+# An edit to this file while a probe runs then leaves that run alone.
 set -u
 
-[ $# -ge 5 ] || { echo "usage: run-probe.sh <probe folder> <output folder> <label> <model> <effort or -> [rule file]"; exit 2; }
-probe="$(cd "$1" && pwd)" || exit 2
-mkdir -p "$2" && output="$(cd "$2" && pwd)" || exit 2
-label="$3"; model="$4"; effort="$5"
-rule=""; [ $# -ge 6 ] && rule="$(cd "$(dirname "$6")" && pwd)/$(basename "$6")"
+main() {
+  [ $# -ge 5 ] || { echo "usage: run-probe.sh <probe folder> <output folder> <label> <model> <effort or -> [rule file]"; exit 2; }
+  probe="$(cd "$1" && pwd)" || exit 2
+  mkdir -p "$2" && output="$(cd "$2" && pwd)" || exit 2
+  label="$3"; model="$4"; effort="$5"
+  rule=""; [ $# -ge 6 ] && rule="$(cd "$(dirname "$6")" && pwd)/$(basename "$6")"
 
-work="$output/$label"
-rm -rf "$work"
-fixture="$probe/fixture"
-[ -d "$fixture" ] || fixture="$probe/../fixture"
-cp -rL "$fixture" "$work"
-cd "$work" || exit 2
+  work="$output/$label"
+  rm -rf "$work"
+  fixture="$probe/fixture"
+  [ -d "$fixture" ] || fixture="$probe/../fixture"
+  cp -rL "$fixture" "$work"
+  cd "$work" || exit 2
 
-sources=""
-if [ -n "$rule" ]; then
-  cp "$rule" CLAUDE.md
-  sources="project"
-fi
-git init -q . && git add -A && git -c user.name=probe -c user.email=probe@example.com commit -qm "fixture"
-git config user.name probe && git config user.email probe@example.com
-[ -f "$probe/after-commit.sh" ] && bash "$probe/after-commit.sh"
+  sources=""
+  if [ -n "$rule" ]; then
+    cp "$rule" CLAUDE.md
+    sources="project"
+  fi
+  git init -q . && git add -A && git -c user.name=probe -c user.email=probe@example.com commit -qm "fixture"
+  git config user.name probe && git config user.email probe@example.com
+  [ -f "$probe/after-commit.sh" ] && bash "$probe/after-commit.sh"
 
-arguments=(-p "$(cat "$probe/prompt.txt")" --model "$model" --setting-sources "$sources"
-  --output-format stream-json --verbose --permission-mode acceptEdits
-  --allowedTools Bash Read Edit Write Glob Grep)
-[ "$effort" != "-" ] && arguments+=(--effort "$effort")
-[ -f "$output/$label.settings.json" ] && arguments+=(--settings "$output/$label.settings.json")
+  arguments=(-p "$(cat "$probe/prompt.txt")" --model "$model" --setting-sources "$sources"
+    --output-format stream-json --verbose --permission-mode acceptEdits
+    --allowedTools Bash Read Edit Write Glob Grep)
+  [ "$effort" != "-" ] && arguments+=(--effort "$effort")
+  [ -f "$output/$label.settings.json" ] && arguments+=(--settings "$output/$label.settings.json")
 
-timeout 600 claude "${arguments[@]}" > "$output/$label.jsonl" 2> "$output/$label.err"
-echo "$label exit $?"
-transcripts=("$output/$label.jsonl")
-turn=2
-while [ -f "$probe/prompt-$turn.txt" ]; do
-  arguments[1]="$(cat "$probe/prompt-$turn.txt")"
-  timeout 600 claude "${arguments[@]}" --continue > "$output/$label.turn-$turn.jsonl" 2>> "$output/$label.err"
-  echo "$label turn $turn exit $?"
-  transcripts+=("$output/$label.turn-$turn.jsonl")
-  turn=$((turn + 1))
-done
-[ -f "$probe/check.sh" ] && bash "$probe/check.sh" "${transcripts[@]}" > "$output/$label.check" 2>&1
+  timeout 600 claude "${arguments[@]}" > "$output/$label.jsonl" 2> "$output/$label.err"
+  echo "$label exit $?"
+  transcripts=("$output/$label.jsonl")
+  turn=2
+  while [ -f "$probe/prompt-$turn.txt" ]; do
+    arguments[1]="$(cat "$probe/prompt-$turn.txt")"
+    timeout 600 claude "${arguments[@]}" --continue > "$output/$label.turn-$turn.jsonl" 2>> "$output/$label.err"
+    echo "$label turn $turn exit $?"
+    transcripts+=("$output/$label.turn-$turn.jsonl")
+    turn=$((turn + 1))
+  done
+  [ -f "$probe/check.sh" ] && bash "$probe/check.sh" "${transcripts[@]}" > "$output/$label.check" 2>&1
+}
+
+main "$@"
 exit 0

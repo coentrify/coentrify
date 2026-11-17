@@ -29,4 +29,6 @@ const root = path.resolve('dist/shop/browser');
   await browser.close();
 })().catch((error) => {
   console.log('the page did not render:', error.message.split('\n')[0]);
+  // The browser is still open here, and would keep this process alive.
+  process.exit(1);
 });
