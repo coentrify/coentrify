@@ -21,6 +21,7 @@ The Gamedev standards: game development.
 - [Game Work Workflow](game-work-workflow.md) - the game layer on the work workflow: the user is the player, addressed as you; the game's own words; playtests feed intake; Lore and Game ticket types; the four stages in a line each
 - [Gamedev Working Cadence](gamedev-working-cadence.md) - the game day loop; feedback on an open version is a cutoff; full pre-push hook before the tag; nothing new after a wind-down
 - [Incremental Pacing](incremental-pacing.md) - a pacing doc per level mirroring the configuration
+- [Launch Strategy](launch-strategy.md) - how a game goes out: the quiet launch by default, the other choices, and what to weigh
 - [Measure Sound, Never Guess](measure-sound-never-guess.md) - the agent cannot listen, so a level is measured against a known sound
 - [Own Icons](own-icons.md) - own icon sprite, named by concept, with a wiki index page
 - [Silent Runs](silent-runs.md) - an agent's runs of a game make no sound: muted Playwright captures for a walk, never the browser pane on a game with sound

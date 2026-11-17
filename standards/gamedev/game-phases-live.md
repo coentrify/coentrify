@@ -4,7 +4,7 @@ The fourth stage of a game ([Game Phases](game-phases.md)). The game is out. No 
 
 ## Release
 
-1.0 going out, once the director feels good about it.
+1.0 going out, once the director feels good about it, by the [Launch Strategy](launch-strategy.md) the game picked.
 
 ## Aftercare
 

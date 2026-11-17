@@ -25,7 +25,7 @@ Beating the game normally never requires playing try hard. The game supports eve
 
 ## Always Polished
 
-The end result is a polished, fully done game, not early access, apart from controlled playtests. Everything is of the same or similar quality. This holds even while there are few features: whatever gets made is good, starting with the basics.
+The end result is a polished, fully done game. An unfinished game goes to controlled playtests only, and an early access sells polished parts and gates the rest ([Launch Strategy](launch-strategy.md)). Everything is of the same or similar quality. This holds even while there are few features: whatever gets made is good, starting with the basics.
 
 ## Earned Progress
 

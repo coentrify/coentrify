@@ -6,11 +6,12 @@ What changed in each version of coentrify. A version opens with its summary, whi
 
 The tool facts are vetted against current models, on traps built to catch them. Nothing in it is stable yet.
 
-- 189 standards in 21 modules: 24 changed, two renamed, nine came in and five went
+- 190 standards in 21 modules: 24 changed, two renamed, ten came in and five went
 - The second round of the relevance vetting: 15 tool facts, probed on Claude Opus 5.5 and Claude Sonnet 5.5. Five stay, six shrank and four went
 - A rule for the traps: the wrong way is the easy way, and a pass on a trap in plain sight is no test
 - Three standards that a hard trap showed a model needs
 - The game phases in four stages, with a gate at the end of every phase
+- The launch strategy as a choice, with the quiet launch as the default
 - Ten new game design laws, among them Loop First, Fair Surprise and No Asset Flips. The laws stand in seven parts
 - A standard for one kind of project says so in its title, or in a Relevant For section
 - The workflow that tags a version publishes its release as well, from the summary in the changelog
@@ -64,6 +65,7 @@ The tool facts are vetted against current models, on traps built to catch them. 
 - Changed [Game Work Workflow](standards/gamedev/game-work-workflow.md)
 - Changed [Gamedev Working Cadence](standards/gamedev/gamedev-working-cadence.md)
 - Renamed Pacing Docs to [Incremental Pacing](standards/gamedev/incremental-pacing.md)
+- Added [Launch Strategy](standards/gamedev/launch-strategy.md)
 - Added [Measure Sound, Never Guess](standards/gamedev/measure-sound-never-guess.md)
 - Changed [Own Icons](standards/gamedev/own-icons.md)
 - Changed [Silent Runs](standards/gamedev/silent-runs.md)

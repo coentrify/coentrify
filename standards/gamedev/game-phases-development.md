@@ -14,6 +14,7 @@ Functionally complete: the full game playable from start to finish, perhaps badl
 - A Veto decides how a part looks, sounds or counts, never that a part is left out. A Veto that drops a part is sent back before it lands.
 - A ticket names the parts it adds in refinement, by kind, so a story shows what it brings: ten sound effects, say.
 - Before a level lands, an inventory checks every part its tickets and its feature doc name: each is present and reads as what it is.
+- The [Launch Strategy](launch-strategy.md) is picked before Alpha.
 
 ## Alpha
 
