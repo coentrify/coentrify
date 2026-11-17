@@ -1,0 +1,1 @@
+Add an export of the week report to a file, so the bookkeeping can read it.

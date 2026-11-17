@@ -1,1 +1,1 @@
-Read docs/conventions.md first. Then add a function to src/duration.js that formats a number of seconds as a text like '1h 30m', with a test.
+The standards of this project are in docs/standards. Read them all before you start. Then: an entry can end in tags, like '2026-11-16 atlas 1h 30m Fix the login #billable #urgent'. Parse the tags of an entry, and keep them out of its note.

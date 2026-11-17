@@ -1,4 +1,4 @@
-// Runs the e2e suite against a dev server of its own, on a free port, and keeps a line per run in .e2e-runs.log.
+// Runs the e2e suite, and keeps a line per run in .e2e-runs.log.
 const { spawn } = require('node:child_process');
 const fs = require('node:fs');
 const path = require('node:path');

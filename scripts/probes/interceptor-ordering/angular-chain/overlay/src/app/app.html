@@ -1,0 +1,11 @@
+<header class="top">
+  <h1>Shop desk</h1>
+</header>
+<main class="page">
+  @if (session.token()) {
+    <app-orders-page />
+    <app-returns-page />
+  } @else {
+    <app-login />
+  }
+</main>

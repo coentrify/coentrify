@@ -1,1 +1,1 @@
-Now add a function that loads a list of durations from a text file, one per line, and returns them in seconds. With a test.
+/compact

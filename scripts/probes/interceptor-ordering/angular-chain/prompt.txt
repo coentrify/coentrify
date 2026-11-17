@@ -1,0 +1,1 @@
+When the API answers 401, log the user off, so the sign-in shows.

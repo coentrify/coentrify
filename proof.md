@@ -10,6 +10,7 @@ The experiments behind the standards. Every result names the models it was measu
 ## The Method
 
 - A fresh agent gets a small task with a trap in it.
+- A trap sits where the agent has no reason to look, and the wrong way is the easy way.
 - The agent works in an empty folder, so no standard reaches it.
 - The task runs without the rule first.
 - Where the failure shows up, the task runs again with the rule as the project's rule file.
@@ -447,6 +448,38 @@ The trap is a server from an earlier run that still listens on the capture port,
 - The runs of one cell ran at the same time, so an agent saw the servers of its neighbors.
 
 The standard stays as it is.
+
+### Reload The Standards After Compacting
+
+Two tests, in Claude Code 2.1.326. The first tests the harness, with no trap for a model.
+
+- A rule file that `CLAUDE.md` imports holds a codeword that no turn names. After a compaction, a session without tools still gave the codeword, on both models.
+- So the Read First standards survive a compaction on their own, in a headless session.
+
+The second is a trap of four turns. The standards of a project are ten pages with 107 decisions, and the first turn reads them all. Two turns of work on other parts follow, then a compaction, then a request for an export to a file. The export falls under thirteen decisions that no code in the project shows, and the command line that predates them does it the other way.
+
+| Model | Without the rule |
+|---|---|
+| Opus 5.5 | read the standards again, 13 of 13 decisions followed, 3 of 3 |
+| Sonnet 5.5 | read the standards again, 3 of 3. All 13 decisions followed in 1 run, and 12 in 2 |
+
+- The summary of the compaction did not carry the decisions on exports. Every run read the standards again as its first step.
+- The decision that Sonnet missed twice is one line of the old command line, which it touched and left reading its file the old way.
+- An easier trap came first: one page of 30 decisions, with one turn before the compaction. There the summary carried every decision. Opus worked from the summary and Sonnet read the page again, and all 6 runs followed the decisions.
+- Not probed: a compaction of a long session, where the summary is far smaller than what it replaces.
+
+### Settings Changes Need a Fresh Session
+
+A test of the harness, with no trap for a model, in Claude Code 2.1.326. A headless session starts with one command denied in the settings. Halfway, the settings deny another command in its place.
+
+| Settings | Sonnet 5.5 | Opus 5.5 |
+|---|---|---|
+| Of the project | the new rule holds at once, 2 of 2 | the same, 1 of 1 |
+| Of the user | the new rule holds at once, 1 of 1 | the same, 1 of 1 |
+
+- The session refused the first command at the start and ran it after the change. The second command ran at the start and was refused after.
+- So a running session reads the permission rules again, and the fact in the standard no longer holds for this version.
+- Not probed: a session in the terminal or in the app.
 
 ## Notes
 

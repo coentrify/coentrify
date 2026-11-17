@@ -28,6 +28,9 @@ The sort comes from each standard's line in its overview, so a standard can stil
 - A probe runs on Opus 5.5 and on Sonnet 5.5 at medium effort, through `claude -p` in an empty folder, so no standard reaches the agent.
 - A probe measures the model inside that agent's own system prompt, so another agent can behave differently.
 - A probe runs without the rule first. Where the failure shows up, it runs again with the rule as the project's rule file.
+- A trap sits where the agent has no reason to look, and the wrong way is the easy way.
+- Nothing near the trap shows the answer: no sibling file with the pattern, no comment, no check that fails on its own.
+- A probe that every run passes on a trap in plain sight is no test. The trap is rebuilt, or the standard stays.
 - The runner and the fixtures are in `scripts/probes`.
 - Every result goes on the [Proof](../proof.md) page, with the models tested.
 - The director rules per standard, one at a time.

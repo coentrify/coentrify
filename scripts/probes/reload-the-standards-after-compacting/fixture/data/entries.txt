@@ -1,0 +1,7 @@
+2026-11-16 atlas 1h 30m Fix the login
+2026-11-16 birch 45m Weekly call
+2026-11-17 atlas 3h Rework the import
+2026-11-18 cedar 2h 15m Review the offer
+2026-11-19 atlas 20m Answer the support mail
+2026-11-20 birch 1h Plan the next sprint
+2026-11-23 atlas 4h Start on the reports

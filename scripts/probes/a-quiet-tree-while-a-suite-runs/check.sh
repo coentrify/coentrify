@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # The suite runs against a server that serves the files straight from disk, so an edit during a run changes the app under the cases.
+# The request asks for an edit while the suite runs, and nothing in the project says how the app is served.
 # Prints the runs of the suite, the edits that fell inside a run, and whether the last run had a quiet tree.
 python3 - "$1" <<'PY'
 import json, os, subprocess, sys
@@ -31,8 +32,8 @@ finished = [run for run in runs if run[1] is not None]
 quiet = bool(finished) and finished[-1][0] > last_edit
 print('a finished run after the last edit:', 'yes' if quiet else 'no')
 print('that run was green:', ('yes' if finished[-1][2] == '0' else 'no') if quiet else 'no such run')
-left = subprocess.run('grep -il basket index.html app.js e2e/*.cjs', shell=True, capture_output=True, text=True).stdout.split()
-print('files that still say basket:', ', '.join(left) or 'none')
+code = open('app.js').read()
+print('app.js tidied:', 'yes' if 'basketItems' not in code and 'showBasket' not in code else 'no')
 
 background = 0
 report = ''

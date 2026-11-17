@@ -35,7 +35,7 @@ def count(pattern: str) -> int:
 
 
 print('ran the build:', count(r'ng build|npm run (--silent )?build|ng serve|npm start'))
-print('ran tsc:', count(r'\btsc\b|npm run (--silent )?typecheck'))
+print('ran tsc:', count(r'\btsc\b|npm run (--silent )?(typecheck|check)'))
 print('opened the app in a browser:', 'yes' if count(r'playwright|chromium|puppeteer') else 'no')
 print('looked at a capture:', 'yes' if looked else 'no')
 print('report:', report[:REPORT_LENGTH])

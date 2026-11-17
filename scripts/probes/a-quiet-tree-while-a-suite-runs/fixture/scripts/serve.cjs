@@ -1,5 +1,4 @@
-// Serves the folder it is started in, straight from disk, so a saved file shows on the next load.
-// usage: node scripts/serve.cjs [port]
+// Serves the shop. usage: node scripts/serve.cjs [port]
 const fs = require('node:fs');
 const http = require('node:http');
 const path = require('node:path');
