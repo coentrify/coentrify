@@ -1,0 +1,8 @@
+<app-card>
+  <h3 slot="title" class="order__title">{{ order().id }} - {{ order().customer }}</h3>
+  <app-badge slot="status" [tone]="order().status === 'paid' ? 'good' : order().status === 'late' ? 'warning' : 'neutral'">
+    {{ order().status }}
+  </app-badge>
+  <app-price-tag [amount]="order().total" [discounted]="order().discounted" />
+  <button slot="actions" type="button" (click)="details.emit(order().id)">Details</button>
+</app-card>

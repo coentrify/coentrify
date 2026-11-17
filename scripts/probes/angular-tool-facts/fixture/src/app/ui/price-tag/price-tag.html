@@ -1,0 +1,2 @@
+<span class="price" [ngClass]="{ 'price--discounted': discounted() }">{{ amount() | currency: 'EUR' }}</span>
+<span class="price__note" *ngIf="discounted()">sale</span>

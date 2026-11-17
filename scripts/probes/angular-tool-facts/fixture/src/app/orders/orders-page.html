@@ -1,0 +1,10 @@
+<app-section title="Orders">
+  @for (order of orders(); track order.id) {
+    <app-order-card [order]="order" (details)="opened.set($event)" />
+  } @empty {
+    <p class="section__empty">No orders yet.</p>
+  }
+  @if (opened(); as id) {
+    <p>Order {{ id }} is open.</p>
+  }
+</app-section>

@@ -1,0 +1,14 @@
+.price {
+  font-weight: 600;
+}
+
+.price--discounted {
+  color: var(--bad);
+}
+
+.price__note {
+  margin-left: 6px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--bad);
+}

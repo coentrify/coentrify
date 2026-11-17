@@ -1,0 +1,1 @@
+The empty line of a section, like 'No returns yet.', should be gray and italic.

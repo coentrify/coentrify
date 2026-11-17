@@ -1,0 +1,1 @@
+A badge takes any string as its tone, and a typo gives a badge without a color. Limit the tone to 'neutral', 'good' and 'bad'.

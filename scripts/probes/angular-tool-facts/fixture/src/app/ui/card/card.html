@@ -1,0 +1,12 @@
+<article class="card">
+  <header class="card__header">
+    <ng-content select="[slot=title]" />
+    <ng-content select="[slot=status]" />
+  </header>
+  <div class="card__body">
+    <ng-content />
+  </div>
+  <footer class="card__actions">
+    <ng-content select="[slot=actions]" />
+  </footer>
+</article>
