@@ -61,8 +61,8 @@ Every choice has a default, and the default is the recommendation. The [recommen
 - Core standards are always recommended, starting with [Always Make No Mistakes](standards/behavior/always-make-no-mistakes.md).
 - A stack module is recommended when the analysis finds the stack.
 - A specific module, such as the game design laws, is picked by the director.
-- A standard with a Relevant For section is picked by that list.
-- Adoption grows with the phase. A game that is only an idea adopts the core behavior, a workflow and the Game Phases, and takes more as it grows.
+- A standard for one kind of project is picked by its title or its Relevant For list.
+- Adoption grows with the phase: an idea takes the core behavior, a workflow and the Game Phases.
 - A standard that an adopted standard links to, in a module the project did not pick, is offered as an option.
 - A workflow is strongly recommended, since tracking the work is part of coentrify.
 

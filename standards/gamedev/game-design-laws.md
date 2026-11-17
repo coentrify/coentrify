@@ -53,9 +53,9 @@ The full text is in [Game Design Laws: UI](game-design-laws-ui.md).
 The full text is in [Game Design Laws: Story](game-design-laws-story.md).
 
 - [Show, Don't Tell](game-design-laws-story.md#show-dont-tell) - the player experiences it; words short and never too spot on
-- [Worth Reading](game-design-laws-story.md#worth-reading) - a game with dialog; a missed line stays missed
-- [Dialog Gives Context](game-design-laws-story.md#dialog-gives-context) - a game with dialog; dialog accompanies the screen as narrative and gives context, never instructions
-- [Make Yourself](game-design-laws-story.md#make-yourself) - a game with a player character; the player can represent themselves
+- [Worth Reading](game-design-laws-story.md#worth-reading) - dialog; a missed line stays missed
+- [Dialog Gives Context](game-design-laws-story.md#dialog-gives-context) - dialog accompanies the screen as narrative and gives context, never instructions
+- [Make Yourself](game-design-laws-story.md#make-yourself) - a player character; the player can represent themselves
 
 ### Guidance
 
@@ -71,7 +71,7 @@ The full text is in [Game Design Laws: World](game-design-laws-world.md).
 
 - [Fair Surprise](game-design-laws-world.md#fair-surprise) - the world has rules the player finds by playing; a surprise answers the player, warns once and is readable after
 - [The World Reacts](game-design-laws-world.md#the-world-reacts) - an action leaves a trace that can be seen
-- [Friction In The World](game-design-laws-world.md#friction-in-the-world) - a game with a world; friction is something the player does there, never a menu or a wait
+- [Friction In The World](game-design-laws-world.md#friction-in-the-world) - friction is something the player does there, never a menu or a wait
 
 ## Why
 
@@ -83,7 +83,7 @@ The laws also give an agent room to decide small things without asking. They are
 
 - A game's laws doc has three parts: the generic laws it adopts, the ones it leaves out with a reason, and its own laws and overrides in full.
 - An adopted or left-out law is named by its name in this set, never copied.
-- A law that holds for one kind of game says so in a `Relevant for:` line under its name, and is adopted or left out by it.
+- A law for one kind of game says so in its name or in a `Relevant for:` line, and is adopted or left out by it.
 - An exception is a paragraph under the law in the game's overrides, naming the feature and the reason, added only when the director affirms it.
 - Check a new feature against the laws before its spec; a conflict is surfaced, never averaged.
 - Feature docs link the law they lean on instead of repeating it.

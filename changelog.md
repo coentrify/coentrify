@@ -6,13 +6,13 @@ What changed in each version of coentrify. A version opens with its summary, whi
 
 The tool facts are vetted against current models, on traps built to catch them. Nothing in it is stable yet.
 
-- 187 standards in 21 modules: 25 changed, six came in and four went
+- 187 standards in 21 modules: 23 changed, two renamed, six came in and four went
 - The second round of the relevance vetting: 15 tool facts, probed on Claude Opus 5.5 and Claude Sonnet 5.5. Five stay, six shrank and four went
 - A rule for the traps: the wrong way is the easy way, and a pass on a trap in plain sight is no test
 - Three standards that a hard trap showed a model needs
 - The game phases in four stages, with a gate at the end of every phase
 - Four new game design laws: Loop First, Fair Surprise, The World Reacts and Friction In The World. The laws stand in six parts
-- A standard for one kind of project says so in a Relevant For section, and its line in the overview repeats it
+- A standard for one kind of project says so in its title, or in a Relevant For section
 - The workflow that tags a version publishes its release as well, from the summary in the changelog
 
 ### Angular
@@ -30,6 +30,7 @@ The tool facts are vetted against current models, on traps built to catch them. 
 ### Behavior
 
 - Changed [Project Lifecycle](standards/behavior/project-lifecycle.md)
+- Changed [Prose Style](standards/behavior/prose-style.md)
 
 ### Commits
 
@@ -42,6 +43,7 @@ The tool facts are vetted against current models, on traps built to catch them. 
 
 ### Gamedev
 
+- Renamed Visual Design to [2D Visual Design](standards/gamedev/2d-visual-design.md)
 - Changed [Captures And Reels](standards/gamedev/captures-and-reels.md)
 - Changed [Devbox](standards/gamedev/devbox.md)
 - Changed [Game Design Laws](standards/gamedev/game-design-laws.md)
@@ -58,10 +60,9 @@ The tool facts are vetted against current models, on traps built to catch them. 
 - Added [Game Phases: Live](standards/gamedev/game-phases-live.md)
 - Changed [Game Work Workflow](standards/gamedev/game-work-workflow.md)
 - Changed [Gamedev Working Cadence](standards/gamedev/gamedev-working-cadence.md)
-- Changed [Pacing Docs](standards/gamedev/pacing-docs.md)
+- Renamed Pacing Docs to [Incremental Pacing](standards/gamedev/incremental-pacing.md)
 - Changed [Silent Runs](standards/gamedev/silent-runs.md)
 - Changed [Sprite Sheet Frames](standards/gamedev/sprite-sheet-frames.md)
-- Changed [Visual Design](standards/gamedev/visual-design.md)
 
 ### Tickets Workflow
 
@@ -205,7 +206,7 @@ The standards are vetted against current models for the first time. Nothing in i
 - Changed [Game Design Laws](standards/gamedev/game-design-laws.md)
 - Changed [Gamedev Working Cadence](standards/gamedev/gamedev-working-cadence.md)
 - Changed [Own Icons](standards/gamedev/own-icons.md)
-- Changed [Pacing Docs](standards/gamedev/pacing-docs.md)
+- Changed Pacing Docs
 - Changed [Silent Runs](standards/gamedev/silent-runs.md)
 - Changed [Sprite Sheet Frames](standards/gamedev/sprite-sheet-frames.md)
 - Changed [Stabilize Before Adding](standards/gamedev/stabilize-before-adding.md)
@@ -448,11 +449,11 @@ The first version of coentrify. Nothing in it is stable yet.
 - Added [Game Work Workflow](standards/gamedev/game-work-workflow.md)
 - Added [Gamedev Working Cadence](standards/gamedev/gamedev-working-cadence.md)
 - Added [Own Icons](standards/gamedev/own-icons.md)
-- Added [Pacing Docs](standards/gamedev/pacing-docs.md)
+- Added Pacing Docs
 - Added [Silent Runs](standards/gamedev/silent-runs.md)
 - Added [Sprite Sheet Frames](standards/gamedev/sprite-sheet-frames.md)
 - Added [Stabilize Before Adding](standards/gamedev/stabilize-before-adding.md)
-- Added [Visual Design](standards/gamedev/visual-design.md)
+- Added Visual Design
 
 ### Records
 

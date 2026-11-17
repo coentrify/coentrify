@@ -25,8 +25,6 @@ The world acknowledges the player's presence: an action leaves a trace that can 
 
 ## Friction In The World
 
-Relevant for: a game with a world.
-
 Friction is something the player does in the world, never a menu or a wait.
 
 ## Related

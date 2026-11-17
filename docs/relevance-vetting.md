@@ -39,18 +39,17 @@ The sort comes from each standard's line in its overview, so a standard can stil
 
 ## How A Trap Is Built And Run
 
-- A fixture is a small project that holds the trap, in a folder of its own with one commit.
-- A prompt is the request, in the words a director would use. It never names the trap.
-- A run is a headless agent in a copy of the fixture: `claude -p` with the prompt, a model, an effort and no settings loaded, so no standard reaches the agent.
-- With the rule, the standard becomes the `CLAUDE.md` of the copy, and only the settings of the project load.
-- A check reads the tree and the transcript after the run, and prints what it measures. A number comes from the check, never from the agent's report.
-- A cell is three runs per model. A cell that fails gets a second cell with the rule.
-- A standard that shrank is tested twice as the rule: once shrunk and once in full.
-- A fixture that needs packages installs them after its commit, so the agent can build and test.
-- A second prompt continues the conversation of the first. A turn that holds only `/compact` compacts it.
-- A fact about the harness is tested without a trap: the thing is changed while a session runs, and the session shows whether it noticed.
-- A check is run once on a right answer and once on a wrong one before any agent sees the trap.
-- No script that runs a trap is edited while a trap runs.
+- A fixture is a small project with the trap, in one commit.
+- A prompt is the request as a director would say it. It never names the trap.
+- A run is a headless agent in a copy of the fixture, with no settings loaded.
+- With the rule, the standard is the `CLAUDE.md` of the copy.
+- A check reads the tree and the transcript, never the agent's report.
+- A check is tried on a right and a wrong answer first.
+- A cell is three runs per model. A failed cell runs again with the rule.
+- A shrunk standard is tested shrunk and in full.
+- A second prompt continues the conversation. A turn of `/compact` compacts it.
+- A fact about the harness needs no trap: change the thing while a session runs.
+- No runner is edited while a trap runs.
 
 ## What Changed In The Models
 

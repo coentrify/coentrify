@@ -1,4 +1,4 @@
-# Pacing Docs
+# Incremental Pacing
 
 Pacing is a game mechanic of its own. Every level gets a pacing doc under a pacing folder in the docs that mirrors the level's configuration: the currency, the goal and its size, the unlock gates, the tiers of producers with cost, output and what opens and reveals them, the upgrade lines with cost and effect, the hints per progress, the odds of encounters. The doc and the configuration change together.
 

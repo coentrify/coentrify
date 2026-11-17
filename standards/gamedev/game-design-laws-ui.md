@@ -32,7 +32,7 @@ A warning says what is wrong. A warning sign alone leaves the player fishing for
 
 ## Mouse First
 
-Relevant for: a PC game.
+Relevant for: PC.
 
 The game plays best on a mouse and its wheel, the way most gamers play; a trackpad is taken into account for accessibility, never at the mouse's cost.
 

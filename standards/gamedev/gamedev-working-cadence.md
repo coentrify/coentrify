@@ -15,7 +15,7 @@ The director tests by hand between versions; work without a version has no name 
 - A big dump of ideas and feedback is logged and processed, then the report offers a few focus areas for the next iteration and the director picks one. The bugs go to the planning page regardless and the small fixes are the plan meanwhile; the rest is grouped into epics on the roadmap, so nothing is lost and the work keeps its focus.
 - Feedback on an open version is a cutoff, never more scope: close the version as it stands and plan what is open plus the new feedback for the next one. One cycle of playtest, review and changelog per version.
 - The plan holds bugs first, then debt, then features ([Dev Tiers](../behavior/dev-tiers.md)).
-- Content the agent names (names, numbers, hints) is recorded in the pacing doc and named in the report, never asked for one by one ([Pacing Docs](pacing-docs.md)).
+- Content the agent names (names, numbers, hints) is recorded in the pacing doc and named in the report, never asked for one by one ([Incremental Pacing](incremental-pacing.md)).
 
 ## Per Item
 
@@ -29,7 +29,7 @@ The director tests by hand between versions; work without a version has no name 
 - Nothing lands between the full suites and the tag without its touched suite run again.
 - The next version is bumped and its changelog page opened only when its first item lands ([Changelog Per Version](../records/changelog-per-version.md)).
 
-## For A Browser Game
+## In A Browser
 
 - Green at the close includes the whole pre-push hook (`npm run hooks:pre-push`: production build, bundle check, styleguide, wiki build, hygiene, types, unit, the stories in a browser) by its exit code, run before the tag and never left for the director's push.
 - The full browser suite runs as two halves when it outlasts the background cap ([Playwright Parallel Runs](../tooling/playwright-parallel-runs.md)).

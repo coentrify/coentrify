@@ -21,7 +21,7 @@ Proof regenerates from the scenarios after every change ([Reels And Video Proof]
 - A level's reel runs on into the next level's opening; the changelog keeps a copy under the version's name.
 - An edge flow worked on in the iteration goes into the level's reel or a small video of its own, so the director sees the flow that changed.
 
-## For A Browser Game
+## In A Browser
 
 - Park the mouse in a corner and hide the window's drag bar before a still.
 - A segment records the sound by tapping the audio graph in the page.

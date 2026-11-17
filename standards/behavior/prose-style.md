@@ -15,6 +15,7 @@ Patterned prose reads as machine output and annoys the reader. The writing shoul
 - Vary sentence length and structure across a paragraph.
 - A reference resolves inside its own text.
 - A point is made in one sentence, once.
+- A word the context already gives is dropped: the module, the title or the heading above. A law in the game laws never says game.
 - Reports to the director are brief, a helicopter view: what changed, what needs the director's call. Detail only on request.
 
 ## Related

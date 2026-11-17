@@ -1,10 +1,6 @@
-# Visual Design
+# 2D Visual Design
 
 The visual rules a drawn scene gets wrong on the first try. A project's visual checklist points here, so a ticket's Visual Quality only adds what is its own ([Ticket Template](../tickets-workflow/ticket-template.md)).
-
-## Relevant For
-
-- a game with drawn 2D scenes
 
 ## Why
 

@@ -2,6 +2,7 @@
 
 The Gamedev standards: game development.
 
+- [2D Visual Design](2d-visual-design.md) - drawn scenes keep one perspective: verticals vertical, edges to the vanishing point, repeats converging, patterns foreshortened; checked with lines drawn over a capture
 - [Captures And Reels](captures-and-reels.md) - proof from scripted captures per item, never by hand; reels on demand; videos untracked in git
 - [Code Based Sound](code-based-sound.md) - generated, soft, varied sound; levels measured, never guessed
 - [Devbox](devbox.md) - a one-key devbox on every scene, on the shared seeded scenarios
@@ -19,9 +20,8 @@ The Gamedev standards: game development.
 - [Game Phases: Live](game-phases-live.md) - Release, Aftercare and Post-Release; an everlasting project, so no gate closes it
 - [Game Work Workflow](game-work-workflow.md) - the game layer on the work workflow: the user is the player, addressed as you; the game's own words; playtests feed intake; Lore and Game ticket types; the four stages in a line each
 - [Gamedev Working Cadence](gamedev-working-cadence.md) - the game day loop; feedback on an open version is a cutoff; full pre-push hook before the tag; nothing new after a wind-down
+- [Incremental Pacing](incremental-pacing.md) - a pacing doc per level mirroring the configuration
 - [Own Icons](own-icons.md) - own icon sprite, named by concept, with a wiki index page
-- [Pacing Docs](pacing-docs.md) - a pacing doc per level mirroring the configuration
 - [Silent Runs](silent-runs.md) - an agent's runs of a game make no sound: muted Playwright captures for a walk, never the browser pane on a game with sound
-- [Sprite Sheet Frames](sprite-sheet-frames.md) - read frame size and row order from the sheet's pixels; for a 2D game with sprite sheets
+- [Sprite Sheet Frames](sprite-sheet-frames.md) - read frame size and row order from the sheet's pixels
 - [Stabilize Before Adding](stabilize-before-adding.md) - while stabilizing, only bugs and tweaks; new things go later
-- [Visual Design](visual-design.md) - drawn scenes keep one perspective: verticals vertical, edges to the vanishing point, repeats converging, patterns foreshortened; checked with lines drawn over a capture; for a game with drawn 2D scenes

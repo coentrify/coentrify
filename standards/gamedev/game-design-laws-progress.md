@@ -33,7 +33,7 @@ The player feels the progress made, so the gap between where the player starts a
 
 - Quality of life is earned too. A task is done by hand first and automated later, so losing friction is progress.
 - Upgrades come in small, regular steps that are felt in play.
-- Relevant for a game with an economy: every step up brings a new risk beside the new unlock.
+- Relevant for an economy: every step up brings a new risk beside the new unlock.
 
 ## Every Mechanic Matters
 

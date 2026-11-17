@@ -8,7 +8,7 @@ Never tell the player what happened, what to feel or what to experience; let the
 
 ## Worth Reading
 
-Relevant for: a game with dialog.
+Relevant for: dialog.
 
 Part of what makes a game good is that the player can miss something, which gives them a reason to read.
 
@@ -16,8 +16,6 @@ Part of what makes a game good is that the player can miss something, which give
 - a line missed stays missed
 
 ## Dialog Gives Context
-
-Relevant for: a game with dialog.
 
 Dialog accompanies what is on screen as its narrative: it gives the player the context the picture alone leaves out, what is going on, who is there and what is at stake.
 
@@ -28,7 +26,7 @@ Dialog accompanies what is on screen as its narrative: it gives the player the c
 
 ## Make Yourself
 
-Relevant for: a game with a player character.
+Relevant for: a player character.
 
 The player can personalize the game to reflect themselves: the character can look like them, their hair, their face, their build, and the world carries what they stand for. Being represented matters more than a look of a certain vibe or graphical realism; a player who cannot make themselves is missing something.
 
