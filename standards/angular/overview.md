@@ -12,6 +12,6 @@ The Angular standards: rules for Angular.
 - [Prefer Content Projection over Props (Angular)](prefer-content-projection-over-props-angular.md) - ng-content slots over data props
 - [Projected Content Is Never Styled by the Host](projected-content-is-never-styled-by-the-host.md) - host styles never reach projected content
 - [Static Attribute, Not Literal Binding](static-attribute-not-literal-binding.md) - constant strings are plain attributes, not bindings
-- [Track Timed Items by an Id](track-timed-items-by-an-id.md) - timed list items track by id and remove the one that closed
+- [Track Timed Items by an Id](track-timed-items-by-an-id.md) - timed list items track by an id the item carries
 - [UI Copy in Template](ui-copy-in-template.md) - UI copy lives in the template's matching branch
 - [Use Modern Angular Template APIs](use-modern-angular-template-apis.md) - [class], [style] and @if/@for over the legacy directives

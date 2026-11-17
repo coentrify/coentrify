@@ -16,7 +16,7 @@ Does a current model still need the rule, or does the model always do this corre
 ## Three Kinds
 
 - Decisions - laws, naming, templates and the workflow. A model cannot know a decision, so these stay. 148 standards.
-- Tool facts - the pitfalls of one tool, such as Angular or Playwright. These stay while the tool behaves that way. 24 standards.
+- Tool facts - the pitfalls of one tool, such as Angular or Playwright. These stay while the tool behaves that way. 23 standards, after one went.
 - Corrections of agent behavior - the candidates. 15 standards, and the director ruled on all of them.
 
 The sort comes from each standard's line in its overview, so a standard can still move.
@@ -62,16 +62,13 @@ All 15 are probed and ruled on, with the results on the [Proof](../proof.md) pag
 
 The round in progress. A tool fact is probed the same way: a fresh agent meets the pitfall without the rule.
 
-### Probed, Waiting For The Ruling
+### Ruled
 
-Both models avoided the trap without the rule in 3 of 3 runs each, with the results on the [Proof](../proof.md) page.
+Six are probed and ruled on, with the results on the [Proof](../proof.md) page. A line that was not probed stays, and so does a standard whose trap was too easy.
 
-- AI - Prompt Small Models Differently. The numbered rules and the low temperature are not default.
-- Angular - Track Timed Items by an Id. Probed in plain JavaScript, so the Angular lines are untested.
-- Architecture - Interceptor Ordering
-- E2E - Substring Locator Collisions
-- Gamedev - Sprite Sheet Frames
-- Web - Hidden Attribute Loses To Display. Sonnet 5.5 never looked at the page, so the line on the painted state is not default.
+- Stays as it is: Sprite Sheet Frames.
+- Shrank: Hidden Attribute Loses To Display, Substring Locator Collisions, Track Timed Items by an Id and Prompt Small Models Differently.
+- Went: Interceptor Ordering.
 
 ### Next: A Project Fixture With Installs
 

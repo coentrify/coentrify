@@ -285,6 +285,8 @@ The trap is a page that toggles its menu with the hidden attribute. The request 
 - Every run toggled the hidden attribute, and every run wrote the rule that makes hidden win.
 - Opus opened the page in a browser and looked at a screenshot in 3 of 3 runs. Sonnet opened no browser in 3 of 3.
 
+The standard shrank to its lines on the painted state.
+
 ### Substring Locator Collisions
 
 The trap is a page with a Save button and specs that locate it by role and name. The request is a Save All button beside it.
@@ -298,6 +300,8 @@ The trap is a page with a Save button and specs that locate it by role and name.
 - No run met the collision as a failure.
 - Not probed: new text that collides with a `getByText` locator in a spec the agent has no reason to open.
 
+The standard shrank to the collisions that were not probed: new text against a `getByText` locator, a helper that waits for a button to disappear, and a subtitle overlay.
+
 ### Interceptor Ordering
 
 The trap is a chain of interceptors where a mock answers some requests itself and throws its own 401. The request is an interceptor that logs the user off on a 401. A catcher added at the end of the chain never sees the mock's 401.
@@ -309,6 +313,8 @@ The trap is a chain of interceptors where a mock answers some requests itself an
 
 - Every run left a comment on the order, and added a test for the mock's 401.
 - The chain is plain JavaScript in the shape of Angular's interceptors. Not probed: Angular's own chain.
+
+Interceptor Ordering went.
 
 ### Track Timed Items by an Id
 
@@ -322,6 +328,8 @@ The trap is a list of toasts that drops its first entry when a timer ends. The r
 - Every run replaced the drop of the first entry, and added a test with an error and an info together.
 - The list is plain JavaScript. Not probed: the track expression of an Angular template, and the NG0956 warning.
 
+The standard shrank to its two Angular lines, which were not probed.
+
 ### Sprite Sheet Frames
 
 The trap is a hero sheet of 16 by 32 frames beside a slime of 16 by 16, in a project with a tile size of 16. The rows of the two sheets are in another order. The request is the hero, the same way as the slime.
@@ -333,6 +341,8 @@ The trap is a hero sheet of 16 by 32 frames beside a slime of 16 by 16, in a pro
 
 - Every run read the sheet with code, and 5 of 6 also looked at it as an image. The sixth read the rows from the pixels alone.
 - The sheet is small and clean. Not probed: a sheet with padding, or with frames that differ in size.
+
+The standard stays as it is. The trap was too easy to count as a test.
 
 ### Prompt Small Models Differently
 
@@ -348,6 +358,8 @@ The trap is a shopkeeper that answers through a large model, with a long prompt 
 - 1 run of 6 wrote the prompt as numbered rules.
 - No run could try the small model, and every report said so.
 - Not probed: the last line of the standard, on rules that contradict a new capability.
+
+The standard shrank to the numbered rules, the low temperature, and its two lines that were not probed.
 
 ## Notes
 

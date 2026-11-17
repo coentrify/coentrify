@@ -2,6 +2,28 @@
 
 What changed in each version of coentrify.
 
+## 0.0.3
+
+### AI
+
+- Changed [Prompt Small Models Differently](standards/ai/prompt-small-models-differently.md)
+
+### Angular
+
+- Changed [Track Timed Items by an Id](standards/angular/track-timed-items-by-an-id.md)
+
+### Architecture
+
+- Removed Interceptor Ordering
+
+### E2E
+
+- Changed [Substring Locator Collisions](standards/e2e/substring-locator-collisions.md)
+
+### Web
+
+- Changed [Hidden Attribute Loses To Display](standards/web/hidden-attribute-loses-to-display.md)
+
 ## 0.0.2
 
 ### AI
@@ -24,7 +46,7 @@ What changed in each version of coentrify.
 - Changed [App-Shield](standards/architecture/app-shield.md)
 - Changed [Converge Only Once Proven](standards/architecture/converge-only-once-proven.md)
 - Changed [Folder Concerns](standards/architecture/folder-concerns.md)
-- Changed [Interceptor Ordering](standards/architecture/interceptor-ordering.md)
+- Changed Interceptor Ordering
 - Changed [Per-Application Split Over Shared Branching](standards/architecture/per-application-split-over-shared-branching.md)
 - Changed [Separation Before Layer Standards](standards/architecture/separation-before-layer-standards.md)
 
@@ -242,7 +264,7 @@ What changed in each version of coentrify.
 - Added [App-Shield](standards/architecture/app-shield.md)
 - Added [Converge Only Once Proven](standards/architecture/converge-only-once-proven.md)
 - Added [Folder Concerns](standards/architecture/folder-concerns.md)
-- Added [Interceptor Ordering](standards/architecture/interceptor-ordering.md)
+- Added Interceptor Ordering
 - Added [Per-Application Split Over Shared Branching](standards/architecture/per-application-split-over-shared-branching.md)
 - Added [Separation Before Layer Standards](standards/architecture/separation-before-layer-standards.md)
 
