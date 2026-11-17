@@ -22,6 +22,9 @@ The experiments behind the standards. Every result names the models it was measu
 - The tasks are short, the repositories are small, and the code is JavaScript and TypeScript.
 - A cell holds two to five runs.
 - The agent's own system prompt is part of every run, so another agent can behave differently.
+- The runs of a round shared one machine. They saw each other's servers, and one wrote a file outside its folder.
+- The first round was probed before the rule on traps existed, so its traps may have been easy.
+- The agent that ran the rounds was not probed itself.
 
 ## The Results
 
@@ -518,6 +521,9 @@ Settings Changes Need a Fresh Session went.
 - The first six tool facts passed an easy trap: 36 of 36 runs avoided it without the rule. On a hard trap one of them failed.
 - Kill a Lingering Playwright Server Before Captures is the first tool fact that a model needs: Sonnet 5.5 went from 1 of 3 to 3 of 3 with it.
 - A Quiet Tree While A Suite Runs is the second: Sonnet 5.5 went from 1 of 3 to 3 of 3 with it. Both show on a hard trap only.
+- Every fact that was probed, both models knew. The three standards a model needs all sit where the easy way, or the request itself, pulls the wrong way.
+- Sonnet 5.5 passed on what it knows and failed where it had to look. It says when it did not check.
+- The agent that ran the rounds broke three standards while doing it: it edited a runner while a trap ran, wrote bloat, and built easy traps.
 - An easy trap proves nothing. Nine standards got a second, harder trap. Seven passed it as well. A Quiet Tree While A Suite Runs caught Sonnet 5.5, and Prompt Small Models Differently caught both models.
 - A shrunk standard is tested as the rule, beside the full one. Prompt Small Models Differently had lost the lines that did the work.
 - A model reads a standard again after a compaction when the summary does not carry it, without a rule that says so.

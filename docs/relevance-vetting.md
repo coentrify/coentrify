@@ -50,6 +50,7 @@ The sort comes from each standard's line in its overview, so a standard can stil
 - A second prompt continues the conversation. A turn of `/compact` compacts it.
 - A fact about the harness needs no trap: change the thing while a session runs.
 - No runner is edited while a trap runs.
+- A run shares no port and no folder with another run.
 
 ## What Changed In The Models
 
