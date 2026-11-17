@@ -1,0 +1,1 @@
+Rename the shop to 'Alder shop' in the header, and run npm run capture so I can see it.
