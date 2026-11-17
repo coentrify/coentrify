@@ -1,6 +1,6 @@
 # Game Design Laws
 
-Laws are short rules that hold unless there is a very good reason to break one. The generic set lives in the standards, in five parts by theme, and this standard is its index. A game's own laws and overrides stand in the game's docs.
+Laws are short rules that hold unless there is a very good reason to break one. The generic set lives in the standards, in six parts by theme, and this standard is its index. A game's own laws and overrides stand in the game's docs.
 
 ## The Set
 
@@ -53,12 +53,17 @@ The full text is in [Game Design Laws: UI](game-design-laws-ui.md).
 The full text is in [Game Design Laws: Story](game-design-laws-story.md).
 
 - [Show, Don't Tell](game-design-laws-story.md#show-dont-tell) - the player experiences it; words short and never too spot on
-- [No Yellow Paint](game-design-laws-story.md#no-yellow-paint) - no steering that does the player's thinking; a hint is a context clue
-- [Answer The Player's Next Question](game-design-laws-story.md#answer-the-players-next-question) - every word and number is weighed by what it means to the player
 - [Worth Reading](game-design-laws-story.md#worth-reading) - a game with dialog; a missed line stays missed
 - [Dialog Gives Context](game-design-laws-story.md#dialog-gives-context) - a game with dialog; dialog accompanies the screen as narrative and gives context, never instructions
 - [Make Yourself](game-design-laws-story.md#make-yourself) - a game with a player character; the player can represent themselves
-- [Adopt, Repeat, Confirm (ARC)](game-design-laws-story.md#adopt-repeat-confirm-arc) - a five step pattern for every new thing: awareness, trigger, adopt, repeat, confirm
+
+### Guidance
+
+The full text is in [Game Design Laws: Guidance](game-design-laws-guidance.md).
+
+- [No Yellow Paint](game-design-laws-guidance.md#no-yellow-paint) - no steering that does the player's thinking; a hint is a context clue
+- [Answer The Player's Next Question](game-design-laws-guidance.md#answer-the-players-next-question) - every word and number is weighed by what it means to the player
+- [Adopt, Repeat, Confirm (ARC)](game-design-laws-guidance.md#adopt-repeat-confirm-arc) - a five step pattern for every new thing: awareness, trigger, adopt, repeat, confirm
 
 ### World
 

@@ -33,3 +33,4 @@ Applies to a game with a world. Friction is something the player does in the wor
 - [Game Design Laws: Progress](game-design-laws-progress.md)
 - [Game Design Laws: UI](game-design-laws-ui.md)
 - [Game Design Laws: Story](game-design-laws-story.md)
+- [Game Design Laws: Guidance](game-design-laws-guidance.md)

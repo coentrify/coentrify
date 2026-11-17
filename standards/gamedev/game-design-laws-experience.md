@@ -56,5 +56,6 @@ The core loop is fun in a greybox, before anything is built on it. Looks, conten
 
 - [Game Design Laws: Progress](game-design-laws-progress.md)
 - [Game Design Laws: UI](game-design-laws-ui.md)
-- [Game Design Laws: World](game-design-laws-world.md)
 - [Game Design Laws: Story](game-design-laws-story.md)
+- [Game Design Laws: Guidance](game-design-laws-guidance.md)
+- [Game Design Laws: World](game-design-laws-world.md)
