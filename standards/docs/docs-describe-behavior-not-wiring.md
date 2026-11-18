@@ -4,9 +4,11 @@ Write docs at product/behavior altitude: describe what something does for the us
 
 ## Why
 
-A doc that mirrors the code goes stale with it. A doc of behavior is an implementation-agnostic spec.
+A doc stays true while the code changes.
 
 ## How to Apply
+
+A doc of behavior is an implementation-agnostic spec.
 
 Default to stripping implementation detail. These belong in the code (or a dedicated reference doc), not in concern/architecture/overview docs:
 

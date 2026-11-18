@@ -2,6 +2,10 @@
 
 These rules apply to all project documentation.
 
+## Why
+
+The docs orient every reader, and they are the basis for manual testing and for generating tests.
+
 ## Product, Not Code
 
 Docs describe what the product does and who uses it, never how it is wired. Implementation detail goes to a technical-debt doc or an architecture doc.
@@ -52,10 +56,6 @@ A product doc states what the product is now, one fact per bullet, grouped under
 ## Reproducible From The Docs
 
 The rule of thumb for a project's docs as a whole: another agent, handed the docs without the codebase, rebuilds the product in its essence, small changes and interpretations expected. A fact the product depends on that lives only in the code or the chat is a gap; a cleanup moves information to its right place and never drops anything valuable.
-
-## Why
-
-The docs orient every reader, and they are the basis for manual testing and for generating tests.
 
 ## Related
 

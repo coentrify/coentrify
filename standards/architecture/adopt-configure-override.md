@@ -8,10 +8,11 @@ Anything made to be reused across projects comes in three layers. A project adop
 
 ## Why
 
-Less code and less time. A default just works, a flavor is thought out beforehand and easy to pick, and an override is there for the custom case and the escape hatch, only when needed.
+Reuse costs the least code and time.
 
 ## How to Apply
 
+- A default just works, a flavor is thought out beforehand and easy to pick, and an override is there for the custom case and the escape hatch, only when needed.
 - The default path asks nothing. The person is involved only for a decision that is really theirs.
 - A choice becomes a config only once projects truly differ on it; until then it is a default.
 - Each layer has a place of its own. A default is never edited to configure or to override, which keeps an update of the defaults mechanical.

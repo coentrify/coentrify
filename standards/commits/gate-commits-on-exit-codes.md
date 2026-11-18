@@ -4,7 +4,7 @@ A commit, a tag or a "done" claim is gated on the exit code of the check itself,
 
 ## Why
 
-A commit lands only on a check that passed.
+Only the exit code tells whether a check passed.
 
 ## How to Apply
 

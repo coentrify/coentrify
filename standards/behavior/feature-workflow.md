@@ -4,7 +4,7 @@ Every new product feature follows this pipeline. Identify the next step, verify 
 
 ## Why
 
-The steps carry intent and context into the build. The laws a project adopted are weighed in the spec, in a step of their own, and small steps get focus and layer better. Without the steps a model builds a feature on guesses.
+A feature is built on intent and context, never on guesses.
 
 ## The Pipeline
 
@@ -15,6 +15,8 @@ The steps carry intent and context into the build. The laws a project adopted ar
 - Implement use case by use case, in mock state ([Develop Against Mocks](../tooling/develop-against-mocks.md)).
 - Regression-test the affected area.
 - Proof: a screenshot, a video, a test run or whatever fits, that tells the user the feature is done and lets them verify it themselves. Proof the user cannot check is no proof ([Reels And Video Proof](../reporting/reels-and-video-proof.md)).
+
+The laws a project adopted are weighed in the spec, in a step of their own, and small steps keep the focus.
 
 Doc, spec and e2e steps are observation only - no production-code edits ([Non-Destructive Documenting and Test Automation](non-destructive-documenting-and-test-automation.md)).
 

@@ -4,7 +4,7 @@ In a multi-app workspace, apps can legitimately start divergent - different desi
 
 ## Why
 
-The apps of a workspace share a design or a wiring only once it has proven shared.
+A shared design or wiring fits every app that uses it.
 
 ## How to Apply
 

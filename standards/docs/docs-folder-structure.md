@@ -2,6 +2,10 @@
 
 A project's docs live at `docs/`, the main entry point and the wiki's root. Each folder has one job.
 
+## Why
+
+Every folder answers one question, so a reader knows where a fact belongs before looking.
+
 ## Root
 
 - `overview.md` - what the product is, functional only.
@@ -26,10 +30,6 @@ All records sit together under `docs/records/`, one group in the wiki with an `o
 - `docs/records/playtests/` - one file per playtest, or per user test for another kind of product ([Playtest Files](../records/playtest-files.md)).
 - `docs/records/changelog/` - one page per version ([Changelog Per Version](../records/changelog-per-version.md)).
 - Any other dated trail a project keeps, such as the agent's ideas or the outside testers' pages, joins them under `docs/records/`, never at the docs root.
-
-## Why
-
-Every folder answers one question, so a reader knows where a fact belongs before looking.
 
 ## Related
 

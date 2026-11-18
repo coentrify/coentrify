@@ -1,5 +1,7 @@
 # Code Principles
 
+Code follows four principles: a single responsibility, composition over extension, generic types, and responsibilities kept apart.
+
 ## Why
 
 Code with a single responsibility per piece stays stable.

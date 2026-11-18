@@ -4,7 +4,7 @@ Pick work in a fixed order, higher tiers first: CI/CD and build, then bugs, then
 
 ## Why
 
-Work builds on a stable foundation. An unstable one invites issues and rework, which is costly.
+Work builds on a stable foundation.
 
 ## How to Apply
 

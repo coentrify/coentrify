@@ -2,6 +2,10 @@
 
 Two kinds of file, distinguished by lifecycle.
 
+## Why
+
+Each file stays current, so a reader can trust it.
+
 ## Plans
 
 Hold what's being done right now: status, ordered tasks, blockers, scope-of-effort. Items get deleted as they're done; the file shrinks toward empty. Examples: `PLAN.md`, workspace `plan.md`, `inbox.md`.
@@ -9,10 +13,6 @@ Hold what's being done right now: status, ordered tasks, blockers, scope-of-effo
 ## Persistent
 
 Hold knowledge, conventions, functionality, and reference. They evolve but never get "completed". Single responsibility per file: one purpose, one shape. Examples: standards, skills, architecture docs, library feedback docs.
-
-## Why
-
-Each file stays current, so a reader can trust it.
 
 ## How to Apply
 

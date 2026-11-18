@@ -2,6 +2,10 @@
 
 When a unit of work is done - a fixed bug, a resolved finding, an improvement, a new or changed feature - write a short report a teammate can read in two minutes and trust. It shows the problem with proof, where it lived, why it happened, what else it touched, and the fix with the same proof. For a feature it shows the old flow, what changed, and the user benefit.
 
+## Why
+
+A change report proves a change and shows how far it spread, so the work is reviewed without running it again.
+
 ## Section Shape
 
 - Headline + one-sentence hook - what was wrong (or what's new) and what changed.
@@ -20,10 +24,6 @@ Drop sections that don't apply. Screenshots over prose; videos only when the poi
 ## Deliverable
 
 Where a project keeps a changelog per version, that page is the record and this report is not written ([Changelog Per Version](../records/changelog-per-version.md)). Elsewhere the report is a page in the docs wiki, kept so the team can always go back and see what changed: a per-target changelog with a curated newest-first index, entry pages dated and slugged, screenshots stored alongside. The mechanics for this workspace (VitePress paths, asset folder, index format) live in the project skill `changelog-report` and its `TEMPLATE.md` / `EXAMPLE.md`, not here.
-
-## Why
-
-A change report proves a change and shows how far it spread, so the work is reviewed without running it again.
 
 ## How to Apply
 
