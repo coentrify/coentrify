@@ -12,7 +12,7 @@ Hold knowledge, conventions, functionality, and reference. They evolve but never
 
 ## Why
 
-Mixing rots both. Plans accumulate convention sections that drift out of sync with the persistent source of truth. Persistent files accumulate status text that goes stale and clutters every read.
+Each file stays current, so a reader can trust it.
 
 ## How to Apply
 

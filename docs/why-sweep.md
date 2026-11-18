@@ -28,14 +28,12 @@ The worklist for the sweep over every Why. A standard leaves the list once the d
 
 ## Done
 
-AI, Angular, Architecture, Behavior, Code, Commits, Docs, E2E, Electron, Records, Reporting, Scripts and Security.
+AI, Angular, Architecture, Behavior, Code, Commits, Docs, E2E, Electron, Records, Reporting, Scripts, Security and Simple Workflow.
 
 ## Waiting For A Ruling
 
-- Plans vs Persistent Files - "Each file stays current, so a reader can trust it."
-- Technical Debt Template - "An agent can pick up an entry and start the work from it."
-- Whether the thirteen swept modules are read again against the new bar
+Nothing waits at the moment.
 
 ## Not Read Yet
 
-Gamedev, Simple Workflow, Tests, Tickets Workflow, Tooling, TypeScript, UI and Web.
+Gamedev, Tests, Tickets Workflow, Tooling, TypeScript, UI and Web.

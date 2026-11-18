@@ -33,7 +33,7 @@ Catalogues internal debt: infrastructure friction, tooling gaps, missing abstrac
 
 ## Why
 
-A tech-debt entry's job is to make a developer who's about to pick one up say "yes I can start on this" or "no, I'll grab a different one". Just-enough-info beats a complete design doc - the design gets done when the work starts.
+An agent can pick up an entry and start the work from it.
 
 ## Related
 
