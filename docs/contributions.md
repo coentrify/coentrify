@@ -26,6 +26,11 @@ An issue holds no project details, since the repository is public.
 
 - Work toward a version happens on a branch named after that version, such as `version-0.0.5`.
 
+## The Changelog
+
+- Every standard a commit changes is named on the page of the version in progress, a link fixed in a rename included.
+- `npm run hooks:pre-commit` runs that check on the staged files before the commit.
+
 ## The Conduct
 
 - Discuss each change with the director one by one before it is applied: what the audit found, an opinion and a recommendation, then the director's go.

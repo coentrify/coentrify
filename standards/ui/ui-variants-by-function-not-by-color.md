@@ -9,7 +9,7 @@ When a UI component supports multiple visual variants, the input describes the f
 
 ## Why
 
-Color is a visual concern that belongs inside the UI layer. Letting callers pick colors fragments the design system, makes rebrands painful, and couples consumers to current visual choices.
+The look stays the UI layer's to decide, so a rebrand touches one place.
 
 ## How to Apply
 

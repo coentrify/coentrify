@@ -4,7 +4,7 @@ Extracting feature markup into shared `ui` primitives, or consolidating duplicat
 
 ## Why
 
-Consolidation can quietly change visuals: a brand-colored count goes gray, compact details grow, panel padding shifts. That is a redesign smuggled into a refactor, and the design decision is not the agent's to make. Variants keep the refactor faithful while still giving one source of truth.
+Design decisions stay with the director.
 
 ## How to Apply
 
@@ -12,6 +12,10 @@ Consolidation can quietly change visuals: a brand-colored count goes gray, compa
 - Verify fidelity by comparing computed styles in preview against the originals; "looks close" is not enough.
 - Use theme tokens for every value: color (`color.$text-*`), spacing (`dimension.$space-*`), typography mixins (`typography.ui-secondary-md()`), radius (`radius.$*`). Hardcode only when no token exists (a layout cap like a 320px scroll height), as a justified escape hatch with a note. The same bar holds for `ViewEncapsulation.None` and casts.
 - A genuine consistency improvement (normalizing incidental drift) is a separate, opt-in change: propose it on its own instead of bundling it into the refactor.
+
+## Examples
+
+- A consolidation can quietly change the visuals: a brand-colored count goes gray, compact details grow, a panel's padding shifts.
 
 ## Related
 
