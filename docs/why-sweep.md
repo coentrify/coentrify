@@ -28,13 +28,12 @@ The worklist for the sweep over every Why. A standard leaves the list once the d
 
 ## Done
 
-AI, Angular, Architecture, Behavior, Code, Commits, Docs, E2E, Electron, Records, Reporting, Scripts, Security, Simple Workflow, Tests and Tickets Workflow.
+AI, Angular, Architecture, Behavior, Code, Commits, Docs, E2E, Electron, Records, Reporting, Scripts, Security, Simple Workflow, Tests, Tickets Workflow and Tooling.
 
 ## Waiting For A Ruling
 
-- Browser Captures Go To Disk - a Why past the plain fact of the capture
-- Kill a Lingering Playwright Server Before Captures - a title and a Why about keeping it clean
+Nothing waits at the moment.
 
 ## Not Read Yet
 
-Gamedev, Tooling, TypeScript, UI and Web.
+Gamedev, TypeScript, UI and Web.

@@ -445,7 +445,7 @@ Two traps, with 3 runs per model each, without the rule. The request in both is 
 
 Init Scripts Need a Navigation went.
 
-### Kill a Lingering Playwright Server Before Captures
+### Start Playwright On A Clean Port
 
 The trap is a server from an earlier run that still listens on the capture port, and serves the page from before the edit. The capture script reuses a server it finds there. The request is a new name in the header, and a capture.
 
@@ -519,7 +519,7 @@ Settings Changes Need a Fresh Session went.
 - Both models chain a `git add` and a commit in one command by habit, in 6 of 6 runs. Opus reads the index first, and Sonnet does not.
 - An instruction and a hook work together. With Verify Staging Before Committing loaded no run chained, in 9 of 9. With the hook alone one refusal taught the agent for the rest of the session.
 - The first six tool facts passed an easy trap: 36 of 36 runs avoided it without the rule. On a hard trap one of them failed.
-- Kill a Lingering Playwright Server Before Captures is the first tool fact that a model needs: Sonnet 5.5 went from 1 of 3 to 3 of 3 with it.
+- Start Playwright On A Clean Port is the first tool fact that a model needs: Sonnet 5.5 went from 1 of 3 to 3 of 3 with it.
 - A Quiet Tree While A Suite Runs is the second: Sonnet 5.5 went from 1 of 3 to 3 of 3 with it. Both show on a hard trap only.
 - Every fact that was probed, both models knew. The three standards a model needs all sit where the easy way, or the request itself, pulls the wrong way.
 - Sonnet 5.5 passed on what it knows and failed where it had to look. It says when it did not check.

@@ -32,6 +32,6 @@ A pattern kill that looks local can hit a process of the user's that runs the sa
 
 ## Related
 
-- [Kill a Lingering Playwright Server Before Captures](../tooling/kill-a-lingering-playwright-server-before-captures.md)
+- [Start Playwright On A Clean Port](../tooling/start-playwright-on-a-clean-port.md)
 - [VitePress Wiki](../tooling/vitepress-wiki.md)
 - [General Working Rules](general-working-rules.md)
