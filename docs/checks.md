@@ -10,6 +10,7 @@ The checks this repository runs on itself.
 - A part page is left out of that list. Its title opens with the title of its parent before a colon, and the parent carries the Why.
 - Every version has a page in `changelog/`, and `npm run lint:standards` fails when the overview there does not list it.
 - The pre-commit hook refuses a commit that changes a standard without naming it on the page of the latest version.
+- `npm run changelog:standards` writes that list, and the line that counts it, from what changed since the last tag. With `-- --check` it only fails when the page does not match.
 - A standard that is back at its text in the latest version tag passes without a name, so its entry leaves the changelog in the same commit.
 - A clone without a version tag cannot tell, and the hook says so.
 - The hook is switched on once per clone, with `git config core.hooksPath .githooks`.
