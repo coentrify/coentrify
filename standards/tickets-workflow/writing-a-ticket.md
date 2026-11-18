@@ -2,6 +2,10 @@
 
 How a ticket's sections are filled. The sections themselves are in [Ticket Template](ticket-template.md).
 
+## Why
+
+Every ticket is written the same way, so what is expected of a ticket holds.
+
 ## Style
 
 - Say each fact once: it stands in the one section that owns it, and no other section restates it. The criteria own what must be true, the Solution owns the how, the Done part shows what was achieved.
@@ -42,4 +46,5 @@ The builder writes it in the landing commit. Its shape and its proof are in [The
 ## Related
 
 - [Work Tracking](work-tracking.md)
+- [Things Of One Kind Are Consistent](../behavior/things-of-one-kind-are-consistent.md)
 - [Don't Introduce Tech Debt](../behavior/dont-introduce-tech-debt.md)

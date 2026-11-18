@@ -34,4 +34,5 @@ For migrations or refactors, batch the mechanical updates, then split out each c
 ## Related
 
 - [Verify Staging Before Committing](verify-staging-before-committing.md)
+- [A Name Describes Its Unit](../behavior/a-name-describes-its-unit.md)
 - [Work Tracking](../tickets-workflow/work-tracking.md)

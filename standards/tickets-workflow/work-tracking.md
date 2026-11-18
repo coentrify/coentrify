@@ -1,6 +1,10 @@
 # Work Tracking
 
-A project tracks its work in its own docs, next to the code: a ticket per piece of work, stories and epics grouping tickets, phases grouping epics, lists generated from the tickets, and an archive of what is done. Tickets are data; the lists are views of them. Kept with the code, nothing decouples and goes stale.
+A project tracks its work in its own docs, next to the code: a ticket per piece of work, stories and epics grouping tickets, phases grouping epics, lists generated from the tickets, and an archive of what is done. Tickets are data; the lists are views of them.
+
+## Why
+
+Tracked next to the code, the work stays up to date with it.
 
 ## The Folder
 

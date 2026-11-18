@@ -2,6 +2,10 @@
 
 A workspace contains one or more applications. Each application has its own docs under `docs/<app>/`. Anything cross-app belongs in workspace docs at `docs/`.
 
+## Why
+
+Every application's docs have the same structure, and keep the focus of the application.
+
 ## overview.md
 
 Entry point for the application - a reader should grasp the application's size and what it does at a glance. Basis for feature-specific docs that go deeper. Functional only, no implementation detail.
@@ -76,6 +80,7 @@ Split logically distinct views even if they share code (e.g. Create and Edit Use
 ## Related
 
 - [Documentation Philosophy](documentation-philosophy.md)
+- [Things Of One Kind Are Consistent](../behavior/things-of-one-kind-are-consistent.md)
 - [Docs Folder Structure](docs-folder-structure.md)
 - [Workspace Template](workspace-template.md)
 - [Converge Only Once Proven](../architecture/converge-only-once-proven.md)

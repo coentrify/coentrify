@@ -2,6 +2,10 @@
 
 The builder's page: how a ticket with its go is built, and when it counts as done. The path around it is in [Work Workflow](work-workflow.md).
 
+## Why
+
+Every ticket is built and called done the same way.
+
 ## Building
 
 - Work comes from the plan only, and the plan holds only ready tickets with a go and an agent. Every commit traces to a ticket on the plan and starts with its id ([Commits](../commits/commits.md)); something found mid-work that is not on the plan becomes a ticket first ([Note Issues](../behavior/note-issues.md)).

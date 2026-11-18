@@ -35,3 +35,4 @@ A feature's style applies to the feature alone: elements outside it, a media pla
 ## Related
 
 - [Prefer Content Projection over Props (Angular)](../angular/prefer-content-projection-over-props-angular.md)
+- [Things Of One Kind Are Consistent](../behavior/things-of-one-kind-are-consistent.md)

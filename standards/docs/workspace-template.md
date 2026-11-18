@@ -2,6 +2,10 @@
 
 A workspace is a collection of applications for one client. Workspace docs live at `docs/` and describe the whole repo at a cross-app level. Anything app-specific belongs in `docs/<app>/`.
 
+## Why
+
+Every workspace's docs have the same structure, and keep the focus of the workspace.
+
 ## overview.md
 
 Functional only - what the product is, who it serves, what shared concerns exist at a product level. Technical wiring lives in architecture.md.
@@ -32,5 +36,6 @@ If a workspace doc accumulates implementation detail, move it here (or into the 
 ## Related
 
 - [Documentation Philosophy](documentation-philosophy.md)
+- [Things Of One Kind Are Consistent](../behavior/things-of-one-kind-are-consistent.md)
 - [Workspace Suite](workspace-suite.md)
 - [Work Tracking](../tickets-workflow/work-tracking.md)

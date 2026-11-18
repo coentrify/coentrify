@@ -2,6 +2,10 @@
 
 The work workflow is generic ([Work Workflow](../tickets-workflow/work-workflow.md)); this standard holds what its terms mean when the product is a game.
 
+## Why
+
+What is specific to a game stands in one place, and the Work Workflow stays generic.
+
 ## Terms
 
 - The user is the player. A ticket addresses the player as you: "when you enter the hall, it shows no title".

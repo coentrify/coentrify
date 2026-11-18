@@ -2,6 +2,10 @@
 
 Every name for a piece of work - a ticket's title, a line on the plan or the roadmap, an epic - makes three things clear at a glance: the type of work, the topic, and the direction of the issue or outcome. That is the level of awareness a top-level list needs. Names are in Title Case.
 
+## Why
+
+A piece of work is a unit, and its name describes it.
+
 ## Per Type Of Work
 
 - A feature reads as a goal from the user's side: `Create An Account`. It names the topic and hints at the outcome.
@@ -22,4 +26,5 @@ Every name for a piece of work - a ticket's title, a line on the plan or the roa
 ## Related
 
 - [Work Tracking](work-tracking.md)
+- [A Name Describes Its Unit](../behavior/a-name-describes-its-unit.md)
 - [Name by Concept, Not Copy](../code/name-by-concept-not-copy.md)

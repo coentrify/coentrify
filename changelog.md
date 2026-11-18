@@ -4,10 +4,13 @@ What changed in each version of coentrify. A version opens with its summary, whi
 
 ## 0.0.4
 
-25 standards get the Why they lacked, kept to its essence. Nothing in it is stable yet.
+33 standards get the Why they lacked, kept to its essence. Nothing in it is stable yet.
 
-- 191 standards in 21 modules: 30 changed and one came in
+- 194 standards in 21 modules: 39 changed and four came in
+- Two generic standards: a name describes its unit, and things of one kind are consistent
 - A standard on the system behind a mock: a spec test of its own, or a spec and recorded manual tests where no test can run
+- The maturity levels of a workspace stand in a standard of their own
+- A summary of a linked page stays at the focus level of the page it stands on
 - The template asks for the goal or the principle behind a rule as its Why, in a line or two
 - The Why of a part page stands on its parent, and the check leaves the part out
 - Five docs standards speak of a reader, where a PM, QA or a new joiner stood
@@ -20,6 +23,7 @@ What changed in each version of coentrify. A version opens with its summary, whi
 
 ### Behavior
 
+- Added [A Name Describes Its Unit](standards/behavior/a-name-describes-its-unit.md)
 - Changed [Backward-Trace Missing Prerequisites](standards/behavior/backward-trace-missing-prerequisites.md)
 - Changed [Communication Boundary](standards/behavior/communication-boundary.md)
 - Changed [Feature Workflow](standards/behavior/feature-workflow.md)
@@ -29,6 +33,7 @@ What changed in each version of coentrify. A version opens with its summary, whi
 - Changed [Reload The Standards After Compacting](standards/behavior/reload-the-standards-after-compacting.md)
 - Changed [Standards Maintenance](standards/behavior/standards-maintenance.md)
 - Changed [The Quality Of The Question](standards/behavior/the-quality-of-the-question.md)
+- Added [Things Of One Kind Are Consistent](standards/behavior/things-of-one-kind-are-consistent.md)
 - Changed [Use US English Everywhere](standards/behavior/use-us-english-everywhere.md)
 
 ### Code
@@ -43,11 +48,15 @@ What changed in each version of coentrify. A version opens with its summary, whi
 ### Docs
 
 - Changed [Application Template](standards/docs/application-template.md)
+- Changed [Docs Are Hierarchical, Explicit And Short](standards/docs/docs-are-hierarchical-explicit-and-short.md)
 - Changed [Docs Describe Behavior, Not Wiring](standards/docs/docs-describe-behavior-not-wiring.md)
 - Changed [Documentation Philosophy](standards/docs/documentation-philosophy.md)
 - Changed [Feature Spec Template](standards/docs/feature-spec-template.md)
 - Changed [Feature Template](standards/docs/feature-template.md)
 - Changed [UI Vocabulary](standards/docs/ui-vocabulary.md)
+- Added [Workspace Levels](standards/docs/workspace-levels.md)
+- Changed [Workspace Suite](standards/docs/workspace-suite.md)
+- Changed [Workspace Template](standards/docs/workspace-template.md)
 
 ### E2E
 
@@ -55,6 +64,7 @@ What changed in each version of coentrify. A version opens with its summary, whi
 
 ### Gamedev
 
+- Changed [Game Work Workflow](standards/gamedev/game-work-workflow.md)
 - Changed [Measure Sound, Never Guess](standards/gamedev/measure-sound-never-guess.md)
 
 ### Reporting
@@ -70,8 +80,16 @@ What changed in each version of coentrify. A version opens with its summary, whi
 - Changed [Gestures In Tests](standards/tests/gestures-in-tests.md)
 - Added [Test The System Behind A Mock](standards/tests/test-the-system-behind-a-mock.md)
 
+### Tickets Workflow
+
+- Changed [Building A Ticket](standards/tickets-workflow/building-a-ticket.md)
+- Changed [Work Item Names](standards/tickets-workflow/work-item-names.md)
+- Changed [Work Tracking](standards/tickets-workflow/work-tracking.md)
+- Changed [Writing A Ticket](standards/tickets-workflow/writing-a-ticket.md)
+
 ### Tooling
 
+- Changed [Defer Tooling Until The Cost Shows Up](standards/tooling/defer-tooling-until-the-cost-shows-up.md)
 - Changed [Develop Against Mocks](standards/tooling/develop-against-mocks.md)
 - Changed [Parallel Agents](standards/tooling/parallel-agents.md)
 - Changed [Playwright Parallel Runs](standards/tooling/playwright-parallel-runs.md)

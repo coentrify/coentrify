@@ -4,6 +4,7 @@ The Behavior standards: how an agent works and what an agent checks.
 
 - [A Go Before Work Elsewhere](a-go-before-work-elsewhere.md) - never start sessions, agents or work in another project without an explicit go; "next is X" names the topic, it is not a go; projects come from the director's words, never a recent-folders list
 - [A Maybe Is A Trigger To Investigate](a-maybe-is-a-trigger-to-investigate.md) - a director's maybe gets investigated in the same go, never parked
+- [A Name Describes Its Unit](a-name-describes-its-unit.md) - a name describes its unit clearly and precisely, neither too broad nor too narrow
 - [A Quiet Tree While A Suite Runs](a-quiet-tree-while-a-suite-runs.md) - no source edits while a suite runs on a live dev server
 - [Always Make No Mistakes](always-make-no-mistakes.md) - use your standards; own mistakes and strengthen the harness with a rule or check
 - [Always Verify Before Reporting Done](always-verify-before-reporting-done.md) - run the check that matches the change before claiming done
@@ -37,6 +38,7 @@ The Behavior standards: how an agent works and what an agent checks.
 - [Sweeps Enumerate Into Tech-Debt First](sweeps-enumerate-into-tech-debt-first.md) - a sweep lists every instance in one debt ticket before fixing
 - [Sync The Docs After Every Change](sync-the-docs-after-every-change.md) - after a landing, grep the docs for its terms and fix what went stale; update every reference
 - [The Quality Of The Question](the-quality-of-the-question.md) - a better question gets a better answer; suspect the question first, and ask how good over is it good
+- [Things Of One Kind Are Consistent](things-of-one-kind-are-consistent.md) - things of one kind share a structure and a behavior, and fit with the rest
 - [Understand The Need](understand-the-need.md) - the need before the solution, and the right solution fitted to the need
 - [Use US English Everywhere](use-us-english-everywhere.md) - US spelling everywhere; convert British spellings when touching them
 - [Verify APIs Against Docs And The Installed Artifact](verify-apis-against-docs-and-the-installed-artifact.md) - pinned and the docs disagree: the installed artifact decides, or the dependency is updated; endpoints against the spec, generated assets against their rule
