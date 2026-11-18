@@ -4,10 +4,11 @@ A `transition: ... 0.2s ease` declared on a class that is set during initial ren
 
 ## Why
 
-The fix keeps the transition and limits it to the moments the user toggled the state. The same problem hits any always-applied modifier whose property changes are partly user-driven and partly state-driven.
+An animation plays only for what the user did.
 
 ## How to Apply
 
+- The same problem hits any always-applied modifier whose property changes are partly user-driven and partly state-driven.
 - Move the transition off the always-applied modifier and onto a dedicated `--animating` (or similarly named) class.
 - Flip that class on via an effect that watches the user-toggleable signals and skips its first run, then clear it after the animation budget. The skipped first run is what tells initialization apart from a real toggle, so initial render and viewport-driven class swaps never see a transition.
 

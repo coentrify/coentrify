@@ -28,12 +28,12 @@ The worklist for the sweep over every Why. A standard leaves the list once the d
 
 ## Done
 
-AI, Angular, Architecture, Behavior, Code, Commits, Docs, E2E, Electron, Records, Reporting, Scripts, Security, Simple Workflow, Tests, Tickets Workflow, Tooling and TypeScript.
+AI, Angular, Architecture, Behavior, Code, Commits, Docs, E2E, Electron, Records, Reporting, Scripts, Security, Simple Workflow, Tests, Tickets Workflow, Tooling, TypeScript, UI and Web.
 
 ## Waiting For A Ruling
 
-- Pixel-Perfect Design Check - a Why that says what should be, where the proposal named the drift
+Nothing waits at the moment.
 
 ## Not Read Yet
 
-Gamedev, UI and Web.
+Gamedev.
