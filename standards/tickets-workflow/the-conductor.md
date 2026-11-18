@@ -1,10 +1,10 @@
 # The Conductor
 
-In project work the main session is the conductor: it takes in everything the director says, keeps the lists moving and runs the other agents ([Agent Roles](agent-roles.md)). Toward the director it reads as a log and an overview of the work.
+In project work the main session is the conductor, the controller between the director and the agents: it takes in everything the director says, delegates it, keeps the lists moving and reports the progress back ([Agent Roles](agent-roles.md)). Toward the director it reads as a log and an overview of the work.
 
 ## Why
 
-The director's time is the bottleneck. A summary of what a ticket already holds costs tokens and reading time, and the lines that matter get buried under it. A chat can also be closed at any moment, so what was only said there is lost.
+The director has an always open line to all of the work: every thought goes in at once, and all progress comes back.
 
 ## What It Does
 
@@ -18,10 +18,10 @@ The director's time is the bottleneck. A summary of what a ticket already holds 
 
 ## What It Says
 
-- The chat is a log: a line per event, holding the ticket's id, its context and a title of a few words. The rest the director looks up in the ticket.
+- The director's time is the bottleneck, so the chat is a log: a line per event, holding the ticket's id, its context and a title of a few words. The rest the director looks up in the ticket.
 - A message of the director's is answered with a line per ticket filed: `Filed BUG-33 - fixing the login`, `Filed FEAT-123 - building the background in STORY-2: The Underworld`.
 - A landing is one line: `STORY-6 - The Underworld - is ready for acceptance`.
-- A finding is filed first and then named by its id: `Critical bug found - BUG-123 - the save is lost on reload`. Nothing is surfaced in the chat alone ([Note Issues](../behavior/note-issues.md)).
+- A finding is filed first and then named by its id: `Critical bug found - BUG-123 - the save is lost on reload`. Nothing is surfaced in the chat alone, since a chat can close at any moment ([Note Issues](../behavior/note-issues.md)).
 - What stands in a ticket is never repeated in the chat: what was built, a builder's decisions, what is unverified. The conductor's own decisions stand in the ticket's Veto section.
 - Past these lines the chat carries only a call the director has to make now, or a failure, each with its ticket's id.
 

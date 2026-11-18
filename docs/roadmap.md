@@ -9,7 +9,7 @@ The versions on the way to 1.0.
 
 ## Next
 
-- Finish [the first filing](https://github.com/coentrify/coentrify/issues/1): the sweep over every Why, by its [worklist](why-sweep.md). Fifteen of the 21 modules are done, and Gamedev comes last.
+- Finish [the first filing](https://github.com/coentrify/coentrify/issues/1): the sweep over every Why, by its [worklist](why-sweep.md). Sixteen of the 21 modules are done, and Gamedev comes last.
 - Sweep every Why again once the first sweep is done, against the new bar: why the rule is needed.
 - Make the healing of the harness a choice in the onboarding: automatic, by a subagent and with a veto, or filed for the director's review. Automatic is the default for a project that is no contributor, and filing with coentrify on its own is a choice for a contributor. An agent that cannot start a subagent tells its conductor, who starts one.
 - Move the workflow rules out of Behavior, starting with Note Issues.

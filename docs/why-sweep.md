@@ -28,12 +28,12 @@ The worklist for the sweep over every Why. A standard leaves the list once the d
 
 ## Done
 
-AI, Angular, Architecture, Behavior, Code, Commits, Docs, E2E, Electron, Records, Reporting, Scripts, Security, Simple Workflow and Tests.
+AI, Angular, Architecture, Behavior, Code, Commits, Docs, E2E, Electron, Records, Reporting, Scripts, Security, Simple Workflow, Tests and Tickets Workflow.
 
 ## Waiting For A Ruling
 
-- The Conductor - its Why is about context and working on many things at once, as well as the director's time
+Nothing waits at the moment.
 
 ## Not Read Yet
 
-Gamedev, Tickets Workflow, Tooling, TypeScript, UI and Web.
+Gamedev, Tooling, TypeScript, UI and Web.
