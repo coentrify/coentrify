@@ -4,7 +4,7 @@ Knowledge pages are organized as a hierarchy and written for a human to read: a 
 
 ## Why
 
-Constant implicit references and long bullets of several sentences are very hard to read in large amounts. A hierarchy lets each level stay short, and a one-line statement under a heading is a spec that leads to a test.
+A hierarchy gives every page the right focus level, for efficient and effective communication.
 
 ## A Page
 
@@ -32,6 +32,7 @@ Constant implicit references and long bullets of several sentences are very hard
 - An abbreviation the project coins is spelled out where a page first uses it, headings included, the short form in brackets after: Adopt, Repeat, Confirm (ARC). Common ones, UI or CPU, need no spelling out.
 - One short sentence per list item; several facts become several items or a short paragraph under a heading, never a long list of long items.
 - Good organization beats both lists and prose: structure first, then short lists, prose only for descriptive matter such as the look.
+- A one-line statement under a heading is a spec that leads to a test.
 - Plans, logs and changelogs keep their own shapes.
 
 ## How to Apply

@@ -4,10 +4,11 @@ An e2e test never assumes an element is there. Before any interaction or deeper 
 
 ## Why
 
-When an element is missing, behind a closed dialog, replaced by a wrapper or not settled yet, the failure should land on the presence assertion with the locator named. Without it the failure surfaces deeper, as a fill on an uneditable element or a URL check timing out on the wrong screen, which points at the wrong line and hides the cause.
+A test verifies the delta: the state before an interaction, and the state after it.
 
 ## How to Apply
 
+- A missing, hidden or unsettled element then fails on the presence assertion, with the locator named. Without the assertion the failure surfaces deeper, as a fill on an uneditable element or a URL check timing out on the wrong screen, which points at the wrong line and hides the cause.
 - Before a fill, assert the input is editable, then fill.
 - Before a click, assert the target is visible, then click.
 - Before chained assertions on the contents of a dialog, sheet or drawer, assert the container is open.
