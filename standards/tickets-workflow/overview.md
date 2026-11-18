@@ -10,5 +10,5 @@ The Tickets Workflow standards: the work tracked in tickets.
 - [Ticket Template](ticket-template.md) - a ticket is one file of sections that each answer one question; the sections each type carries, the front matter fields, the file layout
 - [Work Item Names](work-item-names.md) - work names show type, topic and direction, in Title Case; a changed behavior is named by its end state, subject first
 - [Work Tracking](work-tracking.md) - docs/development: phases and areas over epics over stories over tickets, an id per ticket kept for life, a type that never changes, every list generated from the tickets, archive at the verdict; no status field
-- [Work Workflow](work-workflow.md) - log -> ticket -> grooming -> the director's go -> plan -> Definition of Done -> archive -> the director's verdict, debt excepted; everything needs a go; strict, self-tightening
+- [Work Workflow](work-workflow.md) - log -> ticket -> grooming -> the director's go -> plan -> Definition of Done -> archive -> the director's verdict, debt excepted; where a finding goes; everything needs a go; strict, self-tightening
 - [Writing A Ticket](writing-a-ticket.md) - how a ticket is written: say each fact once, a summary that says what should change, a small ticket, acceptance criteria as spec lines

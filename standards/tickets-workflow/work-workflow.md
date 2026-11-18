@@ -29,6 +29,16 @@ Every message from the director runs through these steps before any work on it s
 - Feedback from someone outside the project waits for the director's review before it becomes work.
 - An instruction about how to work goes to the project's docs, or into the project's standards once the director says it holds everywhere.
 
+## Where A Finding Goes
+
+A finding in the middle of other work is filed by its kind ([Note Issues](../behavior/note-issues.md)); every ticket follows [Work Tracking](work-tracking.md).
+
+- Technical (smell, suppression, deprecated pattern, missing test, missing tool or process) -> a debt ticket.
+- A clear bug, where the build does not do what its feature doc or spec says -> a bug ticket.
+- A functional doubt, where the intended behavior itself is unclear -> a question in the ticket it is about, which the refine list shows ([Work Tracking](work-tracking.md#the-open-questions)), never a bug ticket and never a fix.
+- A functional doc out of date or wrong (feature doc, spec) -> a small fix rides on the current ticket's go as a Veto line; a larger gap is a docs ticket.
+- A ticket filed this way lands in the phase where it hurts the goal, a later one unless it hurts the current goal now ([Dev Tiers](../behavior/dev-tiers.md)), and stays unscheduled until the director plans it; the report names it.
+
 ## The Go
 
 Everything needs the director's go before it is built: a feature, a bug, docs work, a spike, debt, a rework, and the main session's own small change.
