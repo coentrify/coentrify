@@ -77,7 +77,7 @@ Example:
 
 ## Why
 
-The functional doc says what the feature is; the spec says how you verify it. Splitting them keeps each tight and lets QA, e2e, and documentation share one stable-ID surface. Subheading-per-case scans better than a nested-bullet wall and gives each case a real anchor.
+The functional doc says what the feature is; the spec says how you verify it. Splitting them keeps each tight and lets manual testing, e2e, and documentation share one stable-ID surface. Subheading-per-case scans better than a nested-bullet wall and gives each case a real anchor.
 
 ## Related
 

@@ -4,7 +4,7 @@ A workspace contains one or more applications. Each application has its own docs
 
 ## overview.md
 
-Entry point for the application - a PM or QA should grasp the application's size and what it does at a glance. Basis for feature-specific docs that go deeper. Functional only, no implementation detail.
+Entry point for the application - a reader should grasp the application's size and what it does at a glance. Basis for feature-specific docs that go deeper. Functional only, no implementation detail.
 
 - Title: `# <Name>` (optionally with alias in parentheses).
 - Subtitle: one sentence stating the application's purpose.

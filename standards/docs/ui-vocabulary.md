@@ -22,4 +22,4 @@ Mobile-style panel that slides up from the bottom and modally covers the lower p
 
 ## Why
 
-Functional names work for PMs, QA, and new devs without explaining the implementation. Visual or motion labels bleed technical concerns into product language.
+Functional names work for every reader without explaining the implementation. Visual or motion labels bleed technical concerns into product language.

@@ -55,7 +55,7 @@ The rule of thumb for a project's docs as a whole: another agent, handed the doc
 
 ## Why
 
-These docs are read by PMs, QA, new devs, and the user as orientation material, and they are the basis for manual testing and automated test generation. They rot quickly if they mirror the code, so they stay product-level and terse.
+These docs are orientation material for every reader, and they are the basis for manual testing and automated test generation. They rot quickly if they mirror the code, so they stay product-level and terse.
 
 ## Related
 
