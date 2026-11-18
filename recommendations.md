@@ -17,6 +17,8 @@ Recommendations and considerations for adopting coentrify.
 
 Normal Dashes and Prose Style are taste. Coentrify recommends both, because docs that sound like AI annoy a human reader fast, and a project can leave them out.
 
+Use US English Everywhere is a choice. One variant everywhere is what counts, and a project that writes UK English overrides the standard with its own.
+
 ### When The Stack Fits
 
 - Code - any codebase

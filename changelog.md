@@ -7,6 +7,7 @@ What changed in each version of coentrify. A version opens with its summary, whi
 Two Read First standards get the Why they lacked, kept to its essence. Nothing in it is stable yet.
 
 - 190 standards in 21 modules: two changed
+- The English variant is a choice, and the recommendations say so
 - The commit check passes a standard that is back at its released text
 
 ### Behavior
