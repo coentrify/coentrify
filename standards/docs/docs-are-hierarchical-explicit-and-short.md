@@ -16,6 +16,9 @@ Constant implicit references and long bullets of several sentences are very hard
 - A section with subsections opens with a short list of them as in-page links before its own text.
 - A page holds only what relates to its own thing and its state; a fact that is always true, or that belongs to another thing, lives on that thing's page.
 - An overview summarizes functionally at its own level of awareness: what a thing means to the user there, never details or technical description; stages nest by their grouping, never one flat list across groups.
+- A summary or a description of a linked page stays at the focus level of the page it stands on, without details or specs.
+- A line in a list relates its item to its siblings and its parent only, so it shows how the items differ in function and where they relate.
+- The focus level of an overview is how it all ties together.
 
 ## Folders
 
