@@ -4,10 +4,12 @@ Every color comes from a design-system token, referenced through its sanctioned 
 
 ## Why
 
-The custom property is the design system's internal plumbing: referencing the raw `var()` bypasses the token API and breaks when the underlying variable is renamed. A hex that happens to equal a token is still a magic literal that drifts and skips theming.
+Every color follows the design system, its themes and its renames included.
 
 ## How to Apply
 
+- The custom property is the design system's internal plumbing: a raw `var()` bypasses the token API and breaks when the variable is renamed.
+- A hex that happens to equal a token is still a magic literal that drifts and skips theming.
 - Color belongs in SCSS, pulled from the `@use`'d token namespace: `@use '...scss/color'; stroke: color.$bg-brand-default;`. The same discipline covers spacing, radius and typography tokens.
 - When the color is dynamic or chosen in TS, the component emits a key or variant, never a hex or a `var(--...)` string, and the SCSS maps that key to the token (a modifier class, an `@each` over a `$key: color.$token` map). SVG `stroke=`/`fill=` presentation attributes can't resolve tokens, so bind a class instead of a style string.
 - Pick an existing color as it is before any new one: no lightened, darkened or blended shade of a token for a new element when an existing color reads well.
