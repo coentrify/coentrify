@@ -34,7 +34,7 @@ Every standard follows one template.
 
 - The rule, in one or two sentences
 - What the rule is relevant for, where the title does not say
-- Why: the goal or the principle behind the rule, in a line or two
+- Why: why the rule is needed, in a line or two
 - How to apply the rule
 - An example, where a story helps
 - Related standards, as links

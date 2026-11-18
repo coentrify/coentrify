@@ -28,7 +28,7 @@ Catalogues user-facing bugs in the current build. A reader scans bugs.md to know
 
 ## Why
 
-Bugs need to be skimmable and actionable. The overview gives a one-glance summary; the `##` sections give a fix-now reader everything they need (what, how to see it, where it lives). Splitting bugs out from tech-debt keeps the urgency signal honest: every bugs.md entry is user-impact.
+An agent can reproduce the actual bug and fix it.
 
 ## Related
 

@@ -57,7 +57,7 @@ A short rule about the product that holds unless there is a very good reason to 
 
 ### Why
 
-The section of a standard that states the goal or the principle behind its rule.
+The section of a standard that says why its rule is needed.
 
 ### Part Page
 
