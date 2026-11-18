@@ -4,7 +4,7 @@ Every screen is designed and checked as the user's journey through it: who the u
 
 ## Why
 
-A value the system holds is not information to the user. A price of 0 means nothing to someone who has never met the currency; "Free" says this is a purchase, that things here normally cost something and that this one costs nothing, and naming what it unlocks says where to look next. A screen can be fully consistent with the code and still answer nothing the user asks.
+Every screen answers the questions the user has.
 
 ## How to Apply
 
@@ -14,6 +14,11 @@ A value the system holds is not information to the user. A price of 0 means noth
 - A number needs a reference: for a tiered value show where the user stands, where it goes and the difference, whether a step adds or multiplies, and what it comes to.
 - Nothing the user has not met yet is shown or named.
 - Walk the journey in the running app before calling the change done.
+
+## Examples
+
+- A price of 0 means nothing to someone who has never met the currency. "Free" says this is a purchase, that things here normally cost something and that this one costs nothing, and naming what it unlocks says where to look next.
+- A screen can be fully consistent with the code and still answer nothing the user asks.
 
 ## Related
 

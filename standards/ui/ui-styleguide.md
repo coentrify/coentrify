@@ -13,10 +13,11 @@ The tooling is picked per workspace: Storybook, a gallery route in the app, a sa
 
 ## Why
 
-A component judged through its feature hides its edges, because the feature only ever reaches a few combinations. Shown alone with every variant and a testbox, the component gets judged as a component.
+Every component is judged on its own, edges included.
 
 ## How to Apply
 
+- A component judged through its feature hides its edges, since the feature only ever reaches a few combinations.
 - Every ui component gets its page as it is built; a new variant lands with its entry.
 - A complex dynamic piece, such as a canvas scene or a face, gets a page too, so it is judged and played with apart from its context first.
 - The description stays feature-agnostic; one that needs the feature to make sense means the component is not dumb enough.

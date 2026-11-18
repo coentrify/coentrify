@@ -4,7 +4,7 @@ Information the user acts on must reach the screen intact. Collapsing distinct s
 
 ## Why
 
-A mapper that folds a distinct status into another (expired shown as pending) makes the user act on the wrong urgency. A filter that lists same-named entities by name alone hands the user a choice that cannot be made correctly. Both are missing-information defects.
+The user acts on information that is whole and true.
 
 ## How to Apply
 
@@ -12,6 +12,11 @@ A mapper that folds a distinct status into another (expired shown as pending) ma
 - Cover every source enum value in mapper tests and assert distinct, faithful outputs.
 - A control whose options share a label for distinct entities is an ambiguous choice: add a disambiguator (such as a location suffix) and flag it explicitly as ambiguous or missing information.
 - When unsure, preserve the distinction over a tidier display.
+
+## Examples
+
+- A mapper that folds a distinct status into another, expired shown as pending, makes the user act on the wrong urgency.
+- A filter that lists same-named entities by name alone hands the user a choice that cannot be made correctly.
 
 ## Related
 

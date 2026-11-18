@@ -4,7 +4,7 @@ Layout in the shared `ui` library is slot composition through content projection
 
 ## Why
 
-Generic slots keep a layout component's responsibility clear and reusable; column configs or presets make it specific and restrictive. A responsive grid auto-flows by available space instead of fixing a set of columns.
+A layout component stays generic and reusable.
 
 ## Slot Rules
 
@@ -15,6 +15,7 @@ Generic slots keep a layout component's responsibility clear and reusable; colum
 
 ## How to Apply
 
+- A responsive grid flows by the space available, instead of a fixed set of columns.
 - A slot names a region of the component, the place where content sits: `title`, `header`, `actions`, `footer`, `top`. Whatever sits in that region goes into its slot: a chip after a card's title text, or a tooltip on it, is projected into the title slot along with the text.
 - A slot never names a kind of content (`chip`, `badge`, `tooltip`, `button`): a region holds whatever the consumer puts there.
 - Reuse an existing container (page, page content, card, section) before adding a new one. The routing may already provide one, so the cleanest layout is sometimes no new container at all.

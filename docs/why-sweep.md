@@ -32,7 +32,7 @@ AI, Angular, Architecture, Behavior, Code, Commits, Docs, E2E, Electron, Records
 
 ## Waiting For A Ruling
 
-Nothing waits at the moment.
+- Pixel-Perfect Design Check - a Why that says what should be, where the proposal named the drift
 
 ## Not Read Yet
 
