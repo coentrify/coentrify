@@ -24,7 +24,7 @@ To record the same take under another condition (dark mode, another viewport, a 
 
 ## Pitfalls
 
-- Never kill a recording run mid-build and rerun it at once: `reuseExistingServer` picks up the half-built server, whose lazy chunks aren't built yet, and navigation lands on a `chrome-error://` page ([Kill a Lingering Playwright Server Before Captures](kill-a-lingering-playwright-server-before-captures.md)). A clean run without recording is the fast way to prove the flow first.
+- Never kill a recording run mid-build and rerun it at once: `reuseExistingServer` picks up the half-built server, whose lazy chunks aren't built yet, and navigation lands on a `chrome-error://` page ([Start Playwright On A Clean Port](start-playwright-on-a-clean-port.md)). A clean run without recording is the fast way to prove the flow first.
 - An overlay that renders subtitles or labels into the DOM collides with substring locators ([Substring Locator Collisions](../e2e/substring-locator-collisions.md)).
 
 ## Related

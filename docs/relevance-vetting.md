@@ -85,7 +85,7 @@ A tool fact is probed the same way: a fresh agent meets the pitfall without the 
 
 Fifteen are probed and ruled on, with the results on the [Proof](../proof.md) page. A line that was not probed stays, and so does a standard whose trap was too easy.
 
-- Stay as they are: Sprite Sheet Frames, Prompt Small Models Differently, Kill a Lingering Playwright Server Before Captures, A Quiet Tree While A Suite Runs and Reload The Standards After Compacting.
+- Stay as they are: Sprite Sheet Frames, Prompt Small Models Differently, Start Playwright On A Clean Port, A Quiet Tree While A Suite Runs and Reload The Standards After Compacting.
 - Shrank: Hidden Attribute Loses To Display, Substring Locator Collisions, Track Timed Items by an Id, One Projected Node Per Control-Flow Block, Projected Content Is Never Styled by the Host and Use Modern Angular Template APIs.
 - Went: Interceptor Ordering, Angular Build Checks The Templates, Init Scripts Need a Navigation and Settings Changes Need a Fresh Session.
 
