@@ -32,7 +32,8 @@ AI, Angular, Architecture, Behavior, Code, Commits, Docs, E2E, Electron, Records
 
 ## Waiting For A Ruling
 
-Nothing waits at the moment.
+- Browser Captures Go To Disk - a Why past the plain fact of the capture
+- Kill a Lingering Playwright Server Before Captures - a title and a Why about keeping it clean
 
 ## Not Read Yet
 

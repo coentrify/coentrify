@@ -4,7 +4,7 @@ Test reporting should show whether the suite is green right now, nothing more. S
 
 ## Why
 
-What matters is speed, consistency, and reliability of the signal - did it pass, did it fail, where. Trends, history, and flaky analytics add weight and one more thing to learn, with no real payoff at typical project maturity.
+What matters is a fast, reliable signal: did it pass, did it fail, and where.
 
 ## How to Apply
 
