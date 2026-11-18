@@ -6,6 +6,7 @@ Recommendations and considerations for adopting coentrify.
 - Workflow - how the work is tracked
 - Records - which dated trails the project keeps
 - Wiki - whether the docs are served as a wiki
+- Healing - who strengthens the harness after a mistake
 - Folders - where the docs and the standards go
 
 ## Standards
@@ -74,6 +75,20 @@ Records also keep their value. A newer or better model can go back through the r
 
 - A wiki - recommended for every project that keeps docs, built with VitePress or a similar tool
 - No wiki - for a project too small to need one
+
+## Healing
+
+A caught mistake strengthens the harness: a rule gets sharper, or a check is added. `healing` in `coentrify.json` says who makes that change.
+
+- Automatic - recommended: a subagent makes the change outside the task at hand, and the report names it for a veto
+- Review - the change is filed in the project's workflow, and waits for the director
+
+### Filing
+
+A contributor also files a change that holds beyond the project with coentrify ([File A Change With Coentrify](standards/behavior/file-a-change-with-coentrify.md)). `filing` says who files it.
+
+- Review - recommended: the director looks at the issue before it is filed, since the source is public
+- Automatic - the subagent files it on its own
 
 ## Folders
 

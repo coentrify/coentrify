@@ -4,7 +4,8 @@
 usage: check-coentrify-json.py [--staged]
 
 Fails when the file does not parse, when a folder it names is missing, when a
-standard it lists is not on disk, or when a state is not tracked or customized.
+standard it lists is not on disk, when a state is not tracked or customized, or when
+healing or filing is not automatic or review.
 
 With --staged, as a pre-commit step, it also refuses a commit that changes a
 tracked standard by hand. The commit passes once the standard's state is
@@ -22,6 +23,7 @@ STAGED_FLAG = "--staged"
 TRACKED = "tracked"
 CUSTOMIZED = "customized"
 STATES = (TRACKED, CUSTOMIZED)
+MODES = ("automatic", "review")
 FOLDERS = ("docs", "standards")
 STANDARDS = "standards"
 MODULE_SOURCE = "source"
@@ -61,6 +63,11 @@ def shape_errors(config: dict) -> list[str]:
             errors.append(f"folders.{folder} is missing")
     if "contributor" in config and not isinstance(config["contributor"], bool):
         errors.append("contributor is not true or false")
+    for field in ("healing", "filing"):
+        if field in config and config[field] not in MODES:
+            errors.append(f"{field} is {config[field]!r}, and it is automatic or review")
+    if "filing" in config and config.get("contributor") is not True:
+        errors.append("filing is set, and only a contributor files")
     modules = config.get("modules")
     if not isinstance(modules, dict):
         return [*errors, "modules is missing"]

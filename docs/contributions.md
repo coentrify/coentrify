@@ -35,6 +35,9 @@ An issue holds no project details, since the repository is public.
 
 ## The Conduct
 
+This repository has no `coentrify.json` of its own, so a harness change here is always reviewed, by the steps below.
+
+
 - Discuss each change with the director one by one before it is applied: what the audit found, an opinion and a recommendation, then the director's go.
 - Changes that overlap, contradict or conflict are settled together, as one change.
 - Weigh each change for the harmony of the whole system and flag what it strains: the session that filed it saw only its own work.

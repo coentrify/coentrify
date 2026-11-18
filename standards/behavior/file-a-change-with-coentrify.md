@@ -9,6 +9,7 @@ What one project learns reaches every project.
 ## How to Apply
 
 - A project files only when its `coentrify.json` says `contributor: true`.
+- `filing` in `coentrify.json` says who files. With `review`, the default, the director looks at the issue first. With `automatic`, the subagent files it on its own.
 - A change is filed as an issue at the source that `coentrify.json` names.
 - An issue holds one point, so issues close one by one.
 - Before filing, search the open issues.

@@ -65,6 +65,7 @@ Every choice has a default, and the default is the recommendation. The [recommen
 - Adoption grows with the phase: an idea takes the core behavior, a workflow and the Game Phases.
 - A standard that an adopted standard links to, in a module the project did not pick, is offered as an option.
 - A workflow is strongly recommended, since tracking the work is part of coentrify.
+- Healing is automatic, and for a contributor, filing with coentrify waits for the director.
 
 ## Choose
 
