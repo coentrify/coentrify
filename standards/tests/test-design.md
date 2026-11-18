@@ -29,7 +29,7 @@ Each test type mocks the backend at exactly one layer, never at two for the same
 
 ## Why
 
-Layered scope keeps each test focused and each setup minimal. When test boundaries match responsibility boundaries, they align with adjacent disciplines (backend, design, product) and resist breaking when an adjacent layer changes.
+A failing test points at the layer that broke.
 
 ## How to Apply
 
