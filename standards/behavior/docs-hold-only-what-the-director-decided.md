@@ -4,7 +4,7 @@ The director decides what a project's docs say. Project docs (laws, features, ro
 
 ## Why
 
-Finding something in the docs the director was not aware of breaks trust in the docs as the record of the director's decisions. Contribution is welcome; the decisions stay with the director.
+The director trusts the docs as the record of what was decided. A contribution is welcome, and it is recorded, so the director can veto it.
 
 ## How to Apply
 

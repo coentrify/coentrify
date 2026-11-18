@@ -4,7 +4,7 @@ When a formatter or a commit hook rewrites files, an edit follows three rules.
 
 ## Why
 
-A formatter pass, a lint-staged commit hook, or a migration in between rewrites line breaks and import order, and the anchor silently stops matching.
+A change lands whole and in the right place.
 
 ## How to Apply
 

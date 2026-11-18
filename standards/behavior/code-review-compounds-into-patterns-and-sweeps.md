@@ -4,7 +4,7 @@ A code-review finding is rarely a one-off. When something surfaces in review, ch
 
 ## Why
 
-Fixing one instance and moving on leaves the same mistake elsewhere and lets it come back. Capturing the pattern once protects the whole codebase and every later session, so the review round spent on it pays off more than once.
+A pattern captured once protects the whole codebase and every later session.
 
 ## How to Apply
 

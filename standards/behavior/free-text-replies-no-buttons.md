@@ -4,7 +4,7 @@ The director answers in free text. A turn never ends on clickable answer buttons
 
 ## Why
 
-Buttons narrow the reply to the options offered and make every turn feel like a form. The director answers freely, and only when there is something to say.
+The director answers freely, and only when there is something to say.
 
 ## How to Apply
 

@@ -4,7 +4,7 @@ Work outside the current session - starting other sessions or sub-agents, or tou
 
 ## Why
 
-Work started elsewhere is hard to follow and easy to get wrong, and a project inferred from a list of recent folders may not even be the one meant.
+The director decides where work starts, and can follow all of it.
 
 ## How to Apply
 

@@ -4,7 +4,7 @@ Never drop or filter out data - client-side or server-side - unless that exclusi
 
 ## Why
 
-Filtering data away sweeps issues under the rug: an unexpected status, a malformed record or a backend bug disappears instead of surfacing. An undocumented filter is a behavior nobody agreed to and nobody can see.
+Unexpected data surfaces, so someone sees it and decides.
 
 ## How to Apply
 

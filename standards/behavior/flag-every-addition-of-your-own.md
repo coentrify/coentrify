@@ -8,6 +8,7 @@ The director decides on everything that goes in.
 
 ## How to Apply
 
+- A choice that a standard or a law decides is no addition. A choice they leave open is flagged.
 - Keep a running list of what you added beyond the request while working.
 - Put that list under a "to veto" or "my additions" heading in the report; in a ticket, the list is its Veto section, holding only what the director could want undone, in a few words ([The Done Part](../tickets-workflow/the-done-part.md)).
 - Easy-to-change content (names, numbers, a look) is decided and flagged, never asked.
