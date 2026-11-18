@@ -4,12 +4,12 @@ import { join } from 'node:path';
 
 const STANDARDS_FOLDER = 'standards';
 const INDEX_PAGE = 'overview.md';
-const CHANGELOG = 'changelog.md';
+const CHANGELOG_FOLDER = 'changelog';
 const MARKDOWN_EXTENSION = '.md';
+const VERSION_PAGE = new RegExp(`^${CHANGELOG_FOLDER}/(\\d+)\\.(\\d+)\\.(\\d+)\\${MARKDOWN_EXTENSION}$`);
 const STAGED_FLAG = '--staged';
 const LINKS_FLAG = '--links';
 const WHY_FLAG = '--why';
-const VERSION_HEADING = /^## /m;
 const VERSION_TAG_PATTERN = 'v[0-9]*';
 const MARKDOWN_LINK = /\]\(([^)#]+\.md)\)/g;
 const WHY_HEADING = /^## (Why|Purpose)$/m;
@@ -214,14 +214,24 @@ function formatErrors() {
   return errors;
 }
 
-function latestVersionSection(changelog) {
-  const start = changelog.search(VERSION_HEADING);
-  if (start === -1) {
-    return '';
-  }
-  const rest = changelog.slice(start + 1);
-  const next = rest.search(VERSION_HEADING);
-  return next === -1 ? rest : rest.slice(0, next);
+function versionPages(paths) {
+  return paths
+    .map((path) => ({ path, version: path.match(VERSION_PAGE)?.slice(1).map(Number) }))
+    .filter((page) => page.version !== undefined)
+    .sort(
+      (first, second) =>
+        second.version[0] - first.version[0] ||
+        second.version[1] - first.version[1] ||
+        second.version[2] - first.version[2],
+    )
+    .map((page) => page.path);
+}
+
+function changelogErrors() {
+  const index = readFileSync(join(CHANGELOG_FOLDER, INDEX_PAGE), 'utf8');
+  return versionPages(readdirSync(CHANGELOG_FOLDER).map((file) => `${CHANGELOG_FOLDER}/${file}`))
+    .filter((page) => !index.includes(`(${page.slice(CHANGELOG_FOLDER.length + 1)})`))
+    .map((page) => `${page} is not listed in ${CHANGELOG_FOLDER}/${INDEX_PAGE}`);
 }
 
 function stagedPaths(filter) {
@@ -249,22 +259,24 @@ function stagedErrors() {
     return [];
   }
   const staged = git(['diff', '--cached', '--name-only']).split('\n');
-  const section = latestVersionSection(git(['show', `:${CHANGELOG}`]));
+  const [latest] = versionPages(git(['ls-files', '--', CHANGELOG_FOLDER]).split('\n'));
+  const named = latest === undefined ? '' : git(['show', `:${latest}`]);
   const tag = releasedTag();
-  const unnamed = changed.filter((path) => !section.includes(path) && !isBackAtReleasedText(tag, path));
+  const unnamed = changed.filter((path) => !named.includes(path) && !isBackAtReleasedText(tag, path));
   return [
-    ...unnamed.map((path) => `${path} changed, and the latest version in ${CHANGELOG} does not name it`),
+    ...unnamed.map((path) => `${path} changed, and ${latest ?? `a page in ${CHANGELOG_FOLDER}`} does not name it`),
     ...(unnamed.length > 0 && tag === undefined
       ? ['this clone has no version tag, so a standard back at its released text is not recognized: fetch the tags']
       : []),
-    ...(staged.includes(CHANGELOG) ? [] : removed).map(
-      (path) => `${path} was removed, and ${CHANGELOG} did not change`,
+    ...(staged.some((path) => path.startsWith(`${CHANGELOG_FOLDER}/`)) ? [] : removed).map(
+      (path) => `${path} was removed, and no page in ${CHANGELOG_FOLDER} changed`,
     ),
   ];
 }
 
 const errors = [
   ...indexErrors(),
+  ...changelogErrors(),
   ...formatErrors(),
   ...relevantForErrors(),
   ...(process.argv.includes(STAGED_FLAG) ? stagedErrors() : []),

@@ -48,7 +48,7 @@ A standard the project wrote itself is not listed. It goes in the module it belo
 
 ## Versions
 
-Coentrify has one version, and a project is at one version. The [changelog](changelog.md) names every standard that a version changed.
+Coentrify has one version, and a project is at one version. The [changelog](changelog/overview.md) names every standard that a version changed.
 
 A standard the changelog does not name needs no attention.
 

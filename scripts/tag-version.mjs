@@ -1,14 +1,15 @@
 import { execFileSync } from 'node:child_process';
-import { mkdtempSync, readFileSync, writeFileSync } from 'node:fs';
+import { mkdtempSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
-const CHANGELOG = 'changelog.md';
+const CHANGELOG_FOLDER = 'changelog';
 const REMOTE = 'origin';
 const REPOSITORY = 'https://github.com/coentrify/coentrify';
 const TAG_PREFIX = 'v';
-const VERSION_HEADING = /^## (\d+\.\d+\.\d+)$/m;
-const NEXT_HEADING = /^#{2,3} /m;
+const VERSION_PAGE = /^(\d+)\.(\d+)\.(\d+)\.md$/;
+const TITLE = /^# .+\n/;
+const NEXT_HEADING = /^## /m;
 const NOTES_FLAG = '--notes';
 
 function run(command, args) {
@@ -29,21 +30,25 @@ function hasRelease(tag) {
   }
 }
 
-const changelog = readFileSync(CHANGELOG, 'utf8');
-const match = changelog.match(VERSION_HEADING);
-if (!match) {
-  fail(`no version in ${CHANGELOG}`);
+const versions = readdirSync(CHANGELOG_FOLDER)
+  .map((file) => file.match(VERSION_PAGE))
+  .filter((match) => match !== null)
+  .map((match) => match.slice(1).map(Number))
+  .sort((first, second) => second[0] - first[0] || second[1] - first[1] || second[2] - first[2]);
+if (versions.length === 0) {
+  fail(`no version in ${CHANGELOG_FOLDER}`);
 }
 
-const version = match[1];
+const version = versions[0].join('.');
 const tag = `${TAG_PREFIX}${version}`;
-const section = changelog.slice(match.index + match[0].length);
-const end = section.search(NEXT_HEADING);
-const summary = (end === -1 ? section : section.slice(0, end)).trim();
+const page = `${CHANGELOG_FOLDER}/${version}.md`;
+const text = readFileSync(page, 'utf8').replace(TITLE, '');
+const end = text.search(NEXT_HEADING);
+const summary = (end === -1 ? text : text.slice(0, end)).trim();
 if (summary === '') {
-  fail(`${version} has no summary in ${CHANGELOG}`);
+  fail(`${version} has no summary in ${page}`);
 }
-const notes = `${summary}\n\nEvery standard that changed in this version is named in the [changelog](${REPOSITORY}/blob/${tag}/${CHANGELOG}).\n`;
+const notes = `${summary}\n\nEvery standard that changed in this version is named in the [changelog](${REPOSITORY}/blob/${tag}/${page}).\n`;
 
 if (process.argv.includes(NOTES_FLAG)) {
   process.stdout.write(notes);

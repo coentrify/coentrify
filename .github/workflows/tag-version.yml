@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: 24
-      - name: Tag main with the top version of the changelog, and publish its release
+      - name: Tag main with the latest version in the changelog, and publish its release
         run: npm run ci:tag
         env:
           GH_TOKEN: ${{ github.token }}

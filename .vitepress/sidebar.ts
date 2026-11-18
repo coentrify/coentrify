@@ -13,11 +13,11 @@ const ROOT_PAGE_ORDER: readonly string[] = [
   'onboarding.md',
   'recommendations.md',
   'coentrify-json.md',
-  'changelog.md',
   'commands.md',
   'origin.md',
 ];
 const FOLDER_PAGE_ORDER: readonly string[] = ['overview.md'];
+const NEWEST_FIRST_FOLDERS: readonly string[] = ['changelog'];
 const TITLE_PATTERN: RegExp = /^# (.+)$/m;
 const FOLDER_TITLES: Readonly<Record<string, string>> = {
   ai: 'AI',
@@ -65,6 +65,7 @@ function folderItems(
   );
 
   const order: readonly string[] = relativeFolder === '' ? ROOT_PAGE_ORDER : FOLDER_PAGE_ORDER;
+  const newestFirst: boolean = NEWEST_FIRST_FOLDERS.includes(relativeFolder);
 
   const pages: DefaultTheme.SidebarItem[] = entries
     .filter((entry: Dirent): boolean => entry.isFile() && entry.name.endsWith(MARKDOWN_EXTENSION))
@@ -76,7 +77,13 @@ function folderItems(
         link: pageLink(relativePath),
       };
     })
-    .sort((a: RankedPage, b: RankedPage): number => a.rank - b.rank || a.text.localeCompare(b.text))
+    .sort(
+      (a: RankedPage, b: RankedPage): number =>
+        a.rank - b.rank ||
+        (newestFirst
+          ? b.text.localeCompare(a.text, undefined, { numeric: true })
+          : a.text.localeCompare(b.text)),
+    )
     .map(({ text, link }: RankedPage): DefaultTheme.SidebarItem => ({ text, link }));
 
   const groups: DefaultTheme.SidebarItem[] = entries

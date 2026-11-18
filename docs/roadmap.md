@@ -26,7 +26,6 @@ The versions on the way to 1.0.
 
 - Whether How It Works keeps its line on the one-word prompt.
 - Whether Always Work from a Plan keeps its title, now that its rule is conditional.
-- Whether the changelog gets a page per version, with the summaries on an index, as Changelog Per Version says for a project.
 - Whether the first round of the vetting is probed again on hard traps, with every shrunk standard tested shrunk and in full.
 - Whether Game Design Laws: Progress and Gamedev Working Cadence are split, since both are past the size of one standard.
 - Whether Reels And Video Proof keeps its line that the agent cannot listen, now that Measure Sound, Never Guess dropped it.

@@ -29,7 +29,7 @@ Any question about what coentrify is. Explain from the [readme](readme.md), the 
 
 ## `coentrify update`
 
-Any request to bring the project up to date. Read the version in the project's `coentrify.json`, and read the [changelog](changelog.md) from that version on.
+Any request to bring the project up to date. Read the version in the project's `coentrify.json`, and read the [changelog](changelog/overview.md) from that version on.
 
 - Read `standards/decisions.md` for the reasoning behind the earlier choices.
 - Skip every standard the changelog does not name.

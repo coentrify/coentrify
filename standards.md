@@ -26,7 +26,7 @@ A skill is a standard for one task: a file of instructions an agent follows when
 
 ## Versions
 
-Coentrify has one version. The [changelog](changelog.md) names every standard that a version changed, so a project updates what moved and skips the rest.
+Coentrify has one version. The [changelog](changelog/overview.md) names every standard that a version changed, so a project updates what moved and skips the rest.
 
 ## Template
 
