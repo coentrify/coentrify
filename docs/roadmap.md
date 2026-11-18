@@ -9,7 +9,6 @@ The versions on the way to 1.0.
 
 ## Next
 
-- Make the tools generic: `pick.sh`, `main-checks.sh` and `docs-commit.sh` take their checks as arguments, and the wrap-up hook becomes a spec.
 - Switch on the commit gate hook for sessions in this repository, so a commit that follows a `git add` in the same command is refused here as well.
 - Probe the standards again at every new model release, on new traps.
 - Probe Reload The Standards After Compacting on a long session, and in the terminal or the app, as the [worklist](relevance-vetting.md) says.
