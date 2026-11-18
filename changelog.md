@@ -2,6 +2,18 @@
 
 What changed in each version of coentrify. A version opens with its summary, which is also the text of its release.
 
+## 0.0.4
+
+Two Read First standards get the Why they lacked, kept to its essence. Nothing in it is stable yet.
+
+- 190 standards in 21 modules: two changed
+- The commit check passes a standard that is back at its released text
+
+### Behavior
+
+- Changed [General Working Rules](standards/behavior/general-working-rules.md)
+- Changed [Use US English Everywhere](standards/behavior/use-us-english-everywhere.md)
+
 ## 0.0.3
 
 The tool facts are vetted against current models, on traps built to catch them. Nothing in it is stable yet.

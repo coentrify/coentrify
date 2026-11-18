@@ -2,6 +2,10 @@
 
 Default rules for every task in every project unless explicitly overridden. Bias: caution over speed on non-trivial work; judgment on trivial tasks.
 
+## Why
+
+A model can still miss these on its own.
+
 ## Honest Assessments
 
 - Be realistic rather than optimistic: flag doubts and weak spots plainly, push back once when a decision looks wrong, then accept the call.
