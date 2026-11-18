@@ -2,9 +2,13 @@
 
 A feature that offers several ways to trigger one action (send via Enter or the send button) gets its gestures tested once, through one dispatcher test, while every helper defaults to the gesture a real user makes at that viewport.
 
+## Why
+
+Two tests that differ only in how the user triggers the same dispatcher exercise the dispatcher twice and add nothing for the gestures. Phone soft keyboards often lack an Enter key, so a mobile test pressing Enter misses the path users take.
+
 ## One Test Per Dispatcher
 
-Two tests that differ only in how the user triggers the same dispatcher exercise the dispatcher twice and add nothing for the gestures. Collapse them into one test that drives the dispatcher with both gestures in sequence.
+Collapse two tests that differ only in how the user triggers the same dispatcher into one test that drives the dispatcher with both gestures in sequence.
 
 - Fold two tests whose bodies differ only in `press('Enter')` versus `button.click()`. The natural home for the alternative gesture is a multi-step happy path (first action via Enter, follow-up via click).
 - Keep the tests separate when the alternative gesture trips a different code path (Enter picks a dropdown option, a click triggers a route change); that is a different dispatcher.
@@ -16,7 +20,7 @@ Collapsing applies only to same-dispatcher, same-outcome tests. Every edge case 
 
 ## Gesture By Device
 
-Multi-gesture helpers default to the gesture a real user makes at that viewport: mobile users tap the send button, tablet and desktop users press Enter or click. Phone soft keyboards often lack an Enter key, so a mobile test pressing Enter misses the path users take.
+Multi-gesture helpers default to the gesture a real user makes at that viewport: mobile users tap the send button, tablet and desktop users press Enter or click.
 
 - Compare the viewport width with the tablet breakpoint: below is mobile and clicks; at or above uses keyboard or click.
 - Keep an explicit `gesture` parameter so the dispatcher test can drive both paths in sequence.

@@ -1,6 +1,10 @@
 # Measure Sound, Never Guess
 
-The agent cannot listen, so the level of a new sound is measured, never guessed.
+The level of a new sound is measured, never guessed.
+
+## Why
+
+The agent cannot listen.
 
 ## How to Apply
 

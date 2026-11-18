@@ -1,6 +1,10 @@
 # Standards Maintenance
 
-Standards rot if left alone. Sweep periodically to keep them tight and lean.
+Sweep the standards periodically to keep them tight and lean.
+
+## Why
+
+Standards rot if left alone.
 
 ## Recurring Sweep
 

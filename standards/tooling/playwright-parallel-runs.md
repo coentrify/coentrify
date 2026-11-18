@@ -1,14 +1,20 @@
 # Playwright Parallel Runs
 
+An agent's Playwright run uses one worker, and a long suite runs as two halves.
+
+## Why
+
+Agents on default workers overload the machine and lag the director's typing. A full browser suite that outlasts a background command's ten-minute cap is killed before its exit code arrives, and a killed run proves nothing.
+
 ## On A Shared Machine
 
-- Every agent's Playwright run uses `--workers=1` and only the touched spec; no more than about four agents run suites at once. Agents on default workers overload the machine and lag the director's typing.
+- Every agent's Playwright run uses `--workers=1` and only the touched spec; no more than about four agents run suites at once.
 - When the machine is loaded, the agents on debt pause first.
 - An agent never adds load of its own making, busy loops or CPU burners, to reproduce or steady a flaky case ([Main Stays Green, Work Stays Clean](../commits/main-stays-green-work-stays-clean.md)).
 
 ## A Full Suite In Two Halves
 
-A full browser suite that outlasts a background command's ten-minute cap is killed before its exit code arrives, and a killed run proves nothing. Split it:
+A full browser suite that outlasts a background command's ten-minute cap is split:
 
 - Two halves, on two ports, in two background commands at once, each under the cap and each gated on its own exit code.
 - Each half gets its own output folder (`--output`) and its own html report folder (`PLAYWRIGHT_HTML_OUTPUT_DIR`); two runs sharing Playwright's artifact folder delete each other's traces.

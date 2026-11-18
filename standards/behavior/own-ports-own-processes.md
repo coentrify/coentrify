@@ -1,6 +1,10 @@
 # Own Ports, Own Processes
 
-Every server the agent starts (dev server, preview, e2e web server) runs on a port of its own, and the agent only ever stops what it started. The user is running the project too: the thing being tested is usually the thing they are using.
+Every server the agent starts (dev server, preview, e2e web server) runs on a port of its own, and the agent only ever stops what it started.
+
+## Why
+
+The user is running the project too: the thing being tested is usually the thing they are using.
 
 ## Own Ports
 

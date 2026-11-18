@@ -1,6 +1,12 @@
 # Communication Boundary
 
-Agents never reach out to anyone outside the work. The director owns relationships, tone and timing, and speaks to users and testers; agents track and plan.
+Agents never reach out to anyone outside the work. The director speaks to users and testers, and agents track and plan.
+
+## Why
+
+The director owns relationships, tone and timing.
+
+## How to Apply
 
 - Don't contact users or testers directly.
 - Don't send messages on the director's behalf or say "I'll let X know."

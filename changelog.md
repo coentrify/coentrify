@@ -4,11 +4,11 @@ What changed in each version of coentrify. A version opens with its summary, whi
 
 ## 0.0.4
 
-Ten standards get the Why they lacked, kept to its essence. Nothing in it is stable yet.
+22 standards get the Why they lacked, kept to its essence. Nothing in it is stable yet.
 
-- 191 standards in 21 modules: ten changed and one came in
+- 191 standards in 21 modules: 22 changed and one came in
 - A standard on the system behind a mock: a spec test of its own, or a spec and recorded manual tests where no test can run
-- The template asks for a Why kept to its essence, since a Why loads as often as the rule
+- The template asks for a Why that says what the rule is for, one step up and kept to its essence
 - The English variant is a choice, and the recommendations say so
 - The commit check passes a standard that is back at its released text
 
@@ -19,14 +19,32 @@ Ten standards get the Why they lacked, kept to its essence. Nothing in it is sta
 ### Behavior
 
 - Changed [Backward-Trace Missing Prerequisites](standards/behavior/backward-trace-missing-prerequisites.md)
+- Changed [Communication Boundary](standards/behavior/communication-boundary.md)
 - Changed [Feature Workflow](standards/behavior/feature-workflow.md)
 - Changed [General Working Rules](standards/behavior/general-working-rules.md)
 - Changed [Non-Destructive Documenting and Test Automation](standards/behavior/non-destructive-documenting-and-test-automation.md)
+- Changed [Own Ports, Own Processes](standards/behavior/own-ports-own-processes.md)
+- Changed [Reload The Standards After Compacting](standards/behavior/reload-the-standards-after-compacting.md)
+- Changed [Standards Maintenance](standards/behavior/standards-maintenance.md)
+- Changed [The Quality Of The Question](standards/behavior/the-quality-of-the-question.md)
 - Changed [Use US English Everywhere](standards/behavior/use-us-english-everywhere.md)
+
+### Code
+
+- Changed [Code Principles](standards/code/code-principles.md)
+- Changed [Escape Hatch Comments](standards/code/escape-hatch-comments.md)
 
 ### Docs
 
 - Changed [Docs Describe Behavior, Not Wiring](standards/docs/docs-describe-behavior-not-wiring.md)
+
+### Gamedev
+
+- Changed [Measure Sound, Never Guess](standards/gamedev/measure-sound-never-guess.md)
+
+### Reporting
+
+- Changed [Reels And Video Proof](standards/reporting/reels-and-video-proof.md)
 
 ### Simple Workflow
 
@@ -34,11 +52,14 @@ Ten standards get the Why they lacked, kept to its essence. Nothing in it is sta
 
 ### Tests
 
+- Changed [Gestures In Tests](standards/tests/gestures-in-tests.md)
 - Added [Test The System Behind A Mock](standards/tests/test-the-system-behind-a-mock.md)
 
 ### Tooling
 
 - Changed [Develop Against Mocks](standards/tooling/develop-against-mocks.md)
+- Changed [Parallel Agents](standards/tooling/parallel-agents.md)
+- Changed [Playwright Parallel Runs](standards/tooling/playwright-parallel-runs.md)
 
 ### UI
 

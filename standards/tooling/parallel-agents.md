@@ -2,6 +2,10 @@
 
 The toolchain that lets several agents work one repository at once: git worktrees, ports, the landing scripts and the cleanup. Who does what is in [Agent Roles](../tickets-workflow/agent-roles.md) and [The Conductor](../tickets-workflow/the-conductor.md).
 
+## Why
+
+Agents that work at the same time should not conflict.
+
 ## Worktrees
 
 - Each agent works in a git worktree of its own, with the main tree's node modules linked, its own e2e port (`E2E_PORT`), its own scratchpad folder for logs and captures, and a second port of its own for any second run.

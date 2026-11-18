@@ -1,5 +1,9 @@
 # Code Principles
 
+## Why
+
+Code with a single responsibility per piece stays stable.
+
 ## Single Responsibility
 
 - A piece of code should do one thing; coupling several responsibilities into one unit via flags or conditionals is a split signal.

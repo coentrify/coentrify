@@ -1,6 +1,10 @@
 # The Quality Of The Question
 
-The quality of an answer depends on the quality of the question. That holds for a question to the director, to another agent, and to yourself.
+Mind the quality of every question: to the director, to another agent, and to yourself.
+
+## Why
+
+The quality of an answer depends on the quality of the question.
 
 ## How to Apply
 
