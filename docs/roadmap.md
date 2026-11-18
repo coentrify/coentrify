@@ -9,7 +9,6 @@ The versions on the way to 1.0.
 
 ## Next
 
-- Close [the first filing](https://github.com/coentrify/coentrify/issues/1) once 0.0.5 lands: the sweep over every Why is done, by its [worklist](why-sweep.md).
 - Make the healing of the harness a choice in the onboarding: automatic, by a subagent and with a veto, or filed for the director's review. Automatic is the default for a project that is no contributor, and filing with coentrify on its own is a choice for a contributor. An agent that cannot start a subagent tells its conductor, who starts one.
 - Make the tools generic: `pick.sh`, `main-checks.sh` and `docs-commit.sh` take their checks as arguments, and the wrap-up hook becomes a spec.
 - Switch on the commit gate hook for sessions in this repository, so a commit that follows a `git add` in the same command is refused here as well.
