@@ -6,7 +6,9 @@ What changed in each version of coentrify. A version opens with its summary, whi
 
 Every standard has a Why now, kept to its essence: 35 got the one they lacked. Nothing in it is stable yet.
 
-- 196 standards in 21 modules: 44 changed and six came in
+- 196 standards in 21 modules: 48 changed and six came in
+- A sweep over every Why, each a goal or a principle that is written actively: the Read First standards are done
+- Harmony speaks of fine-tuning a balance, where it said to decide for the case at hand
 - A standard on filing a change with coentrify, for a project that is a contributor
 - Always Make No Mistakes as a self-healing feedback loop, in the readme and on every page that names it
 - A gate is the whole test of a phase: its leading question and everything it takes to answer it
@@ -29,6 +31,8 @@ Every standard has a Why now, kept to its essence: 35 got the one they lacked. N
 
 - Added [A Name Describes Its Unit](standards/behavior/a-name-describes-its-unit.md)
 - Changed [Always Make No Mistakes](standards/behavior/always-make-no-mistakes.md)
+- Changed [Always Verify Before Reporting Done](standards/behavior/always-verify-before-reporting-done.md)
+- Changed [Always Work from a Plan](standards/behavior/always-work-from-a-plan.md)
 - Changed [Backward-Trace Missing Prerequisites](standards/behavior/backward-trace-missing-prerequisites.md)
 - Changed [Communication Boundary](standards/behavior/communication-boundary.md)
 - Changed [Feature Workflow](standards/behavior/feature-workflow.md)
@@ -38,9 +42,11 @@ Every standard has a Why now, kept to its essence: 35 got the one they lacked. N
 - Changed [Own Ports, Own Processes](standards/behavior/own-ports-own-processes.md)
 - Changed [Project Lifecycle](standards/behavior/project-lifecycle.md)
 - Changed [Reload The Standards After Compacting](standards/behavior/reload-the-standards-after-compacting.md)
+- Changed [Review Changes Before Reporting Done](standards/behavior/review-changes-before-reporting-done.md)
 - Changed [Standards Maintenance](standards/behavior/standards-maintenance.md)
 - Changed [The Quality Of The Question](standards/behavior/the-quality-of-the-question.md)
 - Added [Things Of One Kind Are Consistent](standards/behavior/things-of-one-kind-are-consistent.md)
+- Changed [Understand The Need](standards/behavior/understand-the-need.md)
 - Changed [Use US English Everywhere](standards/behavior/use-us-english-everywhere.md)
 
 ### Code

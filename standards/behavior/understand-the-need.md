@@ -4,9 +4,7 @@ Understand what the director needs before solving anything. The goal is the righ
 
 ## Why
 
-An agent is eager to solve. The first solution that works feels like the end, so the standard drops and the work closes too soon.
-
-A director seldom states a need completely, and the words can seem inconsistent. A solution to the words misses the need behind the words.
+The right solution fits the need, and the need is seldom stated completely.
 
 ## How to Apply
 

@@ -4,7 +4,7 @@ Work that survives the session, or grows out of its scope, gets a written plan. 
 
 ## Why
 
-Sessions end. Agents context-switch. Without a written plan, picking up the work later means rediscovering the goal, the ordering, and what's already done. A plan in a file lets any other session or agent continue from where the previous one stopped.
+A plan in a file lets any other session or agent continue from where the previous one stopped.
 
 ## How to Apply
 

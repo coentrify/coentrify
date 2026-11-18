@@ -9,7 +9,7 @@ The versions on the way to 1.0.
 
 ## Next
 
-- Finish [the first filing](https://github.com/coentrify/coentrify/issues/1): the Harmony rewrite and the two voices, then a sweep over every Why, each a goal or a principle that is written actively. 0.0.4 follows the sweep.
+- Finish [the first filing](https://github.com/coentrify/coentrify/issues/1): a sweep over every Why, each a goal or a principle that is written actively. The Read First standards are done, and 0.0.4 follows the sweep.
 - Move the workflow rules out of Behavior, starting with Note Issues.
 - Make the tools generic: `pick.sh`, `main-checks.sh` and `docs-commit.sh` take their checks as arguments, and the wrap-up hook becomes a spec.
 - Probe the standards again at every new model release, on new traps.

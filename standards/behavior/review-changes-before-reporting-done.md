@@ -4,7 +4,7 @@ Before reporting work as done or committing, check the change against the releva
 
 ## Why
 
-An unexplained change may be the user's work from a parallel session, or otherwise intentional. A standard that was missed is cheapest to apply before the work is reported.
+No one's work is lost or swept along, and a missed standard is applied while it is still cheap.
 
 ## How to Apply
 
