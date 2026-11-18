@@ -33,6 +33,8 @@ A finding in the middle of other work is filed by its kind ([Note Issues](../beh
 - A clear bug, where the build does not do what its feature doc or spec says -> the bugs list ([Bugs Template](bugs-template.md)).
 - A functional doubt, where the intended behavior itself is unclear -> the inbox, as a question for the director, never a bug and never a fix.
 - A functional doc out of date or wrong -> a small fix rides along with the current work and the report names it; a larger gap goes in the inbox.
+- A missing prerequisite -> the plan, above the current item ([Backward-Trace Missing Prerequisites](../behavior/backward-trace-missing-prerequisites.md)).
+- A sweep -> one entry in the debt list that lists every instance ([Sweeps Enumerate Into Tech-Debt First](../behavior/sweeps-enumerate-into-tech-debt-first.md)).
 
 ## Related
 

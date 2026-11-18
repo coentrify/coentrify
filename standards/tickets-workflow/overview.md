@@ -3,7 +3,7 @@
 The Tickets Workflow standards: the work tracked in tickets.
 
 - [Agent Roles](agent-roles.md) - the conductor runs the agents; a builder per story until its verdict, a docs agent for sweeps and backlogs, a scout for spikes; the number of agents follows token and devbox capacity; no agent names in the docs
-- [Building A Ticket](building-a-ticket.md) - the builder's page: work comes from the plan only, one ticket in flight; the Definition of Done: every criterion met and verified, checks green by exit code, proof in the Done part, docs synced, no new debt, own decisions under Veto, a commit of its own
+- [Building A Ticket](building-a-ticket.md) - the builder's page: work comes from the plan only, one ticket in flight; a ticket lands right, solved now, a follow-up only as a split; the Definition of Done: every criterion met and verified, checks green by exit code, proof in the Done part, docs synced, no new debt, own decisions under Veto, a commit of its own
 - [The Conductor](the-conductor.md) - the conductor processes every message and builds nothing; its chat reads as a log, a line per event: the ticket id, its context and a title of a few words; whatever it surfaces is filed first, and what stands in a ticket is never repeated
 - [The Done Part](the-done-part.md) - the builder's Done part: a bullet per thing the user can now do, see or hear, each with proof the director opens or does: a capture, a video, a link or where to try it; never case ids or a tests line; then the Veto; a long one carries a mark
 - [Stabilize Before Adding](stabilize-before-adding.md) - while stabilizing, only bugs and tweaks; new things go later

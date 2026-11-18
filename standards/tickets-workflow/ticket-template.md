@@ -19,7 +19,7 @@ Its filename is the slug of its name ([Work Item Names](work-item-names.md)). It
 | How must it look? | Visual Quality | the ticket's own visual points; the generic ones sit in the project's visual checklist, which the Definition of Done points to |
 | What did an agent decide? | Veto | a decision per bullet, each checked in refinement for what it implies |
 | Can we split it, or leave something out? | Left Out | each part split off into a ticket of its own, or left out with its reason |
-| What could go wrong? | Risks | each risk with its mitigation, decided in refinement: a step inside the ticket when it is small and relevant, a design risk mitigated by design say, otherwise the ticket that closes the gap; a mitigation never grows the ticket's work ([Don't Introduce Tech Debt](../behavior/dont-introduce-tech-debt.md#a-ticket-lands-right)) |
+| What could go wrong? | Risks | each risk with its mitigation, decided in refinement: a step inside the ticket when it is small and relevant, a design risk mitigated by design say, otherwise the ticket that closes the gap; a mitigation never grows the ticket's work ([Building A Ticket](building-a-ticket.md#a-ticket-lands-right)) |
 | What does it wait on? | Depends On | the tickets of its own story it waits on |
 | Where did it come from? | Source | the log entries it came from, linked from the root: `/records/log/2026-10-25#_12-57` |
 

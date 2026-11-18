@@ -37,6 +37,8 @@ A finding in the middle of other work is filed by its kind ([Note Issues](../beh
 - A clear bug, where the build does not do what its feature doc or spec says -> a bug ticket.
 - A functional doubt, where the intended behavior itself is unclear -> a question in the ticket it is about, which the refine list shows ([Work Tracking](work-tracking.md#the-open-questions)), never a bug ticket and never a fix.
 - A functional doc out of date or wrong (feature doc, spec) -> a small fix rides on the current ticket's go as a Veto line; a larger gap is a docs ticket.
+- A missing prerequisite -> a ticket of its own, named in the current ticket's Depends On; it goes on the planning page for its go, then on the plan above the current item ([Backward-Trace Missing Prerequisites](../behavior/backward-trace-missing-prerequisites.md)).
+- A sweep -> one debt ticket that lists every instance, or an epic when the sweep is too big for one item ([Sweeps Enumerate Into Tech-Debt First](../behavior/sweeps-enumerate-into-tech-debt-first.md)).
 - A ticket filed this way lands in the phase where it hurts the goal, a later one unless it hurts the current goal now ([Dev Tiers](../behavior/dev-tiers.md)), and stays unscheduled until the director plans it; the report names it.
 
 ## The Go

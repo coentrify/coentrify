@@ -4,7 +4,7 @@ A commit message names the change at a glance, with a ticket's id where there is
 
 ## Why
 
-Names are important. A title or a summary says clearly and precisely what is inside, neither too broad nor too narrow.
+The history reads and searches by what each commit holds.
 
 ## Message
 
