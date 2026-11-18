@@ -4,7 +4,7 @@ The visual rules a drawn scene gets wrong on the first try. A project's visual c
 
 ## Why
 
-Perspective is what drawn scenes miss most often on the first try, and every round of feedback on it costs the director's time and tokens.
+A scene lands right the first time, without a round of feedback.
 
 ## Perspective
 

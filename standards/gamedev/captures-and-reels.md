@@ -4,7 +4,7 @@ The day-to-day proof of a game change is a capture or a reel from the seeded sce
 
 ## Why
 
-Proof regenerates from the scenarios after every change ([Reels And Video Proof](../reporting/reels-and-video-proof.md)), so the director can reproduce every state a capture shows.
+The director can reproduce every state a capture shows.
 
 ## Captures
 
@@ -33,5 +33,6 @@ Proof regenerates from the scenarios after every change ([Reels And Video Proof]
 
 ## Related
 
+- [Reels And Video Proof](../reporting/reels-and-video-proof.md)
 - [Work Tracking](../tickets-workflow/work-tracking.md)
 - [Devbox](devbox.md)

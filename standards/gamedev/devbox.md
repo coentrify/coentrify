@@ -4,12 +4,13 @@ Every game has a devbox: a small panel toggled by one key, open on every scene a
 
 ## Why
 
-Waiting for chance or grinding to a state is the slowest way to see a feature. The same scenarios drive the e2e cases, the captures, the reels and the devbox, so what the agent verified is what the director plays.
+The agent and the director reach any state of the game quickly.
 
 ## How to Apply
 
-- It sits in a corner out of the interface's way; its one key follows Same Trigger Both Ways.
+- It sits in a corner out of the interface's way; its one key follows [Same Trigger Both Ways](game-design-laws-ui.md#same-trigger-both-ways).
 - The seeded scenarios live in one configuration and are the shared contract; the game itself never shortens for a test.
+- The same scenarios drive the e2e cases, the captures, the reels and the devbox, so what the agent verified is what the director plays.
 - A rare event gets a devbox trigger the first time it exists, and every scene's rare or slow state gets a scenario as it is built: fresh, mid-way, at the gate, at the boss.
 - The release checklist names the strip.
 
