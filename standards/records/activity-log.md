@@ -4,7 +4,7 @@ Completed work goes to `docs/records/activity/<date>.md`, one file per day, H1 t
 
 ## Why
 
-The plan shrinks toward empty by design, so without an activity log the only record of progress is the commit list. A dated page gives the director the progression view a project management tool would, and Standing plus Next lets a session, or a new person, start from the last one.
+The director sees the progress of a project at a glance, and a new session starts from the last one.
 
 ## The Page
 

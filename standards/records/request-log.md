@@ -4,7 +4,7 @@ Keep a raw, dated log of everything the director says in `docs/records/log/<date
 
 ## Why
 
-The log closes the gap between the prompt and its interpretation: every parsed doc and ticket can be checked against the words that produced it. It leaves a trail a new agent or person can pick the work up from at any point, and re-reading it later turns up better interpretations. Parsed docs drift; the log does not.
+Every doc and ticket can be checked against the words that produced it.
 
 ## The File
 

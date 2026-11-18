@@ -23,7 +23,7 @@ Where a project keeps a changelog per version, that page is the record and this 
 
 ## Why
 
-A commit message says what changed; a change report proves it and shows the spread. The sweep turns one fix into a closed pattern, and the before/after proof makes the work reviewable without re-running it.
+A change report proves a change and shows how far it spread, so the work is reviewed without running it again.
 
 ## How to Apply
 

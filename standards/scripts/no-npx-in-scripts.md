@@ -4,7 +4,11 @@ In `package.json` scripts, husky hooks, and CI workflows, never prefix commands 
 
 ## Why
 
-`npx` exists for the case where a tool is *not* installed locally - it falls back to fetching from the network. Using it in our scripts hides the fact that a dep should be declared, masks version mismatches between what is in `package-lock.json` and what gets executed, and in offline / locked-down CI environments it quietly does the wrong thing.
+A script runs what the lock file declares, online or offline.
+
+## How to Apply
+
+- `npx` exists for the case where a tool is not installed locally: it falls back to fetching from the network. In a script it hides that a dependency should be declared, masks a mismatch between `package-lock.json` and what runs, and quietly does the wrong thing in an offline or locked-down CI.
 
 ## Exceptions
 

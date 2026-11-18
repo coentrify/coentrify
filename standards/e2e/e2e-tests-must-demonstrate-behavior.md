@@ -4,7 +4,7 @@ A passing e2e test is not enough. After writing one, replay the recording and co
 
 ## Why
 
-A green test that doesn't show the feature working is a worse signal than a red one: it gives false confidence, and anyone watching the recordings, demos included, cannot tell whether the feature works.
+A green test shows the feature working, to anyone who watches the recording.
 
 ## How to Apply
 

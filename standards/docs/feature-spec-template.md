@@ -12,7 +12,7 @@ Title: `# <Feature Name>`, matching the feature doc; a subtitle only when the sc
 
 ## Use Cases
 
-`## Use Cases` opens with a flat overview list of every case, ``<description> (`<feature-id>-N`)``, ordered by id. Below it, each case is its own `###` heading.
+`## Use Cases` opens with a flat overview list of every case, ``<description> (`<feature-id>-N`)``, ordered by id. Below it, each case is its own `###` heading, which scans better than a nested-bullet wall and gives each case a real anchor.
 
 ## Use Case Shape
 
@@ -77,7 +77,7 @@ Example:
 
 ## Why
 
-The functional doc says what the feature is; the spec says how you verify it. Splitting them keeps each tight and lets manual testing, e2e, and documentation share one stable-ID surface. Subheading-per-case scans better than a nested-bullet wall and gives each case a real anchor.
+The feature doc says what a feature is, and the spec says how to verify it. Manual testing, e2e and the docs share one set of stable ids.
 
 ## Related
 

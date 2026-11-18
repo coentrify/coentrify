@@ -6,7 +6,7 @@ The provenance lives in the request log, where every message is written first, a
 
 ## Why
 
-A page full of log statements reads as a history and buries the functional description. Attribution markers also spread fast once briefs or rules ask for a source on every line, until most pages carry them. The log already holds who said what and when.
+A knowledge page reads as what is true now. The log holds who said what and when.
 
 ## How to Apply
 

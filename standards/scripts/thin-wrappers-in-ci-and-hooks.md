@@ -4,7 +4,7 @@ Git hooks and CI workflow steps are thin dispatchers: each is a one-line `npm ru
 
 ## Why
 
-Behavior buried in a hook file or a CI yaml step is invisible from `package.json` and easy to miss when reading scripts; centralizing the logic keeps it discoverable and lets the same script run from CI, manual runs, or other tools.
+Every behavior is found in `package.json`, and runs the same from CI, a hook or by hand.
 
 ## How to Apply
 

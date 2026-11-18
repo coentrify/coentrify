@@ -47,7 +47,7 @@ Roles, statuses, types - give one example, not the full list. Lists rot; the sou
 
 ## Why
 
-Every rule here guards against docrot. UI strings, full enumerations, and implementation details rot the doc the moment any of them change in the code. Use-cases-in-spec keeps the functional doc tight and stops the same scenario from drifting between two files.
+A feature doc stays true while the code changes.
 
 ## Related
 

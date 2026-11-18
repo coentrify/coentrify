@@ -55,7 +55,7 @@ The rule of thumb for a project's docs as a whole: another agent, handed the doc
 
 ## Why
 
-These docs are orientation material for every reader, and they are the basis for manual testing and automated test generation. They rot quickly if they mirror the code, so they stay product-level and terse.
+The docs orient every reader, and they are the basis for manual testing and for generating tests.
 
 ## Related
 

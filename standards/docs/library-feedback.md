@@ -4,7 +4,7 @@ Friction with a library never gets a doc in the project. It is surfaced to the d
 
 ## Why
 
-The project's docs describe the product and its work; feedback on someone else's library belongs with that library, and only the director has the relationship to take it there. A workaround still needs its reason beside it, or the next reader removes it.
+Feedback on a library belongs with that library, and the director has the relationship to take it there.
 
 ## How to Apply
 

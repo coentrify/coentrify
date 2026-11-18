@@ -4,10 +4,11 @@ The e2e suites serve the app in the framework's development mode, so its develop
 
 ## Why
 
-A production build steadies the suites on a busy machine but drops the development errors the suites exist to catch.
+The suites exist to catch development errors, and only the development build shows them.
 
 ## How to Apply
 
+- A production build steadies the suites on a busy machine, and drops the development errors.
 - Never point the e2e web server at a production build; a slow dev server gets a prebuilt development build served statically instead.
 - A trade-off that drops a class of errors from the checks is the director's call, asked before it lands.
 

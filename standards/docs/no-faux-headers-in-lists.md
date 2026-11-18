@@ -4,7 +4,7 @@ Don't use **bold label** + dash + description as a fake header inside a bullet l
 
 ## Why
 
-Markdown already has headers. Faking them with bold and a dash gives readers a wall of dense bullets that scan worse than real headings, and breaks the navigation (TOCs, anchors, search) real headers earn for free.
+A real header gives navigation for free: a table of contents, an anchor and search.
 
 ## How to Apply
 

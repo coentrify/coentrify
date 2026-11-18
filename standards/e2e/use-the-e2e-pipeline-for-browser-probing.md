@@ -4,7 +4,7 @@ When investigating live browser DOM (e.g. how a third-party component renders, w
 
 ## Why
 
-Ad-hoc `node ./probe.mjs` style scripts trigger per-invocation permission prompts. They also reinvent the wheel - the project already has a configured Playwright + dev-server harness via the e2e target.
+The project already has a browser harness, and using it asks the director for no extra permissions.
 
 ## How to Apply
 

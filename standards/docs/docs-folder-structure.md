@@ -29,7 +29,7 @@ All records sit together under `docs/records/`, one group in the wiki with an `o
 
 ## Why
 
-Every folder answering one question - what the product is, what is being worked on, what happened - keeps the wiki sidebar scannable and tells a reader where a fact belongs before they look. The records grouped under one folder read as one thing in the sidebar; spread over the docs root they crowd it.
+Every folder answers one question, so a reader knows where a fact belongs before looking.
 
 ## Related
 
