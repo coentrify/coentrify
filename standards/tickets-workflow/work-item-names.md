@@ -4,7 +4,7 @@ Every name for a piece of work - a ticket's title, a line on the plan or the roa
 
 ## Why
 
-A piece of work is a unit, and its name describes it.
+A list of work reads at a glance.
 
 ## Per Type Of Work
 

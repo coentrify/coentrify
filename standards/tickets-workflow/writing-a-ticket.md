@@ -4,7 +4,7 @@ How a ticket's sections are filled. The sections themselves are in [Ticket Templ
 
 ## Why
 
-Every ticket is written the same way, so what is expected of a ticket holds.
+A builder can build from the ticket alone.
 
 ## Style
 

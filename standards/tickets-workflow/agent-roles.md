@@ -4,7 +4,7 @@ In project work the main session is the conductor: it takes in everything the di
 
 ## Why
 
-When the main session builds things itself while agents run, the director's messages pile up unhandled. What the director needs is every message processed at once, the lists current, and a steady stream of landed work to review; the agent count is not the goal.
+Every message from the director is handled at once, while the work keeps landing.
 
 ## The Conductor
 
