@@ -15,7 +15,7 @@ A game goes through four stages, and each stage holds phases. A phase ends at a 
 
 - A stage groups phases. A studio with several games reads each game's place in one word.
 - A phase is what Work Tracking calls a phase: an epic names it, and every rule about the current phase holds for it.
-- A gate is the one question that ends a phase. Its answer sends the game on, or back a phase: a gate finds the right path forward.
+- A gate is the test that ends a phase: a leading question together with everything it takes to answer it. Its answer sends the game on, or back a phase: a gate finds the right path forward.
 - The industry calls a gate a milestone.
 - A unit of the game's content is a level, never a stage.
 
@@ -33,7 +33,7 @@ A game goes through four stages, and each stage holds phases. A phase ends at a 
 - Concept is loose inside: its phases may overlap and loop back.
 - For every rule about the current phase, Concept counts as one phase.
 - From Design on, a game is in one phase at a time.
-- The page of a phase carries its gate in a `Gate:` line.
+- The page of a phase carries the leading question of its gate in a `Gate:` line.
 - No gate closes Live, since the game is an everlasting project.
 
 ## The Greybox

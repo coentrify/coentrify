@@ -6,7 +6,8 @@ What changed in each version of coentrify. A version opens with its summary, whi
 
 Every standard has a Why now, kept to its essence: 35 got the one they lacked. Nothing in it is stable yet.
 
-- 195 standards in 21 modules: 41 changed and five came in
+- 195 standards in 21 modules: 43 changed and five came in
+- A gate is the whole test of a phase: its leading question and everything it takes to answer it
 - A glossary of the terms coentrify uses most, and a standard for the glossary of a project
 - Two generic standards: a name describes its unit, and things of one kind are consistent
 - A standard on the system behind a mock: a spec test of its own, or a spec and recorded manual tests where no test can run
@@ -31,6 +32,7 @@ Every standard has a Why now, kept to its essence: 35 got the one they lacked. N
 - Changed [General Working Rules](standards/behavior/general-working-rules.md)
 - Changed [Non-Destructive Documenting and Test Automation](standards/behavior/non-destructive-documenting-and-test-automation.md)
 - Changed [Own Ports, Own Processes](standards/behavior/own-ports-own-processes.md)
+- Changed [Project Lifecycle](standards/behavior/project-lifecycle.md)
 - Changed [Reload The Standards After Compacting](standards/behavior/reload-the-standards-after-compacting.md)
 - Changed [Standards Maintenance](standards/behavior/standards-maintenance.md)
 - Changed [The Quality Of The Question](standards/behavior/the-quality-of-the-question.md)
@@ -66,6 +68,7 @@ Every standard has a Why now, kept to its essence: 35 got the one they lacked. N
 
 ### Gamedev
 
+- Changed [Game Phases](standards/gamedev/game-phases.md)
 - Changed [Game Work Workflow](standards/gamedev/game-work-workflow.md)
 - Changed [Measure Sound, Never Guess](standards/gamedev/measure-sound-never-guess.md)
 
