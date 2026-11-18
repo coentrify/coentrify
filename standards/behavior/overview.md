@@ -10,13 +10,13 @@ The Behavior standards: how an agent works and what an agent checks.
 - [Always Verify Before Reporting Done](always-verify-before-reporting-done.md) - run the check that matches the change before claiming done
 - [Always Work from a Plan](always-work-from-a-plan.md) - work that survives the session or grows out of scope gets a written plan; in a project all work follows the project's workflow
 - [Anchor Edits After Formatting](anchor-edits-after-formatting.md) - no write while a commit hook runs, check every anchor of a batch first, no edit by line number after a formatter
-- [Backward-Trace Missing Prerequisites](backward-trace-missing-prerequisites.md) - a missing prerequisite becomes a ticket above the item; recurse, never patch around
+- [Backward-Trace Missing Prerequisites](backward-trace-missing-prerequisites.md) - a missing prerequisite is filed above the item; recurse, never patch around
 - [Code Review Compounds Into Patterns and Sweeps](code-review-compounds-into-patterns-and-sweeps.md) - a review finding is a pattern: review check, how-to standard, sweep ticket
 - [Communication Boundary](communication-boundary.md) - never contact users or testers or speak for the director; file `Tell <name>` tasks
 - [Dev Tiers](dev-tiers.md) - work order: build, bugs, debt, features, each tier counting only what hurts the current phase's goal; all other debt waits for its phase
 - [Docs Hold Only What the Director Decided](docs-hold-only-what-the-director-decided.md) - docs hold only what the director decided; ideas go to chat first
 - [Don't Filter Data Without a Spec](dont-filter-data-without-a-spec.md) - never drop data unless the exclusion is specced and tested
-- [Don't Introduce Tech Debt](dont-introduce-tech-debt.md) - new code follows conventions even when neighbors don't; a ticket lands right, solved now, a follow-up only as a split; fix what your change caused
+- [Don't Introduce Tech Debt](dont-introduce-tech-debt.md) - new code follows conventions even when neighbors don't; fix what your change caused
 - [Feature Workflow](feature-workflow.md) - plan -> doc -> spec -> failing e2e -> implement -> regression -> proof the user can verify
 - [File A Change With Coentrify](file-a-change-with-coentrify.md) - a contributor files a harness change that holds beyond its project, one point per issue, without project details
 - [Flag Every Addition of Your Own](flag-every-addition-of-your-own.md) - name every addition of your own in the report for a veto
@@ -36,7 +36,7 @@ The Behavior standards: how an agent works and what an agent checks.
 - [Review Every Capture Before Reporting](review-every-capture-before-reporting.md) - read every capture for regressions, caption match and unintended shapes
 - [Standards Maintenance](standards-maintenance.md) - a periodic sweep for bloat, stale rules, duplicates, drift and dead links, with a word budget per standard; how a standard is added
 - [Standards Over Skills](standards-over-skills.md) - on conflict the standard wins; fix the skill's contradicted line
-- [Sweeps Enumerate Into Tech-Debt First](sweeps-enumerate-into-tech-debt-first.md) - a sweep lists every instance in one debt ticket before fixing
+- [Sweeps Enumerate Into Tech-Debt First](sweeps-enumerate-into-tech-debt-first.md) - a sweep lists every instance in one debt entry before fixing
 - [Sync The Docs After Every Change](sync-the-docs-after-every-change.md) - after a landing, grep the docs for its terms and fix what went stale; update every reference
 - [The Quality Of The Question](the-quality-of-the-question.md) - a better question gets a better answer; suspect the question first, and ask how good over is it good
 - [Things Of One Kind Are Consistent](things-of-one-kind-are-consistent.md) - things of one kind share a structure and a behavior, and fit with the rest

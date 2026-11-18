@@ -14,6 +14,12 @@ The director can trust a ticket that is called done.
 - A feature runs the feature workflow inside its ticket ([Feature Workflow](../behavior/feature-workflow.md)).
 - Easy-to-change choices are made and written under Veto; only costly-to-undo ones wait, as a question in their ticket.
 
+## A Ticket Lands Right
+
+- A ticket leaves the codebase no worse: no new risk, debt or bad code, and no lower quality or value.
+- Whatever its own work needs to be right is done in it, taking the time it takes: a design risk mitigated by design belongs in the ticket, and so does a small, relevant fix.
+- The right solution is solved now, never pushed out as a follow-up. A follow-up ticket exists only when the work outgrows one ticket, which is a split, named under Veto when the build finds it.
+
 ## Definition Of Done
 
 A ticket or a line is done only when every one of these holds; until then it stays on the plan.

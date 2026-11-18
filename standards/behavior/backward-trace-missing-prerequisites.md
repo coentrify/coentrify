@@ -8,7 +8,7 @@ A gap is closed once, for every feature after it.
 
 ## How to Apply
 
-- File the prerequisite as a ticket of its own, named in the current ticket's Depends On; it goes on the planning page for its go, then on the plan above the current item ([Work Tracking](../tickets-workflow/work-tracking.md)).
+- File the prerequisite as work of its own, ahead of the current item, where the project's workflow says: [The Simple Workflow](../simple-workflow/the-simple-workflow.md#where-a-finding-goes) or [Work Workflow](../tickets-workflow/work-workflow.md#where-a-finding-goes).
 - Start the prerequisite once it has its go. Recurse if its prerequisite is also missing.
 - Resume only after the prerequisite is committed and verified.
 - Never fold prerequisite work into the current feature's diff. Never write a throw-away bypass to get past the gap.

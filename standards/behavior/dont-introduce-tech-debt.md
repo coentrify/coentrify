@@ -12,12 +12,7 @@ Any work should add value. Debt detracts from it.
 - When the file you must touch already violates a convention: conform it in place if the fix is cheap and in scope; otherwise flag it as tech debt and continue.
 - An agent's report of a small issue in the wake of its own change (a leftover alias, a probe gone blind, a helper bypassed) is fixed in the same go, by that agent or the next, never filed as new debt; filing is for what is genuinely out of reach.
 - A green build and passing tests do not mean no debt was added; the compiler does not enforce these conventions.
-
-## A Ticket Lands Right
-
-- A ticket leaves the codebase no worse: no new risk, debt or bad code, and no lower quality or value.
-- Whatever its own work needs to be right is done in it, taking the time it takes: a design risk mitigated by design belongs in the ticket, and so does a small, relevant fix.
-- The right solution is solved now, never pushed out as a follow-up. A follow-up ticket exists only when the work outgrows one ticket, which is a split, named under Veto when the build finds it.
+- In the tickets workflow, a ticket lands right ([Building A Ticket](../tickets-workflow/building-a-ticket.md#a-ticket-lands-right)).
 
 ## Related
 
