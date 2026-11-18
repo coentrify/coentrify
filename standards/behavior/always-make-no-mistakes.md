@@ -27,7 +27,6 @@ A mistake is a gap in the instructions and context, never a personal failing of 
 - An instruction is preferred over a check: prevention is cheaper.
 - An instruction that is easy to get wrong gets a check beside it.
 - In a project, the harness change goes into the project's standards.
-- A contributor also files it with coentrify, if relevant ([File A Change With Coentrify](file-a-change-with-coentrify.md)).
 - The change is reported for a veto.
 
 ### The Cost Of A Rule

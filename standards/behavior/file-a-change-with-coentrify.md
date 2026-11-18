@@ -18,4 +18,5 @@ What one project learns reaches every project.
 
 ## Related
 
+- [Standards Maintenance](standards-maintenance.md)
 - [Always Make No Mistakes](always-make-no-mistakes.md)

@@ -43,3 +43,4 @@ Soft caps: past a cap, a standard is trimmed or split before anything is added t
 
 - Apply format fixes freely.
 - Surface a rule change for the director's call before applying it.
+- A contributor files a changed or added standard with coentrify, if relevant ([File A Change With Coentrify](file-a-change-with-coentrify.md)).
