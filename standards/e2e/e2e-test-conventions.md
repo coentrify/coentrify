@@ -1,5 +1,9 @@
 # E2E Test Conventions
 
+## Why
+
+What the spec says and what the tests verify should be easy to check against each other.
+
 ## User Routes Only
 
 - An e2e case walks a route the user can take: in an app, a sign-in or a search; in a game, a new game or a continue.

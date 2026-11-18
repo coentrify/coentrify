@@ -34,10 +34,12 @@ Every standard follows one template.
 
 - The rule, in one or two sentences
 - What the rule is relevant for, where the title does not say
-- Why the rule exists, kept to its essence, since a Why loads as often as the rule
+- Why: the goal or the principle behind the rule, in a line or two
 - How to apply the rule
 - An example, where a story helps
 - Related standards, as links
+
+A Why lets an agent judge a case the rule did not foresee.
 
 A standard follows the standards. Every page is an example of the rules the page states.
 

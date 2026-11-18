@@ -4,11 +4,11 @@ What changed in each version of coentrify. A version opens with its summary, whi
 
 ## 0.0.4
 
-21 standards get the Why they lacked, kept to its essence. Nothing in it is stable yet.
+25 standards get the Why they lacked, kept to its essence. Nothing in it is stable yet.
 
-- 191 standards in 21 modules: 22 changed and one came in
+- 191 standards in 21 modules: 25 changed and one came in
 - A standard on the system behind a mock: a spec test of its own, or a spec and recorded manual tests where no test can run
-- The template asks for a Why kept to its essence, since a Why loads as often as the rule
+- The template asks for the goal or the principle behind a rule as its Why, in a line or two
 - The English variant is a choice, and the recommendations say so
 - The commit check passes a standard that is back at its released text
 
@@ -26,6 +26,7 @@ What changed in each version of coentrify. A version opens with its summary, whi
 - Changed [Own Ports, Own Processes](standards/behavior/own-ports-own-processes.md)
 - Changed [Reload The Standards After Compacting](standards/behavior/reload-the-standards-after-compacting.md)
 - Changed [Standards Maintenance](standards/behavior/standards-maintenance.md)
+- Changed [The Quality Of The Question](standards/behavior/the-quality-of-the-question.md)
 - Changed [Use US English Everywhere](standards/behavior/use-us-english-everywhere.md)
 
 ### Code
@@ -40,6 +41,10 @@ What changed in each version of coentrify. A version opens with its summary, whi
 ### Docs
 
 - Changed [Docs Describe Behavior, Not Wiring](standards/docs/docs-describe-behavior-not-wiring.md)
+
+### E2E
+
+- Changed [E2E Test Conventions](standards/e2e/e2e-test-conventions.md)
 
 ### Gamedev
 
@@ -62,6 +67,7 @@ What changed in each version of coentrify. A version opens with its summary, whi
 
 - Changed [Develop Against Mocks](standards/tooling/develop-against-mocks.md)
 - Changed [Parallel Agents](standards/tooling/parallel-agents.md)
+- Changed [Playwright Parallel Runs](standards/tooling/playwright-parallel-runs.md)
 - Changed [Playwright Video Recording](standards/tooling/playwright-video-recording.md)
 
 ### UI

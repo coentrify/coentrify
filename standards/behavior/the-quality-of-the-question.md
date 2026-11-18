@@ -2,6 +2,10 @@
 
 The quality of an answer depends on the quality of the question. That holds for a question to the director, to another agent, and to yourself.
 
+## Why
+
+What we are after is the answer that fits the need.
+
 ## How to Apply
 
 - When an answer disappoints or contradicts itself, suspect the question first.

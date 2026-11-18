@@ -1,5 +1,9 @@
 # Playwright Parallel Runs
 
+## Why
+
+Runs on a shared machine should not get in each other's way, and each should end in a result that can be trusted.
+
 ## On A Shared Machine
 
 - Every agent's Playwright run uses `--workers=1` and only the touched spec; no more than about four agents run suites at once. Agents on default workers overload the machine and lag the director's typing.

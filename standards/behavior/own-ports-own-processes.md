@@ -4,7 +4,7 @@ Every server the agent starts (dev server, preview, e2e web server) runs on a po
 
 ## Why
 
-More worktrees could be using the same machine, whoever runs them.
+More worktrees could be using the same machine.
 
 ## Own Ports
 
