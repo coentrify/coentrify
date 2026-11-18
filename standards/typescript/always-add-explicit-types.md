@@ -2,6 +2,10 @@
 
 Annotate every binding - `const`, `let`, function parameters, function return types - even when TypeScript can infer them. Inference is for the compiler, not the reader.
 
+## Why
+
+Strict typing leaves no room for side effects or unforeseen paths.
+
 ## Examples
 
 ```ts
@@ -14,17 +18,6 @@ const handler = (event: Event): void => { ... };
 ## Linter
 
 If a linter rule forbids explicit annotations on inferrable bindings, change the rule, not the code.
-
-## Why
-
-- The type is always included in the file that is checked.
-- Readable for an agent and for code reviews.
-- Easy to spot when a type is missing.
-- Upstream type changes surface at the call site, not silently downstream.
-- Exported types don't drift when internals change.
-- Forces you to confirm the value is what you meant.
-- Faster type-checking.
-- Errors land on the assignment, not three calls away.
 
 ## Exceptions
 

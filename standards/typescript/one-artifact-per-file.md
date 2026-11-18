@@ -4,9 +4,7 @@ Each exported artifact - a type, a `const … as const`, a class, an interface, 
 
 ## Why
 
-- A single artifact can be imported and read without loading every sibling, so reads stay focused and cheap on tokens.
-- The file list reveals the app's scale and surface at a glance, without opening anything.
-- Bundling obfuscates how much exists and forces a whole-file read just to use one symbol.
+A read stays on the one artifact it needs.
 
 ## How to Apply
 
