@@ -4,6 +4,10 @@ Every piece of work takes one path: the director's words are logged, turned into
 
 This policy is strict on purpose. It starts as a best guess and tightens itself: see Tightening at the end. The ticket's shape is in [Work Tracking](work-tracking.md), the agents' roles in [Agent Roles](agent-roles.md), the main session's in [The Conductor](the-conductor.md), and what changes for a game in [Game Work Workflow](../gamedev/game-work-workflow.md).
 
+## Why
+
+The director is free for judgment, taste and creation.
+
 ## Intake
 
 Every message from the director runs through these steps before any work on it starts.

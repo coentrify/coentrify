@@ -2,6 +2,12 @@
 
 The builder writes the Done part into a ticket in its landing commit: a bulleted list of what was functionally achieved, short and fast to read. The rest of the ticket is in [Writing A Ticket](writing-a-ticket.md).
 
+## Why
+
+Done means demonstrated.
+
+## How to Apply
+
 - Proof holds a bullet per thing the user can now do, see or hear, a few words each, with its proof beside it.
 - A proof is something the director opens or does: a capture, a video, a link to a page changed, or where to try it and the scenario that starts it. Words about tests or spec cases are never proof. "ARC added to the Laws", linked, is a whole bullet.
 - A change in how something looks or moves always shows a capture, a before and after pair for a change in what is seen, a video where it moves; that is where the director looks closest.

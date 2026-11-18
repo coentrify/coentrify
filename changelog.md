@@ -4,9 +4,10 @@ What changed in each version of coentrify. A version opens with its summary, whi
 
 ## 0.0.4
 
-33 standards get the Why they lacked, kept to its essence. Nothing in it is stable yet.
+Every standard has a Why now, kept to its essence: 35 got the one they lacked. Nothing in it is stable yet.
 
-- 194 standards in 21 modules: 39 changed and four came in
+- 194 standards in 21 modules: 41 changed and four came in
+- A glossary of the words coentrify uses most
 - Two generic standards: a name describes its unit, and things of one kind are consistent
 - A standard on the system behind a mock: a spec test of its own, or a spec and recorded manual tests where no test can run
 - The maturity levels of a workspace stand in a standard of their own
@@ -83,8 +84,10 @@ What changed in each version of coentrify. A version opens with its summary, whi
 ### Tickets Workflow
 
 - Changed [Building A Ticket](standards/tickets-workflow/building-a-ticket.md)
+- Changed [The Done Part](standards/tickets-workflow/the-done-part.md)
 - Changed [Work Item Names](standards/tickets-workflow/work-item-names.md)
 - Changed [Work Tracking](standards/tickets-workflow/work-tracking.md)
+- Changed [Work Workflow](standards/tickets-workflow/work-workflow.md)
 - Changed [Writing A Ticket](standards/tickets-workflow/writing-a-ticket.md)
 
 ### Tooling

@@ -4,7 +4,7 @@ A maturity scale for a workspace, in the spirit of the Kardashev scale. Each lev
 
 ## Why
 
-A workspace should know how far along it is.
+A level shows the director where a workspace stands, and from that what has priority. It helps an agent decide what to work on.
 
 ## The Levels
 
