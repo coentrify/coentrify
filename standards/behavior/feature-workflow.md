@@ -2,6 +2,12 @@
 
 Every new product feature follows this pipeline. Identify the next step, verify its prerequisite, run it, commit.
 
+## Why
+
+The steps carry intent and context into the build. The laws a project adopted are weighed in the spec, in a step of their own, and small steps get focus and layer better. Without the steps a model builds a feature on guesses.
+
+## The Pipeline
+
 - Plan ([Always Work from a Plan](always-work-from-a-plan.md)).
 - Functional doc at `docs/features/<feature>.md` ([Feature Template](../docs/feature-template.md)).
 - Spec at `docs/features/<feature>.spec.md` ([Feature Spec Template](../docs/feature-spec-template.md)).

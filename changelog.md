@@ -4,9 +4,9 @@ What changed in each version of coentrify. A version opens with its summary, whi
 
 ## 0.0.4
 
-Five standards get the Why they lacked, kept to its essence. Nothing in it is stable yet.
+Seven standards get the Why they lacked, kept to its essence. Nothing in it is stable yet.
 
-- 190 standards in 21 modules: five changed
+- 190 standards in 21 modules: seven changed
 - The template asks for a Why kept to its essence, since a Why loads as often as the rule
 - The English variant is a choice, and the recommendations say so
 - The commit check passes a standard that is back at its released text
@@ -14,7 +14,9 @@ Five standards get the Why they lacked, kept to its essence. Nothing in it is st
 ### Behavior
 
 - Changed [Backward-Trace Missing Prerequisites](standards/behavior/backward-trace-missing-prerequisites.md)
+- Changed [Feature Workflow](standards/behavior/feature-workflow.md)
 - Changed [General Working Rules](standards/behavior/general-working-rules.md)
+- Changed [Non-Destructive Documenting and Test Automation](standards/behavior/non-destructive-documenting-and-test-automation.md)
 - Changed [Use US English Everywhere](standards/behavior/use-us-english-everywhere.md)
 
 ### Docs
