@@ -32,9 +32,7 @@ Every module.
 
 ## Waiting For A Ruling
 
-The second sweep, against the new bar, read every module again.
-
-- App-Shield - its Why says the rule again
+Nothing waits at the moment.
 
 ## Not Read Yet
 

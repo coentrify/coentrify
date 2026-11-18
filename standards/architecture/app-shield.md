@@ -4,7 +4,7 @@ The five-layer architecture for front-end web apps. Every file in the workspace 
 
 ## Why
 
-Each layer has one job and one direction it depends on.
+Every layer stands on its own, with its own responsibility and its own qualities, so the whole works in harmony.
 
 ## The Five Layers
 
