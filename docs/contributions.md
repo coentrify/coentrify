@@ -22,6 +22,10 @@ An issue holds no project details, since the repository is public.
 - An issue closes once every point in it is processed.
 - When only a remainder is left, the issue closes as well, and the remainder moves to an issue of its own.
 
+## Branches
+
+- Work toward a version happens on a branch named after that version, such as `version-0.0.5`.
+
 ## The Conduct
 
 - Discuss each change with the director one by one before it is applied: what the audit found, an opinion and a recommendation, then the director's go.
