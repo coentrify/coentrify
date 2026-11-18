@@ -8,7 +8,7 @@ The player never has to wait, unless it is technically impossible to continue ri
 
 ## Always Something To Do
 
-The player always has something to do. Short term, the pull to expand and explore. Long term, a dot on the horizon; when closing in on it, the outline of the next dot is already visible. The ultimate goal is not revealed too soon, but is visible from early mid-game. Having nothing to buy is not having nothing to do: there is the balance to check and the next choice to think about. Leave space for thinking, just not too much when the player already knows what to do. The better the player plays, the less time there is to think.
+The player always has something to do. Short term, the pull to expand and explore. Long term, a dot on the horizon; when closing in on it, the outline of the next dot is already visible. The ultimate goal is not revealed too soon, but is visible from early mid-game. Nothing new to pursue for a moment is not nothing to do: there is the state to check and the next choice to think about, such as the balance when there is nothing to buy yet. Leave space for thinking, just not too much when the player already knows what to do. The better the player plays, the less time there is to think.
 
 ## Exploration Is Rewarded
 
