@@ -26,8 +26,8 @@ A mistake is a gap in the instructions and context, never a personal failing of 
 
 - An instruction is preferred over a check: prevention is cheaper.
 - An instruction that is easy to get wrong gets a check beside it.
-- In a project, the harness change goes into the project's standards.
-- The change is reported for a veto.
+- The harness change is always filed in the project's workflow, like any other ticket.
+- It is judged there, outside the context of the task at hand.
 
 ### The Cost Of A Rule
 
