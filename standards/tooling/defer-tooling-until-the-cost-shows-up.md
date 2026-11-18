@@ -10,4 +10,4 @@ Tooling carries weight: setup, learning curve, integration surface, CI minutes, 
 
 - Don't pre-commit to heavyweight tooling as "phase 2" or "we'll add it later" - that signals it's coming, which it isn't until the cost is concrete.
 - When evaluating a tool, name the specific cost that justifies it. "Drift is happening and the mock layer no longer reflects production" beats "we should probably add contract testing".
-- Maturity bumps the threshold. As a workspace climbs the [Workspace Suite](../docs/workspace-suite.md) levels, lighter alternatives start to visibly fail; that is the signal heavy tools have earned their keep, never a calendar milestone.
+- Maturity bumps the threshold. As a workspace climbs the [Workspace Levels](../docs/workspace-levels.md), lighter alternatives start to visibly fail; that is the signal heavy tools have earned their keep, never a calendar milestone.

@@ -14,5 +14,6 @@ The Docs standards: documentation rules and templates.
 - [Library Feedback](library-feedback.md) - library friction is surfaced to the director in the report, never kept as a doc in the project; a workaround gets a why-comment
 - [No Faux Headers In Lists](no-faux-headers-in-lists.md) - no bold-label bullets; promote them to headings
 - [UI Vocabulary](ui-vocabulary.md) - functional UI names: drawer, sheet; never 'surface'
-- [Workspace Suite](workspace-suite.md) - the deliverables of a complete workspace and a five-level maturity scale
+- [Workspace Levels](workspace-levels.md) - a maturity scale for a workspace, from unknown to tool complete
+- [Workspace Suite](workspace-suite.md) - the deliverables of a complete workspace
 - [Workspace Template](workspace-template.md) - workspace docs: functional overview, technical architecture, concern docs
