@@ -9,7 +9,7 @@ The versions on the way to 1.0.
 
 ## Next
 
-- Finish [the first filing](https://github.com/coentrify/coentrify/issues/1): the sweep over every Why, by its [worklist](why-sweep.md). Twenty of the 21 modules are done, and Gamedev is left.
+- Close [the first filing](https://github.com/coentrify/coentrify/issues/1) once 0.0.5 lands: the sweep over every Why is done, by its [worklist](why-sweep.md).
 - Sweep every Why again once the first sweep is done, against the new bar: why the rule is needed.
 - Make the healing of the harness a choice in the onboarding: automatic, by a subagent and with a veto, or filed for the director's review. Automatic is the default for a project that is no contributor, and filing with coentrify on its own is a choice for a contributor. An agent that cannot start a subagent tells its conductor, who starts one.
 - Move the workflow rules out of Behavior, starting with Note Issues.
@@ -18,7 +18,7 @@ The versions on the way to 1.0.
 - Add a script that rebuilds the list of standards on a version page from what changed since the last tag.
 - Probe the standards again at every new model release, on new traps.
 - Probe Reload The Standards After Compacting on a long session, and in the terminal or the app, as the [worklist](relevance-vetting.md) says.
-- Sweep the Gamedev module: every law and standard is generic, says what it is relevant for, or leaves as a project specific. Own Icons comes first.
+- Sweep the Gamedev module: every law and standard is generic, says what it is relevant for, or leaves as a project specific. The standards are done, and the laws and the phases are left.
 - Vet the standards. Three of the 196 have been reviewed.
 - Test the overviews as an index: whether an agent finds the right standard through them.
 - Test on a real project: the one word, the onboarding, the reload hook and the update.
