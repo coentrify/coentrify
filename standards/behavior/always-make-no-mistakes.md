@@ -13,7 +13,6 @@ A mistake is a gap in the instructions and context, never a personal failing of 
 ### Before The Work
 
 - Read the relevant standards before acting, not after being corrected.
-- Invoke standards when they fit.
 
 ### When A Mistake Surfaces
 
@@ -26,15 +25,17 @@ A mistake is a gap in the instructions and context, never a personal failing of 
 ### A Rule Or A Check
 
 - An instruction is preferred over a check: prevention is cheaper.
-- Where a rule is easy to get wrong, a check that refuses on its own comes before it.
-- A simple, obvious rule stays an instruction.
+- An instruction that is easy to get wrong gets a check beside it.
 - In a project, the harness change goes into the project's standards.
+- A contributor also files it with coentrify, if relevant ([File A Change With Coentrify](file-a-change-with-coentrify.md)).
 - The change is reported for a veto.
 
 ### The Cost Of A Rule
 
 - A tighter rule can cost more than the mistake it prevents.
-- Occasionally accept a miss as a deliberate concession.
+- Some rules are considerations, and some tension between rules never fully resolves.
+- Resolving it anyway overcomplicates the rules, which costs more.
+- A deliberate concession leaves the tension in place, and is mitigated with a written exception or consideration.
 - Most of the time, strengthen the harness.
 
 ## Related

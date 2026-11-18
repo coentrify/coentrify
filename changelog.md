@@ -6,7 +6,8 @@ What changed in each version of coentrify. A version opens with its summary, whi
 
 Every standard has a Why now, kept to its essence: 35 got the one they lacked. Nothing in it is stable yet.
 
-- 195 standards in 21 modules: 44 changed and five came in
+- 196 standards in 21 modules: 44 changed and six came in
+- A standard on filing a change with coentrify, for a project that is a contributor
 - Always Make No Mistakes as a self-healing feedback loop, in the readme and on every page that names it
 - A gate is the whole test of a phase: its leading question and everything it takes to answer it
 - A glossary of the terms coentrify uses most, and a standard for the glossary of a project
@@ -31,6 +32,7 @@ Every standard has a Why now, kept to its essence: 35 got the one they lacked. N
 - Changed [Backward-Trace Missing Prerequisites](standards/behavior/backward-trace-missing-prerequisites.md)
 - Changed [Communication Boundary](standards/behavior/communication-boundary.md)
 - Changed [Feature Workflow](standards/behavior/feature-workflow.md)
+- Added [File A Change With Coentrify](standards/behavior/file-a-change-with-coentrify.md)
 - Changed [General Working Rules](standards/behavior/general-working-rules.md)
 - Changed [Non-Destructive Documenting and Test Automation](standards/behavior/non-destructive-documenting-and-test-automation.md)
 - Changed [Own Ports, Own Processes](standards/behavior/own-ports-own-processes.md)

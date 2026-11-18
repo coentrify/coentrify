@@ -1,0 +1,21 @@
+# File A Change With Coentrify
+
+A project that is a contributor files a harness change with coentrify, where the change holds beyond the project.
+
+## Why
+
+What one project learns reaches every project.
+
+## How to Apply
+
+- A project files only when its `coentrify.json` says `contributor: true`.
+- A change is filed as an issue at the source that `coentrify.json` names.
+- An issue holds one point, so issues close one by one.
+- Before filing, search the open issues.
+- A point that is filed already gets an addition on that issue, or a thumbs up.
+- An issue states the trigger, the proposal and the check: what happened, the rule to add, change or loosen, and whether code could catch it.
+- An issue holds no project details, since the source is public.
+
+## Related
+
+- [Always Make No Mistakes](always-make-no-mistakes.md)
