@@ -11,6 +11,7 @@ The Docs standards: documentation rules and templates.
 - [Feature Spec Template](feature-spec-template.md) - spec use cases with stable ids; start state, action, confirms
 - [Feature Template](feature-template.md) - a feature doc: summary, contents, a heading per item, aesthetics, edge cases; functional only, no UI copy, use cases live in the spec
 - [File Names](file-names.md) - a file is named after its title, in lowercase, with dashes
+- [Glossary](glossary.md) - the terms a project uses most, one entry each, described in plain words
 - [Library Feedback](library-feedback.md) - library friction is surfaced to the director in the report, never kept as a doc in the project; a workaround gets a why-comment
 - [No Faux Headers In Lists](no-faux-headers-in-lists.md) - no bold-label bullets; promote them to headings
 - [UI Vocabulary](ui-vocabulary.md) - functional UI names: drawer, sheet; never 'surface'

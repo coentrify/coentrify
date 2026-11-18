@@ -6,8 +6,8 @@ What changed in each version of coentrify. A version opens with its summary, whi
 
 Every standard has a Why now, kept to its essence: 35 got the one they lacked. Nothing in it is stable yet.
 
-- 194 standards in 21 modules: 41 changed and four came in
-- A glossary of the words coentrify uses most
+- 195 standards in 21 modules: 41 changed and five came in
+- A glossary of the terms coentrify uses most, and a standard for the glossary of a project
 - Two generic standards: a name describes its unit, and things of one kind are consistent
 - A standard on the system behind a mock: a spec test of its own, or a spec and recorded manual tests where no test can run
 - The maturity levels of a workspace stand in a standard of their own
@@ -54,6 +54,7 @@ Every standard has a Why now, kept to its essence: 35 got the one they lacked. N
 - Changed [Documentation Philosophy](standards/docs/documentation-philosophy.md)
 - Changed [Feature Spec Template](standards/docs/feature-spec-template.md)
 - Changed [Feature Template](standards/docs/feature-template.md)
+- Added [Glossary](standards/docs/glossary.md)
 - Changed [UI Vocabulary](standards/docs/ui-vocabulary.md)
 - Added [Workspace Levels](standards/docs/workspace-levels.md)
 - Changed [Workspace Suite](standards/docs/workspace-suite.md)

@@ -47,7 +47,7 @@ Coentrify gives any input a quality baseline. The creating and the deciding stay
 - [Tools](tools/overview.md) - The scripts and hooks that enforce a standard.
 - [How It Works](how-it-works.md) - From any input to what you want.
 - [Proof](proof.md) - The experiments behind the standards, with the models tested.
-- [Glossary](glossary.md) - The words coentrify uses most.
+- [Glossary](glossary.md) - The terms coentrify uses most, in plain words.
 
 ## Wiki
 
