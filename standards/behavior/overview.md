@@ -24,7 +24,7 @@ The Behavior standards: how an agent works and what an agent checks.
 - [General Working Rules](general-working-rules.md) - honest assessments, the model only for judgment calls, surface conflicts, read before you write, follow the written conventions
 - [Non-Destructive Documenting and Test Automation](non-destructive-documenting-and-test-automation.md) - doc, spec and test phases never touch production code
 - [Normal Dashes](normal-dashes.md) - always `-`, never em or en dashes
-- [Note Issues](note-issues.md) - write down every finding: debt or bug ticket, or a question; never only in chat
+- [Note Issues](note-issues.md) - write down every finding where the project's workflow says, never only in chat
 - [Own Ports, Own Processes](own-ports-own-processes.md) - own fixed non-default port per project; kill only your own PIDs; stop what you started
 - [Project Lifecycle](project-lifecycle.md) - a project is in one phase at a time, the phase decides what matters now, and a gate ends it
 - [Propagate Renames and Convention Changes Everywhere](propagate-renames-and-convention-changes-everywhere.md) - a rename or convention change updates every site; grep before and after

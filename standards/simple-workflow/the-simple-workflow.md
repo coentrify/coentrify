@@ -25,6 +25,15 @@ Everything has a place to go, with light organization that stays simple.
 - Bugs and debt usually come before new features ([Dev Tiers](../behavior/dev-tiers.md)).
 - The order is flexible, and depends on where the project is in its lifecycle ([Project Lifecycle](../behavior/project-lifecycle.md)).
 
+## Where A Finding Goes
+
+A finding in the middle of other work is filed by its kind ([Note Issues](../behavior/note-issues.md)).
+
+- Technical (smell, suppression, deprecated pattern, missing test, missing tool or process) -> the debt list ([Technical Debt Template](technical-debt-template.md)).
+- A clear bug, where the build does not do what its feature doc or spec says -> the bugs list ([Bugs Template](bugs-template.md)).
+- A functional doubt, where the intended behavior itself is unclear -> the inbox, as a question for the director, never a bug and never a fix.
+- A functional doc out of date or wrong -> a small fix rides along with the current work and the report names it; a larger gap goes in the inbox.
+
 ## Related
 
 - [Todo Template](todo-template.md)

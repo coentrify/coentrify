@@ -8,5 +8,5 @@ The Simple Workflow standards: the work tracked in flat lists.
 - [Remove Completed Items from Docs](remove-completed-items-from-docs.md) - drop completed list lines; archive tickets; no strikethrough
 - [Roadmap Template](roadmap-template.md) - the roadmap shape (Active, Priorities, Blocked, Waiting For Response, Nice To Have) and item names that show the type of work, the topic and the direction
 - [Technical Debt Template](technical-debt-template.md) - internal debt, sorted by severity, with just enough to start the work
-- [The Simple Workflow](the-simple-workflow.md) - a few flat lists, and the director asks what's next
+- [The Simple Workflow](the-simple-workflow.md) - a few flat lists, and the director asks what's next; where a finding goes
 - [Todo Template](todo-template.md) - a flat list of concrete follow-ups, one line each, stripped when done
