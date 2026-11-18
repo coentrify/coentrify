@@ -34,7 +34,7 @@ Every standard follows one template.
 
 - The rule, in one or two sentences
 - What the rule is relevant for, where the title does not say
-- Why the rule exists
+- Why the rule exists, kept to its essence, since a Why loads as often as the rule
 - How to apply the rule
 - An example, where a story helps
 - Related standards, as links
