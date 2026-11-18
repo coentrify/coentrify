@@ -40,9 +40,9 @@ Two layers can be held against each other. A gap between the two shows what is m
 
 Harmony is tension held in balance. Two forces pull in opposite directions, and neither wins. A suspension bridge stands because of tension, and so does a project.
 
-The tension lives between rules: brevity pulls at completeness, and strictness pulls at pragmatism. The tension lives between the three workers as well. Creative humans pull toward change, and rigid systems pull toward what was written. Hardworking agents do the work in between, held by both.
+The tension lives between standards and inside them: brevity pulls at completeness, and strictness pulls at pragmatism. Creative humans pull toward change, and rigid systems pull toward what was written. Agents do the work in between, held by both.
 
-Keep both sides of a tension. Decide for the case at hand, and say why. Dropping one side breaks the bridge, and averaging the two produces mush.
+Keep both sides of a tension. Fine-tune the balance between them, and weigh how far the tuning goes. Dropping one side breaks the bridge, and averaging the two produces mush.
 
 - Conflicts surfaced and settled
 - Deliberate trade-offs
