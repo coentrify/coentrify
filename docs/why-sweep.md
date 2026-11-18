@@ -31,9 +31,7 @@ AI, Angular, Architecture, Behavior, Code, Commits, Docs, E2E, Electron, Records
 
 ## Waiting For A Ruling
 
-The director has seen every line here and has not ruled on it.
-
-- Canvas Clicks by Coordinates: a new title, One Check For Many Canvas Clicks, since the rule is about time and the coordinates are only how the mouse clicks. Its Why: "A test with many canvas clicks stays inside its timeout, also on a loaded machine."
+Nothing waits at the moment.
 
 ## Not Read Yet
 

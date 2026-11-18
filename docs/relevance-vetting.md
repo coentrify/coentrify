@@ -93,7 +93,7 @@ Fifteen are probed and ruled on, with the results on the [Proof](../proof.md) pa
 
 No trap here can show the failure, so these stay.
 
-- Canvas Clicks by Coordinates fails only on a loaded machine with parallel workers.
+- One Check For Many Canvas Clicks fails only on a loaded machine with parallel workers.
 - Real Input For Frame Races needs a race between a timer and a frame.
 - Playwright Video Recording holds one fact that Playwright reports itself, and decisions beside it.
 
