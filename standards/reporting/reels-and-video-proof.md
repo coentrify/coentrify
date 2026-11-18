@@ -2,10 +2,6 @@
 
 A reel is footage of the product in use or proof that an implementation works, recorded from code on seeded scenarios, never by hand. A still is the cheaper proof; a video earns its place when motion, sound or timing is the point.
 
-## Why
-
-A reel recorded from code regenerates after every change and always shows the current build.
-
 ## Rules
 
 - A reel shows what it claims. Watch it: if nothing visible changes, it proves nothing, however green the run behind it was.

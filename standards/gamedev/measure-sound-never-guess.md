@@ -4,7 +4,7 @@ The level of a new sound is measured, never guessed.
 
 ## Why
 
-The agent cannot listen.
+What counts is the most accurate analysis of the sound.
 
 ## How to Apply
 

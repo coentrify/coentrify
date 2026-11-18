@@ -1,5 +1,9 @@
 # Playwright Video Recording
 
+## Why
+
+A recording is proof, so it has to come out sharp and whole.
+
 ## Video Options Are Per File
 
 `test.use({ video: { mode, size } })` cannot live inside a `test.describe` block; Playwright rejects it with "Cannot use({ video }) in a describe group, because it forces a new worker". A spec file is its own worker scope, so the option works at the top of a file only.

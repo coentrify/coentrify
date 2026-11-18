@@ -4,7 +4,7 @@ Every server the agent starts (dev server, preview, e2e web server) runs on a po
 
 ## Why
 
-The user is running the project too: the thing being tested is usually the thing they are using.
+More worktrees could be using the same machine, whoever runs them.
 
 ## Own Ports
 

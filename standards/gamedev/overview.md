@@ -22,7 +22,7 @@ The Gamedev standards: game development.
 - [Gamedev Working Cadence](gamedev-working-cadence.md) - the game day loop; feedback on an open version is a cutoff; full pre-push hook before the tag; nothing new after a wind-down
 - [Incremental Pacing](incremental-pacing.md) - a pacing doc per level mirroring the configuration
 - [Launch Strategy](launch-strategy.md) - how a game goes out: the quiet launch by default, the other choices, and what to weigh
-- [Measure Sound, Never Guess](measure-sound-never-guess.md) - the agent cannot listen, so a level is measured against a known sound
+- [Measure Sound, Never Guess](measure-sound-never-guess.md) - the level of a new sound is measured against a known sound, never guessed
 - [Own Icons](own-icons.md) - own icon sprite, named by concept, with a wiki index page
 - [Silent Runs](silent-runs.md) - an agent's runs of a game make no sound: muted Playwright captures for a walk, never the browser pane on a game with sound
 - [Sprite Sheet Frames](sprite-sheet-frames.md) - read frame size and row order from the sheet's pixels

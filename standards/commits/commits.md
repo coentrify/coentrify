@@ -1,5 +1,9 @@
 # Commits
 
+## Why
+
+Names are important. A title or a summary says clearly and precisely what is inside, neither too broad nor too narrow.
+
 ## Message
 
 The subject should be informative enough to grasp the change at a glance without opening the diff.

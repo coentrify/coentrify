@@ -39,8 +39,6 @@ Every standard follows one template.
 - An example, where a story helps
 - Related standards, as links
 
-A Why says what the rule is for, one step up from the rule and no further. A rule said again is no Why.
-
 A standard follows the standards. Every page is an example of the rules the page states.
 
 ## A Foundation
