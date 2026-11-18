@@ -4,17 +4,26 @@ What changed in each version of coentrify. A version opens with its summary, whi
 
 ## 0.0.4
 
-Two Read First standards get the Why they lacked, kept to its essence. Nothing in it is stable yet.
+Five standards get the Why they lacked, kept to its essence. Nothing in it is stable yet.
 
-- 190 standards in 21 modules: two changed
+- 190 standards in 21 modules: five changed
 - The template asks for a Why kept to its essence, since a Why loads as often as the rule
 - The English variant is a choice, and the recommendations say so
 - The commit check passes a standard that is back at its released text
 
 ### Behavior
 
+- Changed [Backward-Trace Missing Prerequisites](standards/behavior/backward-trace-missing-prerequisites.md)
 - Changed [General Working Rules](standards/behavior/general-working-rules.md)
 - Changed [Use US English Everywhere](standards/behavior/use-us-english-everywhere.md)
+
+### Docs
+
+- Changed [Docs Describe Behavior, Not Wiring](standards/docs/docs-describe-behavior-not-wiring.md)
+
+### Tooling
+
+- Changed [Develop Against Mocks](standards/tooling/develop-against-mocks.md)
 
 ## 0.0.3
 
