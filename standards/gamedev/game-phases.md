@@ -4,12 +4,7 @@ A game goes through four stages, and each stage holds phases. A phase ends at a 
 
 ## Why
 
-- The phases keep the work effective and efficient, and leave room for creativity.
-- Small phases give steady progress and some predictability.
-- With every phase the game is specified better, until agents can pick up the work and the playtests are few.
-- The director polices as little as possible, and stays fully creative: directing, and steering toward the vision.
-- A director can then run several games, as long as no game loses its focus.
-- A gate stands where a mistake is still cheap, so no big mistake is made.
+The game grows in steady steps, and a mistake is caught while it is still cheap.
 
 ## Three Words
 

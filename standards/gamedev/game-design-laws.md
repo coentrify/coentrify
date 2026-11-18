@@ -2,6 +2,10 @@
 
 Laws are short rules that hold unless there is a very good reason to break one. The generic set lives in the standards, in seven parts by theme, and this standard is its index. A game's own laws and overrides stand in the game's docs.
 
+## Why
+
+Design builds on what is settled, and an agent decides the small things on its own.
+
 ## The Set
 
 ### Experience
@@ -84,14 +88,9 @@ The full text is in [Game Design Laws: Own Style](game-design-laws-own-style.md)
 - [Generate, Never Reuse](game-design-laws-own-style.md#generate-never-reuse) - generate an asset, never reuse a pack
 - [Unique Where It Counts](game-design-laws-own-style.md#unique-where-it-counts) - unique in what makes the game, best practice for the rest
 
-## Why
-
-The player is a human who walks the dog, answers the door, goes to sleep and continues the next day. Laws about that human, such as Easy Pause, Never Wait and AFK Safe, translate into any genre; only their concrete shape changes. A written set with director-approved exceptions stops every design talk from starting over.
-
-The laws also give an agent room to decide small things without asking. They are flexible guidance, the navigation along the way, so the director stays out of the loop for small things.
-
 ## How to Apply
 
+- The player is a human who walks the dog, answers the door, goes to sleep and continues the next day. Laws about that human, such as Easy Pause, Never Wait and AFK Safe, translate into any genre; only their concrete shape changes.
 - A game's laws doc has three parts: the generic laws it adopts, the ones it leaves out with a reason, and its own laws and overrides in full.
 - An adopted or left-out law is named by its name in this set, never copied.
 - A law for one kind of game says so in its name or in a `Relevant for:` line, and is adopted or left out by it.

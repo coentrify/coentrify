@@ -4,10 +4,11 @@ Pacing is a game mechanic of its own. Every level gets a pacing doc under a paci
 
 ## Why
 
-The numbers decide whether a level is a grind or a rush, and the director tunes them from the doc without reading code. A table per level makes the curve visible at a glance, the tiers comparable and the gaps findable. The names in it are content the director tweaks, so they belong in a doc the director can edit.
+The director tunes a level's pacing from the doc, without reading code.
 
 ## How to Apply
 
+- A table per level makes the curve visible at a glance, the tiers comparable and the gaps findable.
 - Names of producers, upgrades, tiers, hints and units are content: the agent fills them in without asking, records them in the pacing doc and names them in the report for a veto; level names never travel between projects.
 - A new level gets a pacing proposal in the doc before its build; the build mirrors the doc.
 - An unlock gate is written as a rule the player can feel, such as the next producer after the second upgrade, with the reason next to it.

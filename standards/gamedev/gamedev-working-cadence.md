@@ -4,7 +4,7 @@ A game day runs in one loop: the director plays and writes, the conductor logs, 
 
 ## Why
 
-The director tests by hand between versions; work without a version has no name to play, and an item without proof has to be re-verified by hand. The loop keeps the playtest, the changelog and the code in step, so the next playtest reads the changelog and plays exactly that.
+Every playtest plays a named version, and knows what changed in it.
 
 ## Session Start
 
@@ -19,6 +19,7 @@ The director tests by hand between versions; work without a version has no name 
 
 ## Per Item
 
+- Every item lands with its proof, since an item without proof has to be checked again by hand.
 - The suites whose cases touch the changed labels, names and orders (grep the e2e first) run once at the end of a story, not per item; the full suites run once at the version's close.
 - While prototyping new things, per item only the cases that touch what changed run, never the whole feature suite.
 
