@@ -4,7 +4,7 @@ A small set of avoidable nits keep coming back in review. Pre-empt them when wri
 
 ## Why
 
-Each of these costs a review round on something mechanical and lint- or spec-decidable, so it should never reach a human reviewer.
+A human reviewer sees only what needs judgment.
 
 ## How to Apply
 

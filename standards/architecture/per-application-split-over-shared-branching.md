@@ -4,13 +4,15 @@ Prefer per-application components over shared components that branch on applicat
 
 ## Why
 
-Negation gates leak features when a new application lands or the backend returns an unexpected status, so an application silently inherits actions it shouldn't have; whitelists fail closed. Each branch couples a shared component to one more application's rules and makes it one more place where access can be wrong. Once branches outnumber the shared shape, the "shared" component is really N components stitched together with `if`s.
+An application orchestrates its components, so no shared component has to branch on the application.
 
 ## How to Apply
 
 - Visibility gates list the applications that should see the feature, never the ones that shouldn't.
+- A negation gate leaks a feature when a new application lands or the backend returns an unexpected status, so an application silently inherits actions it shouldn't have. A whitelist fails closed.
 - One application-specific branch in a shared component is the cap. Two or more is the signal to split or otherwise decouple; flag it as tech-debt instead of refactoring inline.
 - Duplicating two simple components beats one component with conditionals.
+- Once branches outnumber the shared shape, the shared component is really several components stitched together with `if`s.
 
 ## Example
 

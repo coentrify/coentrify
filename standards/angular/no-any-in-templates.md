@@ -12,4 +12,9 @@ onSelect(value: string): void { ... }
 
 ## Why
 
-MVC discipline. Templates that contain casts or logic fragment behavior across files and break TypeScript's ability to verify it. Reaching for `$any` is a signal that the binding type is wrong or the work belongs in TS.
+MVC discipline: the template shows, and the typed class decides.
+
+## How to Apply
+
+- A template that holds casts or logic fragments behavior across files, and TypeScript can no longer verify it.
+- Reaching for `$any` is a signal that the binding type is wrong or the work belongs in TS.

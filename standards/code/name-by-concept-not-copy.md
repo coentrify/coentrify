@@ -4,7 +4,7 @@ Identifiers carry the generic concept they represent, never the specific UI copy
 
 ## Why
 
-Copy gets reworded and localized; the concept it names does not. An identifier named after the Dutch label reads as a translation, breaks the all-English-identifiers convention, and goes stale the moment the wording changes or a second locale appears. Naming by concept keeps the code stable while the copy is free to move.
+Naming by concept keeps the code stable while the copy is free to move.
 
 ## How to Apply
 

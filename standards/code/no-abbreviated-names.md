@@ -4,7 +4,7 @@ Every identifier carries the full name of what it holds, never a single letter o
 
 ## Why
 
-A clipped name makes the reader carry "c means child" (or "c means categorical") for the whole block, and it obscures intent at the call site. Spelling it out is free; the readability cost of the abbreviation outlasts the keystrokes saved.
+An abbreviation is an unnecessary abstraction: working out what it stands for costs extra compute.
 
 ## How to Apply
 

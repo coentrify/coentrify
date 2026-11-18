@@ -4,12 +4,13 @@ Two nodes with `slot="x"` under one `@if` never reach the named slot of the pare
 
 ## Why
 
-The misplaced nodes still have a size, so an e2e visibility check passes while they render in the wrong place; only a capture shows it. The dev server prints the NG8011 warning for exactly this case.
+Projected content lands in the slot it was written for.
 
 ## How to Apply
 
 - Treat an NG8011 warning in the build log as a failure; read the dev server's log after a template change.
 - A visibility check does not prove projection; a capture or a position check does.
+- The misplaced nodes still have a size, which is why a visibility check passes on them.
 
 ## Related
 

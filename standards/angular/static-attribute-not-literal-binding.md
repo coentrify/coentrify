@@ -2,7 +2,7 @@
 
 A constant string value is a plain template attribute (`aria-label="Menu"`), never a binding wrapping a string literal (`[attr.aria-label]="'Menu'"`, `[label]="'Menu'"`). Applies to attribute bindings and component-input bindings alike.
 
-Dynamic values still need the binding: signals, `t(...)` translations, ternaries.
+Dynamic values still need the binding: signals, `t(...)` translations, ternaries. A literal never changes, so a binding around it is pure change-detection overhead and indirection.
 
 ```html
 <!-- avoid -->
@@ -15,7 +15,7 @@ Dynamic values still need the binding: signals, `t(...)` translations, ternaries
 
 ## Why
 
-The binding form exists for values that change. A literal never changes, so the binding is pure change-detection overhead and indirection, and it misleads readers into thinking the value is computed.
+A binding tells the reader that a value changes.
 
 ## Related
 

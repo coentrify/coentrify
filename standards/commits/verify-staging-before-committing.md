@@ -4,10 +4,12 @@ Before every `git commit`, read `git diff --cached --name-status` and confirm it
 
 ## Why
 
-The index is shared with everything else in the tree. A batched `git add a b c` aborts on the first bad pathspec and stages nothing new, while earlier staged changes still commit; the director stages files too; a parallel session or a capture run leaves half-done and untracked files beside yours. Each of these has swept the wrong files into a commit.
+A commit holds exactly what was meant for it.
 
 ## How to Apply
 
+- The index is shared with everything else in the tree: the director stages files too, and a parallel session or a capture run leaves half-done and untracked files beside yours.
+- A batched `git add a b c` aborts on the first bad pathspec and stages nothing new, while earlier staged changes still commit.
 - Edit and stage in one call, read the staged status, commit in the next.
   - Printing the stat in the same chained command as the commit is no check, since the commit runs regardless.
   - Never chain the add and the commit: a `git mv` or `git rm` staged early rides into an unrelated commit through `git add ... && git commit`.

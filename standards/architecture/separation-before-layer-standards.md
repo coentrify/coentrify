@@ -4,7 +4,7 @@ When cleaning up the codebase, getting app-shield layer separation clean comes f
 
 ## Why
 
-Layer placement is the structural foundation. Once each file is in the right layer, each layer can be audited against its own standards without churn; polishing a layer before its files are correctly placed means redoing that work when files later move.
+Layer placement is the foundation that the work on each layer stands on.
 
 ## How to Apply
 

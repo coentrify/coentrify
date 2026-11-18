@@ -1,10 +1,10 @@
 # Main Stays Green, Work Stays Clean
 
-Main is always green, so a version can be cut from it at any moment. Every unit of work leaves the codebase better than it found it, tests included. Agents work clean: no agent makes a mess for another to clean up.
+Main is always green. Every unit of work leaves the codebase better than it found it, tests included. Agents work clean: no agent makes a mess for another to clean up.
 
 ## Why
 
-Tests exist to fail when something breaks; a red test left standing, or marked to be ignored, teaches everyone to look past red. A human team does not let one developer leave a mess for another to tidy, and agents should not either.
+A version can be cut from main at any moment, and red always means something.
 
 ## How to Apply
 

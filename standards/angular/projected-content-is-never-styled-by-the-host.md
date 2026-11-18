@@ -4,13 +4,18 @@ A component's styles never reach content projected through `ng-content`. The con
 
 ## Why
 
-An overlay's `pointer-events: auto` for projected panels never applies, so no button takes clicks; an empty-state paragraph projected into a section renders unstyled.
+A style belongs with the component that owns the element.
 
 ## How to Apply
 
 - Style projected children from their own component, or give the host an input that renders the element itself (the section's `empty` line).
 - Put state that must affect projected content on the container the host owns (the column, not the projected panel).
 - Never reach for `::ng-deep` or `ViewEncapsulation.None` for this; treat the miss as a design smell.
+
+## Examples
+
+- An overlay's `pointer-events: auto` for projected panels never applies, so no button takes clicks.
+- An empty-state paragraph projected into a section renders unstyled.
 
 ## Related
 

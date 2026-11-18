@@ -4,7 +4,7 @@ Use the current Angular idiom over the legacy one it replaced. One legacy usage 
 
 ## Why
 
-The deprecated APIs draw review comments, carry the old `CommonModule` import weight, and drift from the framework's direction. The replacements are first-class, smaller, and (for class and style) merge cleanly with static attributes.
+The code follows where the framework is going.
 
 ## How to Apply
 

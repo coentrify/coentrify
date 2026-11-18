@@ -8,7 +8,7 @@ Anything made to be reused across projects comes in three layers. A project adop
 
 ## Why
 
-A person's time is the bottleneck, so a default that asks questions costs every project that adopts it. Configs keep the common differences cheap. Overrides let a project run ahead without waiting for the source to change.
+Less code and less time. A default just works, a flavor is thought out beforehand and easy to pick, and an override is there for the custom case and the escape hatch, only when needed.
 
 ## How to Apply
 

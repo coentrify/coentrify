@@ -4,12 +4,14 @@ Route known requests through exact matching first, and use the model only for wh
 
 ## Why
 
-A command the user relies on should behave the same every time, cost no latency, and keep working when the model is unavailable. Exact matching alone is brittle: a typo drops the user into a conversational path that may refuse them. Classifying into a fixed list is the one job small models do reliably, so the model belongs on the fallback path.
+A command the user relies on behaves the same every time, costs no latency and works without the model.
 
 ## How to Apply
 
 - Match the common phrasings deterministically, and treat that as the fast path.
+- Exact matching alone is brittle: a typo drops the user into a conversational path that may refuse them.
 - On a miss, ask the model to classify the request into a fixed list of known actions plus an explicit "none".
+- Classifying into a fixed list is the one job small models do reliably, so the model belongs on the fallback path.
 - Give the classifier worked examples, including deliberate misspellings, and negative examples for requests that merely sound like a command.
 - Build any capability or help listing from what is actually wired up, never from the model, or it will describe abilities that do not exist.
 - Keep the conversational path unable to claim it acted; only the action path may say something was done.

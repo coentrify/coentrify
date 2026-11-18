@@ -16,4 +16,4 @@ With a translate pipe:
 
 ## Why
 
-Copy is presentation. Inline copy reduces review noise on text tweaks and keeps the component class free of presentation concerns.
+Copy is presentation, and presentation lives in the template.

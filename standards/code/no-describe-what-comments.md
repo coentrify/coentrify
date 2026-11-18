@@ -4,7 +4,7 @@ Don't add comments that describe what a class/function does or which other code 
 
 ## Why
 
-Comments duplicate or drift from the code. Something like "Builds one config per entity; triggered by the selection page..." is just a call-graph paraphrase. Hardcoded routes or paths inside comments are a smell because they rot the moment a route moves.
+What the code does is said once, by the code and its names.
 
 ## How to Apply
 
@@ -14,6 +14,11 @@ Default is no comment. Only keep one for:
 - Library quirks that would tempt a wrong rewrite.
 - Workarounds for a specific bug.
 - Escape hatches that genuinely must stay.
+
+Two kinds of comment to drop on sight:
+
+- A call-graph paraphrase, such as "Builds one config per entity; triggered by the selection page...".
+- A hardcoded route or path, which rots the moment the route moves.
 
 ## Related
 

@@ -4,7 +4,7 @@ Inside any folder, sub-folders are either all **domain** (functional, by-feature
 
 ## Why
 
-Mixed folders force a reader to keep two mental models active at the same level: "is this a feature or a type?". Splitting cleanly means every level answers exactly one question. Flat is preferable to nested when neither concern dominates.
+Every level of the tree answers exactly one question.
 
 ## Examples
 
