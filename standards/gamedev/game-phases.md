@@ -28,6 +28,7 @@ The game grows in steady steps, and a mistake is caught while it is still cheap.
 - Concept is loose inside: its phases may overlap and loop back.
 - For every rule about the current phase, Concept counts as one phase.
 - From Design on, a game is in one phase at a time.
+- Every phase holds for every game, even when it is short: Pong's world is a black void, and its story can be a single line.
 - The page of a phase carries the leading question of its gate in a `Gate:` line.
 - No gate closes Live, since the game is an everlasting project.
 
