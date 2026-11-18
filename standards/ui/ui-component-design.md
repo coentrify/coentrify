@@ -2,6 +2,10 @@
 
 Shared UI components encapsulate UI behavior and presentation. They hold no app-specific data, render no app-controlled behavior and expose clear extension points for the consumer.
 
+## Why
+
+Components stay reusable, and all of them behave in a similar, expected way.
+
 ## Pure UI
 
 UI components own no app-specific assets (logos, illustrations), copy (including translation strings and their defaults), env values, or interactive controls the page should own (a logout button, a dialog's confirm button). Everything app-specific flows in from the consumer.

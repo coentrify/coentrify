@@ -2,6 +2,10 @@
 
 The work is tracked in a few flat lists, and the director asks one question: what's next?
 
+## Why
+
+Everything has a place to go, with light organization that stays simple.
+
 ## The Lists
 
 - Inbox - anything goes in, as a flat list of points

@@ -4,13 +4,17 @@ What changed in each version of coentrify. A version opens with its summary, whi
 
 ## 0.0.4
 
-Seven standards get the Why they lacked, kept to its essence. Nothing in it is stable yet.
+Ten standards get the Why they lacked, kept to its essence. Nothing in it is stable yet.
 
-- 191 standards in 21 modules: seven changed and one came in
+- 191 standards in 21 modules: ten changed and one came in
 - A standard on the system behind a mock: a spec test of its own, or a spec and recorded manual tests where no test can run
 - The template asks for a Why kept to its essence, since a Why loads as often as the rule
 - The English variant is a choice, and the recommendations say so
 - The commit check passes a standard that is back at its released text
+
+### Angular
+
+- Changed [Prefer Content Projection over Props (Angular)](standards/angular/prefer-content-projection-over-props-angular.md)
 
 ### Behavior
 
@@ -24,6 +28,10 @@ Seven standards get the Why they lacked, kept to its essence. Nothing in it is s
 
 - Changed [Docs Describe Behavior, Not Wiring](standards/docs/docs-describe-behavior-not-wiring.md)
 
+### Simple Workflow
+
+- Changed [The Simple Workflow](standards/simple-workflow/the-simple-workflow.md)
+
 ### Tests
 
 - Added [Test The System Behind A Mock](standards/tests/test-the-system-behind-a-mock.md)
@@ -31,6 +39,10 @@ Seven standards get the Why they lacked, kept to its essence. Nothing in it is s
 ### Tooling
 
 - Changed [Develop Against Mocks](standards/tooling/develop-against-mocks.md)
+
+### UI
+
+- Changed [UI Component Design](standards/ui/ui-component-design.md)
 
 ## 0.0.3
 
