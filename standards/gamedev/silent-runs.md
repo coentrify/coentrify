@@ -4,10 +4,11 @@ Every run of a game the agent starts is silent.
 
 ## Why
 
-The director works beside the agent, and sound from a preview an agent opened plays on until someone closes it in that agent's session, breaking the director's focus.
+The director's focus stays unbroken.
 
 ## How to Apply
 
+- The director works beside the agent, and sound from a preview an agent opened plays on until someone closes it in that agent's session.
 - A preview already open on a game is stopped at once.
 - The agent never starts a game session for the director to look at: the director runs the game, or checks the acceptance captures and videos.
 

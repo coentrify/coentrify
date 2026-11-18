@@ -4,7 +4,7 @@ The level of a new sound is measured, never guessed.
 
 ## Why
 
-What counts is the most accurate analysis of the sound.
+Every sound sits at the right level beside the others.
 
 ## How to Apply
 

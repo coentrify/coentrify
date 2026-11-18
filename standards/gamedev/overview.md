@@ -26,4 +26,3 @@ The Gamedev standards: game development.
 - [Own Icons](own-icons.md) - own icon sprite, named by concept, with a wiki index page
 - [Silent Runs](silent-runs.md) - an agent's runs of a game make no sound: muted Playwright captures for a walk, never the browser pane on a game with sound
 - [Sprite Sheet Frames](sprite-sheet-frames.md) - read frame size and row order from the sheet's pixels
-- [Stabilize Before Adding](stabilize-before-adding.md) - while stabilizing, only bugs and tweaks; new things go later

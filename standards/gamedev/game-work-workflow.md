@@ -17,7 +17,7 @@ What is specific to a game stands in one place, and the Work Workflow stays gene
 ## Intake
 
 - Playtest feedback gets its playtest file first, kept by the conductor, then its units go through intake ([Playtest Files](../records/playtest-files.md)).
-- While a version stabilizes, anything new waits for its epic ([Stabilize Before Adding](stabilize-before-adding.md)).
+- While a version stabilizes, anything new waits for its epic ([Stabilize Before Adding](../tickets-workflow/stabilize-before-adding.md)).
 
 ## Design Ticket Types
 
