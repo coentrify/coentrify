@@ -20,6 +20,7 @@ An issue holds no project details, since the repository is public.
 
 - When work from an issue lands, a comment on the issue says what was done, and names the version it ships in.
 - An issue closes once every point in it is processed.
+- A closing keyword in a pull request closes the issue on merge, so it is used only once every point in the issue is processed.
 - When only a remainder is left, the issue closes as well, and the remainder moves to an issue of its own.
 
 ## Branches
