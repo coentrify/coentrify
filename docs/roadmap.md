@@ -18,7 +18,6 @@ The versions on the way to 1.0.
 - Add a script that rebuilds the list of standards on a version page from what changed since the last tag.
 - Probe the standards again at every new model release, on new traps.
 - Probe Reload The Standards After Compacting on a long session, and in the terminal or the app, as the [worklist](relevance-vetting.md) says.
-- Sweep the Gamedev module: every law and standard is generic, says what it is relevant for, or leaves as a project specific. The standards are done, and the laws and the phases are left.
 - Vet the standards. Three of the 196 have been reviewed.
 - Test the overviews as an index: whether an agent finds the right standard through them.
 - Test on a real project: the one word, the onboarding, the reload hook and the update.
