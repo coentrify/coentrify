@@ -32,7 +32,10 @@ Every module.
 
 ## Waiting For A Ruling
 
-Nothing waits at the moment.
+The second sweep, against the new bar, read every module again.
+
+- App-Shield - its Why says the rule again
+- Commits - its Why speaks of names, while the standard holds the message, the ticket prefix, attribution and size
 
 ## Not Read Yet
 

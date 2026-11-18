@@ -10,7 +10,7 @@ The versions on the way to 1.0.
 ## Next
 
 - Close [the first filing](https://github.com/coentrify/coentrify/issues/1) once 0.0.5 lands: the sweep over every Why is done, by its [worklist](why-sweep.md).
-- Sweep every Why again once the first sweep is done, against the new bar: why the rule is needed.
+- Sweep every Why again against the new bar: why the rule is needed. Two wait for a ruling, by the [worklist](why-sweep.md).
 - Make the healing of the harness a choice in the onboarding: automatic, by a subagent and with a veto, or filed for the director's review. Automatic is the default for a project that is no contributor, and filing with coentrify on its own is a choice for a contributor. An agent that cannot start a subagent tells its conductor, who starts one.
 - Move the workflow rules out of Behavior. Note Issues is done.
 - Make the tools generic: `pick.sh`, `main-checks.sh` and `docs-commit.sh` take their checks as arguments, and the wrap-up hook becomes a spec.
