@@ -2,11 +2,11 @@
 
 The rules, conventions and templates a project adopts.
 
-## Make No Mistakes
+## Always Make No Mistakes
 
-[Make No Mistakes](standards/behavior/always-make-no-mistakes.md) is the core of the standards. `make no mistakes` is a meme, and coentrify gave the words a job: every mistake that is caught becomes a standard or a check.
+[Always Make No Mistakes](standards/behavior/always-make-no-mistakes.md) is the core of the standards. `make no mistakes` is a meme, and coentrify gave the words a job: every mistake that is caught becomes a standard or a check.
 
-The system heals itself. A mistake that became a check cannot happen again.
+The system heals itself. A caught mistake gets fixed twice: once in the work, and once in the harness.
 
 The system personalizes itself. Every fix comes from the project's own mistakes, so the standards grow toward the project.
 

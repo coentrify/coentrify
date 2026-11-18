@@ -91,7 +91,7 @@ Four legs, no spares.
 
 - The project has one shared truth, and the checks keep that truth honest.
 - A conflict between two rules is settled once, in the open.
-- A mistake becomes a rule or a check, so the same mistake happens once.
+- A caught mistake strengthens the harness, so the system heals itself and keeps learning.
 - The director is free for judgment, taste and creation.
 
 ## Will AI Replace You?

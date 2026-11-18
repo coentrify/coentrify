@@ -117,7 +117,7 @@ A difference that grows over time, because one layer or rule changed and the rel
 
 ### The Loop
 
-The feedback cycle of the system: a mistake or a gap is turned into a standard or a check, so it does not happen again ([How It Works](how-it-works.md#the-loop)).
+The self-healing feedback cycle of the system. A mistake or a gap that is caught gets fixed twice: once in the work, and once in the harness, as a standard or a check. Round after round the system stabilizes, and adapts to its director, its agents and its project ([How It Works](how-it-works.md#the-loop)).
 
 ### Sweep
 

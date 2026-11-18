@@ -4,6 +4,8 @@ Humans direct. Systems check. Agents work.
 
 Coentrify is a harness for working with AI in a spec-driven way: standards, checks and tools, resting on four principles.
 
+Every caught mistake strengthens the harness, so the system heals itself and keeps learning.
+
 ## Quick Start
 
 To coentrify a project is to align the project with spec-driven development.
@@ -27,6 +29,16 @@ The dream version of vibe coding is a one-prompt wonder. For example:
 The result will have elements of both games, along with bugs, assumptions and random creative choices. If you expect a perfect game, you're going to have a bad time.
 
 An agent can build anything. Without a functional specification, anything is what you'll get.
+
+## Always Make No Mistakes
+
+Mistakes keep happening, to every person and every system, and that is expected.
+
+[Always Make No Mistakes](standards/behavior/always-make-no-mistakes.md) builds a self-healing feedback loop into the project. A mistake or a gap that is caught gets fixed twice: once in the work, and once in the harness, as a standard or a check.
+
+A mistake can still come back. Round after round the system learns: it slowly stabilizes, and it adapts to its director, its agents and its project.
+
+The [proof](proof.md) page shows the loop at work.
 
 ## What Is Spec-Driven Development?
 
