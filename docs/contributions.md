@@ -10,6 +10,13 @@ How an issue or an addition to this repository is handled.
 
 An issue holds no project details, since the repository is public.
 
+### One Point Per Issue
+
+- An issue holds one point, so issues close one by one.
+- Before filing, an agent searches the open issues.
+- A point that is filed already gets an addition on that issue, or a thumbs up.
+- A filing with several points is split into an issue for each.
+
 ## Closing An Issue
 
 - When work from an issue lands, a comment on the issue says what was done, and names the version it ships in.
