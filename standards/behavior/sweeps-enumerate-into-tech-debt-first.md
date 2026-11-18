@@ -4,7 +4,7 @@ A sweep for a pattern begins by finding every instance and listing them in one d
 
 ## Why
 
-The inventory is the real deliverable: a clean, actionable list of every place to fix. A partial fix hides the instances left behind and reads as done. Enumerating up front also lets the work pause and resume across sessions, and keeps the count honest.
+The inventory is the real deliverable: a list of every place to fix.
 
 ## How to Apply
 

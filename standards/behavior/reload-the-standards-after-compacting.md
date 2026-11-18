@@ -4,7 +4,7 @@ After a compaction, read the Read First standards again.
 
 ## Why
 
-When an agent's context is compacted, a summary takes the place of what the agent read. The standards go with it, and an agent that carries on works from memory of them.
+An agent works from the standards themselves, at every point in a session.
 
 ## How to Apply
 

@@ -4,7 +4,7 @@ The workspace is layered in more than one dimension, and the layers drift apart 
 
 ## Why
 
-Each layer rests on the one above it. A gap - a feature with no spec, a spec case with no test, a doc describing behavior the code does not have - stays invisible until it causes trouble downstream. Catching drift early is cheaper than tracing it back later. The rules drift too, and code written before a rule changed is as real a gap as a missing test.
+The layers stay in step, and drift is caught while it is cheap.
 
 ## How to Apply
 

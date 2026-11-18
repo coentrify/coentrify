@@ -4,7 +4,7 @@ When the director calls a piece of work prototyping (a throwaway tool, a one-pag
 
 ## Why
 
-A prototype grown into a layered tool before the director can try it once loses the point of prototyping: the director wants to hear or click the idea, fast.
+The director wants to hear or click the idea, fast.
 
 ## How to Apply
 

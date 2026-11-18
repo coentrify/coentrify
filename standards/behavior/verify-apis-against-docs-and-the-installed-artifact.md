@@ -4,7 +4,7 @@ When a dependency is pinned and the docs disagree with it, the installed artifac
 
 ## Why
 
-Docs, types and training data each drift on their own. Live docs describe the newest release, so a name that is right in general can be wrong for the version the project sits on. The shipped types lag, and some behavior is never typed at all. Training data blurs several versions; only the installed code is what actually runs.
+The installed code is what runs, so it decides.
 
 ## How to Apply
 

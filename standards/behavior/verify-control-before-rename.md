@@ -4,7 +4,7 @@ When asked to rename a UI label or control, first trace it to its handler and th
 
 ## Why
 
-A rename executed first can name a concept the control does not drive, often one with a field of its own already, and flagging the collision afterward costs extra rename rounds.
+A label says what its control does.
 
 ## How to Apply
 

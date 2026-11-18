@@ -4,7 +4,7 @@ When a standard and a skill conflict, the standard wins. Skills are starting poi
 
 ## Why
 
-Skills are shared, generic, and may lag the project's actual habits. The standards are curated to match how the project works. Letting the skill override a standard drifts the agent back to default patterns the director has already corrected away from.
+The standards hold how this project works, so they come first.
 
 ## How to Apply
 

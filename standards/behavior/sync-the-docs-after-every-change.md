@@ -4,7 +4,7 @@ When something changed or a feature landed, check the docs for related informati
 
 ## Why
 
-A feature's own doc gets updated when it is built, while the docs that mention it in passing drift. Every duplicate statement is a place to go stale.
+The docs are up to date at all times.
 
 ## How to Apply
 

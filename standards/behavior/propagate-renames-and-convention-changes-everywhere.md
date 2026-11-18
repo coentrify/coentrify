@@ -4,7 +4,7 @@ When you rename a concept, file, route, or label, or change a doc/code conventio
 
 ## Why
 
-A rename or convention change almost never lives in one place.
+A name or a convention reads the same in every place.
 
 ## How to Apply
 

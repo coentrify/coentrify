@@ -4,7 +4,7 @@ Look at each capture the pipeline produced before the report, and check it again
 
 ## Why
 
-A regression that sits in a picture already on the page still reaches the director, who then has to point it out. Seeded content and new art can also compose into an offensive shape. The same eyes that verify a diff verify the captures.
+A capture is proof, so it is checked before the director sees it.
 
 ## How to Apply
 

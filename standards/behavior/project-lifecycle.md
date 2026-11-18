@@ -4,7 +4,7 @@ A project is in one phase at a time, and the phase decides what matters now.
 
 ## Why
 
-The same work is right in one phase and wasted in another. A prototype needs speed, and a product in production needs care.
+The same work is right in one phase and wasted in another.
 
 ## How to Apply
 

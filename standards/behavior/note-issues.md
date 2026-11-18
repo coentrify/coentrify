@@ -4,7 +4,7 @@ When you encounter a problem during other work (bug, code smell, lint suppressio
 
 ## Why
 
-Issues found in passing are easy to forget once the current work is shipped. Silent suppression compounds: every workaround that goes unnoted becomes invisible debt.
+Every finding is kept, so all debt stays visible.
 
 ## Where to Note
 
