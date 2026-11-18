@@ -13,3 +13,7 @@ Mocks make testing automated and repeatable, and development smoother.
 - Mocks are committed code, encapsulated outside the code they stub ([Non-Destructive Documenting and Test Automation](../behavior/non-destructive-documenting-and-test-automation.md)); the thing being mocked stays untouched.
 - New mockable behavior extends the existing mock layer. Never fork a one-off bypass or inline a dev-mode conditional.
 - A temporary hack inside a guard, service, or interceptor is the wrong tool. Promote it to the mock layer or note it ([Note Issues](../behavior/note-issues.md)).
+
+## Related
+
+- [Test The System Behind A Mock](../tests/test-the-system-behind-a-mock.md)

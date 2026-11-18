@@ -6,7 +6,8 @@ What changed in each version of coentrify. A version opens with its summary, whi
 
 Seven standards get the Why they lacked, kept to its essence. Nothing in it is stable yet.
 
-- 190 standards in 21 modules: seven changed
+- 191 standards in 21 modules: seven changed and one came in
+- A standard on the system behind a mock: a spec test of its own, or a spec and recorded manual tests where no test can run
 - The template asks for a Why kept to its essence, since a Why loads as often as the rule
 - The English variant is a choice, and the recommendations say so
 - The commit check passes a standard that is back at its released text
@@ -22,6 +23,10 @@ Seven standards get the Why they lacked, kept to its essence. Nothing in it is s
 ### Docs
 
 - Changed [Docs Describe Behavior, Not Wiring](standards/docs/docs-describe-behavior-not-wiring.md)
+
+### Tests
+
+- Added [Test The System Behind A Mock](standards/tests/test-the-system-behind-a-mock.md)
 
 ### Tooling
 
