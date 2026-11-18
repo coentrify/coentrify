@@ -1,5 +1,7 @@
 # Playwright Parallel Runs
 
+Playwright runs share the machine lightly, and end in a result that can be trusted.
+
 ## Why
 
 Runs on a shared machine should not get in each other's way, and each should end in a result that can be trusted.

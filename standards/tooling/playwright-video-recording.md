@@ -1,5 +1,7 @@
 # Playwright Video Recording
 
+A Playwright recording sets its video options per file, and its variants share one flow.
+
 ## Why
 
 A recording is proof, so it has to come out sharp and whole.

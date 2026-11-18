@@ -2,6 +2,10 @@
 
 The project docs are served as a VitePress wiki on a fixed non-default port, started by one npm script and open from the first minute of a session. The sidebar is generated from the docs folder, the pages hot reload, every image opens in a lightbox, and the wiki builds in the pre-push hook so a broken page never lands.
 
+## Why
+
+The director reviews the docs, changelogs, captures and reels in the wiki while the agent works.
+
 ## Setup
 
 - The sidebar mirrors the docs folder tree ([Docs Folder Structure](../docs/docs-folder-structure.md)), generated, with no page listed by hand.
@@ -19,10 +23,6 @@ The project docs are served as a VitePress wiki on a fixed non-default port, sta
 - Videos sit in the public folder and embed with a plain video tag.
 - A bare word in angle brackets in a page, `<name>`, reads as an html tag and fails the build; it goes in code marks.
 - A hosts-file domain is a stopgap not worth keeping; the URL with the port is the bookmark.
-
-## Why
-
-The director reads the wiki while the agent works: it is the review surface for docs, changelogs, captures and reels. A generated sidebar means a new page is reachable the moment it exists, and the lightbox with the arrow keys turns a changelog's captures into a slideshow.
 
 ## How to Apply
 
