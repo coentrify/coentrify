@@ -1,20 +1,25 @@
-#!/bin/zsh
-# The conductor's checks on main, gated: refuses mid-pick or while another pick runs, then runs the named checks by exit code.
-# usage: main-checks.sh hygiene [types] [unit] [wiki] [devbuild]
+#!/usr/bin/env bash
+# The checks on the main branch, gated: refuses mid-pick or while a pick runs, then runs each named
+# npm script and prints its exit code. A failed check leaves its output in a log, and the script
+# exits with the last failure.
+# usage: main-checks.sh <npm-script>...   such as: main-checks.sh test:hygiene test:types build:wiki
+# PICK_REPO names the repository (the current folder by default).
+set -u
 cd "${PICK_REPO:-$PWD}" || exit 2
-[[ -e .git/CHERRY_PICK_HEAD ]] && { echo "refused: a pick is in progress, the tree is half merged"; exit 3; }
-[[ -d .git/pick.lock ]] && { echo "refused: a pick is running beside these checks"; exit 3; }
-[[ $# -ge 1 ]] || { echo "refused: no checks named; usage: main-checks.sh hygiene [types] [unit] [wiki] [devbuild]"; exit 2; }
+gitdir="$(git rev-parse --git-dir)" || exit 2
+[[ -e "$gitdir/CHERRY_PICK_HEAD" ]] && { echo "refused: a pick is in progress, the tree is half merged"; exit 3; }
+[[ -d "$gitdir/pick.lock" ]] && { echo "refused: a pick is running beside these checks"; exit 3; }
+[[ $# -ge 1 ]] || { echo "refused: no checks named; usage: main-checks.sh <npm-script>..."; exit 2; }
 rc=0
-for c in "$@"; do
-  case $c in
-    hygiene) npm run test:hygiene >/dev/null 2>&1 ;;
-    types) npm run test:types >/dev/null 2>&1 ;;
-    unit) npm run test:unit >/dev/null 2>&1 ;;
-    wiki) npm run build:wiki >/dev/null 2>&1 ;;
-    devbuild) node_modules/.bin/ng build --configuration development >/dev/null 2>&1 ;;
-    *) echo "unknown check $c"; exit 2 ;;
-  esac
-  r=$?; echo "$c $r"; [[ $r -ne 0 ]] && rc=$r
+for check in "$@"; do
+  log="${TMPDIR:-/tmp}/main-checks-${check//[^A-Za-z0-9_-]/-}.log"
+  npm run --silent "$check" >|"$log" 2>&1
+  status=$?
+  if [[ $status -eq 0 ]]; then
+    echo "$check 0"
+  else
+    echo "$check $status, see $log"
+    rc=$status
+  fi
 done
 exit $rc

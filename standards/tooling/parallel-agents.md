@@ -25,8 +25,8 @@ Agents that work at the same time should not conflict.
 ## Landing
 
 - Every landing goes through `tools/scripts/pick.sh`: one commit per pick, in a command of its own, never in parallel with a pick or anything else. The script refuses while a pick is in progress, the tree has tracked changes or the branch is not main, and takes a lock.
-- The checks on main go through `tools/scripts/main-checks.sh` with the checks named (hygiene, types, unit, wiki, devbuild; a docs landing names hygiene and wiki at least), which refuses mid-pick and with none named.
-- A docs commit outside a landing goes through `tools/scripts/docs-commit.sh "<message>" <paths>`, which runs hygiene and commits only on its exit code.
+- The checks on main go through `tools/scripts/main-checks.sh` with the checks named as npm scripts, such as the hygiene, types, unit and wiki checks and the development build; a docs landing names hygiene and the wiki at least. The script refuses mid-pick and with none named.
+- A docs commit outside a landing goes through `tools/scripts/docs-commit.sh --check <npm-script> "<message>" <paths>`, hygiene among the checks, which commits only when every check exits 0.
 - After any `git cherry-pick --abort`, `git cherry main <branch>` runs before a landing is reported.
 - Picks from different agents compose on main in an order none of them verified: after picks that touch shared files, and always before telling the director a batch has landed, the development build runs on main and its warnings are read.
 - A landing that changes the app's shell, its routes, how screens load or what boots first gets the whole browser suite on main right after it lands.
