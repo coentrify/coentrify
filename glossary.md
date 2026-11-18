@@ -67,11 +67,11 @@ A standard that holds one part of a larger standard. Its title starts with the t
 
 ### Use Case
 
-One scenario of a feature: a start state, an action by the user and the expected result.
+The smallest complete flow in a product: one thing a user does, from a start state to a result. A feature consists of several use cases.
 
 ### Spec
 
-The list of the use cases of one feature. Every use case has an id that never changes ([Feature Spec Template](standards/docs/feature-spec-template.md)).
+The list of the use cases of one feature, each written out as steps. Every use case has an id that never changes ([Feature Spec Template](standards/docs/feature-spec-template.md)).
 
 ### Layer
 
@@ -99,7 +99,7 @@ The stage of development a project is in, such as prototype or production. The p
 
 ### Gate
 
-The condition that ends a phase, stated as one question. The answer moves the project to the next phase or back to the previous one.
+The test that a phase has to pass before it ends: the definition of done of the phase.
 
 ## Keeping It Right
 
