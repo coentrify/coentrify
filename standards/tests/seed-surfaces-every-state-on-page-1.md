@@ -4,10 +4,11 @@ When a feature paginates and a test asserts contrast between states (A and B vis
 
 ## Why
 
-A correct test can fail with "element not found" because the state it asserts lives past the seed's first page: the data exists, but pagination hides it at the entry point. This is easy to misdiagnose as a broken assertion when the fault is the seed ordering.
+A test fails only for the property it tests.
 
 ## How to Apply
 
+- An "element not found" for a state past the first page looks like a broken assertion, while the fault is the seed's order.
 - Before writing an e2e test that combines pagination and contrast, scan the seed and confirm every state the test names is in the first-page slice.
 - If reordering the seed isn't an option (shared fixture data ordered for another reason), open with a filter or sort that surfaces the contrast first, then assert.
 

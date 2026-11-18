@@ -25,3 +25,7 @@ A project with docs, specs and recordings can carry more.
 ## A Worked Example Of The Loop
 
 One real mistake, the standard it became, and the next session not repeating it. Demos over status reports, applied to coentrify itself.
+
+## Edge Cases That No Longer Happen
+
+A bug from real use becomes an edge case the tests guard. Over time some of those cases can no longer happen, and the tests grow heavy with them. Something to watch for, and maybe a standard.

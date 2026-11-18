@@ -4,7 +4,7 @@ For any test that observes a state change - a toggle, a switch, an open/close, a
 
 ## Why
 
-A test that only asserts the new positive state passes for free when both states are always visible, a real bug class where the switch never swaps and only adds the new state beside the old. The within-test negative proves one state replaced the other.
+A test proves that the new state replaced the old one.
 
 ## How to Apply
 
