@@ -28,7 +28,7 @@ The worklist for the sweep over every Why. A standard leaves the list once the d
 
 ## Done
 
-AI, Angular, Architecture, Behavior, Code, Commits, Docs, E2E, Electron, Records, Reporting, Scripts, Security, Simple Workflow, Tests, Tickets Workflow and Tooling.
+AI, Angular, Architecture, Behavior, Code, Commits, Docs, E2E, Electron, Records, Reporting, Scripts, Security, Simple Workflow, Tests, Tickets Workflow, Tooling and TypeScript.
 
 ## Waiting For A Ruling
 
@@ -36,4 +36,4 @@ Nothing waits at the moment.
 
 ## Not Read Yet
 
-Gamedev, TypeScript, UI and Web.
+Gamedev, UI and Web.
