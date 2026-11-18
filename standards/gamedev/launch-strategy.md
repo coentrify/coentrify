@@ -4,16 +4,17 @@ A game picks how it goes out. The default is the quiet launch: the full game on 
 
 ## Why
 
+A game meets its players at its best, the first time they hear of it.
+
+## The Quiet Launch
+
 - A good game sells itself.
-- A game hits hardest the first time a player hears of it. A wishlist spends that moment, and the second look has to convince more.
+- A wishlist spends the first moment a player hears of the game, and the second look has to convince more.
 - A game wishlisted on its potential is checked at the release, and removed when the potential is not there. It takes a big game to come back from that.
 - Issues show with a small crowd first, and are fixed before many players meet them.
 - No promise is made that may see a bad follow-through.
 - It carries [Respect](game-design-laws-experience.md#respect) to the time before the purchase.
 - It is for a small studio. A big studio launches another way.
-
-## The Quiet Launch
-
 - The full game is released on day one. No wishlist campaign comes before it, and no demo on the store page.
 - The store page is set up before the release and stays unpublished, for internal review and testing.
 - The one thing that travels is a video of the game being played: someone enjoying the main loop, or an interesting moment.
