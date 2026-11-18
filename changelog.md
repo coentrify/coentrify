@@ -6,7 +6,8 @@ What changed in each version of coentrify. A version opens with its summary, whi
 
 Every standard has a Why now, kept to its essence: 35 got the one they lacked. Nothing in it is stable yet.
 
-- 195 standards in 21 modules: 43 changed and five came in
+- 195 standards in 21 modules: 44 changed and five came in
+- Always Make No Mistakes as a self-healing feedback loop, in the readme and on every page that names it
 - A gate is the whole test of a phase: its leading question and everything it takes to answer it
 - A glossary of the terms coentrify uses most, and a standard for the glossary of a project
 - Two generic standards: a name describes its unit, and things of one kind are consistent
@@ -26,6 +27,7 @@ Every standard has a Why now, kept to its essence: 35 got the one they lacked. N
 ### Behavior
 
 - Added [A Name Describes Its Unit](standards/behavior/a-name-describes-its-unit.md)
+- Changed [Always Make No Mistakes](standards/behavior/always-make-no-mistakes.md)
 - Changed [Backward-Trace Missing Prerequisites](standards/behavior/backward-trace-missing-prerequisites.md)
 - Changed [Communication Boundary](standards/behavior/communication-boundary.md)
 - Changed [Feature Workflow](standards/behavior/feature-workflow.md)

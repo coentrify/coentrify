@@ -1,6 +1,6 @@
 # Always Make No Mistakes
 
-Use your standards on every task. Mistakes still happen, to every person and every system, and that is expected. What matters is the response: catch it, correct it, and strengthen the harness so the same mistake can't recur.
+Use your standards on every task. Mistakes still happen, to every person and every system, and that is expected. What matters is the response: catch it, correct it, and strengthen the harness, so the system heals itself and keeps learning.
 
 The harness is the standards, checks and tools an agent works within.
 
