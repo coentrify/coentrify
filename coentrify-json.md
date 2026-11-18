@@ -19,6 +19,7 @@ The onboarding writes `coentrify.json`, and the director changes it after.
   "workflow": "simple",
   "records": ["changelog"],
   "wiki": "vitepress",
+  "healing": "automatic",
   "modules": {
     "behavior": {
       "always-make-no-mistakes": "tracked",
@@ -33,7 +34,9 @@ The onboarding writes `coentrify.json`, and the director changes it after.
 - `folders` - where the docs and the standards live
 - `workflow`, `records`, `wiki` - the choices from the onboarding
 - `modules` - every standard taken from coentrify, by module, with its state
+- `healing` - who makes a harness change: `automatic` by default, where a subagent makes it and the report names it for a veto, or `review`, where it is filed for the director
 - `contributor` - left out by default. Set to `true`, the project may file changes at the source.
+- `filing` - for a contributor: `review` by default, where the director looks at an issue before it is filed at the source, or `automatic`, where the subagent files it on its own
 
 A module whose standards come from somewhere else can carry a `source` of its own.
 
@@ -59,5 +62,6 @@ A standard the changelog does not name needs no attention.
 - A folder the file names has to exist.
 - A standard the file lists has to be on disk.
 - A state is `tracked` or `customized`.
+- `healing` and `filing` are `automatic` or `review`, and `filing` stands only beside `contributor: true`.
 
 With `--staged`, as a pre-commit step, the check also refuses a commit that changes a tracked standard by hand. The commit passes once the state is `customized`, or when the commit changes the version, as an update does.
