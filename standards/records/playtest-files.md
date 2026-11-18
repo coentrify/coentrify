@@ -4,10 +4,11 @@ Every playtest gets its own file in `docs/records/playtests/`, dated and numbere
 
 ## Why
 
-Kept apart from the changelog, which says what was built, the playtest file records what was felt about it, so the pair shows whether a build answered the feedback. Playtest numbers give the director and the playtesters a shared name for a session.
+A playtest file records what was felt about a build, and the next build is held against it.
 
 ## The File
 
+- The number gives the director and the playtesters a shared name for a session.
 - The H1 carries the number and the DEV day, the way the log's does: `# Playtest 46 - DEV day 13`, so the wiki's menu shows it. The head repeats the day (`- Day: DEV day 13`), counted as in the log ([Request Log](request-log.md)).
 - A playtest on an untagged build names the version in progress.
 - The summary is two or three lines naming the themes; the items stay in the list.

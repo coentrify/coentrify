@@ -4,7 +4,7 @@ Every version gets its own page in `docs/records/changelog/<version>.md`, listed
 
 ## Why
 
-The changelog is the list the director plays a version against: which tickets landed in it. Each ticket holds its summary and its proof, so the changelog says it once by linking them. A generated list also never conflicts between builders landing in parallel.
+A changelog says what a version holds: for testing it, for sharing it and for migrating to it.
 
 ## The Page
 

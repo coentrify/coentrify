@@ -46,11 +46,10 @@ The director has seen every line here and has not ruled on it. A remark of the d
 
 ### E2E
 
-- Canvas Clicks by Coordinates: the director reads it as a rule for accuracy, and its text speaks of time under load. That is settled before a Why is written.
+- Canvas Clicks by Coordinates: a new title, One Check For Many Canvas Clicks, since the rule is about time and the coordinates are only how the mouse clicks. Its Why: "A test with many canvas clicks stays inside its timeout, also on a loaded machine."
 - E2E Mock Contract: "The constants are the protocol between the layers, so every side shares one copy."
 - E2E Runs On The Development Build: "The suites exist to catch development errors, and only the development build shows them."
 - E2E Tests Must Demonstrate Behavior: "A green test shows the feature working, to anyone who watches the recording."
-- Per-Feature Overview Test: "An overview video per feature isolates that feature: for onboarding a user or a director, for showing a stakeholder and for visual testing." The director asked for this line after calling the first one too explaining.
 - Real Input For Frame Races: "Tests stay as close to real usage as possible, down to the timing of a click."
 - Substring Locator Collisions: "A locator finds one element, whatever other text is on the page."
 - Use the E2E Pipeline for Browser Probing: "The project already has a browser harness, and using it asks the director for no extra permissions."
@@ -63,8 +62,6 @@ The director has seen every line here and has not ruled on it. A remark of the d
 ### Records
 
 - Activity Log: "The director sees the progress of a project at a glance, and a new session starts from the last one."
-- Changelog Per Version: "A changelog says what a version holds: for testing it, for sharing it and for migrating to it." The director called a Why about playing a version alone misleading.
-- Playtest Files: "A playtest file records what was felt about a build, and the next build is held against it."
 - Request Log: "Every doc and ticket can be checked against the words that produced it."
 
 ### Reporting
@@ -74,7 +71,6 @@ The director has seen every line here and has not ruled on it. A remark of the d
 ### Scripts
 
 - No npx in Scripts: "A script runs what the lock file declares, online or offline."
-- npm Script Naming: "A script's name says what it runs and for which context." The director called the first line too specific and too much of a solution.
 - Thin Wrappers in CI and Hooks: "Every behavior is found in `package.json`, and runs the same from CI, a hook or by hand."
 
 ## Not Read Yet
