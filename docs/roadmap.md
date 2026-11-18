@@ -15,7 +15,6 @@ The versions on the way to 1.0.
 - Move the workflow rules out of Behavior, starting with Note Issues.
 - Make the tools generic: `pick.sh`, `main-checks.sh` and `docs-commit.sh` take their checks as arguments, and the wrap-up hook becomes a spec.
 - Switch on the commit gate hook for sessions in this repository, so a commit that follows a `git add` in the same command is refused here as well.
-- Add a script that rebuilds the list of standards on a version page from what changed since the last tag.
 - Probe the standards again at every new model release, on new traps.
 - Probe Reload The Standards After Compacting on a long session, and in the terminal or the app, as the [worklist](relevance-vetting.md) says.
 - Vet the standards. Three of the 196 have been reviewed.
