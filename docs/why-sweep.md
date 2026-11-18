@@ -32,7 +32,7 @@ AI, Angular, Architecture, Behavior, Code, Commits, Docs, E2E, Electron, Records
 
 ## Waiting For A Ruling
 
-Nothing waits at the moment.
+- The Conductor - its Why is about context and working on many things at once, as well as the director's time
 
 ## Not Read Yet
 

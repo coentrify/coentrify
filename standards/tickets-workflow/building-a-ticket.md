@@ -4,7 +4,7 @@ The builder's page: how a ticket with its go is built, and when it counts as don
 
 ## Why
 
-Every ticket is built and called done the same way.
+The director can trust a ticket that is called done.
 
 ## Building
 

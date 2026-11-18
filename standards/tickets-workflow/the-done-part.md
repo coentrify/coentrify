@@ -4,7 +4,7 @@ The builder writes the Done part into a ticket in its landing commit: a bulleted
 
 ## Why
 
-Done means demonstrated.
+The director can tell quickly whether the work is really done.
 
 ## How to Apply
 
