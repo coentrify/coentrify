@@ -34,7 +34,7 @@ The Behavior standards: how an agent works and what an agent checks.
 - [Reload The Standards After Compacting](reload-the-standards-after-compacting.md) - after a compaction, read the Read First standards again, by a hook where the agent has one
 - [Review Changes Before Reporting Done](review-changes-before-reporting-done.md) - before claiming done, check the relevant standards and surface changes you did not make
 - [Review Every Capture Before Reporting](review-every-capture-before-reporting.md) - read every capture for regressions, caption match and unintended shapes
-- [Standards Maintenance](standards-maintenance.md) - a periodic sweep for bloat, stale rules, duplicates, drift and dead links, with a word budget per standard
+- [Standards Maintenance](standards-maintenance.md) - a periodic sweep for bloat, stale rules, duplicates, drift and dead links, with a word budget per standard; how a standard is added
 - [Standards Over Skills](standards-over-skills.md) - on conflict the standard wins; fix the skill's contradicted line
 - [Sweeps Enumerate Into Tech-Debt First](sweeps-enumerate-into-tech-debt-first.md) - a sweep lists every instance in one debt ticket before fixing
 - [Sync The Docs After Every Change](sync-the-docs-after-every-change.md) - after a landing, grep the docs for its terms and fix what went stale; update every reference
