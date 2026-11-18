@@ -4,7 +4,7 @@ Code you write or extend should follow the established conventions, whatever the
 
 ## Why
 
-The path of least resistance (one more member on a bare union, one more type in a bundle file, one more deep-path import) matches the file, so it slips through diff review, and it compounds every time it happens. Catching it at write-time is far cheaper than a later cleanup pass.
+Any work should add value. Debt detracts from it.
 
 ## How to Apply
 

@@ -4,7 +4,7 @@ Pick work in a fixed order, higher tiers first: CI/CD and build, then bugs, then
 
 ## Why
 
-Adding features on top of a red build or known bugs compounds the mess, and bugs are no fun for the user.
+Work builds on a stable foundation. An unstable one invites issues and rework, which is costly.
 
 ## How to Apply
 

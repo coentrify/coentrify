@@ -4,7 +4,7 @@ Anything that goes into the product or its docs that the director did not ask fo
 
 ## Why
 
-An addition that slips in unnamed may be liked, but the director never got to decide it. [Docs Hold Only What the Director Decided](docs-hold-only-what-the-director-decided.md) guards the same thing for docs.
+The director decides on everything that goes in.
 
 ## How to Apply
 
@@ -15,5 +15,6 @@ An addition that slips in unnamed may be liked, but the director never got to de
 
 ## Related
 
+- [Docs Hold Only What the Director Decided](docs-hold-only-what-the-director-decided.md)
 - [Honest Assessments](general-working-rules.md#honest-assessments)
 - [Work Tracking](../tickets-workflow/work-tracking.md)

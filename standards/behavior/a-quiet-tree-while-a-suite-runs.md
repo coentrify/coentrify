@@ -4,7 +4,7 @@ Make no source edits while a browser suite runs against a watching dev server.
 
 ## Why
 
-The server sees every save and rebuilds the app under the tests, so a half-written state, a field used before it is declared, breaks the build for whatever cases run in that window. The failures look real and are not, and the rerun costs the whole run's duration.
+Tests should run in a stable environment.
 
 ## How to Apply
 
