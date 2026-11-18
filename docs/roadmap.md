@@ -9,7 +9,7 @@ The versions on the way to 1.0.
 
 ## Next
 
-- Finish [the first filing](https://github.com/coentrify/coentrify/issues/1): a Why for the 21 standards without one, a sweep over every Why at the end, the Harmony rewrite and the two voices, and the loop in the readme once it can be shown.
+- Finish [the first filing](https://github.com/coentrify/coentrify/issues/1): a Why for the ten standards without one, then a sweep over every Why, each a goal or a principle that is written actively, the Harmony rewrite and the two voices, and the loop in the readme once it can be shown.
 - Move the workflow rules out of Behavior, starting with Note Issues.
 - Make the tools generic: `pick.sh`, `main-checks.sh` and `docs-commit.sh` take their checks as arguments, and the wrap-up hook becomes a spec.
 - Probe the standards again at every new model release, on new traps.
@@ -27,7 +27,6 @@ The versions on the way to 1.0.
 - Whether Always Work from a Plan keeps its title, now that its rule is conditional.
 - Whether the changelog gets a page per version, with the summaries on an index, as Changelog Per Version says for a project.
 - Whether the first round of the vetting is probed again on hard traps, with every shrunk standard tested shrunk and in full.
-- Whether a part page, of the laws or the phases, needs a Why of its own.
 - Whether Game Design Laws: Progress and Gamedev Working Cadence are split, since both are past the size of one standard.
 - Whether Reels And Video Proof keeps its line that the agent cannot listen, now that Measure Sound, Never Guess dropped it.
 - Whether the commit check refuses a changelog entry for a standard that is back at its released text.

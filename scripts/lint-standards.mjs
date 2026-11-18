@@ -13,6 +13,8 @@ const VERSION_HEADING = /^## /m;
 const VERSION_TAG_PATTERN = 'v[0-9]*';
 const MARKDOWN_LINK = /\]\(([^)#]+\.md)\)/g;
 const WHY_HEADING = /^## (Why|Purpose)$/m;
+const TITLE = /^# (.+)$/m;
+const PART_SEPARATOR = ': ';
 const RELEVANT_FOR_HEADING = '## Relevant For';
 const SECTION_HEADING = /^## /;
 const LIST_ITEM = /^- (.+)$/;
@@ -128,10 +130,27 @@ function moduleLinkNotes() {
   return notes;
 }
 
+function isPartPage(standard, titles) {
+  const [module] = standard.split('/');
+  const title = titles.get(standard);
+  const separator = title.indexOf(PART_SEPARATOR);
+  if (separator === -1) {
+    return false;
+  }
+  const parentTitle = title.slice(0, separator);
+  return [...titles].some(
+    ([other, otherTitle]) => other !== standard && other.startsWith(`${module}/`) && otherTitle === parentTitle,
+  );
+}
+
 function missingWhyNotes() {
-  return standardsOnDisk()
-    .filter((standard) => !WHY_HEADING.test(readFileSync(join(STANDARDS_FOLDER, standard), 'utf8')))
-    .map((standard) => `${STANDARDS_FOLDER}/${standard} has no Why section`);
+  const texts = new Map(
+    standardsOnDisk().map((standard) => [standard, readFileSync(join(STANDARDS_FOLDER, standard), 'utf8')]),
+  );
+  const titles = new Map([...texts].map(([standard, text]) => [standard, text.match(TITLE)?.[1] ?? '']));
+  return [...texts]
+    .filter(([standard, text]) => !WHY_HEADING.test(text) && !isPartPage(standard, titles))
+    .map(([standard]) => `${STANDARDS_FOLDER}/${standard} has no Why section`);
 }
 
 function pagesOnDisk() {

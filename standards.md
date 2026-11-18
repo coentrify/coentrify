@@ -39,7 +39,7 @@ Every standard follows one template.
 - An example, where a story helps
 - Related standards, as links
 
-A Why lets an agent judge a case the rule did not foresee.
+A Why lets an agent judge a case the rule did not foresee. The Why of a part page, such as Game Design Laws: Experience, stands on its parent.
 
 A standard follows the standards. Every page is an example of the rules the page states.
 
