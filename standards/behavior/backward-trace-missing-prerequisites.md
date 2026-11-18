@@ -4,7 +4,7 @@ When the next step in the [Feature Workflow](feature-workflow.md) needs infrastr
 
 ## Why
 
-A bypass hides the gap, and the next feature hits it again.
+A gap is closed once, for every feature after it.
 
 ## How to Apply
 

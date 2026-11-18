@@ -2,6 +2,10 @@
 
 Tests are organized along the [App-Shield](../architecture/app-shield.md) layers. Each layer has its own test profile and tests only what that layer is responsible for; lower-layer behavior is assumed to work because it has its own tests there.
 
+## Why
+
+A failing test points at the layer that broke.
+
 ## Test Profile per Layer
 
 - ui - presentational components, design tokens. Unit + integration + styleguide.
@@ -26,10 +30,6 @@ Each test type mocks the backend at exactly one layer, never at two for the same
 
 - A fast subset (affected or critical path) runs on every change; the full suite runs on a nightly schedule.
 - Reports upload as build artifacts every run; expensive diagnostics (traces, videos, screenshots) only on failure.
-
-## Why
-
-A failing test points at the layer that broke.
 
 ## How to Apply
 

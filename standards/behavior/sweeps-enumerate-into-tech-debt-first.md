@@ -4,7 +4,7 @@ A sweep for a pattern begins by finding every instance and listing them in one d
 
 ## Why
 
-The inventory is the real deliverable: a list of every place to fix.
+A sweep fixes every instance, with none missed.
 
 ## How to Apply
 

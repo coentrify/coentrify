@@ -2,6 +2,10 @@
 
 The five-layer architecture for front-end web apps. Every file in the workspace belongs to exactly one layer; dependencies flow one direction only. Keeping each piece in its proper layer is what shields the app against creep.
 
+## Why
+
+Each layer has one job and one direction it depends on.
+
 ## The Five Layers
 
 ### ui
@@ -31,10 +35,6 @@ Environment shape, types, and configuration tokens. Pure types/interfaces and DI
 - core depends on config.
 - ui is standalone - depends only on design-system packages, nothing else in the workspace.
 - Never reach upwards (e.g. core importing from app).
-
-## Why
-
-Each layer has one job and one direction it depends on.
 
 ## How to Apply
 

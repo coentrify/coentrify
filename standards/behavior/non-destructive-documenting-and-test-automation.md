@@ -4,7 +4,7 @@ Observation phases - docs, spec, mocks, test automation - describe what exists a
 
 ## Why
 
-A fix made while documenting or testing slips in unreviewed.
+Production code changes only in implementation, where it is reviewed.
 
 ## How to Apply
 

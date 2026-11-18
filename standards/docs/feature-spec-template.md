@@ -77,7 +77,7 @@ Example:
 
 ## Why
 
-The feature doc says what a feature is, and the spec says how to verify it. Manual testing, e2e and the docs share one set of stable ids.
+A feature is verified the same way by hand and by e2e, through one set of use cases.
 
 ## Related
 

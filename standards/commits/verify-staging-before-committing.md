@@ -4,7 +4,7 @@ Before every `git commit`, read `git diff --cached --name-status` and confirm it
 
 ## Why
 
-A commit holds exactly what was meant for it.
+No one else's work is swept into a commit, and nothing meant for it is left behind.
 
 ## How to Apply
 

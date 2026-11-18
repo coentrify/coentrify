@@ -1,5 +1,7 @@
 # E2E Test Conventions
 
+An e2e test walks a user route, sits in its feature's spec file, and is named and tagged after its use case.
+
 ## Why
 
 What the spec says and what the tests verify should be easy to check against each other.

@@ -4,7 +4,7 @@ Prefer per-application components over shared components that branch on applicat
 
 ## Why
 
-An application orchestrates its components, so no shared component has to branch on the application.
+A shared component stays simple, free of every application's branches.
 
 ## How to Apply
 

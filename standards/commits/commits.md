@@ -1,5 +1,7 @@
 # Commits
 
+A commit message names the change at a glance, with a ticket's id where there is one and no attribution. A commit holds one unit a reviewer wants to see.
+
 ## Why
 
 Names are important. A title or a summary says clearly and precisely what is inside, neither too broad nor too narrow.
