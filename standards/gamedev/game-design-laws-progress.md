@@ -10,10 +10,10 @@ The game has a start and an end. That also counts for prestige and new game plus
 
 The game is as long as it is interesting, not the other way around.
 
-- no level, scene or story beat has a target length; everything is there as it should be
-- nothing is stretched to fill a playtime, and nothing is cut to meet one
-- a fast player goes fast
-- the game ends while the player still wants more
+- No level, scene or story beat has a target length; everything is there as it should be
+- Nothing is stretched to fill a playtime, and nothing is cut to meet one
+- A fast player goes fast
+- The game ends while the player still wants more
 
 ## Doable 100%
 

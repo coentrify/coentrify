@@ -12,10 +12,12 @@ Relevant for: dialog.
 
 Part of what makes a game good is that the player can miss something, which gives them a reason to read.
 
-- no dialog has arrows to walk its lines again
-- a line missed stays missed
+- No dialog has arrows to walk its lines again
+- A line missed stays missed
 
 ## Dialog Gives Context
+
+Relevant for: dialog.
 
 Dialog accompanies what is on screen as its narrative: it gives the player the context the picture alone leaves out, what is going on, who is there and what is at stake.
 
