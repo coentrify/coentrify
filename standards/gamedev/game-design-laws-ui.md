@@ -12,7 +12,7 @@ The app feels alive: something is always moving on screen, things happen. Action
 
 ## No Hard Edges
 
-No sharp edge exists anywhere unless it is necessary. Every panel, button, row and box has rounded corners, and so does everything the scenes draw, a screen on a wall included. A corner stays sharp only when the thing itself would read wrong rounded.
+No sharp edge exists anywhere unless it is necessary. Every panel, button, row and box has rounded corners, if only slightly, and so does everything the scenes draw, a screen on a wall included. A corner stays sharp only when the thing itself would read wrong rounded.
 
 ## Glow In Contrast
 
@@ -36,10 +36,10 @@ Relevant for: PC.
 
 The game plays best on a mouse and its wheel, the way most gamers play; a trackpad is taken into account for accessibility, never at the mouse's cost.
 
-- every notch of a wheel moves a list by one step, at once, however fast the wheel turns
-- a trackpad's small movements add up to a step, so a list stays usable on one
-- a close icon carries a lot of padding: a bigger button is easier to click
-- every click in the game acts on the press, never waiting for the release, so it feels snappier
+- Every notch of a wheel moves a list by one step, at once, however fast the wheel turns
+- A trackpad's small movements add up to a step, so a list stays usable on one
+- A close icon carries a lot of padding: a bigger button is easier to click
+- Every click in the game acts on the press, never waiting for the release, so it feels snappier
 
 ## Related
 
