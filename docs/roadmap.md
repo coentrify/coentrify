@@ -12,6 +12,7 @@ The versions on the way to 1.0.
 - Finish [the first filing](https://github.com/coentrify/coentrify/issues/1): a sweep over every Why, each a goal or a principle that is written actively. The Read First standards are done, and 0.0.4 follows the sweep.
 - Move the workflow rules out of Behavior, starting with Note Issues.
 - Make the tools generic: `pick.sh`, `main-checks.sh` and `docs-commit.sh` take their checks as arguments, and the wrap-up hook becomes a spec.
+- Switch on the commit gate hook for sessions in this repository, so a commit that follows a `git add` in the same command is refused here as well.
 - Probe the standards again at every new model release, on new traps.
 - Probe Reload The Standards After Compacting on a long session, and in the terminal or the app, as the [worklist](relevance-vetting.md) says.
 - Sweep the Gamedev module: every law and standard is generic, says what it is relevant for, or leaves as a project specific. Own Icons comes first.
