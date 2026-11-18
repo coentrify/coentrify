@@ -4,7 +4,7 @@ Per-feature functional docs follow the hierarchical page shape: summary, content
 
 ## Purpose
 
-The functional source of truth for a single feature, the product as decided: a new joiner or a tester should grasp what the feature does. Basis for the spec, the e2e tests and the feature's tickets. Pairs with a [spec](feature-spec-template.md).
+The functional source of truth for a single feature, the product as decided: a reader should grasp what the feature does. Basis for the spec, the e2e tests and the feature's tickets. Pairs with a [spec](feature-spec-template.md).
 
 ## Sections
 

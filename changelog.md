@@ -6,11 +6,11 @@ What changed in each version of coentrify. A version opens with its summary, whi
 
 25 standards get the Why they lacked, kept to its essence. Nothing in it is stable yet.
 
-- 191 standards in 21 modules: 29 changed and one came in
+- 191 standards in 21 modules: 30 changed and one came in
 - A standard on the system behind a mock: a spec test of its own, or a spec and recorded manual tests where no test can run
 - The template asks for the goal or the principle behind a rule as its Why, in a line or two
 - The Why of a part page stands on its parent, and the check leaves the part out
-- Four docs standards speak of a reader, where a PM or QA stood
+- Five docs standards speak of a reader, where a PM, QA or a new joiner stood
 - The English variant is a choice, and the recommendations say so
 - The commit check passes a standard that is back at its released text
 
@@ -46,6 +46,7 @@ What changed in each version of coentrify. A version opens with its summary, whi
 - Changed [Docs Describe Behavior, Not Wiring](standards/docs/docs-describe-behavior-not-wiring.md)
 - Changed [Documentation Philosophy](standards/docs/documentation-philosophy.md)
 - Changed [Feature Spec Template](standards/docs/feature-spec-template.md)
+- Changed [Feature Template](standards/docs/feature-template.md)
 - Changed [UI Vocabulary](standards/docs/ui-vocabulary.md)
 
 ### E2E
