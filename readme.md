@@ -32,7 +32,7 @@ An agent can build anything. Without a functional specification, anything is wha
 
 ## Always Make No Mistakes
 
-Mistakes keep happening, to every person and every system, and that is expected.
+Mistakes keep happening, and that is expected.
 
 [Always Make No Mistakes](standards/behavior/always-make-no-mistakes.md) builds a self-healing feedback loop into the project. A mistake or a gap that is caught gets fixed twice: once in the work, and once in the harness, as a standard or a check.
 
