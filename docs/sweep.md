@@ -7,7 +7,6 @@ The worklist from a sweep over every standard, the top-level pages, the tools an
 
 ## Rules That Contradict
 
-29. The simple workflow pulls from a technical roadmap that no template defines.
 30. The UI Styleguide starts late, and every component gets its page as it is built.
 31. Game Work Workflow uses Veto for the agent's line, against the glossary.
 32. Walk The User's Journey shows nothing unmet, and the game laws show locked rows grayed out.
