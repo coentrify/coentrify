@@ -7,4 +7,4 @@ The Code standards: rules that hold in any language.
 - [Name By Concept, Not Copy](name-by-concept-not-copy.md) - identifiers name the concept, never the UI copy
 - [No Abbreviated Names](no-abbreviated-names.md) - spell out every identifier
 - [No Describe-What Comments](no-describe-what-comments.md) - no comments describing what code does. Behavior lives in docs
-- [Pre-empt Recurring Code-Review Nits](pre-empt-recurring-code-review-nits.md) - pre-empt recurring review nits and lint-enforce them
+- [Pre-Empt Recurring Code-Review Nits](pre-empt-recurring-code-review-nits.md) - pre-empt recurring review nits and lint-enforce them

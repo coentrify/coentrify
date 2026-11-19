@@ -1,6 +1,6 @@
 # Workspace Suite
 
-A coentrified workspace grows until it holds every deliverable of the suite. A missing item becomes an epic on `roadmap.md` per [Workspace Template](workspace-template.md).
+A coentrified workspace grows until it holds every deliverable of the suite. A missing item becomes work the way [Workspace Template](workspace-template.md) says.
 
 ## Why
 

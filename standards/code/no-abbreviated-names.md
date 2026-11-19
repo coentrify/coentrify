@@ -12,9 +12,9 @@ An abbreviation is an unnecessary abstraction: working out what it stands for co
 - In SCSS, name map keys and loop variables for what they are: `@each $modifier, $color in ...`, keys like `categorical-1`, not `c1`.
 - Class/BEM modifiers spell out the concept: `--categorical-1`, `--brand`, not `--c1`.
 - When the source getter, signal, or token already has a good name, reuse it.
-- Enforce it with a lint rule ([Pre-empt Recurring Code-Review Nits](pre-empt-recurring-code-review-nits.md)).
+- Enforce it with a lint rule ([Pre-Empt Recurring Code-Review Nits](pre-empt-recurring-code-review-nits.md)).
 
 ## Related
 
 - [Code Principles](code-principles.md)
-- [Pre-empt Recurring Code-Review Nits](pre-empt-recurring-code-review-nits.md)
+- [Pre-Empt Recurring Code-Review Nits](pre-empt-recurring-code-review-nits.md)

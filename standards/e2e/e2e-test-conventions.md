@@ -26,15 +26,15 @@ The test title is the use-case name: no "happy path", no flow prefix, no ID pref
 - Happy path is the use case as-is: `Create User`, `Edit User`, `User List`.
 - Edge cases append ` - <Variant>` with a spaced dash: `Create User - Invalid Email`, `Edit User - Error`, `Delete User - Cancel`.
 - The per-feature overview is `<Feature> - Overview`, one per feature spec ([Per-Feature Overview Test](per-feature-overview-test.md)).
-- The cross-feature application demo, one per application, is `<Application> Demo`. An application is not a feature, so the title says "Demo". The describe block and its single test carry the same name.
+- The cross-feature application overview, one per application, is `<Application> - Overview`, the same as a feature's. The describe block and its single test carry the same name.
 
 ## Tags
 
 - `@<use-case-id>` - the stable ID from the feature's spec.md (`@create-user-1`), always present on per-flow tests ([Feature Spec Template](../docs/feature-spec-template.md)).
 - `@<feature-id>-overview` - the per-feature overview, no use-case number.
-- `@<application-id>-overview` - the application demo, with an optional variant suffix: `@<application-id>-overview-<variant>`.
+- `@<application-id>-overview` - the application overview, with an optional variant suffix: `@<application-id>-overview-<variant>`.
 - Both overview tags also prefix the narrated demo reel's output filename. No separate ticket tag is needed.
-- `@demo` - on the per-feature overview and the application demo.
+- `@demo` - on the per-feature overview and the application overview.
 - `@error` - only on unhappy paths. Reports color the chip red. Happy is the absence of `@error`, so there is no `@happy`.
 - Modular features: once an application needs module folders (`features/users/`, `features/authentication/`), the feature takes its module as a prefix: `@users-create-user-1`. Flat until that earns its keep.
 - Pattern tags - only for a cross-feature, user-perceived category that filtering benefits from:

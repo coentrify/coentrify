@@ -20,5 +20,5 @@ Only even majors enter LTS. An odd major is a Current release, deprecated once t
 
 ## Related
 
-- [Pre-empt Recurring Code-Review Nits](../code/pre-empt-recurring-code-review-nits.md)
+- [Pre-Empt Recurring Code-Review Nits](../code/pre-empt-recurring-code-review-nits.md)
 - [Things Of One Kind Are Consistent](../behavior/things-of-one-kind-are-consistent.md)

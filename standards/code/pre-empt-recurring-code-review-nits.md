@@ -1,4 +1,4 @@
-# Pre-empt Recurring Code-Review Nits
+# Pre-Empt Recurring Code-Review Nits
 
 Pre-empt the known recurring review nits while writing the code. When review checks a convention by eye, make tooling enforce it so it stops recurring.
 
