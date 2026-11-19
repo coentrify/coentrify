@@ -22,7 +22,7 @@ What the game shows is support for the player's decisions: it answers the questi
 
 ## Adopt, Repeat, Confirm (ARC)
 
-A pattern to apply, not a strict rule. Every new thing is introduced in five steps, one new thing per link.
+Every new thing is introduced in five steps, shaped to fit the thing, one new thing per link.
 
 - Awareness: the feature is seen, no action yet
 - Trigger: the conditions for the action are met

@@ -32,9 +32,10 @@ A story cutscene plays once per save, the first time its moment comes. Every lat
 
 ## AFK Safe
 
-The player can always be away, planned, unplanned or urgent, without negative effects from the game state. This goes two ways: nothing dies, nothing is lost and no events are missed while away, and nothing auto progresses either. No blocking pop-ups that stop the game until OK is clicked.
+The player can always be away, planned, unplanned or urgent, without negative effects from the game state. This goes two ways: nothing dies, nothing is lost and no events are missed while away, and nothing progresses beyond what the player set running. No blocking pop-ups that stop the game until OK is clicked.
 
-- In an incremental game the factory keeps running while the player is away: currency increases, and nothing destructive or progressive happens without the player in control.
+- What the player set running keeps running until the player pauses it: a factory produces, perhaps until its materials run out, and currency grows.
+- Nothing upgrades on its own, and no raid or heavy debuff lands while the player is away.
 
 ## Easy Pause
 
