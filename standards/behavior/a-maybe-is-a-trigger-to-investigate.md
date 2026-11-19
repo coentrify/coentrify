@@ -1,6 +1,6 @@
 # A Maybe Is A Trigger To Investigate
 
-When the director phrases an idea as a maybe, look into it in the same go. Listing it under not done with an offer to build it on a yes is the wrong outcome.
+When the director phrases an idea as a maybe, look into it in the same pass. Listing it under not done with an offer to build it on a yes is the wrong outcome.
 
 ## Why
 

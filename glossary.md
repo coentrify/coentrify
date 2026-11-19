@@ -85,6 +85,10 @@ Evidence that the director can verify without reading code: a screenshot, a vide
 
 The director's explicit approval to start one named piece of work ([A Go Before Work Elsewhere](standards/behavior/a-go-before-work-elsewhere.md)).
 
+### Pass
+
+One stretch of an agent's work on a request, from taking it up to reporting it. Done in the same pass means done before the report, with no new go needed.
+
 ### Maybe
 
 An idea that the director mentions without deciding on it. An agent investigates it at once and reports the outcome ([A Maybe Is A Trigger To Investigate](standards/behavior/a-maybe-is-a-trigger-to-investigate.md)).
@@ -97,7 +101,7 @@ The director's rejection of a choice that an agent made on its own. An agent lis
 
 The stage of development a project is in, such as prototype or production. The phase determines which work has priority ([Project Lifecycle](standards/behavior/project-lifecycle.md)).
 
-### Gate
+### Phase Gate
 
 The test that a phase has to pass before it ends: the definition of done of the phase.
 

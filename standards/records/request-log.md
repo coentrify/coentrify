@@ -19,7 +19,7 @@ Every doc and ticket can be checked against the words that produced it.
 - A question the director asks is logged too, since the answer shapes the project.
 - Past entries only get typo fixes.
 - New understanding gets a new entry.
-- The log entry is committed as its own `docs(log)` commit, in the same go as what was parsed from it. Never left uncommitted waiting for a go.
+- The log entry is committed as its own `docs(log)` commit, in the same pass as what was parsed from it. Never left uncommitted waiting for a go.
 - The raw chat transcripts stay where the tool keeps them, on disk and uncommitted. The log is the curated record. Now and then a debt ticket schedules a gap analysis of the raw transcripts against the log and the docs, looking for interpretation errors.
 
 ## Related

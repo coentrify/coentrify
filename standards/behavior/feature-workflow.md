@@ -14,7 +14,7 @@ A feature is built on intent and context, never on guesses.
 - E2E tests, failing first ([E2E Test Conventions](../e2e/e2e-test-conventions.md)).
 - Implement use case by use case, in mock state ([Develop Against Mocks](../tooling/develop-against-mocks.md)).
 - Regression-test the affected area.
-- Proof: a screenshot, a video, a test run or whatever fits, that tells the user the feature is done and lets them verify it themselves. Proof the user cannot check is no proof ([Reels And Video Proof](../reporting/reels-and-video-proof.md)).
+- Proof: a screenshot, a video, a test run or whatever fits, that tells the director the feature is done and lets the director verify it. Proof the director cannot check is no proof ([Reels And Video Proof](../reporting/reels-and-video-proof.md)).
 
 The laws a project adopted are weighed in the spec, in a step of their own, and small steps keep the focus.
 

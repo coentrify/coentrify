@@ -1,6 +1,6 @@
 # Develop Against Mocks
 
-Daily development runs against mocks: auth, user identity, app context, API responses. Real backends are exercised only by the user, manually.
+Daily development runs against mocks: auth, user identity, app context, API responses. Real backends are exercised only by the director, by hand.
 
 ## Why
 

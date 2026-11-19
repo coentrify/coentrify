@@ -10,7 +10,7 @@ Done means it works, and only the matching check shows that.
 
 - Pick the verification surface that matches the change: browser preview for UI, e2e run for spec edits, type check for type changes, unit run for logic, lint for style-rule fixes, build for tooling.
 - Run it before declaring done. "I read the diff" never substitutes for "I ran the check" when a check exists.
-- If no automated check exists for the change, name what is being skipped and why, so the user can decide whether to verify manually.
+- If no automated check exists for the change, name what is being skipped and why, so the director can decide whether to verify manually.
 - Never frame the absence of a browser preview as a reason to skip verification.
 
 ## Related
