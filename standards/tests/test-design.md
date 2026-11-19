@@ -36,6 +36,7 @@ Each test type mocks the backend at exactly one layer, never at two for the same
 ## How To Apply
 
 - When adding a test, pick the profile from its layer.
+- A check that needs no browser is a unit test, never an e2e case.
 - When behavior spans layers, test it once at the highest layer involved (usually app via e2e).
 - Set coverage thresholds only after the test design has stabilized. Start with critical-path coverage and tighten over time.
 

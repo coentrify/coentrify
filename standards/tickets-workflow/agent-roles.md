@@ -12,17 +12,7 @@ Every message from the director is handled at once, while the work keeps landing
 
 ## The Builder
 
-- Its own pages are [Building A Ticket](building-a-ticket.md) and [The Done Part](the-done-part.md).
-- Builds one story in a worktree of its own: the story's tickets in order, one in flight, a commit per ticket.
-- Stays until the story's verdict: it works the director's findings in as they come back as tickets, and ends once the story is accepted.
-- Never carries on into a next story and is never compacted: a next story gets a fresh builder, since the code, the docs and the Done parts hold what it needs.
-- Never judges its own context: a story is sized in refinement to fit one. A builder that stops anyway is replaced by a fresh one on the same worktree, the commits and the Done parts its handover.
-- While one of its tickets waits on a question ([Building A Ticket](building-a-ticket.md#building)), it builds the story's ready tickets on.
-- Before each next ticket, reads its story from main with the project's plan script, never from its memory of the brief: messages wait until its turn ends, and a builder working its queue runs one long turn.
-- Never waits for the conductor's merge: it starts each next ticket on its own last finished one, so its tickets form a stack, keeps going and reports every ticket it finishes. The conductor lands the stack in order.
-- The stack never falls far behind main: it is rebased onto main after each commit, so a conflict stays small ([Parallel Agents](../tooling/parallel-agents.md)).
-- Never merges into main itself.
-- A builder on debt takes debt that was found, never a mess another agent just made ([Main Stays Green, Work Stays Clean](../commits/main-stays-green-work-stays-clean.md)).
+- Its own page is [The Builder](the-builder.md), and how it builds a ticket is in [Building A Ticket](building-a-ticket.md) and [The Done Part](the-done-part.md).
 
 ## The Docs Agent
 
@@ -48,22 +38,15 @@ Every message from the director is handled at once, while the work keeps landing
 
 - The ticket it works, linked. Its acceptance criteria are the target ([Work Workflow](work-workflow.md)).
 - The setup commands, exact and with absolute paths.
-- Never a list of standards to read in full, and never a summary of them: the Core Rules and the index load by themselves, and the agent opens the standards its work touches.
-- The branch only ever holds commits ready to land. A commit is never amended once made, and a fix goes in as a new commit.
-- A criterion is measured once and proved from that run. A measure that cannot hold goes back to the conductor, who restates it under Veto or asks the director.
-- Before each commit: hygiene, types and unit, each by its exit code ([Gate Commits On Exit Codes](../commits/gate-commits-on-exit-codes.md)).
-- Run only what the change affects: the specs of every feature that uses what it touched, and the reels and captures that cross it. Never every suite at once.
-- A check that needs no browser is a unit test, never an e2e case.
-- Every browser it runs is muted where the product plays sound ([Silent Runs](../gamedev/silent-runs.md)).
+- Never a list of standards to read in full, and never a summary of them: the Core Rules and the index load by themselves, and the agent opens the standards its work touches, [The Builder](the-builder.md) and [Building A Ticket](building-a-ticket.md) among them.
 - An agent adding use cases to a spec gets a fixed id range of its own, written in the brief and read from the specs' own ids per prefix across every spec file.
-- A fact about the product's content is grepped in the docs and the log first, never recalled.
 - The director's log entry is cited by the time its append printed, so the log is written before the brief goes out.
 - The director's words and the conductor's own calls are kept apart in the brief ([Docs State Knowledge](../docs/docs-state-knowledge.md)).
-- No personal data of the director's ever goes into a web request, a User-Agent included.
 
 ## Related
 
 - [The Conductor](the-conductor.md)
+- [The Builder](the-builder.md)
 - [Building A Ticket](building-a-ticket.md)
 - [Work Workflow](work-workflow.md)
 - [Parallel Agents](../tooling/parallel-agents.md)

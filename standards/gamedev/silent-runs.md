@@ -1,6 +1,6 @@
 # Silent Runs
 
-Every run of a game the agent starts is silent.
+Every run the agent starts of a product with sound, a game above all, is silent.
 
 ## Why
 
