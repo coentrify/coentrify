@@ -9,6 +9,7 @@ The versions on the way to 1.0.
 
 ## Next
 
+- Work through the [standards check](standards-check.md): twelve rulings first, then the bloat, the structure and the mechanical fixes.
 - Probe the standards again at every new model release, on new traps.
 - Probe Reload The Standards After Compacting on a long session, and in the terminal or the app, as the [worklist](relevance-vetting.md) says.
 - Test on a real project: the one word, the onboarding, the reload hook and the update.
