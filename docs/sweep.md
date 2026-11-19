@@ -7,7 +7,6 @@ The worklist from a sweep over every standard, the top-level pages, the tools an
 
 ## Rules That Contradict
 
-12. Playtest notes share a commit with their log entry, and a log commit holds only the log.
 13. A feature doc describes routes and use cases, and the Feature Template forbids both.
 14. The application's overview test is `<Application> Demo` in one page and `<Application> - Overview` in another.
 15. Core holds pure logic in Test Design, and no business logic in App-Shield.
