@@ -14,6 +14,8 @@ and writes the new version to coentrify.json. The rest stays with the agent, as 
 - a new standard in a module the project adopted, worth considering
 - the unlink script, once the replaced standards bring their links back
 """
+from __future__ import annotations
+
 import json
 import re
 import subprocess

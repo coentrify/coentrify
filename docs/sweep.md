@@ -4,7 +4,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Install And Update
 
-1. The update script is committed without its executable bit, so the command in Commands fails, and it needs Python 3.10 where a stock Mac has 3.9.
 2. The update and the changelog skip the module overviews and the tool specs, so a changed overview line or spec never reaches a project.
 3. The unlink script keeps an overview line for a standard the project did not adopt, as plain text.
 4. The coentrify.json example heals automatically and keeps no healing log.
