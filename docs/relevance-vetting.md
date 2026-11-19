@@ -49,8 +49,12 @@ The sort comes from each standard's line in its overview, so a standard can stil
 - A shrunk standard is tested shrunk and in full.
 - A second prompt continues the conversation. A turn of `/compact` compacts it.
 - A fact about the harness needs no trap: change the thing while a session runs.
-- No runner is edited while a trap runs.
-- A run shares no port and no folder with another run.
+- No runner and no fixture is edited while a trap runs.
+- A run shares no port and no folder with another run, and each probe has a run folder of its own.
+- A run's copy lives outside a session's scratchpad, since Claude Code loads no `CLAUDE.md` from there.
+- A run loads project settings only, `--setting-sources project`, so the rule file is read and nothing else.
+- A run clears the parent session's `CLAUDE_EFFORT` and `CLAUDE_CODE_CHILD_SESSION`, and gets a session id of its own.
+- Before any cell, a rule file that asks for a marker word shows the rule loads.
 
 ## What Changed In The Models
 
