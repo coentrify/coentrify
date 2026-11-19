@@ -10,7 +10,6 @@ The worklist from a sweep over every standard, the top-level pages, the tools an
 
 ## Facts That Went Stale
 
-40. One machine's packaged suite is said to prove a package works on every machine.
 41. Barrel Imports sends a sibling import through its own folder's barrel, which is circular.
 42. Always Use Design Tokens For Colors fits only an SCSS design system.
 43. The Angular projection warning can be raised to a build error, instead of read from a log.

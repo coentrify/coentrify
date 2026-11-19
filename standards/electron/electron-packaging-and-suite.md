@@ -4,7 +4,7 @@ Packages are built unsigned, with the keychain untouched, and only when the dire
 
 ## Why
 
-A package works on every machine, and the packaged suite proves it without a second one.
+A package works away from the repository, and the packaged suite proves it on the build machine.
 
 ## How To Apply
 
@@ -13,6 +13,7 @@ A package works on every machine, and the packaged suite proves it without a sec
 - All platform packages build from one machine where the packager allows it. The auto updater's side files can go.
 - The packaged suite probes what breaks silently in a package: the fonts, the icons, the store path.
 - A release checklist names the steps around a build that goes out: the debug tools stripped, the signing, the platforms tested by hand.
+- An unsigned build may not open on another machine. A build that goes out to others is signed, and its platforms are tested by hand, per the release checklist.
 
 ## Related
 
