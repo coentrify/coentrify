@@ -13,7 +13,7 @@ A spec for a hook that refuses a commit an agent did not gate on its check ([Gat
 - It refuses one that follows a check piped into `grep`, `tail` or `head` within an `&&` chain, since the pipe hides the check's exit code.
 - It refuses a `git commit` that follows a `git add` in the same command, since the staged list was not read in between.
 - It ignores what is quoted, a heredoc body, a command substitution and a comment, so a message with a `;` in it passes.
-- A `git tag` that only lists tags passes.
+- A `git tag` that only lists tags passes, piped onward or not.
 
 ## The Check
 
@@ -24,3 +24,6 @@ A spec for a hook that refuses a commit an agent did not gate on its check ([Gat
 - `git commit -m "a; b"` passes.
 - A commit message given in a heredoc that holds a `;` passes.
 - `ls` passes.
+- `ls; git tag -l` passes.
+- `ls; git tag | sort` passes.
+- `ls; git tag v1` refuses.

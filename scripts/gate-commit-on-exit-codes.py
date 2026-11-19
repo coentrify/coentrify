@@ -91,7 +91,7 @@ def scan(text: str, index: int, inside_substitution: bool) -> tuple[str, int]:
 
 COMMIT = re.compile(r"\s*(?:\w+=\S+\s+)*git(?:\s+-[cC]\s+\S+)*\s+(commit|tag)\b(.*)", re.S)
 ADD = re.compile(r"\s*(?:\w+=\S+\s+)*git(?:\s+-[cC]\s+\S+)*\s+add\b")
-TAG_LISTING = re.compile(r"\s*(?:$|-l\b|--list\b|-n\d*\b)")
+TAG_LISTING = re.compile(r"\s*(?:$|\||-l\b|--list\b|-n\d*\b)")
 FILTER_PIPE = re.compile(r"\|\s*(?:grep|egrep|fgrep|tail|head)\b")
 
 
