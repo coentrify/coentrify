@@ -3,6 +3,7 @@
 How a standard moves from the memory into this repository.
 
 - A standard moves in as an exact copy of the memory file, without the front matter.
+- The copy then drops what belongs to one project: its names, labels, words in another language, numbers and setups. An example becomes one that any project can follow.
 - The description from the front matter becomes the standard's line in the overview of its module.
 - A Related list keeps its links and drops the text after each link.
 - A name becomes the director, and the memory becomes the standards.

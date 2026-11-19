@@ -56,4 +56,4 @@ Each change is weighed against these questions.
 - Does another standard own it already, or contradict it? Then it merges there, and the conflict is settled once.
 - Is it local to one standard, or structural across several? A structural change is weighed against the whole before any file is touched.
 - Does it fit the budget? A standard over its budget is trimmed before anything is added.
-- Does it hold everywhere? A project specific stays in that project.
+- Does it hold everywhere? A project specific stays in that project, in the examples as much as in the rule: no names, labels, words in another language, numbers or setups from one project.
