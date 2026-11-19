@@ -14,6 +14,7 @@ The checks this repository runs on itself.
 - A standard that is back at its text in the latest version tag passes without a name, so its entry leaves the changelog in the same commit.
 - A clone without a version tag cannot tell, and the hook says so.
 - The hook is switched on once per clone, with `git config core.hooksPath .githooks`.
+- In a Claude Code session here, `.claude/settings.json` runs the commit gate from the [tools](../tools/overview.md) before every shell command. It refuses a commit that does not hang on its check with `&&`, and a commit that follows a `git add` in the same command.
 - The Tag the version workflow is started by hand when a version is called. It tags main with the latest version in the changelog, and publishes the release of that tag.
 - The page of a version opens with its summary, and the workflow fails without one.
 - A tag without a release gets its release. The workflow fails when both exist.
