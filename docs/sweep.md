@@ -1,0 +1,59 @@
+# Sweep
+
+The worklist from a sweep over every standard, the top-level pages, the tools and these docs, in 0.0.7. The director rules on each finding in turn, with its context, its problem and a recommendation. A finding is checked against the files before it is presented, and leaves the list once it is ruled and applied.
+
+## Install And Update
+
+1. Nothing tells a fresh project's agent where coentrify lives, or which version to fetch (`readme.md`, `onboarding.md`).
+2. The onboarding sets a workflow line in Always Work From A Plan that no longer exists.
+3. Security is in none of the recommendation lists.
+4. An idea is recommended the Game Phases, a gamedev standard.
+5. A prototype gets no records, while automatic healing writes to the healing log.
+6. The update only covers `standards/`, so a change to the setup never reaches an updated project.
+7. No update step marks a declined standard as customized before `--apply`.
+8. The spec of the coentrify.json check leaves out a module's own `source`, and the commit that changes the version.
+9. The commit gate refuses a `git tag` that only lists, and its spec has no case for it.
+
+## Rules That Contradict
+
+10. A Go Before Work Elsewhere needs a go for a sub-agent, and automatic healing starts one by default.
+11. Work Workflow files every rule change as a ticket, whatever `healing` says.
+12. Playtest notes share a commit with their log entry, and a log commit holds only the log.
+13. A feature doc describes routes and use cases, and the Feature Template forbids both.
+14. The application's overview test is `<Application> Demo` in one page and `<Application> - Overview` in another.
+15. Core holds pure logic in Test Design, and no business logic in App-Shield.
+16. A `color` input is the example in UI Library Is Domain-Agnostic, and the leak in UI Variants By Function.
+17. Every binding is annotated, which widens an `as const` object.
+18. Post-Release has no gate, and the hygiene check fails a phase page without its `Gate:` line.
+19. A commit is never amended, and a wrong commit is redone with `git reset HEAD~1`.
+20. A prototype gets no headless check, and Always Verify Before Reporting Done has no exception.
+21. The example in Thin Wrappers In CI And Hooks is the coupling npm Script Naming forbids.
+22. A builder's question moves its story off the plan the builder works from.
+23. A debt ticket's branch is deleted at its landing, while the story's stack lives on it.
+24. Three pages give three commit counts for one ticket.
+25. The docs agent's grooming shows on a plan that only holds tickets with a go.
+26. A bare line from intake has no home before its go.
+27. A story without open tickets stays on the accept list.
+28. The director's answer to a question is a go, and an ask is never the go.
+29. The simple workflow pulls from a technical roadmap that no template defines.
+30. The UI Styleguide starts late, and every component gets its page as it is built.
+31. Game Work Workflow uses Veto for the agent's line, against the glossary.
+32. Walk The User's Journey shows nothing unmet, and the game laws show locked rows grayed out.
+33. A clear and cheap maybe is landed, which can read as built without a go.
+34. Standards Maintenance covers a misfit now, and never in the middle of other work.
+35. A skill is a standard in Standards, and a starting point in Standards Over Skills.
+36. The ticket id hook in Commits reads as if it held for the simple workflow.
+
+## Facts That Went Stale
+
+37. Node Versions keeps to even majors, and from Node 27 every release becomes LTS.
+38. Playwright Parallel Runs splits a suite for a ten-minute background cap that is now 30 minutes.
+39. A plain `git add` of a deleted file works on current git, against Verify Staging Before Committing.
+40. One machine's packaged suite is said to prove a package works on every machine.
+41. Barrel Imports sends a sibling import through its own folder's barrel, which is circular.
+42. Always Use Design Tokens For Colors fits only an SCSS design system.
+43. The Angular projection warning can be raised to a build error, instead of read from a log.
+44. CI actions float on a major tag, where pinning to a commit is the hardening advice.
+45. Workspace Levels puts a framework upgrade before any tests.
+46. Test data factories randomize without a seed.
+47. A reel is watched, with no way given for an agent to check a video.
