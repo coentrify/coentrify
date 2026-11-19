@@ -7,7 +7,6 @@ The worklist from a sweep over every standard, the top-level pages, the tools an
 
 ## Rules That Contradict
 
-31. Game Work Workflow uses Veto for the agent's line, against the glossary.
 32. Walk The User's Journey shows nothing unmet, and the game laws show locked rows grayed out.
 33. A clear and cheap maybe is landed, which can read as built without a go.
 34. Standards Maintenance covers a misfit now, and never in the middle of other work.
