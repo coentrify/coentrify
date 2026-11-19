@@ -12,11 +12,13 @@ Runs on a shared machine should not get in each other's way, and each should end
 - When the machine is loaded, the agents on debt pause first.
 - An agent never adds load of its own making, busy loops or CPU burners, to reproduce or steady a flaky case ([Main Stays Green, Work Stays Clean](../commits/main-stays-green-work-stays-clean.md)).
 
-## A Full Suite In Two Halves
+## A Full Suite
 
-A full browser suite that outlasts a background command's ten-minute cap is killed before its exit code arrives, and a killed run proves nothing. Split it:
+A full browser suite runs as one background command with a time limit above the suite's length, gated on its exit code. A killed run proves nothing.
 
-- Two halves, on two ports, in two background commands at once, each under the cap and each gated on its own exit code.
+Where a suite outlasts the longest a background command may run, split it in two:
+
+- Two halves, on two ports, in two background commands at once, each under the limit and each gated on its own exit code.
 - Each half gets its own output folder (`--output`) and its own html report folder (`PLAYWRIGHT_HTML_OUTPUT_DIR`). Two runs sharing Playwright's artifact folder delete each other's traces.
 - The halves share one build: the first half's web server builds, and the second half gets a static server of its own on that output, started once the build is up. Two web servers building into the same folder at once collide.
 - Never point a half at the other half's server, which stops when that half ends.
