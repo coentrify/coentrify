@@ -35,6 +35,7 @@ Soft caps: past a cap, a standard is trimmed or split before anything is added t
 - A standard: about 600 words.
 - A template: about 1,200 words.
 - A hub, such as a workflow: about 3,000 words.
+- A page accepted past its budget is listed in its module's `budget-exceptions.json`, with the words accepted and the reason. It surfaces again once it grows past them.
 
 ## Adding A Standard
 

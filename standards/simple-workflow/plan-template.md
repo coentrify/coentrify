@@ -15,12 +15,12 @@ The short-horizon working doc: what's in flight right now, what's queued for imm
 
 ## App Plan (`docs/development/<app>/plan.md`)
 
-- Same shape, scoped to the app: title + active-focus one-liner, then the overview list under `## Overview`.
+- Same shape, scoped to the app: title + active-focus one-liner, then the overview list right under the title.
 - The immediate items live here, in the overview list ([Overview List](#overview-list)). Promote an item to a `##` subsection only when it needs explanation ([No Faux Headers In Lists](../docs/no-faux-headers-in-lists.md)). The subsection is titled the same as its overview entry.
 
 ## Overview List
 
-- Open the plan with an `## Overview` flat list of every item it tracks, a table of contents that makes the whole plan scannable before any detail.
+- Open the plan, right under its title, with a flat list of every item it tracks, a table of contents that makes the whole plan scannable before any detail.
 - Label the one item in flight `(active)`, at most one active at a time.
 - A done item leaves the plan ([Remove Completed Items From Docs](remove-completed-items-from-docs.md)).
 
