@@ -1,6 +1,6 @@
 # Work Item Names
 
-Every name for a piece of work - a ticket's title, a line on the plan or the roadmap, an epic - makes three things clear at a glance: the type of work, the topic, and the direction of the issue or outcome. That is the level of awareness a top-level list needs. Names are in Title Case.
+Every name for a piece of work - a ticket's title, a line on the plan or the roadmap, an epic - makes three things clear at a glance: the type of work, the topic, and the direction of the issue or outcome. That is the focus level a top-level list needs. Names are in Title Case.
 
 ## Why
 

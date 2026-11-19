@@ -17,7 +17,7 @@ Answers "what's next?" at a glance. Active surfaces the current focus. Prioritie
 
 ## Item Shape
 
-- Every item name makes three things clear at a glance: the type of work, the topic, and the direction of the issue or outcome. That is the level of awareness a top-level list needs. Each type of work reads slightly differently:
+- Every item name makes three things clear at a glance: the type of work, the topic, and the direction of the issue or outcome. That is the focus level a top-level list needs. Each type of work reads slightly differently:
   - A feature epic is a goal from the user's perspective: `Create an account`, `Place your first order`. It says it is a feature, names the topic and hints at the outcome (you can create an account). A feature is the state left after its epics have run their course, so an item is an epic, never a bare feature name.
   - An addition leads with its verb: `Add Contact Search`.
   - A fix leads with `Fix`: `Fix Auth Session Redirect` says it is a bug, names the topic and hints at what goes wrong.
