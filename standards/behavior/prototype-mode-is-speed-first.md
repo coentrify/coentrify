@@ -10,8 +10,8 @@ The director wants to hear or click the idea, fast.
 
 - Keep a prototype apart from the product's code, in its own folder with its own copies, no imports from it.
 - Time to the first thing the director can hear or click is the measure. Ask before growing it.
-- Run it yourself on its own port and give the link, since the agent often works in a worktree the director is not in.
-- No headless checks, not even a throwaway one. A quick look in the browser at most, muted where the product plays sound.
+- Run it yourself on its own port, give the link, and keep it running until the director is done with it, since the agent often works in a worktree the director is not in.
+- No headless checks, not even a throwaway one. The check is a quick look in the browser, muted where the product plays sound.
 
 ## Related
 

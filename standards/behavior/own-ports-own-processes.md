@@ -28,7 +28,7 @@ A pattern kill that looks local can hit a process of the director's that runs th
 ## Stop What You Started
 
 - Stop every server and process you started once you are done with it, so nothing lingers on a port.
-- The exception is a server the director asked to keep running, such as the docs wiki.
+- The exception is a server the director asked to keep running, such as the docs wiki, or a prototype the director uses from its link.
 
 ## Related
 
