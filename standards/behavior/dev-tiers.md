@@ -16,7 +16,7 @@ Work builds on a stable foundation, and open bugs and debt are the first thing f
 - Only debt that hurts the current phase's goal takes the debt tier: it slows the current work, causes a bug, or blocks a check. Every other debt is noted all the same and filed for a later phase, where a ticket that touches its code often resolves it on the way.
 - Bugs and debt may blur into each other, which is fine.
 - Debt in code that will not reach the product, a prototype or a throwaway probe, is never scheduled ahead of the work that decides whether the code stays.
-- A fun glitch may be kept on purpose. Then it is documented as a feature, and leaves the bugs.
+- A bug the director wants to keep may stay on purpose. Then it is documented as a feature, and leaves the bugs.
 
 ## Related
 

@@ -8,7 +8,7 @@ Runs on a shared machine should not get in each other's way, and each should end
 
 ## On A Shared Machine
 
-- Every agent's Playwright run uses `--workers=1` and only the touched spec. No more than about four agents run suites at once. Agents on default workers overload the machine and lag the director's typing.
+- Every agent's Playwright run uses `--workers=1` and only the touched spec. No more agents run suites at once than the machine carries without lag. Agents on default workers overload the machine and lag the director's typing.
 - When the machine is loaded, the agents on debt pause first.
 - An agent never adds load of its own making, busy loops or CPU burners, to reproduce or steady a flaky case ([Main Stays Green, Work Stays Clean](../commits/main-stays-green-work-stays-clean.md)).
 

@@ -28,7 +28,7 @@ A feature is verified the same way by hand and by e2e, through one set of use ca
 Example:
 
 ```
-### Inbox lists unresolved requests (`br-1`)
+### Inbox lists unresolved requests (`inbox-1`)
 
 - On the request overview
 - open the inbox from the navigation
@@ -60,7 +60,7 @@ Example:
 ### Other Rules
 
 - No state-marker tags like `(auth required)` on cases. A case that is about such a state lives in that feature's own spec.
-- Steps stay brief, succinct, and functional - no selectors, no component names, no implementation language. Literal UI labels in backticks are allowed (e.g. `Bronnen`).
+- Steps stay brief, succinct, and functional - no selectors, no component names, no implementation language. Literal UI labels in backticks are allowed (e.g. `Save`).
 
 ## Stable IDs
 
@@ -73,7 +73,7 @@ Example:
 - Every spec ends with an `Overview` use case (`<feature>-overview` ID, no number) that strings the happy-path flows of the feature into a single showcase tour. This case is the source of truth for the overview take. Keep it concise - showcase main features, skip edge cases.
 - Add the spec entry first, then the test that covers it.
 - When finalizing, audit coverage in both directions: every feature and edge case in the feature doc has at least one use case here, and every use case maps to a feature or edge case there. Close a gap by writing the missing entry or moving the case to the spec that owns it.
-- A use case lives in the spec of its *primary* feature. If a case is really about another feature (e.g. a sources behavior that only happens to be exercised through a responsive scenario), move it to that feature's spec - don't duplicate.
+- A use case lives in the spec of its *primary* feature. If a case is really about another feature (e.g. a search behavior that only happens to be exercised through a responsive scenario), move it to that feature's spec - don't duplicate.
 - Not every use case lands as an e2e test. Visual, styling, and a11y assertions (font sizing, border radius, touch-target sizes) belong in the UI / styleguide test layer.
   - The spec still lists the case. The layer depends on what the case verifies.
   - The e2e file leaves a comment pointing to the layer that owns a skipped case, and the case in the spec gets a trailing `_Verified at the UI / styleguide layer._` italic note.

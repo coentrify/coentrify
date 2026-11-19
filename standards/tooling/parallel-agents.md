@@ -19,8 +19,8 @@ Agents that work at the same time should not conflict.
 ## Watching Agents
 
 - The app stops waking the conductor after many reports in a row with no message from the director, so a builder that waits on a merge stalls overnight.
-- An agent with no commit for about half an hour gets a look: its uncommitted files, its suite logs, its servers. A builder tuning its instrument or rerunning suites then is stopped and told to close from what it has. A long run of several suites with finished items sitting uncommitted is stopped and split into one commit per item with the touched suite only.
-- The commit watcher lists every agent branch by pattern and never marks waiting commits as seen when it restarts. After any restart, list what waits with `git cherry` and land it.
+- An agent with no commit for about half an hour gets a look: its uncommitted files, its suite logs, its servers. A builder polishing a detail or rerunning suites then is stopped and told to close from what it has. A long run of several suites with finished items sitting uncommitted is stopped and split into one commit per item with the touched suite only.
+- Whatever watches for agent commits lists every agent branch by pattern and never marks waiting commits as seen when it restarts. After any restart, list what waits with `git cherry` and land it.
 
 ## Landing
 

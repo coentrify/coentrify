@@ -10,7 +10,7 @@ A hierarchy gives every page the right focus level, for efficient and effective 
 
 - The page opens with a summary at its own altitude, one or two lines right under the title: what the thing is and what it is for, no details and no visual description, which rot when the look changes.
 - An introduction, when the page needs one, is distinct from the summary: it is the first item of the contents, where the content begins.
-- Then a contents section one breadth deeper, under a heading that fits the thing: `## Components`, `## Parts`, `## Rooms`, `## Features`. The items are grouped by what they do (`### Doors To Other Locations`, `### Furniture`), one line each with a dash and a few words ("The Door - To The Hall").
+- Then a contents section one breadth deeper, under a heading that fits the thing: `## Components`, `## Parts`, `## Sections`, `## Features`. The items are grouped by what they do (`### Account Settings`, `### Billing`), one line each with a dash and a few words ("The Profile - Name And Photo").
 - Then a `##` heading per item, in the same order. An item with one or a few things to say gets one line under its heading and a link to its own page. An item with more gets a page of its own, its features under headings. Sub-items take `###`.
 - The look of the thing goes under an `## <Thing> Aesthetics` heading, in prose.
 - A section with subsections opens with a short list of them as in-page links before its own text.
@@ -28,8 +28,8 @@ A hierarchy gives every page the right focus level, for efficient and effective 
 
 ## Writing
 
-- Name things outright: the kitchen, never "the room the stairs lead to".
-- An abbreviation the project coins is spelled out where a page first uses it, headings included, the short form in brackets after: Adopt, Repeat, Confirm (ARC). Common ones, UI or CPU, need no spelling out.
+- Name things outright: the settings page, never "the page the gear icon opens".
+- An abbreviation the project coins is spelled out where a page first uses it, headings included, the short form in brackets after: Single Source Of Truth (SSOT). Common ones, UI or CPU, need no spelling out.
 - One short sentence per list item. Several facts become several items or a short paragraph under a heading, never a long list of long items.
 - Good organization beats both lists and prose: structure first, then short lists, prose only for descriptive matter such as the look.
 - A one-line statement under a heading is a spec that leads to a test.

@@ -8,7 +8,7 @@ Every doc and ticket can be checked against the words that produced it.
 
 ## The File
 
-- The H1 is the date with the day count: `2026-09-14 - DEV day 6`. The count is days worked on the project, not calendar days: a week off raises no number, so read the previous page's header first. DEV day 1 is the first AI-driven day. The prototype before it counts as POC days, and every test session and changelog carries its day too.
+- The H1 is the date with the day count: `2026-09-14 - DEV day 6`. The count is days worked on the project, not calendar days: a week off raises no number, so read the previous page's header first. DEV day 1 is the first day an agent works on the project. Any earlier days count as proof of concept (POC) days, and every test session and changelog carries its day too.
 - One `##` per message, titled with its time. The heading is written by the shell itself in the append, `printf '\n## %s\n\n' "$(date +%H:%M)"`, never typed: typed headings run ahead of the clock.
 - The days before the agent are reconstructed from the commit history as entries of their own, so the count starts at the project's first day.
 

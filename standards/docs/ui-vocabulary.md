@@ -14,15 +14,15 @@ Both are valid functional names for distinct patterns - don't collapse them into
 
 ### Drawer
 
-Side-attached panel that opens from a screen edge (typically right or left), used alongside the main view on desktop. Example: the desktop sources panel.
+Side-attached panel that opens from a screen edge (typically right or left), used alongside the main view on desktop. Example: a filter panel beside a list on desktop.
 
 ### Sheet
 
-Mobile-style panel that slides up from the bottom and modally covers the lower portion of the screen. Example: the mobile sources panel.
+Mobile-style panel that slides up from the bottom and modally covers the lower portion of the screen. Example: a filter panel on mobile.
 
 ## Don't Use "Surface" as a UI-Area Noun
 
-"The chat surface", "the conversation surface" - product-design jargon that reads as wordy and weirdly abstract. Use the feature's name or natural English: "the chat", "the app-selection screen", "in the chat". "Surface" the verb (to surface, surfaced) is fine - it means "bring up / show" and is unrelated.
+"The chat surface", "the conversation surface" - product-design jargon that reads as wordy and weirdly abstract. Use the feature's name or natural English: "the chat", "the settings screen", "in the chat". "Surface" the verb (to surface, surfaced) is fine - it means "bring up / show" and is unrelated.
 
 ## Related
 

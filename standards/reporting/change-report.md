@@ -23,7 +23,7 @@ Drop sections that don't apply. Screenshots over prose. Videos only when the poi
 
 ## Deliverable
 
-Where a project keeps a changelog per version, that page is the record and this report is not written ([Changelog Per Version](../records/changelog-per-version.md)). Elsewhere the report is a page in the docs wiki, kept so the team can always go back and see what changed: a per-target changelog with a curated newest-first index, entry pages dated and slugged, screenshots stored alongside. The mechanics for this workspace (VitePress paths, asset folder, index format) live in the project skill `changelog-report` and its `TEMPLATE.md` / `EXAMPLE.md`, not here.
+Where a project keeps a changelog per version, that page is the record and this report is not written ([Changelog Per Version](../records/changelog-per-version.md)). Elsewhere the report is a page in the docs wiki, kept so the team can always go back and see what changed: a per-target changelog with a curated newest-first index, entry pages dated and slugged, screenshots stored alongside. A project keeps its own mechanics for this (wiki paths, asset folder, index format) in its docs.
 
 ## How to Apply
 

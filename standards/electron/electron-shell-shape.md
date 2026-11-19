@@ -10,8 +10,8 @@ The shell stays small: an update replaces the website, and Electron stays.
 
 - The framework is a build tool: bundled into the shell, it drags the whole toolchain into the package and breaks on the next platform. Serving the build from the main process needs no serve package and no dev server in production.
 - The main process registers the scheme as standard, secure, with fetch and streams, and answers a request with the file if it exists and the index otherwise.
-- Saves live in an electron store under the user data folder. An environment variable overrides that folder so suites and testers never touch real saves.
-- The packaged app opens fullscreen with a key to toggle it and a key for the devtools, so a tester can read the console. A windowed environment flag exists for the suites.
+- User data lives in an electron store under the user data folder. An environment variable overrides that folder so suites and testers never touch real user data.
+- The packaged app opens in the window mode the product needs, with a key for the devtools so a tester can read the console. A windowed environment flag exists for the suites.
 - A splash can be skipped by a flag for quick starts.
 - Keep the shell thin: the app never imports from the shell.
 

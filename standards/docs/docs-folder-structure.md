@@ -29,7 +29,7 @@ All records sit together under `docs/records/`, one group in the wiki with an `o
 - `docs/records/activity/` - the work done, one file per day ([Activity Log](../records/activity-log.md)).
 - `docs/records/playtests/` - one file per playtest, or per user test for another kind of product ([Playtest Files](../records/playtest-files.md)).
 - `docs/records/changelog/` - one page per version ([Changelog Per Version](../records/changelog-per-version.md)).
-- Any other dated trail a project keeps, such as the agent's ideas or the outside testers' pages, joins them under `docs/records/`, never at the docs root.
+- Any other dated trail a project keeps joins them under `docs/records/`, never at the docs root.
 
 ## Related
 

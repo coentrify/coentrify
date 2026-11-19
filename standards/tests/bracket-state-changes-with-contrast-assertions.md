@@ -26,7 +26,7 @@ A test proves that the new state replaced the old one.
 
 ## Combine Simple Opposites into One Bracketed Test
 
-Two tests for opposite sides of one binary toggle (`hidden when disabled` and `visible when enabled`, `disabled when invalid` and `enabled when valid`, `closed by default` and `open after click`) become one bracketed test of the transition. It carries both use-case ids, so the mapping in the feature spec stays intact and `e2e:case <id>` resolves either way.
+Two tests for opposite sides of one binary toggle (`hidden when disabled` and `visible when enabled`, `disabled when invalid` and `enabled when valid`, `closed by default` and `open after click`) become one bracketed test of the transition. It carries both use-case ids, so the mapping in the feature spec stays intact and a search by either id finds it.
 
 - Two single-axis tests both pass on an implementation that always shows the positive state. One bracketed test catches it.
 - It halves boot and teardown cost and reads as the behavior the user sees: flip the flag, see the change.

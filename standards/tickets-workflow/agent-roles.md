@@ -37,8 +37,8 @@ Every message from the director is handled at once, while the work keeps landing
 
 ## How Many
 
-- The number of agents running at once follows token and devbox capacity. Nothing else fixes it.
-- The devbox's capacity counts only the agents that run browser suites. An agent whose checks are hygiene, types, unit and the wiki build starts whatever the machine's load: a docs agent, and a builder on a light debt story ([Work Tracking](work-tracking.md#stories)).
+- The number of agents running at once follows token and machine capacity. Nothing else fixes it.
+- The machine's capacity counts only the agents that run browser suites. An agent whose checks are hygiene, types, unit and the wiki build starts whatever the machine's load: a docs agent, and a builder on a light debt story ([Work Tracking](work-tracking.md#stories)).
 - One builder per story. Stories run side by side only where the files they touch are disjoint.
 - A large job, a hundred tickets say, goes to one agent with the whole queue, in the background.
 - Read-only lookups the conductor can do itself are done there, without an agent.
@@ -55,7 +55,7 @@ Every message from the director is handled at once, while the work keeps landing
 - Run only what the change affects: the specs of every feature that uses what it touched, and the reels and captures that cross it. Never every suite at once.
 - A check that needs no browser is a unit test, never an e2e case.
 - Leave the change clean: what it makes unused or duplicated goes in the same commit. A small found fix rides on the ticket's go as a Veto line, anything bigger becomes a ticket.
-- Every browser it runs is muted ([Silent Runs](../gamedev/silent-runs.md)).
+- Every browser it runs is muted where the product plays sound ([Silent Runs](../gamedev/silent-runs.md)).
 - An agent adding use cases to a spec gets a fixed id range of its own, written in the brief and read from the specs' own ids per prefix across every spec file.
 - A fact about the product's content is grepped in the docs and the log first, never recalled.
 - The director's log entry is cited by the time its append printed, so the log is written before the brief goes out.

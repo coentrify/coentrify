@@ -36,7 +36,7 @@ Answers "what's next?" at a glance. Active surfaces the current focus. Prioritie
 
 ## The Todo Beside It
 
-Beside the roadmap a `docs/todo.md` lists the biggish features and tasks decided to build but not in the plan yet, still to be workshopped. Nice To Have keeps what can wait until after the release (1.1 features). Undecided ideas stay on the concepts page. Before asking the director whether an unbuilt item is still wanted, check whether it belongs on the todo, Nice To Have or concepts.
+Beside the roadmap a `docs/todo.md` lists the biggish features and tasks decided to build but not in the plan yet, still to be workshopped. Nice To Have keeps what can wait until after the release. Undecided ideas stay in the inbox. Before asking the director whether an unbuilt item is still wanted, check whether it belongs on the todo, Nice To Have or the inbox.
 
 ## Related
 

@@ -1,10 +1,10 @@
 # Standards Over Skills
 
-When a standard and a skill conflict, the standard wins. Skills are starting points. The standards are the source of truth for this project's conventions.
+When a standard and a skill conflict, the standard wins. Skills are starting points. The standards are the source of truth for the project's conventions.
 
 ## Why
 
-The standards hold how this project works, so they come first.
+The standards hold how the project works, so they come first.
 
 ## How to Apply
 

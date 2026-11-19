@@ -3,19 +3,19 @@
 A real and a mock service share a TypeScript `interface` that both implement, and the app config swaps one for the other at provider time:
 
 ```ts
-export interface ChildrenApi {
-  getChildren(): Observable<Child[]>;
+export interface OrdersApi {
+  getOrders(): Observable<Order[]>;
   // ...the public surface both implementations must honor
 }
 
 @Injectable()
-export class ChildrenApiService implements ChildrenApi { /* real */ }
+export class OrdersApiService implements OrdersApi { /* real */ }
 
 @Injectable()
-export class MockChildrenApiService implements ChildrenApi { /* mock */ }
+export class MockOrdersApiService implements OrdersApi { /* mock */ }
 
 // app config - one token, swap the implementation
-{ provide: ChildrenApiService, useClass: environment.useMocks ? MockChildrenApiService : ChildrenApiService }
+{ provide: OrdersApiService, useClass: environment.useMocks ? MockOrdersApiService : OrdersApiService }
 ```
 
 ## Why
