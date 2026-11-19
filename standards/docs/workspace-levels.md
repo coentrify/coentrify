@@ -1,6 +1,6 @@
 # Workspace Levels
 
-A maturity scale for a workspace, in the spirit of the Kardashev scale. Each level builds on the last. Coentrify pushes upward.
+Place a workspace on a maturity scale, in the spirit of the Kardashev scale, where each level builds on the last, and push it upward.
 
 ## Why
 

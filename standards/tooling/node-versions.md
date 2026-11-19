@@ -8,8 +8,6 @@ Production runs on a stable release with long-term support.
 
 ## How To Apply
 
-Only even majors enter LTS. An odd major is a Current release, deprecated once the next even major reaches LTS.
-
 When picking a Node version, stick to even majors across every place Node is pinned:
 
 - `.nvmrc` / `.node-version`.
@@ -17,6 +15,8 @@ When picking a Node version, stick to even majors across every place Node is pin
 - `@types/node` and other Node-related type packages.
 - CI workflow `setup-node` versions.
 - Docker base images (`node:22-alpine`, etc.).
+
+Only even majors enter LTS. An odd major is a Current release, deprecated once the next even major reaches LTS.
 
 ## Related
 

@@ -2,7 +2,7 @@
 
 The Behavior standards: how an agent works and what an agent checks.
 
-- [A Go Before Work Elsewhere](a-go-before-work-elsewhere.md) - never start sessions, agents or work in another project without an explicit go. "Next is X" names the topic and is not a go. Projects come from the director's words, never a recent-folders list
+- [A Go Before Work Elsewhere](a-go-before-work-elsewhere.md) - never start sessions, agents or work in another project without an explicit go. "Next is X" names only the topic. Projects come from the director's words, never a recent-folders list
 - [A Maybe Is A Trigger To Investigate](a-maybe-is-a-trigger-to-investigate.md) - a director's maybe gets investigated in the same pass, never parked
 - [A Name Describes Its Unit](a-name-describes-its-unit.md) - a name describes its unit clearly and precisely, neither too broad nor too narrow
 - [A Quiet Tree While A Suite Runs](a-quiet-tree-while-a-suite-runs.md) - no source edits while a suite runs on a live dev server
@@ -22,7 +22,7 @@ The Behavior standards: how an agent works and what an agent checks.
 - [Flag Every Addition Of Your Own](flag-every-addition-of-your-own.md) - name a decision of your own that no law, rule or guideline settles, for a veto
 - [Free Text Replies, No Buttons](free-text-replies-no-buttons.md) - no answer buttons or wrap-up questions. Ask in prose and keep going. No closing prompts where a dashboard shows the director's inboxes
 - [General Working Rules](general-working-rules.md) - honest assessments, the model only for judgment calls, surface conflicts, read before you write, follow the written conventions
-- [Non-Destructive Documenting And Test Automation](non-destructive-documenting-and-test-automation.md) - doc, spec and test phases never touch production code
+- [Non-Destructive Documenting And Test Automation](non-destructive-documenting-and-test-automation.md) - doc, spec and e2e steps never touch production code
 - [Normal Dashes](normal-dashes.md) - always `-`, never em or en dashes
 - [Note Issues](note-issues.md) - write down every finding where the project's workflow says, never only in chat
 - [Own Ports, Own Processes](own-ports-own-processes.md) - own fixed non-default port per project, kill only your own PIDs, stop what you started
@@ -37,10 +37,10 @@ The Behavior standards: how an agent works and what an agent checks.
 - [Standards Maintenance](standards-maintenance.md) - a periodic sweep for bloat, stale rules, duplicates, drift and dead links, with a word budget per standard. How a standard is added
 - [Standards Over Skills](standards-over-skills.md) - on conflict the standard wins. Fix the skill's contradicted line
 - [Sweeps Enumerate Into Tech-Debt First](sweeps-enumerate-into-tech-debt-first.md) - a sweep lists every instance in one debt entry before fixing
-- [Sync The Docs After Every Change](sync-the-docs-after-every-change.md) - after a landing, grep the docs for its terms and fix what went stale. Update every reference
-- [The Quality Of The Question](the-quality-of-the-question.md) - a better question gets a better answer. Suspect the question first, and ask how good over is it good
+- [Sync The Docs After Every Change](sync-the-docs-after-every-change.md) - after a landing, grep the docs for its terms and fix what went stale. A plan it conflicts with goes to the director as a question
+- [The Quality Of The Question](the-quality-of-the-question.md) - an answer is as good as its question. Suspect the question first, and ask a vector question over a binary one
 - [Things Of One Kind Are Consistent](things-of-one-kind-are-consistent.md) - things of one kind share a structure and a behavior, and fit with the rest
 - [Understand The Need](understand-the-need.md) - the need before the solution, and the right solution fitted to the need
 - [Use US English Everywhere](use-us-english-everywhere.md) - US spelling everywhere. Convert British spellings when touching them
-- [Verify APIs Against Docs And The Installed Artifact](verify-apis-against-docs-and-the-installed-artifact.md) - pinned and the docs disagree: the installed artifact decides, or the dependency is updated. Endpoints against the spec, generated assets against their rule
+- [Verify APIs Against Docs And The Installed Artifact](verify-apis-against-docs-and-the-installed-artifact.md) - when a pinned dependency and its docs disagree, the installed artifact decides, or the dependency is updated. Endpoints are checked against the spec, generated assets against their documented rule
 - [Verify Control Before Rename](verify-control-before-rename.md) - trace a control to its handler before relabeling it

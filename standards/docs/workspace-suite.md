@@ -1,6 +1,6 @@
 # Workspace Suite
 
-What makes a workspace complete. Flat list of deliverables a coentrified workspace eventually grows into. Missing items become epics on `roadmap.md` per [Workspace Template](workspace-template.md).
+A coentrified workspace grows until it holds every deliverable of the suite. A missing item becomes an epic on `roadmap.md` per [Workspace Template](workspace-template.md).
 
 ## Why
 

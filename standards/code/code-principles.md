@@ -10,13 +10,13 @@ Code with a single responsibility per piece stays stable.
 
 - A piece of code should do one thing. Coupling several responsibilities into one unit via flags or conditionals is a split signal.
 
-## Dependency Injection
+## Composition Over Extension
 
 - Compose, don't extend.
 
 ## Generic Types
 
-- Use generic types for content that may vary, even though the base interface differs.
+- Take content whose type varies as a type parameter, such as `List<T>`, also when the types share no base interface.
 
 ## Decouple Responsibilities
 

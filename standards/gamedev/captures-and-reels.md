@@ -18,7 +18,7 @@ The director can reproduce every state a capture shows.
 
 - Reels are recorded on demand only, never at a version's close: with a playtest on every version the director sees the motion and sound first hand. The reels' flows still run quickly as tests, without recording.
 - A segment starts from a scenario, marks its cut when the scene is on screen, records the sound, and saves both. The joiner orders the segments by recording time, since a shortened folder name loses its number.
-- A level's reel runs on into the next level's opening. The changelog keeps a copy under the version's name.
+- A level's reel runs on into the next level's opening. The changelog keeps a copy of a reel, when one is made, under the version's name.
 - An edge flow worked on in the iteration goes into the level's reel or a small video of its own, so the director sees the flow that changed.
 
 ## In A Browser
@@ -30,7 +30,7 @@ The director can reproduce every state a capture shows.
 
 - Suites and capture runs are muted ([Silent Runs](silent-runs.md)).
 - Only the reel records sound.
-- The videos stay untracked in git, the reels and the changelog's copies alike, since they are heavy and change every version. Only chosen ones, such as a store page's, get tracked later. Ignore the video folders on day one.
+- The videos stay untracked in git, the reels and the changelog's copies alike, since they are heavy and a reel, when one is made, is made for one version. Only chosen ones, such as a store page's, get tracked later. Ignore the video folders on day one.
 
 ## Related
 

@@ -1,6 +1,6 @@
 # General Working Rules
 
-Default rules for every task in every project unless explicitly overridden. Bias: caution over speed on non-trivial work, judgment on trivial tasks.
+Apply these rules to every task in every project unless explicitly overridden. Favor caution over speed on non-trivial work, and judgment on trivial tasks.
 
 ## Why
 

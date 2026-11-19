@@ -7,7 +7,7 @@ The Tooling standards: development tools.
 - [Defer Tooling Until The Cost Shows Up](defer-tooling-until-the-cost-shows-up.md) - add heavy tooling only once its absence costs something
 - [Develop Against Mocks](develop-against-mocks.md) - develop against a committed, toggleable mock layer
 - [Hygiene Tests Run On Their Own Runner](hygiene-tests-run-on-their-own-runner.md) - hygiene checks run as plain vitest specs on their own runner
-- [Lightweight Test Reporting Only](lightweight-test-reporting-only.md) - lightweight test reporting only
+- [Lightweight Test Reporting Only](lightweight-test-reporting-only.md) - reporting shows only whether the suite is green
 - [Node Versions](node-versions.md) - even Node majors only
 - [Parallel Agents](parallel-agents.md) - a git worktree, an e2e port and a scratchpad per agent. Reset to main first, commit then rebase, builders on the cheaper model, land through pick.sh and main-checks.sh, clean up only after git cherry
 - [Playwright Parallel Runs](playwright-parallel-runs.md) - one worker per agent run, and a long suite runs as two halves

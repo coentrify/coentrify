@@ -13,7 +13,7 @@ Reuse costs the least code and time.
 ## How To Apply
 
 - A default just works, a flavor is thought out beforehand and easy to pick, and an override is there for the custom case and the escape hatch, only when needed.
-- The default path asks nothing. The person is involved only for a decision that is really theirs.
+- The default path asks nothing. The person is involved only for a decision that is theirs to make.
 - A choice becomes a config only once projects differ on it. Until then it is a default.
 - Each layer has a place of its own. A default is never edited to configure or to override, which keeps an update of the defaults mechanical.
 - An override may drift for good. Offering one back to the source is the exception, kept for what clearly holds in general.

@@ -16,11 +16,7 @@ A component that pairs a UI shell with a purpose is the classic trap: a confirm 
 
 Default to content projection. Before adding any input, for data, composition or state, check whether the variation can be expressed by what the consumer projects. It almost always can. The component reserves space and styles it, and the consumer fills it. The component never renders a button on the page's behalf, even when it has a matching output.
 
-Slots name regions ([UI Layout Via Slot Composition](ui-layout-via-slot-composition.md)). Some reusable ones:
-
-- `header` - the component's top region, holding a title, badges or tabs.
-- `title`, `description` - the regions for the consumer's text and whatever sits with it, a chip after a title say. The component owns their layout and typography, the consumer the content.
-- `actions` - the region for the buttons the consumer owns (save, cancel, close).
+Slots name regions, by the names and rules in [UI Layout Via Slot Composition](ui-layout-via-slot-composition.md).
 
 ## Inputs As Fallback
 

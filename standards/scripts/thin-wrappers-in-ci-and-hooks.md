@@ -9,7 +9,7 @@ Every behavior is found in `package.json`, and runs the same from CI, a hook or 
 ## How To Apply
 
 - Git hooks call `hooks:<name>` and CI calls `ci:<name>`, a dedicated script per context ([npm Script Naming](npm-script-naming.md)).
-- Git hook (husky example): `.husky/<name>` is the husky preamble + a single `npm run hooks:<name>` line and nothing else. Real commands go in `package.json` under `hooks:<name>` (e.g. `"hooks:pre-commit": "npm run lint"`).
+- Git hook (husky example): `.husky/<name>` holds a single `npm run hooks:<name>` line and nothing else. Real commands go in `package.json` under `hooks:<name>` (e.g. `"hooks:pre-commit": "npm run lint"`).
 - CI step example:
 
   ```yaml

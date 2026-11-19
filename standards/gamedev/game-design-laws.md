@@ -38,7 +38,7 @@ The full text is in [Game Design Laws: Progress](game-design-laws-progress.md).
 - [Every Mechanic Matters](game-design-laws-progress.md#every-mechanic-matters) - none is added for the sake of one more
 - [Lasting Impact](game-design-laws-progress.md#lasting-impact) - what the player decides lasts
 - [Emergent Gameplay](game-design-laws-progress.md#emergent-gameplay) - systems that open possibilities
-- [Know What Is Coming](game-design-laws-progress.md#know-what-is-coming) - the next step and the end are always visible
+- [Know What Is Coming](game-design-laws-progress.md#know-what-is-coming) - the next step and the distance to the goal are always visible
 
 ### UI
 

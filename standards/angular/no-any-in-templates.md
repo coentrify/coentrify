@@ -16,8 +16,8 @@ MVC discipline: the template shows, and the typed class decides.
 
 ## How To Apply
 
+- When a binding seems to need `$any`, fix the binding type or move the work into TS.
 - A template that holds casts or logic fragments behavior across files, and TypeScript can no longer verify it.
-- Reaching for `$any` is a signal that the binding type is wrong or the work belongs in TS.
 
 ## Related
 

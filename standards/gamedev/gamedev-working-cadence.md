@@ -12,10 +12,10 @@ Every playtest plays a named version, and knows what changed in it.
 
 ## Intake
 
-- A big dump of ideas and feedback is logged and processed, then the report offers a few focus areas for the next iteration and the director picks one. The bugs go to the planning page regardless and the small fixes are the plan meanwhile. The rest is grouped into epics on the roadmap, so nothing is lost and the work keeps its focus.
+- A big dump of ideas and feedback is logged and processed, then the report offers a few focus areas for the next iteration and the director picks one. The bugs are scheduled the way intake schedules any work ([Work Workflow](../tickets-workflow/work-workflow.md#intake)). The rest is grouped into epics on the roadmap, so nothing is lost and the work keeps its focus.
 - Feedback on an open version is a cutoff, never more scope: close the version as it stands and plan what is open plus the new feedback for the next one. One cycle of playtest, review and changelog per version.
 - The plan holds bugs first, then debt, then features ([Dev Tiers](../behavior/dev-tiers.md)).
-- Content the agent names (names, numbers, hints) is recorded in the pacing doc and named in the report, never asked for one by one ([Incremental Pacing](incremental-pacing.md)).
+- Content the agent names (names, numbers, hints) follows [Game Phases: Development](game-phases-development.md#pre-alpha) and [Incremental Pacing](incremental-pacing.md).
 
 ## Per Item
 

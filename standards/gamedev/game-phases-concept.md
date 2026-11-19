@@ -8,7 +8,7 @@ The game in one line, with its pillars. Gate: does the line excite?
 
 ## Gathering
 
-Braindumps, a rant room, brainstorming. Gathering never closes: ideas keep coming, and land as tickets for later. Gate: the director calls the outline.
+Braindumps, a rant room, brainstorming. Gathering never closes: ideas keep coming, and land as tickets for later. Gate: does the director call the outline?
 
 ## Outline
 

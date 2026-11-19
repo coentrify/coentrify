@@ -1,6 +1,6 @@
 # No Describe-What Comments
 
-Don't add comments that describe what a class/function does or which other code consumes it. Naming and reading the code is enough. Behavior and feature description live in feature docs. Rationale lives in PR descriptions and commit messages.
+Don't add comments that describe what a class/function does or which other code consumes it. Naming and reading the code is enough. Behavior lives in the feature docs, and change history in the commits.
 
 ## Why
 

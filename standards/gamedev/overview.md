@@ -6,13 +6,13 @@ The Gamedev standards: game development.
 - [Captures And Reels](captures-and-reels.md) - proof from scripted captures per item, never by hand, reels on demand, videos untracked in git
 - [Devbox](devbox.md) - a one-key devbox on every scene, on the shared seeded scenarios
 - [Game Design Laws](game-design-laws.md) - the generic game design laws as an index. A game's laws doc adopts, leaves out or overrides them by name
-- [Game Design Laws: Experience](game-design-laws-experience.md) - the generic game design laws about what the player lives moment to moment: waiting, doing, control, what plays once, time away, pausing, sound, fun and the loop
-- [Game Design Laws: Guidance](game-design-laws-guidance.md) - the generic game design laws about what the game hints and teaches: steering, answering and introducing things
-- [Game Design Laws: Own Style](game-design-laws-own-style.md) - the generic game design laws about what makes the game its own: its assets and its inventions
-- [Game Design Laws: Progress](game-design-laws-progress.md) - the generic game design laws about the shape of the whole game: length, completion, quality, progress, mechanics and what is coming
-- [Game Design Laws: Story](game-design-laws-story.md) - the generic game design laws about what the game says: showing, reading, dialog and representing the player
-- [Game Design Laws: UI](game-design-laws-ui.md) - the generic game design laws about the screen and the controls: state, motion, edges, glow, layout, triggers, warnings, mouse
-- [Game Design Laws: World](game-design-laws-world.md) - the generic game design laws about the world the player moves through: its secrets, its reactions and its friction
+- [Game Design Laws: Experience](game-design-laws-experience.md) - what the player lives moment to moment
+- [Game Design Laws: Guidance](game-design-laws-guidance.md) - what the game hints and teaches
+- [Game Design Laws: Own Style](game-design-laws-own-style.md) - what makes the game its own
+- [Game Design Laws: Progress](game-design-laws-progress.md) - the shape of the whole game
+- [Game Design Laws: Story](game-design-laws-story.md) - what the game says
+- [Game Design Laws: UI](game-design-laws-ui.md) - the screen and the controls
+- [Game Design Laws: World](game-design-laws-world.md) - the world the player moves through
 - [Game Phases](game-phases.md) - a game's phases in four stages, each phase ending at a phase gate, with the greybox, demos and outside playtests
 - [Game Phases: Concept](game-phases-concept.md) - the divergent stage: Idea, Gathering, Outline and Prototype, loose inside and without tickets
 - [Game Phases: Design](game-phases-design.md) - the convergent stage: Lore, World Building, Gameplay, First Playable and Game Design. A first playable is never a demo

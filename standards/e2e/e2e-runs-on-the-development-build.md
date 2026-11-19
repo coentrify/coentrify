@@ -8,9 +8,9 @@ The suites exist to catch development errors, and only the development build sho
 
 ## How To Apply
 
-- A production build steadies the suites on a busy machine, and drops the development errors.
 - Never point the e2e web server at a production build. A slow dev server gets a prebuilt development build served statically instead.
 - A trade-off that drops a class of errors from the checks is the director's call, asked before it lands.
+- A production build steadies the suites on a busy machine, and drops the development errors.
 
 ## Related
 

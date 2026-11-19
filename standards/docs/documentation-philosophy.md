@@ -1,18 +1,18 @@
 # Documentation Philosophy
 
-These rules apply to all project documentation.
+Project docs describe what the product does, briefly and with one purpose per file, and hold enough to rebuild the product from them.
 
 ## Why
 
 The docs orient every reader, and they are the basis for manual testing and for generating tests.
 
-## Product, Not Code
+## What The Product Does
 
 Docs describe what the product does and who uses it. The architecture doc holds the decisions about how it is built, and the details stay in the code ([Docs Describe Behavior, Not Wiring](docs-describe-behavior-not-wiring.md)).
 
-## Brevity Over Completeness
+## Brevity
 
-Short imperative noun phrases ("Invite User", "Deactivate User") beat full sentences, and small lists of short items beat connecting sentences. The overview is a scannable product summary. Depth lives in the feature pages and their parts' pages, shaped and worded per [Docs Are Hierarchical, Explicit And Short](docs-are-hierarchical-explicit-and-short.md), which also owns naming things outright.
+A name of a feature, a view or an item is a short phrase ("Invite User", "Deactivate User"). A fact is a short sentence. Small lists of short items beat connecting sentences. The overview is a scannable product summary. Depth lives in the feature pages and their parts' pages, shaped and worded per [Docs Are Hierarchical, Explicit And Short](docs-are-hierarchical-explicit-and-short.md), which also owns naming things outright.
 
 ## One Purpose Per File
 
@@ -22,7 +22,7 @@ Each doc has a narrow job. Don't cram specifications into an overview. Don't cra
 
 Don't open a doc with a paragraph explaining what the doc is for or how to read it ("Known bugs in the current build. Each entry links to..."). That kind of rule lives in the template or standard for the doc type. The doc itself jumps straight to content - readers know what `bugs.md` is from the filename and the H1.
 
-## Intent, Not Implementation
+## User-Facing Concepts
 
 Even when the code reuses a single component for multiple flows, doc readers care about the user-facing concept. Split "Create User dialog" and "Edit User dialog" into two items. Don't collapse them because the code does.
 
@@ -49,7 +49,7 @@ Standard syntax. Prefer flat dash lists. Avoid numbered lists. Hierarchy comes f
 ```
 
 
-## A Spec, Not A Log
+## The Product As It Is Now
 
 A product doc states what the product is now, one fact per bullet, grouped under headings, without dates, provenance or change history ([Docs State Knowledge](docs-state-knowledge.md)).
 

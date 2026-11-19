@@ -1,6 +1,6 @@
 # A Go Before Work Elsewhere
 
-Work outside the current session - starting other sessions or sub-agents, or touching another project - begins only on the director's explicit go for exactly that. "Next is X" names the next topic to talk about. It is not a go to start X.
+Work outside the current session - starting other sessions or sub-agents, or touching another project - begins only on the director's explicit go for exactly that. "Next is X" names only the next topic to talk about.
 
 ## Why
 

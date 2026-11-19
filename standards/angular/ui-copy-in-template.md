@@ -1,6 +1,6 @@
 # UI Copy In Template
 
-UI copy (labels, errors, tooltips) lives in the template. The component exposes booleans/enums for the condition. The template inlines the literal text inside the matching `@if` or `@switch` branch.
+UI copy (labels, errors, tooltips) lives in the template. The component exposes booleans or an `Enum<T>` union ([No Magic Values](../typescript/no-magic-values.md)) for the condition. The template inlines the literal text inside the matching `@if` or `@switch` branch.
 
 ## Why
 

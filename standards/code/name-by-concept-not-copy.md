@@ -11,7 +11,7 @@ Naming by concept keeps the code stable while the copy is free to move.
 - Name the identifier for what it represents in generic English: `ordersTab`, `SETTINGS_TAB`, `notesLabel`.
 - Keep the literal copy as the string value it points at: `tab(page, '<label in the UI language>')`.
 - Applies everywhere a name is chosen: consts, locals, params, helpers, and test fixtures.
-- Prefer a lint rule or a sweep over catching this by eye in review.
+- Catch it with a lint rule or a sweep ([Pre-empt Recurring Code-Review Nits](pre-empt-recurring-code-review-nits.md)).
 
 ## Related
 

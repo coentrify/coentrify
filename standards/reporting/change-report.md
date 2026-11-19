@@ -19,7 +19,7 @@ A change report proves a change and shows how far it spread, so the work is revi
 - Impact (feature: *Benefit*, led with) - user-facing effect, plus follow-ups linked out.
 - References - feature/spec/use-case/bug/PR, and related reports.
 
-Drop sections that don't apply. Screenshots over prose. Videos only when the point is motion. Name files and slugs by concept, not translated UI copy.
+Drop sections that don't apply. Screenshots over prose. Videos only when the point is motion. Name files and slugs by concept ([Name By Concept, Not Copy](../code/name-by-concept-not-copy.md)).
 
 ## Deliverable
 

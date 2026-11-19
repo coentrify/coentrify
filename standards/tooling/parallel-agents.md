@@ -1,6 +1,6 @@
 # Parallel Agents
 
-The toolchain that lets several agents work one repository at once: git worktrees, ports, the landing scripts and the cleanup. Who does what is in [Agent Roles](../tickets-workflow/agent-roles.md) and [The Conductor](../tickets-workflow/the-conductor.md).
+Each agent works in a git worktree and on ports of its own, and every landing goes through the project's scripts.
 
 ## Why
 
@@ -13,12 +13,12 @@ Agents that work at the same time should not conflict.
 - Every brief starts with `git reset --hard main` on the new branch, before any code is read: the worktree branches from origin's main, which lags the local one.
 - A check against old code goes through a scratch branch of its own.
 - Agents commit per item and rebase onto main right after each commit, so main's latest is under the next item. A rebase refuses a dirty tree and git stash is shared by every worktree, so the commit comes first.
-- A builder reads its story from main with the project's plan script, which shares the wiki's loader, never from a checkout that lags.
+- A builder reads its story from main ([Agent Roles](../tickets-workflow/agent-roles.md#the-builder)).
 - Builders run on the cheaper model (`model: "sonnet"`).
 
 ## Watching Agents
 
-- The app stops waking the conductor after many reports in a row with no message from the director, so a builder that waits on a merge stalls overnight.
+- A builder never waits on a merge ([Agent Roles](../tickets-workflow/agent-roles.md#the-builder)), since the app stops waking the conductor after many reports in a row with no message from the director.
 - An agent with no commit for about half an hour gets a look: its uncommitted files, its suite logs, its servers. A builder polishing a detail or rerunning suites then is stopped and told to close from what it has. A long run of several suites with finished items sitting uncommitted is stopped and split into one commit per item with the touched suite only.
 - Whatever watches for agent commits lists every agent branch by pattern and never marks waiting commits as seen when it restarts. After any restart, list what waits with `git cherry` and land it.
 
@@ -39,5 +39,7 @@ Agents that work at the same time should not conflict.
 
 ## Related
 
+- [Agent Roles](../tickets-workflow/agent-roles.md)
+- [The Conductor](../tickets-workflow/the-conductor.md)
 - [Playwright Parallel Runs](playwright-parallel-runs.md)
 - [Own Ports, Own Processes](../behavior/own-ports-own-processes.md)

@@ -8,7 +8,7 @@ Consistency brings expectations, and the expectations hold.
 
 ## How To Apply
 
-- The rule holds for every kind: a ticket, a template, a component, a name, a spelling.
+- Apply the rule to every kind: a ticket, a template, a component, a name, a spelling.
 
 ## Related
 

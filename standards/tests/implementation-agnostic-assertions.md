@@ -8,12 +8,12 @@ A test fails only when what the user perceives changes.
 
 ## How To Apply
 
-- A change in how visibility is achieved leaves these assertions passing: a conditional render swapped for `display: none`, a lazy render, an exit animation, a portal.
 - For presence: `toBeVisible` (and `not.toBeVisible` for absence).
 - For interaction state: `toBeEnabled` / `toBeDisabled`, `toBeEditable`, `toBeChecked`, `toBeFocused`.
 - For content: `toHaveText` / `toContainText`, `toHaveValue`.
 - Reach for `toHaveCount` only when the assertion is about cardinality ("the list shows exactly three results"), never as a stand-in for "this element is gone".
 - Reach for `toHaveAttribute` only when the attribute is part of the user-facing contract (`aria-label`, `href`, `for`), never for internal data attributes.
+- A change in how visibility is achieved leaves these assertions passing: a conditional render swapped for `display: none`, a lazy render, an exit animation, a portal.
 
 ## Related
 

@@ -15,7 +15,7 @@ const MARKDOWN_LINK = /\]\(([^)#]+\.md)\)/g;
 const WHY_HEADING = /^## (Why|Purpose)$/m;
 const TITLE = /^# (.+)$/m;
 const PART_SEPARATOR = ': ';
-const RELEVANT_FOR_HEADING = '## Relevant For';
+const RELEVANT_FOR_LINE = 'Relevant for: ';
 const SECTION_HEADING = /^## /;
 const LIST_ITEM = /^- (.+)$/;
 const FENCE = '```';
@@ -28,7 +28,7 @@ const LOWERCASE_NAMES = new Set(['npm', 'npx']);
 const PARENT_FOLDER = '../';
 const BUDGET_FLAG = '--budget';
 const SEMICOLON = ';';
-const FILLER = /\b(genuinely|truly|actually|legitimately|demonstrably|basically|essentially|literally)\b/i;
+const FILLER = /\b(genuinely|genuine|truly|actually|legitimately|demonstrably|basically|essentially|literally)\b/i;
 const BRITISH =
   /\b(catalogues?|catalogued|afterwards|towards|amongst|whilst|colours?|behaviours?|organisations?|organise[ds]?|initialise[ds]?|recognise[ds]?|prioritise[ds]?|optimise[ds]?|customise[ds]?|customisation|analyse[ds]?|centres?|favour(s|ite|ed)?|licence|judgement|travelled|modelled|cancelled|labelled|grey|learnt|spelt)\b/i;
 const WHY_SECTION = '## Why';
@@ -93,22 +93,18 @@ function indexErrors() {
 }
 
 function relevantFor(text) {
-  const lines = text.split('\n');
-  const start = lines.indexOf(RELEVANT_FOR_HEADING);
-  if (start === -1) {
+  const opening = text.split('\n').slice(1);
+  const end = opening.findIndex((line) => SECTION_HEADING.test(line));
+  const line = (end === -1 ? opening : opening.slice(0, end)).find((entry) => entry.startsWith(RELEVANT_FOR_LINE));
+  if (line === undefined) {
     return [];
   }
-  const tags = [];
-  for (const line of lines.slice(start + 1)) {
-    if (SECTION_HEADING.test(line)) {
-      break;
-    }
-    const item = line.match(LIST_ITEM);
-    if (item) {
-      tags.push(item[1].trim());
-    }
-  }
-  return tags;
+  return line
+    .slice(RELEVANT_FOR_LINE.length)
+    .replace(/\.$/, '')
+    .split(/, | and /)
+    .map((tag) => tag.trim())
+    .filter((tag) => tag !== '');
 }
 
 function relevantForErrors() {
@@ -162,7 +158,7 @@ function missingWhyNotes() {
   );
   const titles = new Map([...texts].map(([standard, text]) => [standard, text.match(TITLE)?.[1] ?? '']));
   return [...texts]
-    .filter(([standard, text]) => !WHY_HEADING.test(text) && !isPartPage(standard, titles))
+    .filter(([standard, text]) => !sections(text).some((line) => WHY_HEADING.test(line)) && !isPartPage(standard, titles))
     .map(([standard]) => `${STANDARDS_FOLDER}/${standard} has no Why section`);
 }
 

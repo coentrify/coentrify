@@ -8,9 +8,9 @@ The installed code is what runs, so it decides.
 
 ## How To Apply
 
-- When an update is on the table, the docs show what it would add.
+- When updating the dependency is an option, check its docs for what the update would add.
 - For API endpoints, verify existence, path, method, and request/response shape against the OpenAPI/Redoc spec itself before documenting them - don't infer from client code or assume an endpoint is missing.
-- Do the same for generated assets: derive any layout the framework unwraps or parses from its own documented rule, then render the result and look at it, rather than positioning by eye.
+- For a generated asset whose layout the framework unwraps or parses, derive that layout from the framework's documented rule instead of positioning by eye, then render the result and look at it.
 
 ## Related
 

@@ -1,6 +1,6 @@
 # Anchor Edits After Formatting
 
-When a formatter or a commit hook rewrites files, an edit follows three rules.
+When a formatter or a commit hook rewrites files, write nothing while a commit hook runs, and edit by content once the formatter ran. Write a batch of anchored edits only after every anchor in it matches.
 
 ## Why
 

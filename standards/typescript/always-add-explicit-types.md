@@ -12,7 +12,7 @@ Strict typing leaves no room for side effects or unforeseen paths.
 const value: User = getUser();
 let count: number = 0;
 function load(id: string): User { ... }
-const handler = (event: Event): void => { ... };
+const handler: (event: Event) => void = (event) => { ... };
 ```
 
 ## Linter
@@ -21,7 +21,7 @@ If a linter rule forbids explicit annotations on inferrable bindings, change the
 
 ## Exceptions
 
-- Loop variables in a typed iterable (`for (const x of users)`).
+- Loop variables in a typed iterable (`for (const user of users)`).
 - Destructured parameters where each field's type is pinned by the parent type.
 
 ## Related

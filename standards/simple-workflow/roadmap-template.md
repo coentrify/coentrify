@@ -30,7 +30,7 @@ Answers "what's next?" at a glance. Active surfaces the current focus. Prioritie
 ## What Doesn't Belong On The Roadmap
 
 - Specific bugs - they live in [Bugs Template](bugs-template.md).
-- Tech-debt entries - they live in `tech-debt.md`.
+- Debt entries - they live in the debt list ([Technical Debt Template](technical-debt-template.md)).
 - "Resolve bugs" or "Fix tech debt" as roadmap items - those are continuous activities, not roadmap goals.
 - Generic "Write unit tests" or "Add tests" - if testing is a priority, name it as an initiative (e.g. `Automated Testing`). Specific test backlogs live in the affected feature's spec.
 

@@ -5,7 +5,7 @@ The checks this repository runs on itself.
 - `npm run build:wiki` fails on a dead link.
 - `npm run lint:standards` fails when a standard is missing from the overview of its module, or a module from the standards overview.
 - `npm run lint:standards` also fails on a heading with a lowercase word outside code, and on a hard-wrapped line.
-- `npm run lint:standards` fails on an overview line that leaves out an entry of its standard's Relevant For list.
+- `npm run lint:standards` fails on an overview line that leaves out what its standard's `Relevant for:` line names.
 - `npm run lint:standards -- --why` prints every standard without a Why section.
 - `npm run lint:standards` fails on a semicolon in prose, a filler word such as genuinely or truly, and a British spelling, outside code.
 - It also fails on a standard that does not open with its rule, a Why that is not the first section, and a standard that does not end with Related.

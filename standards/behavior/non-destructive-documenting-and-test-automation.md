@@ -1,6 +1,6 @@
 # Non-Destructive Documenting And Test Automation
 
-Observation phases - docs, spec, mocks, test automation - describe what exists and verify it. They never modify production code. Implementation changes happen in their own [Feature Workflow](feature-workflow.md) step, their own commit.
+The observation steps of the [Feature Workflow](feature-workflow.md) - doc, spec and e2e - describe what exists and verify it, and never modify production code. Implementation changes happen in their own step, their own commit.
 
 ## Why
 
@@ -10,8 +10,8 @@ Production code changes only in implementation, where it is reviewed.
 
 - Diff during observation touches only `docs/`, `e2e/`, `mocks/`, test setup. Touching production source is a red flag.
 - Mocks live outside the code under observation. The thing being mocked stays untouched.
-- A failing test found while observing is a finding, not a fix trigger in this phase: file a bug ticket ([Note Issues](note-issues.md)). The test lands with the fix as its reproducing test, never red on main ([Main Stays Green, Work Stays Clean](../commits/main-stays-green-work-stays-clean.md)).
-- Each phase commits separately. Never mix observation work and behavior change in one diff.
+- A failing test found while observing is a finding: file it as a bug ([Note Issues](note-issues.md)) and fix nothing in this step. The test lands with the fix as its reproducing test, never red on main ([Main Stays Green, Work Stays Clean](../commits/main-stays-green-work-stays-clean.md)).
+- Each step commits separately. Never mix observation work and behavior change in one diff.
 
 ## Related
 

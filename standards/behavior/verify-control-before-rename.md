@@ -6,10 +6,6 @@ When asked to rename a UI label or control, first trace it to its handler and th
 
 A label says what its control does.
 
-## How To Apply
-
-- A label is a claim about behavior: verify it against the click handler and the data field it mutates, and if it's wrong, ask first.
-
 ## Related
 
 - [Honest Assessments](general-working-rules.md#honest-assessments)

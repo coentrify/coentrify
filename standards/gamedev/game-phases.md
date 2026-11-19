@@ -39,11 +39,11 @@ A greybox is the tool of three phases.
 - Prototype greyboxes the core loop.
 - World Building greyboxes the world of a 3D game, since only moving through it shows whether its size is right.
 - First Playable is a greybox with one of everything.
-- Pre-Alpha replaces the gray boxes with parts that read as what they are.
+- Pre-Alpha replaces the greyboxes with parts that read as what they are.
 
 ## Outsiders
 
-- A public demo is no phase. It is cut from the game during Alpha, when the main gameplay works and one part of the content is polished.
+- A public demo is no phase. Where the [Launch Strategy](launch-strategy.md) has a demo, it is cut from the game during Alpha, when the main gameplay works and one part of the content is polished.
 - A demo is never built early.
 - The phase gates of Pre-Alpha and Alpha allow a playtest by outsiders. Beta stays the phase that is about them.
 

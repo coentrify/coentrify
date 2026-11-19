@@ -11,16 +11,16 @@ A reel is proof that can be watched, and recorded from code it can be made again
 - A reel shows what it claims. Watch it: if nothing visible changes, it proves nothing, however green the run behind it was.
 - A reel is a product artifact: no sudden resizes, the recording's size matches the viewport (no letterboxing or downscaling), and it ends on a complete state, never mid-transition.
 - Scope matches level. Footage of one feature stays portable, with no framing for one audience. Audience framing belongs only in a reel of the whole product.
-- Copy on screen stays generic ("the X", not "our X") unless the first person is the point.
+- Copy on screen stays generic, such as "the X", unless the first person is the point.
 
 ## Narration And Speech
 
 For reels with narration or subtitles, and for any speech a TTS model generates, in a reel or in the product itself:
 
 - Words never contradict the screen, and a claim stays true for as long as it is spoken: a step that changes the state it describes splits into a confirm step and an action step.
-- The user is the subject and the simulated world is what they act in: "we log in to X", never "as X".
+- The user is the subject and the simulated world is what they act in: "the user logs in to X", never "as X".
 - Reading-time formulas underestimate TTS, especially outside English. When two lines collide, give them more time.
-- A cheap TTS model says what it reads, not what was meant: spell names and odd words the way they should sound in the input it gets, and keep the display text separate when the two differ.
+- A cheap TTS model says exactly what it reads: spell names and odd words the way they should sound in the input it gets, and keep the display text separate when the two differ.
 - Generated speech is unverified until it is heard. The agent cannot listen, so it says so, and the clip or line goes to the director to hear before anything quotes its words.
 
 ## Related

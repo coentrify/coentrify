@@ -22,7 +22,7 @@ What the director decided to do soon, as concrete one-liners, follow-ups and cle
 
 - User-facing bugs - [Bugs Template](bugs-template.md).
 - Roadmap items - [Roadmap Template](roadmap-template.md).
-- Tech-debt with no concrete next-step - `tech-debt.md`.
+- Debt with no concrete next step - the debt list ([Technical Debt Template](technical-debt-template.md)).
 
 ## Related
 

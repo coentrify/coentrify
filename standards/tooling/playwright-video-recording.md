@@ -19,7 +19,7 @@ A recording is proof, so it has to come out sharp and whole.
 To record the same take under another condition (dark mode, another viewport, a locale):
 
 - Extract the take into a shared async function that takes the page, and call it from both tests rather than copy-pasting. Re-run the formatter afterward, since extraction reflows indentation.
-- Give the variant a distinct tag suffix (`@<feature>-overview-dark`) wherever output files are named after the tag, or the variant overwrites the original recording.
+- Give the variant a distinct tag suffix (`@<feature-id>-overview-dark`) wherever output files are named after the tag, or the variant overwrites the original recording.
 - Force the theme before the first navigation with `page.emulateMedia({ colorScheme: 'dark' })`, so the whole take records in it and it survives a mid-flow reload.
 
 ## Pitfalls

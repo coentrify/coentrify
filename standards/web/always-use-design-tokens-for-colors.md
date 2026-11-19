@@ -8,13 +8,13 @@ Every color follows the design system, its themes and its renames included.
 
 ## How To Apply
 
-- The custom property is the design system's internal plumbing: a raw `var()` bypasses the token API and breaks when the variable is renamed.
-- A hex that happens to equal a token is still a magic literal that drifts and skips theming.
 - Color belongs in SCSS, pulled from the `@use`'d token namespace: `@use '...scss/color'; stroke: color.$bg-brand-default;`. The same discipline covers spacing, radius and typography tokens.
 - When the color is dynamic or chosen in TS, the component emits a key or variant, never a hex or a `var(--...)` string, and the SCSS maps that key to the token (a modifier class, an `@each` over a `$key: color.$token` map). SVG `stroke=`/`fill=` presentation attributes can't resolve tokens, so bind a class instead of a style string.
 - Pick an existing color as it is before any new one: no lightened, darkened or blended shade of a token for a new element when an existing color reads well.
 - A missing token is a design-system gap: add it to the project's own token layer and surface the gap to the director ([Library Feedback](../docs/library-feedback.md)). Never a raw value in its place.
-- Prefer to lint-enforce: no raw hex and no `var(--color-...)` in component code outside the token definitions.
+- Lint against raw hex and `var(--color-...)` in component code outside the token definitions ([Pre-empt Recurring Code-Review Nits](../code/pre-empt-recurring-code-review-nits.md)).
+- The custom property is the design system's internal plumbing: a raw `var()` bypasses the token API and breaks when the variable is renamed.
+- A color literal, even one that equals a token, is a magic value per color mode: it drifts from the palette, has to be found again for every new mode, and skips theming.
 
 ## Related
 

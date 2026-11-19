@@ -8,9 +8,9 @@ A test with many canvas clicks stays inside its timeout, also on a loaded machin
 
 ## How To Apply
 
-- A locator click repeats its actionability checks on every click, which on a rendering canvas under parallel workers can take seconds each and blow the test timeout.
 - Assert the canvas is visible once, read `boundingBox()`, then loop `page.mouse.click(x, y)`.
 - Keep the helper in the e2e helpers folder as the one gesture helper for that canvas.
+- A locator click repeats its actionability checks on every click, which on a rendering canvas under parallel workers can take seconds each and blow the test timeout.
 
 ## Related
 
