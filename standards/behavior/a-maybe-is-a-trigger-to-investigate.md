@@ -9,7 +9,7 @@ A maybe gets attention at once, whatever comes of it.
 ## How To Apply
 
 - Think it through while processing the message. It ends in one of four outcomes.
-  - Clear and cheap: land it as an item and name it for a veto ([Flag Every Addition Of Your Own](flag-every-addition-of-your-own.md)).
+  - Clear and cheap: file it as an item in the project's workflow and name it for a veto ([Flag Every Addition Of Your Own](flag-every-addition-of-your-own.md)).
   - One fact missing: ask only that.
   - Looks wrong: give the reason, once ([Honest Assessments](general-working-rules.md#honest-assessments)).
   - Too big for now: note it, or make it a spike for later.
