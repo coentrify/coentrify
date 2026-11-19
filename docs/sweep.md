@@ -10,7 +10,6 @@ The worklist from a sweep over every standard, the top-level pages, the tools an
 
 ## Facts That Went Stale
 
-44. CI actions float on a major tag, where pinning to a commit is the hardening advice.
 45. Workspace Levels puts a framework upgrade before any tests.
 46. Test data factories randomize without a seed.
 47. A reel is watched, with no way given for an agent to check a video.
