@@ -13,7 +13,7 @@ To coentrify a project is to align the project with spec-driven development.
 Prompt your agent to start the [onboarding](onboarding.md):
 
 ```
-coentrify
+set up coentrify in this project: https://github.com/coentrify/coentrify
 ```
 
 Adopt the defaults, pick what to use, and customize to fit the project.

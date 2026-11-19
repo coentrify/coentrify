@@ -14,7 +14,8 @@ The versions on the way to 1.0.
 - Probe Always Work From A Plan on a good trap, with its current text and with a renamed title, and compare. Missed work and rework count, and so does a plan picked up by the next session.
 - Probe the standards again at every new model release, on new traps.
 - Probe Reload The Standards After Compacting on a long session, and in the terminal or the app, as the [worklist](relevance-vetting.md) says.
-- Test on a real project: the one word, the onboarding, the reload hook and the update.
+- Test on a real project: the first prompt, the onboarding, the reload hook and the update.
+- Probe the bare word again once coentrify is indexed and linked from other sites, and simplify the first prompt when it passes.
 - Record a video of the install, as proof that it works.
 - Remove the eager rules from the personal memory once the standards hold.
 
