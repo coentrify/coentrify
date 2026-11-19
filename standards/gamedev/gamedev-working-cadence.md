@@ -20,7 +20,7 @@ Every playtest plays a named version, and knows what changed in it.
 ## Per Item
 
 - Every item lands with its proof, since an item without proof has to be checked again by hand.
-- The suites whose cases touch the changed labels, names and orders (grep the e2e first) run once at the end of a story, not per item.
+- Per item, the cases that touch what changed run. The whole touched suites, found by grepping the e2e for the changed labels, names and orders, run at the end of the story ([Building A Ticket](../tickets-workflow/building-a-ticket.md#building)).
 - The full suites run once at the version's close.
 - While prototyping new things, per item only the cases that touch what changed run, never the whole feature suite.
 

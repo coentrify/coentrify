@@ -18,7 +18,7 @@ The Gamedev standards: game development.
 - [Game Phases: Concept](game-phases-concept.md) - the divergent stage: Idea, Gathering, Outline and Prototype, loose inside and without tickets
 - [Game Phases: Design](game-phases-design.md) - the convergent stage: Lore, World Building, Gameplay, First Playable and Game Design. A first playable is never a demo
 - [Game Phases: Development](game-phases-development.md) - Pre-Alpha is functionally complete: every part present, rough allowed, undecided content on the agent's recommendation. Alpha polishes, Beta is for outsiders
-- [Game Phases: Live](game-phases-live.md) - Release, Aftercare and Post-Release. An everlasting project, so no phase gate closes it
+- [Game Phases: Live](game-phases-live.md) - Release, Aftercare and Post-Release. An everlasting project, so Post-Release has no phase gate
 - [Game Work Workflow](game-work-workflow.md) - the game layer on the work workflow: the user is the player, addressed as you, the game's own words, playtests feed intake, Lore and Game ticket types, the four stages in a line each
 - [Gamedev Working Cadence](gamedev-working-cadence.md) - the game day loop, feedback on an open version is a cutoff, full pre-push hook before the tag, nothing new after a wind-down
 - [Incremental Pacing](incremental-pacing.md) - a pacing doc per level mirroring the configuration

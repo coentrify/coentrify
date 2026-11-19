@@ -32,6 +32,8 @@ Make smaller commits, grouped by review interest. Mechanical changes can batch. 
 
 For migrations or refactors, batch the mechanical updates, then split out each complex case. Ask: "what would a reviewer want to look at separately?"
 
+A branch only ever holds commits ready to land. A commit is never amended once made, and a fix goes in as a new commit.
+
 ## Related
 
 - [Verify Staging Before Committing](verify-staging-before-committing.md)

@@ -1,14 +1,14 @@
 # Game Phases: Live
 
-The fourth stage of a game ([Game Phases](game-phases.md)). The game is out. No phase gate closes Live.
+The fourth stage of a game ([Game Phases](game-phases.md)). The game is out. Post-Release has no phase gate, since the game lives on.
 
 ## Release
 
-1.0 going out, once the director feels good about it, by the [Launch Strategy](launch-strategy.md) the game picked.
+1.0 going out, once the director feels good about it, by the [Launch Strategy](launch-strategy.md) the game picked. Gate: is the game out, and does it run for players?
 
 ## Aftercare
 
-Right after the release, what breaks fixed fast and the first feedback sorted.
+Right after the release, what breaks fixed fast and the first feedback sorted. Gate: is what broke at release fixed, and the first feedback sorted?
 
 ## Post-Release
 

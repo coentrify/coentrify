@@ -30,7 +30,7 @@ The game grows in steady steps, and a mistake is caught while it is still cheap.
 - From Design on, a game is in one phase at a time.
 - Every phase holds for every game, even when it is short: Pong's world is a black void, and its story can be a single line.
 - The page of a phase carries the leading question of its phase gate in a `Gate:` line.
-- No phase gate closes Live, since the game is an everlasting project.
+- Post-Release, the last phase of Live, has no phase gate, since the game is an everlasting project.
 
 ## The Greybox
 

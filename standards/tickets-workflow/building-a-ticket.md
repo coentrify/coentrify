@@ -12,6 +12,7 @@ The director can trust a ticket that is called done.
 - One item in flight per agent: the first ticket of its plan section ([Work Tracking](work-tracking.md#the-lists)). A bare line stands in the plan's Tasks section with its go linked, and a line without one cannot stand there.
 - Every word and number a change shows, configuration data included, is weighed along the ticket's entry points by what it means to the user at that moment ([Walk The User's Journey](../ui/walk-the-users-journey.md)). A text the user reads speaks the product's own words, never the workspace's internal terms.
 - A feature runs the feature workflow inside its ticket ([Feature Workflow](../behavior/feature-workflow.md)).
+- Per ticket, only what the change affects runs: the cases of every feature that uses what it touched, and the reels and captures that cross it. The whole touched suites run at the end of the story, and the full suites at the version's close.
 - Easy-to-change choices are made and written under Veto.
 - Only costly-to-undo choices wait, as a question in their ticket.
 
@@ -26,7 +27,7 @@ The director can trust a ticket that is called done.
 A ticket or a line is done only when every one of these holds. Until then it stays on the plan.
 
 - Every acceptance criterion is met and verified, and the spec covers each one.
-- The touched suites, hygiene, types and the development build are green, each by its own exit code ([Gate Commits On Exit Codes](../commits/gate-commits-on-exit-codes.md)).
+- The cases that touch the change, hygiene, types and the development build are green, each by its own exit code ([Gate Commits On Exit Codes](../commits/gate-commits-on-exit-codes.md)).
 - A bug's test reproduces the director's steps with real input and was seen failing before the fix ([A Bug's Test Reproduces With Real Input](../tests/a-bugs-test-reproduces-with-real-input.md)).
 - A new hygiene check lands with its implementation, and its builder's report shows the run that failed before the change.
 - The Done part holds proof the director can open and verify ([The Done Part](the-done-part.md), [Review Every Capture Before Reporting](../behavior/review-every-capture-before-reporting.md)).
