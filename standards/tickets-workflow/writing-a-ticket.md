@@ -12,13 +12,13 @@ A builder can build from the ticket alone.
 - One line per bullet. A point with parts gets a subsection of its own. Nested bullets are allowed but strongly discouraged.
 - The summary says what should change, with should, since a ticket is a change. The end state in the present tense belongs to the criteria. It keeps its articles and reads cold to a human, never like an agent's footnote.
 - Elsewhere articles and filler words go. A concept goes by its name in words, never by a session's or a doc's shorthand.
-- An empty section is the dash in backticks, `` `-` ``, since a bare dash renders as an empty bullet: the explicit answer is the check, the way a blinker is used on an empty road.
+- An empty section is the dash in backticks, `` `-` ``, since a bare dash renders as an empty bullet.
 - The summary, Why, Current Situation, Acceptance Criteria and Source always hold a real answer.
 - History stays behind the Source link.
 - Every check runs on every ticket. An answer is never skipped because the tickets before it had the same one.
-- Past about 300 words before Done a ticket counts as long, headings and the dash of an empty section not counted, and its groomer trims it unless the length is necessary. A ticket kept long carries `long: true`, which a hygiene check requires. A long ticket never loses an important point, and never splits for its length alone.
-- A small ticket is always better: the smallest piece of work that gives an actual feature. It is easy to place, waits on less, is fast to build and easy to accept.
-- The Current Situation is written first, as facts read from the product, its feature doc and its history. A ticket asking for something built already shows it there and never reaches the plan.
+- Past about 300 words before Done a ticket counts as long, headings and the dash of an empty section not counted, and the conductor or docs agent grooming it trims it unless the length is necessary. A ticket kept long carries `long: true`, which a hygiene check requires. A long ticket never loses an important point, and never splits for its length alone.
+- A small ticket is always better ([Definition Of Ready](work-workflow.md#definition-of-ready)): it is easy to place, waits on less, is fast to build and easy to accept.
+- The Current Situation is written first. A ticket asking for something built already shows it there and never reaches the plan.
 - Left Out holds decisions only. Something built already or decided elsewhere is refined away. An unsure split is a Question.
 - The ticket is functional. Tests, specs, docs and code are the Definition of Done and the builder's.
 - A ticket describes the work. The product is described in its feature docs, which a feature ticket updates. A feature doc links the ticket of a part not built yet beside its `(Not Yet Implemented)` mark. A hygiene check flags a mark whose ticket is archived, the cue to update the doc.
@@ -41,7 +41,7 @@ What must be observably true, from the user's side, for the work to count as don
 
 ## The Done Part
 
-The builder writes it in the landing commit. Its shape and its proof are in [The Done Part](the-done-part.md).
+Its own page is [The Done Part](the-done-part.md).
 
 ## Related
 
