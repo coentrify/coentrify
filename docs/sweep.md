@@ -7,7 +7,6 @@ The worklist from a sweep over every standard, the top-level pages, the tools an
 
 ## Rules That Contradict
 
-18. Post-Release has no gate, and the hygiene check fails a phase page without its `Gate:` line.
 19. A commit is never amended, and a wrong commit is redone with `git reset HEAD~1`.
 20. A prototype gets no headless check, and Always Verify Before Reporting Done has no exception.
 21. The example in Thin Wrappers In CI And Hooks is the coupling npm Script Naming forbids.
