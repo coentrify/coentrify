@@ -17,7 +17,7 @@ A playtest file records what was felt about a build, and the next build is held 
 
 - A session playing the build.
 - A review of the changelog, its captures or its reels instead of the build: even one line of feedback on a reel gets a file.
-- Notes that come in while the director plays a version in progress: the file opens with the first such note of the session and grows with every note after, in the same commit as its log entry.
+- Notes that come in while the director plays a version in progress: the file opens with the first such note of the session and grows with every note after, each in its own commit right after its log entry.
 
 ## How To Apply
 
