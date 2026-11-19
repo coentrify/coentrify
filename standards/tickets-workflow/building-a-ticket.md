@@ -9,7 +9,7 @@ The director can trust a ticket that is called done.
 ## Building
 
 - Work comes from the plan only, and the plan holds only ready tickets with a go and an agent. Every commit traces to a ticket on the plan and starts with its id ([Commits](../commits/commits.md)). Something found mid-work that is not on the plan becomes a ticket first ([Note Issues](../behavior/note-issues.md)).
-- One item in flight per agent: the first ticket of its plan section ([Work Tracking](work-tracking.md#the-lists)). A bare line stands in the plan's Tasks section with its go linked, and a line without one cannot stand there.
+- One item in flight per agent: the first ticket of its plan section ([Work Tracking](work-tracking.md#the-lists)).
 - Every word and number a change shows, configuration data included, is weighed along the ticket's entry points by what it means to the user at that moment ([Walk The User's Journey](../ui/walk-the-users-journey.md)). A text the user reads speaks the product's own words, never the workspace's internal terms.
 - A feature runs the feature workflow inside its ticket ([Feature Workflow](../behavior/feature-workflow.md)).
 - Per ticket, only what the change affects runs: the cases of every feature that uses what it touched, and the reels and captures that cross it. The whole touched suites run at the end of the story, and the full suites at the version's close.
@@ -24,7 +24,7 @@ The director can trust a ticket that is called done.
 
 ## Definition Of Done
 
-A ticket or a line is done only when every one of these holds. Until then it stays on the plan.
+A ticket is done only when every one of these holds. Until then it stays on the plan.
 
 - Every acceptance criterion is met and verified, and the spec covers each one.
 - The cases that touch the change, hygiene, types and the development build are green, each by its own exit code ([Gate Commits On Exit Codes](../commits/gate-commits-on-exit-codes.md)).
