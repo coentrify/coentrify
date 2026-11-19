@@ -31,9 +31,9 @@ A written rule, convention or template that a project adopts. Every standard is 
 
 A folder of standards on one subject, such as Docs or Tests.
 
-### Read First
+### Core Rules
 
-The standards that an agent loads at the start of every session ([Overview](standards/overview.md)).
+The rules every task follows, in every session. An agent loads them at the start of each session ([Overview](standards/overview.md)).
 
 ### Check
 

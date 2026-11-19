@@ -94,17 +94,17 @@ A link to a standard the project did not adopt points at nothing. The unlink scr
 
 `standards/overview.md` lists the adopted modules, and every module has an overview of its own standards, with one line each. An agent reads a module's overview, and then a standard, when the work calls for it.
 
-### Read First
+### Core Rules
 
-The index opens with a Read First list: the standards an agent reads at the start of every session. The list starts with the core standards of coentrify. A project adds standards of its own to the list, and can take one off.
+The index opens with the Core Rules: the rules every task follows, in every session, read before anything else and held to like a check. The list starts with the core rules of coentrify. A project adds standards of its own to the list, and can take one off.
 
 ### The Entry Point
 
 The entry point is the file an agent reads when a session starts, such as `AGENTS.md` or `CLAUDE.md`. The entry point gets one line that points at the index, and holds no standards itself. A project without an entry point gets an `AGENTS.md`.
 
-Where the agent can import a file, such as with `@` in `CLAUDE.md`, the entry point imports every Read First standard, so the standards load without being asked for.
+Where the agent can import a file, such as with `@` in `CLAUDE.md`, the entry point imports every standard in the Core Rules, so the standards load without being asked for.
 
-The entry point also says to read the Read First standards again after a compaction. Where the agent supports hooks, the reload hook from the [tools](tools/overview.md) does that by itself.
+The entry point also says to read the Core Rules again after a compaction. Where the agent supports hooks, the reload hook from the [tools](tools/overview.md) does that by itself.
 
 ### The Coentrify File
 

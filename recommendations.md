@@ -13,7 +13,7 @@ Recommendations and considerations for adopting coentrify.
 
 ### Always
 
-- Behavior - how an agent works and what an agent checks, with the Read First standards in it
+- Behavior - how an agent works and what an agent checks, with the Core Rules in it
 - Docs - documentation rules and templates
 
 Normal Dashes and Prose Style are taste. Coentrify recommends both, because docs that sound like AI annoy a human reader fast, and a project can leave them out.
