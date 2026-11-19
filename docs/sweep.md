@@ -4,7 +4,6 @@ The worklist from a sweep over every standard, the top-level pages, the tools an
 
 ## Install And Update
 
-8. The spec of the coentrify.json check leaves out a module's own `source`, and the commit that changes the version.
 9. The commit gate refuses a `git tag` that only lists, and its spec has no case for it.
 
 ## Rules That Contradict
