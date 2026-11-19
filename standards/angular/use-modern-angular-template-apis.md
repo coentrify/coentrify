@@ -16,5 +16,5 @@ The code follows where the framework is going.
 
 - [Code Review Compounds Into Patterns And Sweeps](../behavior/code-review-compounds-into-patterns-and-sweeps.md)
 - [Always Use Design Tokens For Colors](../web/always-use-design-tokens-for-colors.md)
-- [Pre-empt Recurring Code-Review Nits](../code/pre-empt-recurring-code-review-nits.md)
+- [Pre-Empt Recurring Code-Review Nits](../code/pre-empt-recurring-code-review-nits.md)
 - [Don't Introduce Tech Debt](../behavior/dont-introduce-tech-debt.md)

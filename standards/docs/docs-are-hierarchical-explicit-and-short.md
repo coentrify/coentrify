@@ -10,7 +10,7 @@ A hierarchy gives every page the right focus level, for efficient and effective 
 
 - The page opens with a summary at its own focus level, one or two lines right under the title: what the thing is and what it is for, no details and no visual description, which rot when the look changes.
 - An introduction, when the page needs one, is distinct from the summary: it is the first item of the contents, where the content begins.
-- Then a contents section one focus level deeper, under a heading that fits the thing: `## Components`, `## Parts`, `## Sections`, `## Features`. The items are grouped by what they do (`### Account Settings`, `### Billing`), one line each with a dash and a few words ("The Profile - Name And Photo").
+- Then a contents section one focus level deeper, under a heading that fits the thing: `## Parts`, `## Features`. The items are grouped by what they do (`### Account Settings`, `### Billing`), one line each with a dash and a few words ("The Profile - Name And Photo").
 - Then a `##` heading per item, in the same order. An item with one or a few things to say gets one line under its heading and a link to its own page. An item with more gets a page of its own, its features under headings. Sub-items take `###`.
 - The look of the thing goes under an `## <Thing> Aesthetics` heading, in prose.
 - A section with subsections opens with a short list of them as in-page links before its own text.

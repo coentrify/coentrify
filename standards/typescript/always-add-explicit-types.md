@@ -27,4 +27,4 @@ If a linter rule forbids explicit annotations on inferrable bindings, change the
 ## Related
 
 - [No Magic Values](no-magic-values.md)
-- [Pre-empt Recurring Code-Review Nits](../code/pre-empt-recurring-code-review-nits.md)
+- [Pre-Empt Recurring Code-Review Nits](../code/pre-empt-recurring-code-review-nits.md)
