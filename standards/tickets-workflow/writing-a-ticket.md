@@ -16,7 +16,7 @@ A builder can build from the ticket alone.
 - The summary, Why, Current Situation, Acceptance Criteria and Source always hold a real answer.
 - History stays behind the Source link.
 - Every check runs on every ticket. An answer is never skipped because the tickets before it had the same one.
-- Past about 300 words before Done a ticket counts as long, headings and the dash of an empty section not counted, and the conductor or docs agent grooming it trims it unless the length is necessary. A ticket kept long carries `long: true`, which a hygiene check requires. A long ticket never loses an important point, and never splits for its length alone.
+- Past about 300 words before Done a ticket counts as long, headings and the dash of an empty section not counted, and the agent grooming it ([Agent Roles](agent-roles.md)) trims it unless the length is necessary. A ticket kept long carries `long: true`, which a hygiene check requires. A long ticket never loses an important point, and never splits for its length alone.
 - A small ticket is always better ([Definition Of Ready](work-workflow.md#definition-of-ready)): it is easy to place, waits on less, is fast to build and easy to accept.
 - The Current Situation is written first. A ticket asking for something built already shows it there and never reaches the plan.
 - Left Out holds decisions only. Something built already or decided elsewhere is refined away. An unsure split is a Question.

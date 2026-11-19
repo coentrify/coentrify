@@ -1,5 +1,5 @@
 import { execFileSync } from 'node:child_process';
-import { readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const STANDARDS_FOLDER = 'standards';
@@ -36,6 +36,7 @@ const PURPOSE_SECTION = '## Purpose';
 const RELATED_SECTION = '## Related';
 const TEMPLATE_TITLE = / Template$/;
 const BUDGET = { standard: 600, template: 1200, hub: 3000 };
+const BUDGET_EXCEPTIONS = 'budget-exceptions.json';
 const HUBS = new Set([
   'tickets-workflow/work-tracking.md',
   'tickets-workflow/work-workflow.md',
@@ -285,16 +286,24 @@ function shapeErrors() {
   return errors;
 }
 
+function budgetExceptions(module) {
+  const path = join(STANDARDS_FOLDER, module, BUDGET_EXCEPTIONS);
+  return existsSync(path) ? JSON.parse(readFileSync(path, 'utf8')) : {};
+}
+
 function budgetNotes() {
   const notes = [];
   for (const standard of standardsOnDisk()) {
+    const [module, file] = standard.split('/');
     const text = readFileSync(join(STANDARDS_FOLDER, standard), 'utf8');
     const body = text.split(`\n${RELATED_SECTION}\n`)[0];
     const words = body.split(/\s+/).filter((word) => word !== '').length;
     const title = text.match(TITLE)?.[1] ?? '';
     const kind = HUBS.has(standard) ? 'hub' : TEMPLATE_TITLE.test(title) ? 'template' : 'standard';
-    if (words > BUDGET[kind]) {
-      notes.push(`${STANDARDS_FOLDER}/${standard} holds ${words} words, past the ${BUDGET[kind]} of a ${kind}`);
+    const accepted = budgetExceptions(module)[file]?.words ?? BUDGET[kind];
+    if (words > accepted) {
+      const limit = accepted === BUDGET[kind] ? `the ${BUDGET[kind]} of a ${kind}` : `the ${accepted} accepted in ${BUDGET_EXCEPTIONS}`;
+      notes.push(`${STANDARDS_FOLDER}/${standard} holds ${words} words, past ${limit}`);
     }
   }
   return notes;

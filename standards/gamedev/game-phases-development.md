@@ -11,8 +11,7 @@ Functionally complete: the full game playable from start to finish, perhaps badl
 - The right vibe counts.
 - Polish waits: the look and the finish of a working part belong to Alpha, and so does its debt, until the game's whole shape stands. An agent pushes back on polish.
 - What a part does is good from its first version ([Always Polished](game-design-laws-quality.md#always-polished)).
-- Content the director has not decided, dialog lines, names, quest wording or a song's pick, takes the agent's recommendation as long as its core message is clear, and stands under Veto. It never waits on refinement. Alpha polishes it.
-- A Veto decides how a part looks, sounds or counts, never that a part is left out. A Veto that drops a part is sent back before it lands.
+- Content the director has not decided takes the agent's recommendation under Veto ([Game Work Workflow](game-work-workflow.md#content)), and Alpha polishes it.
 - A ticket names the parts it adds in refinement, by kind, so a story shows what it brings: ten sound effects, say.
 - Before a level lands, an inventory checks every part its tickets and its feature doc name: each is present and reads as what it is.
 - The [Launch Strategy](launch-strategy.md) is picked before Alpha.

@@ -19,6 +19,11 @@ What is specific to a game stands in one place, and the Work Workflow stays gene
 - Playtest feedback gets its playtest file first, kept by the conductor, then its units go through intake ([Playtest Files](../records/playtest-files.md)).
 - While a version stabilizes, anything new waits for its epic ([Stabilize Before Adding](../tickets-workflow/stabilize-before-adding.md)).
 
+## Content
+
+- Content the director has not decided, dialog lines, names, numbers, quest wording or a song's pick, takes the agent's recommendation as long as its core message is clear, and stands under Veto, in every phase. It never waits on refinement.
+- A Veto decides how a part looks, sounds or counts, never that a part is left out. A Veto that drops a part is sent back before it lands.
+
 ## Design Ticket Types
 
 A game's work in the Design stage is tracked in two types of its own, on top of [Work Tracking](../tickets-workflow/work-tracking.md#types). Both carry the sections of a Debt ticket ([Ticket Template](../tickets-workflow/ticket-template.md#sections-per-type)).
