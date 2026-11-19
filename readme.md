@@ -56,7 +56,7 @@ Coentrify gives any input a quality baseline. The creating and the deciding stay
 
 - [Philosophy](philosophy.md) - The four principles the system rests on, a compass.
 - [Standards](standards.md) - The rules and templates a project adopts.
-- [Tools](tools/overview.md) - The scripts and hooks that enforce a standard.
+- [Tools](tools/overview.md) - The update script, and a spec for every check a project builds itself.
 - [How It Works](how-it-works.md) - From any input to what you want.
 - [Proof](proof.md) - The experiments behind the standards, with the models tested.
 - [Glossary](glossary.md) - The terms coentrify uses most, in plain words.

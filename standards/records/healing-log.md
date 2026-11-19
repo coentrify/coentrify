@@ -9,7 +9,7 @@ The harness heals on its own, and the director keeps the last word on every chan
 ## How To Apply
 
 - An entry is one line: the date, what went wrong, what changed, and the commit. `- 2026-11-19 - a commit followed a git add in one command - Verify Staging Before Committing gets a check in the commit gate - 85f1950`
-- The entry goes in through `tools/scripts/healing-append.py`, so every entry has the same shape and the log can be counted.
+- The entry goes in through the project's append script, so every entry has the same shape and the log can be counted.
 - One entry holds one change. A mistake that changed a rule and a check gets two entries.
 - The director rules on an entry: keep it, change it, or revert it.
 - A ruled entry leaves the log, and git keeps it ([Remove Completed Items From Docs](../simple-workflow/remove-completed-items-from-docs.md)).

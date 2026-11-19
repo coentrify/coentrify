@@ -26,7 +26,7 @@ A project without tickets keeps the list by hand.
 
 - The page holds one `## Changed` list.
 - Every landing appends one line at the bottom, ending in its time: ``- <what changed> `HH:MM` ``.
-- The line goes in through `tools/scripts/changelog-append.py`, so the list is never written free hand.
+- The line goes in through the project's append script, so the list is never written free hand.
 - The script refuses a second bullet, a semicolon that chains two items, and a line without its time.
 
 ## Related

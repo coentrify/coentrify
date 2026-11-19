@@ -57,7 +57,7 @@ A standard the changelog does not name needs no attention.
 
 ## The Check
 
-`check-coentrify-json.py` from the [tools](tools/overview.md) keeps the file true.
+A check built from its spec in the [tools](tools/overview.md) keeps the file true.
 
 - A folder the file names has to exist.
 - A standard the file lists has to be on disk.
