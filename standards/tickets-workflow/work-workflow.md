@@ -45,7 +45,8 @@ A finding in the middle of other work is filed by its kind ([Note Issues](../beh
 
 Everything needs the director's go before it is built: a feature, a bug, docs work, a spike, debt, a rework, and the main session's own small change.
 
-- The go is given at a planning, by id, by a story's id for every ticket in it, or in one word for all that is ready, and the conductor writes its log entry into each ticket's `go` field. A story with its go waits on the planning page until the conductor assigns its builder, which puts it on the plan. The director's answer to a ticket's open question is its go as well.
+- The go is given at a planning, by id, by a story's id for every ticket in it, or in one word for all that is ready, and the conductor writes its log entry into each ticket's `go` field. A story with its go waits on the planning page until the conductor assigns its builder, which puts it on the plan.
+- An answer to a question on a ticket in flight is its builder's go on. An answer in refinement makes the ticket ready, and its go comes at the planning.
 - An ask is never the go: the ticket written from it goes on the planning page, and only a go and an agent put it on the plan.
 - Once a ticket has its go, it is built and lands without asking again.
 - Automatic healing needs no go: the report names its change for a veto.
