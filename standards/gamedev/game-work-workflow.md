@@ -22,7 +22,7 @@ What is specific to a game stands in one place, and the Work Workflow stays gene
 ## Content
 
 - Content the director has not decided, dialog lines, names, numbers, quest wording or a song's pick, takes the agent's recommendation as long as its core message is clear, and stands under Veto, in every phase. It never waits on refinement.
-- A Veto decides how a part looks, sounds or counts, never that a part is left out. A Veto that drops a part is sent back before it lands.
+- A choice under Veto decides how a part looks, sounds or counts, never that a part is left out. One that drops a part is sent back before it lands.
 
 ## Design Ticket Types
 
