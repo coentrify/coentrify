@@ -61,7 +61,7 @@ A record is a dated trail, written as things happen. An agent starts every sessi
 - [Changelog](standards/records/changelog-per-version.md) - a page per version, so everyone sees what landed
 - [Healing log](standards/records/healing-log.md) - every change automatic healing made, so the director can rule on each one later
 - [Playtests](standards/records/playtest-files.md) - a page per playtest of a game, so feedback turns into work
-- User tests - the same for a product, a page per session with real users
+- [User tests](standards/records/user-test-files.md) - the same for a product, a page per session with real users
 
 Which records to keep depends on the project.
 

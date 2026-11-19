@@ -1,6 +1,6 @@
 # Workspace Template
 
-A workspace is a collection of applications for one client. Workspace docs live at `docs/` and describe the whole repo at a cross-app level. Anything app-specific belongs in `docs/<app>/`.
+A workspace is a collection of applications for one client: the organization the product serves, whose people use the applications in their own roles. Workspace docs live at `docs/` and describe the whole repo at a cross-app level. Anything app-specific belongs in `docs/<app>/`.
 
 ## Why
 
@@ -12,7 +12,7 @@ Functional only - what the product is, who it serves, what shared concerns exist
 
 - Title: `# <Workspace Name>`.
 - Subtitle: one sentence on the workspace's purpose.
-- Sections: Client (who the client is, brief scope), Applications (list of apps with one-line purpose), Shared Concerns (auth, design system, language, etc. - one-line functional summaries), External Services (third-party APIs / backends the workspace consumes).
+- Sections: Client (the organization, the roles of the people who use the product, and the brief scope), Applications (list of apps with one-line purpose), Shared Concerns (auth, design system, language, etc. - one-line functional summaries), External Services (third-party APIs / backends the workspace consumes).
 - Optional: a tail-of-file pointer to architecture.md for readers who want to know how it is built.
 
 ## architecture.md
