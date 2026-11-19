@@ -154,6 +154,8 @@ A question lives in the ticket that has the unclarity, under `## Question`: the 
 - Options that are sounds, clips or pictures put the sample beside each one.
 - Every claim in a question is checked, and says how it was checked. The ticket's Source entries are read first, so a question the log already answers is never asked.
 - An answer is logged, moved into the docs or tickets it decides, and the question dropped.
+- A question that blocks a builder, or whose answer changes other tickets, names them and goes to the director at once, through the conductor. It never waits for a refinement.
+- While a builder is blocked, the conductor can start another builder on ready work.
 
 ## The Archive
 
