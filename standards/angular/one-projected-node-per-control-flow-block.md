@@ -8,7 +8,7 @@ Projected content lands in the slot it was written for.
 
 ## How To Apply
 
-- Treat an NG8011 warning in the build log as a failure. Read the dev server's log after a template change.
+- Set `extendedDiagnostics.checks.controlFlowPreventingContentProjection` to `error` in `angularCompilerOptions`, so the build fails on NG8011.
 - A visibility check does not prove projection.
 - A capture or a position check proves projection.
 - The misplaced nodes still have a size, which is why a visibility check passes on them.
