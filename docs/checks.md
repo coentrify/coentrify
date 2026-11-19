@@ -23,4 +23,4 @@ The checks this repository runs on itself.
 - The Tag the version workflow is started by hand when a version is called. It tags main with the latest version in the changelog, and publishes the release of that tag.
 - The page of a version opens with its summary, and the workflow fails without one.
 - A tag without a release gets its release. The workflow fails when both exist.
-- `npm run ci:tag -- --notes` prints the release text and changes nothing.
+- `npm run tag:version -- --notes` prints the release text and changes nothing.
