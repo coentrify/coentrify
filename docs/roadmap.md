@@ -21,5 +21,3 @@ The versions on the way to 1.0.
 - Whether Always Work From A Plan keeps its title, now that its rule is conditional.
 - Whether the first round of the vetting is probed again on hard traps, with every shrunk standard tested shrunk and in full.
 - Whether Reels And Video Proof keeps its line that the agent cannot listen, now that Measure Sound, Never Guess dropped it.
-- Whether the commit check refuses a changelog entry for a standard that is back at its released text.
-- Whether the commit check refuses a change to a standard that the latest version names, once that version is tagged.
