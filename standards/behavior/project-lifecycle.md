@@ -15,6 +15,7 @@ The same work is right in one phase and wasted in another.
 - A phase ends at a gate: a leading question together with everything it takes to answer it. The answer sends the project on or back a phase.
 - A game follows the [Game Phases](../gamedev/game-phases.md), in four stages.
 - A web product can go from a prototype to a skeleton, a design and production.
+- A product in production is live, and most web projects are from the start: what ships is polished.
 
 ## Related
 
