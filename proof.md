@@ -527,6 +527,25 @@ A test of the index, with no trap. A headless agent works in a folder that holds
 - The two runs that listed another standard first picked one that fits as well: Validation Errors Fire On Submit for a save button that does nothing, and Browser Captures Go To Disk for a capture run.
 - Not probed: whether an agent looks a standard up unasked, in the middle of a real task.
 
+### The First Prompt
+
+A test of the prompt in the Quick Start, with no trap. A headless agent works in a small Node project, with no settings loaded and nothing about coentrify on the machine. The `gh` command half works on the test machine: the two prompts in the middle ran twice, and the last two ran with `gh` hidden, as if it were not installed. 3 runs per model and prompt in a round, in Claude Code 2.1.328, $6.37 in all.
+
+| Prompt | Opus 5.5 | Sonnet 5.5 |
+|---|---|---|
+| `coentrify` | asked what it means, 3 of 3 | the same, 3 of 3 |
+| `coentrify github` | found the source, 0 of 6 | the same, 0 of 6 |
+| `coentrify <link>` | started the onboarding, 4 of 6 | took it as no task, 6 of 6 |
+| `check out coentrify - <link>` | explained coentrify, 3 of 3 | took the project for coentrify, 3 of 3 |
+| `set up coentrify in this project: <link>` | started the onboarding, 3 of 3 | the same, 3 of 3 |
+
+- No run searched the web for the bare word.
+- With `github`, most runs read the word as a request to publish the project, and asked public or private.
+- The runs with `coentrify <link>` that tried `gh` first stopped when it failed, and Sonnet never fetched the link itself.
+- Every run that started the onboarding read it from the source, analyzed the project and stopped at the recommendations, without writing a file.
+
+The Quick Start prompt names the action, the project and the source.
+
 ## Notes
 
 - Sync The Docs After Every Change is the first standard that Opus 5.5 needs and Sonnet 5.5 does not. Opus searched the docs for the number alone, and Sonnet read the docs.
