@@ -18,6 +18,7 @@ A plan in a file lets any other session or agent continue from where the previou
 
 - Work from the plan, even one you wrote.
 - Read it before starting and update it as you go.
+- A plan holds what was asked and decided. A doubt goes to the director, never into the plan as a gate.
 - It shrinks toward empty per [Plans Vs Persistent Files](../simple-workflow/plans-vs-persistent-files.md).
 - Plans are documentation. Follow the same markdown conventions as persistent docs (see [Documentation Philosophy](../docs/documentation-philosophy.md)), even though plans are temporary.
 
