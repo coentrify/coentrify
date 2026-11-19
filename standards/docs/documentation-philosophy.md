@@ -8,7 +8,7 @@ The docs orient every reader, and they are the basis for manual testing and for 
 
 ## Product, Not Code
 
-Docs describe what the product does and who uses it, never how it is wired. Implementation detail goes to a technical-debt doc or an architecture doc.
+Docs describe what the product does and who uses it. The architecture doc holds the decisions about how it is built, and the details stay in the code ([Docs Describe Behavior, Not Wiring](docs-describe-behavior-not-wiring.md)).
 
 ## Brevity over Completeness
 

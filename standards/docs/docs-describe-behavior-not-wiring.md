@@ -1,6 +1,6 @@
 # Docs Describe Behavior, Not Wiring
 
-Write docs at product/behavior altitude: describe what something does for the user - flows, routes, use cases, states - as if it were a feature. Don't restate or mirror the code.
+A doc describes its thing at the focus level of its page: what it does, and how it is built as a whole ([Docs Are Hierarchical, Explicit And Short](docs-are-hierarchical-explicit-and-short.md)). A detail that only the code keeps true lives in the code.
 
 ## Why
 
@@ -8,16 +8,16 @@ A doc stays true while the code changes.
 
 ## How to Apply
 
-A doc of behavior is an implementation-agnostic spec.
-
-Default to stripping implementation detail. These belong in the code (or a dedicated reference doc), not in concern/architecture/overview docs:
-
-- library and package names, class/service/guard/component/config-object names, file paths
-- token and wiring mechanics, DI/provider details
-- environment-specific URLs and credentials (centralize those in the environments doc)
-
-When a doc reads like a copy of the code, cut to the throughline (the "red line"): keep the essence, drop the specifics. Reference docs (api, environments) are the one place concrete endpoints and URLs live.
+- The overview, a feature doc and a spec describe what something does for the user: flows, routes, use cases and states.
+- The architecture doc holds the decisions and describes the whole: the layers and the folders that carry them, such as `ui`, the libraries chosen and why, and the conventions.
+- A concern doc does the same for one concern, such as authentication or testing.
+- File paths, the names of classes, services and components, and the wiring between them stay in the code, since they change with it.
+- A debt ticket or debt entry holds the technical detail its work needs.
+- Concrete endpoints and environment URLs live only in the reference docs, such as the api and environments docs. Credentials live in no doc.
+- When a doc reads like a copy of the code, cut to the throughline: keep the essence, and drop the specifics.
 
 ## Related
 
 - [Documentation Philosophy](documentation-philosophy.md)
+- [Docs Are Hierarchical, Explicit And Short](docs-are-hierarchical-explicit-and-short.md)
+- [Workspace Template](workspace-template.md)

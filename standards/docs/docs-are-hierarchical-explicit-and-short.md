@@ -8,14 +8,14 @@ A hierarchy gives every page the right focus level, for efficient and effective 
 
 ## A Page
 
-- The page opens with a summary at its own altitude, one or two lines right under the title: what the thing is and what it is for, no details and no visual description, which rot when the look changes.
+- The page opens with a summary at its own focus level, one or two lines right under the title: what the thing is and what it is for, no details and no visual description, which rot when the look changes.
 - An introduction, when the page needs one, is distinct from the summary: it is the first item of the contents, where the content begins.
-- Then a contents section one breadth deeper, under a heading that fits the thing: `## Components`, `## Parts`, `## Sections`, `## Features`. The items are grouped by what they do (`### Account Settings`, `### Billing`), one line each with a dash and a few words ("The Profile - Name And Photo").
+- Then a contents section one focus level deeper, under a heading that fits the thing: `## Components`, `## Parts`, `## Sections`, `## Features`. The items are grouped by what they do (`### Account Settings`, `### Billing`), one line each with a dash and a few words ("The Profile - Name And Photo").
 - Then a `##` heading per item, in the same order. An item with one or a few things to say gets one line under its heading and a link to its own page. An item with more gets a page of its own, its features under headings. Sub-items take `###`.
 - The look of the thing goes under an `## <Thing> Aesthetics` heading, in prose.
 - A section with subsections opens with a short list of them as in-page links before its own text.
 - A page holds only what relates to its own thing and its state. A fact that is always true, or that belongs to another thing, lives on that thing's page.
-- An overview summarizes functionally at its own level of awareness: what a thing means to the user there, never details or technical description. Its stages nest by their grouping, never one flat list across groups.
+- An overview summarizes functionally at its own focus level: what a thing means to the user there, never details or technical description. Its stages nest by their grouping, never one flat list across groups.
 - A summary or a description of a linked page stays at the focus level of the page it stands on, without details or specs.
 - A line in a list relates its item to its siblings and its parent only, so it shows how the items differ in function and where they relate.
 - The focus level of an overview is how it all ties together.

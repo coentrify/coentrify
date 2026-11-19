@@ -13,7 +13,7 @@ Functional only - what the product is, who it serves, what shared concerns exist
 - Title: `# <Workspace Name>`.
 - Subtitle: one sentence on the workspace's purpose.
 - Sections: Client (who the client is, brief scope), Applications (list of apps with one-line purpose), Shared Concerns (auth, design system, language, etc. - one-line functional summaries), External Services (third-party APIs / backends the workspace consumes).
-- Optional: a tail-of-file pointer to architecture.md for readers who want the implementation detail.
+- Optional: a tail-of-file pointer to architecture.md for readers who want to know how it is built.
 
 ## architecture.md
 
@@ -26,7 +26,7 @@ Technical companion to overview.md, ordered by relevance / logical flow (not low
 
 Cross-cutting concerns that outgrow a section graduate to their own flat file under `docs/workspace/` (authentication.md, design-system.md, component-library.md, testing.md - collected in one workspace folder, not per-concern folders). architecture.md links them and they surface in the wiki sidebar automatically. Don't re-merge them back into architecture.md. Skip a "documentation layout" map - the auto-generated wiki sidebar covers discovery.
 
-If a workspace doc accumulates implementation detail, move it here (or into the matching concern doc) rather than letting overview.md drift technical.
+A technical decision in another workspace doc moves here or into the matching concern doc, and its details stay in the code, so overview.md stays functional ([Docs Describe Behavior, Not Wiring](docs-describe-behavior-not-wiring.md)).
 
 ## development/
 
