@@ -7,6 +7,7 @@ const WIKI_BASE: string = process.env.WIKI_BASE ?? '/';
 const ROOT: string = process.cwd();
 const EXCLUDED_FOLDERS: readonly string[] = ['node_modules'];
 const EXCLUDED_PAGES: readonly string[] = ['CLAUDE.md'];
+const SOURCE_URL: string = 'https://github.com/coentrify/coentrify';
 
 export default defineConfig({
   title: 'coentrify',
@@ -26,6 +27,7 @@ export default defineConfig({
     search: {
       provider: 'local',
     },
+    socialLinks: [{ icon: 'github', link: SOURCE_URL }],
   },
   vite: {
     plugins: [sidebarRefresh(ROOT, [...EXCLUDED_FOLDERS, ...EXCLUDED_PAGES])],
