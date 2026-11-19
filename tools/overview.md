@@ -10,6 +10,7 @@ The scripts and hooks that enforce a standard, for a project to copy.
 
 The three scripts run in bash. `PICK_REPO` names the repository and `PICK_BRANCH` the main branch, `main` by default.
 - `scripts/changelog-append.py` - adds one entry to a version's changelog, in a fixed shape, so the changelog is never written free hand ([Changelog Per Version](../standards/records/changelog-per-version.md))
+- `scripts/healing-append.py` - adds one entry to the healing log, in a fixed shape ([Healing Log](../standards/records/healing-log.md))
 - `scripts/unlink-missing-standards.py` - removes every link to a standard the project did not adopt, and keeps the words
 - `scripts/check-coentrify-json.py` - fails when `coentrify.json` names a folder or a standard that is not there, or holds a `healing` or `filing` that is not `automatic` or `review`, and refuses a commit that changes a tracked standard by hand ([coentrify.json](../coentrify-json.md))
 

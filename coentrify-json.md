@@ -34,7 +34,7 @@ The onboarding writes `coentrify.json`, and the director changes it after.
 - `folders` - where the docs and the standards live
 - `workflow`, `records`, `wiki` - the choices from the onboarding
 - `modules` - every standard taken from coentrify, by module, with its state
-- `healing` - who makes a harness change: `automatic` by default, where a subagent makes it and the report names it for a veto, or `review`, where it is filed for the director
+- `healing` - who makes a harness change: `automatic` by default, where a subagent makes it, logs it in the healing log and the report names it for a veto, or `review`, where it is filed for the director
 - `contributor` - left out by default. Set to `true`, the project may file changes at the source.
 - `filing` - for a contributor: `review` by default, where the director looks at an issue before it is filed at the source, or `automatic`, where the subagent files it on its own
 

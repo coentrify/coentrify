@@ -36,6 +36,7 @@ Soft caps: past a cap, a standard is trimmed or split before anything is added t
 ## Adding A Standard
 
 - Check first whether another standard owns the rule. A rule with a home is added there.
+- A rule lives on one page. Every other page that needs it links there, and never says it again.
 - A new standard goes in the module it belongs to. A subject without a module gets a module of its own.
 - The file is named after its title ([File Names](../docs/file-names.md)).
 - The standard follows the template: the rule in one or two sentences, a Why, how to apply it, and its related standards.
