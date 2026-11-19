@@ -10,7 +10,6 @@ The worklist from a sweep over every standard, the top-level pages, the tools an
 
 ## Facts That Went Stale
 
-37. Node Versions keeps to even majors, and from Node 27 every release becomes LTS.
 38. Playwright Parallel Runs splits a suite for a ten-minute background cap that is now 30 minutes.
 39. A plain `git add` of a deleted file works on current git, against Verify Staging Before Committing.
 40. One machine's packaged suite is said to prove a package works on every machine.
