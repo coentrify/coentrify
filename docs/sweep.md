@@ -7,7 +7,6 @@ The worklist from a sweep over every standard, the top-level pages, the tools an
 
 ## Rules That Contradict
 
-16. A `color` input is the example in UI Library Is Domain-Agnostic, and the leak in UI Variants By Function.
 17. Every binding is annotated, which widens an `as const` object.
 18. Post-Release has no gate, and the hygiene check fails a phase page without its `Gate:` line.
 19. A commit is never amended, and a wrong commit is redone with `git reset HEAD~1`.
