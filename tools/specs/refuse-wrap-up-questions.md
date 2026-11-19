@@ -20,7 +20,3 @@ A spec for a hook that keeps the end of a turn free of answer buttons ([Free Tex
 - A call with a question refuses.
 - A call with answer options refuses.
 - A call with an empty question or an empty list of options passes.
-
-## An Example
-
-`refuse-wrap-up-questions.sh`, beside this spec, is the hook for an app whose wrap-up tool takes `ask` and `actions` fields. It runs as a PreToolUse hook on that tool, reads the call as JSON with `jq`, and refuses by exit code 2.

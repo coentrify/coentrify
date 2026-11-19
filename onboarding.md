@@ -84,6 +84,7 @@ With `coentrify make no mistakes` the agent asks nothing. The agent takes every 
 - Write the decisions.
 - Set up the `docs` folder.
 - Create the wiki, where chosen.
+- Build the checks and hooks the chosen standards ask for, in the project's own stack, from their specs in the [tools](tools/overview.md).
 - Offer a setup script for personal content, where the director uses cloud sessions.
 
 ### The Links
@@ -104,11 +105,11 @@ The entry point is the file an agent reads when a session starts, such as `AGENT
 
 Where the agent can import a file, such as with `@` in `CLAUDE.md`, the entry point imports every standard in the Core Rules, so the standards load without being asked for.
 
-The entry point also says to read the Core Rules again after a compaction. Where the agent supports hooks, the reload hook from the [tools](tools/overview.md) does that by itself.
+The entry point also says to read the Core Rules again after a compaction. Where the agent supports hooks, a reload hook does that by itself, built from its spec in the [tools](tools/overview.md).
 
 ### The Coentrify File
 
-`coentrify.json` holds the choices, the version and the state of every standard ([coentrify.json](coentrify-json.md)). Where the project has a pre-commit hook, the check from the [tools](tools/overview.md) keeps the file true.
+`coentrify.json` holds the choices, the version and the state of every standard ([coentrify.json](coentrify-json.md)). Where the project has a pre-commit hook, a check built from its spec in the [tools](tools/overview.md) keeps the file true.
 
 ### The Decisions
 

@@ -32,10 +32,10 @@ Any question about what coentrify is. Explain from the [readme](readme.md), the 
 Any request to bring the project up to date. The update script from the [tools](tools/overview.md) works out what changed since the project's version, and the agent handles what needs judgment.
 
 - Fetch the source that `coentrify.json` names, with its tags.
-- Run `coentrify-update.py <source>` for the plan, and read the [changelog](changelog/overview.md) from the project's version on.
+- Run the update script from the source for the plan, `<source>/tools/scripts/coentrify-update.py <source>`, and read the [changelog](changelog/overview.md) from the project's version on.
 - Read `standards/decisions.md` for the reasoning behind the earlier choices.
 - Show the director a changed rule in a tracked standard before it is replaced.
-- Run `coentrify-update.py <source> --apply`, which replaces the tracked standards and writes the new version.
+- Run it again with `--apply`, which replaces the tracked standards and writes the new version.
 - Run the unlink script again, since a replaced standard brings its links back.
 - Report the changes for a customized standard, and a standard renamed, moved or removed at the source.
 - Report new standards worth considering, and surface one that has the same name as one of the project's own.
