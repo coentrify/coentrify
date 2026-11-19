@@ -12,6 +12,7 @@ The versions on the way to 1.0.
 - Rule on every finding of the [sweep](sweep.md), one at a time.
 - Probe the first round of the vetting again on hard traps: the corrections that shrank or went, with every shrunk standard tested shrunk and in full.
 - Probe Always Work From A Plan on a good trap, with its current text and with a renamed title, and compare. Missed work and rework count, and so does a plan picked up by the next session.
+- Streamline the Proof page into a quick overview: one table with the rule, the trap, a summary and the data per model.
 - Probe the standards again at every new model release, on new traps.
 - Probe Reload The Standards After Compacting on a long session, and in the terminal or the app, as the [worklist](relevance-vetting.md) says.
 - Test on a real project: the first prompt, the onboarding, the reload hook and the update.

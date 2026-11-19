@@ -4,7 +4,6 @@ The worklist from a sweep over every standard, the top-level pages, the tools an
 
 ## Install And Update
 
-2. The onboarding sets a workflow line in Always Work From A Plan that no longer exists.
 3. Security is in none of the recommendation lists.
 4. An idea is recommended the Game Phases, a gamedev standard.
 5. A prototype gets no records, while automatic healing writes to the healing log.
