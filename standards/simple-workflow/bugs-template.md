@@ -1,6 +1,6 @@
 # Bugs Template
 
-Workspace-level `docs/workspace/bugs.md` and per-app `docs/<app>/bugs.md` use a fixed shape.
+`docs/development/bugs.md` uses a fixed shape, and so does `docs/development/<app>/bugs.md` in a workspace with several apps.
 
 ## Purpose
 

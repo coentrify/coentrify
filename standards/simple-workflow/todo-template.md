@@ -1,10 +1,10 @@
 # Todo Template
 
-Workspace-level `docs/todo.md` uses a fixed shape.
+`docs/development/todo.md` uses a fixed shape.
 
 ## Purpose
 
-Flat list of concrete follow-ups and cleanups that fall out of larger work. Things land here before they become a feature, a priority on the roadmap, or get tackled directly.
+What the director decided to do soon, as concrete one-liners, follow-ups and cleanups from larger work among them ([The Simple Workflow](the-simple-workflow.md#the-lists)).
 
 ## Sections
 

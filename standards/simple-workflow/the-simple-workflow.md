@@ -9,16 +9,19 @@ Everything has a place to go, with light organization that stays simple.
 ## The Lists
 
 - Inbox - anything goes in, as a flat list of points
-- Todo - what was decided to do
+- Todo - what was decided to do soon
 - Roadmap - what was decided to do later
 - Plan - the active file, with what is in flight now
 - Bugs, debt and the technical roadmap - the other lists the plan pulls from
+
+Every list is a file in `docs/development/`: `inbox.md`, `todo.md`, `roadmap.md`, `plan.md`, `bugs.md` and `tech-debt.md`. A workspace with several apps gives each app a folder of its own in it.
 
 ## How to Apply
 
 - Put anything new in the inbox.
 - When the director rants, extract one bullet per topic or idea.
-- Move an item to the todo when the director decides to do it, or to the roadmap for later.
+- Move an item to the todo when the director decides to do it soon, or to the roadmap for later.
+- An item still to be workshopped stays in the inbox until the director decides on it.
 - Pull items from the todo into the plan.
 - Pull from the bugs, the debt and the technical roadmap into the plan as well.
 - Answer "what's next?" from the lists.

@@ -1,6 +1,6 @@
 # Roadmap Template
 
-Workspace-level `docs/roadmap.md` uses a fixed shape.
+`docs/development/roadmap.md` uses a fixed shape.
 
 ## Purpose
 
@@ -34,9 +34,9 @@ Answers "what's next?" at a glance. Active surfaces the current focus. Prioritie
 - "Resolve bugs" or "Fix tech debt" as roadmap items - those are continuous activities, not roadmap goals.
 - Generic "Write unit tests" or "Add tests" - if testing is a priority, name it as an initiative (e.g. `Automated Testing`). Specific test backlogs live in the affected feature's spec.
 
-## The Todo Beside It
+## The Lists Beside It
 
-Beside the roadmap a `docs/todo.md` lists the biggish features and tasks decided to build but not in the plan yet, still to be workshopped. Nice To Have keeps what can wait until after the release. Undecided ideas stay in the inbox. Before asking the director whether an unbuilt item is still wanted, check whether it belongs on the todo, Nice To Have or the inbox.
+The inbox, the todo and the plan stand beside the roadmap, each with its own job ([The Simple Workflow](the-simple-workflow.md#the-lists)). Before asking the director whether an unbuilt item is still wanted, check which of them holds it.
 
 ## Related
 
