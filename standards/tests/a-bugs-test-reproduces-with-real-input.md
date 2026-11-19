@@ -10,7 +10,7 @@ A bug from real use becomes an edge case the tests guard, as it happened.
 
 - Write the case from the director's words before the fix: red on the old code, green after.
 - `fill()` and a call into the app skip what real typing fires.
-- When the director reports a bug the tests say is fixed, check what the running app serves (the dev server's bundle, the save file) before hunting in the code.
+- When the director reports a bug the tests say is fixed, check what the running app serves (the dev server's bundle, the stored state) before hunting in the code.
 
 ## Related
 

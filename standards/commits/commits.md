@@ -10,7 +10,7 @@ The history reads and searches by what each commit holds.
 
 The subject should be informative enough to grasp the change at a glance without opening the diff.
 
-- A commit made for a ticket starts with the ticket's id and a colon: `FEAT-123: the blueprint glows until the plans open`. The id already reads as the ticket's name, so no other prefix or trailer is added.
+- A commit made for a ticket starts with the ticket's id and a colon: `FEAT-123: the upload retries after a dropped connection`. The id already reads as the ticket's name, so no other prefix or trailer is added.
 - Every other commit uses Conventional Commits: `type(scope): description`, its types `feat`, `fix`, `chore`, `docs`, `refactor`, `revert`, its scope freeform (`deps`, `log`, `standards`).
 - Describe the change, not the action: "add retry to the upload request", not "update service".
 - The description starts with a lowercase letter. A project's commitlint accepts both forms and enforces the rest.

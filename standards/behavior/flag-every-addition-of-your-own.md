@@ -13,7 +13,7 @@ The director decides on everything that goes in.
 - Put that list under a "to veto" or "my additions" heading in the report.
 - In a ticket, the list is its Veto section, holding only what the director could want undone, in a few words ([The Done Part](../tickets-workflow/the-done-part.md)).
 - Easy-to-change content (names, numbers, a look) is decided and flagged, never asked.
-- Where the project keeps a record of the agent's ideas (an agent ideas page per day, with the version inside), append the list there too. The director reads that page in a full check before a release.
+- Where the project keeps a record of the agent's ideas, the list goes there too.
 
 ## Related
 

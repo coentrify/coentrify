@@ -8,7 +8,7 @@ Every frame shows the whole character, facing the right way.
 
 ## How to Apply
 
-- Render the sheet with the grid labeler (columns and rows numbered) at a zoom where a single frame fills the view, and print the alpha mask of one cell to see the frame's true height.
+- Render the sheet with a grid-labeling script (columns and rows numbered) at a zoom where a single frame fills the view, and print the alpha mask of one cell to see the frame's true height.
 - Confirm each direction row by the face and the feet, never by the order such sheets usually have.
 - Put the frame size and the row map in one constant next to the loader, and check a capture of a walking character before the version closes.
 

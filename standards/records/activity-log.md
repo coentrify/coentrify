@@ -18,7 +18,7 @@ The director sees the progress of a project at a glance, and a new session start
 - First a breadth-first overview: one bullet per topic, biggest and most important first, with the highlight, how many versions were built and roughly how many hours it took as sibling bullets in plain words.
 - Then a section per topic in the same order, its things worked on as short sub-bullets.
 - Topic names are one or two plain words (Menu, Wiki, Audio). The items under them are short noun phrases ("Volume kept between sessions"). The order says what was biggest. The text never says so.
-- Terse: "worked on the prologue", never "we worked mainly on".
+- Terse: "worked on the sign-in", never "we worked mainly on".
 - The new things introduced are the main content under each topic, a short mention each, enough for a colleague to notice every one.
 - No version numbers, links, times, agent or process talk.
 - The hours run from the log's first entry to the day's last commit.

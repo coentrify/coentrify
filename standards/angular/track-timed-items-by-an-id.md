@@ -1,6 +1,6 @@
 # Track Timed Items by an Id
 
-A list of short-lived items that each close on their own timer (floating click numbers, toasts, hints) tracks every item by an id the item carries.
+A list of short-lived items that each close on their own timer (toasts, notifications, inline hints) tracks every item by an id the item carries.
 
 ## Why
 

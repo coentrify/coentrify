@@ -8,7 +8,7 @@ An abbreviation is an unnecessary abstraction: working out what it stands for co
 
 ## How to Apply
 
-- Name a control-flow alias after the value it holds: `@if (child(); as child)`, never `as c`.
+- Name a control-flow alias after the value it holds: `@if (order(); as order)`, never `as o`.
 - In SCSS, name map keys and loop variables for what they are: `@each $modifier, $color in ...`, keys like `categorical-1`, not `c1`.
 - Class/BEM modifiers spell out the concept: `--categorical-1`, `--brand`, not `--c1`.
 - When the source getter, signal, or token already has a good name, reuse it.

@@ -19,7 +19,7 @@ Every component is judged on its own, edges included.
 
 - A component judged through its feature hides its edges, since the feature only ever reaches a few combinations.
 - Every ui component gets its page as it is built. A new variant lands with its entry.
-- A complex dynamic piece, such as a canvas scene or a face, gets a page too, so it is judged and played with apart from its context first.
+- A complex dynamic piece, such as a canvas scene or an animated avatar, gets a page too, so it is judged and played with apart from its context first.
 - The description stays feature-agnostic. One that needs the feature to make sense means the component is not dumb enough.
 - Start the styleguide the moment a component is too complex to judge inside its feature. It tends to be overdue by then.
 - The canvas is the app: load the app's global styles, palette, theme defaults and root rem into the preview, and give it the app's own background. A story on a bare canvas looks broken even when the component is fine.

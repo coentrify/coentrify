@@ -33,7 +33,7 @@ Every playtest plays a named version, and knows what changed in it.
 
 ## In A Browser
 
-- Green at the close includes the whole pre-push hook (`npm run hooks:pre-push`: production build, bundle check, styleguide, wiki build, hygiene, types, unit, the stories in a browser) by its exit code, run before the tag and never left for the director's push.
+- Green at the close includes the whole pre-push hook (`npm run hooks:pre-push`, the project's full pre-push chain) by its exit code, run before the tag and never left for the director's push.
 - The full browser suite runs as two halves when it outlasts the background cap ([Playwright Parallel Runs](../tooling/playwright-parallel-runs.md)).
 
 ## Wind-Down

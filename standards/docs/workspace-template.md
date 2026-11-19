@@ -19,7 +19,7 @@ Functional only - what the product is, who it serves, what shared concerns exist
 
 Technical companion to overview.md, ordered by relevance / logical flow (not low-level-first). Leads with the core mental model, then catalogs, then conventions:
 
-- Applications - apps are thin bootstrap shells under `apps/<app>/` (providers, top-level routes, a bare `<router-outlet />`). The app itself is implemented in a lazy-loaded feature lib. Where workspace libs live (`libs/shared/`, `libs/<app>/`).
+- Applications - how apps are bootstrapped and where shared code lives, for example thin shells under `apps/<app>/` and libs under `libs/` in an Nx workspace.
 - Layers - the five-layer app-shield briefly reiterated (app/ui/data/core/config + one-way dependency direction), mapping the `@my-application/*` libs onto their layer.
 - Libraries - external deps grouped by origin: Internal (your own or the organization's packages), General (third-party e.g. `angular-auth-oidc-client`, `@jsverse/transloco`), Meta (tooling e.g. nx, playwright, jest, vitepress).
 - Conventions (path aliases, prefixes, mock toggles).

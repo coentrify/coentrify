@@ -43,7 +43,7 @@ No work-tracking notes either - TODOs, placeholders, "copy to follow", plan-debt
 
 ## No UI Copy
 
-Don't quote button labels, error messages, field labels, or any literal UI strings. Reference actions by intent ("submits the form"), not by label ("clicks Opslaan"). The doc is in English even when the UI isn't. Literal UI strings are allowed in the spec.
+Don't quote button labels, error messages, field labels, or any literal UI strings. Reference actions by intent ("submits the form"), not by label ("clicks Save"). The doc is in English even when the UI isn't. Literal UI strings are allowed in the spec.
 
 ## Don't Enumerate Values
 

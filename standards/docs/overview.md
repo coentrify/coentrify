@@ -5,7 +5,7 @@ The Docs standards: documentation rules and templates.
 - [Application Template](application-template.md) - per-app overview (users, features, views) and architecture
 - [Docs Are Hierarchical, Explicit And Short](docs-are-hierarchical-explicit-and-short.md) - summary, contents with a fitting heading, a heading or page per item, name things outright
 - [Docs Describe Behavior, Not Wiring](docs-describe-behavior-not-wiring.md) - describe behavior, not code wiring
-- [Docs Folder Structure](docs-folder-structure.md) - root overview and architecture. Development, workspace, features, feedback. Every record under one records folder
+- [Docs Folder Structure](docs-folder-structure.md) - root overview and architecture. Development, workspace, features. Every record under one records folder
 - [Docs State Knowledge](docs-state-knowledge.md) - knowledge pages state what is true, without provenance
 - [Documentation Philosophy](documentation-philosophy.md) - product-level, brief, one purpose per file, plain punctuation, reproducible from the docs
 - [Feature Spec Template](feature-spec-template.md) - spec use cases with stable ids. Start state, action, confirms

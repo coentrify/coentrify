@@ -10,7 +10,7 @@ What every project has is a commodity, and reinventing it takes the work away fr
 
 - Name what sets the project apart. The invention goes there.
 - Everything else takes the best practice.
-- A narrative game never reinvents the inventory, unless the inventory is a core element of the game.
+- A web shop never reinvents the checkout, unless the checkout is what sets it apart.
 - What counts as a commodity shifts: generating an asset is one now.
 
 ## Related

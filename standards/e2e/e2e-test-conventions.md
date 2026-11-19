@@ -11,7 +11,7 @@ What the spec says and what the tests verify should be easy to check against eac
 - An e2e case walks a route the user can take:
   - In an app, a sign-in or a search.
   - In a game, a new game or a continue.
-- A developer tool, such as a devbox or a seed endpoint, may seed the state a case starts from. Its own routes (a jump, a scenario, a reset) are never the flow under test.
+- A developer tool, such as a debug panel or a seed endpoint, may seed the state a case starts from. Its own routes (a jump, a scenario, a reset) are never the flow under test.
 - A bug only a tool can reach belongs to the tool and gets a unit test of the tool.
 
 ## File and Describe

@@ -1,6 +1,6 @@
 # Use the E2E Pipeline for Browser Probing
 
-When investigating live browser DOM (e.g. how a third-party component renders, what roles its options expose, where a clear button lives), drop the probing into a Playwright spec under `apps/<app>-e2e/src/` and run it through the normal `nx e2e` / `e2e` command.
+When investigating live browser DOM (e.g. how a third-party component renders, what roles its options expose, where a clear button lives), drop the probing into a Playwright spec in the project's e2e folder and run it through the project's e2e script.
 
 ## Why
 

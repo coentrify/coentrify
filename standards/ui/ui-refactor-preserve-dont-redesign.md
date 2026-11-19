@@ -10,7 +10,7 @@ Design decisions stay with the director.
 
 - Before extracting, diff the old per-consumer values (color, font scale and weight, spacing, border and fill). Every difference becomes a variant input with a functional name (`size`, `tone`, `variant`), defaulting to the most common case. The other consumers opt in.
 - Verify fidelity by comparing computed styles in preview against the originals. "Looks close" is not enough.
-- Use theme tokens for every value: color (`color.$text-*`), spacing (`dimension.$space-*`), typography mixins (`typography.ui-secondary-md()`), radius (`radius.$*`). Hardcode only when no token exists (a layout cap like a 320px scroll height), as a justified escape hatch with a note. The same bar holds for `ViewEncapsulation.None` and casts.
+- Every value comes from the design system's tokens for color, spacing, typography and radius, such as `color.$text-*`. Hardcode only when no token exists (a layout cap like a 320px scroll height), as a justified escape hatch with a note. The same bar holds for `ViewEncapsulation.None` and casts.
 - A genuine consistency improvement (normalizing incidental drift) is a separate, opt-in change: propose it on its own instead of bundling it into the refactor.
 
 ## Examples

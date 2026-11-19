@@ -19,9 +19,9 @@ The director has an always open line to all of the work: every thought goes in a
 ## What It Says
 
 - The director's time is the bottleneck, so the chat is a log: a line per event, holding the ticket's id, its context and a title of a few words. The rest the director looks up in the ticket.
-- A message of the director's is answered with a line per ticket filed: `Filed BUG-33 - fixing the login`, `Filed FEAT-123 - building the background in STORY-2: The Underworld`.
-- A landing is one line: `STORY-6 - The Underworld - is ready for acceptance`.
-- A finding is filed first and then named by its id: `Critical bug found - BUG-123 - the save is lost on reload`. Nothing is surfaced in the chat alone, since a chat can close at any moment ([Note Issues](../behavior/note-issues.md)).
+- A message of the director's is answered with a line per ticket filed: `Filed BUG-33 - fixing the login`, `Filed FEAT-123 - building the header in STORY-2: User Onboarding`.
+- A landing is one line: `STORY-2 - User Onboarding - is ready for acceptance`.
+- A finding is filed first and then named by its id: `Critical bug found - BUG-123 - the draft is lost on reload`. Nothing is surfaced in the chat alone, since a chat can close at any moment ([Note Issues](../behavior/note-issues.md)).
 - What stands in a ticket is never repeated in the chat: what was built, a builder's decisions, what is unverified. The conductor's own decisions stand in the ticket's Veto section.
 - Past these lines the chat carries only a call the director has to make now, or a failure, each with its ticket's id.
 
