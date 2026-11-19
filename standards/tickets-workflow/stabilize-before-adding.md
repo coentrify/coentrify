@@ -1,6 +1,6 @@
 # Stabilize Before Adding
 
-While a version is being made stable and clean, its plan holds bugs and tweaks to what exists only. Anything new, a feature, a look, a preset, goes into its epic and phase, off the plan, even when the director mentions it in the middle of a playtest or a user test. The plan says so in its focus line.
+While a version is being made stable and clean, its plan holds bugs and tweaks to what exists only. Anything new, a feature, a look, a preset, goes into its epic and phase, off the plan, even when the director mentions it in the middle of a playtest or a user test.
 
 ## Why
 

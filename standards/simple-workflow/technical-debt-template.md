@@ -31,7 +31,7 @@ An agent can pick up an entry and start the work from it.
 
 ## What Doesn't Belong
 
-- Implementation prescriptions (e.g. "introduce a single SCSS map with names X, Y, Z"). That belongs in the eventual PR, not the debt entry. The HOW gets figured out when the work begins.
+- Code-level prescriptions (e.g. "introduce a single SCSS map with names X, Y, Z"). The code is written when the work begins, while a strategy at the entry's focus level may stand in a line.
 - Detailed mechanism (which classes, which methods, which file). Same reason.
 - Bug-style reproduction steps. If something reproduces with concrete user steps, it's a bug.
 

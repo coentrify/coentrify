@@ -34,7 +34,7 @@ A ticket's type is its folder, and the archive keeps the same folders. No front 
 
 - Feature, in `features`, prefix `FEAT`: what the user gains.
 - Bug, in `bugs`, prefix `BUG`: what goes wrong for the user. User-facing only: what a real user never hits is debt. It describes the symptom as the user meets it, never a guess at the cause, and links its feature doc and spec case.
-- Debt, in `debt`, prefix `DEBT`: the workspace's own code and tooling, its test gaps and its structure. It holds just enough to start, what is broken and what success looks like, and never prescribes the implementation or names the classes and files.
+- Debt, in `debt`, prefix `DEBT`: the workspace's own code and tooling, its test gaps and its structure. It holds what is broken, what success looks like, and its Solution: the strategy at the ticket's focus level, worked out before the build so the easy way out is ruled out. It never names the classes and files.
 - Docs, in `docs`, prefix `DOCS`: the work on the docs and the work tracking. The wiki's own tooling is code, so Debt.
 - Spike, in `spikes`, prefix `SPIKE`: finding out how something is now, worked by the scout ([Agent Roles](agent-roles.md)).
 - Epic, in `epics`, prefix `EPIC`: a ticket that groups others under one outcome. Its file holds its `phase` field, a `## Goal` section of one short line and a Source, no summary and no acceptance criteria since its tickets hold their own. Which tickets belong to it lives only in each ticket's `epic` field, and the wiki lists them.
