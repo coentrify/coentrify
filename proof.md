@@ -430,7 +430,7 @@ The trap is a neighbor: the price tag is written with `NgIf` and `NgClass`. The 
 
 The standard shrank to the sweep.
 
-### Init Scripts Need a Navigation
+### Init Scripts Need A Navigation
 
 Two traps, with 3 runs per model each, without the rule. The request in both is a case for another scenario, in a spec that loads the page before every case. A helper sets the scenario through an init script.
 
@@ -443,7 +443,7 @@ Two traps, with 3 runs per model each, without the rule. The request in both is 
 - In the second no run met the old scenario in a run of the specs. Four runs loaded the page again, one opened a page of its own, and one gave the case a suite of its own.
 - Four reports of six said that the scenario is read when the page loads.
 
-Init Scripts Need a Navigation went.
+Init Scripts Need A Navigation went.
 
 ### Start Playwright On A Clean Port
 
@@ -498,7 +498,7 @@ The second is a trap of four turns. The standards of a project are ten pages wit
 
 The standard stays as it is, until a long session can be probed.
 
-### Settings Changes Need a Fresh Session
+### Settings Changes Need A Fresh Session
 
 A test of the harness, with no trap for a model, in Claude Code 2.1.326. A headless session starts with one command denied in the settings. Halfway, the settings deny another command in its place.
 
@@ -511,7 +511,7 @@ A test of the harness, with no trap for a model, in Claude Code 2.1.326. A headl
 - So a running session reads the permission rules again, and the fact in the standard no longer holds for this version.
 - Not probed: a session in the terminal or in the app.
 
-Settings Changes Need a Fresh Session went.
+Settings Changes Need A Fresh Session went.
 
 ### The Overviews As An Index
 

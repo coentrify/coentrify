@@ -67,4 +67,4 @@ Everything here reads as a wiki at [coentrify.github.io/coentrify](https://coent
 
 ## License
 
-MIT-0. Take what you need; there is no notice to carry.
+MIT-0. Take what you need. There is no notice to carry.

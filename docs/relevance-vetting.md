@@ -56,7 +56,7 @@ The sort comes from each standard's line in its overview, so a standard can stil
 
 The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/about-claude/models/migration-guide) and its prompt audit guide, as bundled with Claude Code 2.1.325.
 
-- Current models follow instructions more closely and more literally, so an emphatic or redundant rule gets over-applied.
+- Current models follow instructions more closely and more to the letter, so an emphatic or redundant rule gets over-applied.
 - Current models plan without being told, and an instruction to plan causes over-planning.
 - Opus 5 verifies its own work unasked, and an instruction to verify causes over-verification. Opus 5.5 needs those instructions tested again.
 - Sonnet 5.5 at low effort sometimes reports a code change as done without a check that exercises it.
@@ -87,7 +87,7 @@ Fifteen are probed and ruled on, with the results on the [Proof](../proof.md) pa
 
 - Stay as they are: Sprite Sheet Frames, Prompt Small Models Differently, Start Playwright On A Clean Port, A Quiet Tree While A Suite Runs and Reload The Standards After Compacting.
 - Shrank: Hidden Attribute Loses To Display, Substring Locator Collisions, Track Timed Items By An Id, One Projected Node Per Control-Flow Block, Projected Content Is Never Styled By The Host and Use Modern Angular Template APIs.
-- Went: Interceptor Ordering, Angular Build Checks The Templates, Init Scripts Need a Navigation and Settings Changes Need a Fresh Session.
+- Went: Interceptor Ordering, Angular Build Checks The Templates, Init Scripts Need A Navigation and Settings Changes Need A Fresh Session.
 
 ### Not Probed
 
@@ -110,13 +110,13 @@ A model cannot know these, so they were never candidates.
 
 - A Quiet Tree While A Suite Runs stays. Sonnet 5.5 needs it: 1 of 3 without the rule, 3 of 3 with it.
 - Reload The Standards After Compacting stays for now. An imported rule file survives a compaction on its own, and both models read the other standards again unasked. A long session, and a session in the terminal or the app, are not probed yet.
-- Settings Changes Need a Fresh Session went. A headless session reads the permission rules again, so its fact no longer holds.
+- Settings Changes Need A Fresh Session went. A headless session reads the permission rules again, so its fact no longer holds.
 - Browser Captures Go To Disk and Check Where A Pane Click Landed are about the browser pane of the app. A headless run has no pane, so these stay.
 
 ### Probed Twice
 
 A standard that went or shrank on an easy trap got a hard one after.
 
-- Three that went passed it, so they stay gone: Interceptor Ordering, Angular Build Checks The Templates and Init Scripts Need a Navigation.
+- Three that went passed it, so they stay gone: Interceptor Ordering, Angular Build Checks The Templates and Init Scripts Need A Navigation.
 - Three that shrank passed it, so they stay shrunk: Hidden Attribute Loses To Display, Substring Locator Collisions and Track Timed Items By An Id.
 - Prompt Small Models Differently failed it, and is back in full.
