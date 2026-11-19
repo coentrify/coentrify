@@ -6,7 +6,7 @@ Extracting feature markup into shared `ui` primitives, or consolidating duplicat
 
 Design decisions stay with the director.
 
-## How to Apply
+## How To Apply
 
 - Before extracting, diff the old per-consumer values (color, font scale and weight, spacing, border and fill). Every difference becomes a variant input with a functional name (`size`, `tone`, `variant`), defaulting to the most common case. The other consumers opt in.
 - Verify fidelity by comparing computed styles in preview against the originals. "Looks close" is not enough.

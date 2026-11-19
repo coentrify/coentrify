@@ -1,4 +1,4 @@
-# UI Layout via Slot Composition
+# UI Layout Via Slot Composition
 
 Layout in the shared `ui` library is slot composition through content projection. A layout or container component exposes a few generic slots (such as top, body, footer) and owns only how those regions sit. It never takes a columns template, grid-config prop or preset. Finer structure is the next layer down: a region that needs columns or sections gets a section or grid component projected into its slot, so the container never grows options for every shape.
 
@@ -13,7 +13,7 @@ A layout component stays generic and reusable.
 - Two or more slots are usually one default (the body) plus a couple of named ones (`top`, `actions`, `footer`).
 - Only when a default makes no sense (symmetric regions, such as left and right) are there two named slots and no default. In practice this is rare.
 
-## How to Apply
+## How To Apply
 
 - A responsive grid flows by the space available, instead of a fixed set of columns.
 - A slot names a region of the component, the place where content sits: `title`, `header`, `actions`, `footer`, `top`. Whatever sits in that region goes into its slot: a chip after a card's title text, or a tooltip on it, is projected into the title slot along with the text.
@@ -23,6 +23,6 @@ A layout component stays generic and reusable.
 ## Related
 
 - [UI Component Design](ui-component-design.md)
-- [Prefer Content Projection over Props (Angular)](../angular/prefer-content-projection-over-props-angular.md)
+- [Prefer Content Projection Over Props (Angular)](../angular/prefer-content-projection-over-props-angular.md)
 - [UI Library Is Domain-Agnostic](ui-library-is-domain-agnostic.md)
 - [UI Refactor: Preserve, Don't Redesign](ui-refactor-preserve-dont-redesign.md)

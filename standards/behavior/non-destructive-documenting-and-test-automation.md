@@ -1,4 +1,4 @@
-# Non-Destructive Documenting and Test Automation
+# Non-Destructive Documenting And Test Automation
 
 Observation phases - docs, spec, mocks, test automation - describe what exists and verify it. They never modify production code. Implementation changes happen in their own [Feature Workflow](feature-workflow.md) step, their own commit.
 
@@ -6,7 +6,7 @@ Observation phases - docs, spec, mocks, test automation - describe what exists a
 
 Production code changes only in implementation, where it is reviewed.
 
-## How to Apply
+## How To Apply
 
 - Diff during observation touches only `docs/`, `e2e/`, `mocks/`, test setup. Touching production source is a red flag.
 - Mocks live outside the code under observation. The thing being mocked stays untouched.

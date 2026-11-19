@@ -6,7 +6,7 @@ An e2e test never assumes an element is there. Before any interaction or deeper 
 
 A test verifies the delta: the state before an interaction, and the state after it.
 
-## How to Apply
+## How To Apply
 
 - A missing, hidden or unsettled element then fails on the presence assertion, with the locator named. Without the assertion the failure surfaces deeper, as a fill on an uneditable element or a URL check timing out on the wrong screen, which points at the wrong line and hides the cause.
 - Before a fill, assert the input is editable, then fill.

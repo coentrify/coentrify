@@ -6,7 +6,7 @@ Before every `git commit`, read `git diff --cached --name-status` and confirm it
 
 No one else's work is swept into a commit, and nothing meant for it is left behind.
 
-## How to Apply
+## How To Apply
 
 - The index is shared with everything else in the tree: the director stages files too, and a parallel session or a capture run leaves half-done and untracked files beside yours.
 - A batched `git add a b c` aborts on the first bad pathspec and stages nothing new, while earlier staged changes still commit.
@@ -26,5 +26,5 @@ No one else's work is swept into a commit, and nothing meant for it is left behi
 ## Related
 
 - [Review Changes Before Reporting Done](../behavior/review-changes-before-reporting-done.md)
-- [Gate Commits on Exit Codes](gate-commits-on-exit-codes.md)
+- [Gate Commits On Exit Codes](gate-commits-on-exit-codes.md)
 - [Commits](commits.md)

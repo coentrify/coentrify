@@ -10,7 +10,7 @@ Anything made to be reused across projects comes in three layers. A project adop
 
 Reuse costs the least code and time.
 
-## How to Apply
+## How To Apply
 
 - A default just works, a flavor is thought out beforehand and easy to pick, and an override is there for the custom case and the escape hatch, only when needed.
 - The default path asks nothing. The person is involved only for a decision that is really theirs.

@@ -6,7 +6,7 @@ A doc describes its thing at the focus level of its page: what it does, and how 
 
 A doc stays true while the code changes.
 
-## How to Apply
+## How To Apply
 
 - The overview, a feature doc and a spec describe what something does for the user: flows, routes, use cases and states.
 - The architecture doc holds the decisions and describes the whole: the layers and the folders that carry them, such as `ui`, the libraries chosen and why, and the conventions.

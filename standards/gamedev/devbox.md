@@ -6,7 +6,7 @@ Every game has a devbox: a small panel toggled by one key, open on every scene a
 
 The agent and the director reach any state of the game quickly.
 
-## How to Apply
+## How To Apply
 
 - It sits in a corner out of the interface's way. Its one key follows [Same Trigger Both Ways](game-design-laws-ui.md#same-trigger-both-ways).
 - The seeded scenarios live in one configuration and are the shared contract. The game itself never shortens for a test.

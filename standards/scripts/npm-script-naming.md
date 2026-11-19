@@ -6,7 +6,7 @@ Two patterns, depending on who runs the script.
 
 A script's name says what it runs and for which context.
 
-## Tasks (Run by Humans or Shared)
+## Tasks (Run By Humans Or Shared)
 
 Format: `<verb>:<app>:<thing>`. App always comes second, never `<verb>:<thing>:<app>`. Omit `<app>` in single-app projects. Omit `<thing>` when not needed.
 
@@ -20,7 +20,7 @@ Format: `<verb>:<app>:<thing>`. App always comes second, never `<verb>:<thing>:<
 - `start:admin` - run the admin dev server.
 - `e2e:admin:report` - run the full e2e suite with HTML report and videos.
 
-## Contexts (Run by Automation)
+## Contexts (Run By Automation)
 
 Format: `<context>:<thing>`. Each automation context gets its own dedicated scripts, distinct from the human-run tasks above. The `hooks:` and `ci:` prefixes are examples of the general pattern: one prefix per context. Each context has its own env, flags and timing, and one generic `lint` script shared by local dev, CI and hooks couples them, so none can change without affecting the others.
 
@@ -35,5 +35,5 @@ Don't expose internal env vars or build flags (`DEMO=1`, `CI=true`) in script na
 
 ## Related
 
-- [Thin Wrappers in CI and Hooks](thin-wrappers-in-ci-and-hooks.md)
-- [No npx in Scripts](no-npx-in-scripts.md)
+- [Thin Wrappers In CI And Hooks](thin-wrappers-in-ci-and-hooks.md)
+- [No npx In Scripts](no-npx-in-scripts.md)

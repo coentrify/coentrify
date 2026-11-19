@@ -21,7 +21,7 @@ A sweep doesn't need to touch every file. Cover what's in front of you when a st
 
 ## Format
 
-- A header is in Title Case, where a secondary word such as `from` or `a` may stay lowercase.
+- A header is in Title Case, every word capitalized, apart from code and a name that is lowercase by nature, such as `npm`.
 - A paragraph or a list item is one line.
 - No semicolon in prose: two thoughts are two sentences, or two bullets.
 - No filler word, such as `genuinely` or `truly`, and no British spelling.
@@ -46,13 +46,13 @@ Soft caps: past a cap, a standard is trimmed or split before anything is added t
 - A Why says why the rule is needed, in a line or two.
 - The overview of the module gets one line for the standard.
 
-## When to Sweep
+## When To Sweep
 
 - Triggered by a `coentrify update`.
 - Triggered by reading a standard that no longer makes sense in the moment.
 - Never unprompted in the middle of unrelated work - note the friction per [Note Issues](note-issues.md) and continue.
 
-## How to Apply
+## How To Apply
 
 - Apply format fixes freely.
 - Surface a rule change for the director's call before applying it.

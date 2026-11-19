@@ -91,7 +91,7 @@ An idea that the director mentions without deciding on it. An agent investigates
 
 ### Veto
 
-The director's rejection of a choice that an agent made on its own. An agent lists such choices in its report ([Flag Every Addition of Your Own](standards/behavior/flag-every-addition-of-your-own.md)).
+The director's rejection of a choice that an agent made on its own. An agent lists such choices in its report ([Flag Every Addition Of Your Own](standards/behavior/flag-every-addition-of-your-own.md)).
 
 ### Phase
 

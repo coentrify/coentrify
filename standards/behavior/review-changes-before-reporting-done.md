@@ -6,7 +6,7 @@ Before reporting work as done or committing, check the change against the releva
 
 No one's work is lost or swept along, and a missed standard is applied while it is still cheap.
 
-## How to Apply
+## How To Apply
 
 - Check the relevant standards - was anything you should have applied missed? Apply it before declaring done.
 - If the diff shows changes you didn't make, surface them and confirm before reverting or committing.

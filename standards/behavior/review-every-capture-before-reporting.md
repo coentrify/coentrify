@@ -6,7 +6,7 @@ Look at each capture the pipeline produced before the report, and check it again
 
 A capture is proof, so it is checked before the director sees it.
 
-## How to Apply
+## How To Apply
 
 - After a capture run, read every new image and compare it with the previous set of the same state.
 - Fix what regressed before committing, or file it and say so.

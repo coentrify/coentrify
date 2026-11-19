@@ -6,7 +6,7 @@ The workspace is layered in more than one dimension, and the layers drift apart 
 
 The layers stay in step, and drift is caught while it is cheap.
 
-## How to Apply
+## How To Apply
 
 - Documentation depth: workspace -> app -> feature. Confirm each level describes the same reality.
 - Build pipeline: functional doc -> spec -> e2e test -> implementation. Confirm each step lines up with the ones before and after it - every feature specced, every spec case tested, every test reflecting real behavior, nothing shipped undocumented.
@@ -17,4 +17,4 @@ The layers stay in step, and drift is caught while it is cheap.
 
 - [Feature Workflow](feature-workflow.md)
 - [Note Issues](note-issues.md)
-- [Code Review Compounds Into Patterns and Sweeps](code-review-compounds-into-patterns-and-sweeps.md)
+- [Code Review Compounds Into Patterns And Sweeps](code-review-compounds-into-patterns-and-sweeps.md)

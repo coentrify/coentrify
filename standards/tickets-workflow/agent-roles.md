@@ -51,7 +51,7 @@ Every message from the director is handled at once, while the work keeps landing
 - Never a list of standards to read in full, and never a summary of them: the Core Rules and the index load by themselves, and the agent opens the standards its work touches.
 - The branch only ever holds commits ready to land. A commit is never amended once made, and a fix goes in as a new commit.
 - A criterion is measured once and proved from that run. A measure that cannot hold goes back to the conductor, who restates it under Veto or asks the director.
-- Before each commit: hygiene, types and unit, each by its exit code ([Gate Commits on Exit Codes](../commits/gate-commits-on-exit-codes.md)).
+- Before each commit: hygiene, types and unit, each by its exit code ([Gate Commits On Exit Codes](../commits/gate-commits-on-exit-codes.md)).
 - Run only what the change affects: the specs of every feature that uses what it touched, and the reels and captures that cross it. Never every suite at once.
 - A check that needs no browser is a unit test, never an e2e case.
 - Leave the change clean: what it makes unused or duplicated goes in the same commit. A small found fix rides on the ticket's go as a Veto line, anything bigger becomes a ticket.

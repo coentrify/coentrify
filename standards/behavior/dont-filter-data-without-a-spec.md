@@ -1,4 +1,4 @@
-# Don't Filter Data Without a Spec
+# Don't Filter Data Without A Spec
 
 Never drop or filter out data - client-side or server-side - unless that exclusion is explicitly specified: documented as intended behavior and covered by a test.
 
@@ -6,7 +6,7 @@ Never drop or filter out data - client-side or server-side - unless that exclusi
 
 Unexpected data surfaces, so someone sees it and decides.
 
-## How to Apply
+## How To Apply
 
 - Before adding any filter - a `.filter()`, a narrowing request param, a guard that skips records - confirm the exclusion is specified. If it isn't, surface the data and get it specced first.
 - When the exclusion is wanted, document it (feature doc or spec) and add a test that asserts it.
@@ -15,7 +15,7 @@ Unexpected data surfaces, so someone sees it and decides.
 
 ## Related
 
-- [Never Obscure Information the User Needs](../ui/never-obscure-information-the-user-needs.md)
+- [Never Obscure Information The User Needs](../ui/never-obscure-information-the-user-needs.md)
 - [Communicate State](../ui/communicate-state.md)
 - [Verify APIs Against Docs And The Installed Artifact](verify-apis-against-docs-and-the-installed-artifact.md)
 - [Note Issues](note-issues.md)

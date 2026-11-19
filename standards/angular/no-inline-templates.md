@@ -10,5 +10,5 @@ MVC best practice: the view lives in its own file, with the formatter, the lint 
 
 ## Related
 
-- [One Component per Folder, Flat](one-component-per-folder-flat.md)
-- [No `$any` in Templates](no-any-in-templates.md)
+- [One Component Per Folder, Flat](one-component-per-folder-flat.md)
+- [No `$any` In Templates](no-any-in-templates.md)

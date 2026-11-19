@@ -11,4 +11,4 @@ The E2E standards: end-to-end tests.
 - [Per-Feature Overview Test](per-feature-overview-test.md) - every spec ends with a one-take overview test
 - [Real Input For Frame Races](real-input-for-frame-races.md) - frame races need real mouse input, not dispatched events
 - [Substring Locator Collisions](substring-locator-collisions.md) - new UI text can collide with substring locators
-- [Use the E2E Pipeline for Browser Probing](use-the-e2e-pipeline-for-browser-probing.md) - probe live DOM through a Playwright spec, not ad-hoc scripts
+- [Use The E2E Pipeline For Browser Probing](use-the-e2e-pipeline-for-browser-probing.md) - probe live DOM through a Playwright spec, not ad-hoc scripts

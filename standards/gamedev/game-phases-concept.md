@@ -18,7 +18,7 @@ A basic outline of a plan, made from the ideas. Gate: does it say what to protot
 
 Trying things: a greybox, the outline and the size of the map, features. A prototype is thrown away. Gate: is the core loop fun in a greybox? ([Loop First](game-design-laws-experience.md#loop-first))
 
-## How to Apply
+## How To Apply
 
 - Concept is a pile of gathering, and unorganized by nature. Its material is parsed from the director's prompts and brainstorms.
 - The phases of Concept may overlap and loop back.

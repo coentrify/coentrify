@@ -23,7 +23,7 @@ The director sees the progress of a project at a glance, and a new session start
 - No version numbers, links, times, agent or process talk.
 - The hours run from the log's first entry to the day's last commit.
 
-## How to Apply
+## How To Apply
 
 - Write the day's file when the first batch closes, in the commit after the tag, and extend it with every batch after: the standup and the summary rewritten to cover the whole day, Done growing. A batch's close is never called the day's close while the day goes on.
 - The day closes on the director's word: the batch closes, the file is extended once more, and the report says so.
@@ -32,5 +32,5 @@ The director sees the progress of a project at a glance, and a new session start
 ## Related
 
 - [Request Log](request-log.md)
-- [Remove Completed Items from Docs](../simple-workflow/remove-completed-items-from-docs.md)
+- [Remove Completed Items From Docs](../simple-workflow/remove-completed-items-from-docs.md)
 - [Gamedev Working Cadence](../gamedev/gamedev-working-cadence.md)

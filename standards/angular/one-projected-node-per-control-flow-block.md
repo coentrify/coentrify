@@ -6,7 +6,7 @@ Two nodes with `slot="x"` under one `@if` never reach the named slot of the pare
 
 Projected content lands in the slot it was written for.
 
-## How to Apply
+## How To Apply
 
 - Treat an NG8011 warning in the build log as a failure. Read the dev server's log after a template change.
 - A visibility check does not prove projection.
@@ -15,5 +15,5 @@ Projected content lands in the slot it was written for.
 
 ## Related
 
-- [Prefer Content Projection over Props (Angular)](prefer-content-projection-over-props-angular.md)
+- [Prefer Content Projection Over Props (Angular)](prefer-content-projection-over-props-angular.md)
 - [Review Every Capture Before Reporting](../behavior/review-every-capture-before-reporting.md)

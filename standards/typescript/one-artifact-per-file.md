@@ -6,7 +6,7 @@ Each exported artifact - a type, a `const … as const`, a class, an interface, 
 
 A read stays on the one artifact it needs.
 
-## How to Apply
+## How To Apply
 
 - Split any bundle (wire-type god-files are the usual offender) into one file per artifact.
 - Re-export siblings from the folder barrel so consumers still import from one place.

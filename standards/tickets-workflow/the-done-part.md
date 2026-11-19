@@ -6,7 +6,7 @@ The builder writes the Done part into a ticket in its landing commit: a bulleted
 
 The director can tell quickly whether the work is really done.
 
-## How to Apply
+## How To Apply
 
 - Proof holds a bullet per thing the user can now do, see or hear, a few words each, with its proof beside it.
 - A proof is something the director opens or does: a capture, a video, a link to a page changed, or where to try it and the scenario that starts it. Words about tests or spec cases are never proof. "Search added to the user list", linked, is a whole bullet.

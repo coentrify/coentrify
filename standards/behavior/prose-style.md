@@ -6,7 +6,7 @@ Write with elegance and subtlety in all prose (chat, docs, commits). Recognizabl
 
 Patterned prose reads as machine output and annoys the reader. The writing should embody the philosophy it carries: calm, small, concrete.
 
-## How to Apply
+## How To Apply
 
 - Don't lean on contrastive scaffolding as the default rhythm: "X, not Y", "not X but Y", "it's not about X, it's about Y".
 - Don't chain copulas: "the x is the y, and the y is the z".

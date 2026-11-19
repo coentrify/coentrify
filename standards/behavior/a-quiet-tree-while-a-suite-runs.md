@@ -6,7 +6,7 @@ Make no source edits while a browser suite runs against a watching dev server.
 
 Tests should run in a stable environment.
 
-## How to Apply
+## How To Apply
 
 - While a suite runs, work on what the server does not watch: docs, standards, the plan, reading code.
 - Start the next code edit after the result is in.
@@ -16,4 +16,4 @@ Tests should run in a stable environment.
 ## Related
 
 - [Always Verify Before Reporting Done](always-verify-before-reporting-done.md)
-- [Gate Commits on Exit Codes](../commits/gate-commits-on-exit-codes.md)
+- [Gate Commits On Exit Codes](../commits/gate-commits-on-exit-codes.md)

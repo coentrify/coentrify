@@ -6,7 +6,7 @@ When a dependency is pinned and the docs disagree with it, the installed artifac
 
 The installed code is what runs, so it decides.
 
-## How to Apply
+## How To Apply
 
 - When an update is on the table, the docs show what it would add.
 - For API endpoints, verify existence, path, method, and request/response shape against the OpenAPI/Redoc spec itself before documenting them - don't infer from client code or assume an endpoint is missing.

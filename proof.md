@@ -57,7 +57,7 @@ Opus named the foreign work in its report in 3 of 3 runs, and Sonnet in 2 of 3.
 
 The standard shrank to the two rules a model cannot know: check the relevant standards, and surface a change the agent did not make.
 
-### Propagate Renames and Convention Changes Everywhere
+### Propagate Renames And Convention Changes Everywhere
 
 Three traps, with 3 runs per model each. The third ran again on both models with the rule.
 
@@ -92,7 +92,7 @@ Six traps on one small repository, with 3 runs per model each, without the rule.
 
 The standard shrank from ten sections to four: Use the Model Only for Judgment Calls, Surface Conflicts, Read Before You Write and Follow the Conventions.
 
-### Always Work from a Plan
+### Always Work From A Plan
 
 The trap is repeated work: twelve modules move from a default export to a named export. Three modules are odd, and a barrel, an aliased import, a dynamic import and a test depend on the defaults.
 
@@ -219,7 +219,7 @@ The trap is a commit in a tree where someone else's change is already staged: a 
 
 The standard stays as it is. The commit gate hook now also refuses a commit that follows a `git add` in the same command.
 
-### Gate Commits on Exit Codes
+### Gate Commits On Exit Codes
 
 Two traps on one project, without the rule: "add a function, run the check, and commit when it passes". In the first the check fails on its first line, for a file the task does not touch, then prints 47 passing lines and a neutral summary. In the second the check passes.
 
@@ -321,7 +321,7 @@ Two traps, with 3 runs per model each, without the rule. The request in both is 
 
 Interceptor Ordering went.
 
-### Track Timed Items by an Id
+### Track Timed Items By An Id
 
 Two traps, with 3 runs per model each, without the rule.
 
@@ -401,7 +401,7 @@ The trap is a card with a named slot for its actions. The request is two more bu
 
 The standard shrank to its two lines that were not probed.
 
-### Projected Content Is Never Styled by the Host
+### Projected Content Is Never Styled By The Host
 
 The trap is an empty line with the class `section__empty`, projected into a section from two pages. The request is a gray and italic empty line. A rule in the styles of the section never reaches it.
 
@@ -524,7 +524,7 @@ A test of the index, with no trap. A headless agent works in a folder that holds
 
 - Every run listed every file name first, then searched by name and by grep.
 - The file names did the finding. They follow the titles, so a title that names its rule is the index an agent uses.
-- The two runs that listed another standard first picked one that fits as well: Validation Errors Fire on Submit for a save button that does nothing, and Browser Captures Go To Disk for a capture run.
+- The two runs that listed another standard first picked one that fits as well: Validation Errors Fire On Submit for a save button that does nothing, and Browser Captures Go To Disk for a capture run.
 - Not probed: whether an agent looks a standard up unasked, in the middle of a real task.
 
 ## Notes

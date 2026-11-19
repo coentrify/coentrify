@@ -6,7 +6,7 @@ A click in the browser pane that does nothing is first a question of where it la
 
 Time goes only into bugs that are real.
 
-## How to Apply
+## How To Apply
 
 - When the pane drops its viewport emulation, the screenshot's frame no longer matches the page, and a coordinate click lands off the control while the app works fine.
 - Put a capture listener on pointerdown and click, logging clientX and clientY and the target, before trusting a coordinate click.
@@ -15,5 +15,5 @@ Time goes only into bugs that are real.
 
 ## Related
 
-- [Use the E2E Pipeline for Browser Probing](../e2e/use-the-e2e-pipeline-for-browser-probing.md)
+- [Use The E2E Pipeline For Browser Probing](../e2e/use-the-e2e-pipeline-for-browser-probing.md)
 - [Browser Captures Go To Disk](browser-captures-go-to-disk.md)

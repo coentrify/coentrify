@@ -10,15 +10,15 @@ The docs orient every reader, and they are the basis for manual testing and for 
 
 Docs describe what the product does and who uses it. The architecture doc holds the decisions about how it is built, and the details stay in the code ([Docs Describe Behavior, Not Wiring](docs-describe-behavior-not-wiring.md)).
 
-## Brevity over Completeness
+## Brevity Over Completeness
 
 Short imperative noun phrases ("Invite User", "Deactivate User") beat full sentences, and small lists of short items beat connecting sentences. The overview is a scannable product summary. Depth lives in the feature pages and their parts' pages, shaped and worded per [Docs Are Hierarchical, Explicit And Short](docs-are-hierarchical-explicit-and-short.md), which also owns naming things outright.
 
-## One Purpose per File
+## One Purpose Per File
 
 Each doc has a narrow job. Don't cram specifications into an overview. Don't cram technical debt into a feature list. If a fact doesn't fit the file's job, it lives in another file.
 
-## No Meta About the Doc Inside the Doc
+## No Meta About The Doc Inside The Doc
 
 Don't open a doc with a paragraph explaining what the doc is for or how to read it ("Known bugs in the current build. Each entry links to..."). That kind of rule lives in the template or standard for the doc type. The doc itself jumps straight to content - readers know what `bugs.md` is from the filename and the H1.
 

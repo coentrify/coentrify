@@ -6,7 +6,7 @@ Before a Playwright run, the e2e port is clean: a lingering server of yours is k
 
 Every run starts clean, so it shows the code as it stands.
 
-## How to Apply
+## How To Apply
 
 - What listens there can be the user's own app, another project's server, or a stale watcher of this one that does not always rebuild. The tell is a capture of the old state, a snapshot of a different page, or role and locator queries that time out with no error.
 - Point the e2e config's `webServer` URL and `BASE_URL` at the project's own fixed port ([Own Ports, Own Processes](../behavior/own-ports-own-processes.md)).

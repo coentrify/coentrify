@@ -16,7 +16,7 @@ Everything has a place to go, with light organization that stays simple.
 
 Every list is a file in `docs/development/`: `inbox.md`, `todo.md`, `roadmap.md`, `plan.md`, `bugs.md` and `tech-debt.md`. A workspace with several apps gives each app a folder of its own in it.
 
-## How to Apply
+## How To Apply
 
 - Put anything new in the inbox.
 - When the director rants, extract one bullet per topic or idea.

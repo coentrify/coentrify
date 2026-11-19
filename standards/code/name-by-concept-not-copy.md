@@ -1,4 +1,4 @@
-# Name by Concept, Not Copy
+# Name By Concept, Not Copy
 
 Identifiers carry the generic concept they represent, never the specific UI copy, translation, or content they happen to hold. A tab helper is `ordersTab`, never a name spelled from its label, even when the label is in the UI's own language. The label string is content and keeps its language. The identifier is code and stays generic English.
 
@@ -6,7 +6,7 @@ Identifiers carry the generic concept they represent, never the specific UI copy
 
 Naming by concept keeps the code stable while the copy is free to move.
 
-## How to Apply
+## How To Apply
 
 - Name the identifier for what it represents in generic English: `ordersTab`, `SETTINGS_TAB`, `notesLabel`.
 - Keep the literal copy as the string value it points at: `tab(page, '<label in the UI language>')`.

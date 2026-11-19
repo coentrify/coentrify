@@ -22,7 +22,7 @@ export class MockOrdersApiService implements OrdersApi { /* mock */ }
 
 The mock and the real service keep one surface, held by the compiler.
 
-## How to Apply
+## How To Apply
 
 - Declare an `interface` for the service's public surface and write `implements` on both `XService` and `MockXService`.
 - `implements` on both sides makes the compiler enforce parity. With bare structural typing a missing method only bites at runtime.

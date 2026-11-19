@@ -6,7 +6,7 @@ The level of a new sound is measured, never guessed.
 
 Every sound sits at the right level beside the others.
 
-## How to Apply
+## How To Apply
 
 - Read the loudness against a sound the director already knows: another scene's bed, a click.
 - A level worked out on paper misleads, since filtered soft noise has little energy up high.

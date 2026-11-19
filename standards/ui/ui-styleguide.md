@@ -15,7 +15,7 @@ The tooling is picked per workspace: Storybook, a gallery route in the app, a sa
 
 Every component is judged on its own, edges included.
 
-## How to Apply
+## How To Apply
 
 - A component judged through its feature hides its edges, since the feature only ever reaches a few combinations.
 - Every ui component gets its page as it is built. A new variant lands with its entry.

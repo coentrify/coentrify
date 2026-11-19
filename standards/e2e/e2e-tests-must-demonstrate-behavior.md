@@ -6,7 +6,7 @@ A passing e2e test is not enough. After writing one, replay the recording and co
 
 A green test shows the feature working, to anyone who watches the recording.
 
-## How to Apply
+## How To Apply
 
 - Pick scenario data that makes the change visible. A searched term is in the seed (a row narrows or stays) or not in it (the empty state appears). Both shapes are usually worth their own test.
 - Cover the contrast cases. Lookups: hit and no hit. Mutations: success and the matching error variant (4xx, 5xx). Toggles: enabled and disabled, visible in the rendered UI.

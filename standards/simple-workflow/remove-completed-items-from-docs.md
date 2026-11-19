@@ -1,4 +1,4 @@
-# Remove Completed Items from Docs
+# Remove Completed Items From Docs
 
 A list holds only what remains. When an item is completed, its line leaves the list entirely: never `~~text~~`, a "Done" label or a ticked checkbox.
 
@@ -6,7 +6,7 @@ A list holds only what remains. When an item is completed, its line leaves the l
 
 A list holds only open work, so it reads at a glance.
 
-## How to Apply
+## How To Apply
 
 - A completed item leaves the list for the version's changelog, or for the archive.
 - A done ticket is archived, never deleted, so the changelog can link it ([Work Tracking](../tickets-workflow/work-tracking.md)).
@@ -16,4 +16,4 @@ A list holds only open work, so it reads at a glance.
 
 - [Work Tracking](../tickets-workflow/work-tracking.md)
 - [Changelog Per Version](../records/changelog-per-version.md)
-- [Plans vs Persistent Files](plans-vs-persistent-files.md)
+- [Plans Vs Persistent Files](plans-vs-persistent-files.md)

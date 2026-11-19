@@ -6,7 +6,7 @@ A project that is a contributor files a harness change with coentrify, where the
 
 What one project learns reaches every project.
 
-## How to Apply
+## How To Apply
 
 - A project files only when its `coentrify.json` says `contributor: true`.
 - `filing` in `coentrify.json` says who files. With `review`, the default, the director looks at the issue first. With `automatic`, the subagent files it on its own.

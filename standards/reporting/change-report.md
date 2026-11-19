@@ -25,7 +25,7 @@ Drop sections that don't apply. Screenshots over prose. Videos only when the poi
 
 Where a project keeps a changelog per version, that page is the record and this report is not written ([Changelog Per Version](../records/changelog-per-version.md)). Elsewhere the report is a page in the docs wiki, kept so the team can always go back and see what changed: a per-target changelog with a curated newest-first index, entry pages dated and slugged, screenshots stored alongside. A project keeps its own mechanics for this (wiki paths, asset folder, index format) in its docs.
 
-## How to Apply
+## How To Apply
 
 - Reach for this when picking an item off a bugs list, recording a finding, or finishing a feature.
 - Only product changes are entries: what the user of the product sees or does differently. Changes to the wiki, the capture and reel scripts, lint or hooks are not changelog entries. Their commit is the record.
@@ -36,8 +36,8 @@ Where a project keeps a changelog per version, that page is the record and this 
 ## Related
 
 - [Sweeps Enumerate Into Tech-Debt First](../behavior/sweeps-enumerate-into-tech-debt-first.md)
-- [Don't Filter Data Without a Spec](../behavior/dont-filter-data-without-a-spec.md)
-- [Never Obscure Information the User Needs](../ui/never-obscure-information-the-user-needs.md)
+- [Don't Filter Data Without A Spec](../behavior/dont-filter-data-without-a-spec.md)
+- [Never Obscure Information The User Needs](../ui/never-obscure-information-the-user-needs.md)
 - [Always Verify Before Reporting Done](../behavior/always-verify-before-reporting-done.md)
 - [Reels And Video Proof](reels-and-video-proof.md)
-- [Name by Concept, Not Copy](../code/name-by-concept-not-copy.md)
+- [Name By Concept, Not Copy](../code/name-by-concept-not-copy.md)

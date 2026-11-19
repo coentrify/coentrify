@@ -25,7 +25,7 @@ The director reviews the docs, changelogs, captures and reels in the wiki while 
 - A hosts-file domain is a stopgap not worth keeping.
 - The URL with the port is the bookmark.
 
-## How to Apply
+## How To Apply
 
 - Set the wiki up on day one with the docs skeleton, before any feature.
 - At session start, run the wiki when the project has one and hand over its URL. It keeps running after the session when the director asked for it ([Own Ports, Own Processes](../behavior/own-ports-own-processes.md)).

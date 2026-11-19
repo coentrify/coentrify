@@ -6,7 +6,7 @@ A scripted in-place edit reads the whole file into a variable, runs its checks a
 
 A file survives a scripted edit, uncommitted work included.
 
-## How to Apply
+## How To Apply
 
 - `open(p,'w').write(fix(open(p).read()))` opens for writing first, which empties the file: the read sees nothing, the assert fails, and the file stays empty, taking its uncommitted work with it.
 - Python: `s = open(p).read()`, assert, transform, then `with open(p, 'w') as f: f.write(new)`.

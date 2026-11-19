@@ -1,4 +1,4 @@
-# canMatch + Wildcard for Route Access
+# canMatch + Wildcard For Route Access
 
 Route access guards, for logged-in and logged-out gating, use `canMatch` with a wildcard at the bottom of the route table.
 
@@ -6,7 +6,7 @@ Route access guards, for logged-in and logged-out gating, use `canMatch` with a 
 
 A user who may not enter a route still lands on the right page.
 
-## How to Apply
+## How To Apply
 
 - Use CanMatch in favor of CanActivate in order to allow multiple root redirects.
 - Pair with `{ path: '**', redirectTo: '/' }` wildcard at the bottom of the route table.

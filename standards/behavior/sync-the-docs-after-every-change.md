@@ -6,7 +6,7 @@ When something changed or a feature landed, check the docs for related informati
 
 The docs are up to date at all times.
 
-## How to Apply
+## How To Apply
 
 - After an item lands, grep the docs for its feature's terms (names, labels, the old behavior) and read every hit, beyond the feature's own doc.
 - A statement the change made untrue gets fixed in the same commit or the next one.
@@ -15,6 +15,6 @@ The docs are up to date at all times.
 
 ## Related
 
-- [Propagate Renames and Convention Changes Everywhere](propagate-renames-and-convention-changes-everywhere.md)
+- [Propagate Renames And Convention Changes Everywhere](propagate-renames-and-convention-changes-everywhere.md)
 - [Regular Layered Gap Analysis](regular-layered-gap-analysis.md)
-- [Docs Hold Only What the Director Decided](docs-hold-only-what-the-director-decided.md)
+- [Docs Hold Only What The Director Decided](docs-hold-only-what-the-director-decided.md)

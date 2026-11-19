@@ -6,7 +6,7 @@ While a version is being made stable and clean, its plan holds bugs and tweaks t
 
 Every version reaches stable and clean.
 
-## How to Apply
+## How To Apply
 
 - Stable and clean comes first, then the short-term roadmap, then new things.
 - New things ride in from test notes easily, and a version that mixes them with its fixes is never stable.

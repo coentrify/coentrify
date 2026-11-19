@@ -6,13 +6,13 @@ When you encounter a problem during other work (bug, code smell, lint suppressio
 
 Every finding is kept, so all debt stays visible.
 
-## Where to Note
+## Where To Note
 
 The project's workflow names the home of each kind of finding: [The Simple Workflow](../simple-workflow/the-simple-workflow.md#where-a-finding-goes) or [Work Workflow](../tickets-workflow/work-workflow.md#where-a-finding-goes).
 
 - Friction with a library -> surfaced to the director in the report ([Library Feedback](../docs/library-feedback.md)).
 
-## How to Apply
+## How To Apply
 
 - Stop briefly, add a short entry to the right doc, return to current work. One line is enough most of the time, with supporting context only when necessary.
 - Never just suppress (eslint-disable, ts-ignore, swallowed error) without a matching note.

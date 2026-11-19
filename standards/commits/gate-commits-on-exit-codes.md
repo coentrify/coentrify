@@ -1,4 +1,4 @@
-# Gate Commits on Exit Codes
+# Gate Commits On Exit Codes
 
 A commit, a tag or a "done" claim is gated on the exit code of the check itself, never on its printed output.
 
@@ -6,7 +6,7 @@ A commit, a tag or a "done" claim is gated on the exit code of the check itself,
 
 Only the exit code tells whether a check passed.
 
-## How to Apply
+## How To Apply
 
 - A pipe returns the exit code of its last command, so `build | grep ERROR && git commit` and `suite | tail -30` report green while the check failed. A `;` or an `echo $?` between check and commit runs the commit whatever happened. Each of these has landed broken work, even with this rule loaded.
 - Hang the commit and the tag on the check with `&&`, nothing in between: no `;`, no `echo "exit $?"`, no edit on the line before that can fail without stopping what follows. A hook refuses a `git commit` or `git tag` that follows a `;` or a check piped into `grep`, `tail` or `head`. A newline between check and commit is not caught, so the same rule holds there.

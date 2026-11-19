@@ -6,7 +6,7 @@ The shared `ui` library must stand on its own, extractable as-is into another ap
 
 The library can drop into an unrelated app unchanged.
 
-## How to Apply
+## How To Apply
 
 - A domain-to-presentation map, such as a record status to a badge color, is domain knowledge, and stays out of ui.
 - The consumer (feature or app) owns the domain-to-primitive mapping and passes the resolved value in, such as a `color` to a generic badge.

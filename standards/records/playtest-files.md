@@ -19,7 +19,7 @@ A playtest file records what was felt about a build, and the next build is held 
 - A review of the changelog, its captures or its reels instead of the build: even one line of feedback on a reel gets a file.
 - Notes that come in while the director plays a version in progress: the file opens with the first such note of the session and grows with every note after, in the same commit as its log entry.
 
-## How to Apply
+## How To Apply
 
 - Write the file right after the log entry, before anything else is done with the feedback. Never afterward on request.
 - Feedback stays feedback: its units go through intake ([Work Workflow](../tickets-workflow/work-workflow.md)), where the director's "feedback for now" or "not for now" means built later in its epic and phase, never held.

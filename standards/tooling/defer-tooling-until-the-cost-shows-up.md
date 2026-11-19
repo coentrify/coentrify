@@ -6,7 +6,7 @@ Don't add heavyweight tooling (reporting dashboards, contract testing, visual re
 
 The project carries only the weight it needs.
 
-## How to Apply
+## How To Apply
 
 - Tooling carries weight: setup, a learning curve, an integration surface, CI minutes and maintenance.
 - Don't pre-commit to heavyweight tooling as "phase 2" or "we'll add it later" - that signals it's coming, which it isn't until the cost is concrete.

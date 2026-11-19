@@ -6,7 +6,7 @@ Within a lib, import a symbol through its folder's barrel index, not the deep fi
 
 An import path stays the same when a file moves.
 
-## How to Apply
+## How To Apply
 
 - Import from the nearest barrel that re-exports the symbol.
 - Barrel imports are shorter, and group well.

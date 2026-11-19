@@ -11,7 +11,7 @@ When a UI component supports multiple visual variants, the input describes the f
 
 The look stays the UI layer's to decide, so a rebrand touches one place.
 
-## How to Apply
+## How To Apply
 
 - Name inputs after intent: `severity`, `tone`, `variant`, `state`, `type`.
 - Accept a closed set of semantic values in generic presentation vocabulary (`'info' | 'warning' | 'error' | 'success'`), never domain values (`'active' | 'ended'`). The consumer maps a domain value to a variant ([UI Library Is Domain-Agnostic](ui-library-is-domain-agnostic.md)).

@@ -35,7 +35,7 @@ A hierarchy gives every page the right focus level, for efficient and effective 
 - A one-line statement under a heading is a spec that leads to a test.
 - Plans, logs and changelogs keep their own shapes.
 
-## How to Apply
+## How To Apply
 
 - Legacy pages get rewritten page by page, with one model page reviewed by the director first.
 - The wiki's tree is workshopped with the director before pages move.

@@ -6,7 +6,7 @@ When a standard and a skill conflict, the standard wins. Skills are starting poi
 
 The standards hold how the project works, so they come first.
 
-## How to Apply
+## How To Apply
 
 - On conflict, follow the standard and ignore the skill's advice for that point.
 - When you notice the skill is wrong (contradicts a standard or contradicts what the repo does), adjust the skill so the next session doesn't re-hit the same friction.

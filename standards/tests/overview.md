@@ -8,6 +8,6 @@ The Tests standards: test design.
 - [Implementation-Agnostic Assertions](implementation-agnostic-assertions.md) - assert what the user perceives
 - [Implementation-Agnostic Locators](implementation-agnostic-locators.md) - locate by role, label and text
 - [Realistic Test Data Variance](realistic-test-data-variance.md) - seeds vary every dimension a feature acts on
-- [Seed Surfaces Every State on Page 1](seed-surfaces-every-state-on-page-1.md) - the seed's first page shows every state a test names
+- [Seed Surfaces Every State On Page 1](seed-surfaces-every-state-on-page-1.md) - the seed's first page shows every state a test names
 - [Test Design](test-design.md) - a test profile per app-shield layer, independent tests, one mock layer
 - [Test The System Behind A Mock](test-the-system-behind-a-mock.md) - a spec test of its own for the real system. Where none can run, a spec and recorded manual tests are the proof

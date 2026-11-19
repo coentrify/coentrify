@@ -73,8 +73,8 @@ The basis is Anthropic's [migration guide](https://platform.claude.com/docs/en/a
 
 All 15 are probed and ruled on, with the results on the [Proof](../proof.md) page.
 
-- Stay as they are: Always Verify Before Reporting Done, Propagate Renames and Convention Changes Everywhere, Sync The Docs After Every Change, Verify Control Before Rename, Verify Staging Before Committing, Gate Commits on Exit Codes, Read Before You Truncate and Review Every Capture Before Reporting.
-- Shrank: Review Changes Before Reporting Done, General Working Rules, Always Work from a Plan, Verify APIs Against Docs And The Installed Artifact and Anchor Edits After Formatting.
+- Stay as they are: Always Verify Before Reporting Done, Propagate Renames And Convention Changes Everywhere, Sync The Docs After Every Change, Verify Control Before Rename, Verify Staging Before Committing, Gate Commits On Exit Codes, Read Before You Truncate and Review Every Capture Before Reporting.
+- Shrank: Review Changes Before Reporting Done, General Working Rules, Always Work From A Plan, Verify APIs Against Docs And The Installed Artifact and Anchor Edits After Formatting.
 - Went: Honest Assessments, with one line kept in General Working Rules, and Decide, Don't Wait.
 
 ## The Tool Facts
@@ -86,7 +86,7 @@ A tool fact is probed the same way: a fresh agent meets the pitfall without the 
 Fifteen are probed and ruled on, with the results on the [Proof](../proof.md) page. A line that was not probed stays, and so does a standard whose trap was too easy.
 
 - Stay as they are: Sprite Sheet Frames, Prompt Small Models Differently, Start Playwright On A Clean Port, A Quiet Tree While A Suite Runs and Reload The Standards After Compacting.
-- Shrank: Hidden Attribute Loses To Display, Substring Locator Collisions, Track Timed Items by an Id, One Projected Node Per Control-Flow Block, Projected Content Is Never Styled by the Host and Use Modern Angular Template APIs.
+- Shrank: Hidden Attribute Loses To Display, Substring Locator Collisions, Track Timed Items By An Id, One Projected Node Per Control-Flow Block, Projected Content Is Never Styled By The Host and Use Modern Angular Template APIs.
 - Went: Interceptor Ordering, Angular Build Checks The Templates, Init Scripts Need a Navigation and Settings Changes Need a Fresh Session.
 
 ### Not Probed
@@ -103,7 +103,7 @@ A model cannot know these, so they were never candidates.
 
 - E2E Assert Before Interacting
 - E2E Runs On The Development Build
-- Hygiene Tests Run on Their Own Runner
+- Hygiene Tests Run On Their Own Runner
 - Playwright Parallel Runs
 
 ### The Facts About The Harness
@@ -118,5 +118,5 @@ A model cannot know these, so they were never candidates.
 A standard that went or shrank on an easy trap got a hard one after.
 
 - Three that went passed it, so they stay gone: Interceptor Ordering, Angular Build Checks The Templates and Init Scripts Need a Navigation.
-- Three that shrank passed it, so they stay shrunk: Hidden Attribute Loses To Display, Substring Locator Collisions and Track Timed Items by an Id.
+- Three that shrank passed it, so they stay shrunk: Hidden Attribute Loses To Display, Substring Locator Collisions and Track Timed Items By An Id.
 - Prompt Small Models Differently failed it, and is back in full.

@@ -6,7 +6,7 @@ Tests are organized along the [App-Shield](../architecture/app-shield.md) layers
 
 A failing test points at the layer that broke.
 
-## Test Profile per Layer
+## Test Profile Per Layer
 
 - ui - presentational components, design tokens. Unit + integration + styleguide.
 - app - app shells, routing, feature wiring. Unit + e2e.
@@ -22,7 +22,7 @@ Unit, integration, e2e, scenario and styleguide tests each carry implied princip
 
 No test depends on state, fixtures or side effects left behind by another. Each test owns its setup and cleanup, so ordering, parallelism and partial reruns all produce the same result.
 
-## One Mock Layer per Test Type
+## One Mock Layer Per Test Type
 
 Each test type mocks the backend at exactly one layer, never at two for the same flow. Doubling up multiplies setup, hides which mock is answering and makes the test brittle to either layer changing.
 
@@ -33,7 +33,7 @@ Each test type mocks the backend at exactly one layer, never at two for the same
 - Reports upload as build artifacts every run.
 - Expensive diagnostics (traces, videos, screenshots) upload only on failure.
 
-## How to Apply
+## How To Apply
 
 - When adding a test, pick the profile from its layer.
 - When behavior spans layers, test it once at the highest layer involved (usually app via e2e).

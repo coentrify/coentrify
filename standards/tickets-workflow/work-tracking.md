@@ -162,5 +162,5 @@ A question lives in the ticket that has the unclarity, under `## Question`: the 
 - [Work Item Names](work-item-names.md)
 - [Commits](../commits/commits.md)
 - [Don't Introduce Tech Debt](../behavior/dont-introduce-tech-debt.md)
-- [Plans vs Persistent Files](../simple-workflow/plans-vs-persistent-files.md)
+- [Plans Vs Persistent Files](../simple-workflow/plans-vs-persistent-files.md)
 - [Docs State Knowledge](../docs/docs-state-knowledge.md)

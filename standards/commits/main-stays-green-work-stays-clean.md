@@ -6,7 +6,7 @@ Main is always green. Every unit of work leaves the codebase better than it foun
 
 A version can be cut from main at any moment, and red always means something.
 
-## How to Apply
+## How To Apply
 
 - A builder's branch merges into main with `--no-commit` first. The merged tree's types, unit specs and build run, and the touched suites when two branches meet the same screen, before the merge commit lands. Two branches green apart can be red together (a new field from one, a spec without it from the other).
 - A red main is priority one: it is fixed before anything else lands ([Dev Tiers](../behavior/dev-tiers.md)).
@@ -23,4 +23,4 @@ A version can be cut from main at any moment, and red always means something.
 ## Related
 
 - [Work Workflow](../tickets-workflow/work-workflow.md)
-- [Gate Commits on Exit Codes](gate-commits-on-exit-codes.md)
+- [Gate Commits On Exit Codes](gate-commits-on-exit-codes.md)

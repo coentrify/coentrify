@@ -25,4 +25,4 @@ A full browser suite that outlasts a background command's ten-minute cap is kill
 ## Related
 
 - [Start Playwright On A Clean Port](start-playwright-on-a-clean-port.md)
-- [Gate Commits on Exit Codes](../commits/gate-commits-on-exit-codes.md)
+- [Gate Commits On Exit Codes](../commits/gate-commits-on-exit-codes.md)

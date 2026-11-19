@@ -26,7 +26,7 @@ The director can reproduce every state a capture shows.
 - Park the mouse in a corner and hide the window's drag bar before a still.
 - A segment records the sound by tapping the audio graph in the page.
 
-## How to Apply
+## How To Apply
 
 - Suites and capture runs are muted ([Silent Runs](silent-runs.md)).
 - Only the reel records sound.

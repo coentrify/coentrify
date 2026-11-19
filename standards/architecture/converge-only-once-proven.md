@@ -6,7 +6,7 @@ In a multi-app workspace, apps can start divergent - different designs, differen
 
 A shared design or wiring fits every app that uses it.
 
-## How to Apply
+## How To Apply
 
 - Collapsing apps early couples every app to one app's choices and breeds app-flag branching. Premature uniformity costs as much as premature abstraction.
 - Fold a pattern up to the shared layer only once it has repeated, stabilized and the apps have shown they agree on it. Convergence is earned, never scheduled.
