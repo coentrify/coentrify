@@ -114,7 +114,7 @@ Every list but the roadmap is a view the wiki generates from the tickets, the wa
 The unit of a list is the story. Each story of the current phase stands on exactly one list: the first whose condition it meets, in this order. A ticket outside a story stands on one the same way, as a story of one ticket. Refine is the fallback, so nothing falls through. A story's own tickets show on its page. A later phase's story stands on none. Its epic and phase are its home. An epic stands on none either. The roadmap is its home.
 
 - `processing.md` - every story with a ticket that carries a `feedback` field, which keeps it off the director's inboxes until the conductor clears the field.
-- `accept.md` - every story whose open tickets each have a Done part, in landing order read from git. Debt never waits there, since it lands archived.
+- `accept.md` - every story with open tickets, each with a Done part, in landing order read from git. Debt never waits there, since it lands archived.
 - `plan.md` - every story whose tickets not yet landed are all ready, have a `go` and have an agent, its tickets in a section per agent by their `agent` field, the section's heading read back from the slug. In each section in the roadmap's order of epics, then by priority, a missing one counting as medium, then by the go's time. A story with its go is one builder's section, and stays on the plan while a ticket in it waits on its builder's question. An agent's first ticket is the one in flight. The plan holds only what is active: its generated sections.
 - `planning.md` - every story whose tickets not yet landed are all ready, as one item, in three groups: the stories with a go that wait for an agent, the stories that wait on a go, and `## Blocked`, the stories that wait on a story, each naming its blocker inline (`STORY-12 - blocked by STORY-9`).
 - `refine.md` - every other story of the current phase ([The Refine List](#the-refine-list)). What a ticket still misses is read in the ticket. A builder's question on a ticket in flight lists that ticket here as well, until it is answered.
@@ -161,6 +161,7 @@ A question lives in the ticket that has the unclarity, under `## Question`: the 
 
 - A ticket is archived at the director's verdict on it or on its story, a debt ticket at its landing: a `git mv` to `archive/<type>/`, which is the verdict's whole bookkeeping, since every list follows by itself.
 - A version's changelog lists the tickets that landed in it, generated ([Changelog Per Version](../records/changelog-per-version.md)).
+- A story page is archived with its last ticket, at its verdict, or a debt story's at its last landing, to `archive/stories/`.
 - Archived tickets are never edited again. More work on the same topic, a rework included, is a new ticket.
 
 ## Related
