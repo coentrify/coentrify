@@ -529,7 +529,7 @@ A test of the index, with no trap. A headless agent works in a folder that holds
 
 ### The First Prompt
 
-A test of the prompt in the Quick Start, with no trap. A headless agent works in a small Node project, with no settings loaded and nothing about coentrify on the machine. The `gh` command half works on the test machine: the two prompts in the middle ran twice, and the last two ran with `gh` hidden, as if it were not installed. 3 runs per model and prompt in a round, in Claude Code 2.1.328, $6.37 in all.
+A test of the prompt in the Quick Start, with no trap. A headless agent works in a small Node project, with no settings loaded and nothing about coentrify on the machine. The `gh` command half works on the test machine: the two prompts in the middle ran twice, and the last two ran with `gh` hidden, as if it were not installed. 3 runs per model and prompt in a round, in Claude Code 2.1.328, $6.37 in all. The runs asked for medium effort, while the parent session's effort setting reached them as well, so the effort they ran at is not certain.
 
 | Prompt | Opus 5.5 | Sonnet 5.5 |
 |---|---|---|
