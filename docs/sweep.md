@@ -10,4 +10,3 @@ The worklist from a sweep over every standard, the top-level pages, the tools an
 
 ## Facts That Went Stale
 
-48. The activity log asks for more content than a day's progress needs.
