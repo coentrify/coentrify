@@ -17,6 +17,8 @@ Name what changed, specifically, so the subject tells the change at a glance wit
 
 ## Ticket Prefix
 
+In a project on the tickets workflow ([Work Tracking](../tickets-workflow/work-tracking.md)):
+
 - Every commit made for a ticket carries its id: its code, its tests, the wiki's tooling, its landing and its archive move.
 - The commit message hook refuses a commit of code or tests without a ticket's id in front.
 - The main session's commits that serve no single ticket, such as a [Request Log](../records/request-log.md) entry, keep the conventional form.
