@@ -7,3 +7,4 @@ The Records standards: the dated trails a project keeps.
 - [Healing Log](healing-log.md) - every change automatic healing made, one line each, until the director rules on it
 - [Playtest Files](playtest-files.md) - a numbered file per playtest. Feedback units become tickets
 - [Request Log](request-log.md) - log everything the director says before intake, shell-written time headings, DEV day count
+- [User Test Files](user-test-files.md) - a numbered file per session with real users, in the shape of a playtest file

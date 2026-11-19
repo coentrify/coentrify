@@ -35,3 +35,4 @@ A playtest file records what was felt about a build, and the next build is held 
 
 - [Changelog Per Version](changelog-per-version.md)
 - [Gamedev Working Cadence](../gamedev/gamedev-working-cadence.md)
+- [User Test Files](user-test-files.md)
