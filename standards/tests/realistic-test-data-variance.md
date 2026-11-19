@@ -9,7 +9,7 @@ A bug that only shows in varied data is caught before production.
 ## How To Apply
 
 - Vary every dimension a feature acts on: role, status, organization, owner, dates, counts.
-- Factories randomize these dimensions by default. Tests pin specific values only when the assertion requires them.
+- Factories spread these dimensions across the dataset by design, the same on every run. Tests pin specific values only when the assertion requires them.
 - For any feature that filters or branches on a property, the dataset must contain at least one matching and one non-matching record - otherwise the test can't distinguish "works" from "is a no-op".
 
 ## Examples
