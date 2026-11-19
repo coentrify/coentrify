@@ -44,7 +44,7 @@ Every section of a type's set stands in every ticket of that type, `` `-` `` whe
 ```
 ---
 id: BUG-31
-epic: <epic-slug>            (when it belongs to one)
+epic: <epic-slug>
 story: <story-slug>          (when it belongs to one)
 rework: FEAT-214             (the landed ticket it redoes, from the director's findings)
 phase: <phase-slug>          (epics only)

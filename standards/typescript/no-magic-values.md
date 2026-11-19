@@ -26,7 +26,7 @@ export const SortOrder = {
 export type SortOrderType = Enum<typeof SortOrder>;
 ```
 
-`Enum<T>` is the generic `type Enum<T> = T[keyof T]`. Define it once in the core layer and import from there.
+`Enum<T>` is the generic `type Enum<T> = T[keyof T]`. Define it once, in config or core, for every layer but ui. ui stays free of the workspace, so it can be picked up and used elsewhere, and keeps its own copy in its `generics/` under a name of its own, such as `EnumOption<T>`. Which layer holds the shared one is the project's call.
 
 For a single scalar constant (not a set), annotate the type explicitly with `: Readonly<T> =`, not `as const` - e.g. `export const BOT_USER_EMAIL: Readonly<string> = '...';` or `const DEFAULT_LIMIT: Readonly<number> = 50;`. `as const` is reserved for the object that backs a union via `Enum<T>`.
 

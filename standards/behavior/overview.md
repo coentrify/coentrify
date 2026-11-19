@@ -19,7 +19,7 @@ The Behavior standards: how an agent works and what an agent checks.
 - [Don't Introduce Tech Debt](dont-introduce-tech-debt.md) - new code follows conventions even when neighbors don't. Fix what your change caused
 - [Feature Workflow](feature-workflow.md) - plan -> doc -> spec -> failing e2e -> implement -> regression -> proof the user can verify
 - [File A Change With Coentrify](file-a-change-with-coentrify.md) - a contributor files a harness change that holds beyond its project, one point per issue, without project details
-- [Flag Every Addition Of Your Own](flag-every-addition-of-your-own.md) - name every addition of your own in the report for a veto
+- [Flag Every Addition Of Your Own](flag-every-addition-of-your-own.md) - name a decision of your own that no law, rule or guideline settles, for a veto
 - [Free Text Replies, No Buttons](free-text-replies-no-buttons.md) - no answer buttons or wrap-up questions. Ask in prose and keep going. No closing prompts where a dashboard shows the director's inboxes
 - [General Working Rules](general-working-rules.md) - honest assessments, the model only for judgment calls, surface conflicts, read before you write, follow the written conventions
 - [Non-Destructive Documenting And Test Automation](non-destructive-documenting-and-test-automation.md) - doc, spec and test phases never touch production code

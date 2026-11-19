@@ -67,7 +67,6 @@ A ticket is ready to be scheduled and built when every one of these holds. The w
 - It is the smallest piece that gives an actual feature. Anything larger becomes an epic with tickets under it.
 - It belongs to the current phase.
 - The tickets it waits on are named, each of its own story ([Work Tracking](work-tracking.md#stories)).
-- It has the director's go.
 
 ## Building
 
