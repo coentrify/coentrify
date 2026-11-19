@@ -513,6 +513,20 @@ A test of the harness, with no trap for a model, in Claude Code 2.1.326. A headl
 
 Settings Changes Need a Fresh Session went.
 
+### The Overviews As An Index
+
+A test of the index, with no trap. A headless agent works in a folder that holds only the standards, and a `CLAUDE.md` with the one line the onboarding writes: work by the standards in the index, and read a module's overview, then a standard, when the work calls for it. Fourteen tasks, each with the standard it needs, such as a getByText that matches two nodes for Substring Locator Collisions. The prompt asks for the standards that apply, without doing the task. One run per task, in Claude Code 2.1.327.
+
+| Model | Right standard listed | Listed first | Read an overview | Cost |
+|---|---|---|---|---|
+| Opus 5.5 | 14 of 14 | 13 of 14 | 7 of 14 | $2.60 |
+| Sonnet 5.5 | 14 of 14 | 13 of 14 | 0 of 14 | $1.03 |
+
+- Every run listed every file name first, then searched by name and by grep.
+- The file names did the finding. They follow the titles, so a title that names its rule is the index an agent uses.
+- The two runs that listed another standard first picked one that fits as well: Validation Errors Fire on Submit for a save button that does nothing, and Browser Captures Go To Disk for a capture run.
+- Not probed: whether an agent looks a standard up unasked, in the middle of a real task.
+
 ## Notes
 
 - Sync The Docs After Every Change is the first standard that Opus 5.5 needs and Sonnet 5.5 does not. Opus searched the docs for the number alone, and Sonnet read the docs.
@@ -528,6 +542,7 @@ Settings Changes Need a Fresh Session went.
 - A shrunk standard is tested as the rule, beside the full one. Prompt Small Models Differently had lost the lines that did the work.
 - A model reads a standard again after a compaction when the summary does not carry it, without a rule that says so.
 - Two facts about the harness no longer hold in Claude Code 2.1.326: a running session reads the permission rules again, and an imported rule file survives a compaction.
+- The overviews are not how an agent finds a standard. Both models searched the file names, and found the right one in 28 of 28 runs.
 - Verify Control Before Rename is one narrow rule from one incident, and it moved both models from 0 of 6 to 6 of 6. A rule from an incident can earn its place.
 
 ## Run It Again
