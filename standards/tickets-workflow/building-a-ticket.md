@@ -35,7 +35,7 @@ A ticket or a line is done only when every one of these holds. Until then it sta
 - The docs are synced: the feature doc, the spec, and every reference to a changed name ([Sync The Docs After Every Change](../behavior/sync-the-docs-after-every-change.md)).
 - No new tech debt: what the change made unused or duplicated is cleaned in the same commit.
 - The agent's own decisions stand under Veto ([Flag Every Addition Of Your Own](../behavior/flag-every-addition-of-your-own.md)).
-- The change lands as its own commit, staging read before committing ([Verify Staging Before Committing](../commits/verify-staging-before-committing.md)).
+- The change lands in commits of its own, the last its landing commit ([Verify Staging Before Committing](../commits/verify-staging-before-committing.md)).
 - Captures and archive moves are never batched for later. The version's changelog lists the ticket by itself ([Changelog Per Version](../records/changelog-per-version.md)).
 - A debt ticket is archived in its landing commit ([Work Tracking](work-tracking.md#the-archive)).
 
