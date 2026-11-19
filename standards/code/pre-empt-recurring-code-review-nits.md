@@ -16,7 +16,7 @@ A human reviewer sees only what needs judgment.
 ## Examples
 
 - Any language: an empty override reads as dead code. Delete it unless it suppresses an *observable* base side effect (a throw, a network call, a real state change). Building an object that nothing then reads is not observable. Verify the side effect is real before keeping one, and leave a why-comment if it stays.
-- GitHub Actions: keep CI action versions on their latest major (`@vN`). When one workflow is already ahead, align the rest in the same change.
+- GitHub Actions: pin every action to its full commit SHA, with the version in a comment (`actions/checkout@<sha> # v5.0.0`), and let Dependabot keep the pins current. When one workflow is already ahead, align the rest in the same change.
 - Angular: template attributes follow the order `STRUCTURAL_DIRECTIVE`, `ATTRIBUTE_BINDING`, `TEMPLATE_REFERENCE`, `INPUT_BINDING`, `TWO_WAY_BINDING`, `OUTPUT_BINDING`, enforced by `@angular-eslint/template/attributes-order` from one shared fragment spread into every template-bearing project's config.
 - CSS: `@property` with a typed (non-`*`) `syntax` requires `initial-value`, or the registration is invalid and silently dropped. Never delete it to simplify.
 - SCSS: the suffix ampersand (`.modifier &`) is correct but easily misread. Where it is a one-off in the file or codebase, prefer the explicit selector (`.modifier .block__element`).
