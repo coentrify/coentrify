@@ -7,7 +7,6 @@ The worklist from a sweep over every standard, the top-level pages, the tools an
 
 ## Rules That Contradict
 
-33. A clear and cheap maybe is landed, which can read as built without a go.
 34. Standards Maintenance covers a misfit now, and never in the middle of other work.
 35. A skill is a standard in Standards, and a starting point in Standards Over Skills.
 36. The ticket id hook in Commits reads as if it held for the simple workflow.
