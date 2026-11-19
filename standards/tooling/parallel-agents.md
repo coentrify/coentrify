@@ -24,8 +24,8 @@ Agents that work at the same time should not conflict.
 
 ## Landing
 
-- Every landing goes through the project's pick script: one commit per pick, in a command of its own, never in parallel with a pick or anything else. The script refuses while a pick is in progress, the tree has tracked changes or the branch is not main, and takes a lock.
-- The checks on main go through the project's main checks script with the checks named as npm scripts, such as the hygiene, types, unit and wiki checks and the development build. A docs landing names hygiene and the wiki at least. The script refuses mid-pick and with none named.
+- Every landing goes through the project's pick script: one commit per pick, in a command of its own, never in parallel with a pick or anything else.
+- The checks on main go through the project's main checks script with the checks named as npm scripts, such as the hygiene, types, unit and wiki checks and the development build. A docs landing names hygiene and the wiki at least.
 - A docs commit outside a landing goes through the project's docs commit script, hygiene among its checks, which commits only when every check exits 0.
 - After any `git cherry-pick --abort`, `git cherry main <branch>` runs before a landing is reported.
 - Picks from different agents compose on main in an order none of them verified: after picks that touch shared files, and always before telling the director a batch has landed, the development build runs on main and its warnings are read.
