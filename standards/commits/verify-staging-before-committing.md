@@ -14,7 +14,6 @@ No one else's work is swept into a commit, and nothing meant for it is left behi
   - Never chain the add and the commit: a `git mv` or `git rm` staged early rides into an unrelated commit through `git add ... && git commit`.
   - A hook refuses a commit that follows a `git add` in the same command.
   - Where a project can, a commit-msg hook refuses a `docs(log)` commit that holds anything but the log ([Request Log](../records/request-log.md)).
-- Stage moves, renames and deletions with `git add -A <path>`. A plain `git add` of a removed path errors and aborts the whole add.
 - When earlier `git rm` or `git mv` calls of your own left things in the index, `git reset -- <your paths>` first, then stage each commit's list.
 - While anyone else works in the tree - the director, a parallel session, a sub-agent - stage by explicit file name, never a bare `git add -A` and never a directory pathspec, which is `-A` in disguise. A "changed on disk" note about a file you are not editing is the sign.
 - Index entries you did not stage are the director's or another session's: leave them staged, and commit only your own paths with `git commit -- <paths>`.
