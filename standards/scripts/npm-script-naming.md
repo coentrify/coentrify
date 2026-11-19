@@ -22,7 +22,9 @@ Format: `<verb>:<app>:<thing>`. App always comes second, never `<verb>:<thing>:<
 
 ## Contexts (Run By Automation)
 
-Format: `<context>:<thing>`. Each automation context gets its own dedicated scripts, distinct from the human-run tasks above. The `hooks:` and `ci:` prefixes are examples of the general pattern: one prefix per context. Each context has its own env, flags and timing, and one generic `lint` script shared by local dev, CI and hooks couples them, so none can change without affecting the others.
+Format: `<context>:<thing>`. Each automation context gets its own entry scripts, distinct from the human-run tasks above. The `hooks:` and `ci:` prefixes are examples of the general pattern: one prefix per context.
+
+An entry script calls a task, such as `"hooks:pre-commit": "npm run lint"`, so a context and a human run one command that cannot drift. When a context needs a command of its own, that command is a task as well, such as `lint:ci`, and the entry script calls it.
 
 - `hooks:pre-commit`, `hooks:pre-push` - called by git hooks.
 - `ci:lint`, `ci:test` - called by CI workflow steps.
