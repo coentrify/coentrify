@@ -36,8 +36,8 @@ An issue holds no project details, since the repository is public.
 
 ## The npm Package
 
-- `npm/` holds the `coentrify` package: `npx coentrify` prints the next step and links the source at the package's version. It holds no standards.
-- The director publishes it with `npm run publish:npm`, which takes the version from the latest tag and writes it into `npm/package.json`, to commit after. `npm run publish:npm -- --dry-run` shows what would go out.
+- `npm/` holds the `coentrify` package: `npx coentrify` prints the next step and links the latest release of the source. It holds no standards, so its version counts the package alone.
+- The director publishes it with `npm run publish:npm`, at the version in `npm/package.json`, raised by hand for each publish. `npm run publish:npm -- --dry-run` shows what would go out.
 
 ## The Conduct
 

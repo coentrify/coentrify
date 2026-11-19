@@ -1,6 +1,6 @@
 {
   "name": "coentrify",
-  "version": "0.0.6",
+  "version": "0.0.1",
   "description": "Spec-driven development: standards, checks and tools for working with AI agents.",
   "license": "MIT-0",
   "type": "module",
