@@ -48,6 +48,7 @@ Everything needs the director's go before it is built: a feature, a bug, docs wo
 - The go is given at a planning, by id, by a story's id for every ticket in it, or in one word for all that is ready, and the conductor writes its log entry into each ticket's `go` field. A story with its go waits on the planning page until the conductor assigns its builder, which puts it on the plan. The director's answer to a ticket's open question is its go as well.
 - An ask is never the go: the ticket written from it goes on the planning page, and only a go and an agent put it on the plan.
 - Once a ticket has its go, it is built and lands without asking again.
+- Automatic healing needs no go: the report names its change for a veto.
 - A small issue in the wake of the current change is fixed in the same pass ([Don't Introduce Tech Debt](../behavior/dont-introduce-tech-debt.md)).
 - A small fix found in passing, outside the change's own wake, rides on the current ticket's go as a Veto line.
 - A bigger fix found in passing becomes a ticket of its own.
@@ -113,7 +114,7 @@ Sometimes the right first step is to find out or to try something. That is fine,
 
 ## Tightening
 
-This policy is a starting point. Every deviation that happens anyway is a gap in it, never a one-off: fix the work, then ask first whether it is easy enough to get wrong for a check to catch it, and file the rule change as a ticket ([Always Make No Mistakes](../behavior/always-make-no-mistakes.md)). A rule that only adds friction and catches nothing is loosened, with the director's yes. A Veto line that keeps coming back is a pattern and becomes a rule, so the Veto empties over time. The aim is to automate every step that needs no human, once it runs right by hand.
+This policy is a starting point. Every deviation that happens anyway is a gap in it, never a one-off: fix the work, then heal the harness the way `healing` says ([Always Make No Mistakes](../behavior/always-make-no-mistakes.md)). A rule that only adds friction and catches nothing is loosened, with the director's yes. A Veto line that keeps coming back is a pattern and becomes a rule, so the Veto empties over time. The aim is to automate every step that needs no human, once it runs right by hand.
 
 ## Related
 
