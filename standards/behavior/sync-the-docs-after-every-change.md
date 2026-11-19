@@ -1,6 +1,6 @@
 # Sync The Docs After Every Change
 
-When something changed or a feature landed, check the docs for related information before calling it done: statements the change made stale, and statements about future plans the change now conflicts with. The docs should be as up to date as possible at all times.
+When something changed or a feature landed, check the docs for related information before calling it done: statements the change made stale, and statements about future plans the change now conflicts with.
 
 ## Why
 

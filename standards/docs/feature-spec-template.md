@@ -70,7 +70,7 @@ Example:
 ## Coverage
 
 - One use case per scenario worth verifying, including each edge case from the feature doc.
-- Every spec ends with an `Overview` use case (`<feature>-overview` ID, no number) that strings the happy-path flows of the feature into a single showcase tour. This case is the source of truth for the overview take. Keep it concise - showcase main features, skip edge cases.
+- Every spec ends with an `Overview` use case (`<feature-id>-overview` ID, no number) that strings the happy-path flows of the feature into a single showcase tour. This case is the source of truth for the overview take. Keep it concise - showcase main features, skip edge cases.
 - Add the spec entry first, then the test that covers it.
 - When finalizing, audit coverage in both directions: every feature and edge case in the feature doc has at least one use case here, and every use case maps to a feature or edge case there. Close a gap by writing the missing entry or moving the case to the spec that owns it.
 - A use case lives in the spec of its *primary* feature. If a case is really about another feature (e.g. a search behavior that only happens to be exercised through a responsive scenario), move it to that feature's spec - don't duplicate.

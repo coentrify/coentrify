@@ -1,6 +1,6 @@
 # Escape Hatch Comments
 
-An escape hatch is a deliberate deviation from a safe default or framework norm - `ViewEncapsulation.None`, `ts-ignore`, `eslint-disable`, a forced cast, a `!` non-null assertion, a manual DOM reach. Two rules apply, in order.
+Remove an escape hatch that is not needed, and give one that stays a short comment saying why. An escape hatch is a deliberate deviation from a safe default or framework norm - `ViewEncapsulation.None`, `ts-ignore`, `eslint-disable`, a forced cast, a `!` non-null assertion, a manual DOM reach.
 
 ## Why
 

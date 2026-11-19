@@ -1,6 +1,6 @@
 # Docs State Knowledge
 
-A knowledge page (feature docs, specs, design pages, laws, architecture, overview, development) stands on its own and states what is true, the way an encyclopedia does: no attribution markers, no dates of decisions, no quoted sentences of the director's, no account of how a decision came about or what it replaced.
+A knowledge page (feature docs, specs, design pages, laws, architecture, overview) stands on its own and states what is true, the way an encyclopedia does: no attribution markers, no dates of decisions, no quoted sentences of the director's, no account of how a decision came about or what it replaced.
 
 The provenance lives in the request log, where every message is written first, and in the process records that point back to it: user tests, changelogs, activity, the plan, the refine list, and any other record the project keeps. Those may name who said what and when.
 

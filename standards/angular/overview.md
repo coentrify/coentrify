@@ -13,4 +13,4 @@ The Angular standards: rules for Angular.
 - [Static Attribute, Not Literal Binding](static-attribute-not-literal-binding.md) - constant strings are plain attributes, not bindings
 - [Track Timed Items By An Id](track-timed-items-by-an-id.md) - timed list items track by an id the item carries
 - [UI Copy In Template](ui-copy-in-template.md) - UI copy lives in the template's matching branch
-- [Use Modern Angular Template APIs](use-modern-angular-template-apis.md) - one legacy usage is the start of a sweep
+- [Use Modern Angular Template APIs](use-modern-angular-template-apis.md) - built-in control flow and the signal APIs over their legacy forms, and one legacy usage starts a sweep

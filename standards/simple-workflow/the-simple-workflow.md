@@ -23,7 +23,7 @@ Every list is a file in `docs/development/`: `inbox.md`, `todo.md`, `roadmap.md`
 - Move an item to the todo when the director decides to do it soon, or to the roadmap for later.
 - An item still to be workshopped stays in the inbox until the director decides on it.
 - Pull items from the todo into the plan.
-- Pull from the bugs, the debt and the technical roadmap into the plan as well.
+- Pull from the bugs, the debt list and the technical roadmap into the plan as well.
 - Answer "what's next?" from the lists.
 - Bugs and debt come before new features by default, and the director decides ([Dev Tiers](../behavior/dev-tiers.md)).
 - What counts as a bug or debt of now depends on where the project is in its lifecycle ([Project Lifecycle](../behavior/project-lifecycle.md)).

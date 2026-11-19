@@ -1,6 +1,6 @@
 # Prototype Mode Is Speed First
 
-When the director calls a piece of work prototyping (a throwaway tool, a one-pager to extract later), speed wins: no tests, no probes, no stories, no doc ceremony beyond the log. Build the smallest thing the director can run. The product itself keeps its full cadence.
+When the director calls a piece of work prototyping (a throwaway tool, a one-pager to extract later), speed wins: no tests, no probes, no stories, no doc ceremony beyond the [Request Log](../records/request-log.md). Build the smallest thing the director can run. The product itself keeps its full cadence.
 
 ## Why
 

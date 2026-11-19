@@ -1,6 +1,6 @@
 # Prefer Content Projection Over Props (Angular)
 
-For UI and app components in Angular, use content projection (`ng-content` slots) for content - not data props. The consumer composes children inline with labels, icons, and conditionals.
+Angular UI and app components take their content through `ng-content` slots, following the projection rule of [UI Component Design](../ui/ui-component-design.md).
 
 ## Why
 
@@ -8,7 +8,8 @@ Responsibility and authority over content stay with the consumer: content lives 
 
 ## How To Apply
 
-For collections, define a `<*-item>` child component and read it via `contentChildren()`. Conditionals live in the consumer template (`@if`), not in TS.
+- For a collection, define a `<*-item>` child component and read it via `contentChildren()`.
+- Conditionals live in the consumer template (`@if`), not in TS.
 
 ## Related
 

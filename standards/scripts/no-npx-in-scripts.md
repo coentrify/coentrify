@@ -1,6 +1,6 @@
 # No npx In Scripts
 
-In `package.json` scripts, husky hooks, and CI workflows, never prefix commands with `npx`. The binary is already a project dependency, so it should be resolved via npm's PATH (an npm script finds it automatically) or via an explicit `npm run <wrapper>` / `npm exec` call - never `npx nx ...`, `npx playwright ...`.
+In `package.json` scripts, husky hooks, and CI workflows, never prefix commands with `npx`. The binary is already a project dependency, so it should be resolved via npm's PATH (an npm script finds it automatically) or via an explicit `npm run <wrapper>` call - never `npx nx ...`, `npx playwright ...`.
 
 ## Why
 

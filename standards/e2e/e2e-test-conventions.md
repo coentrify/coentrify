@@ -30,14 +30,14 @@ The test title is the use-case name: no "happy path", no flow prefix, no ID pref
 
 ## Tags
 
-- `@<use-case-id>` - the stable ID from the feature's spec.md (`@create-user-1`), always present on per-flow tests.
+- `@<use-case-id>` - the stable ID from the feature's spec.md (`@create-user-1`), always present on per-flow tests ([Feature Spec Template](../docs/feature-spec-template.md)).
 - `@<feature-id>-overview` - the per-feature overview, no use-case number.
 - `@<application-id>-overview` - the application demo, with an optional variant suffix: `@<application-id>-overview-<variant>`.
 - Both overview tags also prefix the narrated demo reel's output filename. No separate ticket tag is needed.
 - `@demo` - on the per-feature overview and the application demo.
 - `@error` - only on unhappy paths. Reports color the chip red. Happy is the absence of `@error`, so there is no `@happy`.
 - Modular features: once an application needs module folders (`features/users/`, `features/authentication/`), the feature takes its module as a prefix: `@users-create-user-1`. Flat until that earns its keep.
-- Pattern tags - only for a genuine cross-feature, user-perceived category that filtering benefits from:
+- Pattern tags - only for a cross-feature, user-perceived category that filtering benefits from:
   - `@list` - collection or list view.
   - `@empty` - empty state.
   - `@detail` - single-entity detail view.
@@ -49,10 +49,6 @@ The test title is the use-case name: no "happy path", no flow prefix, no ID pref
 
 - Spec-side helpers (URL builder, named timeouts, locator factories) live next to the specs they support.
 - Tests that assert on seeded data import it from the application's testing lib ([Realistic Test Data Variance](../tests/realistic-test-data-variance.md)). Never hardcode the seeded values.
-
-## Use-Case Linkage
-
-Every test maps to a use case in the feature's spec.md by its `@<use-case-id>` tag. The use case lands in the spec first, the test second ([Feature Spec Template](../docs/feature-spec-template.md)).
 
 ## Filtering
 

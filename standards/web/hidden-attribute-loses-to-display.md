@@ -1,6 +1,6 @@
 # Hidden Attribute Loses To Display
 
-An element toggled with the hidden attribute that carries its own display rule renders anyway. Verify the closed state of every such element by what is painted.
+An element toggled with the hidden attribute carries no display rule of its own, or its display rule yields to `[hidden]`. Its closed state is verified by what is painted.
 
 ## Why
 
@@ -9,7 +9,8 @@ A closed state is judged by what the user sees.
 ## How To Apply
 
 - Verify the closed state with the computed display, a negated visibility assertion or a screenshot on load. A boolean read back from the element proves only the flag.
-- On a first publish of any new overlay, take one screenshot of the page with it closed before calling it done.
+- The first time a new overlay ships, take one screenshot of the page with it closed before calling it done.
+- The browser's `[hidden]` rule loses to any display rule of the element's own, so the element renders anyway.
 
 ## Examples
 

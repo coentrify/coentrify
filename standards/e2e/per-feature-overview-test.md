@@ -9,12 +9,12 @@ An overview video per feature isolates that feature: for onboarding a user or a 
 ## How To Apply
 
 - One overview test per feature spec, at the bottom of the file. Living in the same spec keeps it in step with the code on every run.
-- Per-flow tests are short and atomic, which is good for diagnosis, and their recordings come out fragmented.
 - Title `<Feature> - Overview`, tagged `@demo`, `@<feature-id>-overview` and the pattern tags the per-flow tests use ([E2E Test Conventions](e2e-test-conventions.md)). The overview tag carries no use-case number, since it identifies the take.
 - Reuse the locators and boot helper of the per-flow tests. No new helpers, no new scenarios.
 - An application-wide take (`<Application> Demo`) stays a separate, broader artifact.
 - The overview narrates the happy path and skips the bracketing.
-- The strict per-flow tests carry the contrast.
+- The strict per-flow tests carry the contrast assertions.
+- Per-flow tests are short and atomic, which is good for diagnosis, and their recordings come out fragmented.
 
 ## Keep It In Step With The Use Cases
 

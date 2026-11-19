@@ -1,6 +1,6 @@
 # One Projected Node Per Control-Flow Block
 
-Two nodes with `slot="x"` under one `@if` never reach the named slot of the parent component. A visibility check passes on them all the same, so the build log and a capture are the checks.
+A control-flow block around projected content holds one projected node. Two nodes with `slot="x"` under one `@if` never reach the named slot of the parent component.
 
 ## Why
 

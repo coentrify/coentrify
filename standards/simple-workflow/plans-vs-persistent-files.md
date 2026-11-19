@@ -1,6 +1,6 @@
 # Plans Vs Persistent Files
 
-Two kinds of file, distinguished by lifecycle.
+A plan shrinks to empty, a persistent file is never completed, and the two never mix.
 
 ## Why
 

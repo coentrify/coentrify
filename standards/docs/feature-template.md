@@ -47,7 +47,7 @@ Don't quote button labels, error messages, field labels, or any literal UI strin
 
 ## Don't Enumerate Values
 
-Roles, statuses, types - give one example, not the full list. Lists rot. The source of truth is the code. Unless a status has a specific edge case.
+Give one example of roles, statuses or types. List a value only when it carries an edge case. A full list rots.
 
 ## Related
 

@@ -15,13 +15,14 @@ The short-horizon working doc: what's in flight right now, what's queued for imm
 
 ## App Plan (`docs/development/<app>/plan.md`)
 
-- Same shape, scoped to the app: title + active-focus one-liner, then a `## Summary` contents list.
-- The flat dash list of immediate items lives here, led by the summary (see [Summary section](#summary-section)). Promote an item to a `##` subsection only when it needs explanation ([No Faux Headers In Lists](../docs/no-faux-headers-in-lists.md)). The subsection is titled the same as its summary entry.
+- Same shape, scoped to the app: title + active-focus one-liner, then the overview list under `## Overview`.
+- The immediate items live here, in the overview list ([Overview List](#overview-list)). Promote an item to a `##` subsection only when it needs explanation ([No Faux Headers In Lists](../docs/no-faux-headers-in-lists.md)). The subsection is titled the same as its overview entry.
 
-## Summary Section
+## Overview List
 
-- Open the plan with a `## Summary` flat list of every item it tracks - a table-of-contents that makes the whole plan scannable before any detail. This mirrors the overview list that bugs/tech-debt/roadmap already lead with. The norm across docs is a TOC/summary at the top.
-- Label the one item in flight `(active)`, at most one active at a time. Done items are stripped, never labeled or kept as a trophy.
+- Open the plan with an `## Overview` flat list of every item it tracks, a table of contents that makes the whole plan scannable before any detail.
+- Label the one item in flight `(active)`, at most one active at a time.
+- A done item leaves the plan ([Remove Completed Items From Docs](remove-completed-items-from-docs.md)).
 
 ## Describe A Shift
 
@@ -40,11 +41,6 @@ The short-horizon working doc: what's in flight right now, what's queued for imm
 - Status snapshots ("E2E harness: complete..."). They go stale fast and belong in commit history or release notes.
 - Speculation about future work, restart notes, decision logs.
 - Detailed immediate items in the workspace plan - those belong in the app plan.
-
-## Strip Aggressively
-
-- As an item ships, remove it from the plan. Git history preserves what was there.
-- Don't leave done items as a trophy wall.
 
 ## Related
 

@@ -10,10 +10,10 @@ Catalogs user-facing bugs in the current build. A reader scans bugs.md to know e
 
 An agent can reproduce the actual bug and fix it.
 
-## Bug Vs Tech-Debt
+## Bug Vs Debt
 
 - User-facing bug -> bugs.md.
-- Test-tooling limitation, dev-mock gap, internal-only issue -> [tech-debt.md].
+- Test-tooling limitation, dev-mock gap, internal-only issue -> the debt list ([Technical Debt Template](technical-debt-template.md)).
 - If real users never hit it, it's not a bug.
 
 ## Sections

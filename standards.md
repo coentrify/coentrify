@@ -18,7 +18,7 @@ Standards come in modules. A module holds the standards on one subject, such as 
 
 A module joins once a project has proven its standards: a framework, an engine, a kind of product.
 
-A standard for one kind of project says so in its title. Where a title cannot, a Relevant For section lists it, and the overview line repeats the list.
+A standard for one kind of project says so in its title. Where a title cannot, a `Relevant for:` line under the rule names it, and the overview line repeats it.
 
 ## Skills
 
@@ -35,7 +35,7 @@ Every standard follows one template.
 - The rule, in one or two sentences
 - What the rule is relevant for, where the title does not say
 - Why: why the rule is needed, in a line or two
-- How to apply the rule
+- How to apply the rule, under How To Apply, or under sections named after its parts where the rules fall into parts
 - An example, where a story helps
 - Related standards, as links
 

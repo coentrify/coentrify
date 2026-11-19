@@ -30,7 +30,7 @@ Two tests for opposite sides of one binary toggle (`hidden when disabled` and `v
 
 - Two single-axis tests both pass on an implementation that always shows the positive state. One bracketed test catches it.
 - It halves boot and teardown cost and reads as the behavior the user sees: flip the flag, see the change.
-- Contrasts that are functionally distinct scenarios with different inputs keep separate tests: lookup hit and miss, mutation success, server error and validation error, normal flow and auth error.
+- Opposite cases that are functionally distinct scenarios with different inputs keep separate tests: lookup hit and miss, mutation success, server error and validation error, normal flow and auth error.
 
 ## Related
 

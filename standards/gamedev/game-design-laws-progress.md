@@ -33,7 +33,7 @@ The game that goes out is polished and fully done: once it is live, every versio
 
 ## Earned Progress
 
-The player feels the progress made, so the gap between where the player starts and where the player ends is as big as it can be: the player starts with as little as possible and earns the rest. Nothing that can be earned is handed over. What comes for free is worth nothing. A free first step that starts a climb is no gift but the climb's first rung.
+The player feels the progress made, so the gap between where the player starts and ends is as big as it can be: the player starts with as little as possible and earns the rest. Nothing that can be earned is handed over. What comes for free is worth nothing. A free first step that starts a climb is no gift but the climb's first rung.
 
 - Quality of life is earned too. A task is done by hand first and automated later, so losing friction is progress.
 - Upgrades come in small, regular steps that are felt in play.
@@ -43,7 +43,7 @@ The player feels the progress made, so the gap between where the player starts a
 
 Every mechanic has an impact and adds to the experience. None is added for the sake of having one more. A mechanic gone irrelevant makes the player stop caring, and a game with boring elements is less interesting.
 
-The law holds for everything added, content and systems included. Everything added adds value, or it lowers the quality of the game by design.
+Everything added, content and systems included, adds value, or it lowers the quality of the game by design.
 
 - A thing that fits no purpose is considered for cutting.
 - That look ends one of two ways: a purpose nobody had named is found, or the thing was distracting from the main game.
@@ -55,11 +55,11 @@ What the player does and decides has a lasting effect on the game's progress.
 
 ## Emergent Gameplay
 
-Systems whose mere existence opens possibilities for the player, playstyles among them, rather than features that each do one thing.
+Systems whose mere existence opens possibilities for the player, play styles among them, rather than features that each do one thing.
 
 ## Know What Is Coming
 
-The player always knows what is coming in the short future: the next upgrade, the next unlock, the distance to the goal, and when it is the end. There is always something coming, so the next upgrade or level is always looming. The progress stays visible, and the world keeps its secrets ([Fair Surprise](game-design-laws-world.md#fair-surprise)).
+The player always knows what is coming in the short future: the next upgrade, the next unlock, the distance to the goal, and when it is the end. There is always something coming, so the next upgrade or level is always looming. The world still keeps its secrets ([Fair Surprise](game-design-laws-world.md#fair-surprise)).
 
 ## Related
 

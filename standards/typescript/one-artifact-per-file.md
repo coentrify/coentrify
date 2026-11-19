@@ -1,6 +1,6 @@
 # One Artifact Per File
 
-Each exported artifact - a type, a `const … as const`, a class, an interface, an enum-pattern - should live in its own file named after it, under the matching folder (`*.type.ts` in `types/`, `*.const.ts` in `constants/`). Never bundle several artifacts into one file. A folder's file list then is the list of artifacts: a navigable index layer.
+Each exported artifact - a type, a class, an interface, each half of the `as const` and `Enum<T>` pattern - should live in its own file named after it, under the matching folder (`*.type.ts` in `types/`, `*.const.ts` in `constants/`). Never bundle several artifacts into one file. A folder's file list then is the list of artifacts: a navigable index layer.
 
 ## Why
 

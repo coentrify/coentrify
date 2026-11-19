@@ -8,7 +8,7 @@ A reader knows what is inside from the name alone.
 
 ## How To Apply
 
-- The rule holds for every name: a title, a summary, a file, a piece of work, an identifier.
+- Apply the rule to every name: a title, a summary, a file, a piece of work, an identifier.
 
 ## Related
 

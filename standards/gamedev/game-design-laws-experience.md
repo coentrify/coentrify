@@ -16,7 +16,7 @@ A player who looks around, opens something or goes somewhere unasked always find
 
 ## Full Control
 
-The player feels in full control. Nothing is decided and nothing happens without the player taking action. A surprise of the world answers something the player did, so the law holds for it ([Fair Surprise](game-design-laws-world.md#fair-surprise)).
+The player feels in full control. Nothing is decided and nothing happens without the player taking action. A surprise of the world answers the player ([Fair Surprise](game-design-laws-world.md#fair-surprise)).
 
 ## Respect
 

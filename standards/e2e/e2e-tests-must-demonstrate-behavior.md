@@ -1,6 +1,6 @@
 # E2E Tests Must Demonstrate Behavior
 
-A passing e2e test is not enough. After writing one, replay the recording and confirm it shows the user-visible behavior the test claims to exercise. A video where nothing changes on screen usually means the test asserts a network contract instead of the behavior and needs reframing.
+After writing an e2e test, replay the recording and confirm it shows the user-visible behavior the test claims to exercise. A video where nothing changes on screen usually means the test asserts a network contract instead of the behavior and needs reframing.
 
 ## Why
 
@@ -9,7 +9,7 @@ A green test shows the feature working, to anyone who watches the recording.
 ## How To Apply
 
 - Pick scenario data that makes the change visible. A searched term is in the seed (a row narrows or stays) or not in it (the empty state appears). Both shapes are usually worth their own test.
-- Cover the contrast cases. Lookups: hit and no hit. Mutations: success and the matching error variant (4xx, 5xx). Toggles: enabled and disabled, visible in the rendered UI.
+- Cover the opposite cases. Lookups: hit and no hit. Mutations: success and the matching error variant (4xx, 5xx). Toggles: enabled and disabled, visible in the rendered UI, in one bracketed test ([Bracket State Changes With Contrast Assertions](../tests/bracket-state-changes-with-contrast-assertions.md)).
 - Wait for tick completions after an action: rely on the test runner's auto-wait (`expect(...).toBeVisible()`, `toHaveCount()`, `waitForRequest()`) over instant assertions.
 - When the trigger needs an explicit confirm (search button, save button), drive that gesture. Rely on auto-submit only when the component documents it.
 - Watch the video. If it doesn't show the change, the test is wrong however green it is. Reshape the assertions toward the visible behavior.

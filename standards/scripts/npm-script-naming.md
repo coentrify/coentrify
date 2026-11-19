@@ -1,6 +1,6 @@
 # npm Script Naming
 
-Two patterns, depending on who runs the script.
+A script is named by who runs it: a task as `<verb>:<app>:<thing>`, and an automation context's script as `<context>:<thing>`.
 
 ## Why
 
@@ -13,7 +13,7 @@ Format: `<verb>:<app>:<thing>`. App always comes second, never `<verb>:<thing>:<
 ### Verbs
 
 - `start:` - long-running processes (dev server, report viewer).
-- `test:`, `lint:`, `build:`, `e2e:` - one-shot runs.
+- `test:`, `lint:`, `build:`, `e2e:`, `install:` - one-shot runs.
 
 ### Examples
 
@@ -29,7 +29,7 @@ Format: `<context>:<thing>`. Each automation context gets its own dedicated scri
 
 ## Wrappers
 
-For tools that ship as installable binaries (Playwright, MSW, etc.), add a thin wrapper script in `package.json`: `"playwright:install": "playwright install --with-deps chromium"`. Call it via `npm run playwright:install` rather than invoking the binary directly.
+For tools that ship as installable binaries (Playwright, MSW, etc.), add a thin wrapper script in `package.json`: `"install:playwright": "playwright install --with-deps chromium"`. Call it via `npm run install:playwright` rather than invoking the binary directly.
 
 Don't expose internal env vars or build flags (`DEMO=1`, `CI=true`) in script names. Keep them inside the script.
 

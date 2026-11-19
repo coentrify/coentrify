@@ -8,13 +8,6 @@ A game meets its players at its best, the first time they hear of it.
 
 ## The Quiet Launch
 
-- A good game sells itself.
-- A wishlist spends the first moment a player hears of the game, and the second look has to convince more.
-- A game wishlisted on its potential is checked at the release, and removed when the potential is not there. It takes a big game to come back from that.
-- Issues show with a small crowd first, and are fixed before many players meet them.
-- No promise is made that may see a bad follow-through.
-- It carries [Respect](game-design-laws-experience.md#respect) to the time before the purchase.
-- It is for a small studio. A big studio launches another way.
 - The full game is released on day one. No wishlist campaign comes before it, and no demo on the store page.
 - The store page is set up before the release and stays unpublished, for internal review and testing.
 - The one thing that travels is a video of the game being played: someone enjoying the main loop, or an interesting moment.
@@ -35,8 +28,14 @@ A game meets its players at its best, the first time they hear of it.
 
 ## What To Weigh
 
+- A good game sells itself.
 - The quiet launch starts slower. A store shows a new game to more people when its wishlists and early sales are high.
 - It leans on the game clipping well ([Fun First](game-design-laws-experience.md#fun-first)).
+- It is for a small studio. A big studio launches another way.
+- It carries [Respect](game-design-laws-experience.md#respect) to the time before the purchase.
+- Issues show with a small crowd first, and are fixed before many players meet them.
+- A wishlist spends the first moment a player hears of the game, and the second look has to convince more.
+- A game wishlisted on its potential is checked at the release, and removed when the potential is not there. It takes a big game to come back from that.
 - Every other choice spends attention before the game is done: the director's and the players'.
 - A promise made early has to be kept. A date that slips, or a game that falls short of its trailer, costs trust.
 

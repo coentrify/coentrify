@@ -8,11 +8,16 @@ Tests stay as close to real usage as possible, down to the timing of a click.
 
 ## How To Apply
 
-- After real input Chromium gives the next frame priority over the timers. Angular's coalesced change detection runs in a race between a timeout and a frame. With a real click the frame wins, so a component's own frame loop runs before the new input values arrive. A dispatched event never triggers that priority, so the timer wins and the bug never shows: an entry animation can play in every reel driven by dispatched clicks and never in the app.
 - When a component's frame loop reads an input that a click sets, never reset or derive state from the input not being set yet inside the loop. Take the input's arrival as the start instead.
 - The regression case uses the real mouse. If the target moves, read its bounding box right before the click.
 - Assert the user-visible outcome, a canvas pixel at the center or a visible element, never the internal timestamp.
 - Reels and helpers that dispatch events are fine for everything else. The helper that deviates says why.
+- A dispatched event never gives the frame the head start a real click does, so the bug never shows.
+
+## Examples
+
+- After real input, Chromium gives the next frame priority over the timers, and Angular's coalesced change detection runs in a race between a timeout and a frame. With a real click the frame wins, so a component's own frame loop runs before the new input values arrive. A dispatched event never triggers that priority, so the timer wins.
+- An entry animation can play in every reel driven by dispatched clicks and never in the app.
 
 ## Related
 

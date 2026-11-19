@@ -14,7 +14,7 @@ An agent can pick up an entry and start the work from it.
 
 - User-facing symptom -> [Bugs Template](bugs-template.md).
 - Third-party library limitation (even with a workaround) -> [Library Feedback](../docs/library-feedback.md).
-- Anything else internal to our code or infrastructure -> tech-debt.md.
+- Anything else internal to our code or infrastructure -> the debt list.
 
 ## Sections
 

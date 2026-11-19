@@ -20,15 +20,15 @@ Functional only - what the product is, who it serves, what shared concerns exist
 Technical companion to overview.md, ordered by relevance / logical flow (not low-level-first). Leads with the core mental model, then catalogs, then conventions:
 
 - Applications - how apps are bootstrapped and where shared code lives, for example thin shells under `apps/<app>/` and libs under `libs/` in an Nx workspace.
-- Layers - the five-layer app-shield briefly reiterated (app/ui/data/core/config + one-way dependency direction), mapping the `@my-application/*` libs onto their layer.
-- Libraries - external deps grouped by origin: Internal (your own or the organization's packages), General (third-party e.g. `angular-auth-oidc-client`, `@jsverse/transloco`), Meta (tooling e.g. nx, playwright, jest, vitepress).
+- Layers - the five-layer [App-Shield](../architecture/app-shield.md) briefly reiterated (app/ui/data/core/config + one-way dependency direction), mapping the `@my-application/*` libs onto their layer.
+- Libraries - external deps grouped by origin: Internal (your own or the organization's packages), General (third-party, for example `angular-auth-oidc-client` and `@jsverse/transloco`), Meta (tooling, for example nx, playwright, jest and vitepress).
 - Conventions (path aliases, prefixes, mock toggles).
 
 Cross-cutting concerns that outgrow a section graduate to their own flat file under `docs/workspace/` (authentication.md, design-system.md, component-library.md, testing.md - collected in one workspace folder, not per-concern folders). architecture.md links them and they surface in the wiki sidebar automatically. Don't re-merge them back into architecture.md. Skip a "documentation layout" map - the auto-generated wiki sidebar covers discovery.
 
 A technical decision in another workspace doc moves here or into the matching concern doc, and its details stay in the code, so overview.md stays functional ([Docs Describe Behavior, Not Wiring](docs-describe-behavior-not-wiring.md)).
 
-## development/
+## Work
 
 - All work tracking lives in `docs/development/`.
 - The roadmap's technical epics feed off the workspace suite: each missing suite item becomes an epic once it has a target.

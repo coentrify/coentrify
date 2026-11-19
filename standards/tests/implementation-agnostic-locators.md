@@ -8,9 +8,9 @@ A test fails only when what the user perceives changes.
 
 ## How To Apply
 
-- Role and label locators make the app expose proper accessibility, which it needs anyway.
 - An element that lacks a role (a custom dropdown trigger that isn't a button yet) gets its implementation selector wrapped in exactly one helper per user gesture (`openRowActionMenu`, `openRoleFilter`). Specs only call the helper. When the UI is upgraded, only the helper changes.
 - Don't match on translated strings inside boot or async wait code: translations load asynchronously and create races. Wait for a stable non-translated marker first. Translated text is safe for assertions after that.
+- Role and label locators make the app expose proper accessibility, which it needs anyway.
 
 ## Related
 

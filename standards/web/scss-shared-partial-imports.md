@@ -8,8 +8,8 @@ A shared partial is imported the same way everywhere, short and stable.
 
 ## How To Apply
 
-- The default namespace already says which module a member came from, so an alias only adds noise and lets two files disagree on the short name.
 - Put a new shared partial in the shared styles folder and keep that folder on the build's style-preprocessor include paths.
+- The default namespace already says which module a member came from, so an alias only adds noise and lets two files disagree on the short name.
 
 ## Related
 

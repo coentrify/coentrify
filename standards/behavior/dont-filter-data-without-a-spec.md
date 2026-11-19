@@ -10,7 +10,6 @@ Unexpected data surfaces, so someone sees it and decides.
 
 - Before adding any filter - a `.filter()`, a narrowing request param, a guard that skips records - confirm the exclusion is specified. If it isn't, surface the data and get it specced first.
 - When the exclusion is wanted, document it (feature doc or spec) and add a test that asserts it.
-- Server-side filters count: a request param that drops rows needs a documented reason and a test as much as a client-side filter does.
 - Default to surfacing unexpected data as a distinct state or error over quietly removing it.
 
 ## Related

@@ -9,8 +9,7 @@ A test against a mock says nothing about the system behind it.
 ## How To Apply
 
 - The system is tested against its own spec, apart from the tests that run on the mock.
-- The spec follows the [Feature Spec Template](../docs/feature-spec-template.md): use cases with stable ids, which a person can run by hand.
-- Where an automated test cannot run, the use cases are run by hand.
+- The spec follows the [Feature Spec Template](../docs/feature-spec-template.md): use cases with stable ids.
 - Every manual run gets a dated page in `docs/records/manual-tests/`, named `<date>-<system>.md`.
 - The page lists the ids that were run, each with its outcome.
 

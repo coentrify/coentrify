@@ -1,6 +1,6 @@
 # Note Issues
 
-When you encounter a problem during other work (bug, code smell, lint suppression, deprecated pattern, missing test, broken doc), write it down in the most relevant doc - never silently absorb it - without letting it block the work in front of you.
+When you encounter a problem during other work (bug, code smell, lint suppression, deprecated pattern, missing test, broken doc), write it down where the project's workflow says - never silently absorb it - without letting it block the work in front of you.
 
 ## Why
 

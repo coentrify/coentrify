@@ -8,12 +8,12 @@ A name carries the meaning a literal cannot.
 
 ## How To Apply
 
-- A constant is reused, edited in one place, and found by the IDE at every call site.
 - A test names the same constant, so an e2e spec stays in sync with the scenario keys it targets.
+- A constant is reused, edited in one place, and found by the IDE at every call site.
 
 ## TypeScript Pattern
 
-For sets of related string values, use the `as const` object + `Enum<T>` type pattern. Do **not** use the TypeScript `enum` keyword for new code - it generates runtime output, blocks pure type imports, and has type/value collision that makes it painful to import. The pattern keeps what an `enum` offers: autocomplete, and an exhaustive switch through the union type.
+For sets of related string values, use the `as const` and `Enum<T>` pattern. Do **not** use the TypeScript `enum` keyword for new code - it generates runtime output, blocks pure type imports, and has type/value collision that makes it painful to import. The pattern keeps what an `enum` offers: autocomplete, and an exhaustive switch through the union type.
 
 ```ts
 // constants/<name>.const.ts
@@ -45,7 +45,7 @@ HTML template binding into a typed component input, where the literal is validat
 <some-button variant="cta">           <!-- fine, `variant` is typed -->
 ```
 
-This is fine *because* `<some-button>` defines its accepted variants as a const + `Enum<T>` type and binds `variant` to that type. The component itself is **not** exempt - it must own its variant const, never an inline string union or hardcoded list.
+This is fine *because* `<some-button>` defines its accepted variants with the `as const` and `Enum<T>` pattern and binds `variant` to that type. The component itself is **not** exempt - it must own its variant const, never an inline string union or hardcoded list.
 
 ## Related
 

@@ -22,11 +22,11 @@ A changelog says what a version holds: for testing it, for sharing it and for mi
 
 ## Without Tickets
 
-A project without tickets keeps the list by hand.
+A project without tickets keeps the list through its append script.
 
 - The page holds one `## Changed` list.
 - Every landing appends one line at the bottom, ending in its time: ``- <what changed> `HH:MM` ``.
-- The line goes in through the project's append script, so the list is never written free hand.
+- No line is written free hand.
 - The script refuses a second bullet, a semicolon that chains two items, and a line without its time.
 
 ## Related

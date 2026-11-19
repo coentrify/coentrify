@@ -15,7 +15,7 @@ A hierarchy gives every page the right focus level, for efficient and effective 
 - The look of the thing goes under an `## <Thing> Aesthetics` heading, in prose.
 - A section with subsections opens with a short list of them as in-page links before its own text.
 - A page holds only what relates to its own thing and its state. A fact that is always true, or that belongs to another thing, lives on that thing's page.
-- An overview summarizes functionally at its own focus level: what a thing means to the user there, never details or technical description. Its stages nest by their grouping, never one flat list across groups.
+- An overview nests its stages by their grouping, never one flat list across groups.
 - A summary or a description of a linked page stays at the focus level of the page it stands on, without details or specs.
 - A line in a list relates its item to its siblings and its parent only, so it shows how the items differ in function and where they relate.
 - The focus level of an overview is how it all ties together.
@@ -24,7 +24,7 @@ A hierarchy gives every page the right focus level, for efficient and effective 
 
 - A thing whose items have pages of their own is a folder: its `overview.md` is the thing's own page and every item's page sits beside it, never a page standing outside the folder of its name. A simple thing stays a single file.
 - The same holds one level up: a group's index page is its folder's `overview.md`.
-- The wiki is layered the same way, never a large flat list of pages in the sidebar or on an index.
+- The wiki's sidebar follows the folders ([VitePress Wiki](../tooling/vitepress-wiki.md)).
 
 ## Writing
 
@@ -43,6 +43,7 @@ A hierarchy gives every page the right focus level, for efficient and effective 
 ## Related
 
 - [Documentation Philosophy](documentation-philosophy.md)
+- [Docs Describe Behavior, Not Wiring](docs-describe-behavior-not-wiring.md)
 - [Feature Template](feature-template.md)
 - [Docs State Knowledge](docs-state-knowledge.md)
 - [VitePress Wiki](../tooling/vitepress-wiki.md)
