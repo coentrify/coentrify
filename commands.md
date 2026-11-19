@@ -35,6 +35,7 @@ Any request to bring the project up to date. The update script from the [tools](
 - Run the update script from the source for the plan, `<source>/tools/scripts/coentrify-update.py <source>`, and read the [changelog](changelog/overview.md) from the project's version on.
 - Read `standards/decisions.md` for the reasoning behind the earlier choices.
 - Show the director a changed rule in a tracked standard before it is replaced.
+- A standard whose update the director declines is set to `customized` first, with the reason in the decisions.
 - Run it again with `--apply`, which replaces the tracked standards and writes the new version.
 - Run the unlink script again, since a replaced standard brings its links back.
 - Apply each setup change the changelog names since the project's version, the way the onboarding now reads.
