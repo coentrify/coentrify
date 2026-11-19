@@ -4,7 +4,7 @@ Workspace-level `docs/roadmap.md` uses a fixed shape.
 
 ## Purpose
 
-Answers "what's next?" at a glance. Active surfaces the current focus; Priorities show what comes after; Blocked vs Waiting For Response splits "we'll unblock ourselves" from "we need someone else"; Nice To Have parks future ideas without polluting commitment.
+Answers "what's next?" at a glance. Active surfaces the current focus. Priorities show what comes after. Blocked vs Waiting For Response splits "we'll unblock ourselves" from "we need someone else". Nice To Have parks future ideas without polluting commitment.
 
 ## Sections
 
@@ -17,7 +17,7 @@ Answers "what's next?" at a glance. Active surfaces the current focus; Prioritie
 
 ## Item Shape
 
-- Every item name makes three things clear at a glance: the type of work, the topic, and the direction of the issue or outcome. That is the level of awareness a top-level list needs; each type of work reads slightly differently:
+- Every item name makes three things clear at a glance: the type of work, the topic, and the direction of the issue or outcome. That is the level of awareness a top-level list needs. Each type of work reads slightly differently:
   - A feature epic is a goal from the user's perspective: `Create an account`, `Place your first order`. It says it is a feature, names the topic and hints at the outcome (you can create an account). A feature is the state left after its epics have run their course, so an item is an epic, never a bare feature name.
   - An addition leads with its verb: `Add Contact Search`.
   - A fix leads with `Fix`: `Fix Auth Session Redirect` says it is a bug, names the topic and hints at what goes wrong.
@@ -32,14 +32,14 @@ Answers "what's next?" at a glance. Active surfaces the current focus; Prioritie
 - Specific bugs - they live in [Bugs Template](bugs-template.md).
 - Tech-debt entries - they live in `tech-debt.md`.
 - "Resolve bugs" or "Fix tech debt" as roadmap items - those are continuous activities, not roadmap goals.
-- Generic "Write unit tests" or "Add tests" - if testing is a priority, name it as an initiative (e.g. `Automated Testing`); specific test backlogs live in the affected feature's spec.
+- Generic "Write unit tests" or "Add tests" - if testing is a priority, name it as an initiative (e.g. `Automated Testing`). Specific test backlogs live in the affected feature's spec.
+
+## The Todo Beside It
+
+Beside the roadmap a `docs/todo.md` lists the biggish features and tasks decided to build but not in the plan yet, still to be workshopped. Nice To Have keeps what can wait until after the release (1.1 features). Undecided ideas stay on the concepts page. Before asking the director whether an unbuilt item is still wanted, check whether it belongs on the todo, Nice To Have or concepts.
 
 ## Related
 
 - [Workspace Template](../docs/workspace-template.md)
 - [Documentation Philosophy](../docs/documentation-philosophy.md)
 - [Bugs Template](bugs-template.md)
-
-## The Todo Beside It
-
-Beside the roadmap a `docs/todo.md` lists the biggish features and tasks decided to build but not in the plan yet, still to be workshopped; Nice To Have keeps what can wait until after the release (1.1 features); undecided ideas stay on the concepts page. Before asking the director whether an unbuilt item is still wanted, check whether it belongs on the todo, Nice To Have or concepts.

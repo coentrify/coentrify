@@ -10,3 +10,7 @@ An agent works from the standards themselves, at every point in a session.
 
 - Read again any other standard the work at hand needs.
 - Where the agent supports hooks, let a hook reload the Read First standards, so no step depends on remembering.
+
+## Related
+
+- [Always Make No Mistakes](always-make-no-mistakes.md)

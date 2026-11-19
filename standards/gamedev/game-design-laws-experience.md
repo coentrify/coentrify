@@ -8,7 +8,7 @@ The player never has to wait, unless it is technically impossible to continue ri
 
 ## Always Something To Do
 
-The player always has something to do. Short term, the pull to expand and explore. Long term, a dot on the horizon; when closing in on it, the outline of the next dot is already visible. The ultimate goal is not revealed too soon, but is visible from early mid-game. Nothing new to pursue for a moment is not nothing to do: there is the state to check and the next choice to think about, such as the balance when there is nothing to buy yet. Leave space for thinking, just not too much when the player already knows what to do. The better the player plays, the less time there is to think.
+The player always has something to do. Short term, the pull to expand and explore. Long term, a dot on the horizon. When closing in on it, the outline of the next dot is already visible. The ultimate goal is not revealed too soon, but is visible from early mid-game. Nothing new to pursue for a moment is not nothing to do: there is the state to check and the next choice to think about, such as the balance when there is nothing to buy yet. Leave space for thinking, just not too much when the player already knows what to do. The better the player plays, the less time there is to think.
 
 ## Exploration Is Rewarded
 
@@ -28,7 +28,7 @@ A returning player speedrunning the game has just as good an experience as a pla
 
 ## Once Per Save
 
-A story cutscene plays once per save, the first time its moment comes; every later run of that save goes past it without stopping. A replayed run or a prestige never replays it, and a new save plays it again. A progression minigame plays once per save too: a later run passes a won minigame at once, its outcome given.
+A story cutscene plays once per save, the first time its moment comes. Every later run of that save goes past it without stopping. A replayed run or a prestige never replays it, and a new save plays it again. A progression minigame plays once per save too: a later run passes a won minigame at once, its outcome given.
 
 ## AFK Safe
 

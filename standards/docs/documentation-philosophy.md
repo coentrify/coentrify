@@ -12,7 +12,7 @@ Docs describe what the product does and who uses it, never how it is wired. Impl
 
 ## Brevity over Completeness
 
-Short imperative noun phrases ("Invite User", "Deactivate User") beat full sentences, and small lists of short items beat connecting sentences. The overview is a scannable product summary; depth lives in the feature pages and their parts' pages, shaped and worded per [Docs Are Hierarchical, Explicit And Short](docs-are-hierarchical-explicit-and-short.md), which also owns naming things outright.
+Short imperative noun phrases ("Invite User", "Deactivate User") beat full sentences, and small lists of short items beat connecting sentences. The overview is a scannable product summary. Depth lives in the feature pages and their parts' pages, shaped and worded per [Docs Are Hierarchical, Explicit And Short](docs-are-hierarchical-explicit-and-short.md), which also owns naming things outright.
 
 ## One Purpose per File
 
@@ -24,7 +24,7 @@ Don't open a doc with a paragraph explaining what the doc is for or how to read 
 
 ## Intent, Not Implementation
 
-Even when the code reuses a single component for multiple flows, doc readers care about the user-facing concept. Split "Create User dialog" and "Edit User dialog" into two items; don't collapse them because the code does.
+Even when the code reuses a single component for multiple flows, doc readers care about the user-facing concept. Split "Create User dialog" and "Edit User dialog" into two items. Don't collapse them because the code does.
 
 ## Plain Punctuation
 
@@ -40,7 +40,7 @@ When a structure is agreed for one app's doc, the same structure applies to ever
 
 ## Simple Markdown
 
-Standard syntax. Prefer flat dash lists; avoid numbered lists. Hierarchy comes from headings and from a page per part: a point with parts gets a subsection of its own. Nested bullets are allowed but strongly discouraged. E.g.:
+Standard syntax. Prefer flat dash lists. Avoid numbered lists. Hierarchy comes from headings and from a page per part: a point with parts gets a subsection of its own. Nested bullets are allowed but strongly discouraged. E.g.:
 
 ```
 ## List
@@ -55,7 +55,7 @@ A product doc states what the product is now, one fact per bullet, grouped under
 
 ## Reproducible From The Docs
 
-The rule of thumb for a project's docs as a whole: another agent, handed the docs without the codebase, rebuilds the product in its essence, small changes and interpretations expected. A fact the product depends on that lives only in the code or the chat is a gap; a cleanup moves information to its right place and never drops anything valuable.
+The rule of thumb for a project's docs as a whole: another agent, handed the docs without the codebase, rebuilds the product in its essence, small changes and interpretations expected. A fact the product depends on that lives only in the code or the chat is a gap. A cleanup moves information to its right place and never drops anything valuable.
 
 ## Related
 

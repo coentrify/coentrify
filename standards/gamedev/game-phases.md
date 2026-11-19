@@ -39,7 +39,7 @@ A greybox is the tool of three phases.
 - Prototype greyboxes the core loop.
 - World Building greyboxes the world of a 3D game, since only moving through it shows whether its size is right.
 - First Playable is a greybox with one of everything.
-- Pre-Alpha replaces the grey boxes with parts that read as what they are.
+- Pre-Alpha replaces the gray boxes with parts that read as what they are.
 
 ## Outsiders
 

@@ -13,3 +13,8 @@ The director answers freely, and only when there is something to say.
 - Post brief updates on what is being done as the work goes.
 - Where the project has a dashboard of the director's inboxes, a report does not end by pointing at the next inbox or offering more: the dashboard shows what is next.
 - A question only the director can answer goes into its ticket, which the refine list and the dashboard lead to.
+
+## Related
+
+- [Work Workflow](../tickets-workflow/work-workflow.md)
+- [Work Tracking](../tickets-workflow/work-tracking.md)

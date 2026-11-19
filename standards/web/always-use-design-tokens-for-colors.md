@@ -13,7 +13,7 @@ Every color follows the design system, its themes and its renames included.
 - Color belongs in SCSS, pulled from the `@use`'d token namespace: `@use '...scss/color'; stroke: color.$bg-brand-default;`. The same discipline covers spacing, radius and typography tokens.
 - When the color is dynamic or chosen in TS, the component emits a key or variant, never a hex or a `var(--...)` string, and the SCSS maps that key to the token (a modifier class, an `@each` over a `$key: color.$token` map). SVG `stroke=`/`fill=` presentation attributes can't resolve tokens, so bind a class instead of a style string.
 - Pick an existing color as it is before any new one: no lightened, darkened or blended shade of a token for a new element when an existing color reads well.
-- A genuinely missing token is a design-system gap: add it to the project's own token layer and surface the gap to the director ([Library Feedback](../docs/library-feedback.md)); never a raw value in its place.
+- A missing token is a design-system gap: add it to the project's own token layer and surface the gap to the director ([Library Feedback](../docs/library-feedback.md)). Never a raw value in its place.
 - Prefer to lint-enforce: no raw hex and no `var(--color-...)` in component code outside the token definitions.
 
 ## Related

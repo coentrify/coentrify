@@ -10,7 +10,7 @@ Tests should run in a stable environment.
 
 - While a suite runs, work on what the server does not watch: docs, standards, the plan, reading code.
 - Start the next code edit after the result is in.
-- A run that overlapped with edits is invalid; rerun it before reading anything into it.
+- A run that overlapped with edits is invalid. Rerun it before reading anything into it.
 - With a conductor, a suite may run on a copy of the tree while the real one is edited. The copy is cleaned up after.
 
 ## Related

@@ -35,7 +35,7 @@ For a single scalar constant (not a set), annotate the type explicitly with `: R
 - `constants/` for `*.const.ts`.
 - `types/` for `*.type.ts`.
 - `generics/` for type-only utilities like `Enum<T>`.
-- Each folder has its own `index.ts` re-exporting siblings; the lib's top-level `index.ts` re-exports each subfolder.
+- Each folder has its own `index.ts` re-exporting siblings. The lib's top-level `index.ts` re-exports each subfolder.
 
 ## Exceptions
 

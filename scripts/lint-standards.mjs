@@ -30,6 +30,23 @@ const SECONDARY_WORDS = new Set([
 ]);
 const LOWERCASE_NAMES = new Set(['npm', 'npx']);
 const PARENT_FOLDER = '../';
+const BUDGET_FLAG = '--budget';
+const SEMICOLON = ';';
+const FILLER = /\b(genuinely|truly|actually|legitimately|demonstrably|basically|essentially|literally)\b/i;
+const BRITISH =
+  /\b(catalogues?|catalogued|afterwards|towards|amongst|whilst|colours?|behaviours?|organisations?|organise[ds]?|initialise[ds]?|recognise[ds]?|prioritise[ds]?|optimise[ds]?|customise[ds]?|customisation|analyse[ds]?|centres?|favour(s|ite|ed)?|licence|judgement|travelled|modelled|cancelled|labelled|grey|learnt|spelt)\b/i;
+const WHY_SECTION = '## Why';
+const PURPOSE_SECTION = '## Purpose';
+const RELATED_SECTION = '## Related';
+const TEMPLATE_TITLE = / Template$/;
+const BUDGET = { standard: 600, template: 1200, hub: 3000 };
+const HUBS = new Set([
+  'tickets-workflow/work-tracking.md',
+  'tickets-workflow/work-workflow.md',
+  'gamedev/game-design-laws.md',
+  'gamedev/game-phases.md',
+  'simple-workflow/the-simple-workflow.md',
+]);
 const STANDARD_PATH = new RegExp(`^${STANDARDS_FOLDER}/[^/]+/[^/]+\\${MARKDOWN_EXTENSION}$`);
 
 function git(args) {
@@ -214,6 +231,84 @@ function formatErrors() {
   return errors;
 }
 
+function proseLines(text) {
+  const lines = [];
+  let inCode = false;
+  text.split('\n').forEach((line, index) => {
+    const fence = line.trimStart().startsWith(FENCE);
+    if (fence) {
+      inCode = !inCode;
+    }
+    if (!inCode && !fence) {
+      lines.push([index + 1, line.replace(CODE_SPAN, '')]);
+    }
+  });
+  return lines;
+}
+
+function proseErrors() {
+  const errors = [];
+  for (const page of pagesOnDisk()) {
+    for (const [number, line] of proseLines(readFileSync(page, 'utf8'))) {
+      if (line.includes(SEMICOLON)) {
+        errors.push(`${page}:${number} holds a semicolon, and two thoughts are two sentences or two bullets`);
+      }
+      const filler = line.match(FILLER);
+      if (filler) {
+        errors.push(`${page}:${number} holds the filler word "${filler[1]}"`);
+      }
+      const british = line.match(BRITISH);
+      if (british) {
+        errors.push(`${page}:${number} spells "${british[1]}" the British way`);
+      }
+    }
+  }
+  return errors;
+}
+
+function sections(text) {
+  return proseLines(text)
+    .map(([, line]) => line)
+    .filter((line) => SECTION_HEADING.test(line));
+}
+
+function shapeErrors() {
+  const errors = [];
+  for (const standard of standardsOnDisk()) {
+    const page = join(STANDARDS_FOLDER, standard);
+    const text = readFileSync(page, 'utf8');
+    const heads = sections(text);
+    const opening = text.split('\n').slice(1).find((line) => line.trim() !== '') ?? '';
+    if (SECTION_HEADING.test(opening)) {
+      errors.push(`${page} opens with a section, and a standard opens with its rule`);
+    }
+    const why = heads.indexOf(WHY_SECTION);
+    const first = heads[0] === PURPOSE_SECTION ? 1 : 0;
+    if (why > first) {
+      errors.push(`${page} has its Why after ${heads[first]}, and the Why comes first`);
+    }
+    if (heads.at(-1) !== RELATED_SECTION) {
+      errors.push(`${page} does not end with a Related section`);
+    }
+  }
+  return errors;
+}
+
+function budgetNotes() {
+  const notes = [];
+  for (const standard of standardsOnDisk()) {
+    const text = readFileSync(join(STANDARDS_FOLDER, standard), 'utf8');
+    const body = text.split(`\n${RELATED_SECTION}\n`)[0];
+    const words = body.split(/\s+/).filter((word) => word !== '').length;
+    const title = text.match(TITLE)?.[1] ?? '';
+    const kind = HUBS.has(standard) ? 'hub' : TEMPLATE_TITLE.test(title) ? 'template' : 'standard';
+    if (words > BUDGET[kind]) {
+      notes.push(`${STANDARDS_FOLDER}/${standard} holds ${words} words, past the ${BUDGET[kind]} of a ${kind}`);
+    }
+  }
+  return notes;
+}
+
 function versionPages(paths) {
   return paths
     .map((path) => ({ path, version: path.match(VERSION_PAGE)?.slice(1).map(Number) }))
@@ -279,6 +374,8 @@ const errors = [
   ...changelogErrors(),
   ...formatErrors(),
   ...relevantForErrors(),
+  ...proseErrors(),
+  ...shapeErrors(),
   ...(process.argv.includes(STAGED_FLAG) ? stagedErrors() : []),
 ];
 
@@ -296,6 +393,13 @@ if (process.argv.includes(WHY_FLAG)) {
   }
 }
 console.log(`standards: ${whyNotes.length} without a Why section`);
+const budget = budgetNotes();
+if (process.argv.includes(BUDGET_FLAG)) {
+  for (const note of budget) {
+    console.log(`standards: ${note}`);
+  }
+}
+console.log(`standards: ${budget.length} over their word budget`);
 for (const error of errors) {
   console.error(`standards: ${error}`);
 }

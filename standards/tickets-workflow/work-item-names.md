@@ -21,7 +21,7 @@ A list of work reads at a glance.
 
 - One name everywhere: the ticket's title, its filename slug and every list line linking it carry the same name.
 - A rename updates the file, its slug and every link in the same change.
-- One line, no trailing period, no parenthetical bloat; detail belongs in the ticket.
+- One line, no trailing period, no parenthetical bloat. Detail belongs in the ticket.
 
 ## Related
 

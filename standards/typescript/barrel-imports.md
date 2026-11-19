@@ -1,6 +1,6 @@
 # Barrel Imports
 
-Within a lib, import a symbol through its folder's barrel index, not the deep file path - `from '../constants'`, not `from '../constants/observation-origins.const'`. The IDE surfaces the barrel import as a quick-fix hint; take it.
+Within a lib, import a symbol through its folder's barrel index, not the deep file path - `from '../constants'`, not `from '../constants/observation-origins.const'`. The IDE surfaces the barrel import as a quick-fix hint. Take it.
 
 ## Why
 

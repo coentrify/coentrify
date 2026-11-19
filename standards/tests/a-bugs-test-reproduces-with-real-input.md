@@ -1,6 +1,6 @@
 # A Bug's Test Reproduces With Real Input
 
-A test that guards a reported bug reproduces the director's own steps with real input: key presses one by one, select-all and delete, a click on the close button, Escape; never Playwright's `fill()` or a call into the app for what the user types. Before the fix counts as verified, the test is run against the pre-fix code and seen to fail.
+A test that guards a reported bug reproduces the director's own steps with real input: key presses one by one, select-all and delete, a click on the close button, Escape. Never Playwright's `fill()` or a call into the app for what the user types. Before the fix counts as verified, the test is run against the pre-fix code and seen to fail.
 
 ## Why
 

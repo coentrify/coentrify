@@ -20,12 +20,12 @@ Entry point for the application - a reader should grasp the application's size a
 - `Features` - brief noun phrases in Title Case (e.g. "User Overview", "Create User"). A flat list, then a `###` subheader with a short description per feature (same shape as `Users`).
 - `Views` - user-facing pages and dialogs (e.g. "User List (/users)", "Create User (dialog)").
 - `Functional Debt` - product-level feature gaps (e.g. "Sort Users", "User Detail").
-- `Notes` - caveats and product quirks (e.g. "Role is set on Create; it cannot be changed on Edit.").
+- `Notes` - caveats and product quirks (e.g. "Role is set on Create. It cannot be changed on Edit.").
 
 ### Status Markers
 
 - Mark a not-yet-built feature or view with a `(Not Yet Implemented)` suffix rather than explaining the gap.
-- The mark stands only on the feature itself, where it is described; a page that merely refers to it carries no mark, since marks spread over references rot once the feature lands.
+- The mark stands only on the feature itself, where it is described. A page that merely refers to it carries no mark, since marks spread over references rot once the feature lands.
 - Each `Functional Debt` item links to the roadmap item that resolves it.
 
 ### Features Ordering
@@ -58,7 +58,8 @@ Standard verbs:
 Pluralization:
 
 - Nouns: singular (entity type, not instance) - "User Overview", "User Detail".
-- Verbs: plural for set-level operations ("Filter Users", "Sort Users"); singular for single-entity actions ("Create User", "Edit User", "Delete User", "Search User").
+- Verbs: plural for set-level operations ("Filter Users", "Sort Users").
+- Verbs: singular for single-entity actions ("Create User", "Edit User", "Delete User", "Search User").
 
 ### Views Naming
 
@@ -75,7 +76,8 @@ Split logically distinct views even if they share code (e.g. Create and Edit Use
 
 ## Work
 
-- An application's work is tracked in the workspace's `docs/development/`; an epic can group the work of one application.
+- An application's work is tracked in the workspace's `docs/development/`.
+- An epic can group the work of one application.
 
 ## Related
 

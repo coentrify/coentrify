@@ -1,6 +1,6 @@
 # Gamedev Working Cadence
 
-A game day runs in one loop: the director plays and writes, the conductor logs, plans and lands item by item with proof, closes the version, and the director plays the next one. All work runs through the [Work Workflow](../tickets-workflow/work-workflow.md); this file adds the rhythm of the day around it. Every step leaves a file behind, so any session can pick the day up.
+A game day runs in one loop: the director plays and writes, the conductor logs, plans and lands item by item with proof, closes the version, and the director plays the next one. All work runs through the [Work Workflow](../tickets-workflow/work-workflow.md). This file adds the rhythm of the day around it. Every step leaves a file behind, so any session can pick the day up.
 
 ## Why
 
@@ -12,7 +12,7 @@ Every playtest plays a named version, and knows what changed in it.
 
 ## Intake
 
-- A big dump of ideas and feedback is logged and processed, then the report offers a few focus areas for the next iteration and the director picks one. The bugs go to the planning page regardless and the small fixes are the plan meanwhile; the rest is grouped into epics on the roadmap, so nothing is lost and the work keeps its focus.
+- A big dump of ideas and feedback is logged and processed, then the report offers a few focus areas for the next iteration and the director picks one. The bugs go to the planning page regardless and the small fixes are the plan meanwhile. The rest is grouped into epics on the roadmap, so nothing is lost and the work keeps its focus.
 - Feedback on an open version is a cutoff, never more scope: close the version as it stands and plan what is open plus the new feedback for the next one. One cycle of playtest, review and changelog per version.
 - The plan holds bugs first, then debt, then features ([Dev Tiers](../behavior/dev-tiers.md)).
 - Content the agent names (names, numbers, hints) is recorded in the pacing doc and named in the report, never asked for one by one ([Incremental Pacing](incremental-pacing.md)).
@@ -20,7 +20,8 @@ Every playtest plays a named version, and knows what changed in it.
 ## Per Item
 
 - Every item lands with its proof, since an item without proof has to be checked again by hand.
-- The suites whose cases touch the changed labels, names and orders (grep the e2e first) run once at the end of a story, not per item; the full suites run once at the version's close.
+- The suites whose cases touch the changed labels, names and orders (grep the e2e first) run once at the end of a story, not per item.
+- The full suites run once at the version's close.
 - While prototyping new things, per item only the cases that touch what changed run, never the whole feature suite.
 
 ## Version Close
@@ -37,7 +38,7 @@ Every playtest plays a named version, and knows what changed in it.
 
 ## Wind-Down
 
-- Once the director calls a wind-down, nothing new starts, not even a chore already approved; the running items finish and the close runs to its end.
+- Once the director calls a wind-down, nothing new starts, not even a chore already approved. The running items finish and the close runs to its end.
 - A soft freeze is the same for the director's notes: every note after it is logged, filed to the playtest and put through intake for the next session, never briefed to an agent, however small or close to an item in hand it looks.
 
 ## Day Close

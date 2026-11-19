@@ -10,7 +10,7 @@ The game has a start and an end. That also counts for prestige and new game plus
 
 The game is as long as it is interesting, not the other way around.
 
-- No level, scene or story beat has a target length; everything is there as it should be
+- No level, scene or story beat has a target length. Everything is there as it should be
 - Nothing is stretched to fill a playtime, and nothing is cut to meet one
 - A fast player goes fast
 - The game ends while the player still wants more
@@ -29,7 +29,7 @@ The end result is a polished, fully done game. An unfinished game goes to contro
 
 ## Earned Progress
 
-The player feels the progress made, so the gap between where the player starts and where the player ends is as big as it can be: the player starts with as little as possible and earns the rest. Nothing that can be earned is handed over; what comes for free is worth nothing. A free first step that starts a climb is no gift but the climb's first rung.
+The player feels the progress made, so the gap between where the player starts and where the player ends is as big as it can be: the player starts with as little as possible and earns the rest. Nothing that can be earned is handed over. What comes for free is worth nothing. A free first step that starts a climb is no gift but the climb's first rung.
 
 - Quality of life is earned too. A task is done by hand first and automated later, so losing friction is progress.
 - Upgrades come in small, regular steps that are felt in play.
@@ -37,7 +37,7 @@ The player feels the progress made, so the gap between where the player starts a
 
 ## Every Mechanic Matters
 
-Every mechanic has an impact and adds to the experience; none is added for the sake of having one more. A mechanic gone irrelevant makes the player stop caring, and a game with boring elements is less interesting.
+Every mechanic has an impact and adds to the experience. None is added for the sake of having one more. A mechanic gone irrelevant makes the player stop caring, and a game with boring elements is less interesting.
 
 The law holds for everything added, content and systems included. Everything added adds value, or it lowers the quality of the game by design.
 

@@ -23,7 +23,7 @@ Every folder answers one question, so a reader knows where a fact belongs before
 
 ## Records
 
-All records sit together under `docs/records/`, one group in the wiki with an `overview.md` listing them. Each record folder is a dated trail, written as things happen; its shape lives in its own standard.
+All records sit together under `docs/records/`, one group in the wiki with an `overview.md` listing them. Each record folder is a dated trail, written as things happen. Its shape lives in its own standard.
 
 - `docs/records/log/` - everything the director says, one file per day ([Request Log](../records/request-log.md)).
 - `docs/records/activity/` - the work done, one file per day ([Activity Log](../records/activity-log.md)).

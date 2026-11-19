@@ -4,7 +4,7 @@ Never access the user's macOS keychain. Do not run `security find-internet-passw
 
 ## Why
 
-The keychain is the user's private credential store; probing it is an intrusion the user has explicitly forbidden.
+The keychain is the user's private credential store. Probing it is an intrusion the user has explicitly forbidden.
 
 ## How to Apply
 

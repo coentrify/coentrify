@@ -11,3 +11,7 @@ What we are after is the answer that fits the need.
 - When an answer disappoints or contradicts itself, suspect the question first.
 - Ask a vector question over a binary one. "How good is the code?" leaves room for nuance. "Is the code good?" invites a verdict and a debate.
 - Say what the answer is for, so the answer can fit the need.
+
+## Related
+
+- [Understand The Need](understand-the-need.md)

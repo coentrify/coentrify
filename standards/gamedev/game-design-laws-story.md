@@ -4,7 +4,7 @@ Laws about what the game says. The index and the way a game uses them are in [Ga
 
 ## Show, Don't Tell
 
-Never tell the player what happened, what to feel or what to experience; let the player experience it. A bad guy is discovered by doing a bad thing to the player, so the frustration is felt rather than announced. A good thing arrives as emotionless stats that actually do something, not as lore or explanation; the player attaches their own judgment. When words are needed, they are short and easy to understand, preferably voiced, subtitled and animated, without being too spot on.
+Never tell the player what happened, what to feel or what to experience. Let the player experience it. A bad guy is discovered by doing a bad thing to the player, so the frustration is felt rather than announced. A good thing arrives as emotionless stats that do something, not as lore or explanation. The player attaches their own judgment. When words are needed, they are short and easy to understand, preferably voiced, subtitled and animated, without being too spot on.
 
 ## Worth Reading
 
@@ -30,9 +30,9 @@ Dialog accompanies what is on screen as its narrative: it gives the player the c
 
 Relevant for: a player character.
 
-The player can personalize the game to reflect themselves: the character can look like them, their hair, their face, their build, and the world carries what they stand for. Being represented matters more than a look of a certain vibe or graphical realism; a player who cannot make themselves is missing something.
+The player can personalize the game to reflect themselves: the character can look like them, their hair, their face, their build, and the world carries what they stand for. Being represented matters more than a look of a certain vibe or graphical realism. A player who cannot make themselves is missing something.
 
-The player needs the ability and the space to represent themselves: the personalization options, and no steering of their judgment. The game stays as neutral as it can, so the character can relate. That is no indifference when a bad guy is being bad; it means not clouding it with external reasoning or noise, the writer's judgment among them.
+The player needs the ability and the space to represent themselves: the personalization options, and no steering of their judgment. The game stays as neutral as it can, so the character can relate. That is no indifference when a bad guy is being bad. It means not clouding it with external reasoning or noise, the writer's judgment among them.
 
 ## Related
 

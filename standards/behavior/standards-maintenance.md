@@ -17,12 +17,15 @@ Once the standards feel heavy, scan for and fix:
 - Format violations - em dashes, numbered lists, non-Title-Case headers, hard-wrapped lines.
 - Dead cross-links - links to files that have been renamed or deleted.
 
-A sweep doesn't need to touch every file; cover what's in front of you when a standard feels wrong.
+A sweep doesn't need to touch every file. Cover what's in front of you when a standard feels wrong.
 
 ## Format
 
 - A header is in Title Case, where a secondary word such as `from` or `a` may stay lowercase.
 - A paragraph or a list item is one line.
+- No semicolon in prose: two thoughts are two sentences, or two bullets.
+- No filler word, such as `genuinely` or `truly`, and no British spelling.
+- A standard opens with its rule, its Why is its first section, and it ends with Related.
 
 ## Budget
 
@@ -54,3 +57,9 @@ Soft caps: past a cap, a standard is trimmed or split before anything is added t
 - Apply format fixes freely.
 - Surface a rule change for the director's call before applying it.
 - A contributor files a changed or added standard with coentrify, if relevant ([File A Change With Coentrify](file-a-change-with-coentrify.md)).
+
+## Related
+
+- [Note Issues](note-issues.md)
+- [File A Change With Coentrify](file-a-change-with-coentrify.md)
+- [File Names](../docs/file-names.md)

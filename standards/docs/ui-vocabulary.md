@@ -23,3 +23,9 @@ Mobile-style panel that slides up from the bottom and modally covers the lower p
 ## Don't Use "Surface" as a UI-Area Noun
 
 "The chat surface", "the conversation surface" - product-design jargon that reads as wordy and weirdly abstract. Use the feature's name or natural English: "the chat", "the app-selection screen", "in the chat". "Surface" the verb (to surface, surfaced) is fine - it means "bring up / show" and is unrelated.
+
+## Related
+
+- [Things Of One Kind Are Consistent](../behavior/things-of-one-kind-are-consistent.md)
+- [Docs Describe Behavior, Not Wiring](docs-describe-behavior-not-wiring.md)
+- [Feature Template](feature-template.md)

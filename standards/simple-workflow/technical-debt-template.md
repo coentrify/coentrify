@@ -4,7 +4,11 @@ Workspace-level `docs/tech-debt.md` uses a fixed shape.
 
 ## Purpose
 
-Catalogues internal debt: infrastructure friction, tooling gaps, missing abstractions. Things developers trip over but real users never see. Distinct from user-facing bugs and third-party feedback - see the split below.
+Catalogs internal debt: infrastructure friction, tooling gaps, missing abstractions. Things developers trip over but real users never see. Distinct from user-facing bugs and third-party feedback - see the split below.
+
+## Why
+
+An agent can pick up an entry and start the work from it.
 
 ## Bug / Debt / Feedback Split
 
@@ -15,7 +19,7 @@ Catalogues internal debt: infrastructure friction, tooling gaps, missing abstrac
 ## Sections
 
 - Title: `# Technical Debt`.
-- Overview list: flat dash list, one bullet per item, formatted as ``- <description>`` or ``- <description> (`<severity>`)`` when severity applies. Always present. Sorted by severity, highest first (blockers at the top); items without a severity sit below.
+- Overview list: flat dash list, one bullet per item, formatted as ``- <description>`` or ``- <description> (`<severity>`)`` when severity applies. Always present. Sorted by severity, highest first (blockers at the top). Items without a severity sit below.
 - Per item: `##` subheading with the title, then the body shape.
 
 ## Item Shape
@@ -23,17 +27,13 @@ Catalogues internal debt: infrastructure friction, tooling gaps, missing abstrac
 - Subheading: `## <concise title>`.
 - Optional severity line right after the title: `Severity: <level>`. Use sparingly: `Blocker` for items actively blocking other work. Other levels (`high`, `medium`, `low`) are optional and used when meaningful.
 - Body: *just enough* to start the work. State what's broken and what success looks like. Brief - one short paragraph, often two sentences.
-- Affected use cases or features can be mentioned briefly when they sharpen the impact. Don't enumerate exhaustively; readers can follow the spec docs.
+- Affected use cases or features can be mentioned briefly when they sharpen the impact. Don't enumerate exhaustively. Readers can follow the spec docs.
 
 ## What Doesn't Belong
 
 - Implementation prescriptions (e.g. "introduce a single SCSS map with names X, Y, Z"). That belongs in the eventual PR, not the debt entry. The HOW gets figured out when the work begins.
 - Detailed mechanism (which classes, which methods, which file). Same reason.
 - Bug-style reproduction steps. If something reproduces with concrete user steps, it's a bug.
-
-## Why
-
-An agent can pick up an entry and start the work from it.
 
 ## Related
 

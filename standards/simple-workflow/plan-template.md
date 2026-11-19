@@ -1,6 +1,6 @@
 # Plan Template
 
-`docs/plan.md` is the workspace plan: a thin parent. The detailed, in-flight items live in the per-app plans (`docs/<app>/plan.md`); the workspace plan stays short and points down to them.
+`docs/plan.md` is the workspace plan: a thin parent. The detailed, in-flight items live in the per-app plans (`docs/<app>/plan.md`). The workspace plan stays short and points down to them.
 
 ## Purpose
 
@@ -11,17 +11,17 @@ The short-horizon working doc: what's in flight right now, what's queued for imm
 - Title: `# Plan`.
 - Active focus statement: a one-liner right under the title naming the current focus across the workspace.
 - A flat dash list of pointers to the per-app plans that hold the detail - not the detailed items themselves.
-- Keep it short; it should rarely need editing as app-level work churns.
+- Keep it short. It should rarely need editing as app-level work churns.
 
 ## App Plan (`docs/<app>/plan.md`)
 
 - Same shape, scoped to the app: title + active-focus one-liner, then a `## Summary` contents list.
-- The flat dash list of immediate items lives here, led by the summary (see [Summary section](#summary-section)). Promote an item to a `##` subsection only when it genuinely needs explanation ([No Faux Headers In Lists](../docs/no-faux-headers-in-lists.md)); the subsection is titled the same as its summary entry.
+- The flat dash list of immediate items lives here, led by the summary (see [Summary section](#summary-section)). Promote an item to a `##` subsection only when it needs explanation ([No Faux Headers In Lists](../docs/no-faux-headers-in-lists.md)). The subsection is titled the same as its summary entry.
 
 ## Summary Section
 
-- Open the plan with a `## Summary` flat list of every item it tracks - a table-of-contents that makes the whole plan scannable before any detail. This mirrors the overview list that bugs/tech-debt/roadmap already lead with; the norm across docs is a TOC/summary at the top.
-- Label the one item in flight `(active)`; at most one active at a time. Done items are stripped, never labeled or kept as a trophy.
+- Open the plan with a `## Summary` flat list of every item it tracks - a table-of-contents that makes the whole plan scannable before any detail. This mirrors the overview list that bugs/tech-debt/roadmap already lead with. The norm across docs is a TOC/summary at the top.
+- Label the one item in flight `(active)`, at most one active at a time. Done items are stripped, never labeled or kept as a trophy.
 
 ## Describe a Shift
 

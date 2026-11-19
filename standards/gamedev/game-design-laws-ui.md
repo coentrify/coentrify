@@ -24,7 +24,7 @@ Controls never move. A button stays where it is while the player acts, so two qu
 
 ## Same Trigger Both Ways
 
-What opens an interaction closes it. A menu that opens on Escape closes on Escape. A key that opens an inventory never does something else when it is pressed again while the inventory is open; that is easy on expectations.
+What opens an interaction closes it. A menu that opens on Escape closes on Escape. A key that opens an inventory never does something else when it is pressed again while the inventory is open. That is easy on expectations.
 
 ## Say What Is Wrong
 
@@ -34,7 +34,7 @@ A warning says what is wrong. A warning sign alone leaves the player fishing for
 
 Relevant for: PC.
 
-The game plays best on a mouse and its wheel, the way most gamers play; a trackpad is taken into account for accessibility, never at the mouse's cost.
+The game plays best on a mouse and its wheel, the way most gamers play. A trackpad is taken into account for accessibility, never at the mouse's cost.
 
 - Every notch of a wheel moves a list by one step, at once, however fast the wheel turns
 - A trackpad's small movements add up to a step, so a list stays usable on one

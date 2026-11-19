@@ -15,8 +15,8 @@ Flat list of concrete follow-ups and cleanups that fall out of larger work. Thin
 
 - Default: a single-line task. Reference a file or doc inline with backticks or a link when useful.
 - No periods on bullet items.
-- Strip items as soon as they're done; git history preserves what was there.
-- When an item genuinely needs more explanation, promote it to a `## <task title>` subheading with a short paragraph or list underneath. Don't bloat one-liners with parenthetical context - if it doesn't fit on one line, give it its own section ([No Faux Headers In Lists](../docs/no-faux-headers-in-lists.md)).
+- Strip items as soon as they're done. Git history preserves what was there.
+- When an item needs more explanation, promote it to a `## <task title>` subheading with a short paragraph or list underneath. Don't bloat one-liners with parenthetical context - if it doesn't fit on one line, give it its own section ([No Faux Headers In Lists](../docs/no-faux-headers-in-lists.md)).
 
 ## What Doesn't Belong on the Todo
 

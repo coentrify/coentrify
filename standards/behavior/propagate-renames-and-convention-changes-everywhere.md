@@ -8,7 +8,7 @@ A name or a convention reads the same in every place.
 
 ## How to Apply
 
-Enumerate first: grep the old term to list every site. Sweep them all. Re-grep afterwards to confirm none remain.
+Enumerate first: grep the old term to list every site. Sweep them all. Re-grep afterward to confirm none remain.
 
 ## Related
 

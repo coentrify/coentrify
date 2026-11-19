@@ -14,7 +14,13 @@ The project's workflow names the home of each kind of finding: [The Simple Workf
 
 ## How to Apply
 
-- Stop briefly, add a short entry to the right doc, return to current work. One line is enough most of the time; supporting context only when necessary.
+- Stop briefly, add a short entry to the right doc, return to current work. One line is enough most of the time, with supporting context only when necessary.
 - Never just suppress (eslint-disable, ts-ignore, swallowed error) without a matching note.
 - Filing means writing it to a doc. Mentioning it in chat, or asking "want me to file this?", is not filing: the mention scrolls away. If you flag it at all, write it down the same turn.
 - When unsure whether it's worth tracking or where it belongs, file it as debt, or as a question when it is functional, rather than drop it.
+
+## Related
+
+- [The Simple Workflow](../simple-workflow/the-simple-workflow.md)
+- [Work Workflow](../tickets-workflow/work-workflow.md)
+- [Library Feedback](../docs/library-feedback.md)

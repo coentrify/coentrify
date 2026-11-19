@@ -23,3 +23,8 @@ If a linter rule forbids explicit annotations on inferrable bindings, change the
 
 - Loop variables in a typed iterable (`for (const x of users)`).
 - Destructured parameters where each field's type is pinned by the parent type.
+
+## Related
+
+- [No Magic Values](no-magic-values.md)
+- [Pre-empt Recurring Code-Review Nits](../code/pre-empt-recurring-code-review-nits.md)

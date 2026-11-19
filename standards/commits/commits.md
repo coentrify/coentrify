@@ -13,8 +13,8 @@ The subject should be informative enough to grasp the change at a glance without
 - A commit made for a ticket starts with the ticket's id and a colon: `FEAT-123: the blueprint glows until the plans open`. The id already reads as the ticket's name, so no other prefix or trailer is added.
 - Every other commit uses Conventional Commits: `type(scope): description`, its types `feat`, `fix`, `chore`, `docs`, `refactor`, `revert`, its scope freeform (`deps`, `log`, `standards`).
 - Describe the change, not the action: "add retry to the upload request", not "update service".
-- The description starts with a lowercase letter; a project's commitlint accepts both forms and enforces the rest.
-- Commitlint also enforces `body-max-line-length` 100. Each `-m` of `git commit -m` becomes one unwrapped body line, so split a long body across several `-m` flags; the commit-msg hook rejects the whole commit otherwise, after lint-staged has already run.
+- The description starts with a lowercase letter. A project's commitlint accepts both forms and enforces the rest.
+- Commitlint also enforces `body-max-line-length` 100. Each `-m` of `git commit -m` becomes one unwrapped body line, so split a long body across several `-m` flags. The commit-msg hook rejects the whole commit otherwise, after lint-staged has already run.
 
 ## Ticket Prefix
 
@@ -29,7 +29,7 @@ Commit messages contain only the message itself. No `Co-Authored-By` trailers, n
 
 ## Size
 
-Make smaller commits, grouped by review interest. Mechanical changes can batch; complex changes get their own commit so a reviewer can find and verify them.
+Make smaller commits, grouped by review interest. Mechanical changes can batch. Complex changes get their own commit so a reviewer can find and verify them.
 
 For migrations or refactors, batch the mechanical updates, then split out each complex case. Ask: "what would a reviewer want to look at separately?"
 

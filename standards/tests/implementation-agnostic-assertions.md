@@ -12,7 +12,7 @@ A test fails only when what the user perceives changes.
 - For presence: `toBeVisible` (and `not.toBeVisible` for absence).
 - For interaction state: `toBeEnabled` / `toBeDisabled`, `toBeEditable`, `toBeChecked`, `toBeFocused`.
 - For content: `toHaveText` / `toContainText`, `toHaveValue`.
-- Reach for `toHaveCount` only when the assertion is genuinely about cardinality ("the list shows exactly three results"), never as a stand-in for "this element is gone".
+- Reach for `toHaveCount` only when the assertion is about cardinality ("the list shows exactly three results"), never as a stand-in for "this element is gone".
 - Reach for `toHaveAttribute` only when the attribute is part of the user-facing contract (`aria-label`, `href`, `for`), never for internal data attributes.
 
 ## Related

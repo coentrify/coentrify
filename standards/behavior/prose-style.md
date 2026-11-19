@@ -10,8 +10,8 @@ Patterned prose reads as machine output and annoys the reader. The writing shoul
 
 - Don't lean on contrastive scaffolding as the default rhythm: "X, not Y", "not X but Y", "it's not about X, it's about Y".
 - Don't chain copulas: "the x is the y, and the y is the z".
-- One thought per bullet or sentence. Never pair two contrasting cases in one line with a semicolon, "a user who does not know it is invited; one who does is told something new": that pairing is the same scaffolding in disguise. Give each case its own bullet.
-- Drop hype adjectives and rhetorical build-ups; state the thing.
+- One thought per bullet or sentence. Never pair two contrasting cases in one line with a semicolon, `a user who does not know it is invited; one who does is told something new`: that pairing is the same scaffolding in disguise. Give each case its own bullet.
+- Drop hype adjectives and rhetorical build-ups. State the thing.
 - Vary sentence length and structure across a paragraph.
 - A reference resolves inside its own text.
 - A point is made in one sentence, once.

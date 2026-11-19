@@ -1,6 +1,6 @@
 # SCSS Shared Partial Imports
 
-Cross-cutting SCSS partials (breakpoints, z-index and the like) live under a shared styles folder exposed through a path alias (such as `@styles`) that sits on the Sass preprocessor's load path. Consume them with `@use '@styles/<name>'` and never alias with `as`; reach members through the namespace derived from the filename (`breakpoints.mobile`, `breakpoints.$mobile-max-width`, `z-index.tier(...)`).
+Cross-cutting SCSS partials (breakpoints, z-index and the like) live under a shared styles folder exposed through a path alias (such as `@styles`) that sits on the Sass preprocessor's load path. Consume them with `@use '@styles/<name>'` and never alias with `as`. Reach members through the namespace derived from the filename (`breakpoints.mobile`, `breakpoints.$mobile-max-width`, `z-index.tier(...)`).
 
 ## Why
 

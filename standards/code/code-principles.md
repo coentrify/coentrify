@@ -8,7 +8,7 @@ Code with a single responsibility per piece stays stable.
 
 ## Single Responsibility
 
-- A piece of code should do one thing; coupling several responsibilities into one unit via flags or conditionals is a split signal.
+- A piece of code should do one thing. Coupling several responsibilities into one unit via flags or conditionals is a split signal.
 
 ## Dependency Injection
 
@@ -21,5 +21,12 @@ Code with a single responsibility per piece stays stable.
 ## Decouple Responsibilities
 
 - Branching on caller identity (which application, which role) inside a shared unit means the responsibilities should live in separate units.
-- An effect and its source stay apart: the target carries a generic state (`isUnlocked`, a cost factor) and never names what grants it; the source declares what it grants in configuration (`unlocksTiers: true` on the granting item), and a mapper of its own resolves it.
-- A target flag that names its source (`isWaitingForX`) is fundamentally bad design; the pattern applies to every buff and the like.
+- An effect and its source stay apart:
+  - The target carries a generic state (`isUnlocked`, a cost factor) and never names what grants it.
+  - The source declares what it grants in configuration (`unlocksTiers: true` on the granting item), and a mapper of its own resolves it.
+- A target flag that names its source (`isWaitingForX`) is fundamentally bad design. The pattern applies to every buff and the like.
+
+## Related
+
+- [Per-Application Split Over Shared Branching](../architecture/per-application-split-over-shared-branching.md)
+- [App-Shield](../architecture/app-shield.md)

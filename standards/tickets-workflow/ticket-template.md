@@ -1,6 +1,6 @@
 # Ticket Template
 
-A ticket is one file, the single source of truth for one piece of work. This standard holds its shape; how to fill it is in [Writing A Ticket](writing-a-ticket.md), and the tracking around it in [Work Tracking](work-tracking.md).
+A ticket is one file, the single source of truth for one piece of work. This standard holds its shape. How to fill it is in [Writing A Ticket](writing-a-ticket.md), and the tracking around it in [Work Tracking](work-tracking.md).
 
 ## The Template
 
@@ -9,17 +9,17 @@ Its filename is the slug of its name ([Work Item Names](work-item-names.md)). It
 | Question | Section | Answered well when |
 | --- | --- | --- |
 | What is it? | the summary, under the title, no heading | what should change, in one or two plain sentences a human reads cold ([Writing A Ticket](writing-a-ticket.md)) |
-| Why do we want it? | Why | a bullet per reason, what it gives the user; a law it serves is named |
+| Why do we want it? | Why | a bullet per reason, what it gives the user. A law it serves is named |
 | What do we need to know? | Context | the terms a new reader lacks and the relevant facts that do not change, a line each, the feature docs linked |
-| How and when does the user get there? | Entry Points | a bullet per way and moment the user arrives, from every state the user can arrive in; what happens there only when it is a relevant trigger |
-| How is it now? | Current Situation (A) | a bullet per fact the work changes, checked against the product, its feature doc and its history; a bug's reproduce steps, Expected and Actual |
+| How and when does the user get there? | Entry Points | a bullet per way and moment the user arrives, from every state the user can arrive in. What happens there only when it is a relevant trigger |
+| How is it now? | Current Situation (A) | a bullet per fact the work changes, checked against the product, its feature doc and its history. A bug's reproduce steps, Expected and Actual |
 | How is it when it is done? | Acceptance Criteria (B) | a bullet per check the director can verify by using the product ([Acceptance Criteria](writing-a-ticket.md#acceptance-criteria)) |
-| How do we get there? | Solution | a short task per bullet; never the criteria again, never code or tests |
+| How do we get there? | Solution | a short task per bullet, never the criteria again, never code or tests |
 | What will the user read? | Content, under Solution | every text that ends up in the product, exactly as it will read |
-| How must it look? | Visual Quality | the ticket's own visual points; the generic ones sit in the project's visual checklist, which the Definition of Done points to |
+| How must it look? | Visual Quality | the ticket's own visual points. The generic ones sit in the project's visual checklist, which the Definition of Done points to |
 | What did an agent decide? | Veto | a decision per bullet, each checked in refinement for what it implies |
 | Can we split it, or leave something out? | Left Out | each part split off into a ticket of its own, or left out with its reason |
-| What could go wrong? | Risks | each risk with its mitigation, decided in refinement: a step inside the ticket when it is small and relevant, a design risk mitigated by design say, otherwise the ticket that closes the gap; a mitigation never grows the ticket's work ([Building A Ticket](building-a-ticket.md#a-ticket-lands-right)) |
+| What could go wrong? | Risks | each risk with its mitigation, decided in refinement: a step inside the ticket when it is small and relevant, a design risk mitigated by design say, otherwise the ticket that closes the gap. A mitigation never grows the ticket's work ([Building A Ticket](building-a-ticket.md#a-ticket-lands-right)) |
 | What does it wait on? | Depends On | the tickets of its own story it waits on |
 | Where did it come from? | Source | the log entries it came from, linked from the root: `/records/log/2026-10-25#_12-57` |
 
@@ -83,3 +83,10 @@ What should change, in one or two plain sentences.
 ### Proof
 ### Veto
 ```
+
+## Related
+
+- [Writing A Ticket](writing-a-ticket.md)
+- [Work Tracking](work-tracking.md)
+- [Work Item Names](work-item-names.md)
+- [Building A Ticket](building-a-ticket.md)

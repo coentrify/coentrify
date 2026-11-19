@@ -4,7 +4,11 @@ Workspace-level `docs/workspace/bugs.md` and per-app `docs/<app>/bugs.md` use a 
 
 ## Purpose
 
-Catalogues user-facing bugs in the current build. A reader scans bugs.md to know exactly what's broken for real users right now, sorted by impact.
+Catalogs user-facing bugs in the current build. A reader scans bugs.md to know exactly what's broken for real users right now, sorted by impact.
+
+## Why
+
+An agent can reproduce the actual bug and fix it.
 
 ## Bug vs Tech-Debt
 
@@ -25,10 +29,6 @@ Catalogues user-facing bugs in the current build. A reader scans bugs.md to know
 - Description paragraph: what the user experiences when the bug fires. Don't speculate on causes - speculation belongs in PR/commit discussion or investigation notes, not the bug doc.
 - `### Reproduce` subheading: steps that trigger the bug, ending with `Expected:` and `Actual:` lines so the deviation is explicit. Reuse the matching spec use case's structure - the bug entry describes the deviation from the spec, not an alternate spec.
 - `### References` subheading: metadata bullets for navigation (Feature, Use case, E2E status).
-
-## Why
-
-An agent can reproduce the actual bug and fix it.
 
 ## Related
 

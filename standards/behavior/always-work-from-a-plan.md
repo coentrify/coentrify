@@ -20,3 +20,9 @@ A plan in a file lets any other session or agent continue from where the previou
 - Read it before starting and update it as you go.
 - It shrinks toward empty per [Plans vs Persistent Files](../simple-workflow/plans-vs-persistent-files.md).
 - Plans are documentation. Follow the same markdown conventions as persistent docs (see [Documentation Philosophy](../docs/documentation-philosophy.md)), even though plans are temporary.
+
+## Related
+
+- [Feature Workflow](feature-workflow.md)
+- [Plans vs Persistent Files](../simple-workflow/plans-vs-persistent-files.md)
+- [Documentation Philosophy](../docs/documentation-philosophy.md)

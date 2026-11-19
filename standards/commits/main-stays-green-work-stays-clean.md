@@ -8,7 +8,7 @@ A version can be cut from main at any moment, and red always means something.
 
 ## How to Apply
 
-- A builder's branch merges into main with `--no-commit` first; the merged tree's types, unit specs and build run, and the touched suites when two branches meet the same screen, before the merge commit lands. Two branches green apart can be red together (a new field from one, a spec without it from the other).
+- A builder's branch merges into main with `--no-commit` first. The merged tree's types, unit specs and build run, and the touched suites when two branches meet the same screen, before the merge commit lands. Two branches green apart can be red together (a new field from one, a spec without it from the other).
 - A red main is priority one: it is fixed before anything else lands ([Dev Tiers](../behavior/dev-tiers.md)).
 - Nothing lands red. Tests written failing first live with their work until the implementation turns them green, and land together with it.
 - A failing test gets fixed - the code or the test, whichever is wrong.
@@ -16,7 +16,9 @@ A version can be cut from main at any moment, and red always means something.
 - A test that is no longer relevant is removed only with proof or a solid argument, stated in the commit and the report.
 - A test that exposes a bug becomes that bug's reproducing test: it lands with the fix, never red on its own and never marked to fail.
 - What the agent's own change caused is fixed in the same go ([Don't Introduce Tech Debt](../behavior/dont-introduce-tech-debt.md)).
-- What the agent finds but did not cause: a small fix rides on the current ticket's go as a Veto line; anything bigger becomes a ticket or a question ([Note Issues](../behavior/note-issues.md)).
+- What the agent finds but did not cause:
+  - A small fix rides on the current ticket's go as a Veto line.
+  - Anything bigger becomes a ticket or a question ([Note Issues](../behavior/note-issues.md)).
 
 ## Related
 

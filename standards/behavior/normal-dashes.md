@@ -9,3 +9,7 @@ Plain ASCII is readable, grep-able, and consistent with keyboard input. Fancy da
 ## How to Apply
 
 When editing existing content that contains em or en dashes, replace them with `-` as part of the edit.
+
+## Related
+
+- [Prose Style](prose-style.md)

@@ -11,7 +11,10 @@ Every run starts clean, so it shows the code as it stands.
 - What listens there can be the user's own app, another project's server, or a stale watcher of this one that does not always rebuild. The tell is a capture of the old state, a snapshot of a different page, or role and locator queries that time out with no error.
 - Point the e2e config's `webServer` URL and `BASE_URL` at the project's own fixed port ([Own Ports, Own Processes](../behavior/own-ports-own-processes.md)).
 - Before a capture, a probe or a suite that must show the latest code, run `lsof -nP -i :<port>` and kill a listener that is yours (the env carries the session's variables).
-- The check gates the start: a listener of yours found means kill it and look again before `start:e2e` runs, never start beside it; one that is not yours means another port; an "up" from a curl proves nothing while it stands.
+- The check gates the start:
+  - A listener of yours found means kill it and look again before `start:e2e` runs, never start beside it.
+  - A listener that is not yours means another port.
+  - An "up" from a curl proves nothing while it stands.
 - Stopping a `start:e2e` mid-build does not stop it: its preview can still come up later on the port, so look for the port's listener instead of the npm process.
 
 ## Related

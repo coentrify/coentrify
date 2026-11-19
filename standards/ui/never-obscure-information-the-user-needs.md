@@ -8,7 +8,7 @@ The user acts on information that is whole and true.
 
 ## How to Apply
 
-- A presentation map (mapper or view-model) that sends several distinct source values to one target is suspect. Confirm each collapse is genuinely equivalent; one that drops a state the user must see is a high-priority bug and a sweep across the other mappers.
+- A presentation map (mapper or view-model) that sends several distinct source values to one target is suspect. Confirm each collapse is equivalent. One that drops a state the user must see is a high-priority bug and a sweep across the other mappers.
 - Cover every source enum value in mapper tests and assert distinct, faithful outputs.
 - A control whose options share a label for distinct entities is an ambiguous choice: add a disambiguator (such as a location suffix) and flag it explicitly as ambiguous or missing information.
 - When unsure, preserve the distinction over a tidier display.
