@@ -64,13 +64,14 @@ A record is a dated trail, written as things happen. An agent starts every sessi
 - [Playtests](standards/records/playtest-files.md) - a page per playtest of a game, so feedback turns into work
 - [User tests](standards/records/user-test-files.md) - the same for a product, a page per session with real users
 
-Which records to keep depends on the project.
+Which records to keep depends on the project, record by record.
 
-- A changelog is recommended for every project that ships versions.
-- The healing log is recommended for every project whose healing is automatic.
-- Playtests or user tests are recommended as soon as other people try the product.
-- The request log and the activity log are recommended for a long-running project.
-- No records are recommended for a proof of concept or a prototype.
+- The request log - for a project with one director. Where other people read the project, the director weighs it first, since it holds every word the director said.
+- The activity log - for a team that holds standups, and for a game whose director wants a daily trail
+- The changelog - for every project that ships versions
+- The healing log - for every project whose healing is automatic
+- Playtests - for a game, once other people play it
+- User tests - for a product, once real users try it
 
 Records also keep their value. A newer or better model can go back through the records, find patterns and hidden gems, and improve the system. That use is optional.
 
