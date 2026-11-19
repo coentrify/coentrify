@@ -14,8 +14,7 @@ A command the user relies on behaves the same every time, costs no latency and w
 - Classifying into a fixed list is the one job small models do reliably, so the model belongs on the fallback path.
 - Give the classifier worked examples, including deliberate misspellings, and negative examples for requests that merely sound like a command.
 - Build any capability or help listing from what is wired up, never from the model, or it will describe abilities that do not exist.
-- Keep the conversational path unable to claim it acted. Only the action path may say something was done.
-- A false "done" misleads where a refusal only disappoints, so check for it whenever a request can reach more than one path.
+- Only the action path may report an action as done, and every request that can reach both paths is tested for a false "done".
 
 ## Related
 

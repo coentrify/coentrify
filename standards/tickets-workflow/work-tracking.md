@@ -11,11 +11,11 @@ Tracked next to the code, the work stays up to date with it.
 ```
 docs/development/
   roadmap.md        (by hand)
-  plan.md           (generated)
-  refine.md         (generated, the director's inbox)
-  planning.md       (generated, the director's inbox)
-  accept.md         (generated, the director's inbox)
-  processing.md     (generated)
+  plan.md           (list generated)
+  refine.md         (list generated, the director's inbox)
+  planning.md       (list generated, the director's inbox)
+  accept.md         (list generated, the director's inbox)
+  processing.md     (list generated)
   phases/<slug>.md
   areas/<slug>.md
   epics/<slug>.md
@@ -54,7 +54,7 @@ Every ticket, every story and every epic carries an id of its own, kept for life
 
 ## The Ticket
 
-A ticket is one file in its type's folder. Its sections and front matter are in [Ticket Template](ticket-template.md), how it is written, its criteria and its Done part in [Writing A Ticket](writing-a-ticket.md).
+A ticket is one file in its type's folder. Its sections and front matter are in [Ticket Template](ticket-template.md), how it is written and its criteria in [Writing A Ticket](writing-a-ticket.md), and its Done part in [The Done Part](the-done-part.md).
 
 ## Phases
 
@@ -94,7 +94,7 @@ A story is one layer between the epic and the ticket: the unit the director refi
 - A story of product work is a stretch of the product the director uses from start to end.
 - A story of debt or docs is a group of tickets of one epic that share an area and the load of their checks.
 - A debt story gets a go and no verdict: it ends when its last ticket lands. A docs story gets the director's verdict, like a feature, since the director decides what the docs say.
-- A debt story is cut in refinement to be light or heavy, never mixed. A light one needs no browser suite and starts whatever the machine's load. A heavy one waits for the machine ([Agent Roles](agent-roles.md#how-many)).
+- A debt story is cut in refinement to be light or heavy, never mixed. A light one needs no browser suite. When each starts is in [Agent Roles](agent-roles.md#how-many).
 - A ticket names its story in its `story` field. A ticket outside any story is the exception, refined, planned and accepted by itself. Loose tickets of one epic are grouped into a story, so they show as one line and get one go and one agent.
 - A story is a page in `stories` with an id of its own, `STORY-8`, and its epic in its `epic` field: what to use and how to start it.
 - The wiki lists a story's tickets on its page from their `story` field, in three lists: to refine, ready and done. A rework ticket carries a rework mark there.
@@ -109,7 +109,7 @@ A story is one layer between the epic and the ticket: the unit the director refi
 
 ## The Lists
 
-Every list but the roadmap is a view the wiki generates from the tickets, the way a data loader reads each ticket's folder, front matter and parts at build time. The dev server regenerates it the moment a file changes. Nobody moves a line by hand: a ticket's place follows from facts written once.
+Every list but the roadmap is a view the wiki generates from the tickets, the way a data loader reads each ticket's folder, front matter and parts at build time, and so are its lists of tickets per folder and per epic. The repository holds the list pages, each with its title and hand-kept sections, and never a generated list, which would go stale. The dev server regenerates a list the moment a file changes. Nobody moves a line by hand: a ticket's place follows from facts written once.
 
 The unit of a list is the story. Each story of the current phase stands on exactly one list: the first whose condition it meets, in this order. A ticket outside a story stands on one the same way, as a story of one ticket. Refine is the fallback, so nothing falls through. A story's own tickets show on its page. A later phase's story stands on none. Its epic and phase are its home. An epic stands on none either. The roadmap is its home.
 
@@ -127,12 +127,22 @@ The unit of a list is the story. Each story of the current phase stands on exact
 - A hygiene check fails a ticket whose Depends On names a ticket outside its story, and a story whose Depends On names anything but a story.
 - A hygiene check fails more than three tickets of one epic outside a story on the planning page.
 - The plan's logic lives in one module that the wiki's loader and a command-line script share, so an agent reads the plan without the wiki.
+- An agent finds tickets with `ls` and a grep on the front matter, never by reading a whole folder.
 - Continuous activities ("Resolve bugs", "Add tests") are never items. A testing push is an epic with a name of its own.
 - Before asking the director whether an unbuilt item is still wanted, check for its ticket in its epic.
 
 ## The Refine List
 
-Per ticket, the generated list checks what code can of the Definition of Ready: every section of its type's set present, a criterion at least, a Source, no `## Question`, no `## To Refine`, and no workshop mark. A ticket's readiness never looks at another ticket. A ticket written before a template change passes on the sections of its own time. A ticket an agent judges not ready for any other reason gets a `## To Refine` section naming what is still to spec, so the list catches it too. A ticket's phase is its epic's. A ticket outside an epic is never on the list. A story being built or reworked stands first. The rest runs in the roadmap's order of epics, under each epic its stories, linked, with their tickets not yet ready, then its tickets outside a story. A story leaves once every ticket of it is ready. It ends with a `## Blocked` section: every ticket marked `last` until each unmarked ticket of its phase is archived. A blocked story's tickets are read again once its blocker lands, since what the blocker settled can change them.
+- Per ticket, the generated list checks what code can of the Definition of Ready: every section of its type's set present, a criterion at least, a Source, no `## Question`, no `## To Refine`, and no workshop mark.
+- A ticket's readiness never looks at another ticket.
+- A ticket written before a template change passes on the sections of its own time.
+- A ticket an agent judges not ready for any other reason gets a `## To Refine` section naming what is still to spec, so the list catches it too.
+- A ticket's phase is its epic's. A ticket outside an epic is never on the list.
+- A story being built or reworked stands first.
+- The rest runs in the roadmap's order of epics, under each epic its stories, linked, with their tickets not yet ready, then its tickets outside a story.
+- A story leaves once every ticket of it is ready.
+- The list ends with a `## Last In Phase` section: every ticket marked `last` until each unmarked ticket of its phase is archived.
+- A blocked story's tickets are read again once its blocker lands, since what the blocker settled can change them.
 
 ## The Open Questions
 
@@ -148,14 +158,8 @@ A question lives in the ticket that has the unclarity, under `## Question`: the 
 ## The Archive
 
 - A ticket is archived at the director's verdict on it or on its story, a debt ticket at its landing: a `git mv` to `archive/<type>/`, which is the verdict's whole bookkeeping, since every list follows by itself.
-- Every verdict archives the ticket, and an accepted story archives every ticket in it. More work on it, or a rework, is a new ticket.
 - A version's changelog lists the tickets that landed in it, generated ([Changelog Per Version](../records/changelog-per-version.md)). A bare-line task has no ticket and stands on none.
-- Archived tickets are never edited again. New work on the same topic is a new ticket.
-
-## The Index
-
-- The wiki lists tickets per folder and per epic at build time from the folders and the front matter, so no generated file sits in the repo going stale.
-- An agent finds tickets with `ls` and a grep on the front matter, never by reading a whole folder.
+- Archived tickets are never edited again. More work on the same topic, a rework included, is a new ticket.
 
 ## Related
 

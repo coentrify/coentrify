@@ -13,7 +13,7 @@ Each model tier answers best on a prompt written for it.
 - Lower the temperature for rule-following work. Creative defaults invent state.
 - State a fact more than one way when it must survive rephrasing, since a small model will answer one phrasing and miss its synonym.
 - Bound the reply length in the request as well as in the prompt.
-- Each time the system gains a capability, re-read the prompt for rules that now contradict it: a rule written while the system was blind keeps it refusing after perception lands, and the symptom looks like a model problem.
+- Each time the system gains a capability, re-read the prompt for rules that now contradict it: a rule from before, such as "you cannot see the screen", keeps the model refusing once the screen is wired up, and the symptom looks like a model problem.
 
 ## Related
 
