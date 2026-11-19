@@ -21,7 +21,8 @@ For reels with narration or subtitles, and for any speech a TTS model generates,
 - The user is the subject and the simulated world is what they act in: "the user logs in to X", never "as X".
 - Reading-time formulas underestimate TTS, especially outside English. When two lines collide, give them more time.
 - A cheap TTS model says exactly what it reads: spell names and odd words the way they should sound in the input it gets, and keep the display text separate when the two differ.
-- Generated speech is unverified until it is heard. The agent cannot listen, so it says so, and the clip or line goes to the director to hear before anything quotes its words.
+- Generated speech is unverified until it is checked. The agent transcribes it with a tool, and brings a clip to the director when only an ear can tell, such as how a name sounds.
+- Unverified speech can still ship, and is reported as unverified.
 
 ## Related
 
