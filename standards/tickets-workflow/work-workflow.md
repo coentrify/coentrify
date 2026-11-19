@@ -14,7 +14,7 @@ Every message from the director runs through these steps before any work on it s
 
 - Log it first ([Request Log](../records/request-log.md)).
 - Split it into units: one unit is one thing to do, to decide or to remember. Each unit goes straight into a ticket, its log entry linked under Source. Nothing sits between the log and the tickets.
-- Classify every unit in the same go ([Classifying A Unit](#classifying-a-unit)).
+- Classify every unit in the same pass ([Classifying A Unit](#classifying-a-unit)).
 - Turn each unit of work into a ticket that meets the Definition of Ready, or a bare line when it needs no explanation. The ticket holds the director's words parsed, never extended ([Docs Hold Only What The Director Decided](../behavior/docs-hold-only-what-the-director-decided.md)). A unit that cannot be made ready yet becomes a ticket all the same, with its question.
 - A new epic gets its phase ([Work Tracking](work-tracking.md#phases)). Work that does not serve the current phase's goal is filed for its own phase.
 - Schedule it where the director named. Without a name: a bug or debt that hurts the current phase's goal goes on the planning page, and any other waits in its epic in a later phase ([Dev Tiers](../behavior/dev-tiers.md)). Something new while a version stabilizes goes into its epic ([Stabilize Before Adding](stabilize-before-adding.md)). "For later", "after the release" and "feedback for now" land in their epic and phase, built later and never parked. Anything else lands in its epic and phase, a new epic in its phase where none fits, and the report says so.
@@ -48,7 +48,7 @@ Everything needs the director's go before it is built: a feature, a bug, docs wo
 - The go is given at a planning, by id, by a story's id for every ticket in it, or in one word for all that is ready, and the conductor writes its log entry into each ticket's `go` field. A story with its go waits on the planning page until the conductor assigns its builder, which puts it on the plan. The director's answer to a ticket's open question is its go as well.
 - An ask is never the go: the ticket written from it goes on the planning page, and only a go and an agent put it on the plan.
 - Once a ticket has its go, it is built and lands without asking again.
-- A small issue in the wake of the current change is fixed in the same go ([Don't Introduce Tech Debt](../behavior/dont-introduce-tech-debt.md)).
+- A small issue in the wake of the current change is fixed in the same pass ([Don't Introduce Tech Debt](../behavior/dont-introduce-tech-debt.md)).
 - A small fix found in passing, outside the change's own wake, rides on the current ticket's go as a Veto line.
 - A bigger fix found in passing becomes a ticket of its own.
 - The one exception sits at the end of the path: a debt ticket needs no acceptance.

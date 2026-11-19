@@ -1,6 +1,6 @@
 # Game Phases: Live
 
-The fourth stage of a game ([Game Phases](game-phases.md)). The game is out. No gate closes Live.
+The fourth stage of a game ([Game Phases](game-phases.md)). The game is out. No phase gate closes Live.
 
 ## Release
 

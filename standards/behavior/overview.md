@@ -3,7 +3,7 @@
 The Behavior standards: how an agent works and what an agent checks.
 
 - [A Go Before Work Elsewhere](a-go-before-work-elsewhere.md) - never start sessions, agents or work in another project without an explicit go. "Next is X" names the topic and is not a go. Projects come from the director's words, never a recent-folders list
-- [A Maybe Is A Trigger To Investigate](a-maybe-is-a-trigger-to-investigate.md) - a director's maybe gets investigated in the same go, never parked
+- [A Maybe Is A Trigger To Investigate](a-maybe-is-a-trigger-to-investigate.md) - a director's maybe gets investigated in the same pass, never parked
 - [A Name Describes Its Unit](a-name-describes-its-unit.md) - a name describes its unit clearly and precisely, neither too broad nor too narrow
 - [A Quiet Tree While A Suite Runs](a-quiet-tree-while-a-suite-runs.md) - no source edits while a suite runs on a live dev server
 - [Always Make No Mistakes](always-make-no-mistakes.md) - use your standards, own mistakes and strengthen the harness with a rule or check
@@ -17,7 +17,7 @@ The Behavior standards: how an agent works and what an agent checks.
 - [Docs Hold Only What The Director Decided](docs-hold-only-what-the-director-decided.md) - docs hold only what the director decided. Ideas go to chat first
 - [Don't Filter Data Without A Spec](dont-filter-data-without-a-spec.md) - never drop data unless the exclusion is specced and tested
 - [Don't Introduce Tech Debt](dont-introduce-tech-debt.md) - new code follows conventions even when neighbors don't. Fix what your change caused
-- [Feature Workflow](feature-workflow.md) - plan -> doc -> spec -> failing e2e -> implement -> regression -> proof the user can verify
+- [Feature Workflow](feature-workflow.md) - plan -> doc -> spec -> failing e2e -> implement -> regression -> proof the director can verify
 - [File A Change With Coentrify](file-a-change-with-coentrify.md) - a contributor files a harness change that holds beyond its project, one point per issue, without project details
 - [Flag Every Addition Of Your Own](flag-every-addition-of-your-own.md) - name a decision of your own that no law, rule or guideline settles, for a veto
 - [Free Text Replies, No Buttons](free-text-replies-no-buttons.md) - no answer buttons or wrap-up questions. Ask in prose and keep going. No closing prompts where a dashboard shows the director's inboxes
@@ -26,7 +26,7 @@ The Behavior standards: how an agent works and what an agent checks.
 - [Normal Dashes](normal-dashes.md) - always `-`, never em or en dashes
 - [Note Issues](note-issues.md) - write down every finding where the project's workflow says, never only in chat
 - [Own Ports, Own Processes](own-ports-own-processes.md) - own fixed non-default port per project, kill only your own PIDs, stop what you started
-- [Project Lifecycle](project-lifecycle.md) - a project is in one phase at a time, the phase decides what matters now, and a gate ends it
+- [Project Lifecycle](project-lifecycle.md) - a project is in one phase at a time, the phase decides what matters now, and a phase gate ends it
 - [Propagate Renames And Convention Changes Everywhere](propagate-renames-and-convention-changes-everywhere.md) - a rename or convention change updates every site. Grep before and after
 - [Prose Style](prose-style.md) - no AI sentence patterns. Calm, concrete, varied. Reports brief
 - [Prototype Mode Is Speed First](prototype-mode-is-speed-first.md) - prototyping means speed: no tests, a standalone one-pager, run it and share the link

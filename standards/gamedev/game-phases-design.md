@@ -30,7 +30,7 @@ The world translated into the game's levels and features, represented by docs an
 ## The Order
 
 - Lore, World Building and Gameplay lean on each other.
-- The order on this page is the default, and a gate may send the game back a phase.
+- The order on this page is the default, and a phase gate may send the game back a phase.
 
 ## Related
 
