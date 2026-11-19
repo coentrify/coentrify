@@ -7,7 +7,6 @@ The worklist from a sweep over every standard, the top-level pages, the tools an
 
 ## Rules That Contradict
 
-28. The director's answer to a question is a go, and an ask is never the go.
 29. The simple workflow pulls from a technical roadmap that no template defines.
 30. The UI Styleguide starts late, and every component gets its page as it is built.
 31. Game Work Workflow uses Veto for the agent's line, against the glossary.
