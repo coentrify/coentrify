@@ -12,7 +12,9 @@ Every screen answers the questions the user has.
 - Walk it for both ways of thinking: the explorer asking what can I do here, and the follower asking what does the product want me to do. A screen serves both: it shows what is possible, and it sets a goal, an empty cart beside the products, say.
 - At each step ask what the user wonders and whether the screen answers it. A word or number that answers nothing the user asks goes.
 - A number needs a reference: for a value with steps, such as a plan or a level, show where the user stands, where it goes and the difference, and what it comes to.
-- Nothing the user has not met yet is shown or named.
+- No spoilers: copy never names an event, a reward or a step the user has not reached yet, though the docs and tickets already hold it.
+- What lies ahead can still show, locked or disabled, such as a disabled button until the form is filled, and it is told in words the user already knows.
+- Foreshadowing is the exception: a hint placed on purpose, vague enough to pass now and plain on a replay. It is designed in the story, never leaked from a ticket.
 - Walk the journey in the running app before calling the change done.
 
 ## Examples

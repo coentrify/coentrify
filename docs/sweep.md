@@ -7,7 +7,6 @@ The worklist from a sweep over every standard, the top-level pages, the tools an
 
 ## Rules That Contradict
 
-32. Walk The User's Journey shows nothing unmet, and the game laws show locked rows grayed out.
 33. A clear and cheap maybe is landed, which can read as built without a go.
 34. Standards Maintenance covers a misfit now, and never in the middle of other work.
 35. A skill is a standard in Standards, and a starting point in Standards Over Skills.
