@@ -8,7 +8,7 @@ Standards rot if left alone.
 
 ## Recurring Sweep
 
-Once the standards feel heavy, scan for and fix:
+A sweep analyzes the standards, documents what it finds, and files it as work to pick up, in a batch or as tickets ([Sweeps Enumerate Into Tech-Debt First](sweeps-enumerate-into-tech-debt-first.md)). It looks for:
 
 - Bloat - sections that yap when one sentence would do.
 - Stale rules - standards that contradict current practice or reference removed concepts. Update or delete.
@@ -16,8 +16,6 @@ Once the standards feel heavy, scan for and fix:
 - Drift - the line in the overview no longer matches the standard's gist. Rewrite the line.
 - Format violations - em dashes, numbered lists, non-Title-Case headers, hard-wrapped lines.
 - Dead cross-links - links to files that have been renamed or deleted.
-
-A sweep doesn't need to touch every file. Cover what's in front of you when a standard feels wrong.
 
 ## Format
 
@@ -49,9 +47,9 @@ Soft caps: past a cap, a standard is trimmed or split before anything is added t
 
 ## When To Sweep
 
-- Triggered by a `coentrify update`.
-- Triggered by reading a standard that no longer makes sense in the moment.
-- Never unprompted in the middle of unrelated work - note the friction per [Note Issues](note-issues.md) and continue.
+- A standard that feels wrong, or does not apply, is noted and goes through healing ([Always Make No Mistakes](always-make-no-mistakes.md)). The task at hand goes on.
+- After a standard changes, by healing or by an update, a sweep of what it touches follows.
+- When the standards feel heavy.
 
 ## How To Apply
 
