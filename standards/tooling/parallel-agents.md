@@ -34,7 +34,7 @@ Agents that work at the same time should not conflict.
 
 ## Cleanup
 
-- A builder's worktree is removed only after its story's verdict, any other agent's after its final report or completion notice, never when a commit lands.
+- A builder's branch and worktree go once its story is done: after its verdict, or once its last ticket lands for a story that waits for none. Any other agent's worktree goes after its final report or completion notice, never when a commit lands.
 - A branch is deleted only after `git cherry main <branch>` was read for it and every `+` traced to a landing, never by a wider pattern than the branches checked.
 
 ## Related
