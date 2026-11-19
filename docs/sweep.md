@@ -7,7 +7,6 @@ The worklist from a sweep over every standard, the top-level pages, the tools an
 
 ## Rules That Contradict
 
-25. The docs agent's grooming shows on a plan that only holds tickets with a go.
 26. A bare line from intake has no home before its go.
 27. A story without open tickets stays on the accept list.
 28. The director's answer to a question is a go, and an ask is never the go.
