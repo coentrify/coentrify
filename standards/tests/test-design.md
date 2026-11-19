@@ -11,8 +11,8 @@ A failing test points at the layer that broke.
 - ui - presentational components, design tokens. Unit + integration + styleguide.
 - app - app shells, routing, feature wiring. Unit + e2e.
 - data - API clients, mappers, caches. Scenario tests, one per request and response variant against the client.
-- core - pure logic, models, utilities. Unit only.
-- config - per-application configuration. Scenario tests with maximum config variance to catch drift.
+- core - generic services, guards, interceptors, stores and utilities. Unit only.
+- config - types and tokens, with no logic of their own. Scenario tests vary the configuration to catch drift.
 
 ## Honor Each Test Type's Implied Principles
 
