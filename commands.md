@@ -37,6 +37,7 @@ Any request to bring the project up to date. The update script from the [tools](
 - Show the director a changed rule in a tracked standard before it is replaced.
 - Run it again with `--apply`, which replaces the tracked standards and writes the new version.
 - Run the unlink script again, since a replaced standard brings its links back.
+- Apply each setup change the changelog names since the project's version, the way the onboarding now reads.
 - Report the changes for a customized standard, and a standard renamed, moved or removed at the source.
 - Report new standards worth considering, and surface one that has the same name as one of the project's own.
 - Update the decisions.
