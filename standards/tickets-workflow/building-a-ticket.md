@@ -37,7 +37,7 @@ A ticket or a line is done only when every one of these holds. Until then it sta
 - The agent's own decisions stand under Veto ([Flag Every Addition Of Your Own](../behavior/flag-every-addition-of-your-own.md)).
 - The change lands as its own commit, staging read before committing ([Verify Staging Before Committing](../commits/verify-staging-before-committing.md)).
 - Captures and archive moves are never batched for later. The version's changelog lists the ticket by itself ([Changelog Per Version](../records/changelog-per-version.md)).
-- A debt ticket is archived in its landing commit ([Work Tracking](work-tracking.md#the-archive)). Its story's branch goes as [Parallel Agents](../tooling/parallel-agents.md#cleanup) says.
+- A debt ticket is archived in its landing commit ([Work Tracking](work-tracking.md#the-archive)).
 
 ## Related
 
