@@ -10,6 +10,7 @@ The Gamedev standards: game development.
 - [Game Design Laws: Guidance](game-design-laws-guidance.md) - what the game hints and teaches
 - [Game Design Laws: Own Style](game-design-laws-own-style.md) - what makes the game its own
 - [Game Design Laws: Progress](game-design-laws-progress.md) - the shape of the whole game
+- [Game Design Laws: Quality](game-design-laws-quality.md) - the bar everything in the game meets
 - [Game Design Laws: Story](game-design-laws-story.md) - what the game says
 - [Game Design Laws: UI](game-design-laws-ui.md) - the screen and the controls
 - [Game Design Laws: World](game-design-laws-world.md) - the world the player moves through
