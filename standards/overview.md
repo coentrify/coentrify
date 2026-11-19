@@ -2,9 +2,9 @@
 
 The rules, conventions and templates a project adopts.
 
-## Read First
+## Core Rules
 
-The core standards. An agent reads these at the start of every session.
+The rules every task follows, in every session. An agent reads them before anything else and again after a compaction, and holds to each one as it would to a check.
 
 - [Always Make No Mistakes](behavior/always-make-no-mistakes.md)
 - [Always Verify Before Reporting Done](behavior/always-verify-before-reporting-done.md)

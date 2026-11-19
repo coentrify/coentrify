@@ -4,9 +4,9 @@ Work by the standards in [standards/overview.md](standards/overview.md). Read a 
 
 The docs about this repository's own development are in `docs/`.
 
-After a compaction, read the Read First standards again.
+After a compaction, read the Core Rules again.
 
-## Read First
+## Core Rules
 
 @standards/behavior/always-make-no-mistakes.md
 @standards/behavior/always-verify-before-reporting-done.md

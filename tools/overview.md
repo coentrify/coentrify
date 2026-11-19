@@ -18,5 +18,5 @@ The three scripts run in bash. `PICK_REPO` names the repository and `PICK_BRANCH
 ## Hooks
 
 - `hooks/gate-commit-on-exit-codes.py` - refuses a commit that does not hang on its check ([Gate Commits on Exit Codes](../standards/commits/gate-commits-on-exit-codes.md)), and a commit that follows a `git add` in the same command ([Verify Staging Before Committing](../standards/commits/verify-staging-before-committing.md))
-- `hooks/reload-read-first.sh` - prints the Read First standards after a compaction ([Reload The Standards After Compacting](../standards/behavior/reload-the-standards-after-compacting.md))
+- `hooks/reload-core-rules.sh` - prints the Core Rules after a compaction ([Reload The Standards After Compacting](../standards/behavior/reload-the-standards-after-compacting.md))
 - [`hooks/refuse-wrap-up-questions.md`](hooks/refuse-wrap-up-questions.md) - a spec for a hook that refuses answer buttons at the end of a turn, since each app ends a turn its own way. `hooks/refuse-wrap-up-questions.sh` is its example, for an app whose wrap-up takes `ask` and `actions` ([Free Text Replies, No Buttons](../standards/behavior/free-text-replies-no-buttons.md))

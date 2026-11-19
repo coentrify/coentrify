@@ -48,7 +48,7 @@ Every message from the director is handled at once, while the work keeps landing
 
 - The ticket it works, linked. Its acceptance criteria are the target ([Work Workflow](work-workflow.md)).
 - The setup commands, exact and with absolute paths.
-- Never a list of standards to read in full, and never a summary of them: the Read First standards and the index load by themselves, and the agent opens the standards its work touches.
+- Never a list of standards to read in full, and never a summary of them: the Core Rules and the index load by themselves, and the agent opens the standards its work touches.
 - The branch only ever holds commits ready to land. A commit is never amended once made, and a fix goes in as a new commit.
 - A criterion is measured once and proved from that run. A measure that cannot hold goes back to the conductor, who restates it under Veto or asks the director.
 - Before each commit: hygiene, types and unit, each by its exit code ([Gate Commits on Exit Codes](../commits/gate-commits-on-exit-codes.md)).
