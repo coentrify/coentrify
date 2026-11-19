@@ -4,7 +4,6 @@ The worklist from a sweep over every standard, the top-level pages, the tools an
 
 ## Install And Update
 
-3. Security is in none of the recommendation lists.
 4. An idea is recommended the Game Phases, a gamedev standard.
 5. A prototype gets no records, while automatic healing writes to the healing log.
 6. The update only covers `standards/`, so a change to the setup never reaches an updated project.
