@@ -13,7 +13,7 @@ A level shows the director where a workspace stands, and from that what has prio
 - Level 2 - Fully tested. Unit and e2e coverage in place.
 - Level 3 - Primary framework on the latest release (e.g. latest Angular).
 - Level 4 - Fully up to date. All dependencies current, not just the primary framework.
-- Level 5 - Tool complete. Every suite deliverable exists and its deployment is green.
+- Level 5 - Suite complete. Every deliverable of the [Workspace Suite](workspace-suite.md) exists and its deployment is green.
 
 ## Tooling And The Levels
 
