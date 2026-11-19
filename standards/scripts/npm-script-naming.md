@@ -12,6 +12,8 @@ Format: `<verb>:<app>:<thing>`. App always comes second, never `<verb>:<thing>:<
 
 ### Verbs
 
+A verb names the kind of run, such as these:
+
 - `start:` - long-running processes (dev server, report viewer).
 - `test:`, `lint:`, `build:`, `e2e:`, `install:` - one-shot runs.
 

@@ -2,6 +2,10 @@
 
 A ticket is one file, the single source of truth for one piece of work. This standard holds its shape. How to fill it is in [Writing A Ticket](writing-a-ticket.md), and the tracking around it in [Work Tracking](work-tracking.md).
 
+## Why
+
+Every agent reads a ticket in one shape, and code checks it the same way each time.
+
 ## The Template
 
 Its filename is the slug of its name ([Work Item Names](work-item-names.md)). It holds two routes, kept apart: the work's, from the current situation (A) to the acceptance criteria (B) with the solution between them, and the user's, the entry points where the user meets the change. Each section answers one question.
