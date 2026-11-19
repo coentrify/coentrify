@@ -21,7 +21,6 @@ The versions on the way to 1.0.
 - Whether How It Works keeps its line on the one-word prompt.
 - Whether Always Work From A Plan keeps its title, now that its rule is conditional.
 - Whether the first round of the vetting is probed again on hard traps, with every shrunk standard tested shrunk and in full.
-- Whether Game Design Laws: Progress and Gamedev Working Cadence are split, since both are past the size of one standard.
 - Whether Reels And Video Proof keeps its line that the agent cannot listen, now that Measure Sound, Never Guess dropped it.
 - Whether the commit check refuses a changelog entry for a standard that is back at its released text.
 - Whether the commit check refuses a change to a standard that the latest version names, once that version is tagged.

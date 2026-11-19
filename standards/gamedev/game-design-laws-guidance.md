@@ -40,3 +40,4 @@ Confirm overlaps the next link's Awareness, so the pattern widens the horizon as
 - [Game Design Laws: Story](game-design-laws-story.md)
 - [Game Design Laws: World](game-design-laws-world.md)
 - [Game Design Laws: Own Style](game-design-laws-own-style.md)
+- [Game Design Laws: Quality](game-design-laws-quality.md)

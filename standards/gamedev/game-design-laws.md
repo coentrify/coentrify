@@ -1,6 +1,6 @@
 # Game Design Laws
 
-Laws are short rules that hold unless there is a very good reason to break one. The generic set lives in the standards, in seven parts by theme, and this standard is its index. A game's own laws and overrides stand in the game's docs.
+Laws are short rules that hold unless there is a very good reason to break one. The generic set lives in the standards, in eight parts by theme, and this standard is its index. A game's own laws and overrides stand in the game's docs.
 
 ## Why
 
@@ -33,12 +33,17 @@ The full text is in [Game Design Laws: Progress](game-design-laws-progress.md).
 - [As Long As It Is Interesting](game-design-laws-progress.md#as-long-as-it-is-interesting) - no target length
 - [Doable 100%](game-design-laws-progress.md#doable-100) - no orthogonal skill demanded for completion
 - [No Try Hard](game-design-laws-progress.md#no-try-hard) - every play style is supported
-- [Always Polished](game-design-laws-progress.md#always-polished) - what goes out is polished, and whatever gets made is good at what it does
 - [Earned Progress](game-design-laws-progress.md#earned-progress) - start with as little as possible and earn the rest
-- [Every Mechanic Matters](game-design-laws-progress.md#every-mechanic-matters) - none is added for the sake of one more
 - [Lasting Impact](game-design-laws-progress.md#lasting-impact) - what the player decides lasts
 - [Emergent Gameplay](game-design-laws-progress.md#emergent-gameplay) - systems that open possibilities
 - [Know What Is Coming](game-design-laws-progress.md#know-what-is-coming) - the next step and the distance to the goal are always visible
+
+### Quality
+
+The full text is in [Game Design Laws: Quality](game-design-laws-quality.md).
+
+- [Always Polished](game-design-laws-quality.md#always-polished) - what goes out is polished, and whatever gets made is good at what it does
+- [Every Mechanic Matters](game-design-laws-quality.md#every-mechanic-matters) - everything added adds value, or it goes
 
 ### UI
 
