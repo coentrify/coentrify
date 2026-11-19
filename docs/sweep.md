@@ -7,7 +7,6 @@ The worklist from a sweep over every standard, the top-level pages, the tools an
 
 ## Rules That Contradict
 
-13. A feature doc describes routes and use cases, and the Feature Template forbids both.
 14. The application's overview test is `<Application> Demo` in one page and `<Application> - Overview` in another.
 15. Core holds pure logic in Test Design, and no business logic in App-Shield.
 16. A `color` input is the example in UI Library Is Domain-Agnostic, and the leak in UI Variants By Function.
