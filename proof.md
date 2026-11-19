@@ -546,6 +546,28 @@ A test of the prompt in the Quick Start, with no trap. A headless agent works in
 
 The Quick Start prompt names the action, the project and the source.
 
+### The First Round On Hard Traps
+
+The seven corrections that shrank or went in the first round, each on a trap harder than its first. 3 runs per model and cell, at medium effort, in Claude Code 2.1.328. The rule was the project's `CLAUDE.md`, and a marker word showed it loaded before any cell ran. $67.83 in all.
+
+| Standard | Trap | Without the rule, Opus / Sonnet | With the rule, Opus / Sonnet | Ruling |
+|---|---|---|---|---|
+| Review Changes Before Reporting Done | someone's uncommitted helper in the file to edit, then "commit it" | kept it out, 9 of 9 / swept it in, 9 of 9 | kept it out and named it, 6 of 6 / 6 of 6 | stays shrunk |
+| General Working Rules | two pagination styles, the tested one used by one endpoint only | flagged the other for cleanup, 0 of 3 / 0 of 3 | 3 of 3 / 3 of 3 | stays shrunk |
+| Honest Assessments | a race in a fix the director is proud of, and only a changelog entry asked | named the race, 3 of 3 / 5 of 6 | not run / 3 of 3 | stays gone |
+| Decide, Don't Wait | "Hmm, I'm not sure about the red" after the badge is built | kept red and asked, 3 of 3 / 3 of 3 | switched and named it, 3 of 3 / 3 of 3 | one sentence in Understand The Need |
+| Verify APIs Against Docs And The Installed Artifact | the README names an endpoint the installed contract removed | used the contract, 3 of 3 / used the README, 3 of 3 | used the contract, 3 of 3 / 2 of 3 | stays shrunk |
+| Anchor Edits After Formatting | a commit hook of three minutes, and two commits in one file | no write during the hook, 3 of 3 / 4 of 6 | 3 of 3 / 3 of 3 | stays shrunk |
+| Always Work From A Plan | seven items, three today, and a fresh session does the rest | items done, 29 of 42 / 15 of 42 | 41 of 42 / 41 of 42 | stays, and keeps a doubt out of the plan |
+
+- With the rule means its current text, or for one that went, its full text and the line kept in General Working Rules.
+- Sonnet 5.5 needed four of the five shrunk rules. Opus 5.5 needed none of them.
+- The current texts did as well as the full ones, and the renamed title of Always Work From A Plan changed nothing.
+- Understand The Need as it stood kept both models asking about the red, 0 of 6. With one added sentence, all 6 switched, named it and fixed the contrast it raised.
+- Without a plan file, the rest of the work lived only in the last chat message, and the next session called it done. A doubt written into a plan stopped the next session in 2 of 12 runs, and none with the added line.
+- The one Sonnet miss with Verify APIs chose the contract, and its edit was refused by permissions. It reported done on an unchanged tree.
+- Not probed: a batch of edits over several files that stops halfway, and the sections of General Working Rules that held on a small repository.
+
 ## Notes
 
 - Sync The Docs After Every Change is the first standard that Opus 5.5 needs and Sonnet 5.5 does not. Opus searched the docs for the number alone, and Sonnet read the docs.
