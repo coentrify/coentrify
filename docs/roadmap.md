@@ -9,7 +9,7 @@ The versions on the way to 1.0.
 
 ## Next
 
-- Sweep the standards for anything that triggers, and report it before the probes.
+- Rule on every finding of the [sweep](sweep.md), one at a time.
 - Probe the first round of the vetting again on hard traps: the corrections that shrank or went, with every shrunk standard tested shrunk and in full.
 - Probe Always Work From A Plan on a good trap, with its current text and with a renamed title, and compare. Missed work and rework count, and so does a plan picked up by the next session.
 - Probe the standards again at every new model release, on new traps.
