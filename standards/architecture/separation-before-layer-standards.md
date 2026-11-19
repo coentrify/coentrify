@@ -9,7 +9,7 @@ Layer placement is the foundation that the work on each layer stands on.
 ## How to Apply
 
 - Land layer-placement moves first, for example domain data-access out of core into its proper data or feature layer.
-- Then go layer by layer against each one's standards (ui: content projection over props; data: mappers / types / DTOs; core: generic infra only; and so on).
+- Then go layer by layer against each one's standards (ui: content projection over props, data: mappers / types / DTOs, core: generic infra only, and so on).
 
 ## Related
 

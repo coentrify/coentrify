@@ -11,7 +11,7 @@ A playtest file records what was felt about a build, and the next build is held 
 - The number gives the director and the playtesters a shared name for a session.
 - The H1 carries the number and the DEV day, the way the log's does: `# Playtest 46 - DEV day 13`, so the wiki's menu shows it. The head repeats the day (`- Day: DEV day 13`), counted as in the log ([Request Log](request-log.md)).
 - A playtest on an untagged build names the version in progress.
-- The summary is two or three lines naming the themes; the items stay in the list.
+- The summary is two or three lines naming the themes. The items stay in the list.
 
 ## What Counts As A Playtest
 
@@ -21,12 +21,13 @@ A playtest file records what was felt about a build, and the next build is held 
 
 ## How to Apply
 
-- Write the file right after the log entry, before anything else is done with the feedback; never afterwards on request.
+- Write the file right after the log entry, before anything else is done with the feedback. Never afterward on request.
 - Feedback stays feedback: its units go through intake ([Work Workflow](../tickets-workflow/work-workflow.md)), where the director's "feedback for now" or "not for now" means built later in its epic and phase, never held.
 
 ## Outside Playtesters
 
-- Each outside playtester gets a page listing everything that playtester said by date, so the director sees the whole view at once; the director's own sessions keep the numbered files.
+- Each outside playtester gets a page listing everything that playtester said by date, so the director sees the whole view at once.
+- The director's own sessions keep the numbered files.
 - An outside playtester's feedback, even relayed by the director, stays on the playtester's page until the director has reviewed it: no ticket or agent brief from it before that review.
 - A workspace doc names every outside playtester for later thanks and indexes the pages.
 

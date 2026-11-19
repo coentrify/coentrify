@@ -8,7 +8,7 @@ A closed state is judged by what the user sees.
 
 ## How to Apply
 
-- Verify the closed state with the computed display, a negated visibility assertion or a screenshot on load; a boolean read back from the element proves only the flag.
+- Verify the closed state with the computed display, a negated visibility assertion or a screenshot on load. A boolean read back from the element proves only the flag.
 - On a first publish of any new overlay, take one screenshot of the page with it closed before calling it done.
 
 ## Examples

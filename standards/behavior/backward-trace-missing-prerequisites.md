@@ -12,3 +12,9 @@ A gap is closed once, for every feature after it.
 - Start the prerequisite once it has its go. Recurse if its prerequisite is also missing.
 - Resume only after the prerequisite is committed and verified.
 - Never fold prerequisite work into the current feature's diff. Never write a throw-away bypass to get past the gap.
+
+## Related
+
+- [Feature Workflow](feature-workflow.md)
+- [The Simple Workflow](../simple-workflow/the-simple-workflow.md)
+- [Work Workflow](../tickets-workflow/work-workflow.md)

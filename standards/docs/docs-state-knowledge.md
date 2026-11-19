@@ -10,10 +10,10 @@ A knowledge page reads as what is true now. The log holds who said what and when
 
 ## How to Apply
 
-- Writing or editing a knowledge page: state the fact in plain present tense; leave the attribution, the date and the quote in the log.
+- Writing or editing a knowledge page: state the fact in plain present tense. Leave the attribution, the date and the quote in the log.
 - The director's say over the docs still holds ([Docs Hold Only What the Director Decided](../behavior/docs-hold-only-what-the-director-decided.md)): only what the director said or approved goes in. The check is the log, never a marker on the line.
-- Organize a page by topic, broad to specific, the way an encyclopedia article is; never a running list in the order things were decided.
-- Briefs tell agents the same; a brief never asks an agent to mark what it quotes.
+- Organize a page by topic, broad to specific, the way an encyclopedia article is. Never a running list in the order things were decided.
+- Briefs tell agents the same. A brief never asks an agent to mark what it quotes.
 - The project's hygiene suite can enforce it: no attribution markers and no dated attribution outside the log and the process records.
 
 ## Related

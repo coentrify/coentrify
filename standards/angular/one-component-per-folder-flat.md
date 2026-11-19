@@ -5,3 +5,8 @@ Every component gets its own folder, named after it, under the right `components
 ## Why
 
 A component is found where its name says, and moves as one folder.
+
+## Related
+
+- [Folder Concerns](../architecture/folder-concerns.md)
+- [No Inline Templates](no-inline-templates.md)

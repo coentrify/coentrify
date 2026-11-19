@@ -8,7 +8,7 @@ A comment keeps every session from flagging the hatch or "fixing" it.
 
 ## Confirm It's Needed First
 
-Before keeping an escape hatch, confirm it's actually required. Many are copied along without a need or left over from an earlier approach and disappear once the real cause is addressed. Prefer removing the hatch over documenting it.
+Before keeping an escape hatch, confirm it's required. Many are copied along without a need or left over from an earlier approach and disappear once the real cause is addressed. Prefer removing the hatch over documenting it.
 
 ## If It Stays, Comment Why
 

@@ -9,17 +9,17 @@ A change report proves a change and shows how far it spread, so the work is revi
 ## Section Shape
 
 - Headline + one-sentence hook - what was wrong (or what's new) and what changed.
-- TL;DR - what / where / fix, three lines, in a callout.
+- TLDR - what / where / fix, three lines, in a callout.
 - The Problem (feature: *Before*) - what the user saw, with a screenshot.
 - Context & Reproduction - conditions, where it appears, steps, expected vs actual.
-- Analysis - root cause in a sentence or two; a bug is smoke, name the fire.
-- The Sweep - grep for siblings of the same pattern; record what else was affected (screenshots) and what was verified clean. This is what earns trust.
+- Analysis - root cause in a sentence or two. A bug is smoke, name the fire.
+- The Sweep - grep for siblings of the same pattern. Record what else was affected (screenshots) and what was verified clean. This is what earns trust.
 - The Fix (feature: *After*) - what changed, with before/after images at every location the sweep named.
-- Verification - how it was confirmed: test added, e2e, type check, manual; never an unconfirmed fix.
+- Verification - how it was confirmed: test added, e2e, type check, manual. Never an unconfirmed fix.
 - Impact (feature: *Benefit*, led with) - user-facing effect, plus follow-ups linked out.
 - References - feature/spec/use-case/bug/PR, and related reports.
 
-Drop sections that don't apply. Screenshots over prose; videos only when the point is motion. Name files and slugs by concept, not translated UI copy.
+Drop sections that don't apply. Screenshots over prose. Videos only when the point is motion. Name files and slugs by concept, not translated UI copy.
 
 ## Deliverable
 
@@ -28,9 +28,10 @@ Where a project keeps a changelog per version, that page is the record and this 
 ## How to Apply
 
 - Reach for this when picking an item off a bugs list, recording a finding, or finishing a feature.
-- Only product changes are entries: what the user of the product sees or does differently. Changes to the wiki, the capture and reel scripts, lint or hooks are not changelog entries; their commit is the record.
+- Only product changes are entries: what the user of the product sees or does differently. Changes to the wiki, the capture and reel scripts, lint or hooks are not changelog entries. Their commit is the record.
 - Run the enumerate-first sweep before declaring the pattern closed.
-- Capture proof and verify before reporting; never soften a state in the proof.
+- Capture proof and verify before reporting.
+- Never soften a state in the proof.
 
 ## Related
 

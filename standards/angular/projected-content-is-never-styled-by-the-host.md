@@ -10,7 +10,7 @@ A style belongs with the component that owns the element.
 
 - Style projected children from their own component, or give the host an input that renders the element itself (the section's `empty` line).
 - Put state that must affect projected content on the container the host owns (the column, not the projected panel).
-- Never reach for `::ng-deep` or `ViewEncapsulation.None` for this; treat the miss as a design smell.
+- Never reach for `::ng-deep` or `ViewEncapsulation.None` for this. Treat the miss as a design smell.
 
 ## Examples
 

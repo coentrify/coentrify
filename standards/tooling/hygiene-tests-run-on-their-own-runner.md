@@ -9,7 +9,7 @@ A separate, tiny config runs in milliseconds and stays independent of the app bu
 ## How to Apply
 
 - Put the checks in `hygiene/` with a `vitest.hygiene.config.ts`, script `test:hygiene`, and add it to the pre-push chain.
-- Resolve relative imports against the file's directory before judging a layer crossing; a subfolder named like a layer (`ui/core`) otherwise triggers false positives.
+- Resolve relative imports against the file's directory before judging a layer crossing. A subfolder named like a layer (`ui/core`) otherwise triggers false positives.
 - Each rule sweeps the whole tree and reports offenders as a list, so a failure names every file to fix.
 
 ## Related

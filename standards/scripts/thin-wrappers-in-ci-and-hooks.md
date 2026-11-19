@@ -19,3 +19,7 @@ Every behavior is found in `package.json`, and runs the same from CI, a hook or 
   Real commands go in `package.json` under `ci:<name>` (e.g. `"ci:lint": "nx affected --target=lint --base=origin/main"`).
 - Editing an existing hook or CI step: move any inline commands into a matching npm script first.
 - Wrap even a one-line command, for consistency.
+
+## Related
+
+- [npm Script Naming](npm-script-naming.md)

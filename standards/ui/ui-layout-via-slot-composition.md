@@ -1,6 +1,6 @@
 # UI Layout via Slot Composition
 
-Layout in the shared `ui` library is slot composition through content projection. A layout or container component exposes a few generic slots (such as top, body, footer) and owns only how those regions sit; it never takes a columns template, grid-config prop or preset. Finer structure is the next layer down: a region that needs columns or sections gets a section or grid component projected into its slot, so the container never grows options for every shape.
+Layout in the shared `ui` library is slot composition through content projection. A layout or container component exposes a few generic slots (such as top, body, footer) and owns only how those regions sit. It never takes a columns template, grid-config prop or preset. Finer structure is the next layer down: a region that needs columns or sections gets a section or grid component projected into its slot, so the container never grows options for every shape.
 
 ## Why
 
@@ -11,7 +11,7 @@ A layout component stays generic and reusable.
 - The body is always the default slot: `<ng-content />`. Named slots use an attribute selector, `<ng-content select="[slot=top]" />`, filled by the consumer as `<x slot="top">`.
 - One slot stays unnamed, as the default.
 - Two or more slots are usually one default (the body) plus a couple of named ones (`top`, `actions`, `footer`).
-- Only when a default makes no sense (genuinely symmetric regions, such as left and right) are there two named slots and no default; in practice this is rare.
+- Only when a default makes no sense (symmetric regions, such as left and right) are there two named slots and no default. In practice this is rare.
 
 ## How to Apply
 

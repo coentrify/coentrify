@@ -8,7 +8,7 @@ A script's name says what it runs and for which context.
 
 ## Tasks (Run by Humans or Shared)
 
-Format: `<verb>:<app>:<thing>`. App always comes second, never `<verb>:<thing>:<app>`. Omit `<app>` in single-app projects; omit `<thing>` when not needed.
+Format: `<verb>:<app>:<thing>`. App always comes second, never `<verb>:<thing>:<app>`. Omit `<app>` in single-app projects. Omit `<thing>` when not needed.
 
 ### Verbs
 
@@ -31,4 +31,9 @@ Format: `<context>:<thing>`. Each automation context gets its own dedicated scri
 
 For tools that ship as installable binaries (Playwright, MSW, etc.), add a thin wrapper script in `package.json`: `"playwright:install": "playwright install --with-deps chromium"`. Call it via `npm run playwright:install` rather than invoking the binary directly.
 
-Don't expose internal env vars or build flags (`DEMO=1`, `CI=true`) in script names; keep them inside the script.
+Don't expose internal env vars or build flags (`DEMO=1`, `CI=true`) in script names. Keep them inside the script.
+
+## Related
+
+- [Thin Wrappers in CI and Hooks](thin-wrappers-in-ci-and-hooks.md)
+- [No npx in Scripts](no-npx-in-scripts.md)

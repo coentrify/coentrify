@@ -8,7 +8,7 @@ A scene lands right the first time, without a round of feedback.
 
 ## Perspective
 
-- One horizon and its vanishing points per scene; every object is drawn in them.
+- One horizon and its vanishing points per scene. Every object is drawn in them.
 - Verticals stay vertical, and the top and bottom edges of a standing object run to the vanishing point, never tilted on their own.
 - A space seen inside another, such as a room through a doorway, takes the outer room's vanishing point.
 - Repeated elements in depth (lights, tiles, a ceiling grid) shrink and converge together, their lines meeting in one point.

@@ -19,12 +19,12 @@ Functional only - what the product is, who it serves, what shared concerns exist
 
 Technical companion to overview.md, ordered by relevance / logical flow (not low-level-first). Leads with the core mental model, then catalogs, then conventions:
 
-- Applications - apps are thin bootstrap shells under `apps/<app>/` (providers, top-level routes, a bare `<router-outlet />`); the app itself is implemented in a lazy-loaded feature lib. Where workspace libs live (`libs/shared/`, `libs/<app>/`).
+- Applications - apps are thin bootstrap shells under `apps/<app>/` (providers, top-level routes, a bare `<router-outlet />`). The app itself is implemented in a lazy-loaded feature lib. Where workspace libs live (`libs/shared/`, `libs/<app>/`).
 - Layers - the five-layer app-shield briefly reiterated (app/ui/data/core/config + one-way dependency direction), mapping the `@my-application/*` libs onto their layer.
 - Libraries - external deps grouped by origin: Internal (your own or the organization's packages), General (third-party e.g. `angular-auth-oidc-client`, `@jsverse/transloco`), Meta (tooling e.g. nx, playwright, jest, vitepress).
 - Conventions (path aliases, prefixes, mock toggles).
 
-Cross-cutting concerns that outgrow a section graduate to their own flat file under `docs/workspace/` (authentication.md, design-system.md, component-library.md, testing.md - collected in one workspace folder, not per-concern folders); architecture.md links them and they surface in the wiki sidebar automatically. Don't re-merge them back into architecture.md. Skip a "documentation layout" map - the auto-generated wiki sidebar covers discovery.
+Cross-cutting concerns that outgrow a section graduate to their own flat file under `docs/workspace/` (authentication.md, design-system.md, component-library.md, testing.md - collected in one workspace folder, not per-concern folders). architecture.md links them and they surface in the wiki sidebar automatically. Don't re-merge them back into architecture.md. Skip a "documentation layout" map - the auto-generated wiki sidebar covers discovery.
 
 If a workspace doc accumulates implementation detail, move it here (or into the matching concern doc) rather than letting overview.md drift technical.
 

@@ -11,7 +11,9 @@ The UI stays one coherent system.
 - An existing component brings theming and accessibility with it.
 - Everything through the UI layer gives the design system a clear pressure point when something is missing.
 - Reach for an existing component first. Verify icon and component names against the package before using.
-- If the design-system package doesn't have what you need, add a component to the workspace's shared UI library. Composition stays in the app and feature layers; UI primitives stay in the UI library.
+- If the design-system package doesn't have what you need, add a component to the workspace's shared UI library.
+- Composition stays in the app and feature layers.
+- UI primitives stay in the UI library.
 - If neither the package nor the workspace UI library can cover it (it belongs in the design system but isn't there yet), ask the director - don't inline a custom one.
 
 ## Related

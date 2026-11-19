@@ -12,17 +12,17 @@ Design builds on what is settled, and an agent decides the small things on its o
 
 The full text is in [Game Design Laws: Experience](game-design-laws-experience.md).
 
-- [Never Wait](game-design-laws-experience.md#never-wait) - the player never waits unless continuing is technically impossible; unavoidable waiting entertains
+- [Never Wait](game-design-laws-experience.md#never-wait) - the player never waits unless continuing is technically impossible. Unavoidable waiting entertains
 - [Always Something To Do](game-design-laws-experience.md#always-something-to-do) - a pull short term, a dot on the horizon long term
 - [Exploration Is Rewarded](game-design-laws-experience.md#exploration-is-rewarded) - looking around always finds something
 - [Full Control](game-design-laws-experience.md#full-control) - nothing is decided or happens without the player
 - [Respect](game-design-laws-experience.md#respect) - no dumb tutorials
 - [Speedrun Ready](game-design-laws-experience.md#speedrun-ready) - a returning speedrunner has as good an experience as a first-time player
 - [Once Per Save](game-design-laws-experience.md#once-per-save) - a story cutscene and a progression minigame play once per save
-- [AFK Safe](game-design-laws-experience.md#afk-safe) - away without negative effect; nothing is lost and nothing auto progresses
+- [AFK Safe](game-design-laws-experience.md#afk-safe) - away without negative effect. Nothing is lost and nothing auto progresses
 - [Easy Pause](game-design-laws-experience.md#easy-pause) - pausing is always easy
 - [Soft Sound](game-design-laws-experience.md#soft-sound) - a soft mix, varied repeats, a layer per scene
-- [Fun First](game-design-laws-experience.md#fun-first) - player experience is priority one; a good game clips well
+- [Fun First](game-design-laws-experience.md#fun-first) - player experience is priority one. A good game clips well
 - [Loop First](game-design-laws-experience.md#loop-first) - the core loop is fun in a greybox, before anything is built on it
 
 ### Progress
@@ -57,16 +57,16 @@ The full text is in [Game Design Laws: UI](game-design-laws-ui.md).
 
 The full text is in [Game Design Laws: Story](game-design-laws-story.md).
 
-- [Show, Don't Tell](game-design-laws-story.md#show-dont-tell) - the player experiences it; words short and never too spot on
-- [Worth Reading](game-design-laws-story.md#worth-reading) - dialog; a missed line stays missed
+- [Show, Don't Tell](game-design-laws-story.md#show-dont-tell) - the player experiences it. Words short and never too spot on
+- [Worth Reading](game-design-laws-story.md#worth-reading) - for dialog: a missed line stays missed
 - [Dialog Gives Context](game-design-laws-story.md#dialog-gives-context) - dialog accompanies the screen as narrative and gives context, never instructions
-- [Make Yourself](game-design-laws-story.md#make-yourself) - a player character; the player can represent themselves
+- [Make Yourself](game-design-laws-story.md#make-yourself) - for a player character: the player can represent themselves
 
 ### Guidance
 
 The full text is in [Game Design Laws: Guidance](game-design-laws-guidance.md).
 
-- [No Yellow Paint](game-design-laws-guidance.md#no-yellow-paint) - no steering that does the player's thinking; a hint is a context clue
+- [No Yellow Paint](game-design-laws-guidance.md#no-yellow-paint) - no steering that does the player's thinking. A hint is a context clue
 - [Answer The Player's Next Question](game-design-laws-guidance.md#answer-the-players-next-question) - every word and number is weighed by what it means to the player
 - [Adopt, Repeat, Confirm (ARC)](game-design-laws-guidance.md#adopt-repeat-confirm-arc) - a five step pattern for every new thing: awareness, trigger, adopt, repeat, confirm
 
@@ -74,7 +74,7 @@ The full text is in [Game Design Laws: Guidance](game-design-laws-guidance.md).
 
 The full text is in [Game Design Laws: World](game-design-laws-world.md).
 
-- [Fair Surprise](game-design-laws-world.md#fair-surprise) - the world has rules the player finds by playing; a surprise answers the player, warns once and is readable after
+- [Fair Surprise](game-design-laws-world.md#fair-surprise) - the world has rules the player finds by playing. A surprise answers the player, warns once and is readable after
 - [The World Reacts](game-design-laws-world.md#the-world-reacts) - an action leaves a trace that can be seen
 - [Friction In The World](game-design-laws-world.md#friction-in-the-world) - friction is something the player does there, never a menu or a wait
 
@@ -90,12 +90,12 @@ The full text is in [Game Design Laws: Own Style](game-design-laws-own-style.md)
 
 ## How to Apply
 
-- The player is a human who walks the dog, answers the door, goes to sleep and continues the next day. Laws about that human, such as Easy Pause, Never Wait and AFK Safe, translate into any genre; only their concrete shape changes.
+- The player is a human who walks the dog, answers the door, goes to sleep and continues the next day. Laws about that human, such as Easy Pause, Never Wait and AFK Safe, translate into any genre. Only their concrete shape changes.
 - A game's laws doc has three parts: the generic laws it adopts, the ones it leaves out with a reason, and its own laws and overrides in full.
 - An adopted or left-out law is named by its name in this set, never copied.
 - A law for one kind of game says so in its name or in a `Relevant for:` line, and is adopted or left out by it.
 - An exception is a paragraph under the law in the game's overrides, naming the feature and the reason, added only when the director affirms it.
-- Check a new feature against the laws before its spec; a conflict is surfaced, never averaged.
+- Check a new feature against the laws before its spec. A conflict is surfaced, never averaged.
 - Feature docs link the law they lean on instead of repeating it.
 - A new generic law is added to its part and to the index, in the director's wording with game specifics stripped.
 

@@ -12,4 +12,9 @@ A script runs what the lock file declares, online or offline.
 
 ## Exceptions
 
-- One-off interactive commands at the terminal can still use `npx`; this rule is about checked-in scripts.
+- One-off interactive commands at the terminal can still use `npx`. This rule is about checked-in scripts.
+
+## Related
+
+- [npm Script Naming](npm-script-naming.md)
+- [Thin Wrappers in CI and Hooks](thin-wrappers-in-ci-and-hooks.md)

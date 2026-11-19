@@ -2,45 +2,45 @@
 
 The Behavior standards: how an agent works and what an agent checks.
 
-- [A Go Before Work Elsewhere](a-go-before-work-elsewhere.md) - never start sessions, agents or work in another project without an explicit go; "next is X" names the topic, it is not a go; projects come from the director's words, never a recent-folders list
+- [A Go Before Work Elsewhere](a-go-before-work-elsewhere.md) - never start sessions, agents or work in another project without an explicit go. "Next is X" names the topic and is not a go. Projects come from the director's words, never a recent-folders list
 - [A Maybe Is A Trigger To Investigate](a-maybe-is-a-trigger-to-investigate.md) - a director's maybe gets investigated in the same go, never parked
 - [A Name Describes Its Unit](a-name-describes-its-unit.md) - a name describes its unit clearly and precisely, neither too broad nor too narrow
 - [A Quiet Tree While A Suite Runs](a-quiet-tree-while-a-suite-runs.md) - no source edits while a suite runs on a live dev server
-- [Always Make No Mistakes](always-make-no-mistakes.md) - use your standards; own mistakes and strengthen the harness with a rule or check
+- [Always Make No Mistakes](always-make-no-mistakes.md) - use your standards, own mistakes and strengthen the harness with a rule or check
 - [Always Verify Before Reporting Done](always-verify-before-reporting-done.md) - run the check that matches the change before claiming done
-- [Always Work from a Plan](always-work-from-a-plan.md) - work that survives the session or grows out of scope gets a written plan; in a project all work follows the project's workflow
+- [Always Work from a Plan](always-work-from-a-plan.md) - work that survives the session or grows out of scope gets a written plan. In a project all work follows the project's workflow
 - [Anchor Edits After Formatting](anchor-edits-after-formatting.md) - no write while a commit hook runs, check every anchor of a batch first, no edit by line number after a formatter
-- [Backward-Trace Missing Prerequisites](backward-trace-missing-prerequisites.md) - a missing prerequisite is filed above the item; recurse, never patch around
+- [Backward-Trace Missing Prerequisites](backward-trace-missing-prerequisites.md) - a missing prerequisite is filed above the item. Recurse, never patch around
 - [Code Review Compounds Into Patterns and Sweeps](code-review-compounds-into-patterns-and-sweeps.md) - a review finding is a pattern: review check, how-to standard, sweep ticket
-- [Communication Boundary](communication-boundary.md) - never contact users or testers or speak for the director; file `Tell <name>` tasks
+- [Communication Boundary](communication-boundary.md) - never contact users or testers or speak for the director. File `Tell <name>` tasks
 - [Dev Tiers](dev-tiers.md) - the recommended order: build, bugs, debt, features, within the current phase's goal. The director decides, and a pick that skips open bugs or debt gets a reminder
-- [Docs Hold Only What the Director Decided](docs-hold-only-what-the-director-decided.md) - docs hold only what the director decided; ideas go to chat first
+- [Docs Hold Only What the Director Decided](docs-hold-only-what-the-director-decided.md) - docs hold only what the director decided. Ideas go to chat first
 - [Don't Filter Data Without a Spec](dont-filter-data-without-a-spec.md) - never drop data unless the exclusion is specced and tested
-- [Don't Introduce Tech Debt](dont-introduce-tech-debt.md) - new code follows conventions even when neighbors don't; fix what your change caused
+- [Don't Introduce Tech Debt](dont-introduce-tech-debt.md) - new code follows conventions even when neighbors don't. Fix what your change caused
 - [Feature Workflow](feature-workflow.md) - plan -> doc -> spec -> failing e2e -> implement -> regression -> proof the user can verify
 - [File A Change With Coentrify](file-a-change-with-coentrify.md) - a contributor files a harness change that holds beyond its project, one point per issue, without project details
 - [Flag Every Addition of Your Own](flag-every-addition-of-your-own.md) - name every addition of your own in the report for a veto
-- [Free Text Replies, No Buttons](free-text-replies-no-buttons.md) - no answer buttons or wrap-up questions; ask in prose and keep going; no closing prompts where a dashboard shows the director's inboxes
+- [Free Text Replies, No Buttons](free-text-replies-no-buttons.md) - no answer buttons or wrap-up questions. Ask in prose and keep going. No closing prompts where a dashboard shows the director's inboxes
 - [General Working Rules](general-working-rules.md) - honest assessments, the model only for judgment calls, surface conflicts, read before you write, follow the written conventions
 - [Non-Destructive Documenting and Test Automation](non-destructive-documenting-and-test-automation.md) - doc, spec and test phases never touch production code
 - [Normal Dashes](normal-dashes.md) - always `-`, never em or en dashes
 - [Note Issues](note-issues.md) - write down every finding where the project's workflow says, never only in chat
-- [Own Ports, Own Processes](own-ports-own-processes.md) - own fixed non-default port per project; kill only your own PIDs; stop what you started
+- [Own Ports, Own Processes](own-ports-own-processes.md) - own fixed non-default port per project, kill only your own PIDs, stop what you started
 - [Project Lifecycle](project-lifecycle.md) - a project is in one phase at a time, the phase decides what matters now, and a gate ends it
-- [Propagate Renames and Convention Changes Everywhere](propagate-renames-and-convention-changes-everywhere.md) - a rename or convention change updates every site; grep before and after
-- [Prose Style](prose-style.md) - no AI sentence patterns; calm, concrete, varied; reports brief
+- [Propagate Renames and Convention Changes Everywhere](propagate-renames-and-convention-changes-everywhere.md) - a rename or convention change updates every site. Grep before and after
+- [Prose Style](prose-style.md) - no AI sentence patterns. Calm, concrete, varied. Reports brief
 - [Prototype Mode Is Speed First](prototype-mode-is-speed-first.md) - prototyping means speed: no tests, a standalone one-pager, run it and share the link
-- [Regular Layered Gap Analysis](regular-layered-gap-analysis.md) - walk the doc, spec, test and code layers both ways; rules against the code too
+- [Regular Layered Gap Analysis](regular-layered-gap-analysis.md) - walk the doc, spec, test and code layers both ways. Rules against the code too
 - [Reload The Standards After Compacting](reload-the-standards-after-compacting.md) - after a compaction, read the Read First standards again, by a hook where the agent has one
 - [Review Changes Before Reporting Done](review-changes-before-reporting-done.md) - before claiming done, check the relevant standards and surface changes you did not make
 - [Review Every Capture Before Reporting](review-every-capture-before-reporting.md) - read every capture for regressions, caption match and unintended shapes
-- [Standards Maintenance](standards-maintenance.md) - a periodic sweep for bloat, stale rules, duplicates, drift and dead links, with a word budget per standard; how a standard is added
-- [Standards Over Skills](standards-over-skills.md) - on conflict the standard wins; fix the skill's contradicted line
+- [Standards Maintenance](standards-maintenance.md) - a periodic sweep for bloat, stale rules, duplicates, drift and dead links, with a word budget per standard. How a standard is added
+- [Standards Over Skills](standards-over-skills.md) - on conflict the standard wins. Fix the skill's contradicted line
 - [Sweeps Enumerate Into Tech-Debt First](sweeps-enumerate-into-tech-debt-first.md) - a sweep lists every instance in one debt entry before fixing
-- [Sync The Docs After Every Change](sync-the-docs-after-every-change.md) - after a landing, grep the docs for its terms and fix what went stale; update every reference
-- [The Quality Of The Question](the-quality-of-the-question.md) - a better question gets a better answer; suspect the question first, and ask how good over is it good
+- [Sync The Docs After Every Change](sync-the-docs-after-every-change.md) - after a landing, grep the docs for its terms and fix what went stale. Update every reference
+- [The Quality Of The Question](the-quality-of-the-question.md) - a better question gets a better answer. Suspect the question first, and ask how good over is it good
 - [Things Of One Kind Are Consistent](things-of-one-kind-are-consistent.md) - things of one kind share a structure and a behavior, and fit with the rest
 - [Understand The Need](understand-the-need.md) - the need before the solution, and the right solution fitted to the need
-- [Use US English Everywhere](use-us-english-everywhere.md) - US spelling everywhere; convert British spellings when touching them
-- [Verify APIs Against Docs And The Installed Artifact](verify-apis-against-docs-and-the-installed-artifact.md) - pinned and the docs disagree: the installed artifact decides, or the dependency is updated; endpoints against the spec, generated assets against their rule
+- [Use US English Everywhere](use-us-english-everywhere.md) - US spelling everywhere. Convert British spellings when touching them
+- [Verify APIs Against Docs And The Installed Artifact](verify-apis-against-docs-and-the-installed-artifact.md) - pinned and the docs disagree: the installed artifact decides, or the dependency is updated. Endpoints against the spec, generated assets against their rule
 - [Verify Control Before Rename](verify-control-before-rename.md) - trace a control to its handler before relabeling it

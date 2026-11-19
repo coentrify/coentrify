@@ -6,12 +6,16 @@ Per-feature functional docs follow the hierarchical page shape: summary, content
 
 The functional source of truth for a single feature, the product as decided: a reader should grasp what the feature does. Basis for the spec, the e2e tests and the feature's tickets. Pairs with a [spec](feature-spec-template.md).
 
+## Why
+
+A feature doc stays true while the code changes.
+
 ## Sections
 
 - Title: `# <Feature Name>` in Title Case.
-- The summary is no link hub; cross-references go inline where the related concept is mentioned.
+- The summary is no link hub. Cross-references go inline where the related concept is mentioned.
 - Item headings are short Title Case noun phrases ("Profile", "Search"). Under each: one short sentence per thing it does ("Shows the orders the user placed"), each a spec that leads to a test.
-- `## Edge Cases`: rules that fall out of the feature's boundaries with other features or contexts; `###` per edge case when needed.
+- `## Edge Cases`: rules that fall out of the feature's boundaries with other features or contexts. `###` per edge case when needed.
 - A part not built yet carries `(Not Yet Implemented)` and a link to its ticket.
 - Optional closing pointer to the matching spec.
 
@@ -23,13 +27,13 @@ The functional source of truth for a single feature, the product as decided: a r
 ## Content Rules
 
 - Order items logically: broad-to-specific (universal rules first, item-specific after) and cause-before-effect (trigger before effect).
-- One feature = one feature doc. Behaviors that belong to a sibling feature live in that feature's own doc; reference, don't duplicate.
+- One feature = one feature doc. Behaviors that belong to a sibling feature live in that feature's own doc. Reference, don't duplicate.
 - Skip baselines that aren't specific to the feature (e.g. "code is accessible") - they're quality bars, not features.
-- Skip generic interaction patterns - submit buttons, validation and error states, toasts, loaders. A feature-specific constraint (e.g. "email must be a company address") is still a property; the generic mechanics around it are not.
+- Skip generic interaction patterns - submit buttons, validation and error states, toasts, loaders. A feature-specific constraint (e.g. "email must be a company address") is still a property. The generic mechanics around it are not.
 
 ## Use Cases Live in the Spec
 
-Don't write use cases, scenarios, or step-by-step flows in the feature doc; they go in the spec with stable IDs. The feature doc declares; the spec verifies.
+Don't write use cases, scenarios, or step-by-step flows in the feature doc. They go in the spec with stable IDs. The feature doc declares. The spec verifies.
 
 ## Functional Only
 
@@ -43,11 +47,7 @@ Don't quote button labels, error messages, field labels, or any literal UI strin
 
 ## Don't Enumerate Values
 
-Roles, statuses, types - give one example, not the full list. Lists rot; the source of truth is the code. Unless a status has a specific edge case.
-
-## Why
-
-A feature doc stays true while the code changes.
+Roles, statuses, types - give one example, not the full list. Lists rot. The source of truth is the code. Unless a status has a specific edge case.
 
 ## Related
 

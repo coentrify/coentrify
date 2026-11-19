@@ -1,6 +1,6 @@
 # Name by Concept, Not Copy
 
-Identifiers carry the generic concept they represent, never the specific UI copy, translation, or content they happen to hold. A tab helper is `observationsTab`, not `observatiesTab`, even though the visible label is the Dutch "Observaties". The label string is content and keeps its language; the identifier is code and stays generic English.
+Identifiers carry the generic concept they represent, never the specific UI copy, translation, or content they happen to hold. A tab helper is `observationsTab`, not `observatiesTab`, even though the visible label is the Dutch "Observaties". The label string is content and keeps its language. The identifier is code and stays generic English.
 
 ## Why
 

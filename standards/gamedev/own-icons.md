@@ -8,11 +8,11 @@ The game's look is its own, down to the icons.
 
 ## How to Apply
 
-- Add the symbol to the sprite and the name to the icon constant in the same change; the index page follows the sprite, never a hand list.
+- Add the symbol to the sprite and the name to the icon constant in the same change. The index page follows the sprite, never a hand list.
 - The index page makes the set reviewable in one look, so a misdrawn icon is caught on the wiki before a playtest.
 - Draw the recognizable silhouette first: a pickaxe has two points, a hammer a head and a short handle.
 - A third party set carries a license and someone else's style.
-- Every icon is credited or ours; the attribution stays in the readme until the last third party icon is gone.
+- Every icon is credited or ours. The attribution stays in the readme until the last third party icon is gone.
 
 ## Related
 

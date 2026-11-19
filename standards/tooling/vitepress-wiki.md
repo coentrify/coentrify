@@ -11,26 +11,27 @@ The director reviews the docs, changelogs, captures and reels in the wiki while 
 - The sidebar mirrors the docs folder tree ([Docs Folder Structure](../docs/docs-folder-structure.md)), generated, with no page listed by hand.
 - The root pages stand on top in the order they read, any other root page after them, so a new page never goes missing.
 - Every folder is a collapsed group. The known folders come in a set order, any other folder after them.
-- A sidebar group is never a page itself, since a group that links cannot be closed by clicking it again; its overview is the first item inside the dropdown.
+- A sidebar group is never a page itself, since a group that links cannot be closed by clicking it again. Its overview is the first item inside the dropdown.
 - A page's title is its H1, and a spec nests collapsed under its feature.
-- The changelog, test, activity and log groups run newest first, versions sorting before the named entries from before any version; the activity and log groups are titled Activity Log and Chat Log.
+- The changelog, test, activity and log groups run newest first, versions sorting before the named entries from before any version. The activity and log groups are titled Activity Log and Chat Log.
 - A new or deleted page is picked up in place: once the changes settle, the sidebar is rebuilt and the open pages reload. The server never restarts for it, since a burst of new pages made it restart over and over.
 - A session never creates or touches a config file: a stray empty one takes the wiki's title and sidebar until the server restarts.
 - The watcher ignores the build output and the cache.
-- Every image in a page enlarges on a click to the full window width; the arrow keys walk the page's images, Escape or a click closes it, a counter shows the position, and the hidden state has its own display rule.
+- Every image in a page enlarges on a click to the full window width. The arrow keys walk the page's images, Escape or a click closes it, a counter shows the position, and the hidden state has its own display rule.
 - Local search, last updated dates and clean URLs are on.
 - The dev server sends `Cache-Control: no-store`, so the director never reviews a stale image.
 - Videos sit in the public folder and embed with a plain video tag.
-- A bare word in angle brackets in a page, `<name>`, reads as an html tag and fails the build; it goes in code marks.
-- A hosts-file domain is a stopgap not worth keeping; the URL with the port is the bookmark.
+- A bare word in angle brackets in a page, `<name>`, reads as an html tag and fails the build. It goes in code marks.
+- A hosts-file domain is a stopgap not worth keeping.
+- The URL with the port is the bookmark.
 
 ## How to Apply
 
 - Set the wiki up on day one with the docs skeleton, before any feature.
-- At session start, run the wiki when the project has one and hand over its URL; it keeps running after the session when the director asked for it ([Own Ports, Own Processes](../behavior/own-ports-own-processes.md)).
+- At session start, run the wiki when the project has one and hand over its URL. It keeps running after the session when the director asked for it ([Own Ports, Own Processes](../behavior/own-ports-own-processes.md)).
 - Keep the config generic, with no hand-kept page lists.
 - A full wiki cleanup check against the product as it is sits on the tech roadmap and repeats now and then: stale names, drifted references, duplicated facts, the reconstructed history checked against the changelogs.
-- Verify a theme change on a fresh navigation, with a page at rest and one with the feature in use, by what is painted ([Hidden Attribute Loses To Display](../web/hidden-attribute-loses-to-display.md)); a hot reload replaces a page's images without the lightbox listeners, so a stale page reads as a broken lightbox.
+- Verify a theme change on a fresh navigation, with a page at rest and one with the feature in use, by what is painted ([Hidden Attribute Loses To Display](../web/hidden-attribute-loses-to-display.md)). A hot reload replaces a page's images without the lightbox listeners, so a stale page reads as a broken lightbox.
 
 ## Related
 

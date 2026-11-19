@@ -8,9 +8,9 @@ Every screen answers the questions the user has.
 
 ## How to Apply
 
-- Write the journey before the screen: who, experiencing what, wanting what; then the user's thoughts in order.
+- Write the journey before the screen: who, experiencing what, wanting what, then the user's thoughts in order.
 - Walk it for both ways of thinking: the explorer asking what can I do here, and the follower asking what does the product want me to do. A screen serves both: it shows what is possible, and it sets a goal, an empty wallet beside prices say.
-- At each step ask what the user wonders and whether the screen answers it; a word or number that answers nothing the user asks goes.
+- At each step ask what the user wonders and whether the screen answers it. A word or number that answers nothing the user asks goes.
 - A number needs a reference: for a tiered value show where the user stands, where it goes and the difference, whether a step adds or multiplies, and what it comes to.
 - Nothing the user has not met yet is shown or named.
 - Walk the journey in the running app before calling the change done.

@@ -10,7 +10,7 @@ Feedback on a library belongs with that library, and the director has the relati
 
 - The first time a friction point shows up (a missing data-testid, an unintuitive event, a bug, an API shape that forces a hack), name it in the report: the library, the friction, and the workaround if there is one.
 - A workaround gets a why-comment at the code, naming the library's friction.
-- Never prescribe the fix; that is the maintainer's call.
+- Never prescribe the fix. That is the maintainer's call.
 - What the friction costs the project in ongoing work is debt, a ticket of its own.
 - Every brief to an agent that may hit library friction says so.
 

@@ -7,3 +7,8 @@ Inline `template:` is only for the app-root single-element wrapper (e.g. `<route
 ## Why
 
 MVC best practice: the view lives in its own file, with the formatter, the lint and the editor's support.
+
+## Related
+
+- [One Component per Folder, Flat](one-component-per-folder-flat.md)
+- [No `$any` in Templates](no-any-in-templates.md)

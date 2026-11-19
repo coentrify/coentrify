@@ -1,6 +1,6 @@
 # Workspace Levels
 
-A maturity scale for a workspace, in the spirit of the Kardashev scale. Each level builds on the last; coentrify pushes upward.
+A maturity scale for a workspace, in the spirit of the Kardashev scale. Each level builds on the last. Coentrify pushes upward.
 
 ## Why
 
@@ -17,7 +17,7 @@ A level shows the director where a workspace stands, and from that what has prio
 
 ## Tooling and the Levels
 
-Heavyweight tooling (visual regression, contract testing, reporting dashboards, accessibility automation) follows level maturity rather than leading it. See [Defer Tooling Until The Cost Shows Up](../tooling/defer-tooling-until-the-cost-shows-up.md): a workspace at Level 1-2 doesn't need them; a workspace approaching Level 5 has likely earned them.
+Heavyweight tooling (visual regression, contract testing, reporting dashboards, accessibility automation) follows level maturity rather than leading it. See [Defer Tooling Until The Cost Shows Up](../tooling/defer-tooling-until-the-cost-shows-up.md): a workspace at Level 1-2 doesn't need them. A workspace approaching Level 5 has likely earned them.
 
 ## Related
 

@@ -17,3 +17,8 @@ When picking a Node version, stick to even majors across every place Node is pin
 - `@types/node` and other Node-related type packages.
 - CI workflow `setup-node` versions.
 - Docker base images (`node:22-alpine`, etc.).
+
+## Related
+
+- [Pre-empt Recurring Code-Review Nits](../code/pre-empt-recurring-code-review-nits.md)
+- [Things Of One Kind Are Consistent](../behavior/things-of-one-kind-are-consistent.md)

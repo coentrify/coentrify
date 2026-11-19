@@ -1,6 +1,6 @@
 # Per-Application Split Over Shared Branching
 
-Prefer per-application components over shared components that branch on application flags; duplication is acceptable. Visibility gates are opt-in whitelists.
+Prefer per-application components over shared components that branch on application flags. Duplication is acceptable. Visibility gates are opt-in whitelists.
 
 ## Why
 
@@ -10,7 +10,7 @@ A shared component stays simple, free of every application's branches.
 
 - Visibility gates list the applications that should see the feature, never the ones that shouldn't.
 - A negation gate leaks a feature when a new application lands or the backend returns an unexpected status, so an application silently inherits actions it shouldn't have. A whitelist fails closed.
-- One application-specific branch in a shared component is the cap. Two or more is the signal to split or otherwise decouple; flag it as tech-debt instead of refactoring inline.
+- One application-specific branch in a shared component is the cap. Two or more is the signal to split or otherwise decouple. Flag it as tech-debt instead of refactoring inline.
 - Duplicating two simple components beats one component with conditionals.
 - Once branches outnumber the shared shape, the shared component is really several components stitched together with `if`s.
 

@@ -18,3 +18,8 @@ MVC discipline: the template shows, and the typed class decides.
 
 - A template that holds casts or logic fragments behavior across files, and TypeScript can no longer verify it.
 - Reaching for `$any` is a signal that the binding type is wrong or the work belongs in TS.
+
+## Related
+
+- [App-Shield](../architecture/app-shield.md)
+- [Static Attribute, Not Literal Binding](static-attribute-not-literal-binding.md)

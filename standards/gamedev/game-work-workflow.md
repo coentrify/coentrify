@@ -1,6 +1,6 @@
 # Game Work Workflow
 
-The work workflow is generic ([Work Workflow](../tickets-workflow/work-workflow.md)); this standard holds what its terms mean when the product is a game.
+The work workflow is generic ([Work Workflow](../tickets-workflow/work-workflow.md)). This standard holds what its terms mean when the product is a game.
 
 ## Why
 
