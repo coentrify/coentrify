@@ -8,7 +8,8 @@ A doc stays true while the code changes.
 
 ## How To Apply
 
-- The overview, a feature doc and a spec describe what something does for the user: flows, routes, use cases and states.
+- The overview, a feature doc and a spec describe what something does for the user, and the states it goes through.
+- The paths a user takes, as flows and use cases, live in the spec.
 - The architecture doc holds the decisions and describes the whole: the layers and the folders that carry them, such as `ui`, the libraries chosen and why, and the conventions.
 - A concern doc does the same for one concern, such as authentication or testing.
 - File paths, the names of classes, services and components, and the wiring between them stay in the code, since they change with it.
