@@ -8,7 +8,7 @@ A reel is proof that can be watched, and recorded from code it can be made again
 
 ## Rules
 
-- A reel shows what it claims. Watch it: if nothing visible changes, it proves nothing, however green the run behind it was.
+- A reel shows what it claims. An agent cannot watch it: where it matters, it takes stills of the moments that count, from the run or from frames of the recording, and checks them. If nothing visible changes between them, the reel proves nothing, however green the run behind it was.
 - A reel is a product artifact: no sudden resizes, the recording's size matches the viewport (no letterboxing or downscaling), and it ends on a complete state, never mid-transition.
 - Scope matches level. Footage of one feature stays portable, with no framing for one audience. Audience framing belongs only in a reel of the whole product.
 - Copy on screen stays generic, such as "the X", unless the first person is the point.
