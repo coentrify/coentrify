@@ -7,7 +7,6 @@ The worklist from a sweep over every standard, the top-level pages, the tools an
 
 ## Rules That Contradict
 
-22. A builder's question moves its story off the plan the builder works from.
 23. A debt ticket's branch is deleted at its landing, while the story's stack lives on it.
 24. Three pages give three commit counts for one ticket.
 25. The docs agent's grooming shows on a plan that only holds tickets with a go.
