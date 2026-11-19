@@ -10,7 +10,6 @@ The worklist from a sweep over every standard, the top-level pages, the tools an
 
 ## Facts That Went Stale
 
-42. Always Use Design Tokens For Colors fits only an SCSS design system.
 43. The Angular projection warning can be raised to a build error, instead of read from a log.
 44. CI actions float on a major tag, where pinning to a commit is the hardening advice.
 45. Workspace Levels puts a framework upgrade before any tests.
