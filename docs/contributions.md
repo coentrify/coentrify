@@ -32,6 +32,7 @@ An issue holds no project details, since the repository is public.
 - Every standard a commit changes is named on the page of the version in progress, a link fixed in a rename included.
 - `npm run changelog:standards` writes that list from git, so it is never kept by hand.
 - `npm run hooks:pre-commit` runs the check on the staged files before the commit.
+- A version that needs a project to change its setup names the migration in its summary, such as "a project renames Read First to Core Rules in its index and entry point".
 
 ## The Conduct
 
