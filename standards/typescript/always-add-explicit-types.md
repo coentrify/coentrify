@@ -24,6 +24,7 @@ If a linter rule forbids explicit annotations on inferrable bindings, change the
 - Loop variables in a typed iterable (`for (const user of users)`).
 - Destructured parameters where each field's type is pinned by the parent type.
 - The parameters and return of a function assigned to a binding that carries its full function type.
+- An `as const` object: its literal type is the point ([No Magic Values](no-magic-values.md)).
 
 ## Related
 
