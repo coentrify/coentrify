@@ -14,7 +14,8 @@ The checks this repository runs on itself.
 - Every version has a page in `changelog/`, and `npm run lint:standards` fails when the overview there does not list it.
 - The pre-commit hook refuses a commit that changes a standard without naming it on the page of the latest version.
 - `npm run changelog:standards` writes that list, and the line that counts it, from what changed since the last tag. With `-- --check` it only fails when the page does not match.
-- A standard that is back at its text in the latest version tag passes without a name, so its entry leaves the changelog in the same commit.
+- A standard that is back at its text in the latest version tag passes without a name. The hook refuses an entry for it, so the entry leaves the changelog in the same commit.
+- Once the latest version is tagged, the hook refuses a change to a standard until the page of the next version is open.
 - A clone without a version tag cannot tell, and the hook says so.
 - The hook is switched on once per clone, with `git config core.hooksPath .githooks`.
 - In a Claude Code session here, `.claude/settings.json` runs this repository's commit gate, `scripts/gate-commit-on-exit-codes.py`, before every shell command. It refuses a commit that does not hang on its check with `&&`, and a commit that follows a `git add` in the same command.

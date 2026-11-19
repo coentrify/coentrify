@@ -45,6 +45,11 @@ const HUBS = new Set([
   'simple-workflow/the-simple-workflow.md',
 ]);
 const STANDARD_PATH = new RegExp(`^${STANDARDS_FOLDER}/[^/]+/[^/]+\\${MARKDOWN_EXTENSION}$`);
+const OBJECT_ID = /^[0-9a-f]{40,64}$/;
+const ENTRY_LINK = new RegExp(
+  `^- (?:Added|Changed|Renamed|Moved) .*\\]\\(\\.\\./(${STANDARDS_FOLDER}/[^/)]+/[^/)]+\\${MARKDOWN_EXTENSION})\\)$`,
+  'gm',
+);
 
 function git(args) {
   return execFileSync('git', args, { encoding: 'utf8' });
@@ -339,30 +344,60 @@ function releasedTag() {
   return gitOrNothing(['describe', '--tags', '--abbrev=0', '--match', VERSION_TAG_PATTERN]);
 }
 
-function isBackAtReleasedText(tag, path) {
+function versionOf(page) {
+  return page.match(VERSION_PAGE).slice(1).join('.');
+}
+
+function isTagged(version) {
+  return gitOrNothing(['rev-parse', '--verify', '--quiet', `refs/tags/v${version}`]) !== undefined;
+}
+
+function blobs(args) {
+  return new Map(
+    git(args)
+      .split('\n')
+      .filter((row) => row !== '')
+      .map((row) => {
+        const [meta, path] = row.split('\t');
+        return [path, meta.split(' ').find((field) => OBJECT_ID.test(field))];
+      }),
+  );
+}
+
+function backAtReleasedText(tag) {
   if (tag === undefined) {
-    return false;
+    return () => false;
   }
-  const released = gitOrNothing(['rev-parse', '--verify', `${tag}:${path}`]);
-  return released !== undefined && released === gitOrNothing(['rev-parse', '--verify', `:${path}`]);
+  const released = blobs(['ls-tree', '-r', tag, '--', STANDARDS_FOLDER]);
+  const indexed = blobs(['ls-files', '--stage', '--', STANDARDS_FOLDER]);
+  return (path) => released.has(path) && released.get(path) === indexed.get(path);
 }
 
 function stagedErrors() {
-  const changed = stagedPaths('ACMR');
-  const removed = stagedPaths('D');
-  if (changed.length === 0 && removed.length === 0) {
-    return [];
-  }
   const staged = git(['diff', '--cached', '--name-only']).split('\n');
   const [latest] = versionPages(git(['ls-files', '--', CHANGELOG_FOLDER]).split('\n'));
-  const named = latest === undefined ? '' : git(['show', `:${latest}`]);
   const tag = releasedTag();
-  const unnamed = changed.filter((path) => !named.includes(path) && !isBackAtReleasedText(tag, path));
+  const isBack = backAtReleasedText(tag);
+  const touched = stagedPaths('ACMR');
+  const changed = touched.filter((path) => !isBack(path));
+  const removed = stagedPaths('D');
+  if (touched.length === 0 && removed.length === 0 && !staged.includes(latest)) {
+    return [];
+  }
+  if (latest !== undefined && isTagged(versionOf(latest))) {
+    return changed.length > 0 || removed.length > 0
+      ? [`${latest} is tagged as v${versionOf(latest)} already: open the page of the next version first`]
+      : [];
+  }
+  const named = latest === undefined ? '' : git(['show', `:${latest}`]);
+  const unnamed = changed.filter((path) => !named.includes(path));
+  const stale = [...named.matchAll(ENTRY_LINK)].map((match) => match[1]).filter(isBack);
   return [
     ...unnamed.map((path) => `${path} changed, and ${latest ?? `a page in ${CHANGELOG_FOLDER}`} does not name it`),
     ...(unnamed.length > 0 && tag === undefined
       ? ['this clone has no version tag, so a standard back at its released text is not recognized: fetch the tags']
       : []),
+    ...stale.map((path) => `${latest} names ${path}, which is back at its text in ${tag}: run npm run changelog:standards`),
     ...(staged.some((path) => path.startsWith(`${CHANGELOG_FOLDER}/`)) ? [] : removed).map(
       (path) => `${path} was removed, and no page in ${CHANGELOG_FOLDER} changed`,
     ),
