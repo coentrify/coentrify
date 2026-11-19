@@ -21,7 +21,7 @@ const LIST_ITEM = /^- (.+)$/;
 const FENCE = '```';
 const HEADING = /^#{1,6} (.+)$/;
 const CODE_SPAN = /(`+).+?\1/g;
-const BLOCK_START = /^\s*(#{1,6} |[-*+] |\d+[.)] |>|\||```|<)|^\s*(-{3,}|\*{3,}|_{3,})\s*$/;
+const BLOCK_START = /^\s*(#{1,6} |[-*+] |\d+[.)] |>|\||```|<|@)|^\s*(-{3,}|\*{3,}|_{3,})\s*$/;
 const NO_JOIN_AFTER = /^\s*(#{1,6} |\||```)|^\s*(-{3,}|\*{3,}|_{3,})\s*$/;
 const HARD_BREAKS = ['  ', '\\'];
 const LOWERCASE_NAMES = new Set(['npm', 'npx']);
@@ -168,10 +168,10 @@ function missingWhyNotes() {
     .map(([standard]) => `${STANDARDS_FOLDER}/${standard} has no Why section`);
 }
 
-function pagesOnDisk() {
-  return readdirSync(STANDARDS_FOLDER, { recursive: true })
-    .filter((page) => page.endsWith(MARKDOWN_EXTENSION))
-    .map((page) => join(STANDARDS_FOLDER, page))
+function markdownPages() {
+  return git(['ls-files', '--cached', '--others', '--exclude-standard', '--', `*${MARKDOWN_EXTENSION}`])
+    .split('\n')
+    .filter((page) => page !== '' && existsSync(page))
     .sort();
 }
 
@@ -193,7 +193,7 @@ function lowercaseHeadingWord(heading) {
 
 function formatErrors() {
   const errors = [];
-  for (const page of pagesOnDisk()) {
+  for (const page of markdownPages()) {
     let inCode = false;
     let previous = '';
     let previousInCode = false;
@@ -245,7 +245,7 @@ function proseLines(text) {
 
 function proseErrors() {
   const errors = [];
-  for (const page of pagesOnDisk()) {
+  for (const page of markdownPages()) {
     for (const [number, line] of proseLines(readFileSync(page, 'utf8'))) {
       if (line.includes(SEMICOLON)) {
         errors.push(`${page}:${number} holds a semicolon, and two thoughts are two sentences or two bullets`);

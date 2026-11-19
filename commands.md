@@ -15,7 +15,7 @@ Any request to set the project up. Follow the [onboarding](onboarding.md).
 
 ## `coentrify make no mistakes`
 
-The onboarding with minimal questions. The agent analyzes the project and takes what the project needs. Every choice the agent made is listed afterwards, for the director to veto.
+The onboarding with minimal questions. The agent analyzes the project and takes what the project needs. Every choice the agent made is listed afterward, for the director to veto.
 
 The agent starts with this line:
 
