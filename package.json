@@ -12,9 +12,10 @@
     "lint:standards": "node scripts/lint-standards.mjs",
     "changelog:standards": "node scripts/changelog-standards.mjs",
     "check:specifics": "node scripts/check-specifics.mjs",
-    "hooks:pre-commit": "node scripts/lint-standards.mjs --staged",
-    "ci:wiki": "WIKI_BASE=/coentrify/ vitepress build",
-    "ci:tag": "node scripts/tag-version.mjs"
+    "hooks:pre-commit": "npm run lint:standards -- --staged",
+    "ci:wiki": "WIKI_BASE=/coentrify/ npm run build:wiki",
+    "tag:version": "node scripts/tag-version.mjs",
+    "ci:tag": "npm run tag:version --"
   },
   "devDependencies": {
     "vitepress": "1.6.4"
