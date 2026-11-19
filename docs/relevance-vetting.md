@@ -80,6 +80,7 @@ All 15 are probed and ruled on, with the results on the [Proof](../proof.md) pag
 - Stay as they are: Always Verify Before Reporting Done, Propagate Renames And Convention Changes Everywhere, Sync The Docs After Every Change, Verify Control Before Rename, Verify Staging Before Committing, Gate Commits On Exit Codes, Read Before You Truncate and Review Every Capture Before Reporting.
 - Shrank: Review Changes Before Reporting Done, General Working Rules, Always Work From A Plan, Verify APIs Against Docs And The Installed Artifact and Anchor Edits After Formatting.
 - Went: Honest Assessments, with one line kept in General Working Rules, and Decide, Don't Wait.
+- In 0.0.7 the seven that shrank or went got a hard trap. Five stay shrunk, Honest Assessments stays gone, and Decide, Don't Wait came back as one sentence in Understand The Need.
 
 ## The Tool Facts
 
