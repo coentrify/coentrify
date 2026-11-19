@@ -33,7 +33,7 @@ Two things the director said seem to pull apart.
 
 ### Reason Or Ask
 
-Reasoning from what is known pulls against asking and looking outward. A cheap choice is reasoned out and flagged. A costly choice is asked.
+Reasoning from what is known pulls against asking and looking outward. A cheap choice is reasoned out and flagged. A costly choice is asked. Doubt about a cheap choice already made is acted on: weigh the options, build the best one and name it for a veto. Never end a turn on a question about a color, a layout detail, a label or anything a small edit undoes.
 
 ### In Proportion
 
