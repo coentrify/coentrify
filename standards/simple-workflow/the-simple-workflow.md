@@ -22,8 +22,8 @@ Everything has a place to go, with light organization that stays simple.
 - Pull items from the todo into the plan.
 - Pull from the bugs, the debt and the technical roadmap into the plan as well.
 - Answer "what's next?" from the lists.
-- Bugs and debt usually come before new features ([Dev Tiers](../behavior/dev-tiers.md)).
-- The order is flexible, and depends on where the project is in its lifecycle ([Project Lifecycle](../behavior/project-lifecycle.md)).
+- Bugs and debt come before new features by default, and the director decides ([Dev Tiers](../behavior/dev-tiers.md)).
+- What counts as a bug or debt of now depends on where the project is in its lifecycle ([Project Lifecycle](../behavior/project-lifecycle.md)).
 
 ## Where A Finding Goes
 

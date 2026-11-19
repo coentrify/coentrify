@@ -59,12 +59,14 @@ A record is a dated trail, written as things happen. An agent starts every sessi
 - [Request log](standards/records/request-log.md) - everything the director asks, a page per day, so nothing that was asked gets lost
 - [Activity log](standards/records/activity-log.md) - the work that was done, a page per day that opens like a standup, so the director catches up at a glance
 - [Changelog](standards/records/changelog-per-version.md) - a page per version, so everyone sees what landed
+- [Healing log](standards/records/healing-log.md) - every change automatic healing made, so the director can rule on each one later
 - [Playtests](standards/records/playtest-files.md) - a page per playtest of a game, so feedback turns into work
 - User tests - the same for a product, a page per session with real users
 
 Which records to keep depends on the project.
 
 - A changelog is recommended for every project that ships versions.
+- The healing log is recommended for every project whose healing is automatic.
 - Playtests or user tests are recommended as soon as other people try the product.
 - The request log and the activity log are recommended for a long-running project.
 - No records are recommended for a proof of concept or a prototype.
@@ -80,7 +82,7 @@ Records also keep their value. A newer or better model can go back through the r
 
 A caught mistake strengthens the harness: a rule gets sharper, or a check is added. `healing` in `coentrify.json` says who makes that change.
 
-- Automatic - recommended: a subagent makes the change outside the task at hand, and the report names it for a veto
+- Automatic - recommended: a subagent makes the change outside the task at hand, logs it in the healing log, and the report names it for a veto
 - Review - the change is filed in the project's workflow, and waits for the director
 
 ### Filing

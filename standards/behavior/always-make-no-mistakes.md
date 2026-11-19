@@ -27,7 +27,7 @@ A mistake is a gap in the instructions and context, never a personal failing of 
 - An instruction is preferred over a check: prevention is cheaper.
 - An instruction that is easy to get wrong gets a check beside it.
 - The harness change is judged outside the context of the task at hand, the way `healing` in `coentrify.json` says.
-- Automatic, the default: a subagent makes the change, and the report names it for a veto.
+- Automatic, the default: a subagent makes the change, logs it in the [Healing Log](../records/healing-log.md), and the report names it for a veto.
 - Review: the change is filed in the project's workflow, like any other ticket, for the director.
 - An agent that cannot start a subagent tells its conductor, who starts one.
 
