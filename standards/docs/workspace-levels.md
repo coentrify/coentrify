@@ -9,9 +9,9 @@ A level shows the director where a workspace stands, and from that what has prio
 ## The Levels
 
 - Level 0 - Unknown. Nobody can say what the product does, when or why.
-- Level 1 - Primary framework on the latest release (e.g. latest Angular).
-- Level 2 - Documented. All workspace and app docs in place.
-- Level 3 - Fully tested. Unit and e2e coverage in place.
+- Level 1 - Documented. All workspace and app docs in place.
+- Level 2 - Fully tested. Unit and e2e coverage in place.
+- Level 3 - Primary framework on the latest release (e.g. latest Angular).
 - Level 4 - Fully up to date. All dependencies current, not just the primary framework.
 - Level 5 - Tool complete. Every suite deliverable exists and its deployment is green.
 

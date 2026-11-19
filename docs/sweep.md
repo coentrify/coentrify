@@ -10,7 +10,6 @@ The worklist from a sweep over every standard, the top-level pages, the tools an
 
 ## Facts That Went Stale
 
-45. Workspace Levels puts a framework upgrade before any tests.
 46. Test data factories randomize without a seed.
 47. A reel is watched, with no way given for an agent to check a video.
 48. The activity log asks for more content than a day's progress needs.
