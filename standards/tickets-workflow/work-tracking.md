@@ -92,7 +92,8 @@ An area is a category of the product (the checkout, the UI), one layer above the
 A story is one layer between the epic and the ticket: the unit the director refines, gives a go and accepts, and the unit one builder builds ([Agent Roles](agent-roles.md#the-builder)). The ticket stays the unit of building, small and refined part by part.
 
 - A story of product work is a stretch of the product the director uses from start to end.
-- A story of debt or docs is a group of tickets of one epic that share an area and the load of their checks. It gets a go and no verdict: it ends when its last ticket lands.
+- A story of debt or docs is a group of tickets of one epic that share an area and the load of their checks.
+- A debt story gets a go and no verdict: it ends when its last ticket lands. A docs story gets the director's verdict, like a feature, since the director decides what the docs say.
 - A debt story is cut in refinement to be light or heavy, never mixed. A light one needs no browser suite and starts whatever the machine's load. A heavy one waits for the machine ([Agent Roles](agent-roles.md#how-many)).
 - A ticket names its story in its `story` field. A ticket outside any story is the exception, refined, planned and accepted by itself. Loose tickets of one epic are grouped into a story, so they show as one line and get one go and one agent.
 - A story is a page in `stories` with an id of its own, `STORY-8`, and its epic in its `epic` field: what to use and how to start it.
@@ -118,7 +119,7 @@ The unit of a list is the story. Each story of the current phase stands on exact
 - `planning.md` - every story whose tickets not yet landed are all ready, as one item, in three groups: the stories with a go that wait for an agent, the stories that wait on a go, and `## Blocked`, the stories that wait on a story, each naming its blocker inline (`STORY-12 - blocked by STORY-9`).
 - `refine.md` - every other story of the current phase ([The Refine List](#the-refine-list)). What a ticket still misses is read in the ticket. A builder's question on a ticket in flight puts its story here until it is answered.
 - `roadmap.md` - kept by hand, since its order is a decision: every epic, functional and technical alike, a section per phase in the phases' order, each linking its phase page and listing its epics in execution order, then `## Blocked` and `## Waiting For Response` for epics paused on an internal or an external dependency, each naming its blocker inline (`X - blocked by Y`).
-- Every debt, docs and spike ticket sits in an epic, a new one in its phase where none fits, so it reaches the refine list once its phase is current.
+- Every ticket sits in an epic, a new one in its phase where none fits, so it reaches the lists once its phase is current.
 - No backlog and no nice to have list: decided work not yet scheduled waits in its epic and phase.
 - A list line is one line: the ticket's id and a link, never a description, a status or history. The one exception is the landing stamp on a story's done list.
 - A list page holds its title, its list and its hand-kept sections, never a text on how the list works: the rules stand in the standards, once.
