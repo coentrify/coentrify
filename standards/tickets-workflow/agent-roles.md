@@ -19,7 +19,8 @@ Every message from the director is handled at once, while the work keeps landing
 - Never judges its own context: a story is sized in refinement to fit one. A builder that stops anyway is replaced by a fresh one on the same worktree, the commits and the Done parts its handover.
 - Something it cannot settle under Veto goes into its ticket as a question, which puts the story on the refine list. Meanwhile it builds the story's ready tickets on.
 - Before each next ticket, reads its story from main with the project's plan script, never from its memory of the brief: messages wait until its turn ends, and a builder working its queue runs one long turn.
-- Never waits for the conductor's merge: it cuts each next ticket from its last landed branch, keeps going and reports every landing. The conductor merges the stack in order.
+- Never waits for the conductor's merge: it starts each next ticket on its own last finished one, so its tickets form a stack, keeps going and reports every ticket it finishes. The conductor lands the stack in order.
+- The stack never falls far behind main: it is rebased onto main after each commit, so a conflict stays small ([Parallel Agents](../tooling/parallel-agents.md)).
 - Never merges into main itself.
 - Writes its Done part in its landing commit, as the Definition of Done lists. The lists and the changelog follow by themselves.
 - A builder on debt takes debt that was found, never a mess another agent just made ([Main Stays Green, Work Stays Clean](../commits/main-stays-green-work-stays-clean.md)).
