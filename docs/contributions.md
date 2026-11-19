@@ -34,6 +34,11 @@ An issue holds no project details, since the repository is public.
 - `npm run hooks:pre-commit` runs the check on the staged files before the commit.
 - A version that needs a project to change its setup names the migration in its summary, such as "a project renames Read First to Core Rules in its index and entry point".
 
+## The npm Package
+
+- `npm/` holds the `coentrify` package: `npx coentrify` prints the next step and links the source at the package's version. It holds no standards.
+- The director publishes it with `npm run publish:npm`, which takes the version from the latest tag and writes it into `npm/package.json`, to commit after. `npm run publish:npm -- --dry-run` shows what would go out.
+
 ## The Conduct
 
 This repository has no `coentrify.json` of its own, so a harness change here is always reviewed, by the steps below.

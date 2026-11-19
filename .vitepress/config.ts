@@ -5,7 +5,7 @@ import { sidebarRefresh } from './sidebar-refresh';
 const WIKI_PORT: number = 47219;
 const WIKI_BASE: string = process.env.WIKI_BASE ?? '/';
 const ROOT: string = process.cwd();
-const EXCLUDED_FOLDERS: readonly string[] = ['node_modules'];
+const EXCLUDED_FOLDERS: readonly string[] = ['node_modules', 'npm'];
 const EXCLUDED_PAGES: readonly string[] = ['CLAUDE.md'];
 const SOURCE_URL: string = 'https://github.com/coentrify/coentrify';
 
