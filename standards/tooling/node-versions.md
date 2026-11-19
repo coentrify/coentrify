@@ -1,6 +1,6 @@
 # Node Versions
 
-Only use even-numbered Node.js major versions (22, 24, 26, etc.). Never upgrade to odd-numbered versions (21, 23, 25) - they are not stable releases.
+Use a Node.js major that is in Long-Term Support.
 
 ## Why
 
@@ -8,15 +8,15 @@ Production runs on a stable release with long-term support.
 
 ## How To Apply
 
-When picking a Node version, stick to even majors across every place Node is pinned:
+Through Node 26 only even majors reach LTS. From Node 27 on, every major does, in the October after its April release.
+
+When picking a Node version, pin an LTS major in every place Node is pinned:
 
 - `.nvmrc` / `.node-version`.
 - `engines.node` in `package.json`.
 - `@types/node` and other Node-related type packages.
 - CI workflow `setup-node` versions.
 - Docker base images (`node:22-alpine`, etc.).
-
-Only even majors enter LTS. An odd major is a Current release, deprecated once the next even major reaches LTS.
 
 ## Related
 
