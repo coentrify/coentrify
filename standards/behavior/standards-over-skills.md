@@ -1,6 +1,6 @@
 # Standards Over Skills
 
-When a standard and a skill conflict, the standard wins. Skills are starting points. The standards are the source of truth for the project's conventions.
+When a standard and a skill from outside the project conflict, such as a plugin's, the standard wins. Such a skill is a starting point. The standards are the source of truth for the project's conventions.
 
 ## Why
 

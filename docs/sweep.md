@@ -7,7 +7,6 @@ The worklist from a sweep over every standard, the top-level pages, the tools an
 
 ## Rules That Contradict
 
-35. A skill is a standard in Standards, and a starting point in Standards Over Skills.
 36. The ticket id hook in Commits reads as if it held for the simple workflow.
 
 ## Facts That Went Stale

@@ -22,7 +22,7 @@ A standard for one kind of project says so in its title. Where a title cannot, a
 
 ## Skills
 
-A skill is a standard for one task: a file of instructions an agent follows when the task comes up. A skill lives in the module it belongs to, and a project prefers a skill over working from scratch.
+A skill is a standard for one task: a file of instructions an agent follows when the task comes up. A skill lives in the module it belongs to, and a project prefers a skill over working from scratch. A skill from outside the project, such as a plugin's, can be used freely, and where it conflicts with the project's standards, the standards win ([Standards Over Skills](standards/behavior/standards-over-skills.md)).
 
 ## Versions
 
