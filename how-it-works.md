@@ -18,7 +18,7 @@ The quality of an answer depends on the quality of the question.
 
 Coentrify is a collection of carefully curated questions and statements. The collection works as a pre-prompt: an agent reads the collection before the prompt, so a simple prompt still gets a quality answer.
 
-A one-word prompt works for the same reason. The questions were already asked, in writing.
+Inside a coentrified project, a one-word prompt works for the same reason, such as a go: the questions were already asked, in writing.
 
 ## The Compass
 
