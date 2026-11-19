@@ -23,7 +23,7 @@ The game grows in steady steps, and a mistake is caught while it is still cheap.
 | [Development](game-phases-development.md) | the designed game is built | Pre-Alpha, Alpha, Beta |
 | [Live](game-phases-live.md) | the game is out | Release, Aftercare, Post-Release |
 
-## How to Apply
+## How To Apply
 
 - Concept is loose inside: its phases may overlap and loop back.
 - For every rule about the current phase, Concept counts as one phase.

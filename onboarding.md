@@ -77,7 +77,7 @@ With `coentrify make no mistakes` the agent asks nothing. The agent takes every 
 
 - Copy the chosen standards into the `standards` folder of the project, in the same module folders, so the standards sit beside the code.
 - Remove or change every link to a standard the project did not adopt.
-- Set the workflow line in Always Work from a Plan to the chosen workflow.
+- Set the workflow line in Always Work From A Plan to the chosen workflow.
 - Write the index.
 - Point the entry point at the index.
 - Write `coentrify.json`.

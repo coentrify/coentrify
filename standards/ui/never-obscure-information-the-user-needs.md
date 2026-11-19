@@ -1,4 +1,4 @@
-# Never Obscure Information the User Needs
+# Never Obscure Information The User Needs
 
 Information the user acts on must reach the screen intact. Collapsing distinct states into one, or presenting choices the user can't tell apart, obscures information: a high-severity correctness problem, never a cosmetic one, and never taken lightly.
 
@@ -6,7 +6,7 @@ Information the user acts on must reach the screen intact. Collapsing distinct s
 
 The user acts on information that is whole and true.
 
-## How to Apply
+## How To Apply
 
 - A presentation map (mapper or view-model) that sends several distinct source values to one target is suspect. Confirm each collapse is equivalent. One that drops a state the user must see is a high-priority bug and a sweep across the other mappers.
 - Cover every source enum value in mapper tests and assert distinct, faithful outputs.

@@ -6,7 +6,7 @@ A system that a mock stands in for gets a spec test of its own. Where no test ca
 
 A test against a mock says nothing about the system behind it.
 
-## How to Apply
+## How To Apply
 
 - The system is tested against its own spec, apart from the tests that run on the mock.
 - The spec follows the [Feature Spec Template](../docs/feature-spec-template.md): use cases with stable ids, which a person can run by hand.

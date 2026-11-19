@@ -6,7 +6,7 @@ For any test that observes a state change - a toggle, a switch, an open/close, a
 
 A test proves that the new state replaced the old one.
 
-## How to Apply
+## How To Apply
 
 - Toggle (collapse/expand, open/close):
   - Before, closed visible and open not.
@@ -24,7 +24,7 @@ A test proves that the new state replaced the old one.
 - Assert both axes with [Implementation-Agnostic Assertions](implementation-agnostic-assertions.md).
 - Overview tests skip the bracketing ([Per-Feature Overview Test](../e2e/per-feature-overview-test.md)).
 
-## Combine Simple Opposites into One Bracketed Test
+## Combine Simple Opposites Into One Bracketed Test
 
 Two tests for opposite sides of one binary toggle (`hidden when disabled` and `visible when enabled`, `disabled when invalid` and `enabled when valid`, `closed by default` and `open after click`) become one bracketed test of the transition. It carries both use-case ids, so the mapping in the feature spec stays intact and a search by either id finds it.
 

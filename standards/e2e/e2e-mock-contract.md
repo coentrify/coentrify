@@ -6,7 +6,7 @@ Mock scenario values, storage keys and toggle flags are a shared contract betwee
 
 The constants are the protocol between the layers, so every side shares one copy.
 
-## How to Apply
+## How To Apply
 
 - Literals duplicated across the mock interceptor and the spec files drift: a renamed scenario or storage key leaves every spec type-checking against its own stale copy, and tests pass falsely on a broken flow.
 - The const file exports grouped `as const` objects for storage keys, scenario values and the flag-on sentinel ([No Magic Values](../typescript/no-magic-values.md)).

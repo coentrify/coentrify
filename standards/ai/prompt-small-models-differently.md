@@ -6,7 +6,7 @@ A prompt written for a frontier model degrades a small local one. Give each mode
 
 Each model tier answers best on a prompt written for it.
 
-## How to Apply
+## How To Apply
 
 - A small model loses the thread in long, multi-part instructions and fills gaps confidently: asked about state it cannot see, it answers with a plausible number instead of saying it cannot know.
 - Keep the instruction short and rule-shaped: a numbered list of hard rules beats prose paragraphs.
@@ -17,5 +17,5 @@ Each model tier answers best on a prompt written for it.
 
 ## Related
 
-- [Match Known Commands Deterministically, Classify the Rest](match-known-commands-deterministically-classify-the-rest.md)
+- [Match Known Commands Deterministically, Classify The Rest](match-known-commands-deterministically-classify-the-rest.md)
 - [Honest Assessments](../behavior/general-working-rules.md#honest-assessments)

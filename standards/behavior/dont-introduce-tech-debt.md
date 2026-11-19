@@ -6,7 +6,7 @@ Code you write or extend should follow the established conventions, whatever the
 
 Any work should add value. Debt detracts from it.
 
-## How to Apply
+## How To Apply
 
 - Before extending a type, const, or file, check it against the relevant conventions (as-const + `Enum` over bare unions, one artifact per file, barrel imports). New or extended code conforms even when its neighbors don't.
 - When the file you must touch already violates a convention:

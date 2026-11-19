@@ -10,7 +10,7 @@ Every layer stands on its own, with its own responsibility and its own qualities
 
 ### ui
 
-Pure, dumb, standalone UI components and their styles. ALL visual presentation - both markup and styling - lives here. No app-specific assets, copy (including i18n/translation strings and their defaults), env values, app state, or domain logic. Composition via slots and content projection. Inputs/outputs for direct access only (see [Prefer Content Projection over Props (Angular)](../angular/prefer-content-projection-over-props-angular.md)). Every ui component is covered in the styleguide ([UI Styleguide](../ui/ui-styleguide.md)), exercised across its states in isolation - which is the reason they must stay dumb. Favor many small components over fewer bespoke ones.
+Pure, dumb, standalone UI components and their styles. ALL visual presentation - both markup and styling - lives here. No app-specific assets, copy (including i18n/translation strings and their defaults), env values, app state, or domain logic. Composition via slots and content projection. Inputs/outputs for direct access only (see [Prefer Content Projection Over Props (Angular)](../angular/prefer-content-projection-over-props-angular.md)). Every ui component is covered in the styleguide ([UI Styleguide](../ui/ui-styleguide.md)), exercised across its states in isolation - which is the reason they must stay dumb. Favor many small components over fewer bespoke ones.
 
 ### app
 
@@ -36,7 +36,7 @@ Environment shape, types, and configuration tokens. Pure types/interfaces and DI
 - ui is standalone - depends only on design-system packages, nothing else in the workspace.
 - Never reach upwards (e.g. core importing from app).
 
-## How to Apply
+## How To Apply
 
 Before creating a new file, ask "which layer does this belong to?":
 

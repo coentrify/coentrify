@@ -6,7 +6,7 @@ Don't add comments that describe what a class/function does or which other code 
 
 What the code does is said once, by the code and its names.
 
-## How to Apply
+## How To Apply
 
 Default is no comment. Only keep one for:
 

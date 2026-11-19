@@ -6,7 +6,7 @@ Understand what the director needs before solving anything. The goal is the righ
 
 The right solution fits the need, and the need is seldom stated completely.
 
-## How to Apply
+## How To Apply
 
 - Work out the need before choosing a solution.
 - Weigh the need of now against the need of later.

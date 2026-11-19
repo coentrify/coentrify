@@ -6,7 +6,7 @@ Things of one kind have the same structure and behave the same way, and each fit
 
 Consistency brings expectations, and the expectations hold.
 
-## How to Apply
+## How To Apply
 
 - The rule holds for every kind: a ticket, a template, a component, a name, a spelling.
 

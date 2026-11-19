@@ -27,4 +27,4 @@ A list of work reads at a glance.
 
 - [Work Tracking](work-tracking.md)
 - [A Name Describes Its Unit](../behavior/a-name-describes-its-unit.md)
-- [Name by Concept, Not Copy](../code/name-by-concept-not-copy.md)
+- [Name By Concept, Not Copy](../code/name-by-concept-not-copy.md)

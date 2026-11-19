@@ -1,4 +1,4 @@
-# Plans vs Persistent Files
+# Plans Vs Persistent Files
 
 Two kinds of file, distinguished by lifecycle.
 
@@ -14,7 +14,7 @@ Hold what's being done right now: status, ordered tasks, blockers, scope-of-effo
 
 Hold knowledge, conventions, functionality, and reference. They evolve but never get "completed". Single responsibility per file: one purpose, one shape. Examples: standards, skills, architecture docs, library feedback docs.
 
-## How to Apply
+## How To Apply
 
 When writing, ask: is this *how* something works (or should), or *what* we're doing right now?
 
@@ -25,7 +25,7 @@ When reviewing a plan, extract any "always X" / "never Y" text to a persistent h
 
 ## Related
 
-- [Always Work from a Plan](../behavior/always-work-from-a-plan.md)
+- [Always Work From A Plan](../behavior/always-work-from-a-plan.md)
 - [Plan Template](plan-template.md)
-- [Remove Completed Items from Docs](remove-completed-items-from-docs.md)
+- [Remove Completed Items From Docs](remove-completed-items-from-docs.md)
 - [Documentation Philosophy](../docs/documentation-philosophy.md)

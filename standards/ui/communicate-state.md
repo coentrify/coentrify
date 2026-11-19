@@ -6,7 +6,7 @@ Every state the user cares about - loading, empty, error, success, disabled/lock
 
 The user always knows what the system is doing.
 
-## How to Apply
+## How To Apply
 
 - Visibility of system status is the first usability heuristic.
 - A failed fetch that falls back to an empty list tells the user there is nothing, when the truth is that it could not load.
@@ -16,6 +16,6 @@ The user always knows what the system is doing.
 
 ## Related
 
-- [Validation Errors Fire on Submit](validation-errors-fire-on-submit.md)
+- [Validation Errors Fire On Submit](validation-errors-fire-on-submit.md)
 - [UI Component Design](ui-component-design.md)
-- [UI Copy in Template](../angular/ui-copy-in-template.md)
+- [UI Copy In Template](../angular/ui-copy-in-template.md)

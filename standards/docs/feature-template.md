@@ -31,7 +31,7 @@ A feature doc stays true while the code changes.
 - Skip baselines that aren't specific to the feature (e.g. "code is accessible") - they're quality bars, not features.
 - Skip generic interaction patterns - submit buttons, validation and error states, toasts, loaders. A feature-specific constraint (e.g. "email must be a company address") is still a property. The generic mechanics around it are not.
 
-## Use Cases Live in the Spec
+## Use Cases Live In The Spec
 
 Don't write use cases, scenarios, or step-by-step flows in the feature doc. They go in the spec with stable IDs. The feature doc declares. The spec verifies.
 

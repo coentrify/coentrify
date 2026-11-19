@@ -19,5 +19,5 @@ A binding tells the reader that a value changes.
 
 ## Related
 
-- [UI Copy in Template](ui-copy-in-template.md)
-- [No `$any` in Templates](no-any-in-templates.md)
+- [UI Copy In Template](ui-copy-in-template.md)
+- [No `$any` In Templates](no-any-in-templates.md)

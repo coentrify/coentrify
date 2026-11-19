@@ -88,7 +88,7 @@ The full text is in [Game Design Laws: Own Style](game-design-laws-own-style.md)
 - [Generate, Never Reuse](game-design-laws-own-style.md#generate-never-reuse) - generate an asset, never reuse a pack
 - [Unique Where It Counts](game-design-laws-own-style.md#unique-where-it-counts) - unique in what makes the game, best practice for the rest
 
-## How to Apply
+## How To Apply
 
 - The player is a human who walks the dog, answers the door, goes to sleep and continues the next day. Laws about that human, such as Easy Pause, Never Wait and AFK Safe, translate into any genre. Only their concrete shape changes.
 - A game's laws doc has three parts: the generic laws it adopts, the ones it leaves out with a reason, and its own laws and overrides in full.
@@ -103,5 +103,5 @@ The full text is in [Game Design Laws: Own Style](game-design-laws-own-style.md)
 
 - [Adopt, Configure, Override](../architecture/adopt-configure-override.md)
 - [Communicate State](../ui/communicate-state.md)
-- [Docs Hold Only What the Director Decided](../behavior/docs-hold-only-what-the-director-decided.md)
+- [Docs Hold Only What The Director Decided](../behavior/docs-hold-only-what-the-director-decided.md)
 - [Work Workflow](../tickets-workflow/work-workflow.md)

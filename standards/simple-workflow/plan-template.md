@@ -23,7 +23,7 @@ The short-horizon working doc: what's in flight right now, what's queued for imm
 - Open the plan with a `## Summary` flat list of every item it tracks - a table-of-contents that makes the whole plan scannable before any detail. This mirrors the overview list that bugs/tech-debt/roadmap already lead with. The norm across docs is a TOC/summary at the top.
 - Label the one item in flight `(active)`, at most one active at a time. Done items are stripped, never labeled or kept as a trophy.
 
-## Describe a Shift
+## Describe A Shift
 
 - When the focus pivots away from previously-planned work (pausing an in-flight cleanup for a client-priority feature, say), name the shift in the active-focus one-liner: what it moved from, its new state (paused), and why.
 - The next session should see why the active item isn't what the plan used to be about, without digging through git history.

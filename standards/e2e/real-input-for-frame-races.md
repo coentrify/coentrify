@@ -6,7 +6,7 @@ A case that proves an animation starts on a click, or any handler that races a r
 
 Tests stay as close to real usage as possible, down to the timing of a click.
 
-## How to Apply
+## How To Apply
 
 - After real input Chromium gives the next frame priority over the timers. Angular's coalesced change detection runs in a race between a timeout and a frame. With a real click the frame wins, so a component's own frame loop runs before the new input values arrive. A dispatched event never triggers that priority, so the timer wins and the bug never shows: an entry animation can play in every reel driven by dispatched clicks and never in the app.
 - When a component's frame loop reads an input that a click sets, never reset or derive state from the input not being set yet inside the loop. Take the input's arrival as the start instead.

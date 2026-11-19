@@ -6,7 +6,7 @@ In all markdown, docs, commit messages, and prose, use the plain hyphen `-` as a
 
 Plain ASCII is readable, grep-able, and consistent with keyboard input. Fancy dashes show up as AI-written polish and clash with the house style.
 
-## How to Apply
+## How To Apply
 
 When editing existing content that contains em or en dashes, replace them with `-` as part of the edit.
 

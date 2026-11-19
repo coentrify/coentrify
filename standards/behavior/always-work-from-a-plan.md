@@ -1,4 +1,4 @@
-# Always Work from a Plan
+# Always Work From A Plan
 
 Work that survives the session, or grows out of its scope, gets a written plan. For product features, the plan is step 1 of the [Feature Workflow](feature-workflow.md).
 
@@ -6,7 +6,7 @@ Work that survives the session, or grows out of its scope, gets a written plan. 
 
 A plan in a file lets any other session or agent continue from where the previous one stopped.
 
-## How to Apply
+## How To Apply
 
 ### Where The Plan Lives
 
@@ -18,11 +18,11 @@ A plan in a file lets any other session or agent continue from where the previou
 
 - Work from the plan, even one you wrote.
 - Read it before starting and update it as you go.
-- It shrinks toward empty per [Plans vs Persistent Files](../simple-workflow/plans-vs-persistent-files.md).
+- It shrinks toward empty per [Plans Vs Persistent Files](../simple-workflow/plans-vs-persistent-files.md).
 - Plans are documentation. Follow the same markdown conventions as persistent docs (see [Documentation Philosophy](../docs/documentation-philosophy.md)), even though plans are temporary.
 
 ## Related
 
 - [Feature Workflow](feature-workflow.md)
-- [Plans vs Persistent Files](../simple-workflow/plans-vs-persistent-files.md)
+- [Plans Vs Persistent Files](../simple-workflow/plans-vs-persistent-files.md)
 - [Documentation Philosophy](../docs/documentation-philosophy.md)

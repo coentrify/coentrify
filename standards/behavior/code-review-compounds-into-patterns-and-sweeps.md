@@ -1,4 +1,4 @@
-# Code Review Compounds Into Patterns and Sweeps
+# Code Review Compounds Into Patterns And Sweeps
 
 A code-review finding is rarely a one-off. When something surfaces in review, check whether it is a pattern - it usually is - and turn the single catch into a durable defense across the codebase.
 
@@ -6,7 +6,7 @@ A code-review finding is rarely a one-off. When something surfaces in review, ch
 
 A pattern captured once protects the whole codebase and every later session.
 
-## How to Apply
+## How To Apply
 
 - On any finding, look for sibling instances before treating it as isolated.
 - When it is a pattern:

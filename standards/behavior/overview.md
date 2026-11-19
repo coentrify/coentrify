@@ -8,26 +8,26 @@ The Behavior standards: how an agent works and what an agent checks.
 - [A Quiet Tree While A Suite Runs](a-quiet-tree-while-a-suite-runs.md) - no source edits while a suite runs on a live dev server
 - [Always Make No Mistakes](always-make-no-mistakes.md) - use your standards, own mistakes and strengthen the harness with a rule or check
 - [Always Verify Before Reporting Done](always-verify-before-reporting-done.md) - run the check that matches the change before claiming done
-- [Always Work from a Plan](always-work-from-a-plan.md) - work that survives the session or grows out of scope gets a written plan. In a project all work follows the project's workflow
+- [Always Work From A Plan](always-work-from-a-plan.md) - work that survives the session or grows out of scope gets a written plan. In a project all work follows the project's workflow
 - [Anchor Edits After Formatting](anchor-edits-after-formatting.md) - no write while a commit hook runs, check every anchor of a batch first, no edit by line number after a formatter
 - [Backward-Trace Missing Prerequisites](backward-trace-missing-prerequisites.md) - a missing prerequisite is filed above the item. Recurse, never patch around
-- [Code Review Compounds Into Patterns and Sweeps](code-review-compounds-into-patterns-and-sweeps.md) - a review finding is a pattern: review check, how-to standard, sweep ticket
+- [Code Review Compounds Into Patterns And Sweeps](code-review-compounds-into-patterns-and-sweeps.md) - a review finding is a pattern: review check, how-to standard, sweep ticket
 - [Communication Boundary](communication-boundary.md) - never contact users or testers or speak for the director. File `Tell <name>` tasks
 - [Dev Tiers](dev-tiers.md) - the recommended order: build, bugs, debt, features, within the current phase's goal. The director decides, and a pick that skips open bugs or debt gets a reminder
-- [Docs Hold Only What the Director Decided](docs-hold-only-what-the-director-decided.md) - docs hold only what the director decided. Ideas go to chat first
-- [Don't Filter Data Without a Spec](dont-filter-data-without-a-spec.md) - never drop data unless the exclusion is specced and tested
+- [Docs Hold Only What The Director Decided](docs-hold-only-what-the-director-decided.md) - docs hold only what the director decided. Ideas go to chat first
+- [Don't Filter Data Without A Spec](dont-filter-data-without-a-spec.md) - never drop data unless the exclusion is specced and tested
 - [Don't Introduce Tech Debt](dont-introduce-tech-debt.md) - new code follows conventions even when neighbors don't. Fix what your change caused
 - [Feature Workflow](feature-workflow.md) - plan -> doc -> spec -> failing e2e -> implement -> regression -> proof the user can verify
 - [File A Change With Coentrify](file-a-change-with-coentrify.md) - a contributor files a harness change that holds beyond its project, one point per issue, without project details
-- [Flag Every Addition of Your Own](flag-every-addition-of-your-own.md) - name every addition of your own in the report for a veto
+- [Flag Every Addition Of Your Own](flag-every-addition-of-your-own.md) - name every addition of your own in the report for a veto
 - [Free Text Replies, No Buttons](free-text-replies-no-buttons.md) - no answer buttons or wrap-up questions. Ask in prose and keep going. No closing prompts where a dashboard shows the director's inboxes
 - [General Working Rules](general-working-rules.md) - honest assessments, the model only for judgment calls, surface conflicts, read before you write, follow the written conventions
-- [Non-Destructive Documenting and Test Automation](non-destructive-documenting-and-test-automation.md) - doc, spec and test phases never touch production code
+- [Non-Destructive Documenting And Test Automation](non-destructive-documenting-and-test-automation.md) - doc, spec and test phases never touch production code
 - [Normal Dashes](normal-dashes.md) - always `-`, never em or en dashes
 - [Note Issues](note-issues.md) - write down every finding where the project's workflow says, never only in chat
 - [Own Ports, Own Processes](own-ports-own-processes.md) - own fixed non-default port per project, kill only your own PIDs, stop what you started
 - [Project Lifecycle](project-lifecycle.md) - a project is in one phase at a time, the phase decides what matters now, and a gate ends it
-- [Propagate Renames and Convention Changes Everywhere](propagate-renames-and-convention-changes-everywhere.md) - a rename or convention change updates every site. Grep before and after
+- [Propagate Renames And Convention Changes Everywhere](propagate-renames-and-convention-changes-everywhere.md) - a rename or convention change updates every site. Grep before and after
 - [Prose Style](prose-style.md) - no AI sentence patterns. Calm, concrete, varied. Reports brief
 - [Prototype Mode Is Speed First](prototype-mode-is-speed-first.md) - prototyping means speed: no tests, a standalone one-pager, run it and share the link
 - [Regular Layered Gap Analysis](regular-layered-gap-analysis.md) - walk the doc, spec, test and code layers both ways. Rules against the code too

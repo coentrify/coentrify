@@ -27,7 +27,7 @@ Answers "what's next?" at a glance. Active surfaces the current focus. Prioritie
 - Blocked / Waiting items: include the blocker inline, e.g. ``X - blocked by Y`` or ``X - waiting for Z``.
 - Reference the feature doc when an item maps to one, e.g. ``[Mobile Responsive](features/responsive.md) - blocked on ...``.
 
-## What Doesn't Belong on the Roadmap
+## What Doesn't Belong On The Roadmap
 
 - Specific bugs - they live in [Bugs Template](bugs-template.md).
 - Tech-debt entries - they live in `tech-debt.md`.

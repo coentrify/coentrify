@@ -6,7 +6,7 @@ Any test that touches the DOM (e2e, integration, styleguide) locates elements by
 
 A test fails only when what the user perceives changes.
 
-## How to Apply
+## How To Apply
 
 - Role and label locators make the app expose proper accessibility, which it needs anyway.
 - An element that lacks a role (a custom dropdown trigger that isn't a button yet) gets its implementation selector wrapped in exactly one helper per user gesture (`openRowActionMenu`, `openRoleFilter`). Specs only call the helper. When the UI is upgraded, only the helper changes.

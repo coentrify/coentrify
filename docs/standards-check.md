@@ -20,7 +20,7 @@ The worklist from a check of every standard in 0.0.6, for bloat, wording and inc
    - The Definition of Ready includes the director's go, while ready and go are separate steps everywhere else.
    - A docs story gets no verdict in Work Tracking, while everywhere else only debt skips acceptance.
    - An epic is optional for a feature or a bug, and a ticket outside an epic is on no list.
-9. Agent additions in docs. Flag Every Addition of Your Own lets an agent decide and flag a name or a number in the docs. Docs Hold Only What the Director Decided keeps such an extension out of the docs until the director says it.
+9. Agent additions in docs. Flag Every Addition Of Your Own lets an agent decide and flag a name or a number in the docs. Docs Hold Only What The Director Decided keeps such an extension out of the docs until the director says it.
 10. Where `Enum<T>` lives. No Magic Values puts it in the core layer, App-Shield lets ui depend on nothing in the workspace, and Folder Concerns gives ui its own `generics/`.
 11. One meaning per term.
     - "Go" is the director's approval in the glossary, and a pass in three pages.
@@ -51,20 +51,20 @@ Said on several pages, with drift between them:
 - The answer to a question goes into the docs, on Work Workflow and Work Tracking.
 - The agent names content under Veto, on Gamedev Working Cadence, Incremental Pacing and Game Phases: Development.
 - A lint rule over a review by eye, on four pages beside Pre-empt Recurring Code Review Nits, which owns it.
-- The token rules, on Dark Mode Through Tokens, UI Refactor and Always Use Design Tokens for Colors.
-- The slot naming, on UI Component Design and UI Layout via Slot Composition.
+- The token rules, on Dark Mode Through Tokens, UI Refactor and Always Use Design Tokens For Colors.
+- The slot naming, on UI Component Design and UI Layout Via Slot Composition.
 - The ui layer's purity, on App-Shield and UI Component Design.
-- The content projection rule, on Prefer Content Projection over Props (Angular) and UI Component Design.
+- The content projection rule, on Prefer Content Projection Over Props (Angular) and UI Component Design.
 
 ## Structure
 
 - 40 standards have no Related section.
-- About 20 pages use headings of their own where the template has How to Apply.
-- Many How to Apply lists open with a reason or an example where an instruction belongs.
+- About 20 pages use headings of their own where the template has How To Apply.
+- Many How To Apply lists open with a reason or an example where an instruction belongs.
 - Four templates put Why at the bottom, under a Purpose section, and three have none.
-- Six pages state no rule in their opening, such as Plans vs Persistent Files and Anchor Edits After Formatting.
+- Six pages state no rule in their opening, such as Plans Vs Persistent Files and Anchor Edits After Formatting.
 - The template asks for a Relevant For section, and no page has one. The laws use a `Relevant for:` line.
-- Short words in titles are cased both ways, such as Always Work from a Plan beside Reload The Standards After Compacting.
+- Short words in titles are cased both ways, such as Always Work From A Plan beside Reload The Standards After Compacting.
 - The standards hold 463 semicolons, and pairing two cases with one is the most common break of Prose Style.
 - Several overview lines are garbled or have drifted from their page, mostly in Behavior and Tickets Workflow.
 
@@ -125,7 +125,7 @@ Said on several pages, with drift between them:
 ### UI, E2E, Simple Workflow And Tests
 
 - `validation-errors-fire-on-submit.md:3,12-13` - "required" in the rule, while the handler only marks non-empty input, so a required error never fires.
-- `ui-refactor-preserve-dont-redesign.md:13` - allows a hardcoded value where Always Use Design Tokens for Colors adds a token.
+- `ui-refactor-preserve-dont-redesign.md:13` - allows a hardcoded value where Always Use Design Tokens For Colors adds a token.
 - `ui-layout-via-slot-composition.md:11,14` - "the body is always the default slot" beside a layout with none.
 - `e2e-test-conventions.md:27,33` - the demo is no overview, yet takes an overview tag.
 - `e2e-tests-must-demonstrate-behavior.md:12` - separate toggle tests beside the bracketed test. "Contrast" has three meanings across the modules.

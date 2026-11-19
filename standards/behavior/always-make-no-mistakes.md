@@ -8,7 +8,7 @@ The harness is the standards, checks and tools an agent works within.
 
 A mistake is a gap in the instructions and context, never a personal failing of the agent. Owning it means fixing the harness. Self-blame and a promise to try harder fix nothing.
 
-## How to Apply
+## How To Apply
 
 ### Before The Work
 
@@ -41,5 +41,5 @@ A mistake is a gap in the instructions and context, never a personal failing of 
 
 ## Related
 
-- [Code Review Compounds Into Patterns and Sweeps](code-review-compounds-into-patterns-and-sweeps.md)
+- [Code Review Compounds Into Patterns And Sweeps](code-review-compounds-into-patterns-and-sweeps.md)
 - [Honest Assessments](general-working-rules.md#honest-assessments)

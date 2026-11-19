@@ -6,7 +6,7 @@ A project is unique in what makes it that project. The rest follows best practic
 
 What every project has is a commodity, and reinventing it takes the work away from what sets the project apart.
 
-## How to Apply
+## How To Apply
 
 - Name what sets the project apart. The invention goes there.
 - Everything else takes the best practice.

@@ -1,12 +1,12 @@
 # Dark Mode Through Tokens
 
-A design system's surface and shadow tokens may carry no dark-mode value, and code then tends to hardcode light literals as opaque fills for masks, scroll fades and shadows. In dark mode those stay bright. The fix is a token, never a literal: every color, its dark value included, comes from the token layer ([Always Use Design Tokens for Colors](always-use-design-tokens-for-colors.md)).
+A design system's surface and shadow tokens may carry no dark-mode value, and code then tends to hardcode light literals as opaque fills for masks, scroll fades and shadows. In dark mode those stay bright. The fix is a token, never a literal: every color, its dark value included, comes from the token layer ([Always Use Design Tokens For Colors](always-use-design-tokens-for-colors.md)).
 
 ## Why
 
 Every color flips with the mode, everywhere it is used.
 
-## How to Apply
+## How To Apply
 
 - A literal override is a magic value per color mode: it drifts from the palette, has to be found again for every new mode, and skips theming.
 - When adding or auditing dark mode, find the hardcoded color literals used as opaque fills and replace each with a token.

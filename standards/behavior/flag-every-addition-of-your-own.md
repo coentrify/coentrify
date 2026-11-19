@@ -1,4 +1,4 @@
-# Flag Every Addition of Your Own
+# Flag Every Addition Of Your Own
 
 Anything that goes into the product or its docs that the director did not ask for or decide is named explicitly in the report, as its own line, ready for a veto. Judgment calls that fill a gap count, and so do placeholders.
 
@@ -6,7 +6,7 @@ Anything that goes into the product or its docs that the director did not ask fo
 
 The director decides on everything that goes in.
 
-## How to Apply
+## How To Apply
 
 - A choice that a standard or a law decides is no addition. A choice they leave open is flagged.
 - Keep a running list of what you added beyond the request while working.
@@ -17,6 +17,6 @@ The director decides on everything that goes in.
 
 ## Related
 
-- [Docs Hold Only What the Director Decided](docs-hold-only-what-the-director-decided.md)
+- [Docs Hold Only What The Director Decided](docs-hold-only-what-the-director-decided.md)
 - [Honest Assessments](general-working-rules.md#honest-assessments)
 - [Work Tracking](../tickets-workflow/work-tracking.md)

@@ -31,5 +31,5 @@ Multi-gesture helpers default to the gesture a real user makes at that viewport:
 ## Related
 
 - [Bracket State Changes With Contrast Assertions](bracket-state-changes-with-contrast-assertions.md)
-- [Validation Errors Fire on Submit](../ui/validation-errors-fire-on-submit.md)
+- [Validation Errors Fire On Submit](../ui/validation-errors-fire-on-submit.md)
 - [E2E Tests Must Demonstrate Behavior](../e2e/e2e-tests-must-demonstrate-behavior.md)

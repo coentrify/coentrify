@@ -6,7 +6,7 @@ The verification step always applies. The mechanism varies by what was changed.
 
 Done means it works, and only the matching check shows that.
 
-## How to Apply
+## How To Apply
 
 - Pick the verification surface that matches the change: browser preview for UI, e2e run for spec edits, type check for type changes, unit run for logic, lint for style-rule fixes, build for tooling.
 - Run it before declaring done. "I read the diff" never substitutes for "I ran the check" when a check exists.

@@ -1,4 +1,4 @@
-# Match Known Commands Deterministically, Classify the Rest
+# Match Known Commands Deterministically, Classify The Rest
 
 Route known requests through exact matching first, and use the model only for what the matcher misses. Never let the model invent the set of things the system can do.
 
@@ -6,7 +6,7 @@ Route known requests through exact matching first, and use the model only for wh
 
 A command the user relies on behaves the same every time, costs no latency and works without the model.
 
-## How to Apply
+## How To Apply
 
 - Match the common phrasings deterministically, and treat that as the fast path.
 - Exact matching alone is brittle: a typo drops the user into a conversational path that may refuse them.

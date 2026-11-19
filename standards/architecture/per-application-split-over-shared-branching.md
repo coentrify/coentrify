@@ -6,7 +6,7 @@ Prefer per-application components over shared components that branch on applicat
 
 A shared component stays simple, free of every application's branches.
 
-## How to Apply
+## How To Apply
 
 - Visibility gates list the applications that should see the feature, never the ones that shouldn't.
 - A negation gate leaks a feature when a new application lands or the backend returns an unexpected status, so an application silently inherits actions it shouldn't have. A whitelist fails closed.

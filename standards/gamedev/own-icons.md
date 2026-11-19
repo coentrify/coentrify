@@ -6,7 +6,7 @@ A game draws its own icons: one SVG sprite with a symbol per icon, drawn in the 
 
 The game's look is its own, down to the icons.
 
-## How to Apply
+## How To Apply
 
 - Add the symbol to the sprite and the name to the icon constant in the same change. The index page follows the sprite, never a hand list.
 - The index page makes the set reviewable in one look, so a misdrawn icon is caught on the wiki before a playtest.
@@ -17,5 +17,5 @@ The game's look is its own, down to the icons.
 ## Related
 
 - [Game Design Laws: Own Style](game-design-laws-own-style.md)
-- [Name by Concept, Not Copy](../code/name-by-concept-not-copy.md)
+- [Name By Concept, Not Copy](../code/name-by-concept-not-copy.md)
 - [VitePress Wiki](../tooling/vitepress-wiki.md)

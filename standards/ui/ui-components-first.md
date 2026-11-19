@@ -6,7 +6,7 @@ UI primitives (buttons, icons, callouts, tooltips, dialogs, toasts, inputs, layo
 
 The UI stays one coherent system.
 
-## How to Apply
+## How To Apply
 
 - An existing component brings theming and accessibility with it.
 - Everything through the UI layer gives the design system a clear pressure point when something is missing.
@@ -19,7 +19,7 @@ The UI stays one coherent system.
 ## Related
 
 - [No Inline Templates](../angular/no-inline-templates.md)
-- [One Component per Folder, Flat](../angular/one-component-per-folder-flat.md)
-- [Prefer Content Projection over Props (Angular)](../angular/prefer-content-projection-over-props-angular.md)
+- [One Component Per Folder, Flat](../angular/one-component-per-folder-flat.md)
+- [Prefer Content Projection Over Props (Angular)](../angular/prefer-content-projection-over-props-angular.md)
 - [UI Component Design](ui-component-design.md)
 - [UI Variants By Function, Not By Color](ui-variants-by-function-not-by-color.md)

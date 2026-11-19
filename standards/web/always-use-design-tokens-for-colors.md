@@ -1,4 +1,4 @@
-# Always Use Design Tokens for Colors
+# Always Use Design Tokens For Colors
 
 Every color comes from a design-system token, referenced through its sanctioned SCSS API: the `@use`'d namespace, `color.$bg-brand-default` and the like. Never hardcode a hex or rgb literal, never invent your own color, and never reach past the SCSS tokens to the raw `var(--color-...)` custom property.
 
@@ -6,7 +6,7 @@ Every color comes from a design-system token, referenced through its sanctioned 
 
 Every color follows the design system, its themes and its renames included.
 
-## How to Apply
+## How To Apply
 
 - The custom property is the design system's internal plumbing: a raw `var()` bypasses the token API and breaks when the variable is renamed.
 - A hex that happens to equal a token is still a magic literal that drifts and skips theming.

@@ -6,7 +6,7 @@ Test datasets should mirror production variance across every dimension a feature
 
 A bug that only shows in varied data is caught before production.
 
-## How to Apply
+## How To Apply
 
 - Vary every dimension a feature acts on: role, status, organization, owner, dates, counts.
 - Factories randomize these dimensions by default. Tests pin specific values only when the assertion requires them.
@@ -20,5 +20,5 @@ A bug that only shows in varied data is caught before production.
 
 ## Related
 
-- [Seed Surfaces Every State on Page 1](seed-surfaces-every-state-on-page-1.md)
+- [Seed Surfaces Every State On Page 1](seed-surfaces-every-state-on-page-1.md)
 - [Bracket State Changes With Contrast Assertions](bracket-state-changes-with-contrast-assertions.md)

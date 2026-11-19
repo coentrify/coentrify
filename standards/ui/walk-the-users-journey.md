@@ -6,7 +6,7 @@ Every screen is designed and checked as the user's journey through it: who the u
 
 Every screen answers the questions the user has.
 
-## How to Apply
+## How To Apply
 
 - Write the journey before the screen: who, experiencing what, wanting what, then the user's thoughts in order.
 - Walk it for both ways of thinking: the explorer asking what can I do here, and the follower asking what does the product want me to do. A screen serves both: it shows what is possible, and it sets a goal, an empty cart beside the products, say.
@@ -23,5 +23,5 @@ Every screen answers the questions the user has.
 ## Related
 
 - [Communicate State](communicate-state.md)
-- [Never Obscure Information the User Needs](never-obscure-information-the-user-needs.md)
+- [Never Obscure Information The User Needs](never-obscure-information-the-user-needs.md)
 - [Work Workflow](../tickets-workflow/work-workflow.md)

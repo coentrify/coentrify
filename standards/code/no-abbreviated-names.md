@@ -6,7 +6,7 @@ Every identifier carries the full name of what it holds, never a single letter o
 
 An abbreviation is an unnecessary abstraction: working out what it stands for costs extra compute.
 
-## How to Apply
+## How To Apply
 
 - Name a control-flow alias after the value it holds: `@if (order(); as order)`, never `as o`.
 - In SCSS, name map keys and loop variables for what they are: `@each $modifier, $color in ...`, keys like `categorical-1`, not `c1`.

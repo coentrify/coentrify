@@ -33,14 +33,14 @@ A game meets its players at its best, the first time they hear of it.
 - A publisher: the marketing is in someone else's hands, for a share of the revenue.
 - Early access: the game is sold before it is whole. What is sold is polished, and the rest is gated or left out, so it is a demo that is paid for.
 
-## What to Weigh
+## What To Weigh
 
 - The quiet launch starts slower. A store shows a new game to more people when its wishlists and early sales are high.
 - It leans on the game clipping well ([Fun First](game-design-laws-experience.md#fun-first)).
 - Every other choice spends attention before the game is done: the director's and the players'.
 - A promise made early has to be kept. A date that slips, or a game that falls short of its trailer, costs trust.
 
-## How to Apply
+## How To Apply
 
 - The strategy is picked before Alpha, since a wishlist campaign or a festival demo starts months ahead.
 - The pick stands on the page of the Release phase. A hygiene check fails that page without one.

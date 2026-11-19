@@ -6,7 +6,7 @@ For every feature with e2e tests, the spec file ends with one overview test that
 
 An overview video per feature isolates that feature: for onboarding a user or a director, for showing a stakeholder and for visual testing.
 
-## How to Apply
+## How To Apply
 
 - One overview test per feature spec, at the bottom of the file. Living in the same spec keeps it in step with the code on every run.
 - Per-flow tests are short and atomic, which is good for diagnosis, and their recordings come out fragmented.

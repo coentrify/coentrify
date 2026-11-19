@@ -6,7 +6,7 @@ A project keeps a glossary of the terms it uses most: one entry per term, with a
 
 A glossary makes the terms of a project easy to understand, and gives clarity.
 
-## How to Apply
+## How To Apply
 
 - A description is plain and technical: it says what the term means, in words a reader already knows.
 - A description uses another term of the project only when that term stands earlier in the glossary.

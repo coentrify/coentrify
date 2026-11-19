@@ -1,4 +1,4 @@
-# Seed Surfaces Every State on Page 1
+# Seed Surfaces Every State On Page 1
 
 When a feature paginates and a test asserts contrast between states (A and B visible at the same time), the first page of the test seed includes every state the test mentions. Otherwise the test has to navigate, filter or sort first just to put the contrast on screen, which makes it a test of pagination instead of the property under test.
 
@@ -6,7 +6,7 @@ When a feature paginates and a test asserts contrast between states (A and B vis
 
 A test fails only for the property it tests.
 
-## How to Apply
+## How To Apply
 
 - An "element not found" for a state past the first page looks like a broken assertion, while the fault is the seed's order.
 - Before writing an e2e test that combines pagination and contrast, scan the seed and confirm every state the test names is in the first-page slice.

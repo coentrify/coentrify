@@ -24,10 +24,6 @@ const CODE_SPAN = /(`+).+?\1/g;
 const BLOCK_START = /^\s*(#{1,6} |[-*+] |\d+[.)] |>|\||```|<)|^\s*(-{3,}|\*{3,}|_{3,})\s*$/;
 const NO_JOIN_AFTER = /^\s*(#{1,6} |\||```)|^\s*(-{3,}|\*{3,}|_{3,})\s*$/;
 const HARD_BREAKS = ['  ', '\\'];
-const SECONDARY_WORDS = new Set([
-  'a', 'an', 'the', 'and', 'or', 'but', 'nor', 'so', 'yet', 'as', 'at', 'by', 'for', 'from', 'in', 'into',
-  'of', 'off', 'on', 'onto', 'out', 'over', 'per', 'to', 'up', 'via', 'vs', 'with',
-]);
 const LOWERCASE_NAMES = new Set(['npm', 'npx']);
 const PARENT_FOLDER = '../';
 const BUDGET_FLAG = '--budget';
@@ -186,11 +182,10 @@ function lowercaseHeadingWord(heading) {
     .split(/\s+/)
     .map((token) => token.replace(/^[^A-Za-z]+/, '').replace(/[^A-Za-z']+$/, ''))
     .find(
-      (word, index) =>
+      (word) =>
         /^[a-z]/.test(word) &&
         !/[A-Z./]/.test(word) &&
-        !LOWERCASE_NAMES.has(word) &&
-        !(index > 0 && SECONDARY_WORDS.has(word)),
+        !LOWERCASE_NAMES.has(word),
     );
 }
 

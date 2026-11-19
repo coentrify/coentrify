@@ -15,7 +15,7 @@ A level shows the director where a workspace stands, and from that what has prio
 - Level 4 - Fully up to date. All dependencies current, not just the primary framework.
 - Level 5 - Tool complete. Every suite deliverable exists and its deployment is green.
 
-## Tooling and the Levels
+## Tooling And The Levels
 
 Heavyweight tooling (visual regression, contract testing, reporting dashboards, accessibility automation) follows level maturity rather than leading it. See [Defer Tooling Until The Cost Shows Up](../tooling/defer-tooling-until-the-cost-shows-up.md): a workspace at Level 1-2 doesn't need them. A workspace approaching Level 5 has likely earned them.
 

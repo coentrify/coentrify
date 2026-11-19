@@ -6,7 +6,7 @@ Pacing is a game mechanic of its own. Every level gets a pacing doc under a paci
 
 The director tunes a level's pacing from the doc, without reading code.
 
-## How to Apply
+## How To Apply
 
 - A table per level makes the curve visible at a glance, the tiers comparable and the gaps findable.
 - Names of producers, upgrades, tiers, hints and units are content: the agent fills them in without asking, records them in the pacing doc and names them in the report for a veto. Level names never travel between projects.
@@ -18,5 +18,5 @@ The director tunes a level's pacing from the doc, without reading code.
 ## Related
 
 - [Substring Locator Collisions](../e2e/substring-locator-collisions.md)
-- [Flag Every Addition of Your Own](../behavior/flag-every-addition-of-your-own.md)
+- [Flag Every Addition Of Your Own](../behavior/flag-every-addition-of-your-own.md)
 - [Feature Template](../docs/feature-template.md)

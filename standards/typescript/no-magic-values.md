@@ -6,7 +6,7 @@ No magic strings or numbers in code. Any literal that is used more than once, or
 
 A name carries the meaning a literal cannot.
 
-## How to Apply
+## How To Apply
 
 - A constant is reused, edited in one place, and found by the IDE at every call site.
 - A test names the same constant, so an e2e spec stays in sync with the scenario keys it targets.

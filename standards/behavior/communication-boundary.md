@@ -6,7 +6,7 @@ Agents never reach out to anyone outside the work. The director speaks to users 
 
 The director owns relationships, tone and timing.
 
-## How to Apply
+## How To Apply
 
 - Don't contact users or testers directly.
 - Don't send messages on the director's behalf or say "I'll let X know."

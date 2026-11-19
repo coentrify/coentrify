@@ -1,4 +1,4 @@
-# Docs Hold Only What the Director Decided
+# Docs Hold Only What The Director Decided
 
 The director decides what a project's docs say. Project docs (laws, features, roadmap, tickets) should contain only what the director said or approved.
 
@@ -6,7 +6,7 @@ The director decides what a project's docs say. Project docs (laws, features, ro
 
 The director trusts the docs as the record of what was decided. A contribution is welcome, and it is recorded, so the director can veto it.
 
-## How to Apply
+## How To Apply
 
 - Parse requests freely: fix spelling, reword carefully, turn prose into flat lists, give things names. Keep the essence and add nothing.
 - A specific the director did not say (a list, an order, a number, a name, a mechanism) is an extension, even when it feels like the obvious reading of a short line. Each statement added to a doc has to be in the director's words.

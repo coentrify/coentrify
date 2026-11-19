@@ -6,7 +6,7 @@ Every run of a game the agent starts is silent.
 
 The director's focus stays unbroken.
 
-## How to Apply
+## How To Apply
 
 - The director works beside the agent, and sound from a preview an agent opened plays on until someone closes it in that agent's session.
 - A preview already open on a game is stopped at once.
@@ -22,5 +22,5 @@ The director's focus stays unbroken.
 ## Related
 
 - [Own Ports, Own Processes](../behavior/own-ports-own-processes.md)
-- [Use the E2E Pipeline for Browser Probing](../e2e/use-the-e2e-pipeline-for-browser-probing.md)
+- [Use The E2E Pipeline For Browser Probing](../e2e/use-the-e2e-pipeline-for-browser-probing.md)
 - [Walk The User's Journey](../ui/walk-the-users-journey.md)

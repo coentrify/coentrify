@@ -6,7 +6,7 @@ Work goes in a recommended order, higher tiers first: CI/CD and build, then bugs
 
 Work builds on a stable foundation, and open bugs and debt are the first thing forgotten.
 
-## How to Apply
+## How To Apply
 
 - Before starting a feature, check the build, the bugs and the debt of the current phase, where the project's workflow keeps them.
 - A broken build comes first, before anything else lands.

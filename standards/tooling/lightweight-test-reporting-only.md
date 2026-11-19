@@ -6,7 +6,7 @@ Test reporting should show whether the suite is green right now, nothing more. S
 
 What matters is a fast, reliable signal: did it pass, did it fail, and where.
 
-## How to Apply
+## How To Apply
 
 - Pick the reporter that maximizes speed, consistent output, and reliable signal - usually the test runner's own.
 - Add small custom reporters only when they answer a concrete question, like click count per flow.

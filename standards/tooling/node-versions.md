@@ -6,7 +6,7 @@ Only use even-numbered Node.js major versions (22, 24, 26, etc.). Never upgrade 
 
 Production runs on a stable release with long-term support.
 
-## How to Apply
+## How To Apply
 
 Only even majors enter LTS. An odd major is a Current release, deprecated once the next even major reaches LTS.
 

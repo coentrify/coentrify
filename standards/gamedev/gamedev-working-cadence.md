@@ -44,7 +44,7 @@ Every playtest plays a named version, and knows what changed in it.
 ## Day Close
 
 - The day closes with the activity log ([Activity Log](../records/activity-log.md)).
-- The report in chat references the changelog on the wiki instead of summarizing, and names every addition of the agent's own for a veto ([Flag Every Addition of Your Own](../behavior/flag-every-addition-of-your-own.md)).
+- The report in chat references the changelog on the wiki instead of summarizing, and names every addition of the agent's own for a veto ([Flag Every Addition Of Your Own](../behavior/flag-every-addition-of-your-own.md)).
 
 ## Related
 

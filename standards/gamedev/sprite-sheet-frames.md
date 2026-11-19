@@ -6,7 +6,7 @@ Before a sheet is sliced into frames, the frame size and the row order are read 
 
 Every frame shows the whole character, facing the right way.
 
-## How to Apply
+## How To Apply
 
 - Render the sheet with a grid-labeling script (columns and rows numbered) at a zoom where a single frame fills the view, and print the alpha mask of one cell to see the frame's true height.
 - Confirm each direction row by the face and the feet, never by the order such sheets usually have.

@@ -6,7 +6,7 @@ Packages are built unsigned, with the keychain untouched, and only when the dire
 
 A package works on every machine, and the packaged suite proves it without a second one.
 
-## How to Apply
+## How To Apply
 
 - A package that only works next to the repository's node modules breaks on every other machine. Building on request keeps the loop fast.
 - A version guard refuses to package a version that is tagged already. A packaged build carries the version of its commit.
@@ -17,5 +17,5 @@ A package works on every machine, and the packaged suite proves it without a sec
 ## Related
 
 - [Electron Shell Shape](electron-shell-shape.md)
-- [Never Access the Keychain](../security/never-access-the-keychain.md)
+- [Never Access The Keychain](../security/never-access-the-keychain.md)
 - [Devbox](../gamedev/devbox.md)

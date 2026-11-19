@@ -8,7 +8,7 @@ The rules every task follows, in every session. An agent reads them before anyth
 
 - [Always Make No Mistakes](behavior/always-make-no-mistakes.md)
 - [Always Verify Before Reporting Done](behavior/always-verify-before-reporting-done.md)
-- [Always Work from a Plan](behavior/always-work-from-a-plan.md)
+- [Always Work From A Plan](behavior/always-work-from-a-plan.md)
 - [General Working Rules](behavior/general-working-rules.md)
 - [Normal Dashes](behavior/normal-dashes.md)
 - [Prose Style](behavior/prose-style.md)

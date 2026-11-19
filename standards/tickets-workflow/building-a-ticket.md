@@ -26,14 +26,14 @@ The director can trust a ticket that is called done.
 A ticket or a line is done only when every one of these holds. Until then it stays on the plan.
 
 - Every acceptance criterion is met and verified, and the spec covers each one.
-- The touched suites, hygiene, types and the development build are green, each by its own exit code ([Gate Commits on Exit Codes](../commits/gate-commits-on-exit-codes.md)).
+- The touched suites, hygiene, types and the development build are green, each by its own exit code ([Gate Commits On Exit Codes](../commits/gate-commits-on-exit-codes.md)).
 - A bug's test reproduces the director's steps with real input and was seen failing before the fix ([A Bug's Test Reproduces With Real Input](../tests/a-bugs-test-reproduces-with-real-input.md)).
 - A new hygiene check lands with its implementation, and its builder's report shows the run that failed before the change.
 - The Done part holds proof the director can open and verify ([The Done Part](the-done-part.md), [Review Every Capture Before Reporting](../behavior/review-every-capture-before-reporting.md)).
 - Visual work meets its Visual Quality points and the project's visual checklist.
 - The docs are synced: the feature doc, the spec, and every reference to a changed name ([Sync The Docs After Every Change](../behavior/sync-the-docs-after-every-change.md)).
 - No new tech debt: what the change made unused or duplicated is cleaned in the same commit.
-- The agent's own decisions stand under Veto ([Flag Every Addition of Your Own](../behavior/flag-every-addition-of-your-own.md)).
+- The agent's own decisions stand under Veto ([Flag Every Addition Of Your Own](../behavior/flag-every-addition-of-your-own.md)).
 - The change lands as its own commit, staging read before committing ([Verify Staging Before Committing](../commits/verify-staging-before-committing.md)).
 - Captures and archive moves are never batched for later. The version's changelog lists the ticket by itself ([Changelog Per Version](../records/changelog-per-version.md)).
 - In the landing commit: the Done part is written, which puts the ticket, or its story once whole, on the accept list. A debt ticket is archived in it and its branch deleted.
@@ -43,4 +43,4 @@ A ticket or a line is done only when every one of these holds. Until then it sta
 - [Work Workflow](work-workflow.md)
 - [The Done Part](the-done-part.md)
 - [Work Tracking](work-tracking.md)
-- [Gate Commits on Exit Codes](../commits/gate-commits-on-exit-codes.md)
+- [Gate Commits On Exit Codes](../commits/gate-commits-on-exit-codes.md)

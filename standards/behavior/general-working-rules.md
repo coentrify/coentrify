@@ -10,7 +10,7 @@ A model can still miss these on its own.
 
 - Be realistic rather than optimistic: flag doubts and weak spots plainly, push back once when a decision looks wrong, then accept the call.
 
-## Use the Model Only for Judgment Calls
+## Use The Model Only For Judgment Calls
 
 - Use the model for classification, drafting, summarization, extraction.
 - Don't use the model for routing, retries, deterministic transforms.
@@ -27,7 +27,7 @@ A model can still miss these on its own.
 - Before adding code, read exports, immediate callers, shared utilities.
 - "Looks orthogonal" is dangerous. If unsure why code is structured a way, ask.
 
-## Follow the Conventions, Even If You Disagree
+## Follow The Conventions, Even If You Disagree
 
 - The written conventions beat taste and beat older code: they keep improving, and code that predates one follows it once touched.
 - If a convention is harmful, surface it. Don't fork silently.

@@ -6,7 +6,7 @@ Any test that asserts on rendered UI should assert what the user perceives. Pref
 
 A test fails only when what the user perceives changes.
 
-## How to Apply
+## How To Apply
 
 - A change in how visibility is achieved leaves these assertions passing: a conditional render swapped for `display: none`, a lazy render, an exit animation, a portal.
 - For presence: `toBeVisible` (and `not.toBeVisible` for absence).
