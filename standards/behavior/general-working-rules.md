@@ -29,7 +29,7 @@ A model can still miss these on its own.
 
 ## Follow The Conventions, Even If You Disagree
 
-- The written conventions beat taste and beat older code: they keep improving, and code that predates one follows it once touched.
+- The written conventions beat taste and beat older code: they keep improving, and the code a change edits follows them ([Don't Introduce Tech Debt](dont-introduce-tech-debt.md)).
 - If a convention is harmful, surface it. Don't fork silently.
 
 ## Related

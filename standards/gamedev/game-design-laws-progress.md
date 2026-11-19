@@ -25,7 +25,11 @@ Beating the game normally never requires playing try hard. The game supports eve
 
 ## Always Polished
 
-The end result is a polished, fully done game. An unfinished game goes to controlled playtests only, and an early access sells polished parts and gates the rest ([Launch Strategy](launch-strategy.md)). Everything is of the same or similar quality. This holds even while there are few features: whatever gets made is good, starting with the basics.
+The game that goes out is polished and fully done: once it is live, every version a player sees is. An unfinished game goes to controlled playtests only, and an early access sells polished parts and gates the rest ([Launch Strategy](launch-strategy.md)). Everything is of the same or similar quality.
+
+- Whatever gets made is good at what it does, from the first version on. Player movement built in Pre-Alpha feels right, while the body that moves may still be a placeholder.
+- The look and the finish wait for Alpha ([Game Phases: Development](game-phases-development.md)).
+- The work follows the spirit of the task, never only its words ([Understand The Need](../behavior/understand-the-need.md)).
 
 ## Earned Progress
 

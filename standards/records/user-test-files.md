@@ -8,7 +8,7 @@ A user test records what real users did with a version, and the next version is 
 
 ## How To Apply
 
-- The head names who took part by role, such as two planners of the client, never by name.
+- The head names who took part by role, such as two shop employees and one store manager, never by name.
 - The tasks the users were given come before the feedback, one per bullet.
 - What a user did and what a user said are separate items, since the two often differ.
 - The feedback stays in the file until the director has reviewed it: no ticket and no agent brief from it before that review.
