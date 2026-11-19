@@ -1,6 +1,6 @@
 # Technical Debt Template
 
-Workspace-level `docs/tech-debt.md` uses a fixed shape.
+`docs/development/tech-debt.md` uses a fixed shape.
 
 ## Purpose
 

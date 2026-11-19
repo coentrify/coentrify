@@ -8,7 +8,7 @@ Each file stays current, so a reader can trust it.
 
 ## Plans
 
-Hold what's being done right now: status, ordered tasks, blockers, scope-of-effort. Items get deleted as they're done. The file shrinks toward empty. Examples: `PLAN.md`, workspace `plan.md`, `inbox.md`.
+Hold what's being done right now: status, ordered tasks, blockers, scope-of-effort. Items get deleted as they're done. The file shrinks toward empty. Examples: `docs/development/plan.md`, the inbox, a plan file outside a project.
 
 ## Persistent
 
