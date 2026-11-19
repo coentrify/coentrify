@@ -9,7 +9,7 @@ The versions on the way to 1.0.
 
 ## Next
 
-- Sweep every page again, and bring each finding to the director for a ruling.
+- Rule on every finding of the [sweep](sweep.md), one at a time.
 - Streamline the Proof page into a quick overview: one table with the rule, the trap, a summary and the data per model.
 - Probe the standards again at every new model release, on new traps.
 - Probe Reload The Standards After Compacting on a long session, and in the terminal or the app, as the [worklist](relevance-vetting.md) says.
