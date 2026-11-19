@@ -1,0 +1,22 @@
+{
+  "name": "coentrify",
+  "version": "0.0.6",
+  "description": "Spec-driven development: standards, checks and tools for working with AI agents.",
+  "license": "MIT-0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coentrify/coentrify.git",
+    "directory": "npm"
+  },
+  "homepage": "https://github.com/coentrify/coentrify",
+  "bin": {
+    "coentrify": "bin/coentrify.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "engines": {
+    "node": ">=22"
+  }
+}

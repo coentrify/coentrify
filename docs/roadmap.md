@@ -16,6 +16,6 @@ The versions on the way to 1.0.
 - Probe Reload The Standards After Compacting on a long session, and in the terminal or the app, as the [worklist](relevance-vetting.md) says.
 - Test on a real project: the first prompt, a one-word prompt once it is set up, the onboarding, the reload hook and the update.
 - Probe the bare word again once coentrify is indexed and linked from other sites, and simplify the first prompt when it passes.
-- Publish a thin npm package around 0.1.0: `npx coentrify@<version>` fetches that version, runs the update and unlink scripts in Node, and points the agent at the onboarding. Probe the first prompt again with it.
+- Probe `npx coentrify` as the first prompt once the package is published, and let the Quick Start use it when it passes. Later, the package can run the update and unlink scripts in Node.
 - Record a video of the install, as proof that it works.
 - Remove the eager rules from the personal memory once the standards hold.
