@@ -14,7 +14,8 @@ import sys
 REFUSAL = (
     "Refused: a commit or tag must hang on the check's exit code with &&, nothing in between. "
     "Not after a ';', and not after a check piped into grep, tail or head. "
-    "Save the code instead: `check >/dev/null 2>&1; rc=$?; [ $rc -eq 0 ] && git commit ...` "
+    "Save the output and the code instead, and read the output: "
+    "`check >check.log 2>&1; rc=$?; [ $rc -eq 0 ] && git commit ...` "
     "(Gate Commits on Exit Codes)."
 )
 STAGING_REFUSAL = (
