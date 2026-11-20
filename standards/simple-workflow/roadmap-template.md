@@ -4,7 +4,7 @@
 
 ## Purpose
 
-Answers "what's next?" at a glance. Active surfaces the current focus. Priorities show what comes after. Blocked vs Waiting For Response splits "we'll unblock ourselves" from "we need someone else". Nice To Have parks future ideas without polluting commitment.
+Answers "what's next?" at a glance. Active surfaces the current focus. Priorities show what comes after. Blocked vs Waiting For Response splits "we'll unblock ourselves" from "we need someone else". Nice To Have holds what is wanted, for when there is time.
 
 ## Sections
 
@@ -13,7 +13,7 @@ Answers "what's next?" at a glance. Active surfaces the current focus. Prioritie
 - `## Priorities` - upcoming work, top-down execution order. Top is what we do next once Active completes.
 - `## Blocked` - paused on internal prerequisites (another roadmap item, an e2e harness, a tooling gap). We can unblock ourselves.
 - `## Waiting For Response` - paused on external dependencies (third parties, partners, vendors). We can't unblock ourselves.
-- `## Nice To Have` - future ideas, no current commitment.
+- `## Nice To Have` - decided and wanted, done only when there is time.
 
 ## Item Shape
 

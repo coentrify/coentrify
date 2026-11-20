@@ -8,9 +8,9 @@ Everything has a place to go, with light organization that stays simple.
 
 ## The Lists
 
-- Inbox - anything goes in, as a flat list of points
+- Inbox - raw and rough ideas: anything goes in, as a flat list of points, and is easily scrapped
 - Todo - what was decided to do soon
-- Roadmap - what was decided to do later
+- Roadmap - the concepts decided on, by priority: what will be done, and what is nice to have when there is time
 - Plan - the active file, with what is in flight now
 - Bugs and debt - the other lists the plan pulls from
 

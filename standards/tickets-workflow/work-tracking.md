@@ -18,15 +18,15 @@ docs/development/
   processing.md     (list generated)
   phases/<slug>.md
   areas/<slug>.md
-  epics/<slug>.md
-  stories/<slug>.md
-  features/<slug>.md
-  bugs/<slug>.md
-  debt/<slug>.md
-  healing/<slug>.md
-  docs/<slug>.md
-  spikes/<slug>.md
-  archive/<type>/<slug>.md
+  epics/<id>-<slug>.md
+  stories/<id>-<slug>.md
+  features/<id>-<slug>.md
+  bugs/<id>-<slug>.md
+  debt/<id>-<slug>.md
+  healing/<id>-<slug>.md
+  docs/<id>-<slug>.md
+  spikes/<id>-<slug>.md
+  archive/<type>/<id>-<slug>.md
 ```
 
 ## Types
@@ -47,12 +47,12 @@ A ticket's type never changes. Work that turns out to be of another type is a ne
 
 Every ticket, every story and every epic carries an id of its own, kept for life, so the director gives a go or a verdict by the id alone.
 
-- The id stands in the front matter, `id: FEAT-214`, and the wiki shows it right below the title.
+- The id stands in the front matter, `id: FEAT-214`, and the wiki shows it right below the title. The file's name leads with it in lowercase, `feat-214-upload-retries.md`, so a glob finds a ticket by its id.
 - Its prefix says the type. The number counts per prefix, so FEAT-1 and BUG-1 both stand. A new ticket takes one past the highest of its prefix, the archive's included.
 - An id never changes: archiving keeps it, and a list's position never stands for it.
 - Every list line starts with its ticket's id, and the director names a ticket by its id: `FEAT-214 go`, `FEAT-214 accepted`.
 - A ticket's links never depend on where a file lives, so archiving is a `git mv` and nothing else: a ticket is linked through its id, `[DEBT-81](/tickets/DEBT-81)`, which the wiki resolves wherever the file is, and any other page from the wiki's root, `/records/log/2026-10-25#_12-57`.
-- A hygiene check fails two pages sharing an id, a prefix that does not match the page's folder, a link to a ticket by its file path, and a relative link in a ticket.
+- A hygiene check fails two pages sharing an id, a prefix that does not match the page's folder, a file name that does not lead with its id, a link to a ticket by its file path, and a relative link in a ticket.
 
 ## The Ticket
 

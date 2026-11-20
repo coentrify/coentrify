@@ -14,11 +14,9 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Rules That Contradict
 
-35. The Simple Workflow keeps an undecided idea in the inbox and the current focus on the plan, and Roadmap Template gives both a section of the roadmap.
 36. Plans Vs Persistent Files keeps status tables in the plan, and Plan Template keeps status snapshots out.
 37. Library Feedback gives friction with a library no doc, and Plans Vs Persistent Files lists library feedback docs.
 38. Docs Describe Behavior keeps the wiring in the code, and three pages make `architecture.md` the technical wiring.
-39. File Names renames a file when its title changes, and records, overviews and specs keep fixed names.
 40. Docs Are Hierarchical workshops the wiki's tree before pages move, and Docs Hold Only What The Director Decided moves copy without asking.
 41. Feature Spec Template asks for an imperative use-case title and shows a statement, and E2E Test Conventions takes the test title in a third form.
 42. Application Template puts a route on a view, and functional docs hold no routes.
@@ -49,7 +47,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 72. "The tech roadmap" in VitePress Wiki and "the short-term roadmap" in Stabilize Before Adding are defined nowhere (0.0.7).
 73. Plan Template has no case for a project with one app.
 75. Feature Workflow weighs the laws in a step of the spec that does not exist, and Game Design Laws checks them before the spec.
-77. The DEV day is counted in the request log, which is optional, and three other records rely on it.
 79. A healing log entry names its commit, and nothing says which commit comes first.
 80. The records send feedback through the tickets workflow's intake, which a simple workflow project lacks.
 81. An unbuilt feature goes under Functional Debt with a roadmap link, or carries a mark with a ticket link.

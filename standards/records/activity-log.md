@@ -15,7 +15,7 @@ The director sees the progress of a project at a glance, and a new session start
 ## The Standup
 
 - Three to five bullets, the day's biggest outcomes first, in plain words.
-- One more bullet with roughly how many hours it took. The hours run from the log's first entry to the day's last commit.
+- One more bullet with roughly how many hours it took. The hours run from the day's first log entry, or its first commit without a log, to its last commit.
 - A summary, never a list of every change: the changelog and git hold that.
 - Terse: "worked on the sign-in", never "we worked mainly on".
 - No version numbers, links, times, agent or process talk.
