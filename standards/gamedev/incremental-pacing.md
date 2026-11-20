@@ -10,7 +10,7 @@ The director tunes a level's pacing from the doc, without reading code.
 
 - A table per level makes the curve visible at a glance, the tiers comparable and the gaps findable.
 - Names of producers, upgrades, tiers, hints and units are content, filled in as [Game Work Workflow](game-work-workflow.md#content) says and recorded in the pacing doc. Level names never travel between projects.
-- A new level gets a pacing proposal in the doc before its build. The build mirrors the doc.
+- A new level's pacing goes into the doc together with its build, the agent's numbers under the ticket's Veto. The build mirrors the doc.
 - An unlock gate is written as a rule the player can feel, such as the next producer after the second upgrade, with the reason next to it.
 - A getting-used period sits between a new mechanic and the next: a few dozen clicks with the stronger click before anything runs on its own.
 - Names within one family never contain each other.

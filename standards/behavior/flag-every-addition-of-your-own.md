@@ -12,7 +12,7 @@ The director decides on everything that goes in.
 - Easy-to-change content (names, numbers, a look) is decided and flagged, never asked.
 - In a ticket, the flag is a line in its Veto section, holding only what the director could want undone, in a few words ([The Done Part](../tickets-workflow/the-done-part.md)).
 - Outside a ticket, the report names each one as its own line.
-- A decision the director accepts with its ticket becomes the director's, and the docs follow it ([Docs Hold Only What The Director Decided](docs-hold-only-what-the-director-decided.md)).
+- The docs carry a decision from its build on, and the director's verdict on the story settles it ([Docs Hold Only What The Director Decided](docs-hold-only-what-the-director-decided.md)).
 
 ## Related
 
