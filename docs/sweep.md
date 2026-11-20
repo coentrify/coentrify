@@ -49,7 +49,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 72. "The tech roadmap" in VitePress Wiki and "the short-term roadmap" in Stabilize Before Adding are defined nowhere (0.0.7).
 73. Plan Template has no case for a project with one app.
 75. Feature Workflow weighs the laws in a step of the spec that does not exist, and Game Design Laws checks them before the spec.
-76. Docs Folder Structure has no `docs/<app>/`, which three pages use.
 77. The DEV day is counted in the request log, which is optional, and three other records rely on it.
 79. A healing log entry names its commit, and nothing says which commit comes first.
 80. The records send feedback through the tickets workflow's intake, which a simple workflow project lacks.
@@ -89,7 +88,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 ## Facts That Went Stale
 
 111. Claude Code puts the project's `CLAUDE.md` back after a compaction, so the reload hook loads the Core Rules twice there.
-112. Steam needs a public Coming Soon page two weeks before release, and the quiet launch keeps the store page unpublished.
 113. `--mute-audio` mutes Chromium alone, and Silent Runs gives it to any browser.
 115. A plugin's skill fixed in place is replaced on the plugin's next update.
 116. The Builder says a message waits until the builder's turn ends, and Claude Code delivers it at the next tool call.

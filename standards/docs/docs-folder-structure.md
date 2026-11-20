@@ -15,6 +15,7 @@ Every folder answers one question, so a reader knows where a fact belongs before
 ## Knowledge
 
 - `docs/features/` - the feature docs: the product as decided ([Feature Template](feature-template.md)).
+- `docs/<app>/` - in a workspace with several apps, each app's docs, shaped like the root: its overview, architecture and features ([Application Template](application-template.md)).
 - `docs/workspace/` - the cross-cutting concern docs as flat files: `authentication.md`, `design-system.md`, `testing.md` and the like ([Workspace Template](workspace-template.md)).
 
 ## Work

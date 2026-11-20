@@ -9,7 +9,7 @@ A game meets its players at its best, the first time they hear of it.
 ## The Quiet Launch
 
 - The full game is released on day one. No wishlist campaign comes before it, and no demo on the store page.
-- The store page is set up before the release and stays unpublished, for internal review and testing.
+- The store page is set up before the release and stays unpublished as long as the store allows, such as Steam's two weeks of Coming Soon, for internal review and testing. Its visits are no goal.
 - The one thing that travels is a video of the game being played: someone enjoying the main loop, or an interesting moment.
 - The video goes out once the game can be bought. Its viewer reads the description, goes to the game and buys it.
 - That video is no trailer: no cutscene, no voice-over and no targeted ad.
