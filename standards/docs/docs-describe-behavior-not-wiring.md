@@ -14,7 +14,7 @@ A doc stays true while the code changes.
 - A concern doc does the same for one concern, such as authentication or testing.
 - File paths, the names of classes, services and components, and the wiring between them stay in the code, since they change with it.
 - A debt ticket or debt entry holds the technical detail its work needs.
-- Concrete endpoints and environment URLs live only in the reference docs, such as the api and environments docs. Credentials live in no doc.
+- Concrete endpoints and environment URLs live only in a concern doc of their own under `docs/workspace/`, such as `api.md` and `environments.md`. Credentials live in no doc.
 - When a doc reads like a copy of the code, cut to the throughline: keep the essence, and drop the specifics.
 
 ## Related

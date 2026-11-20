@@ -17,7 +17,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Gaps
 
-82. The reference docs that hold endpoints are placed nowhere.
 83. Two docs pages call a statement in a feature doc a spec, and the glossary's spec is the list of use cases.
 84. No Magic Values annotates a scalar `Readonly<T>`, which on a primitive adds nothing.
 85. The attribute order in Pre-Empt Recurring Code-Review Nits differs from the lint rule's default, and the page never names its `order` option.
