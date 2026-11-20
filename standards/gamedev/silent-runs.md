@@ -17,7 +17,7 @@ The director's focus stays unbroken.
 - A walk through the game, a check or a capture goes through the muted Playwright configs.
 - The browser pane plays the game's sound out loud, and is never opened on a game that has sound.
 - Walk a player journey through a capture spec, its screenshots read step by step, with the capture spec's output folder pointed at the scratchpad.
-- Any browser the agent launches for a game takes `--mute-audio`. A new Playwright config carries it from the start.
+- Every Chromium launch for a game takes `--mute-audio`, and another engine its own mute setting, such as Firefox's `media.volume_scale` at 0. A new Playwright config carries it from the start.
 
 ## Related
 

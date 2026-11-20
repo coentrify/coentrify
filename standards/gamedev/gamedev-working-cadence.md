@@ -37,8 +37,8 @@ Every playtest plays a named version, and knows what changed in it.
 
 ## Wind-Down
 
-- Once the director calls a wind-down, nothing new starts, not even a chore already approved. The running items finish and the close runs to its end.
-- A soft freeze is the same for the director's notes: every note after it is logged, filed to the playtest and put through intake for the next session, never briefed to an agent, however small or close to an item in hand it looks.
+- Once the director calls a wind-down, a soft freeze, no new agent is started to build, not even for a chore already approved. The work in progress finishes and the close runs to its end, so the work halts without a forced stop.
+- Everything the director says during it is logged and filed as usual, and briefed in the next session, however small or close to an item in hand it looks.
 
 ## Day Close
 

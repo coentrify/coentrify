@@ -21,10 +21,10 @@ A game meets its players at its best, the first time they hear of it.
 
 - A wishlist campaign: the store page goes up months early, and the release date is announced ahead.
 - A public demo: cut from the game during Alpha, and shown at a festival before the release.
-- A closed beta, in place of a public demo.
+- A closed beta, in place of a public demo: the whole game in Beta, gated by who plays it.
 - Building in public: devlogs and a community from early on.
 - A publisher: the marketing is in someone else's hands, for a share of the revenue.
-- Early access: the game is sold before it is whole. What is sold is polished, and the rest is gated or left out, so it is a demo that is paid for.
+- Early access: the game is sold before it is whole, in public while it is in Beta. What is sold is polished, and the rest is gated or left out, so it is a demo that is paid for, gated by content.
 
 ## What To Weigh
 

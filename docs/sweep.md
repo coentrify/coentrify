@@ -17,8 +17,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Gaps
 
-96. A soft freeze is defined nowhere.
-97. Launch Strategy offers early access and a closed beta, which fit no phase.
 
 ## Rules With Two Homes
 
@@ -33,7 +31,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Facts That Went Stale
 
-113. `--mute-audio` mutes Chromium alone, and Silent Runs gives it to any browser.
 115. A plugin's skill fixed in place is replaced on the plugin's next update.
 116. The Builder says a message waits until the builder's turn ends, and Claude Code delivers it at the next tool call.
 118. Electron Packaging drops the auto updater's side files, which an app that updates itself needs.
