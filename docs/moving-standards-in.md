@@ -18,5 +18,5 @@ How a standard moves from the memory into this repository.
 
 ## Filings Already Decided
 
-- Feature Workflow is a core standard.
+- Feature Workflow goes to Behavior.
 - Plans Vs Persistent Files and Remove Completed Items go to the simple workflow.

@@ -58,11 +58,11 @@ Older copies of coentrify are in use, and some have grown into a version of thei
 
 Every choice has a default, and the default is the recommendation. The [recommendations](recommendations.md) list the defaults and what to weigh for each.
 
-- Core standards are always recommended, starting with [Always Make No Mistakes](standards/behavior/always-make-no-mistakes.md).
+- The Always modules in the recommendations are recommended for every project, starting with [Always Make No Mistakes](standards/behavior/always-make-no-mistakes.md).
 - A stack module is recommended when the analysis finds the stack.
 - A specific module, such as the game design laws, is picked by the director.
 - A standard for one kind of project is picked by its title or its Relevant For list.
-- Adoption grows with the phase: an idea takes the core behavior, a workflow and Project Lifecycle.
+- Adoption grows with the phase: an idea takes the Always modules and a workflow, and the stack modules join once it is built.
 - A standard that an adopted standard links to, in a module the project did not pick, is offered as an option.
 - A workflow is strongly recommended, since tracking the work is part of coentrify.
 - Healing is automatic, and for a contributor, filing with coentrify waits for the director.
