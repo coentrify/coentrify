@@ -56,7 +56,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 75. Feature Workflow weighs the laws in a step of the spec that does not exist, and Game Design Laws checks them before the spec.
 76. Docs Folder Structure has no `docs/<app>/`, which three pages use.
 77. The DEV day is counted in the request log, which is optional, and three other records rely on it.
-78. A batch is defined nowhere, and it decides when a version is tagged and the activity log is written.
 79. A healing log entry names its commit, and nothing says which commit comes first.
 80. The records send feedback through the tickets workflow's intake, which a simple workflow project lacks.
 81. An unbuilt feature goes under Functional Debt with a roadmap link, or carries a mark with a ticket link.

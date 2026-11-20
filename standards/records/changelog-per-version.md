@@ -16,7 +16,7 @@ A changelog says what a version holds: for testing it, for sharing it and for mi
 
 ## Versions
 
-- Every batch of work closes with a version: the closing commit is tagged `v<version>`.
+- A version closes on the director's word, and the work merged since the last tag is its batch: the closing commit is tagged `v<version>`.
 - The bump and the next page wait for the next version's first landing, which bumps the app and creates the page with its header.
 - An unused version gets deleted.
 
