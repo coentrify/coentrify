@@ -9,6 +9,7 @@ The director wants to hear or click the idea, fast.
 ## How To Apply
 
 - Keep a prototype apart from the product's code, in its own folder with its own copies, no imports from it.
+- Its ticket, where the workflow has tickets, is its one piece of tracking ([Work Workflow](../tickets-workflow/work-workflow.md)).
 - Time to the first thing the director can hear or click is the measure. Ask before growing it.
 - Run it yourself on its own port, give the link, and keep it running until the director is done with it, since the agent often works in a worktree the director is not in.
 - No headless checks, not even a throwaway one. The check is a quick look in the browser, muted where the product plays sound.

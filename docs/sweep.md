@@ -14,9 +14,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Rules That Contradict
 
-31. Prototype Mode keeps no stories, and Work Workflow puts a proof of concept on the plan like any ticket.
-32. Non-Destructive Documenting files a failing test as a bug, and Feature Workflow writes its e2e tests failing first.
-33. Sync The Docs raises a conflicting plan in the report, and a question goes where the workflow says.
 34. Own Ports gives a project one fixed port, Parallel Agents gives every agent an `E2E_PORT`, and no page points the e2e config at it.
 35. The Simple Workflow keeps an undecided idea in the inbox and the current focus on the plan, and Roadmap Template gives both a section of the roadmap.
 36. Plans Vs Persistent Files keeps status tables in the plan, and Plan Template keeps status snapshots out.

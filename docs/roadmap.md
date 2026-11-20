@@ -15,6 +15,7 @@ The versions on the way to 1.0.
 - Probe the standards again at every new model release, on new traps.
 - Probe Reload The Standards After Compacting on a long session, and in the terminal or the app, as the [worklist](relevance-vetting.md) says.
 - Test on a real project: the first prompt, a one-word prompt once it is set up, the onboarding, the reload hook and the update.
+- Host the wiki at coentrify.com, for indexing and access.
 - Probe the bare word again once coentrify is indexed and linked from other sites, and simplify the first prompt when it passes.
 - Probe `npx coentrify` as the first prompt once the package is published, and let the Quick Start use it when it passes. Later, the package can run the update and unlink scripts in Node.
 - Add an npm icon beside the GitHub one in the wiki's top bar once the package is published.

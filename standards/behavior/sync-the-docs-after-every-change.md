@@ -10,7 +10,7 @@ The docs are up to date at all times.
 
 - After an item lands, grep the docs for its feature's terms (names, labels, the old behavior) and read every hit, beyond the feature's own doc.
 - A statement the change made untrue gets fixed in the same commit or the next one.
-- A future plan the change conflicts with (a roadmap line, a concept, a law) is raised in the report as a question for the director, never silently rewritten.
+- A future plan the change conflicts with (a roadmap line, a concept, a law) is filed as a question where the project's workflow says, and named in the report in one line. It is never silently rewritten.
 - Prefer one source of truth: a summary doc links to the feature doc rather than repeating its status.
 
 ## Related
