@@ -28,7 +28,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 52. Code Principles splits a shared unit at its first caller branch, and Per-Application Split allows one.
 53. UI Components First adds a composed card to the ui library, and its next line keeps composition in the app layer.
 54. UI Variants By Function shows a variant set as an inline union, which No Magic Values forbids.
-55. Game Design readies tickets for every level, and only the current phase is refined.
 56. Gamedev Working Cadence orders the plan bugs, debt, features, and the plan is generated in epic order.
 57. The cadence runs the touched cases while prototyping, and Prototype Mode runs no tests (0.0.7).
 58. Development calls an epic of fine-tuning a sweep, and the glossary's sweep applies one rule to every instance.
@@ -42,8 +41,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Gaps
 
-69. Nothing archives a dropped ticket, a finished workshop or an epic.
-70. A debt ticket's Veto lines never reach the director.
 72. "The tech roadmap" in VitePress Wiki and "the short-term roadmap" in Stabilize Before Adding are defined nowhere (0.0.7).
 73. Plan Template has no case for a project with one app.
 75. Feature Workflow weighs the laws in a step of the spec that does not exist, and Game Design Laws checks them before the spec.

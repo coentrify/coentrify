@@ -164,6 +164,7 @@ A question lives in the ticket that has the unclarity, under `## Question`: the 
 - A ticket is archived at the director's verdict on it or on its story, a debt or heal ticket at its landing: a `git mv` to `archive/<type>/`, which is the verdict's whole bookkeeping, since every list follows by itself.
 - A version's changelog lists the tickets that landed in it, generated ([Changelog Per Version](../records/changelog-per-version.md)).
 - A story page is archived with its last ticket, at its verdict, or a debt story's at its last landing, to `archive/stories/`.
+- A dropped ticket is archived at once, and a workshop's ticket once its outcome is ready tickets, so no id is used twice. An epic is archived with its last ticket.
 - Archived tickets are never edited again. More work on the same topic, a rework included, is a new ticket.
 
 ## Related

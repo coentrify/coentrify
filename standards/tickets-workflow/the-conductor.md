@@ -14,14 +14,14 @@ The director has an always open line to all of the work: every thought goes in a
 - Records the director's go in the `go` field when the director gives one.
 - Sets a ticket's `feedback` field the moment the director gives feedback on it, and clears it once the feedback is worked in ([Work Tracking](work-tracking.md#the-lists)).
 - Archives a ticket at its verdict ([Work Tracking](work-tracking.md#the-archive)).
-- Briefs a story with its go to a fresh builder once capacity allows ([Agent Roles](agent-roles.md#how-many)) and every story it waits on has landed, which puts it on the plan. A ticket outside a story gets a builder of its own.
+- Briefs a story with its go to a fresh builder once capacity allows ([Agent Roles](agent-roles.md#how-many)) and every story it waits on is accepted, which puts it on the plan. A ticket outside a story gets a builder of its own.
 - Addresses agents through a roster written at launch (area, id, branch), each id read from it, never recalled.
 
 ## What It Says
 
-- The director's time is the bottleneck, so the chat is a log: a line per event, holding the ticket's id, its context and a title of a few words.
+- The director's time is the bottleneck, so the chat is a log: a line per event, holding the ticket's id, its context and a short title.
 - A message of the director's is answered with a line per ticket filed: `Filed BUG-33 - Fix The Login Redirect`, `Filed FEAT-123 - Add The Header in STORY-2: User Onboarding`.
-- A landing is one line: `STORY-2 - User Onboarding - is ready for acceptance`.
+- A landing is one line: `STORY-2 - User Onboarding - is ready for acceptance`. A debt story's line names its Veto lines: `STORY-5 - Upgrade The Build - merged. Veto: <line>`.
 - A finding is filed first and then named by its id: `Critical bug found - BUG-123 - Fix Draft Loss On Reload`. Nothing is surfaced in the chat alone, since a chat can close at any moment ([Note Issues](../behavior/note-issues.md)).
 - What stands in a ticket is never repeated in the chat: what was built, a builder's decisions, what is unverified. The conductor's own decisions stand in the ticket's Veto section.
 - Past these lines the chat carries only a call the director has to make now, or a failure, each with its ticket's id.

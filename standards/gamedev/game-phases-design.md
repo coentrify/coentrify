@@ -25,7 +25,7 @@ One of everything, rough, in the real project: one of each kind of content and o
 
 ## Game Design
 
-The world translated into the game's levels and features, represented by docs and tickets. Nothing is built. Done When: every part of the world has its levels and features in docs and ready tickets, and the director has approved the design as a whole. Its work is Game tickets. Gate: is the whole game on paper?
+The world translated into the game's levels and features, represented by docs and tickets. Nothing is built. Done When: every part of the world has its levels and features in docs and filed tickets, refined once their phase comes, and the director has approved the design as a whole. Its work is Game tickets. Gate: is the whole game on paper?
 
 ## The Order
 
