@@ -4,7 +4,7 @@ An e2e test never assumes an element is there. Before any interaction or deeper 
 
 ## Why
 
-A test verifies the delta: the state before an interaction, and the state after it.
+Asserting the state before each interaction makes a failure point at where it starts: the missing element fails at its own line, by name.
 
 ## How To Apply
 

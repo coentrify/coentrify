@@ -28,9 +28,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 94. Captures And Reels names a capture by version in the changelog's image folder, and by ticket in its Done part.
 96. A soft freeze is defined nowhere.
 97. Launch Strategy offers early access and a closed beta, which fit no phase.
-100. VitePress Wiki sorts a test group and entries from before any version, which no standard defines.
-101. A reel keeps the viewport's size, and Playwright Video Recording leaves the size unset without excepting reels.
-102. The Why of E2E Assert Before Interacting gives the reason of Bracket State Changes.
 
 ## Rules With Two Homes
 

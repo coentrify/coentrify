@@ -12,7 +12,7 @@ A recording is proof, so it has to come out sharp and whole.
 
 - The default `video.size` is the viewport scaled to fit 800x800, which downscales mobile-shaped footage noticeably.
 - When footage must be 1:1 sharp at several viewports, split the spec into one file per viewport (e.g. `*.mobile.spec.ts`), each with its own `test.use`, sharing one `deviceOptions(size)` helper that bundles viewport and video size.
-- When sharp framing doesn't matter, leave `video.size` unset. The scaling is proportional, just not native.
+- When sharp framing doesn't matter, leave `video.size` unset. The scaling is proportional, just not native. Never for a reel, which keeps the viewport's size ([Reels And Video Proof](../reporting/reels-and-video-proof.md)).
 
 ## Variants Of One Take
 
