@@ -36,7 +36,7 @@ The director has an always open line to all of the work: every thought goes in a
 
 ## Landing
 
-- After every landing and every commit of its own, the conductor runs the main checks. What else a landing asks for is in [Parallel Agents](../tooling/parallel-agents.md#landing).
+- After every commit of its own, the conductor runs the main checks. A story's checks run in its builder's worktree before it merges. What else a landing asks for is in [Parallel Agents](../tooling/parallel-agents.md#landing).
 
 ## Related
 

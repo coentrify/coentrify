@@ -8,7 +8,7 @@ The director can trust a ticket that is called done.
 
 ## Building
 
-- Work comes from the plan only, and the plan holds only ready tickets with a go and an agent. Every commit traces to a ticket on the plan and starts with its id ([Commits](../commits/commits.md)). Something found mid-work that is not on the plan becomes a ticket first ([Note Issues](../behavior/note-issues.md)).
+- Work comes from the plan only, and the plan holds only ready tickets with a go and an agent. Every commit traces to a ticket on the plan and starts with its id ([Commits](../commits/commits.md)). Something found mid-work that is not on the plan becomes a ticket first ([Note Issues](../behavior/note-issues.md)), apart from a fix that [Don't Introduce Tech Debt](../behavior/dont-introduce-tech-debt.md) makes in the same pass.
 - One item in flight per agent: the first ticket of its plan section ([Work Tracking](work-tracking.md#the-lists)).
 - Every word and number a change shows, configuration data included, is weighed along the ticket's entry points by what it means to the user at that moment ([Walk The User's Journey](../ui/walk-the-users-journey.md)). A text the user reads speaks the product's own words, never the workspace's internal terms.
 - A feature runs the feature workflow inside its ticket ([Feature Workflow](../behavior/feature-workflow.md)).

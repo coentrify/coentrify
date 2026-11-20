@@ -4,8 +4,8 @@ A spec for the three scripts that land work on the main branch when several agen
 
 ## Merge
 
-- It merges one branch into the main branch with `--no-ff --no-commit`, runs the main checks it is given on the merged tree, and commits with the message it is given only when every check exits 0.
-- A failed check aborts the merge and leaves main as it was.
+- It merges one branch into the main branch with `--no-ff` and the message it is given.
+- It refuses a branch that does not hold the latest main, so the tree that lands is the one its builder checked.
 - It refuses while a merge is in progress, on a tree with tracked changes, off the main branch, without exactly one branch named, and with a message that does not open with a story's or a ticket's id.
 - It takes a lock first, and refuses while another merge holds it, so two merges never run at once.
 
@@ -22,8 +22,8 @@ A spec for the three scripts that land work on the main branch when several agen
 
 ## The Check
 
-- A merge on a clean main with passing checks lands the branch in one merge commit, its message opening with the story's id.
-- A merge with a failing check aborts, and main is as it was.
+- A merge of a branch that holds the latest main lands it in one merge commit, its message opening with the story's id.
+- A merge of a branch that main has moved past refuses, and main is as it was.
 - A merge on a dirty tree, off main, while the lock is held, or with a message without an id refuses and changes nothing.
 - Main checks with no check named refuses. With a passing and a failing check, it prints both codes and exits with the failure.
 - A docs commit with a failing check commits nothing.

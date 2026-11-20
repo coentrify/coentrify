@@ -50,9 +50,7 @@ Everything needs the director's go before it is built: a feature, a bug, docs wo
 - An ask is never the go: the ticket written from it goes on the planning page, and only a go and an agent put it on the plan.
 - Once a ticket has its go, it is built and lands without asking again.
 - Automatic healing needs no go: the report names its change for a veto.
-- A small issue in the wake of the current change is fixed in the same pass ([Don't Introduce Tech Debt](../behavior/dont-introduce-tech-debt.md)).
-- A small fix found in passing, outside the change's own wake, rides on the current ticket's go as a Veto line.
-- A bigger fix found in passing becomes a ticket of its own.
+- A violation found mid-change is fixed or noted as [Don't Introduce Tech Debt](../behavior/dont-introduce-tech-debt.md) says, and a noted one becomes a debt ticket.
 - The one exception sits at the end of the path: a debt ticket needs no acceptance.
 
 ## Definition Of Ready
