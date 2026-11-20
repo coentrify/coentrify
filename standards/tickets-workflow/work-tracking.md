@@ -106,7 +106,7 @@ A story is one layer between the epic and the ticket: the unit the director refi
 - A ticket waits only inside its story: its Depends On names tickets of its own story, the builder's order. Two tickets outside a story that depend on each other go into a story together.
 - A story can be blocked on a story, the level the go is given at. Its page names the stories it waits on under Depends On, only where the order matters.
 - A block is avoided first: the order is made irrelevant, each story started by itself from a skeleton or a seeded scenario, or the shared piece is extracted into a small story of its own that unblocks both.
-- A blocked story is refined and given its go like any other. It gets no builder until every ticket of its blocker has landed.
+- A blocked story is refined and given its go like any other. It gets no builder until its blocker is accepted, or merged where a debt story gets no verdict.
 - The director's findings on a story become new tickets in it, each tagged with the landed ticket it redoes in its `rework` field, so rework is counted and its causes are found. A landed ticket is never reopened.
 
 ## The Lists
@@ -117,7 +117,7 @@ The unit of a list is the story. Each story of the current phase stands on exact
 
 - `processing.md` - every story with a ticket that carries a `feedback` field, which keeps it off the director's inboxes until the conductor clears the field.
 - `accept.md` - every story with open tickets, each with a Done part, in landing order read from git. Debt never waits there, since it lands archived.
-- `plan.md` - every story whose tickets not yet landed are all ready, have a `go` and have an agent, its tickets in a section per agent by their `agent` field, the section's heading read back from the slug. In each section in the roadmap's order of epics, then by priority, a missing one counting as medium, then by the go's time. A story with its go is one builder's section, and stays on the plan while a ticket in it waits on its builder's question. An agent's first ticket is the one in flight. The plan holds only what is active: its generated sections.
+- `plan.md` - every story whose tickets not yet landed are all ready, have a `go` and have an agent, one line per story in a section per agent by its tickets' `agent` field, the section's heading read back from the slug, in the roadmap's order of epics. The plan lists stories, never their tickets, which stand on the story's page in the story's order. A story stays on the plan while a ticket in it waits on its builder's question. The plan holds only what is active: its generated sections.
 - `planning.md` - every story whose tickets not yet landed are all ready, as one item, in three groups: the stories with a go that wait for an agent, the stories that wait on a go, and `## Blocked`, the stories that wait on a story, each naming its blocker inline (`STORY-12 - blocked by STORY-9`).
 - `refine.md` - every other story of the current phase ([The Refine List](#the-refine-list)). What a ticket still misses is read in the ticket. A builder's question on a ticket in flight lists that ticket here as well, until it is answered.
 - `roadmap.md` - kept by hand, since its order is a decision: every epic, functional and technical alike, a section per phase in the phases' order, each linking its phase page and listing its epics in execution order, then `## Blocked` and `## Waiting For Response` for epics paused on an internal or an external dependency, each naming its blocker inline (`X - blocked by Y`).
@@ -144,7 +144,7 @@ The unit of a list is the story. Each story of the current phase stands on exact
 - The rest runs in the roadmap's order of epics, under each epic its stories, linked, with their tickets not yet ready, then its tickets outside a story.
 - A story leaves once every ticket of it is ready.
 - The list ends with a `## Last In Phase` section: every ticket marked `last` until each unmarked ticket of its phase is archived.
-- A blocked story's tickets are read again once its blocker lands, since what the blocker settled can change them.
+- A blocked story's tickets are read again once its blocker is accepted, since what the blocker settled can change them.
 
 ## The Open Questions
 

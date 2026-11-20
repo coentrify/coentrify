@@ -14,7 +14,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Rules That Contradict
 
-27. The plan sorts by epic, priority and the go's time, and names its first ticket the one in flight, past Depends On and a builder's open question.
 28. Agent Roles says the index loads by itself, and the onboarding only points the entry point at it.
 29. The glossary's go approves one named piece of work, and Work Workflow gives one go for all that is ready.
 30. The glossary's maybe is any idea left undecided, and A Maybe Is A Trigger needs the director to phrase it as one.

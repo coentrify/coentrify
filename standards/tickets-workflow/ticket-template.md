@@ -59,7 +59,7 @@ last: true                   (a ticket that closes its phase, a phase gate spike
 long: true                   (a ticket kept past about 300 words before Done)
 long-done: true              (a Done part kept past about 100 words)
 go: 2026-10-23#_14-05        (the log entry of the director's go, written by the conductor)
-agent: builder-1             (its plan section's name as a slug, docs-agent-1 or scout-1 say, written by the conductor)
+agent: builder-1             (its builder's name as a slug, docs-agent-1 or scout-1 say, written by the conductor)
 feedback: 2026-10-23#_15-10  (while the director's feedback on it is worked in)
 ---
 
