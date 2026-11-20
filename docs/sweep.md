@@ -14,8 +14,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Rules That Contradict
 
-22. Propagate Renames updates every instance of a changed convention in the same change, and Code Review Compounds files the existing instances as a sweep.
-23. Code Review Compounds has the reviewer add the check and write the standard itself, past healing.
 24. File A Change lets the healing subagent file on its own with `automatic`, and the Healing Log and the onboarding file only a ruled change.
 25. The tickets workflow's hook refuses a code commit without a ticket id, and automatic healing has no ticket.
 26. A debt ticket that changes what the user sees keeps the accept list in Work Workflow, and every debt ticket lands archived in Building A Ticket and Work Tracking.

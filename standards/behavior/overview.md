@@ -11,7 +11,7 @@ The Behavior standards: how an agent works and what an agent checks.
 - [Always Work From A Plan](always-work-from-a-plan.md) - work that survives the session or grows out of scope gets a written plan. In a project all work follows the project's workflow
 - [Anchor Edits After Formatting](anchor-edits-after-formatting.md) - no write while a commit hook runs, check every anchor of a batch first, no edit by line number after a formatter
 - [Backward-Trace Missing Prerequisites](backward-trace-missing-prerequisites.md) - a missing prerequisite is filed above the item. Recurse, never patch around
-- [Code Review Compounds Into Patterns And Sweeps](code-review-compounds-into-patterns-and-sweeps.md) - a review finding is a pattern: review check, how-to standard, sweep ticket
+- [Code Review Compounds Into Patterns And Sweeps](code-review-compounds-into-patterns-and-sweeps.md) - a review finding is a pattern: a review check or a standard through healing, and a sweep ticket
 - [Communication Boundary](communication-boundary.md) - never contact users or testers or speak for the director. File `Tell <name>` tasks
 - [Dev Tiers](dev-tiers.md) - the recommended order: build, bugs, debt, features, within the current phase's goal. The director decides, and a pick that skips open bugs or debt gets a reminder
 - [Docs Hold Only What The Director Decided](docs-hold-only-what-the-director-decided.md) - docs hold only what the director decided. Ideas go to chat first
@@ -27,7 +27,7 @@ The Behavior standards: how an agent works and what an agent checks.
 - [Note Issues](note-issues.md) - write down every finding where the project's workflow says, never only in chat
 - [Own Ports, Own Processes](own-ports-own-processes.md) - own fixed non-default port per project, kill only your own PIDs, stop what you started
 - [Project Lifecycle](project-lifecycle.md) - a project is in one phase at a time, the phase decides what matters now, and a phase gate ends it
-- [Propagate Renames And Convention Changes Everywhere](propagate-renames-and-convention-changes-everywhere.md) - a rename or convention change updates every site. Grep before and after
+- [Propagate Renames And Convention Changes Everywhere](propagate-renames-and-convention-changes-everywhere.md) - a rename updates every reference in the same change, grep before and after. A changed convention updates the pages that state it, and its occurrences go to a sweep
 - [Prose Style](prose-style.md) - no AI sentence patterns. Calm, concrete, varied. Reports brief
 - [Prototype Mode Is Speed First](prototype-mode-is-speed-first.md) - prototyping means speed: no tests, a standalone one-pager, run it and share the link
 - [Regular Layered Gap Analysis](regular-layered-gap-analysis.md) - walk the doc, spec, test and code layers both ways. Rules against the code too

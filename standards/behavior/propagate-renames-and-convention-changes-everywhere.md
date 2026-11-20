@@ -1,6 +1,6 @@
 # Propagate Renames And Convention Changes Everywhere
 
-When you rename a concept, file, route, or label, or change a doc/code convention, update every occurrence in the same change - sibling docs, references, links, specs, labels - rather than fixing one and waiting to be told to "align the others".
+When you rename a concept, file, route or label, update every reference in the same change: sibling docs, links, specs, labels. Never fix one and wait to be told to "align the others". A changed doc or code convention updates every page that states it in the same change, and its existing occurrences go to a sweep, filed as debt ([Sweeps Enumerate Into Tech-Debt First](sweeps-enumerate-into-tech-debt-first.md)).
 
 ## Why
 
