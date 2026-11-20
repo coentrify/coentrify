@@ -17,9 +17,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Gaps
 
-85. The attribute order in Pre-Empt Recurring Code-Review Nits differs from the lint rule's default, and the page never names its `order` option.
-91. UI Layout Via Slot Composition names both `header` and `top` as the region at the top.
-94. Captures And Reels names a capture by version in the changelog's image folder, and by ticket in its Done part.
 96. A soft freeze is defined nowhere.
 97. Launch Strategy offers early access and a closed beta, which fit no phase.
 

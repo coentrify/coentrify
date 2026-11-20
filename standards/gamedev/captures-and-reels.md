@@ -1,6 +1,6 @@
 # Captures And Reels
 
-The day-to-day proof of a game change is a capture or a reel from the seeded scenarios, never a hand recording. One capture script per level takes the version as a label and writes the stills into the changelog's image folder. One reel script per level records highlights as segments and joins them into one video with the game's own sound.
+The day-to-day proof of a game change is a capture or a reel from the seeded scenarios, never a hand recording. One capture script per level labels its stills by the ticket's id and writes them into the wiki's image folder, linked from the ticket's Done part. One reel script per level records highlights as segments and joins them into one video with the game's own sound.
 
 ## Why
 
