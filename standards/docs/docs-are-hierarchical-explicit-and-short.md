@@ -38,7 +38,6 @@ A hierarchy gives every page the right focus level, for efficient and effective 
 ## How To Apply
 
 - Legacy pages get rewritten page by page, with one model page reviewed by the director first.
-- The wiki's tree is workshopped with the director before pages move.
 
 ## Related
 

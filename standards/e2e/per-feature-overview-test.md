@@ -18,9 +18,9 @@ An overview video per feature isolates that feature: for onboarding a user or a 
 
 ## Keep It In Step With The Use Cases
 
-When a use case is added to or removed from a feature spec, re-read the overview and decide whether it should absorb the change.
+When a use case is added to or removed from a feature spec, re-read the spec's Overview case and decide whether it should absorb the change. The case changes first, and the test follows it ([Feature Spec Template](../docs/feature-spec-template.md)).
 
-- Adding a use case: extend the overview when a viewer benefits from seeing it (a new state, branch or outcome). An edge case, error variant or no-op stays with its per-flow test.
+- Adding a use case: extend the Overview case when a viewer benefits from seeing it (a new state, branch or outcome). An edge case, error variant or no-op stays with its per-flow test.
 - Removing or renaming a use case: update or drop the overview steps that referenced it.
 - The overview tells one coherent story. A use case that doesn't thread into it is skipped in the take, or a sign it belongs to another feature.
 

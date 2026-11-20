@@ -15,7 +15,7 @@ The director trusts the docs as the record of what was decided. A contribution i
 - The request log records who decided what.
 - A knowledge page states the decision plainly ([Docs State Knowledge](../docs/docs-state-knowledge.md)).
 - When restructuring moves a statement (a feature idea lifted out of a rule, say), name the move in the report.
-- Restructuring and cleanup that follow the templates and the director's stated goal do not count as the agent's own ideas: splitting an overloaded page, renaming a file to its title, moving copy to its right home, picking between two readings the templates already decide. Do it without asking, say what was done, and ask for a review of the pages.
+- Restructuring and cleanup that follow the templates and the director's stated goal do not count as the agent's own ideas: splitting an overloaded page, renaming a file to its title, moving copy to its right home within a section, picking between two readings the templates already decide. Do it without asking, say what was done, and ask for a review of the pages. A change to the wiki's tree, such as a new top-level section or pages moving between sections, is workshopped with the director first.
 
 ## Related
 

@@ -14,10 +14,8 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Rules That Contradict
 
-40. Docs Are Hierarchical workshops the wiki's tree before pages move, and Docs Hold Only What The Director Decided moves copy without asking.
 42. Application Template puts a route on a view, and functional docs hold no routes.
 43. E2E Test Conventions adds a module prefix to the tags later, and a use-case id never changes.
-44. Per-Feature Overview Test extends the overview test on its own, and the spec's Overview case is its source of truth.
 50. One Artifact Per File never bundles artifacts, and E2E Mock Contract keeps its constants in one file.
 52. Code Principles splits a shared unit at its first caller branch, and Per-Application Split allows one.
 53. UI Components First adds a composed card to the ui library, and its next line keeps composition in the app layer.
