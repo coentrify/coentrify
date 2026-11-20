@@ -8,9 +8,9 @@ The keychain is the director's private credential store. Probing it is an intrus
 
 ## How To Apply
 
-- When a task needs a secret (credentials, tokens, API keys), ask the director for it, or look in project-scoped config the director points to - never the keychain.
-- Also avoid other credential files, such as `.env*`.
+- A secret a task needs is set up as [Keep Secrets Away From Agents](keep-secrets-away-from-agents.md) says, never taken from the keychain.
 
 ## Related
 
+- [Keep Secrets Away From Agents](keep-secrets-away-from-agents.md)
 - [General Working Rules](../behavior/general-working-rules.md)

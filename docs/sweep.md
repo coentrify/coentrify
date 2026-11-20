@@ -26,8 +26,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 43. E2E Test Conventions adds a module prefix to the tags later, and a use-case id never changes.
 44. Per-Feature Overview Test extends the overview test on its own, and the spec's Overview case is its source of truth.
 45. Develop Against Mocks leaves real backends to the director, and Test The System Behind A Mock gives them a spec test.
-46. Never Access The Keychain reads the config the director points to, and avoids `.env*` files.
-47. Electron Packaging signs a build that goes out, signing on a Mac runs through the keychain that Never Access The Keychain forbids, and no page names who signs.
 48. Validation Errors Fire On Submit never disables a submit on invalid input, and Walk The User's Journey and Bracket State Changes use exactly that as their example (0.0.7).
 49. Barrel Imports imports a same-folder file directly, and its overview line and Scope line still send siblings through the barrel (0.0.7).
 50. One Artifact Per File never bundles artifacts, and E2E Mock Contract keeps its constants in one file.
@@ -103,10 +101,8 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 111. Claude Code puts the project's `CLAUDE.md` back after a compaction, so the reload hook loads the Core Rules twice there.
 112. Steam needs a public Coming Soon page two weeks before release, and the quiet launch keeps the store page unpublished.
 113. `--mute-audio` mutes Chromium alone, and Silent Runs gives it to any browser.
-114. `pgrep -fl` prints only the process name on Linux, where the full command line needs `-a`.
 115. A plugin's skill fixed in place is replaced on the plugin's next update.
 116. The Builder says a message waits until the builder's turn ends, and Claude Code delivers it at the next tool call.
-117. A Mac build that goes out also needs notarization, which Electron Packaging never names.
 118. Electron Packaging drops the auto updater's side files, which an app that updates itself needs.
 119. Gestures In Tests says phone keyboards often lack an Enter key.
 

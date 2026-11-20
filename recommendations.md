@@ -15,7 +15,7 @@ Recommendations and considerations for adopting coentrify.
 
 - Behavior - how an agent works and what an agent checks, with the Core Rules in it
 - Docs - documentation rules and templates
-- Security - hard boundaries: no personal data in a request, and no keychain
+- Security - hard boundaries: no personal data in a request, no secret within an agent's reach, and no keychain
 
 Normal Dashes and Prose Style are taste. Coentrify recommends both, because docs that sound like AI annoy a human reader fast, and a project can leave them out.
 

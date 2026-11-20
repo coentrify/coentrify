@@ -17,6 +17,7 @@ Every doc and ticket can be checked against the words that produced it.
 - Log first, in the same turn, then run intake.
 - A message that lands mid-turn is logged the same way, with its own time, before the work goes on.
 - A question the director asks is logged too, since the answer shapes the project.
+- A secret in a message is left out ([Keep Secrets Away From Agents](../security/keep-secrets-away-from-agents.md)).
 - Past entries only get typo fixes.
 - New understanding gets a new entry.
 - The log entry is committed as its own `docs(log)` commit, in the same pass as what was parsed from it. Never left uncommitted waiting for a go.

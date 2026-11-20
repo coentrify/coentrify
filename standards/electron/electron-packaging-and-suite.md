@@ -12,8 +12,8 @@ A package works away from the repository, and the packaged suite proves it on th
 - A version guard refuses to package a version that is tagged already. A packaged build carries the version of its commit.
 - All platform packages build from one machine where the packager allows it. The auto updater's side files can go.
 - The packaged suite probes what breaks silently in a package: the fonts, the icons, the store path.
-- A release checklist names the steps around a build that goes out: the debug tools stripped, the signing, the platforms tested by hand.
-- An unsigned build may not open on another machine. A build that goes out to others is signed, and its platforms are tested by hand, per the release checklist.
+- A build that goes out is signed, and on a Mac notarized, by the build itself in CI, from a certificate and an API key held as the CI's secrets, never through the director's keychain ([Keep Secrets Away From Agents](../security/keep-secrets-away-from-agents.md)). An unsigned build may not open on another machine.
+- A release checklist names the steps around such a build: the debug tools stripped, the signing and notarization, the platforms tested by hand.
 
 ## Related
 

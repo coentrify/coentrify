@@ -16,8 +16,8 @@ More worktrees could be using the same machine.
 ## Kill Only Your Own
 
 - Capture `$!` when you background a process, and kill that PID.
-- If you must match by pattern, make the pattern yours: a distinctive port or env var, and match on that.
-- Before any `pkill`, run the equivalent `pgrep -fl` and read what would die.
+- Start every process of your own so it is easy to find again: a distinctive port or a marker of its own in its command line, and match on that.
+- Before any `pkill`, list what would die with its full command line, `ps -o pid=,args= -p "$(pgrep -d, -f <pattern>)"`, and read it.
 - Never free a port by killing whatever listens on it. Start your own on another port instead.
 - When you do kill something of theirs, say so plainly and restart it before continuing.
 
