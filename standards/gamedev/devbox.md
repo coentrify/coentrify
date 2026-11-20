@@ -12,7 +12,7 @@ The agent and the director reach any state of the game quickly.
 - The seeded scenarios live in one configuration and are the shared contract. The game itself never shortens for a test.
 - The same scenarios drive the e2e cases, the captures, the reels and the devbox, so what the agent verified is what the director plays.
 - A rare event gets a devbox trigger the first time it exists, and every scene's rare or slow state gets a scenario as it is built: fresh, mid-way, at the gate, at the boss.
-- The release checklist names the strip.
+- A release build strips it, and a check fails one that still holds it.
 
 ## Related
 

@@ -16,7 +16,7 @@ The main gameplay: the core loop and the main mechanics. Its work is Game ticket
 
 ## First Playable
 
-One of everything, rough, in the real project: one of each kind of content and one of each mechanic, playable together. Its work is Game tickets. Gate: does the core hold up when played?
+One of everything, rough, in the real project: one of each kind of content and one of each mechanic, playable together. Game tickets design it, and the Feature tickets they lead to build it. Gate: does the core hold up when played?
 
 - A first playable is never a demo. A demo is public, and the first playable stays internal.
 - It shows that the core holds up when played, and that the project builds end to end.

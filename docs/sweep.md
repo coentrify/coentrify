@@ -18,7 +18,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 ## Gaps
 
 73. Plan Template has no case for a project with one app.
-75. Feature Workflow weighs the laws in a step of the spec that does not exist, and Game Design Laws checks them before the spec.
 79. A healing log entry names its commit, and nothing says which commit comes first.
 81. An unbuilt feature goes under Functional Debt with a roadmap link, or carries a mark with a ticket link.
 82. The reference docs that hold endpoints are placed nowhere.
@@ -27,10 +26,8 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 85. The attribute order in Pre-Empt Recurring Code-Review Nits differs from the lint rule's default, and the page never names its `order` option.
 86. UI Styleguide allows a gallery route or a wiki widget, and its sweep works only in Storybook.
 91. UI Layout Via Slot Composition names both `header` and `top` as the region at the top.
-92. Lore and Game tickets have no life cycle of their own, and First Playable is built on them.
 93. Gamedev relies on playtests, the activity log and the tickets workflow, which Recommendations make optional.
 94. Captures And Reels names a capture by version in the changelog's image folder, and by ticket in its Done part.
-95. Devbox relies on a release checklist that only the Electron module defines.
 96. A soft freeze is defined nowhere.
 97. Launch Strategy offers early access and a closed beta, which fit no phase.
 99. VitePress Wiki forbids touching a config file, and sets the wiki up with one.

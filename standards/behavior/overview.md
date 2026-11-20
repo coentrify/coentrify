@@ -17,7 +17,7 @@ The Behavior standards: how an agent works and what an agent checks.
 - [Docs Hold Only What The Director Decided](docs-hold-only-what-the-director-decided.md) - docs hold only what the director decided. Ideas go to chat first
 - [Don't Filter Data Without A Spec](dont-filter-data-without-a-spec.md) - never drop data unless the exclusion is specced and tested
 - [Don't Introduce Tech Debt](dont-introduce-tech-debt.md) - new code follows conventions even when neighbors don't. Fix what your change caused
-- [Feature Workflow](feature-workflow.md) - plan -> doc -> spec -> failing e2e -> implement -> regression -> proof the director can verify
+- [Feature Workflow](feature-workflow.md) - plan -> doc -> laws -> spec -> failing e2e -> implement -> regression -> proof the director can verify
 - [File A Change With Coentrify](file-a-change-with-coentrify.md) - a contributor files a harness change that holds beyond its project, one point per issue, without project details
 - [Flag Every Addition Of Your Own](flag-every-addition-of-your-own.md) - name a decision of your own that no law, rule or guideline settles, for a veto. An impactful change is discussed first
 - [Free Text Replies, No Buttons](free-text-replies-no-buttons.md) - no answer buttons or wrap-up questions. Ask in prose and keep going. No closing prompts where a dashboard shows the director's inboxes

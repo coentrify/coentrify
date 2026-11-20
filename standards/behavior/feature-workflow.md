@@ -10,13 +10,14 @@ A feature is built on intent and context, never on guesses.
 
 - Plan ([Always Work From A Plan](always-work-from-a-plan.md)).
 - Functional doc at `docs/features/<feature>.md` ([Feature Template](../docs/feature-template.md)).
+- The laws a project adopted are checked against the feature, in a step of their own.
 - Spec at `docs/features/<feature>.spec.md` ([Feature Spec Template](../docs/feature-spec-template.md)).
 - E2E tests, failing first ([E2E Test Conventions](../e2e/e2e-test-conventions.md)).
 - Implement use case by use case, in mock state ([Develop Against Mocks](../tooling/develop-against-mocks.md)).
 - Regression-test the affected area.
 - Proof: a screenshot, a video, a test run or whatever fits, that tells the director the feature is done and lets the director verify it. Proof the director cannot check is no proof ([Reels And Video Proof](../reporting/reels-and-video-proof.md)).
 
-The laws a project adopted are weighed in the spec, in a step of their own, and small steps keep the focus.
+Small steps keep the focus.
 
 Doc, spec and e2e steps are observation only - no production-code edits ([Non-Destructive Documenting And Test Automation](non-destructive-documenting-and-test-automation.md)).
 
