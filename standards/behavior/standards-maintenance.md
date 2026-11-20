@@ -55,6 +55,7 @@ Soft caps: past a cap, a standard is trimmed or split before anything is added t
 
 - Apply format fixes freely.
 - A rule change goes the way `healing` says, and the report names it ([Always Make No Mistakes](always-make-no-mistakes.md)).
+- A standard from coentrify that a project changes turns `customized` in `coentrify.json`, with the reason in `standards/decisions.md`.
 - A contributor files a changed or added standard with coentrify, if relevant ([File A Change With Coentrify](file-a-change-with-coentrify.md)).
 
 ## Related

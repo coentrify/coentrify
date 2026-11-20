@@ -4,8 +4,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Install And Update
 
-7. No healing page says a tracked standard changed by hand turns customized, so the coentrify.json check refuses the healing commit.
-8. Game Design Laws adds a new generic law to its tracked part page, which the coentrify.json check refuses.
 
 ## This Repository
 
