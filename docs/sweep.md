@@ -26,7 +26,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 84. No Magic Values annotates a scalar `Readonly<T>`, which on a primitive adds nothing.
 85. The attribute order in Pre-Empt Recurring Code-Review Nits differs from the lint rule's default, and the page never names its `order` option.
 86. UI Styleguide allows a gallery route or a wiki widget, and its sweep works only in Storybook.
-90. Interface, Not Abstract Class injects the concrete class, so the compiler holds only what the interface lists.
 91. UI Layout Via Slot Composition names both `header` and `top` as the region at the top.
 92. Lore and Game tickets have no life cycle of their own, and First Playable is built on them.
 93. Gamedev relies on playtests, the activity log and the tickets workflow, which Recommendations make optional.
