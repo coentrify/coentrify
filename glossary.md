@@ -71,7 +71,7 @@ The smallest complete flow in a product: one thing a user does, from a start sta
 
 ### Spec
 
-The list of the use cases of one feature, each written out as steps. Every use case has an id of its own, renamed everywhere at once when it changes ([Feature Spec Template](standards/docs/feature-spec-template.md)).
+Short for specification: what is wanted, written down, at any level. A feature doc's statements, a feature's use cases and a ticket's criteria are each a spec. The feature spec lists a feature's use cases, each written out as steps, and every use case has an id of its own, renamed everywhere at once when it changes ([Feature Spec Template](standards/docs/feature-spec-template.md)).
 
 ### Layer
 
