@@ -18,13 +18,10 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 37. Library Feedback gives friction with a library no doc, and Plans Vs Persistent Files lists library feedback docs.
 38. Docs Describe Behavior keeps the wiring in the code, and three pages make `architecture.md` the technical wiring.
 40. Docs Are Hierarchical workshops the wiki's tree before pages move, and Docs Hold Only What The Director Decided moves copy without asking.
-41. Feature Spec Template asks for an imperative use-case title and shows a statement, and E2E Test Conventions takes the test title in a third form.
 42. Application Template puts a route on a view, and functional docs hold no routes.
 43. E2E Test Conventions adds a module prefix to the tags later, and a use-case id never changes.
 44. Per-Feature Overview Test extends the overview test on its own, and the spec's Overview case is its source of truth.
-45. Develop Against Mocks leaves real backends to the director, and Test The System Behind A Mock gives them a spec test.
 50. One Artifact Per File never bundles artifacts, and E2E Mock Contract keeps its constants in one file.
-51. UI Components First sends a missing token to the director, and Always Use Design Tokens For Colors has the agent add it.
 52. Code Principles splits a shared unit at its first caller branch, and Per-Application Split allows one.
 53. UI Components First adds a composed card to the ui library, and its next line keeps composition in the app layer.
 54. UI Variants By Function shows a variant set as an inline union, which No Magic Values forbids.

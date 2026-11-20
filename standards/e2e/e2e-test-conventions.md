@@ -21,7 +21,7 @@ What the spec says and what the tests verify should be easy to check against eac
 
 ## Title
 
-The test title is the use-case name: no "happy path", no flow prefix, no ID prefix.
+The test title is the use-case name, as its spec's heading has it: no "happy path", no flow prefix, no ID prefix.
 
 - Happy path is the use case as-is: `Create User`, `Edit User`, `User List`.
 - Edge cases append ` - <Variant>` with a spaced dash: `Create User - Invalid Email`, `Edit User - Error`, `Delete User - Cancel`.

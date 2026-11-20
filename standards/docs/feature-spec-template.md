@@ -20,7 +20,7 @@ A feature is verified the same way by hand and by e2e, through one set of use ca
 
 ## Use Case Shape
 
-- Subheading: ``### <imperative title> (`<feature-id>-N`)``. ID format matches the overview list so the two read identically.
+- Subheading: ``### <Use Case Name> (`<feature-id>-N`)``, the name in Title Case and the same as its test's title ([E2E Test Conventions](../e2e/e2e-test-conventions.md#title)). ID format matches the overview list so the two read identically.
 - Body: flat dash list. No nesting.
 - Step order: start state, action, confirm(s), each step its own bullet. Never one arrow-chained sentence. Multi-action cases add more action and confirm bullets. Tightly coupled inverse actions (open + dismiss) can share one case.
 - Static-baseline cases (e.g. touch-target sizing) may use a start-state bullet then confirm bullet(s) without an action - the case is an observation about the rendered state.
@@ -28,7 +28,7 @@ A feature is verified the same way by hand and by e2e, through one set of use ca
 Example:
 
 ```
-### Inbox lists unresolved requests (`inbox-1`)
+### List Unresolved Requests (`inbox-1`)
 
 - On the request overview
 - open the inbox from the navigation

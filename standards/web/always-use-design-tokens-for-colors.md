@@ -12,7 +12,7 @@ Every color follows the design system, its themes and its renames included.
 - When the color is dynamic or chosen in TS, the component emits a key or variant, never a hex or a `var(--...)` string, and the SCSS maps that key to the token (a modifier class, an `@each` over a `$key: color.$token` map). SVG `stroke=`/`fill=` presentation attributes can't resolve tokens, so bind a class instead of a style string.
 - A scene drawn in code, such as a canvas, reads its colors from the token layer's object in code.
 - Pick an existing color as it is before any new one: no lightened, darkened or blended shade of a token for a new element when an existing color reads well.
-- A missing token is a design-system gap: add it to the project's own token layer and surface the gap to the director ([Library Feedback](../docs/library-feedback.md)). Never a raw value in its place.
+- A missing token is added to the project's own token layer, never a raw value in its place. Where the design system is large and mature enough to have owners, the gap is surfaced for them ([Library Feedback](../docs/library-feedback.md)).
 - Lint against raw hex and the design system's own variables in component code outside the token layer ([Pre-Empt Recurring Code-Review Nits](../code/pre-empt-recurring-code-review-nits.md)).
 - A design system variable used directly bypasses the token layer, and breaks when the design system renames it.
 - A color literal, even one that equals a token, is a magic value per color mode: it drifts from the palette, has to be found again for every new mode, and skips theming.
