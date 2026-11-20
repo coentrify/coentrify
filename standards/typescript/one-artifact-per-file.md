@@ -10,6 +10,7 @@ A read stays on the one artifact it needs.
 
 - Split any bundle (wire-type god-files are the usual offender) into one file per artifact.
 - Re-export siblings from the folder barrel so consumers still import from one place.
+- The one exception is the mock contract's single `.const.ts` ([E2E Mock Contract](../e2e/e2e-mock-contract.md)).
 
 ## Related
 

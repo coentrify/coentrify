@@ -20,7 +20,7 @@ Code with a single responsibility per piece stays stable.
 
 ## Decouple Responsibilities
 
-- Branching on caller identity (which application, which role) inside a shared unit means the responsibilities should live in separate units.
+- Branching on caller identity (which application, which role) inside a shared unit means the responsibilities should live in separate units ([Per-Application Split Over Shared Branching](../architecture/per-application-split-over-shared-branching.md)).
 - An effect and its source stay apart:
   - The target carries a generic state (`isEnabled`, a discount factor) and never names what grants it.
   - The source declares what it grants in configuration (`enablesExport: true` on the granting plan), and a mapper of its own resolves it.

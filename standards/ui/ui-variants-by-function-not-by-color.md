@@ -14,7 +14,7 @@ The look stays the UI layer's to decide, so a rebrand touches one place.
 ## How To Apply
 
 - Name inputs after intent: `severity`, `tone`, `variant`, `state`, `type`.
-- Accept a closed set of semantic values in generic presentation vocabulary (`'info' | 'warning' | 'error' | 'success'`), never domain values (`'active' | 'ended'`). The consumer maps a domain value to a variant ([UI Library Is Domain-Agnostic](ui-library-is-domain-agnostic.md)).
+- Accept a closed set of semantic values in generic presentation vocabulary, such as info, warning, error and success, held in an `as const` object ([No Magic Values](../typescript/no-magic-values.md)), never domain values such as active and ended. The consumer maps a domain value to a variant ([UI Library Is Domain-Agnostic](ui-library-is-domain-agnostic.md)).
 - Keep color, font and shadow choices inside the component's styles.
 - A variant with only one visual treatment today is still worth typing functionally. Future variants slot in without a rename.
 

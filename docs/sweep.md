@@ -15,10 +15,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 ## Rules That Contradict
 
 42. Application Template puts a route on a view, and functional docs hold no routes.
-50. One Artifact Per File never bundles artifacts, and E2E Mock Contract keeps its constants in one file.
-52. Code Principles splits a shared unit at its first caller branch, and Per-Application Split allows one.
-53. UI Components First adds a composed card to the ui library, and its next line keeps composition in the app layer.
-54. UI Variants By Function shows a variant set as an inline union, which No Magic Values forbids.
 57. The cadence runs the touched cases while prototyping, and Prototype Mode runs no tests (0.0.7).
 58. Development calls an epic of fine-tuning a sweep, and the glossary's sweep applies one rule to every instance.
 60. A game's report names every addition and shows every visible change, and the conductor never repeats a ticket in chat.

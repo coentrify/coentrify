@@ -10,7 +10,7 @@ The UI stays one coherent system.
 
 - Reach for an existing component first. Verify icon and component names against the package before using.
 - A missing component composed from existing primitives, such as a card with a header and a list, is added to the workspace's shared UI library without asking.
-- Composition stays in the app layer.
+- Arranging ui components into a page stays in the app layer.
 - UI primitives stay in the UI library.
 - A missing primitive that belongs in the design system itself, such as a new base control or icon, goes to the director, since it is a request to the design system's owners ([Library Feedback](../docs/library-feedback.md)). It is never inlined as a custom one.
 - An existing component brings theming and accessibility with it.
