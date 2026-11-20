@@ -14,9 +14,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Rules That Contradict
 
-36. Plans Vs Persistent Files keeps status tables in the plan, and Plan Template keeps status snapshots out.
-37. Library Feedback gives friction with a library no doc, and Plans Vs Persistent Files lists library feedback docs.
-38. Docs Describe Behavior keeps the wiring in the code, and three pages make `architecture.md` the technical wiring.
 40. Docs Are Hierarchical workshops the wiki's tree before pages move, and Docs Hold Only What The Director Decided moves copy without asking.
 42. Application Template puts a route on a view, and functional docs hold no routes.
 43. E2E Test Conventions adds a module prefix to the tags later, and a use-case id never changes.

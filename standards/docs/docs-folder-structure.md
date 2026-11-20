@@ -9,7 +9,7 @@ Every folder answers one question, so a reader knows where a fact belongs before
 ## Root
 
 - `overview.md` - what the product is, functional only.
-- `architecture.md` - the technical wiring.
+- `architecture.md` - how it is built: the decisions, layers, libraries and conventions.
 - Nothing feature-specific or work-tracking sits at the root.
 
 ## Knowledge

@@ -71,7 +71,7 @@ Split logically distinct views even if they share code (e.g. Create and Edit Use
 
 ## architecture.md
 
-- Technical companion to the app's overview.md - the wiring specific to this app, linking out to the workspace docs for shared concerns.
+- Technical companion to the app's overview.md - how this app is built, linking out to the workspace docs for shared concerns.
 - Holds per-app technical detail while apps diverge.
 
 ## Work

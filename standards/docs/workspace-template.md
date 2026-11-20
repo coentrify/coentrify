@@ -8,7 +8,7 @@ Every workspace's docs have the same structure, and keep the focus of the worksp
 
 ## overview.md
 
-Functional only - what the product is, who it serves, what shared concerns exist at a product level. Technical wiring lives in architecture.md.
+Functional only - what the product is, who it serves, what shared concerns exist at a product level. How it is built lives in architecture.md.
 
 - Title: `# <Workspace Name>`.
 - Subtitle: one sentence on the workspace's purpose.

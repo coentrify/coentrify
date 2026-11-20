@@ -12,7 +12,7 @@ Hold what's being done right now: status, ordered tasks, blockers, scope-of-effo
 
 ## Persistent
 
-Hold knowledge, conventions, functionality, and reference. They evolve but never get "completed". Single responsibility per file: one purpose, one shape. Examples: standards, skills, architecture docs, library feedback docs.
+Hold knowledge, conventions, functionality, and reference. They evolve but never get "completed". Single responsibility per file: one purpose, one shape. Examples: standards, skills, architecture docs.
 
 ## How To Apply
 
@@ -21,7 +21,7 @@ When writing, ask: is this *how* something works (or should), or *what* we're do
 - *How* -> persistent (standard, skill, doc).
 - *What* -> plan.
 
-When reviewing a plan, extract any "always X" / "never Y" text to a persistent home and replace with a one-line pointer. Keep status tables and ordered tasks in the plan. When reviewing a persistent file, strip any time-bound status into the relevant plan.
+When reviewing a plan, extract any "always X" / "never Y" text to a persistent home and replace with a one-line pointer. Keep the items' status, such as the active one and its blockers, and their order in the plan. When reviewing a persistent file, strip any time-bound status into the relevant plan.
 
 ## Related
 
