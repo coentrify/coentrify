@@ -49,7 +49,7 @@ Everything needs the director's go before it is built: a feature, a bug, docs wo
 - An answer to a question on a ticket in flight is its builder's go on. An answer in refinement makes the ticket ready, and its go comes at the planning.
 - An ask is never the go: the ticket written from it goes on the planning page, and only a go and an agent put it on the plan.
 - Once a ticket has its go, it is built and lands without asking again.
-- Automatic healing needs no go: the report names its change for a veto.
+- Automatic healing files a heal ticket that carries its go, and the report names it for a veto ([Work Tracking](work-tracking.md#types)).
 - A violation found mid-change is fixed or noted as [Don't Introduce Tech Debt](../behavior/dont-introduce-tech-debt.md) says, and a noted one becomes a debt ticket.
 - The one exception sits at the end of the path: a debt ticket needs no acceptance.
 

@@ -23,6 +23,7 @@ docs/development/
   features/<slug>.md
   bugs/<slug>.md
   debt/<slug>.md
+  healing/<slug>.md
   docs/<slug>.md
   spikes/<slug>.md
   archive/<type>/<slug>.md
@@ -35,6 +36,7 @@ A ticket's type is its folder, and the archive keeps the same folders. No front 
 - Feature, in `features`, prefix `FEAT`: what the user gains.
 - Bug, in `bugs`, prefix `BUG`: what goes wrong for the user. User-facing only: what a real user never hits is debt. It describes the symptom as the user meets it, never a guess at the cause, and links its feature doc and spec case.
 - Debt, in `debt`, prefix `DEBT`: the workspace's own code and tooling, its test gaps and its structure. It holds what is broken, what success looks like, and its Solution: the strategy at the ticket's focus level, worked out before the build so the easy way out is ruled out. It never names the classes and files.
+- Heal, in `healing`, prefix `HEAL`: a change to the harness that healing makes, to a standard, a check or a tool ([Always Make No Mistakes](../behavior/always-make-no-mistakes.md)). It has a debt ticket's sections, and lands archived like one. With `healing` automatic, its go comes with it, and the healing subagent builds it at once, off the plan.
 - Docs, in `docs`, prefix `DOCS`: the work on the docs and the work tracking. The wiki's own tooling is code, so Debt.
 - Spike, in `spikes`, prefix `SPIKE`: finding out how something is now, worked by the scout ([Agent Roles](agent-roles.md)).
 - Epic, in `epics`, prefix `EPIC`: a ticket that groups others under one outcome. Its file holds its `phase` field, a `## Goal` section of one short line and a Source, no summary and no acceptance criteria since its tickets hold their own. Which tickets belong to it lives only in each ticket's `epic` field, and the wiki lists them.
@@ -159,7 +161,7 @@ A question lives in the ticket that has the unclarity, under `## Question`: the 
 
 ## The Archive
 
-- A ticket is archived at the director's verdict on it or on its story, a debt ticket at its landing: a `git mv` to `archive/<type>/`, which is the verdict's whole bookkeeping, since every list follows by itself.
+- A ticket is archived at the director's verdict on it or on its story, a debt or heal ticket at its landing: a `git mv` to `archive/<type>/`, which is the verdict's whole bookkeeping, since every list follows by itself.
 - A version's changelog lists the tickets that landed in it, generated ([Changelog Per Version](../records/changelog-per-version.md)).
 - A story page is archived with its last ticket, at its verdict, or a debt story's at its last landing, to `archive/stories/`.
 - Archived tickets are never edited again. More work on the same topic, a rework included, is a new ticket.

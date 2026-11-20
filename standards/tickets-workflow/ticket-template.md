@@ -31,17 +31,17 @@ Its filename is the slug of its name ([Work Item Names](work-item-names.md)). It
 
 Every section of a type's set stands in every ticket of that type, `` `-` `` when empty: a section left out primes the next ticket to leave it out where it matters.
 
-| Section | Feature | Bug | Debt | Docs | Spike | Epic |
-| --- | --- | --- | --- | --- | --- | --- |
-| summary | yes | yes | yes | yes | yes | - |
-| Goal | - | - | - | - | - | yes |
-| Source | yes | yes | yes | yes | yes | yes |
-| Why, Context, Current Situation, Acceptance Criteria, Solution | yes | yes | yes | yes | yes | - |
-| Entry Points | yes | yes | - | yes | - | - |
-| Content | yes | yes | - | - | - | - |
-| Visual Quality | yes | yes | - | - | - | - |
-| Veto, Left Out, Risks, Depends On | yes | yes | yes | yes | yes | - |
-| Done: Proof and Veto | yes | yes | yes | yes | yes | - |
+| Section | Feature | Bug | Debt | Heal | Docs | Spike | Epic |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| summary | yes | yes | yes | yes | yes | yes | - |
+| Goal | - | - | - | - | - | - | yes |
+| Source | yes | yes | yes | yes | yes | yes | yes |
+| Why, Context, Current Situation, Acceptance Criteria, Solution | yes | yes | yes | yes | yes | yes | - |
+| Entry Points | yes | yes | - | - | yes | - | - |
+| Content | yes | yes | - | - | - | - | - |
+| Visual Quality | yes | yes | - | - | - | - | - |
+| Veto, Left Out, Risks, Depends On | yes | yes | yes | yes | yes | yes | - |
+| Done: Proof and Veto | yes | yes | yes | yes | yes | yes | - |
 
 `## Question` and `## To Refine` stand only while one is open, so their presence keeps a ticket on the refine list.
 
