@@ -98,7 +98,7 @@ A story is one layer between the epic and the ticket: the unit the director refi
 - A ticket names its story in its `story` field. A ticket outside any story is the exception, refined, planned and accepted by itself. Loose tickets of one epic are grouped into a story, so they show as one line and get one go and one agent.
 - A story is a page in `stories` with an id of its own, `STORY-8`, and its epic in its `epic` field: what to use and how to start it.
 - The wiki lists a story's tickets on its page from their `story` field, in three lists: to refine, ready and done. A rework ticket carries a rework mark there.
-- A story's done list runs newest first, and each line ends with the date and time its ticket landed, read from the landing commit: `` `2026-12-31` `11:23` ``.
+- A story's done list runs newest first, and each line ends with the date and time its ticket was done, read from its landing commit: `` `2026-12-31` `11:23` ``.
 - The director gives a story's go and verdict by its id: `STORY-8 go`, `STORY-8 accepted`.
 - A story is sized to fit one builder's context. One that does not fit is split in refinement.
 - A ticket waits only inside its story: its Depends On names tickets of its own story, the builder's order. Two tickets outside a story that depend on each other go into a story together.

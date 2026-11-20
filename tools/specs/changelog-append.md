@@ -7,7 +7,7 @@ A spec for the script that adds one line to a version's changelog in a project w
 - It appends one entry at the bottom of the page's one `## Changed` list.
 - An entry is one bullet that ends in its time: ``- <what changed> `HH:MM` ``.
 - It refuses a page with any section but Changed, an entry with a heading, more than one bullet, a bullet with a semicolon, and a bullet without its time.
-- It refuses while a pick is in progress in the page's repository.
+- It refuses while a merge is in progress in the page's repository.
 
 ## The Check
 

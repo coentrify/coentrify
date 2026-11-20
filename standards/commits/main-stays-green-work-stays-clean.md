@@ -8,7 +8,7 @@ A version can be cut from main at any moment, and red always means something.
 
 ## How To Apply
 
-- A builder's branch merges into main with `--no-commit` first. The merged tree's types, unit specs and build run, and the touched suites when two branches meet the same screen, before the merge commit lands. Two branches green apart can be red together (a new field from one, a spec without it from the other).
+- A story's branch merges into main once the story is built, with `--no-commit` first ([Parallel Agents](../tooling/parallel-agents.md#landing)). The merged tree's types, unit specs and build run, and the touched suites when two branches meet the same screen, before the merge commit lands. Two branches green apart can be red together (a new field from one, a spec without it from the other).
 - A red main is priority one: it is fixed before anything else lands ([Dev Tiers](../behavior/dev-tiers.md)).
 - Nothing lands red. Tests written failing first live with their work until the implementation turns them green, and land together with it.
 - A failing test gets fixed - the code or the test, whichever is wrong.

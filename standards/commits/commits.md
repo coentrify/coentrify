@@ -19,8 +19,9 @@ Name what changed, specifically, so the subject tells the change at a glance wit
 
 In a project on the tickets workflow ([Work Tracking](../tickets-workflow/work-tracking.md)):
 
-- Every commit made for a ticket carries its id: its code, its tests, the wiki's tooling, its landing and its archive move.
-- The commit message hook refuses a commit of code or tests without a ticket's id in front.
+- Every commit made for a ticket carries its id: its code, its tests, the wiki's tooling, its Done part and its archive move.
+- A story's merge commit carries the story's id: `STORY-1: users sign up and sign in`. A ticket outside a story merges under its own id.
+- The commit message hook refuses a commit of code or tests without a ticket's or a story's id in front.
 - The main session's commits that serve no single ticket, such as a [Request Log](../records/request-log.md) entry, keep the conventional form.
 - A ticket's commits are found by its id, `git log --grep FEAT-123`, never listed in the ticket.
 

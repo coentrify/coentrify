@@ -13,7 +13,6 @@ Agents that work at the same time should not conflict.
 - Every brief starts with `git reset --hard main` on the new branch, before any code is read: the worktree branches from origin's main, which lags the local one.
 - A check against old code goes through a scratch branch of its own.
 - Agents commit per item and rebase onto main right after each commit, so main's latest is under the next item. A rebase refuses a dirty tree and git stash is shared by every worktree, so the commit comes first.
-- A builder reads its story from main ([Agent Roles](../tickets-workflow/agent-roles.md#the-builder)).
 - Builders run on the cheaper model (`model: "sonnet"`).
 
 ## Watching Agents
@@ -24,11 +23,11 @@ Agents that work at the same time should not conflict.
 
 ## Landing
 
-- Every landing goes through the project's pick script: one commit per pick, in a command of its own, never in parallel with a pick or anything else.
+- A story lands on main whole, once its tickets are done, and again after rework: the simplified release workflow. Its branch goes through the project's merge script, in a command of its own, never in parallel with a merge or anything else. The merge commit carries the story's id ([Commits](../commits/commits.md#ticket-prefix)).
 - The checks on main go through the project's main checks script with the checks named as npm scripts, such as the hygiene, types, unit and wiki checks and the development build. A docs landing names hygiene and the wiki at least.
 - A docs commit outside a landing goes through the project's docs commit script, hygiene among its checks, which commits only when every check exits 0.
-- After any `git cherry-pick --abort`, `git cherry main <branch>` runs before a landing is reported.
-- Picks from different agents compose on main in an order none of them verified: after picks that touch shared files, and always before telling the director a batch has landed, the development build runs on main and its warnings are read.
+- After any `git merge --abort`, `git cherry main <branch>` runs before a landing is reported.
+- The merge script runs the main checks on each merged tree, and the development build's warnings on main are read before the director hears a batch has landed.
 - A landing that changes the app's shell, its routes, how screens load or what boots first gets the whole browser suite on main right after it lands.
 - A docs commit that adds spec cases lands together with the commit tagging their tests.
 

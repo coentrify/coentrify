@@ -14,7 +14,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Rules That Contradict
 
-18. Main Stays Green lands a branch by merge, checked before the commit, and Parallel Agents, The Conductor and the Landing spec land one commit per cherry-pick, checked after.
 19. Don't Introduce Tech Debt leaves a violation outside the change's scope, Work Workflow and Main Stays Green let a small one ride as a Veto line, and Building A Ticket makes it a ticket first.
 20. Docs Hold Only What The Director Decided brings a ticket's decision into the docs at acceptance, the Definition of Done syncs the docs at landing, and Incremental Pacing writes its proposal into the doc before the build.
 21. Docs Hold Only What The Director Decided sends a name or a number the director did not say to chat first, and Flag Every Addition decides and flags it.
@@ -134,5 +133,4 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 123. Walk The User's Journey speaks of a story and a replay (0.0.7).
 124. Captures And Reels hides the window's drag bar in its browser section.
 125. Incremental Pacing writes one game's progression into the rule: a few dozen clicks with the stronger click.
-126. The Tooling overview names `pick.sh` and `main-checks.sh`, which no page defines.
 127. Parallel Agents names one vendor's model alias.
