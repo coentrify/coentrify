@@ -38,7 +38,7 @@ Use US English Everywhere is a choice. One variant everywhere is what counts, an
 
 ### Picked By The Director
 
-- Gamedev - a game, where the director picks the game design laws that apply
+- Gamedev - a game, where the director picks the game design laws that apply. It brings the tickets workflow, the activity log, and playtests once others play
 - Reporting - a project whose director wants reports and reels
 - Commits - how work is committed and gated. The module is strongly opinionated, so the director decides which of its standards to adopt
 

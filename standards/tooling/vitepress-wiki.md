@@ -15,7 +15,7 @@ The director reviews the docs, changelogs, captures and reels in the wiki while 
 - A page's title is its H1, and a spec nests collapsed under its feature.
 - The changelog, test, activity and log groups run newest first, versions sorting before the named entries from before any version. The activity and log groups are titled Activity Log and Request Log.
 - A new or deleted page is picked up in place: once the changes settle, the sidebar is rebuilt and the open pages reload. The server never restarts for it, since a burst of new pages made it restart over and over.
-- A session never creates or touches a config file: a stray empty one takes the wiki's title and sidebar until the server restarts.
+- The wiki has one config file, `.vitepress/config`, and a session never creates a second one.
 - The watcher ignores the build output and the cache.
 - Every image in a page enlarges on a click to the full window width. The arrow keys walk the page's images, Escape or a click closes it, a counter shows the position, and the hidden state has its own display rule.
 - Local search, last updated dates and clean URLs are on.

@@ -24,13 +24,10 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 83. Two docs pages call a statement in a feature doc a spec, and the glossary's spec is the list of use cases.
 84. No Magic Values annotates a scalar `Readonly<T>`, which on a primitive adds nothing.
 85. The attribute order in Pre-Empt Recurring Code-Review Nits differs from the lint rule's default, and the page never names its `order` option.
-86. UI Styleguide allows a gallery route or a wiki widget, and its sweep works only in Storybook.
 91. UI Layout Via Slot Composition names both `header` and `top` as the region at the top.
-93. Gamedev relies on playtests, the activity log and the tickets workflow, which Recommendations make optional.
 94. Captures And Reels names a capture by version in the changelog's image folder, and by ticket in its Done part.
 96. A soft freeze is defined nowhere.
 97. Launch Strategy offers early access and a closed beta, which fit no phase.
-99. VitePress Wiki forbids touching a config file, and sets the wiki up with one.
 100. VitePress Wiki sorts a test group and entries from before any version, which no standard defines.
 101. A reel keeps the viewport's size, and Playwright Video Recording leaves the size unset without excepting reels.
 102. The Why of E2E Assert Before Interacting gives the reason of Bracket State Changes.
