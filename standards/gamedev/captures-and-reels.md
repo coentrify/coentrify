@@ -10,7 +10,7 @@ The director can reproduce every state a capture shows.
 
 - A capture belongs to one ticket and is taken while that ticket is in progress, to see that what was just made looks good. It goes in the ticket's Done part ([The Done Part](../tickets-workflow/the-done-part.md)). There is no capture batch of every level at the close.
 - A later ticket that changes what an earlier capture shows takes a new capture under a new file name. A capture is never retaken under its old name, which would erase the step before.
-- A report that hands a visible change to the director mid-batch carries its picture.
+- A report that hands a visible change made outside a ticket to the director carries its picture. A ticket's picture stands in its Done part.
 - Wait for the intro to settle before a still. Capture only what changed, plus a sanity check.
 - Every capture is read before it goes on the page ([Review Every Capture Before Reporting](../behavior/review-every-capture-before-reporting.md)).
 

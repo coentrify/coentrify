@@ -22,7 +22,6 @@ Every playtest plays a named version, and knows what changed in it.
 - Every item lands with its proof, since an item without proof has to be checked again by hand.
 - Per item, the cases that touch what changed run. The whole touched suites, found by grepping the e2e for the changed labels, names and orders, run at the end of the story ([Building A Ticket](../tickets-workflow/building-a-ticket.md#building)).
 - The full suites run once at the version's close.
-- While prototyping new things, per item only the cases that touch what changed run, never the whole feature suite.
 
 ## Version Close
 
@@ -44,7 +43,7 @@ Every playtest plays a named version, and knows what changed in it.
 ## Day Close
 
 - The day closes with the activity log ([Activity Log](../records/activity-log.md)).
-- The report in chat references the changelog on the wiki instead of summarizing, and names every addition of the agent's own for a veto ([Flag Every Addition Of Your Own](../behavior/flag-every-addition-of-your-own.md)).
+- The report in chat references the changelog on the wiki instead of summarizing. It names an addition of the agent's own made outside a ticket for a veto ([Flag Every Addition Of Your Own](../behavior/flag-every-addition-of-your-own.md)), since a ticket's stand in its Veto.
 
 ## Related
 

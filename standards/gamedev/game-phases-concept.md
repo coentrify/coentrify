@@ -22,7 +22,7 @@ Trying things: a greybox, the outline and the size of the map, features. A proto
 
 - Concept is a pile of gathering, and unorganized by nature. Its material is parsed from the director's prompts and brainstorms.
 - The phases of Concept may overlap and loop back.
-- Concept has no tickets of its own. An idea that Gathering files for later is the one ticket it leaves.
+- Concept's gathering is logged, and needs no tickets. A prototype is tracked by its one ticket ([Prototype Mode Is Speed First](../behavior/prototype-mode-is-speed-first.md)), and an idea that Gathering files for later is a ticket too.
 
 ## Related
 
