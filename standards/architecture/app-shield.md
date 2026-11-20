@@ -31,9 +31,10 @@ Environment shape, types, and configuration tokens. Pure types/interfaces and DI
 ## Dependency Direction
 
 - app depends on ui, core, data, config.
-- data depends on core.
+- data depends on core and config.
 - core depends on config.
 - ui is standalone - depends only on design-system packages, nothing else in the workspace.
+- The styles split between ui and the app: the shared token layer and partials sit with ui, and an app's own theme, such as its palette and global styles, sits in its shell. The app's feature libs hold no SCSS.
 - Never reach upwards (e.g. core importing from app).
 
 ## How To Apply
