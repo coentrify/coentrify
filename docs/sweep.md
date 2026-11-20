@@ -1,10 +1,9 @@
 # Sweep
 
-The worklist from a second sweep over every standard, the top-level pages, the tools and these docs, in 0.0.8. The director rules on each finding in turn, with its context, its problem and a recommendation. A finding is checked against the files before it is presented, and leaves the list once it is ruled and applied. It is presented in three short lines: its context, its problem and a recommendation. A finding marked (0.0.7) is left over from a fix in that version.
+The worklist from a second sweep over every standard, the top-level pages, the tools and these docs, in 0.0.8. The director rules on each finding in turn, presented in three short lines: its context, its problem and a recommendation. A finding is checked against the files before it is presented, and leaves the list once it is ruled and applied. A finding marked (0.0.7) is left over from a fix in that version.
 
 ## Install And Update
 
-6. Commands lists the bare `coentrify` as the setup, and the proof shows it fails in a fresh project.
 7. No healing page says a tracked standard changed by hand turns customized, so the coentrify.json check refuses the healing commit.
 8. Game Design Laws adds a new generic law to its tracked part page, which the coentrify.json check refuses.
 
