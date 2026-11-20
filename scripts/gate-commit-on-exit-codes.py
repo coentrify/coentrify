@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """PreToolUse hook on Bash: a git commit or tag hangs on the check with &&.
 
-Refuses a command in which a commit or tag follows a ';', or follows a check
-piped into grep, tail or head within an && chain. Also refuses a commit that
+Refuses a command in which a commit or tag runs right after a ';', or follows a
+check piped into grep, tail or head anywhere before it. Also refuses a commit that
 follows a git add in the same command, since the staged list was not read in
 between. Quoted text, heredoc bodies, command substitutions and comments are
 ignored, so a message with a ';' in it passes.
@@ -92,7 +92,7 @@ def scan(text: str, index: int, inside_substitution: bool) -> tuple[str, int]:
 
 COMMIT = re.compile(r"\s*(?:\w+=\S+\s+)*git(?:\s+-[cC]\s+\S+)*\s+(commit|tag)\b(.*)", re.S)
 ADD = re.compile(r"\s*(?:\w+=\S+\s+)*git(?:\s+-[cC]\s+\S+)*\s+add\b")
-TAG_LISTING = re.compile(r"\s*(?:$|\||-l\b|--list\b|-n\d*\b)")
+TAG_LISTING = re.compile(r"\s*(?:$|\||-l\b|--list\b|-n\d*\b|--(?:sort|contains|no-contains|merged|no-merged|points-at|format|column)\b)")
 FILTER_PIPE = re.compile(r"\|\s*(?:grep|egrep|fgrep|tail|head)\b")
 
 
@@ -109,13 +109,8 @@ def violation(command: str) -> bool:
             continue
         if position > 0 and operators[position - 1] == ";":
             return True
-        chain: int = position - 1
-        while chain >= 0:
-            if FILTER_PIPE.search(segments[chain]):
-                return True
-            if chain == 0 or operators[chain - 1] != "&&":
-                break
-            chain -= 1
+        if any(FILTER_PIPE.search(earlier) for earlier in segments[:position]):
+            return True
     return False
 
 

@@ -7,8 +7,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## This Repository
 
-11. The commit gate spec has no case for the shape the standard prescribes, and the script passes a piped check saved to `rc`.
-12. The commit gate refuses `git tag --sort`, a listing its spec passes.
 13. Checks leaves part pages out of the budget list, and the lint leaves them out of the Why list.
 14. Proof says Opus needed none of the shrunk rules, its table shows Opus needed General Working Rules, and its Notes predate 0.0.7.
 15. The three kinds of the relevance worklist hold 183 of the 201 standards.

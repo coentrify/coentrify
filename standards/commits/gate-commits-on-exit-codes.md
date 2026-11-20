@@ -14,7 +14,7 @@ Only the exit code tells whether a check passed.
 - Re-read the last check's output before committing, even when it was green by construction.
 - Where a rule keeps being broken by hand, the check moves into a hook or a script that refuses on its own, a project's commit hook running the hygiene suite on every commit, say ([Parallel Agents](../tooling/parallel-agents.md) lists the scripts).
 - A pipe returns the exit code of its last command, so `build | grep ERROR && git commit` and `suite | tail -30` report green while the check failed. A `;` or an `echo $?` between test and commit runs the commit whatever happened. Each of these has landed broken work, even with this rule loaded.
-- A hook refuses a `git commit` or `git tag` right after a `;`, or after a piped check in its `&&` chain. A newline between test and commit is not caught, so the same rule holds there.
+- A hook refuses a `git commit` or `git tag` right after a `;`, or after a piped check anywhere before it. A newline between test and commit is not caught, so the same rule holds there.
 
 ## Related
 
