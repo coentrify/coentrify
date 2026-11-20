@@ -83,7 +83,7 @@ Evidence that the director can verify without reading code: a screenshot, a vide
 
 ### Go
 
-The director's explicit approval to start one named piece of work ([A Go Before Work Elsewhere](standards/behavior/a-go-before-work-elsewhere.md)).
+The director's explicit approval to build ready work: by a ticket's or a story's id, or in one word for all that is ready ([Work Workflow](standards/tickets-workflow/work-workflow.md#the-go)). Work in another project, or a session that outlives this one, needs a go of its own ([A Go Before Work Elsewhere](standards/behavior/a-go-before-work-elsewhere.md)).
 
 ### Pass
 
@@ -91,7 +91,7 @@ One stretch of an agent's work on a request, from taking it up to reporting it. 
 
 ### Maybe
 
-An idea that the director mentions without deciding on it. An agent investigates it at once and reports the outcome ([A Maybe Is A Trigger To Investigate](standards/behavior/a-maybe-is-a-trigger-to-investigate.md)).
+An idea the director phrases with uncertainty. An agent investigates it at once and reports the outcome ([A Maybe Is A Trigger To Investigate](standards/behavior/a-maybe-is-a-trigger-to-investigate.md)).
 
 ### Veto
 

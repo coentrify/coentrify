@@ -102,7 +102,7 @@ The index opens with the Core Rules: the rules every task follows, in every sess
 
 The entry point is the file an agent reads when a session starts, such as `AGENTS.md` or `CLAUDE.md`. The entry point gets one line that points at the index and at the commands at the source that `coentrify.json` names, and holds no standards itself. A project without an entry point gets an `AGENTS.md`.
 
-Where the agent can import a file, such as with `@` in `CLAUDE.md`, the entry point imports every standard in the Core Rules, so the standards load without being asked for.
+Where the agent can import a file, such as with `@` in `CLAUDE.md`, the entry point imports the index and every standard in the Core Rules, so they load without being asked for, in every agent and subagent.
 
 The entry point also says to read the Core Rules again after a compaction. Where the agent supports hooks, a reload hook does that by itself, built from its spec in the [tools](tools/overview.md).
 

@@ -14,9 +14,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Rules That Contradict
 
-28. Agent Roles says the index loads by itself, and the onboarding only points the entry point at it.
-29. The glossary's go approves one named piece of work, and Work Workflow gives one go for all that is ready.
-30. The glossary's maybe is any idea left undecided, and A Maybe Is A Trigger needs the director to phrase it as one.
 31. Prototype Mode keeps no stories, and Work Workflow puts a proof of concept on the plan like any ticket.
 32. Non-Destructive Documenting files a failing test as a bug, and Feature Workflow writes its e2e tests failing first.
 33. Sync The Docs raises a conflicting plan in the report, and a question goes where the workflow says.

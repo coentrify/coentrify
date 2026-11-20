@@ -2,6 +2,8 @@
 
 Work by the standards in [standards/overview.md](standards/overview.md). Read a module's overview, and then a standard, when the work calls for it.
 
+@standards/overview.md
+
 The docs about this repository's own development are in `docs/`.
 
 Work toward a version on its branch, `version-<version>`, never on the session's own branch.
