@@ -7,10 +7,10 @@ The checks this repository runs on itself.
 - `npm run lint:standards` also fails on a heading with a lowercase word outside code, and on a hard-wrapped line, on every markdown page in the repository.
 - `npm run lint:standards` fails on an overview line that leaves out what its standard's `Relevant for:` line names.
 - `npm run lint:standards -- --why` prints every standard without a Why section.
+- A part page is left out of that list. Its title opens with the title of its parent before a colon, and the parent carries the Why. It keeps the word budget of a standard.
 - `npm run lint:standards` fails on a semicolon in prose, a filler word such as `genuinely` or `truly`, and a British spelling, outside code, on every markdown page as well.
 - It also fails on a standard that does not open with its rule, a Why that is not the first section, and a standard that does not end with Related.
 - `npm run lint:standards -- --budget` prints every standard past its word budget: 600 for a standard, 1,200 for a template and 3,000 for a hub. A module's `budget-exceptions.json` raises the budget of a page it lists to the words accepted there.
-- A part page is left out of that list. Its title opens with the title of its parent before a colon, and the parent carries the Why.
 - Every version has a page in `changelog/`, and `npm run lint:standards` fails when the overview there does not list it.
 - The pre-commit hook refuses a commit that changes a standard without naming it on the page of the latest version.
 - `npm run changelog:standards` writes that list, and the line that counts it, from what changed since the last tag. With `-- --check` it only fails when the page does not match.
