@@ -11,6 +11,7 @@ What one project learns reaches every project.
 - A project files only when its `coentrify.json` says `contributor: true`.
 - `filing` in `coentrify.json` says who files. With `review`, the default, the director looks at the issue first. With `automatic`, the subagent that `healing` starts files it on its own ([Always Make No Mistakes](always-make-no-mistakes.md#a-rule-or-a-check)).
 - A change is filed as an issue at the source that `coentrify.json` names.
+- A change to a module with a source of its own is filed with coentrify only when it is generic, as an addition of the module or the standard that coentrify lacks.
 - An issue holds one point, so issues close one by one.
 - Before filing, search the open issues.
 - A point that is filed already gets an addition on that issue, or a thumbs up.

@@ -13,7 +13,7 @@ The harness heals on its own, and the director keeps the last word on every chan
 - One entry holds one change. A mistake that changed a rule and a check gets two entries.
 - The director rules on an entry: keep it, change it, or revert it.
 - A ruled entry leaves the log, and git keeps it ([Remove Completed Items From Docs](../simple-workflow/remove-completed-items-from-docs.md)).
-- A ruled change that holds beyond the project is filed with coentrify when the project is a contributor, the way `filing` says ([File A Change With Coentrify](../behavior/file-a-change-with-coentrify.md)).
+- A change that holds beyond the project is filed with coentrify as [File A Change With Coentrify](../behavior/file-a-change-with-coentrify.md) says, without waiting for the ruling when `filing` is automatic.
 - The log is read as a whole now and then. A trigger that comes back points at a rule that is still too weak.
 - Healing on `review` files the change in the workflow, and writes no entry.
 
