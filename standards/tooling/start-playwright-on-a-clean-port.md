@@ -8,8 +8,8 @@ Every run starts clean, so it shows the code as it stands.
 
 ## How To Apply
 
-- Point the e2e config's `webServer` URL and `BASE_URL` at the project's own fixed port ([Own Ports, Own Processes](../behavior/own-ports-own-processes.md)).
-- Before a capture, a probe or a suite that must show the latest code, run `lsof -nP -i :<port>` and kill a listener that is yours (the env carries the session's variables).
+- Point the e2e config's `webServer` URL and `BASE_URL` at the port the run gets as an argument, such as `npm run e2e -- --port=41738`, and at the project's own fixed port without one ([Own Ports, Own Processes](../behavior/own-ports-own-processes.md)). Never an exported variable, which outlives the command.
+- Before a capture, a probe or a suite that must show the latest code, run `lsof -nP -i :<port>` and kill a listener that is yours, told by the marker in its command line.
 - The check gates the start:
   - A listener of yours found means kill it and look again before `start:e2e` runs, never start beside it.
   - A listener that is not yours means another port.

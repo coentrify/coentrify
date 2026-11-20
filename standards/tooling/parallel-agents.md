@@ -8,12 +8,12 @@ Agents that work at the same time should not conflict.
 
 ## Worktrees
 
-- Each agent works in a git worktree of its own, with the main tree's node modules linked, its own e2e port (`E2E_PORT`), its own scratchpad folder for logs and captures, and a second port of its own for any second run.
+- Each agent works in a git worktree of its own, with the main tree's node modules linked, its own e2e port by argument, its own scratchpad folder for logs and captures, and a second port of its own for any second run.
 - No Electron is launched from a worktree without the shell's own ignored node modules copied in.
 - Every brief starts with `git reset --hard main` on the new branch, before any code is read: the worktree branches from origin's main, which lags the local one.
 - A check against old code goes through a scratch branch of its own.
 - Agents commit per item and rebase onto main right after each commit, so main's latest is under the next item. A rebase refuses a dirty tree and git stash is shared by every worktree, so the commit comes first.
-- Builders run on the cheaper model (`model: "sonnet"`).
+- Builders run on the cheaper model.
 
 ## Watching Agents
 
@@ -42,3 +42,4 @@ Agents that work at the same time should not conflict.
 - [The Conductor](../tickets-workflow/the-conductor.md)
 - [Playwright Parallel Runs](playwright-parallel-runs.md)
 - [Own Ports, Own Processes](../behavior/own-ports-own-processes.md)
+- [Start Playwright On A Clean Port](start-playwright-on-a-clean-port.md)

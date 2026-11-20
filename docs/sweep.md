@@ -14,7 +14,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Rules That Contradict
 
-34. Own Ports gives a project one fixed port, Parallel Agents gives every agent an `E2E_PORT`, and no page points the e2e config at it.
 35. The Simple Workflow keeps an undecided idea in the inbox and the current focus on the plan, and Roadmap Template gives both a section of the roadmap.
 36. Plans Vs Persistent Files keeps status tables in the plan, and Plan Template keeps status snapshots out.
 37. Library Feedback gives friction with a library no doc, and Plans Vs Persistent Files lists library feedback docs.
@@ -26,8 +25,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 43. E2E Test Conventions adds a module prefix to the tags later, and a use-case id never changes.
 44. Per-Feature Overview Test extends the overview test on its own, and the spec's Overview case is its source of truth.
 45. Develop Against Mocks leaves real backends to the director, and Test The System Behind A Mock gives them a spec test.
-48. Validation Errors Fire On Submit never disables a submit on invalid input, and Walk The User's Journey and Bracket State Changes use exactly that as their example (0.0.7).
-49. Barrel Imports imports a same-folder file directly, and its overview line and Scope line still send siblings through the barrel (0.0.7).
 50. One Artifact Per File never bundles artifacts, and E2E Mock Contract keeps its constants in one file.
 51. UI Components First sends a missing token to the director, and Always Use Design Tokens For Colors has the agent add it.
 52. Code Principles splits a shared unit at its first caller branch, and Per-Application Split allows one.
@@ -73,7 +70,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 95. Devbox relies on a release checklist that only the Electron module defines.
 96. A soft freeze is defined nowhere.
 97. Launch Strategy offers early access and a closed beta, which fit no phase.
-98. Start Playwright On A Clean Port kills a listener that is yours, with no way to tell.
 99. VitePress Wiki forbids touching a config file, and sets the wiki up with one.
 100. VitePress Wiki sorts a test group and entries from before any version, which no standard defines.
 101. A reel keeps the viewport's size, and Playwright Video Recording leaves the size unset without excepting reels.
@@ -108,4 +104,3 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 123. Walk The User's Journey speaks of a story and a replay (0.0.7).
 124. Captures And Reels hides the window's drag bar in its browser section.
 125. Incremental Pacing writes one game's progression into the rule: a few dozen clicks with the stronger click.
-127. Parallel Agents names one vendor's model alias.
