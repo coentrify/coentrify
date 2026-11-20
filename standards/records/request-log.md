@@ -1,6 +1,6 @@
 # Request Log
 
-Keep a raw, dated log of everything the director says in `docs/records/log/<date>.md`: requests, feedback, questions, asides and go-aheads alike, written before intake turns any of it into work ([Work Workflow](../tickets-workflow/work-workflow.md)). Minimal cleanup only: spelling, careful rewording, prose into a flat list. The essence stays. The wiki lists the log newest first as the Request Log.
+Keep a raw, dated log of everything the director says in `docs/records/log/<date>.md`: requests, feedback, questions, asides and go-aheads alike, written before any of it goes where the project's workflow files new work, such as the intake of [Work Workflow](../tickets-workflow/work-workflow.md). Minimal cleanup only: spelling, careful rewording, prose into a flat list. The essence stays. The wiki lists the log newest first as the Request Log.
 
 ## Why
 
@@ -14,7 +14,7 @@ Every doc and ticket can be checked against the words that produced it.
 
 ## How To Apply
 
-- Log first, in the same turn, then run intake.
+- Log first, in the same turn, then file the work.
 - A message that lands mid-turn is logged the same way, with its own time, before the work goes on.
 - A question the director asks is logged too, since the answer shapes the project.
 - A secret in a message is left out ([Keep Secrets Away From Agents](../security/keep-secrets-away-from-agents.md)).

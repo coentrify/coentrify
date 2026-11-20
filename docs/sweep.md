@@ -28,10 +28,8 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 52. Code Principles splits a shared unit at its first caller branch, and Per-Application Split allows one.
 53. UI Components First adds a composed card to the ui library, and its next line keeps composition in the app layer.
 54. UI Variants By Function shows a variant set as an inline union, which No Magic Values forbids.
-56. Gamedev Working Cadence orders the plan bugs, debt, features, and the plan is generated in epic order.
 57. The cadence runs the touched cases while prototyping, and Prototype Mode runs no tests (0.0.7).
 58. Development calls an epic of fine-tuning a sweep, and the glossary's sweep applies one rule to every instance.
-59. The cadence opens a session on the refine list, and Work Workflow puts the accept list first.
 60. A game's report names every addition and shows every visible change, and the conductor never repeats a ticket in chat.
 61. A Pre-Alpha version is a day of work, and feedback on an open version closes it at once.
 62. Concept has no tickets, and every unit of work is a ticket.
@@ -41,11 +39,9 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Gaps
 
-72. "The tech roadmap" in VitePress Wiki and "the short-term roadmap" in Stabilize Before Adding are defined nowhere (0.0.7).
 73. Plan Template has no case for a project with one app.
 75. Feature Workflow weighs the laws in a step of the spec that does not exist, and Game Design Laws checks them before the spec.
 79. A healing log entry names its commit, and nothing says which commit comes first.
-80. The records send feedback through the tickets workflow's intake, which a simple workflow project lacks.
 81. An unbuilt feature goes under Functional Debt with a roadmap link, or carries a mark with a ticket link.
 82. The reference docs that hold endpoints are placed nowhere.
 83. Two docs pages call a statement in a feature doc a spec, and the glossary's spec is the list of use cases.

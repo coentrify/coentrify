@@ -22,7 +22,7 @@ A playtest file records what was felt about a build, and the next build is held 
 ## How To Apply
 
 - Write the file right after the log entry, before anything else is done with the feedback. Never afterward on request.
-- Feedback stays feedback: its units go through intake ([Work Workflow](../tickets-workflow/work-workflow.md)), where the director's "feedback for now" or "not for now" means built later in its epic and phase, never held.
+- Feedback stays feedback: its units go where the project's workflow files new work, such as the intake of [Work Workflow](../tickets-workflow/work-workflow.md), where the director's "feedback for now" or "not for now" means built later in its epic and phase, never held.
 
 ## Outside Playtesters
 
