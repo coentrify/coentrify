@@ -48,7 +48,7 @@ This repository has no `coentrify.json` of its own, so a harness change here is 
 - Changes that overlap, contradict or conflict are settled together, as one change.
 - Weigh each change for the harmony of the whole system and flag what it strains: the session that filed it saw only its own work.
 - Tightening applies to format and filler only, not to the rule itself.
-- A shift in content is the director's call, so surface it first.
+- A shift in content is the director's call, so surface it first, a rule it drops or loosens included, never only after it is applied.
 - Apply format conventions mechanically.
 - Surface improvement opportunities before acting, not as justification after.
 - First pass: get the essence right. Edge cases come back if they bite during use.

@@ -14,7 +14,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Rules That Contradict
 
-21. Docs Hold Only What The Director Decided sends a name or a number the director did not say to chat first, and Flag Every Addition decides and flags it.
 22. Propagate Renames updates every instance of a changed convention in the same change, and Code Review Compounds files the existing instances as a sweep.
 23. Code Review Compounds has the reviewer add the check and write the standard itself, past healing.
 24. File A Change lets the healing subagent file on its own with `automatic`, and the Healing Log and the onboarding file only a ruled change.
