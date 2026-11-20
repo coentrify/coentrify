@@ -87,7 +87,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Facts That Went Stale
 
-111. Claude Code puts the project's `CLAUDE.md` back after a compaction, so the reload hook loads the Core Rules twice there.
 113. `--mute-audio` mutes Chromium alone, and Silent Runs gives it to any browser.
 115. A plugin's skill fixed in place is replaced on the plugin's next update.
 116. The Builder says a message waits until the builder's turn ends, and Claude Code delivers it at the next tool call.

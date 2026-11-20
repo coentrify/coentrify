@@ -483,6 +483,7 @@ Two tests, in Claude Code 2.1.326. The first tests the harness, with no trap for
 
 - A rule file that `CLAUDE.md` imports holds a codeword that no turn names. After a compaction, a session without tools still gave the codeword, on both models.
 - So the Core Rules survive a compaction on their own, in a headless session.
+- In Claude Code 2.1.329, `CLAUDE.md` and the file it imports each held a marker, and both markers were changed on disk before a `/compact`. After it, a session without tools quoted the new markers, so both files are read again from disk.
 
 The second is a trap of four turns. The standards of a project are ten pages with 107 decisions, and the first turn reads them all. Two turns of work on other parts follow, then a compaction, then a request for an export to a file. The export falls under thirteen decisions that no code in the project shows, and the command line that predates them does it the other way.
 

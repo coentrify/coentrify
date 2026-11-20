@@ -104,7 +104,7 @@ The entry point is the file an agent reads when a session starts, such as `AGENT
 
 Where the agent can import a file, such as with `@` in `CLAUDE.md`, the entry point imports the index and every standard in the Core Rules, so they load without being asked for, in every agent and subagent.
 
-The entry point also says to read the Core Rules again after a compaction. Where the agent supports hooks, a reload hook does that by itself, built from its spec in the [tools](tools/overview.md).
+The entry point also says to read the Core Rules again after a compaction. An agent that reads its entry point again after a compaction, its imports included, as Claude Code does, needs nothing more. Elsewhere, where the agent supports hooks, a reload hook does it, built from its spec in the [tools](tools/overview.md).
 
 ### The Coentrify File
 

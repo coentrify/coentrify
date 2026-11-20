@@ -4,7 +4,7 @@ A spec for a hook that puts the Core Rules back in context after a compaction ([
 
 ## Where It Runs
 
-- When a session starts again after a compaction, where the agent's app supports such a hook.
+- When a session starts again after a compaction, where the agent's app supports such a hook and does not read the entry point again by itself.
 
 ## What It Does
 

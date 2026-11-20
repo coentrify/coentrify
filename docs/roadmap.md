@@ -13,7 +13,7 @@ The versions on the way to 1.0.
 - Add a standard for the advanced release workflow, for a product that is live: stories merge into a development branch, which is promoted to a release branch, accepted there and merged into main.
 - Streamline the Proof page into a quick overview: one table with the rule, the trap, a summary and the data per model.
 - Probe the standards again at every new model release, on new traps.
-- Probe Reload The Standards After Compacting on a long session, and in the terminal or the app, as the [worklist](relevance-vetting.md) says.
+- Probe Reload The Standards After Compacting on a long session, where the summary is far smaller than what it replaces, as the [worklist](relevance-vetting.md) says.
 - Test on a real project: the first prompt, a one-word prompt once it is set up, the onboarding, the reload hook and the update.
 - Host the wiki at coentrify.com, for indexing and access.
 - Probe the bare word again once coentrify is indexed and linked from other sites, and simplify the first prompt when it passes.
