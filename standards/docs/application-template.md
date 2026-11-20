@@ -19,12 +19,12 @@ Entry point for the application - a reader should grasp the application's size a
 - `Users` - functional user roles (e.g. "Administrator"). A flat list, then a `###` subheader with a short description per role.
 - `Features` - brief noun phrases in Title Case (e.g. "User Overview", "Create User"). A flat list, then a `###` subheader with a short description per feature (same shape as `Users`).
 - `Views` - user-facing pages and dialogs (e.g. "User List", "Create User (dialog)").
-- `Functional Debt` - product-level feature gaps (e.g. "Sort Users", "User Detail").
+- `Functional Debt` - what an existing feature lacks (e.g. "Sort Users").
 - `Notes` - caveats and product quirks (e.g. "Role is set on Create. It cannot be changed on Edit.").
 
 ### Status Markers
 
-- Mark a not-yet-built feature or view with a `(Not Yet Implemented)` suffix rather than explaining the gap.
+- A whole feature or view not built yet stands under Features or Views with a `(Not Yet Implemented)` suffix, linking its ticket, or its roadmap item in the simple workflow.
 - The mark stands only on the feature itself, where it is described. A page that merely refers to it carries no mark, since marks spread over references rot once the feature lands.
 - Each `Functional Debt` item links to the roadmap item that resolves it.
 

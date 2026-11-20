@@ -1,6 +1,6 @@
 # Plan Template
 
-`docs/development/plan.md` is the workspace plan: a thin parent. The detailed, in-flight items live in the per-app plans (`docs/development/<app>/plan.md`). The workspace plan stays short and points down to them.
+`docs/development/plan.md` is the workspace plan: a thin parent. The detailed, in-flight items live in the per-app plans (`docs/development/<app>/plan.md`). The workspace plan stays short and points down to them. In a project with one app, `docs/development/plan.md` is the plan itself.
 
 ## Purpose
 

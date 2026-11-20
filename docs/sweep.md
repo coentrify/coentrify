@@ -17,9 +17,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Gaps
 
-73. Plan Template has no case for a project with one app.
-79. A healing log entry names its commit, and nothing says which commit comes first.
-81. An unbuilt feature goes under Functional Debt with a roadmap link, or carries a mark with a ticket link.
 82. The reference docs that hold endpoints are placed nowhere.
 83. Two docs pages call a statement in a feature doc a spec, and the glossary's spec is the list of use cases.
 84. No Magic Values annotates a scalar `Readonly<T>`, which on a primitive adds nothing.
