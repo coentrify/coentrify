@@ -19,7 +19,7 @@ Every folder answers one question, so a reader knows where a fact belongs before
 
 ## Work
 
-- `docs/development/` - all work tracking, whichever the workflow: the lists of the simple workflow ([The Simple Workflow](../simple-workflow/the-simple-workflow.md)), or the tickets, their generated lists and the archive ([Work Tracking](../tickets-workflow/work-tracking.md)).
+- `docs/development/` - all work tracking, whichever the workflow: the lists of the simple workflow ([The Simple Workflow](../simple-workflow/the-simple-workflow.md)), or the tickets, their generated lists and the archive ([Work Tracking](../tickets-workflow/work-tracking.md)), and the director's own tasks beside either ([Communication Boundary](../behavior/communication-boundary.md)).
 
 ## Records
 

@@ -49,10 +49,8 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 69. Nothing archives a dropped ticket, a finished workshop or an epic.
 70. A debt ticket's Veto lines never reach the director.
-71. The tickets overview still lands a ticket in one commit (0.0.7).
 72. "The tech roadmap" in VitePress Wiki and "the short-term roadmap" in Stabilize Before Adding are defined nowhere (0.0.7).
 73. Plan Template has no case for a project with one app.
-74. Communication Boundary files a "Tell `<name>`" task, and no workflow has a task.
 75. Feature Workflow weighs the laws in a step of the spec that does not exist, and Game Design Laws checks them before the spec.
 76. Docs Folder Structure has no `docs/<app>/`, which three pages use.
 77. The DEV day is counted in the request log, which is optional, and three other records rely on it.

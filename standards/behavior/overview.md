@@ -12,7 +12,7 @@ The Behavior standards: how an agent works and what an agent checks.
 - [Anchor Edits After Formatting](anchor-edits-after-formatting.md) - no write while a commit hook runs, check every anchor of a batch first, no edit by line number after a formatter
 - [Backward-Trace Missing Prerequisites](backward-trace-missing-prerequisites.md) - a missing prerequisite is filed above the item. Recurse, never patch around
 - [Code Review Compounds Into Patterns And Sweeps](code-review-compounds-into-patterns-and-sweeps.md) - a review finding is a pattern: a review check or a standard through healing, and a sweep ticket
-- [Communication Boundary](communication-boundary.md) - never contact users or testers or speak for the director. File `Tell <name>` tasks
+- [Communication Boundary](communication-boundary.md) - never contact users or testers or speak for the director. A follow-up only the director can do goes on the director tasks
 - [Dev Tiers](dev-tiers.md) - the recommended order: build, bugs, debt, features, within the current phase's goal. The director decides, and a pick that skips open bugs or debt gets a reminder
 - [Docs Hold Only What The Director Decided](docs-hold-only-what-the-director-decided.md) - docs hold only what the director decided. Ideas go to chat first
 - [Don't Filter Data Without A Spec](dont-filter-data-without-a-spec.md) - never drop data unless the exclusion is specced and tested
