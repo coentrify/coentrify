@@ -15,9 +15,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 ## Rules That Contradict
 
 42. Application Template puts a route on a view, and functional docs hold no routes.
-58. Development calls an epic of fine-tuning a sweep, and the glossary's sweep applies one rule to every instance.
-61. A Pre-Alpha version is a day of work, and feedback on an open version closes it at once.
-63. Pre-Alpha needs a quest log in every level, and the laws name a quest log as yellow paint.
 64. Know What Is Coming always shows the distance to the goal, and Always Something To Do hides the ultimate goal until early mid-game.
 65. The laws index says nothing auto progresses while away, and AFK Safe keeps what the player set running.
 

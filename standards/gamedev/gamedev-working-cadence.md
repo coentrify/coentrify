@@ -25,7 +25,7 @@ Every playtest plays a named version, and knows what changed in it.
 
 ## Version Close
 
-- What a version is follows the game's phase ([Game Phases](game-phases.md)). In Pre-Alpha a version is a day of work: closing the day closes the version. Once builds go out, a version is a build, and a playtest names the version it played.
+- What a version is follows the game's phase ([Game Phases](game-phases.md)). A version closes on the director's go, and the day may go on after it. Once builds go out, a version is a build, and a playtest names the version it played.
 - The version closes with the suites green and the version tagged.
 - Nothing lands between the full suites and the tag without its touched suite run again.
 - The next version is bumped and its changelog page opened only when its first item lands ([Changelog Per Version](../records/changelog-per-version.md)).

@@ -6,7 +6,7 @@ The third stage of a game ([Game Phases](game-phases.md)). The designed game is 
 
 Functionally complete: the full game playable from start to finish, perhaps badly paced, buggy and visually imperfect, with every part there. Gate: is every part there?
 
-- Every part a level needs is present and reads as what it is: its objects, sounds, voices, music or its silence, quest log and HUD.
+- Every part a level needs is present and reads as what it is: its objects, sounds, voices, music or its silence, and the interface it needs.
 - A rough part is fine. A missing part is not.
 - The right vibe counts.
 - Polish waits: the look and the finish of a working part belong to Alpha, and so does its debt, until the game's whole shape stands. An agent pushes back on polish.
@@ -18,7 +18,7 @@ Functionally complete: the full game playable from start to finish, perhaps badl
 
 ## Alpha
 
-Completeness: everything implemented properly everywhere and looking good, its sweeps passed. A sweep is an epic of checks and fine-tuning across every level, never new mechanics, so it belongs to Alpha. Gate: is every part right?
+Completeness: everything implemented properly everywhere and looking good, its passes done. A pass is an epic of checks and fine-tuning across every level, never new mechanics, so it belongs to Alpha. Gate: is every part right?
 
 ## Beta
 
