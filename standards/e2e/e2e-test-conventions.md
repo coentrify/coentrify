@@ -36,7 +36,7 @@ The test title is the use-case name, as its spec's heading has it: no "happy pat
 - Both overview tags also prefix the narrated demo reel's output filename. No separate ticket tag is needed.
 - `@demo` - on the per-feature overview and the application overview.
 - `@error` - only on unhappy paths. Reports color the chip red. Happy is the absence of `@error`, so there is no `@happy`.
-- Modular features: once an application needs module folders (`features/users/`, `features/authentication/`), the feature takes its module as a prefix: `@users-create-user-1`. Flat until that earns its keep.
+- Modular features: once an application needs module folders (`features/users/`, `features/authentication/`), the feature takes its module as a prefix, `@users-create-user-1`, renaming every id and tag of the feature at once. Flat until that earns its keep.
 - Pattern tags - only for a cross-feature, user-perceived category that filtering benefits from:
   - `@list` - collection or list view.
   - `@empty` - empty state.

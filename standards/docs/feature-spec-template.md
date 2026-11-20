@@ -65,6 +65,7 @@ Example:
 ## Stable IDs
 
 - IDs never renumber. Adding a case adds a new ID. Removing one leaves the gap.
+- An id changes only together with every reference to it, its tags and links included, in one change ([Propagate Renames And Convention Changes Everywhere](../behavior/propagate-renames-and-convention-changes-everywhere.md)).
 - E2E tests carry the matching `@<feature-id>-N` tag. The spec is the source of truth.
 
 ## Coverage
