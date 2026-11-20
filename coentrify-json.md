@@ -17,7 +17,7 @@ The onboarding writes `coentrify.json`, and the director changes it after.
   "version": "0.0.1",
   "folders": { "docs": "docs", "standards": "standards" },
   "workflow": "simple",
-  "records": ["changelog"],
+  "records": ["changelog", "healing-log"],
   "wiki": "vitepress",
   "healing": "automatic",
   "modules": {
@@ -33,6 +33,8 @@ The onboarding writes `coentrify.json`, and the director changes it after.
 - `version` - the version of coentrify the project is at
 - `folders` - where the docs and the standards live
 - `workflow`, `records`, `wiki` - the choices from the onboarding
+- `workflow` is `simple` or `tickets`
+- `records` lists each record kept by its place under `docs/records/`: `log`, `activity`, `changelog`, `healing-log`, `playtests`, `user-tests`
 - `modules` - every standard taken from coentrify, by module, with its state
 - `healing` - who makes a harness change: `automatic` by default, where a subagent makes it, logs it in the healing log and the report names it for a veto, or `review`, where it is filed for the director
 - `contributor` - left out by default. Set to `true`, the project may file changes at the source.

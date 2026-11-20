@@ -4,7 +4,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Install And Update
 
-4. The coentrify.json example heals automatically and keeps no healing log.
 5. The onboarding gives an idea "the core behavior", while Docs and Security are always recommended, and "core standards" is defined nowhere.
 6. Commands lists the bare `coentrify` as the setup, and the proof shows it fails in a fresh project.
 7. No healing page says a tracked standard changed by hand turns customized, so the coentrify.json check refuses the healing commit.
