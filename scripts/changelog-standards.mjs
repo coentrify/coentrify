@@ -161,7 +161,7 @@ const sections = [...byModule.keys()]
 
 const standards = readdirSync(STANDARDS_FOLDER, { withFileTypes: true })
   .filter((entry) => entry.isDirectory())
-  .map((entry) => readdirSync(join(STANDARDS_FOLDER, entry.name)).filter((file) => file !== INDEX_PAGE).length);
+  .map((entry) => readdirSync(join(STANDARDS_FOLDER, entry.name)).filter((file) => file.endsWith(MARKDOWN_EXTENSION) && file !== INDEX_PAGE).length);
 const counts = KINDS.map((kind) => [kind, entries.filter((entry) => entry.kind === kind).length])
   .filter(([, count]) => count > 0)
   .map(([kind, count]) => `${number(count)} ${kind}`);
