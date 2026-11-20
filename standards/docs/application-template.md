@@ -18,7 +18,7 @@ Entry point for the application - a reader should grasp the application's size a
 
 - `Users` - functional user roles (e.g. "Administrator"). A flat list, then a `###` subheader with a short description per role.
 - `Features` - brief noun phrases in Title Case (e.g. "User Overview", "Create User"). A flat list, then a `###` subheader with a short description per feature (same shape as `Users`).
-- `Views` - user-facing pages and dialogs (e.g. "User List (/users)", "Create User (dialog)").
+- `Views` - user-facing pages and dialogs (e.g. "User List", "Create User (dialog)").
 - `Functional Debt` - product-level feature gaps (e.g. "Sort Users", "User Detail").
 - `Notes` - caveats and product quirks (e.g. "Role is set on Create. It cannot be changed on Edit.").
 

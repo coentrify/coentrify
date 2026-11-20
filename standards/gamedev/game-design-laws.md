@@ -19,7 +19,7 @@ The full text is in [Game Design Laws: Experience](game-design-laws-experience.m
 - [Respect](game-design-laws-experience.md#respect) - no dumb tutorials
 - [Speedrun Ready](game-design-laws-experience.md#speedrun-ready) - a returning speedrunner has as good an experience as a first-time player
 - [Once Per Save](game-design-laws-experience.md#once-per-save) - a story cutscene and a progression minigame play once per save
-- [AFK Safe](game-design-laws-experience.md#afk-safe) - away without negative effect. Nothing is lost and nothing auto progresses
+- [AFK Safe](game-design-laws-experience.md#afk-safe) - away without negative effect. Nothing is lost, and only what the player set running keeps running
 - [Easy Pause](game-design-laws-experience.md#easy-pause) - pausing is always easy
 - [Soft Sound](game-design-laws-experience.md#soft-sound) - a soft mix, varied repeats, a layer per scene
 - [Fun First](game-design-laws-experience.md#fun-first) - player experience is priority one. A good game clips well
@@ -36,7 +36,7 @@ The full text is in [Game Design Laws: Progress](game-design-laws-progress.md).
 - [Earned Progress](game-design-laws-progress.md#earned-progress) - start with as little as possible and earn the rest
 - [Lasting Impact](game-design-laws-progress.md#lasting-impact) - what the player decides lasts
 - [Emergent Gameplay](game-design-laws-progress.md#emergent-gameplay) - systems that open possibilities
-- [Know What Is Coming](game-design-laws-progress.md#know-what-is-coming) - the next step and the distance to the goal are always visible
+- [Know What Is Coming](game-design-laws-progress.md#know-what-is-coming) - the next step and the distance to the next goal are always visible
 
 ### Quality
 

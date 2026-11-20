@@ -14,9 +14,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Rules That Contradict
 
-42. Application Template puts a route on a view, and functional docs hold no routes.
-64. Know What Is Coming always shows the distance to the goal, and Always Something To Do hides the ultimate goal until early mid-game.
-65. The laws index says nothing auto progresses while away, and AFK Safe keeps what the player set running.
 
 ## Gaps
 
