@@ -8,6 +8,7 @@ folder defaults to standards. A link is removed when it points at a markdown
 file that is not on disk.
 
 - A list item that holds only such a link is removed whole, as in a Related list.
+- In an overview, a list item that opens with such a link is removed whole.
 - A pair of brackets that holds only such links is removed whole.
 - Every other such link becomes its own words.
 - A Related section that ends up empty is removed.
@@ -25,6 +26,8 @@ HEADING = re.compile(r"^#{1,6} ")
 ONE_LINK = r"\[[^\]]+\]\([^)\s]+\)"
 LINK = re.compile(r"\[([^\]]+)\]\(([^)\s]+)\)")
 LINK_ONLY_ITEM = re.compile(rf"^\s*[-*] {ONE_LINK}\s*$")
+LEADING_LINK_ITEM = re.compile(rf"^\s*[-*] {ONE_LINK}")
+INDEX_PAGE = "overview.md"
 LINK_ONLY_BRACKETS = re.compile(rf" ?\(({ONE_LINK}(?:(?:, | and ){ONE_LINK})*)\)")
 CODE_SPAN = re.compile(r"(`+).+?\1")
 PLACEHOLDER = "\x00{}\x00"
@@ -101,7 +104,8 @@ def unlink_page(page: Path) -> int:
         if in_code or line.lstrip().startswith(FENCE):
             result.append(line)
             continue
-        if LINK_ONLY_ITEM.match(line):
+        pattern = LEADING_LINK_ITEM if page.name == INDEX_PAGE else LINK_ONLY_ITEM
+        if pattern.match(line):
             target = LINK.search(line).group(2)
             if is_missing(target, page):
                 removed += 1

@@ -7,7 +7,7 @@ What coentrify provides beside the standards: the scripts behind its own command
 These run from the coentrify source, never copied into a project, so they follow every change to coentrify's own format.
 
 - `scripts/coentrify-update.py` - works out an update from git: replaces the tracked standards that changed with their overview lines, and reports the rest for the agent, the changed specs included ([Commands](../commands.md#coentrify-update))
-- `scripts/unlink-missing-standards.py` - removes every link to a standard the project did not adopt, and keeps the words, after the setup and after every update
+- `scripts/unlink-missing-standards.py` - removes every link to a standard the project did not adopt, and keeps the words, but drops its line from an overview, after the setup and after every update
 
 ## Specs
 

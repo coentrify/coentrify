@@ -88,7 +88,7 @@ With `coentrify make no mistakes` the agent asks nothing. The agent takes every 
 
 ### The Links
 
-A link to a standard the project did not adopt points at nothing. The unlink script from the [tools](tools/overview.md) removes every such link and keeps the words.
+A link to a standard the project did not adopt points at nothing. The unlink script from the [tools](tools/overview.md) removes every such link and keeps the words, and drops the line of such a standard from its overview.
 
 ### The Index
 
