@@ -47,9 +47,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Gaps
 
-66. The `agent` field names both the builder and the docs agent's grooming queue, so a groomed story jumps to the plan with its go (0.0.7).
-67. A prerequisite filed mid-build waits on its go and takes its story off the plan (0.0.7).
-68. The Builder ends at the story's verdict, and a debt story gets none.
 69. Nothing archives a dropped ticket, a finished workshop or an epic.
 70. A debt ticket's Veto lines never reach the director.
 71. The tickets overview still lands a ticket in one commit (0.0.7).

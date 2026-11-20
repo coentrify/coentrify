@@ -1,6 +1,6 @@
 # The Builder
 
-The builder builds one story in a worktree of its own, ticket by ticket, until the director's verdict on the story. How it builds a ticket is in [Building A Ticket](building-a-ticket.md).
+The builder builds one story in a worktree of its own, ticket by ticket, until the director's verdict on the story, or its merge for a debt story. How it builds a ticket is in [Building A Ticket](building-a-ticket.md).
 
 ## Why
 
@@ -9,7 +9,7 @@ A story is built whole by one agent, whose context holds that story alone.
 ## How To Apply
 
 - Builds one story in a worktree of its own: the story's tickets in order, one in flight, each ticket in commits of its own.
-- Stays until the story's verdict: it works the director's findings in as they come back as tickets, and ends once the story is accepted.
+- Stays until the story's verdict: it works the director's findings in as they come back as tickets, and ends once the story is accepted. A debt story gets no verdict, so its builder ends at the merge.
 - Never carries on into a next story and is never compacted: a next story gets a fresh builder, since the code, the docs and the Done parts hold what it needs.
 - Never judges its own context: a story is sized in refinement to fit one. A builder that stops anyway is replaced by a fresh one on the same worktree, the commits and the Done parts its handover.
 - While one of its tickets waits on a question ([Building A Ticket](building-a-ticket.md#building)), it reports the question to its conductor and builds the story's ready tickets on.

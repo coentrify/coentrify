@@ -8,7 +8,7 @@ The director has an always open line to all of the work: every thought goes in a
 
 ## What It Does
 
-- Processes every message of the director: logs it, turns it into tickets, writes their `agent` field and briefs at once, so the director's next message never waits on a ticket being written.
+- Processes every message of the director: logs it, turns it into tickets and briefs at once, so the director's next message never waits on a ticket being written.
 - Builds nothing and never opens an item's files. Its hands stay on the log, the lists, the landings and the director's messages.
 - Settles the small things itself: a recommended answer taken, a builder assigned, a drop or a promotion.
 - Records the director's go in the `go` field when the director gives one.

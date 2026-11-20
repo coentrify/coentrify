@@ -18,7 +18,7 @@ Every message from the director is handled at once, while the work keeps landing
 
 - Runs only for a docs sweep or to process a queue of tickets.
 - A docs sweep is docs work, with its go and its plan section.
-- Its grooming queue is the tickets on the refine list whose `agent` field names it, so the director sees what is being groomed.
+- It grooms under a docs ticket of its own, and the tickets it edits while doing so stay unassigned.
 - Its commit passes hygiene and the wiki build, since hygiene misses a dead link.
 
 ## The Scout
