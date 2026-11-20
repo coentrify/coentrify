@@ -8,10 +8,12 @@ names as its source, with its tags fetched. The update runs from the project's v
 version tag, or to --to.
 
 Without --apply it prints the plan. With --apply it also replaces every tracked standard that changed,
-and writes the new version to coentrify.json. The rest stays with the agent, as the plan says:
+and its line in the module's overview, and writes the new version to coentrify.json. The rest stays with the agent, as the plan says:
 - a customized standard that changed, to show the director
 - a standard that was renamed, moved or removed at the source
 - a new standard in a module the project adopted, worth considering
+- the overview line of a customized standard that changed, to show the director
+- a tool spec that changed, so the project rebuilds what it built from it
 - the unlink script, once the replaced standards bring their links back
 """
 from __future__ import annotations
@@ -27,11 +29,13 @@ APPLY_FLAG = "--apply"
 TO_FLAG = "--to"
 TAG_PREFIX = "v"
 STANDARDS = "standards"
+SPECS = "tools/specs"
 INDEX_PAGE = "overview.md"
 MODULE_SOURCE = "source"
 TRACKED = "tracked"
 STANDARD_PATH = re.compile(r"^standards/([^/]+)/([^/]+)\.md$")
 TITLE = re.compile(r"^# (.+)$", re.M)
+OVERVIEW_LINE = re.compile(r"^- \[[^\]]+\]\(([^)/]+)\.md\)")
 
 
 def git(source: Path, *args: str) -> str:
@@ -55,6 +59,21 @@ def latest_tag(source: Path) -> str:
 def title_at(source: Path, tag: str, path: str) -> str:
     match = TITLE.search(git(source, "show", f"{tag}:{path}"))
     return match.group(1) if match else path
+
+
+def overview_lines(text: str) -> dict[str, str]:
+    lines = {}
+    for line in text.splitlines():
+        match = OVERVIEW_LINE.match(line)
+        if match:
+            lines[match.group(1)] = line
+    return lines
+
+
+def overview_at(source: Path, tag: str, module: str) -> dict[str, str]:
+    path = f"{tag}:{STANDARDS}/{module}/{INDEX_PAGE}"
+    found = subprocess.run(["git", "-C", str(source), "cat-file", "-e", path], capture_output=True)
+    return overview_lines(git(source, "show", path)) if found.returncode == 0 else {}
 
 
 def standard_of(path: str) -> tuple[str, str] | None:
@@ -114,6 +133,14 @@ def main() -> int:
     gone = [old for old in removed if adopted(*old)]
     fresh = [new for new in added if new[0] in modules]
 
+    line_replace, line_report = [], []
+    for module in sorted(modules):
+        before, after = overview_at(source, start, module), overview_at(source, end, module)
+        for name, line in after.items():
+            if name in before and before[name] != line and adopted(module, name):
+                (line_replace if adopted(module, name) == TRACKED else line_report).append((module, name, line))
+    specs = git(source, "diff", "--name-only", start, end, "--", SPECS).split()
+
     print(f"# Update from {start} to {end}\n")
     print(f"Replace, tracked and changed: {len(replace)}")
     for module, name in replace:
@@ -130,6 +157,15 @@ def main() -> int:
     print(f"\nNew in an adopted module, worth considering: {len(fresh)}")
     for module, name in fresh:
         print(f"- {module}/{name}, {title_at(source, end, f'{STANDARDS}/{module}/{name}.md')}")
+    print(f"\nOverview lines, tracked and changed: {len(line_replace)}")
+    for module, name, _ in line_replace:
+        print(f"- {module}/{name}")
+    print(f"\nOverview lines to show the director, customized and changed: {len(line_report)}")
+    for module, name, _ in line_report:
+        print(f"- {module}/{name}: git -C {source} diff {start} {end} -- {STANDARDS}/{module}/{INDEX_PAGE}")
+    print(f"\nSpecs that changed, rebuild what the project built from them: {len(specs)}")
+    for spec in specs:
+        print(f"- {spec}: git -C {source} diff {start} {end} -- {spec}")
     if own_source:
         print(f"\nModules with a source of their own, left out: {', '.join(own_source)}")
 
@@ -137,9 +173,21 @@ def main() -> int:
         for module, name in replace:
             target = folder / module / f"{name}.md"
             target.write_text(git(source, "show", f"{end}:{STANDARDS}/{module}/{name}.md"))
+        missing = []
+        for module, name, line in line_replace:
+            target = folder / module / INDEX_PAGE
+            text = target.read_text() if target.exists() else ""
+            current = overview_lines(text).get(name)
+            if current is None:
+                missing.append(f"{module}/{name}")
+                continue
+            target.write_text(text.replace(current, line, 1))
         config["version"] = end.removeprefix(TAG_PREFIX)
         Path(FILE).write_text(json.dumps(config, indent=2) + "\n")
-        print(f"\nReplaced {len(replace)} standards and wrote {config['version']} to {FILE}. Run the unlink script next.")
+        print(f"\nReplaced {len(replace)} standards and {len(line_replace) - len(missing)} overview lines, and wrote {config['version']} to {FILE}.")
+        for standard in missing:
+            print(f"- The overview line of {standard} was not found, update it by hand.")
+        print("Run the unlink script next.")
     return 0
 
 

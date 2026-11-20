@@ -1,10 +1,9 @@
 # Sweep
 
-The worklist from a second sweep over every standard, the top-level pages, the tools and these docs, in 0.0.8. The director rules on each finding in turn, with its context, its problem and a recommendation. A finding is checked against the files before it is presented, and leaves the list once it is ruled and applied. A finding marked (0.0.7) is left over from a fix in that version.
+The worklist from a second sweep over every standard, the top-level pages, the tools and these docs, in 0.0.8. The director rules on each finding in turn, with its context, its problem and a recommendation. A finding is checked against the files before it is presented, and leaves the list once it is ruled and applied. It is presented in three short lines: its context, its problem and a recommendation. A finding marked (0.0.7) is left over from a fix in that version.
 
 ## Install And Update
 
-2. The update and the changelog skip the module overviews and the tool specs, so a changed overview line or spec never reaches a project.
 3. The unlink script keeps an overview line for a standard the project did not adopt, as plain text.
 4. The coentrify.json example heals automatically and keeps no healing log.
 5. The onboarding gives an idea "the core behavior", while Docs and Security are always recommended, and "core standards" is defined nowhere.
