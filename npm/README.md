@@ -2,9 +2,9 @@
 
 `npx coentrify` points an agent at [coentrify](https://github.com/coentrify/coentrify): standards, checks and tools for spec-driven development with AI agents.
 
-The package holds no standards and runs nothing but instructions for adopting the coentrify standards. It names the next step and links the latest release of the source. This package is versioned separately from the coentrify standards. 
+The package holds no standards. It prints the next step for adopting them, links the latest release of the source, and runs nothing else. It is versioned separately from the standards.
 
-- `npx coentrify` - sets the project up with onboarding dialogue
-- `npx coentrify make no mistakes` - sets the project up with default options
+- `npx coentrify` - sets the project up with you in the loop: the agent recommends, and you choose
+- `npx coentrify make no mistakes` - sets the project up autonomously: the agent chooses, and you veto afterward
 - `npx coentrify update` - brings the project up to date
-- `npx coentrify explain` - say what coentrify is
+- `npx coentrify explain` - says what coentrify is
