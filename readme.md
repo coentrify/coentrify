@@ -63,7 +63,7 @@ Coentrify gives any input a quality baseline. The creating and the deciding stay
 
 ## Wiki
 
-Everything here reads as a wiki at [coentrify.github.io/coentrify](https://coentrify.github.io/coentrify/).
+Everything here reads as a wiki at [coentrify.com](https://coentrify.com/).
 
 ## License
 

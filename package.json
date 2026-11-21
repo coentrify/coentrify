@@ -13,7 +13,7 @@
     "changelog:standards": "node scripts/changelog-standards.mjs",
     "check:specifics": "node scripts/check-specifics.mjs",
     "hooks:pre-commit": "npm run lint:standards -- --staged",
-    "ci:wiki": "WIKI_BASE=/coentrify/ npm run build:wiki",
+    "ci:wiki": "npm run build:wiki",
     "tag:version": "node scripts/tag-version.mjs",
     "publish:npm": "node scripts/publish-npm.mjs",
     "ci:tag": "npm run tag:version --"
