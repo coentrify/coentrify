@@ -33,8 +33,9 @@ Any question about what coentrify is. Explain from the [readme](readme.md), the 
 
 Any request to bring the project up to date. The update script from the [tools](tools/overview.md) works out what changed since the project's version, and the agent handles what needs judgment.
 
-- Fetch the source that `coentrify.json` names, with its tags.
-- Run the update script from the source for the plan, `<source>/tools/scripts/coentrify-update.py <source>`, and read the [changelog](changelog/overview.md) from the project's version on.
+- Raise coentrify to its latest version, `npm install --save-dev coentrify@latest`.
+- Run the update script from the installed package for the plan, `python3 node_modules/coentrify/src/tools/scripts/coentrify-update.py`, and read the [changelog](changelog/overview.md) from the project's version on. The script fetches the project's version from npm to compare with.
+- A project from before 0.1.0 sets coentrify up again, the way the [onboarding](onboarding.md#an-earlier-coentrify) says for an earlier coentrify.
 - Read `standards/decisions.md` for the reasoning behind the earlier choices.
 - Show the director a changed rule in a tracked standard before it is replaced.
 - A standard whose update the director declines is set to `customized` first, with the reason in the decisions.
