@@ -70,7 +70,7 @@ Every choice has a default, and the default is the recommendation. The [recommen
 
 ## Choose
 
-The agent shows the recommendations as one short list. The director accepts a default, picks another option, or overrides with something of the project's own.
+The agent shows the recommendations as one short list. The director accepts a default, picks another option, or overrides with something of the project's own. A part of an adopted standard the agent would leave out is in that list too, as a choice with its reason.
 
 With `coentrify make no mistakes` the agent asks nothing. The agent takes every recommendation, and makes a best guess where there is none. A conflict is settled the same way, and listed in the report.
 
@@ -87,7 +87,7 @@ With `coentrify make no mistakes` the agent asks nothing. The agent takes every 
 - Set up the `docs` folder.
 - Create the wiki, where chosen.
 - Switch off the agent's own commit attribution where it has a setting for it ([Commits](standards/commits/commits.md#no-attribution)).
-- Build the checks and hooks the chosen standards ask for, in the project's own stack, from their specs in the [tools](tools/overview.md).
+- Set every chosen standard up in full: build the checks and hooks it asks for, in the project's own stack, from their specs in the [tools](tools/overview.md).
 - Offer a setup script for personal content, where the director uses cloud sessions.
 
 ### The Links
