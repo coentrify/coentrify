@@ -18,7 +18,8 @@
     "ci:wiki": "npm run build:wiki",
     "tag:version": "node scripts/tag-version.mjs",
     "publish:npm": "node scripts/publish-npm.mjs",
-    "ci:tag": "npm run tag:version --"
+    "ci:tag": "npm run tag:version --",
+    "ci:publish": "npm run publish:npm"
   },
   "devDependencies": {
     "vitepress": "1.6.4"

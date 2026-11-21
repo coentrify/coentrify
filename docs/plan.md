@@ -27,4 +27,4 @@ Version 0.1.0: coentrify ships as an npm package that a project installs as a de
 ## Call 0.1.0
 
 - The summary names the migration: a project installs coentrify as a dev dependency, points its entry point at `node_modules/coentrify`, and adds the session check.
-- Tag the version, then publish the package at 0.1.0.
+- Run the Release the version workflow, which tags 0.1.0 and publishes the package.
