@@ -18,5 +18,4 @@ The versions on the way to 1.0.
 - Probe the bare word again once coentrify is indexed and linked from other sites, and simplify the first prompt when it passes.
 - Probe `npx coentrify` as the first prompt once the package is published, and let the Quick Start use it when it passes. Later, the package can run the update and unlink scripts in Node.
 - Record a video of the install, as proof that it works.
-- Consider moving every root page but the readme into a folder, and what the wiki's sidebar shows. CLAUDE.md stays at the root, where an agent finds it. The package links the onboarding and the commands on main, so the move ships with a new package version.
 - Remove the eager rules from the personal memory once the standards hold.
