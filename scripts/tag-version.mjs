@@ -1,13 +1,13 @@
 import { execFileSync } from 'node:child_process';
-import { mkdtempSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { mkdtempSync, readFileSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
+import { latestVersion, versionPage } from './latest-version.mjs';
 
 const CHANGELOG_FOLDER = 'changelog';
 const REMOTE = 'origin';
 const REPOSITORY = 'https://github.com/coentrify/coentrify';
 const TAG_PREFIX = 'v';
-const VERSION_PAGE = /^(\d+)\.(\d+)\.(\d+)\.md$/;
 const TITLE = /^# .+\n/;
 const NEXT_HEADING = /^## /m;
 const NOTES_FLAG = '--notes';
@@ -30,18 +30,13 @@ function hasRelease(tag) {
   }
 }
 
-const versions = readdirSync(CHANGELOG_FOLDER)
-  .map((file) => file.match(VERSION_PAGE))
-  .filter((match) => match !== null)
-  .map((match) => match.slice(1).map(Number))
-  .sort((first, second) => second[0] - first[0] || second[1] - first[1] || second[2] - first[2]);
-if (versions.length === 0) {
+const version = latestVersion();
+if (version === undefined) {
   fail(`no version in ${CHANGELOG_FOLDER}`);
 }
 
-const version = versions[0].join('.');
 const tag = `${TAG_PREFIX}${version}`;
-const page = `${CHANGELOG_FOLDER}/${version}.md`;
+const page = versionPage(version);
 const text = readFileSync(page, 'utf8').replace(TITLE, '');
 const end = text.search(NEXT_HEADING);
 const summary = (end === -1 ? text : text.slice(0, end)).trim();

@@ -1,6 +1,5 @@
 {
   "name": "coentrify",
-  "version": "0.0.2",
   "description": "Spec-driven development: standards, checks and tools for working with AI agents.",
   "license": "MIT-0",
   "type": "module",
@@ -14,7 +13,8 @@
     "coentrify": "bin/coentrify.js"
   },
   "files": [
-    "bin"
+    "bin",
+    "source"
   ],
   "engines": {
     "node": ">=22"

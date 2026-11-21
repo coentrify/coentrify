@@ -25,3 +25,4 @@ The checks this repository runs on itself.
 - The page of a version opens with its summary, and the workflow fails without one.
 - A tag without a release gets its release. The workflow fails when both exist.
 - `npm run tag:version -- --notes` prints the release text and changes nothing.
+- `npm run publish:npm` refuses a version that npm has already, a checkout that is not the version's tag, and a working tree with changes.
