@@ -35,7 +35,7 @@ The Behavior standards: how an agent works and what an agent checks.
 - [Review Changes Before Reporting Done](review-changes-before-reporting-done.md) - before claiming done, check the relevant standards and surface changes you did not make
 - [Review Every Capture Before Reporting](review-every-capture-before-reporting.md) - read every capture for regressions, caption match and unintended shapes
 - [Standards Maintenance](standards-maintenance.md) - a periodic sweep for bloat, stale rules, duplicates, drift and dead links, with a word budget per standard. How a standard is added
-- [Standards Over Skills](standards-over-skills.md) - on conflict with a skill from outside the project, the standard wins. Fix the skill's contradicted line
+- [Standards Over Skills](standards-over-skills.md) - on conflict with a skill from outside the project, the standard wins. A wrong line goes into a standard, never into the skill
 - [Sweeps Enumerate Into Tech-Debt First](sweeps-enumerate-into-tech-debt-first.md) - a sweep lists every instance in one debt entry before fixing
 - [Sync The Docs After Every Change](sync-the-docs-after-every-change.md) - after a landing, grep the docs for its terms and fix what went stale. A plan it conflicts with goes to the director as a question
 - [The Quality Of The Question](the-quality-of-the-question.md) - an answer is as good as its question. Suspect the question first, and ask a vector question over a binary one

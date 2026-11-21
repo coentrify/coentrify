@@ -31,9 +31,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Facts That Went Stale
 
-115. A plugin's skill fixed in place is replaced on the plugin's next update.
-116. The Builder says a message waits until the builder's turn ends, and Claude Code delivers it at the next tool call.
-118. Electron Packaging drops the auto updater's side files, which an app that updates itself needs.
 119. Gestures In Tests says phone keyboards often lack an Enter key.
 
 ## Left Over From One Project
