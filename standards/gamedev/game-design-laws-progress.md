@@ -51,7 +51,7 @@ Systems whose mere existence opens possibilities for the player, play styles amo
 
 ## Know What Is Coming
 
-The player always knows what is coming in the short future: the next upgrade, the next unlock, the distance to the next goal, and when it is the end. There is always something coming, so the next upgrade or level is always looming. The world still keeps its secrets ([Fair Surprise](game-design-laws-world.md#fair-surprise)).
+The player always knows what is coming in the short future: the next upgrade, the next unlock, the distance to the next goal, and when it is the end. There is always something coming, so the next upgrade or level is always looming. Knowing needs no overview or progress bar: the world can show it, by a billboard, a glimpse or a line of dialog. Nothing unlocks before it is introduced ([Adopt, Repeat, Confirm](game-design-laws-guidance.md#adopt-repeat-confirm-arc)). The world still keeps its secrets ([Fair Surprise](game-design-laws-world.md#fair-surprise)).
 
 ## Related
 
