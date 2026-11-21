@@ -9,7 +9,6 @@ The versions on the way to 1.0.
 
 ## Next
 
-- Rule on every finding of the [sweep](sweep.md), one at a time.
 - Add a standard for the advanced release workflow, for a product that is live: stories merge into a development branch, which is promoted to a release branch, accepted there and merged into main.
 - Streamline the Proof page into a quick overview: one table with the rule, the trap, a summary and the data per model.
 - Probe the standards again at every new model release, on new traps.
