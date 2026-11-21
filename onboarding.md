@@ -66,7 +66,7 @@ Every choice has a default, and the default is the recommendation. The [recommen
 - Adoption grows with the phase: an idea takes the Always modules and a workflow, and the stack modules join once it is built.
 - A standard that an adopted standard links to, in a module the project did not pick, is offered as an option.
 - A workflow is strongly recommended, since tracking the work is part of coentrify.
-- Healing is automatic, and for a contributor, filing with coentrify waits for the director.
+- Healing and updates are automatic, and for a contributor, filing with coentrify waits for the director.
 
 ## Choose
 
@@ -112,7 +112,7 @@ The entry point also says to read the Core Rules again after a compaction. An ag
 
 ### The Session Check
 
-Every session starts with `coentrify check`. It says when `coentrify.json` is behind the installed coentrify, and what changed in between, and it never blocks.
+Every session starts with `coentrify check`. It says when `coentrify.json` is behind the installed coentrify, and what changed in between, and it never blocks. With `update` on `automatic`, the agent then brings the project up to date at once ([Commands](commands.md#coentrify-update)).
 
 - Where the agent has a session start hook, such as Claude Code, the hook runs the check through the project's npm scripts ([Thin Wrappers In CI And Hooks](standards/scripts/thin-wrappers-in-ci-and-hooks.md)).
 - Elsewhere, the entry point asks for the check at the start of a session.

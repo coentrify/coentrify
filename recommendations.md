@@ -94,6 +94,13 @@ A contributor also files a change that holds beyond the project with coentrify (
 - Review - recommended: the director looks at the issue before it is filed, since the source is public
 - Automatic - the subagent files it on its own
 
+## Updates
+
+The session check notices when the installed coentrify is newer than the project's version. `update` in `coentrify.json` says what happens then.
+
+- Automatic - recommended: the agent brings the project up to date at once, replaces the tracked standards and reports the rest, such as a customized standard that changed
+- Review - the check says an update is in, and the update waits for the director
+
 ## Folders
 
 - `docs` - the docs

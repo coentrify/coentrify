@@ -8,4 +8,4 @@ The package holds the source of coentrify under `src/`: its standards, its tools
 - `npx coentrify make no mistakes` - sets the project up autonomously: the agent chooses, and you veto afterward
 - `npx coentrify update` - brings the project up to date
 - `npx coentrify explain` - says what coentrify is
-- `npx coentrify check` - says when `coentrify.json` is behind the installed version, and what changed in between. It runs at the start of a session, and never blocks.
+- `npx coentrify check` - says when `coentrify.json` is behind the installed version, and what changed in between. It runs at the start of a session, and never blocks. With `update` on `automatic` in `coentrify.json`, the agent then brings the project up to date at once.

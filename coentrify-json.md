@@ -21,6 +21,7 @@ The onboarding writes `coentrify.json`, and the director changes it after.
   "records": ["changelog", "healing-log"],
   "wiki": "vitepress",
   "healing": "automatic",
+  "update": "automatic",
   "modules": {
     "behavior": {
       "always-make-no-mistakes": "tracked",
@@ -39,6 +40,7 @@ The onboarding writes `coentrify.json`, and the director changes it after.
 - `records` lists each record kept by its place under `docs/records/`: `log`, `activity`, `changelog`, `healing-log`, `playtests`, `user-tests`
 - `modules` - every standard taken from coentrify, by module, with its state
 - `healing` - who makes a harness change: `automatic` by default, where a subagent makes it, logs it in the healing log and the report names it for a veto, or `review`, where it is filed for the director
+- `update` - what a session does when the installed coentrify is newer than `version`: `automatic` by default, where the agent brings the project up to date at once and reports, or `review`, where it says so and waits for the director's go
 - `contributor` - left out by default. Set to `true`, the project may file changes at the source.
 - `filing` - for a contributor: `review` by default, where the director looks at an issue before it is filed at the source, or `automatic`, where the subagent files it on its own
 - `libraries` - left out by default. Each library the project contributes to, by name, with its `source` and a `filing` of its own, as above ([Library Feedback](standards/docs/library-feedback.md))
@@ -67,6 +69,6 @@ A check built from its spec in the [tools](tools/overview.md) keeps the file tru
 - A folder the file names has to exist.
 - A standard the file lists has to be on disk.
 - A state is `tracked` or `customized`.
-- `healing` and `filing` are `automatic` or `review`, and `filing` stands only beside `contributor: true`.
+- `healing`, `filing` and `update` are `automatic` or `review`, and `filing` stands only beside `contributor: true`.
 
 With `--staged`, as a pre-commit step, the check also refuses a commit that changes a tracked standard by hand. The commit passes once the state is `customized`, or when the commit changes the version, as an update does.

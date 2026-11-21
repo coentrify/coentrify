@@ -33,11 +33,13 @@ Any question about what coentrify is. Explain from the [readme](readme.md), the 
 
 Any request to bring the project up to date. The update script from the [tools](tools/overview.md) works out what changed since the project's version, and the agent handles what needs judgment.
 
-- Raise coentrify to its latest version, `npm install --save-dev coentrify@latest`.
+With `update` on `automatic`, the session check starts the update when the installed coentrify is newer than the project, and no go is waited for. Nothing is raised then: the installed version is the one to reach. With builders at work, the conductor hands the update to an agent of its own, and a builder leaves it to the conductor.
+
+- Raise coentrify to its latest version, `npm install --save-dev coentrify@latest`, unless the session check started the update.
 - Run the update script from the installed package for the plan, `python3 node_modules/coentrify/src/tools/scripts/coentrify-update.py`, and read the [changelog](changelog/overview.md) from the project's version on. The script fetches the project's version from npm to compare with.
 - A project from before 0.1.0 sets coentrify up again, the way the [onboarding](onboarding.md#an-earlier-coentrify) says for an earlier coentrify.
 - Read `standards/decisions.md` for the reasoning behind the earlier choices.
-- Show the director a changed rule in a tracked standard before it is replaced.
+- With `update` on `review`, show the director a changed rule in a tracked standard before it is replaced. With `automatic`, it is replaced at once, and the report names it.
 - A standard whose update the director declines is set to `customized` first, with the reason in the decisions.
 - Run it again with `--apply`, which replaces the tracked standards and their overview lines, and writes the new version.
 - Run the unlink script again, since a replaced standard brings its links back.

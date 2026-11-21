@@ -17,7 +17,10 @@ const SUMMARY = /^# .+\n+([^\n]+)/;
 const INSTALL = `npm install --save-dev ${PACKAGE}`;
 const RAISE = `npm install --save-dev ${PACKAGE}@latest`;
 const UPDATE_STEP = `bring this project up to date by following coentrify update, ${SOURCE}/commands.md#coentrify-update`;
-const USAGE = 'usage: npx coentrify [make-no-mistakes | update | explain | check]';
+const AUTOMATIC = 'automatic';
+const AUTOMATIC_STEP = `The update is automatic, so without waiting for a go: ${UPDATE_STEP}. With builders at work, the conductor hands it to an agent of its own, and a builder leaves it to the conductor.`;
+const REVIEW_STEP = `The update waits for the director's go. Next step: ask for it, then ${UPDATE_STEP}`;
+const USAGE ='usage: npx coentrify [make-no-mistakes | update | explain | check]';
 const HEADER = `coentrify - spec-driven development, ${WIKI}`;
 
 function next(step) {
@@ -56,12 +59,13 @@ function check() {
     console.log(`coentrify: the project uses coentrify, and it is not installed. Install it with ${declared ? DEPENDENCIES_INSTALL : INSTALL}.`);
     return;
   }
-  const project = readJson(CONFIG).version;
+  const { version: project, update = AUTOMATIC } = readJson(CONFIG);
   const installed = readJson(INSTALLED_MANIFEST).version;
   if (typeof project !== 'string') {
     console.log(`coentrify: ${CONFIG} has no version. Next step: ${UPDATE_STEP}`);
   } else if (compare(installed, project) > 0) {
-    console.log(`coentrify: ${CONFIG} is at ${project}, and the installed coentrify is ${installed}. Next step: ${UPDATE_STEP}`);
+    console.log(`coentrify: ${CONFIG} is at ${project}, and the installed coentrify is ${installed}.`);
+    console.log(update === AUTOMATIC ? AUTOMATIC_STEP : REVIEW_STEP);
     console.log('What changed for a project, by version:');
     console.log(migrations(project, installed).join('\n'));
   } else if (compare(installed, project) < 0) {

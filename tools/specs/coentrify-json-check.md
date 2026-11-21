@@ -6,14 +6,14 @@ A spec for the check that keeps a project's `coentrify.json` true ([coentrify.js
 
 - It fails when the file does not parse, when a folder it names is missing, and when a standard it lists is not on disk.
 - It fails on a state other than `tracked` or `customized`. A module's `source` key is no standard.
-- It fails on a `healing` or `filing` other than `automatic` or `review`, and on `filing` without `contributor: true`.
+- It fails on a `healing`, `filing` or `update` other than `automatic` or `review`, and on `filing` without `contributor: true`.
 - It fails on a library under `libraries` without a `source`, or with a `filing` other than `automatic` or `review`.
 - As a pre-commit step it also refuses a commit that changes a tracked standard by hand. The commit passes once the state is `customized`, or when the commit changes the version, as an update does.
 
 ## The Check
 
 - A file that names its folders and lists standards on disk passes.
-- A missing folder, a missing standard, a state of `draft` or a `healing` of `sometimes` fails.
+- A missing folder, a missing standard, a state of `draft`, a `healing` of `sometimes` or an `update` of `daily` fails.
 - `filing` without `contributor: true` fails.
 - A library with a `source` and a `filing` passes, and one without a `source` fails.
 - A commit that edits a tracked standard by hand refuses, and passes once its state is `customized`.
