@@ -92,7 +92,7 @@ The full text is in [Game Design Laws: Own Style](game-design-laws-own-style.md)
 - [No Asset Flips](game-design-laws-own-style.md#no-asset-flips) - every asset is the game's own
 - [Blueprint First](game-design-laws-own-style.md#blueprint-first) - things of one kind come from one blueprint
 - [Shown Together](game-design-laws-own-style.md#shown-together) - everything of one kind is shown in one place
-- [Generate, Never Reuse](game-design-laws-own-style.md#generate-never-reuse) - generate an asset, never reuse a pack
+- [Generate, Never Reuse](game-design-laws-own-style.md#generate-never-reuse) - generate an asset, never reuse a pack, music aside
 - [Unique Where It Counts](game-design-laws-own-style.md#unique-where-it-counts) - unique in what makes the game, best practice for the rest
 
 ## How To Apply

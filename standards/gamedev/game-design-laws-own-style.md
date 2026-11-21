@@ -16,7 +16,7 @@ Everything of one kind is shown in one place: a styleguide, a dev level, a page 
 
 ## Generate, Never Reuse
 
-Making an asset is a commodity now. Generate your own, and never reuse a pack.
+Making an asset is a commodity now. Generate your own, and never reuse a pack. Music is the exception: a track may come from a library, licensed for the game, unless the music is where the game is unique ([Unique Where It Counts](#unique-where-it-counts)).
 
 ## Unique Where It Counts
 
