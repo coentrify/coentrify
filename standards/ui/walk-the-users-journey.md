@@ -14,7 +14,7 @@ Every screen answers the questions the user has.
 - A number needs a reference: for a value with steps, such as a plan or a level, show where the user stands, where it goes and the difference, and what it comes to.
 - No spoilers: copy never names an event, a reward or a step the user has not reached yet, though the docs and tickets already hold it.
 - What lies ahead can still show, locked or disabled, such as a step locked until the one before it is done, and it is told in words the user already knows.
-- Foreshadowing is the exception: a hint placed on purpose, vague enough to pass now and plain on a replay. It is designed in the story, never leaked from a ticket.
+- Foreshadowing is the exception: a hint placed on purpose, vague enough to pass now and plain on a second visit. It is designed in the product's narrative, never leaked from a ticket.
 - Walk the journey in the running app before calling the change done.
 
 ## Examples

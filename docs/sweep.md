@@ -34,7 +34,4 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Left Over From One Project
 
-122. Workspace Template makes every workspace serve one client.
-123. Walk The User's Journey speaks of a story and a replay (0.0.7).
-124. Captures And Reels hides the window's drag bar in its browser section.
 125. Incremental Pacing writes one game's progression into the rule: a few dozen clicks with the stronger click.

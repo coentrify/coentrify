@@ -23,7 +23,7 @@ The director can reproduce every state a capture shows.
 
 ## In A Browser
 
-- Park the mouse in a corner and hide the window's drag bar before a still.
+- Park the mouse in a corner and hide any app frame the game draws, such as a custom title bar, before a still.
 - A segment records the sound by tapping the audio graph in the page.
 
 ## How To Apply
