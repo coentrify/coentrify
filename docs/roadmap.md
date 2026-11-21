@@ -17,6 +17,5 @@ The versions on the way to 1.0.
 - Give Gamedev a list per asset type, with a template for characters, buildings, vehicles, outfits and the like.
 - Probe the bare word again once coentrify is indexed and linked from other sites, and simplify the first prompt when it passes.
 - Probe `npx coentrify` as the first prompt once the package is published, and let the Quick Start use it when it passes. Later, the package can run the update and unlink scripts in Node.
-- Add an npm icon beside the GitHub one in the wiki's top bar once the package is published.
 - Record a video of the install, as proof that it works.
 - Remove the eager rules from the personal memory once the standards hold.

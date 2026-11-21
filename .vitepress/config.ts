@@ -8,6 +8,7 @@ const ROOT: string = process.cwd();
 const EXCLUDED_FOLDERS: readonly string[] = ['node_modules', 'npm'];
 const EXCLUDED_PAGES: readonly string[] = ['CLAUDE.md'];
 const SOURCE_URL: string = 'https://github.com/coentrify/coentrify';
+const PACKAGE_URL: string = 'https://www.npmjs.com/package/coentrify';
 
 export default defineConfig({
   title: 'coentrify',
@@ -27,7 +28,10 @@ export default defineConfig({
     search: {
       provider: 'local',
     },
-    socialLinks: [{ icon: 'github', link: SOURCE_URL }],
+    socialLinks: [
+      { icon: 'github', link: SOURCE_URL },
+      { icon: 'npm', link: PACKAGE_URL },
+    ],
   },
   vite: {
     plugins: [sidebarRefresh(ROOT, [...EXCLUDED_FOLDERS, ...EXCLUDED_PAGES])],
