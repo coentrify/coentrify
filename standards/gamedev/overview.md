@@ -25,6 +25,7 @@ The Gamedev standards: game development.
 - [Launch Strategy](launch-strategy.md) - how a game goes out: the quiet launch by default, the other choices, and what to weigh
 - [Measure Sound, Never Guess](measure-sound-never-guess.md) - the level of a new sound is measured against a known sound, never guessed
 - [Own Icons](own-icons.md) - own icon sprite, named by concept, with a wiki index page
+- [Prototype Phase Template](prototype-phase-template.md) - the Prototype phase page: what it tries, the round, the loop mechanism and its balance, what it needs, the questions with the law each tests, and what comes out of it
 - [Silent Runs](silent-runs.md) - an agent's runs of a game make no sound: muted Playwright captures for a walk, never the browser pane on a game with sound
 - [Sprite Sheet Frames](sprite-sheet-frames.md) - read frame size and row order from the sheet's pixels
 - [Wayfinding](wayfinding.md) - for a world the player finds the way in: paths, edges, districts, nodes and landmarks, strong and clear, after Kevin Lynch. A sketch-map test after a playtest checks it

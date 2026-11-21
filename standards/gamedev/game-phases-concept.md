@@ -16,7 +16,7 @@ The rest of `docs/overview.md` during Concept, made from the ideas: the story, t
 
 ## Prototype
 
-Trying things: a greybox, the outline and the size of the map, features. A prototype is thrown away. Gate: is the core loop fun in a greybox? ([Loop First](game-design-laws-experience.md#loop-first))
+Trying things: a greybox, the outline and the size of the map, features. A prototype is thrown away. Its phase page follows the [Prototype Phase Template](prototype-phase-template.md). Gate: is the core loop fun in a greybox? ([Loop First](game-design-laws-experience.md#loop-first))
 
 ## How To Apply
 
