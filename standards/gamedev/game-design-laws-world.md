@@ -33,6 +33,17 @@ Relevant for: a world that unlocks.
 
 An unlock is never gated arbitrarily. What is out of reach is out of reach for a reason the world gives: the player has no connections there yet, or it lies too far out. No invisible wall, and no lock the world does not explain.
 
+## Contrast
+
+Relevant for: an open world.
+
+A world lives by the contrast between dense and sparse. A city feels full and busy only beside an empty forest, and the forest feels empty only beside the city. A world crammed full everywhere loses both.
+
+- A sparse area holds few points of interest, maybe one: an artifact hidden deep in the forest. It feels quiet, yet the player senses something could be out there, and the wish to explore is fed at irregular moments ([Exploration Is Rewarded](game-design-laws-experience.md#exploration-is-rewarded)).
+- The contrast pulls the player toward the center and away from looking for the edges: the closer to the center, the busier and more exciting, as naturally as possible.
+- A drive out feels like an escape, from the surroundings alone.
+- Never miles and miles of nothing: an explorer gets back to the busy world reasonably quickly.
+
 ## Related
 
 - [Game Design Laws: Experience](game-design-laws-experience.md)

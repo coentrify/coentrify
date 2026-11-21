@@ -85,6 +85,7 @@ The full text is in [Game Design Laws: World](game-design-laws-world.md).
 - [The World Reacts](game-design-laws-world.md#the-world-reacts) - an action leaves a trace that can be seen
 - [Friction In The World](game-design-laws-world.md#friction-in-the-world) - friction is something the player does there, never a menu or a wait
 - [No Artificial Gates](game-design-laws-world.md#no-artificial-gates) - out of reach for a reason the world gives, never an arbitrary one
+- [Contrast](game-design-laws-world.md#contrast) - dense and sparse areas set each other off
 
 ### Own Style
 
