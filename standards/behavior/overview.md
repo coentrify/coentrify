@@ -29,7 +29,7 @@ The Behavior standards: how an agent works and what an agent checks.
 - [Project Lifecycle](project-lifecycle.md) - a project is in one phase at a time, the phase decides what matters now, and a phase gate ends it
 - [Propagate Renames And Convention Changes Everywhere](propagate-renames-and-convention-changes-everywhere.md) - a rename updates every reference in the same change, grep before and after. A changed convention updates the pages that state it, and its occurrences go to a sweep
 - [Prose Style](prose-style.md) - no AI sentence patterns. Calm, concrete, varied. Reports brief
-- [Prototype Mode Is Speed First](prototype-mode-is-speed-first.md) - prototyping means speed: no tests, a standalone one-pager, run it and share the link
+- [Prototype Mode Is Speed First](prototype-mode-is-speed-first.md) - prototyping means speed: no tests, kept apart from the product's code, run it and share the link
 - [Regular Layered Gap Analysis](regular-layered-gap-analysis.md) - walk the doc, spec, test and code layers both ways. Rules against the code too
 - [Reload The Standards After Compacting](reload-the-standards-after-compacting.md) - after a compaction, read the Core Rules again, by a hook where the agent has one
 - [Review Changes Before Reporting Done](review-changes-before-reporting-done.md) - before claiming done, check the relevant standards and surface changes you did not make

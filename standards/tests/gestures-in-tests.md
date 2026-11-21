@@ -20,7 +20,7 @@ Collapsing applies only to same-dispatcher, same-outcome tests. Every edge case 
 
 ## Gesture By Device
 
-Multi-gesture helpers default to the gesture a real user makes at that viewport: mobile users tap the send button, tablet and desktop users press Enter or click. Phone soft keyboards often lack an Enter key, so a mobile test pressing Enter misses the path users take.
+Multi-gesture helpers default to the gesture a real user makes at that viewport: mobile users tap the send button, tablet and desktop users press Enter or click. On a phone, Enter in a message field adds a line, so users tap the send button, and a mobile test pressing Enter misses the path they take.
 
 - Compare the viewport width with the tablet breakpoint:
   - Below is mobile and clicks.

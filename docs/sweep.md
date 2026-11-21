@@ -31,12 +31,9 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Facts That Went Stale
 
-119. Gestures In Tests says phone keyboards often lack an Enter key.
 
 ## Left Over From One Project
 
-120. Prototype Mode measures a prototype by when the director can hear or click it, checks it by a muted look in the browser, and its overview line makes the example one-pager a rule.
-121. Changelog Per Version names whether the build was packaged, and an in-game What's New.
 122. Workspace Template makes every workspace serve one client.
 123. Walk The User's Journey speaks of a story and a replay (0.0.7).
 124. Captures And Reels hides the window's drag bar in its browser section.
