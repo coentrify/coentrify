@@ -12,7 +12,7 @@ Every playtest plays a named version, and knows what changed in it.
 
 ## Intake
 
-- A big dump of ideas and feedback is logged and processed, then the report offers a few focus areas for the next iteration and the director picks one. The bugs are scheduled the way intake schedules any work ([Work Workflow](../tickets-workflow/work-workflow.md#intake)). The rest is grouped into epics on the roadmap, so nothing is lost and the work keeps its focus.
+- A big dump of ideas and feedback is logged and processed, then the report offers a few focus areas for the next iteration and the director picks one. The bugs are scheduled the way intake schedules any work ([Work Workflow](../tickets-workflow/work-workflow.md#intake)). The rest is grouped into epics of the current and the next phase, and an idea for a later phase joins the dump in `docs/ideas/`, so nothing is lost and the work keeps its focus ([Processing The Ideas](../tickets-workflow/processing-the-ideas.md)).
 - Feedback on an open version is a cutoff, never more scope: close the version as it stands and plan what is open plus the new feedback for the next one. One cycle of playtest, review and changelog per version.
 - Dev Tiers recommends the order, and the director decides it ([Dev Tiers](../behavior/dev-tiers.md)).
 - Content the agent names (names, numbers, hints) follows [Game Work Workflow](game-work-workflow.md#content) and [Incremental Pacing](incremental-pacing.md).

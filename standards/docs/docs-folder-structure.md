@@ -20,6 +20,14 @@ Every folder answers one question, so a reader knows where a fact belongs before
 - `docs/lore/` - in a game, the decided lore: the story, its characters and how its parts connect ([Game Phases: Design](../gamedev/game-phases-design.md#lore)).
 - `docs/world/` - in a game, the decided world: its places, how they connect and how big it is ([Game Phases: Design](../gamedev/game-phases-design.md#world-building)).
 
+## Ideas
+
+`docs/ideas/` holds what is not decided yet ([Processing The Ideas](../tickets-workflow/processing-the-ideas.md)).
+
+- `dump.md` - the raw ideas, from the director's prompts and brainstorms.
+- A page per category pulled from the dump, such as `characters.md` or `places.md`, to find an idea by.
+- A part leaves once a decided doc under Knowledge holds it.
+
 ## Work
 
 - `docs/development/` - all work tracking, whichever the workflow: the lists of the simple workflow ([The Simple Workflow](../simple-workflow/the-simple-workflow.md)), or the tickets, their generated lists and the archive ([Work Tracking](../tickets-workflow/work-tracking.md)), and the director's own tasks beside either ([Communication Boundary](../behavior/communication-boundary.md)).

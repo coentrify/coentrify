@@ -8,7 +8,7 @@ The opening of `docs/overview.md`: the game in one line, its pillars and its Som
 
 ## Gathering
 
-Braindumps, a rant room, brainstorming. Gathering never closes: ideas keep coming, and land as tickets for later. Gate: does the director call the outline?
+Braindumps, a rant room, brainstorming. Gathering never closes: ideas keep coming, and land in the dump ([Processing The Ideas](../tickets-workflow/processing-the-ideas.md)). Gate: does the director call the outline?
 
 ## Outline
 
@@ -20,11 +20,11 @@ Trying things: a greybox, the outline and the size of the map, features. A proto
 
 ## How To Apply
 
-- Concept is a pile of gathering, and unorganized by nature. Its material is parsed from the director's prompts and brainstorms.
+- Concept is a dump of ideas, and unorganized by nature. Its material is parsed from the director's prompts and brainstorms into `docs/ideas/`.
 - The phases of Concept may overlap and loop back.
 - A phase page holds its goal, its gate and its Done When, never the content itself ([Work Tracking](../tickets-workflow/work-tracking.md#phases)).
 - From Design on, the overview stays the short functional description of the game, and the decided docs take over the detail ([Docs Folder Structure](../docs/docs-folder-structure.md#knowledge)).
-- Concept's gathering is logged, and needs no tickets. A prototype is tracked by its one ticket ([Prototype Mode Is Speed First](../behavior/prototype-mode-is-speed-first.md)), and an idea that Gathering files for later is a ticket too.
+- Concept's gathering is logged, and needs no tickets. A prototype is tracked by its one ticket ([Prototype Mode Is Speed First](../behavior/prototype-mode-is-speed-first.md)).
 
 ## Related
 

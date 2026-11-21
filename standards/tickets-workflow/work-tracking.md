@@ -81,7 +81,8 @@ Gate: the leading question of the phase gate that ends this phase.
 - A phase's gate ([Project Lifecycle](../behavior/project-lifecycle.md)) is written as its leading question, with Done When listing what answers it.
 - A hygiene check fails a phase page without its `Gate:` line.
 - Which epics belong to a phase lives only in each epic's `phase` field. The wiki lists them on the phase's page.
-- Anything that does not serve the current phase's goal is filed and waits for its phase, never refined or built early. Bugs and debt too: one that does not hurt the goal waits ([Dev Tiers](../behavior/dev-tiers.md)).
+- Work is planned as tickets for the current phase and the next one. What lies further waits as an idea in `docs/ideas/` until its phase is next, since its prerequisites have not checked out yet ([Processing The Ideas](processing-the-ideas.md)).
+- Anything that does not serve the current phase's goal waits for its phase, never refined or built early. Bugs and debt are filed as tickets in any phase, since each records a fact: one that does not hurt the goal waits ([Dev Tiers](../behavior/dev-tiers.md)).
 - A ticket's phase and priority are the director's call. An agent files a finding in the phase where it hurts the goal, a later one unless it hurts the current goal now, and leaves the priority out.
 - A game's phases, in their four stages, are in [Game Phases](../gamedev/game-phases.md).
 
