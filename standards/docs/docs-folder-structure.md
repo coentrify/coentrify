@@ -8,7 +8,7 @@ Every folder answers one question, so a reader knows where a fact belongs before
 
 ## Root
 
-- `overview.md` - what the product is, functional only.
+- `overview.md` - what the product is, functional only. A game's overview opens with its Idea ([Game Phases: Concept](../gamedev/game-phases-concept.md#idea)).
 - `architecture.md` - how it is built: the decisions, layers, libraries and conventions.
 - Nothing feature-specific or work-tracking sits at the root.
 
