@@ -15,7 +15,7 @@ What one project learns reaches every project.
 - An issue holds one point, so issues close one by one.
 - Before filing, search the open issues.
 - A point that is filed already gets an addition on that issue, or a thumbs up.
-- An issue states the trigger, the proposal and the check: what happened, the rule to add, change or loosen, and whether code could catch it.
+- An issue states the trigger, the proposal and the check: what happened, the rule to add, change or loosen and the standards it touches, and whether code could catch it instead, and which.
 - An issue holds no project details, since the source is public.
 
 ## Related

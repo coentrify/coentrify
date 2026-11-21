@@ -4,17 +4,7 @@ How an issue or an addition to this repository is handled.
 
 ## An Issue
 
-- Trigger - what happened
-- Proposal - the rule to add, change or loosen, and the standards it touches
-- Check - whether code could catch it instead, and which
-
-An issue holds no project details, since the repository is public.
-
-### One Point Per Issue
-
-- An issue holds one point, so issues close one by one.
-- Before filing, an agent searches the open issues.
-- A point that is filed already gets an addition on that issue, or a thumbs up.
+An issue takes the shape that [File A Change With Coentrify](../standards/behavior/file-a-change-with-coentrify.md) gives it, and holds no project details, since the repository is public.
 
 ## Closing An Issue
 
