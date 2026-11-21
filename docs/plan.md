@@ -2,17 +2,9 @@
 
 Version 0.1.0: coentrify ships as an npm package that a project installs as a dev dependency, so an agent reaches the source wherever npm works, a cloud session included.
 
-- Setup reads from `node_modules` (active)
-- The update works from the package
+- The update works from the package (active)
 - The docs follow
 - Call 0.1.0
-
-## Setup Reads From `node_modules`
-
-- Set Up installs the dev dependency. A project without a `package.json` gets one.
-- `source` in `coentrify.json` names the package.
-- The entry point links the commands in `node_modules/coentrify`.
-- Every session starts with `coentrify check`: a session start hook where the agent has one, such as Claude Code, and a line in the entry point elsewhere. It advises and never blocks.
 
 ## The Update Works From The Package
 

@@ -75,10 +75,12 @@ With `coentrify make no mistakes` the agent asks nothing. The agent takes every 
 
 ## Set Up
 
+- Install coentrify as a dev dependency, `npm install --save-dev coentrify`, so its source sits in the project, in `node_modules/coentrify/src`. A project without a `package.json` gets one.
 - Copy the chosen standards into the `standards` folder of the project, in the same module folders, so the standards sit beside the code.
 - Remove or change every link to a standard the project did not adopt.
 - Write the index.
 - Point the entry point at the index.
+- Add the session check.
 - Write `coentrify.json`.
 - Write the decisions.
 - Set up the `docs` folder.
@@ -101,11 +103,19 @@ The index opens with the Core Rules: the rules every task follows, in every sess
 
 ### The Entry Point
 
-The entry point is the file an agent reads when a session starts, such as `AGENTS.md` or `CLAUDE.md`. The entry point gets one line that points at the index and at the commands at the source that `coentrify.json` names, and holds no standards itself. A project without an entry point gets an `AGENTS.md`.
+The entry point is the file an agent reads when a session starts, such as `AGENTS.md` or `CLAUDE.md`. The entry point gets one line that points at the index and at the commands in the installed package, `node_modules/coentrify/src/commands.md`, and holds no standards itself. A project without an entry point gets an `AGENTS.md`.
 
 Where the agent can import a file, such as with `@` in `CLAUDE.md`, the entry point imports the index and every standard in the Core Rules, so they load without being asked for, in every agent and subagent.
 
 The entry point also says to read the Core Rules again after a compaction. An agent that reads its entry point again after a compaction, its imports included, as Claude Code does, needs nothing more. Elsewhere, where the agent supports hooks, a reload hook does it, built from its spec in the [tools](tools/overview.md).
+
+### The Session Check
+
+Every session starts with `coentrify check`. It says when `coentrify.json` is behind the installed coentrify, and what changed in between, and it never blocks.
+
+- Where the agent has a session start hook, such as Claude Code, the hook runs the check through the project's npm scripts ([Thin Wrappers In CI And Hooks](standards/scripts/thin-wrappers-in-ci-and-hooks.md)).
+- Elsewhere, the entry point asks for the check at the start of a session.
+- A session that starts without `node_modules`, such as one in a fresh cloud container, runs `npm install` first, and the entry point says so.
 
 ### The Coentrify File
 

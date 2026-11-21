@@ -14,7 +14,8 @@ The onboarding writes `coentrify.json`, and the director changes it after.
 ```json
 {
   "source": "https://github.com/coentrify/coentrify",
-  "version": "0.0.1",
+  "package": "coentrify",
+  "version": "0.1.0",
   "folders": { "docs": "docs", "standards": "standards" },
   "workflow": "simple",
   "records": ["changelog", "healing-log"],
@@ -30,6 +31,7 @@ The onboarding writes `coentrify.json`, and the director changes it after.
 ```
 
 - `source` - the repository the standards came from, so a version of coentrify of your own works the same way
+- `package` - the npm package that carries the source, installed as a dev dependency: `coentrify`, or the name a version of your own is published under
 - `version` - the version of coentrify the project is at
 - `folders` - where the docs and the standards live
 - `workflow`, `records`, `wiki` - the choices from the onboarding

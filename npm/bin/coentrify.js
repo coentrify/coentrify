@@ -9,6 +9,8 @@ const SOURCE = `${INSTALLED}/src`;
 const INSTALLED_MANIFEST = join(INSTALLED, 'package.json');
 const CHANGELOG = join(SOURCE, 'changelog');
 const CONFIG = 'coentrify.json';
+const PROJECT_MANIFEST = 'package.json';
+const DEPENDENCIES_INSTALL = 'npm install';
 const README = new URL('../src/readme.md', import.meta.url);
 const VERSION_PAGE = /^(\d+\.\d+\.\d+)\.md$/;
 const SUMMARY = /^# .+\n+([^\n]+)/;
@@ -50,7 +52,8 @@ function check() {
     return;
   }
   if (!existsSync(INSTALLED_MANIFEST)) {
-    console.log(`coentrify: the project uses coentrify, and it is not installed. Install it with ${INSTALL}.`);
+    const declared = existsSync(PROJECT_MANIFEST) && PACKAGE in (readJson(PROJECT_MANIFEST).devDependencies ?? {});
+    console.log(`coentrify: the project uses coentrify, and it is not installed. Install it with ${declared ? DEPENDENCIES_INSTALL : INSTALL}.`);
     return;
   }
   const project = readJson(CONFIG).version;
