@@ -23,6 +23,10 @@ Completing the game 100% is reasonably doable. No orthogonal gameplay, like a pa
 
 Beating the game normally never requires playing try hard. The game supports every type of player, the completionist and the casual alike, by staying flexible and never forcing a play style. Optimizing is there for the player who wants it.
 
+## Desire Before Reward
+
+The player wants a thing before they can have it. A wreck on the horizon is seen long before it can be reached ([Always Something To Do](game-design-laws-experience.md#always-something-to-do)). The wanting makes the way there worth playing, a dull task included. A reward that comes before the wanting is worth nothing.
+
 ## Earned Progress
 
 The player feels the progress made, so the gap between where the player starts and ends is as big as it can be: the player starts with as little as possible and earns the rest. Nothing that can be earned is handed over. What comes for free is worth nothing. A free first step that starts a climb is no gift but the climb's first rung.

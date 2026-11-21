@@ -33,6 +33,7 @@ The full text is in [Game Design Laws: Progress](game-design-laws-progress.md).
 - [As Long As It Is Interesting](game-design-laws-progress.md#as-long-as-it-is-interesting) - no target length
 - [Doable 100%](game-design-laws-progress.md#doable-100) - no orthogonal skill demanded for completion
 - [No Try Hard](game-design-laws-progress.md#no-try-hard) - every play style is supported
+- [Desire Before Reward](game-design-laws-progress.md#desire-before-reward) - the player wants a thing before they can have it
 - [Earned Progress](game-design-laws-progress.md#earned-progress) - start with as little as possible and earn the rest
 - [Lasting Impact](game-design-laws-progress.md#lasting-impact) - what the player decides lasts
 - [Emergent Gameplay](game-design-laws-progress.md#emergent-gameplay) - systems that open possibilities
