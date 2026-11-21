@@ -27,9 +27,9 @@ What is specific to a game stands in one place, and the Work Workflow stays gene
 A game's work in the Design stage is tracked in two types of its own, on top of [Work Tracking](../tickets-workflow/work-tracking.md#types). Both carry the sections of a Debt ticket ([Ticket Template](../tickets-workflow/ticket-template.md#sections-per-type)).
 
 - Lore and Game tickets end in a decided doc, so each gets the director's verdict, like a Docs ticket.
-- Lore, in `lore`, prefix `LORE`: the design of the world and its story. Its outcome is a decided doc in `docs/lore/` or `docs/world/` ([Docs Folder Structure](../docs/docs-folder-structure.md#knowledge)). Lore tickets carry the Lore and World Building phases.
+- Lore, in `lore`, prefix `LORE`: the design of the world and its story. Its outcome is a decided doc in `docs/lore/` or `docs/world/` ([Docs Folder Structure](../docs/docs-folder-structure.md#knowledge)). Lore tickets carry the Lore and World Building phases. Lore starts as soon as the ideas are processed, from Concept on: those two phases are where it is done, never where it may begin.
 - Game, in `game`, prefix `GAME`: the design of the game. Its outcome is a decided feature doc and the feature tickets it leads to, refined once their phase comes. Game tickets carry the Gameplay, First Playable and Game Design phases.
-- The Concept stage has no tickets, apart from its prototype's. An idea waits in `docs/ideas/` until its phase is next ([Processing The Ideas](../tickets-workflow/processing-the-ideas.md)).
+- The Concept stage has no tickets, apart from its prototype's and the Lore tickets that start there. Any other idea waits in `docs/ideas/` until its phase is next ([Processing The Ideas](../tickets-workflow/processing-the-ideas.md)).
 - A Game or Lore ticket names, in its Current Situation, each conflict between the docs and the intended design that it resolves, one per bullet.
 
 ## Phases

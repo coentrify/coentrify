@@ -4,7 +4,7 @@ The second stage of a game ([Game Phases](game-phases.md)). Design is convergent
 
 ## Lore
 
-The skeleton of the lore, the red thread of the world: how the story starts, how it ends and how its parts connect. The main parts are there and fit. Not every dialog and every person: the details come later. Done When: the lore holds that framework and the director has approved it. Its work is Lore tickets. Gate: do the main parts fit together?
+The skeleton of the lore, the red thread of the world: how the story starts, how it ends and how its parts connect. The main parts are there and fit. Not every dialog and every person: the details come later. Done When: the lore holds that framework and the director has approved it. Its work is Lore tickets, which may start from Concept on ([Game Work Workflow](game-work-workflow.md#design-ticket-types)). Gate: do the main parts fit together?
 
 ## World Building
 
