@@ -12,7 +12,7 @@ The app feels alive: something is always moving on screen, things happen. Action
 
 ## No Hard Edges
 
-No sharp edge exists anywhere unless it is necessary. Every panel, button, row and box has rounded corners, if only slightly, and so does everything the scenes draw, a screen on a wall included. A corner stays sharp only when the thing itself would read wrong rounded.
+No sharp edge exists anywhere unless it is necessary. Every panel, button, row and box has rounded corners, if only slightly, and so does everything the scenes draw, a screen on a wall included. In the world the law holds in a softer form: nothing real is perfectly sharp, a building's corner is worn and a plank is sanded, so a model's edges carry a slight bevel, and a hard edge sticks out. A corner stays sharp only when the thing itself would read wrong rounded. In the world that is a deliberate choice, and canon in the game: a blade, barbed wire, a spiked fence.
 
 ## Glow In Contrast
 
