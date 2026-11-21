@@ -6,6 +6,8 @@ Work by the standards in [standards/overview.md](standards/overview.md). Read a 
 
 The docs about this repository's own development are in `docs/`.
 
+Filed issues and other changes to the standards are processed by The Conduct in [Contributions](docs/contributions.md#the-conduct).
+
 Work toward a version on its branch, `version-<version>`, never on the session's own branch.
 
 After a compaction, read the Core Rules again.
