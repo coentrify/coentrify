@@ -2,7 +2,7 @@
 
 What changed in each version of coentrify. A version has a page of its own, which opens with its summary. The summary is also the text of its release.
 
-- [0.0.8](0.0.8.md) - a second sweep of every page
+- [0.0.8](0.0.8.md) - a second sweep of every page: a story lands whole, secrets stay away from agents, and every decision of an agent's own is named
 - [0.0.7](0.0.7.md) - a sweep of every page, a first prompt with the source, and the first round on hard traps
 - [0.0.6](0.0.6.md) - healing is a choice in the onboarding, every rule has one home, and the tools are specs
 - [0.0.5](0.0.5.md) - every Why says why its rule is needed
