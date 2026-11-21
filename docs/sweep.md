@@ -20,9 +20,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Rules With Two Homes
 
-107. Game Work Workflow and Gamedev Working Cadence restate rules from the tickets workflow, the changelog and the wiki.
-108. Workspace Levels restates Defer Tooling Until The Cost Shows Up as a level threshold.
-110. E2E Tests Must Demonstrate Behavior and Reels And Video Proof make one point three times.
 
 ## Facts That Went Stale
 

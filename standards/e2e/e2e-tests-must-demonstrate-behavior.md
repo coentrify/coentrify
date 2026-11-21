@@ -1,6 +1,6 @@
 # E2E Tests Must Demonstrate Behavior
 
-After writing an e2e test, check stills of the moments before and after the action, and confirm they show the user-visible behavior the test claims to exercise ([Reels And Video Proof](../reporting/reels-and-video-proof.md)). Stills where nothing changes on screen usually means the test asserts a network contract instead of the behavior and needs reframing.
+After writing an e2e test, check stills of the moments before and after the action, and confirm they show the user-visible behavior the test claims to exercise ([Reels And Video Proof](../reporting/reels-and-video-proof.md)).
 
 ## Why
 
@@ -12,7 +12,7 @@ A green test shows the feature working, to anyone who watches the recording.
 - Cover the opposite cases. Lookups: hit and no hit. Mutations: success and the matching error variant (4xx, 5xx). Toggles: enabled and disabled, visible in the rendered UI, in one bracketed test ([Bracket State Changes With Contrast Assertions](../tests/bracket-state-changes-with-contrast-assertions.md)).
 - Wait for tick completions after an action: rely on the test runner's auto-wait (`expect(...).toBeVisible()`, `toHaveCount()`, `waitForRequest()`) over instant assertions.
 - When the trigger needs an explicit confirm (search button, save button), drive that gesture. Rely on auto-submit only when the component documents it.
-- Check the stills. If they don't show the change, the test is wrong however green it is. Reshape the assertions toward the visible behavior.
+- Check the stills. If they don't show the change, the test is wrong however green it is, often asserting a network contract instead of the behavior. Reshape the assertions toward the visible behavior.
 
 ## Bug Found Behind Green Tests
 

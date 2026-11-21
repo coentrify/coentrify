@@ -17,7 +17,7 @@ A level shows the director where a workspace stands, and from that what has prio
 
 ## Tooling And The Levels
 
-Heavyweight tooling (visual regression, contract testing, reporting dashboards, accessibility automation) follows level maturity rather than leading it. See [Defer Tooling Until The Cost Shows Up](../tooling/defer-tooling-until-the-cost-shows-up.md): a workspace at Level 1-2 doesn't need them. A workspace approaching Level 5 has likely earned them.
+Heavyweight tooling (visual regression, contract testing, reporting dashboards, accessibility automation) comes once its absence costs something ([Defer Tooling Until The Cost Shows Up](../tooling/defer-tooling-until-the-cost-shows-up.md)).
 
 ## Related
 

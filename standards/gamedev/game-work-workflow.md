@@ -9,8 +9,6 @@ What is specific to a game stands in one place, and the Work Workflow stays gene
 ## Terms
 
 - The user is the player. A ticket addresses the player as you: "when you enter the hall, it shows no title".
-- A text the player reads speaks the game's own words, never the workspace's internal terms.
-- A Why names the game design law it serves ([Game Design Laws](game-design-laws.md)).
 - The seeded scenarios a bug's trace tries first are the devbox's ([Devbox](devbox.md)).
 - The extras that make a game special land in their epic and phase like any other work. They are not essential, but a game without them falls flat, so they are never only for after the release.
 
