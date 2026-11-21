@@ -8,7 +8,7 @@ The skeleton of the lore, the red thread of the world: how the story starts, how
 
 ## World Building
 
-The world itself: its places, how they connect and how big it is. Its work is Lore tickets. Gate: does the world hold what the lore and the gameplay need?
+The world itself: its places, how they connect and how big it is. A world the player finds the way in is built for it ([Wayfinding](wayfinding.md)). Its work is Lore tickets. Gate: does the world hold what the lore and the gameplay need?
 
 ## Gameplay
 
