@@ -2,7 +2,7 @@
 
 `npx coentrify` points an agent at [coentrify](https://github.com/coentrify/coentrify): standards, checks and tools for spec-driven development with AI agents.
 
-The package holds the source of coentrify under `source/`: its standards, its tools and its changelog. A project installs it as a dev dependency, and an agent reads the source from `node_modules`. The package's version is coentrify's version.
+The package holds the source of coentrify under `src/`: its standards, its tools and its changelog. A project installs it as a dev dependency, and an agent reads the source from `node_modules`. The package's version is coentrify's version.
 
 - `npx coentrify` - sets the project up with you in the loop: the agent recommends, and you choose
 - `npx coentrify make no mistakes` - sets the project up autonomously: the agent chooses, and you veto afterward

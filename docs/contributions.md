@@ -26,7 +26,7 @@ An issue takes the shape that [File A Change With Coentrify](../standards/behavi
 
 ## The npm Package
 
-- `npm/` holds the bin, the readme and the manifest of the `coentrify` package. The publish step adds the source under `source/`: the root pages but `CLAUDE.md`, and `standards/`, `tools/` and `changelog/`.
+- `npm/` holds the bin, the readme and the manifest of the `coentrify` package. The publish step adds the source under `src/`: the root pages but `CLAUDE.md`, and `standards/`, `tools/` and `changelog/`.
 - The package's version is coentrify's version, taken from the latest page in `changelog/`.
 - The director publishes it with `npm run publish:npm` once the version is tagged, from a clean checkout of the tag. `npm run publish:npm -- --dry-run` shows what would go out, from any checkout.
 
