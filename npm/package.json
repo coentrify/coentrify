@@ -9,7 +9,7 @@
     "url": "git+https://github.com/coentrify/coentrify.git",
     "directory": "npm"
   },
-  "homepage": "https://github.com/coentrify/coentrify",
+  "homepage": "https://coentrify.com/",
   "bin": {
     "coentrify": "bin/coentrify.js"
   },
