@@ -27,6 +27,12 @@ The world acknowledges the player's presence: an action leaves a trace that can 
 
 Friction is something the player does in the world, never a menu or a wait.
 
+## No Artificial Gates
+
+Relevant for: a world that unlocks.
+
+An unlock is never gated arbitrarily. What is out of reach is out of reach for a reason the world gives: the player has no connections there yet, or it lies too far out. No invisible wall, and no lock the world does not explain.
+
 ## Related
 
 - [Game Design Laws: Experience](game-design-laws-experience.md)
