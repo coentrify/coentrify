@@ -23,6 +23,12 @@ Completing the game 100% is reasonably doable. No orthogonal gameplay, like a pa
 
 Beating the game normally never requires playing try hard. The game supports every type of player, the completionist and the casual alike, by staying flexible and never forcing a play style. Optimizing is there for the player who wants it.
 
+## Bands, Not Bullseyes
+
+Relevant for: skill checks, timing and crafting.
+
+Success is a band, never a bullseye. A hit lands in a hitbox, never on a point, and a short grace period absorbs lag and thinking time. A beginner scrapes through, an expert optimizes, and any method that lands in the band counts ([No Try Hard](#no-try-hard)).
+
 ## Desire Before Reward
 
 The player wants a thing before they can have it. A wreck on the horizon is seen long before it can be reached ([Always Something To Do](game-design-laws-experience.md#always-something-to-do)). The wanting makes the way there worth playing, a dull task included. A reward that comes before the wanting is worth nothing.
