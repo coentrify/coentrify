@@ -53,6 +53,7 @@ Older copies of coentrify are in use, and some have grown into a version of thei
 - The project's own additions are analyzed one by one.
 - An addition that still fits goes on top of the current standards.
 - An addition that the update made irrelevant is listed for removal.
+- An addition that holds beyond the project is filed with coentrify, where the project is a contributor ([File A Change With Coentrify](standards/behavior/file-a-change-with-coentrify.md)).
 
 ## Recommend
 

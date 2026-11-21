@@ -104,7 +104,7 @@ The full text is in [Game Design Laws: Own Style](game-design-laws-own-style.md)
 - An exception is a paragraph under the law in the game's overrides, naming the feature and the reason, added only when the director affirms it.
 - Check a new feature against the laws before its spec. A conflict is surfaced, never averaged.
 - Feature docs link the law they lean on instead of repeating it.
-- A new law goes in the game's docs, in the director's wording. One that holds for every game is filed with coentrify, its game specifics stripped ([File A Change With Coentrify](../behavior/file-a-change-with-coentrify.md)).
+- A new law goes in the game's docs, in the director's wording. One that holds for other games too, a subset of them included, is filed with coentrify, its game specifics stripped, with a `Relevant for:` line for a subset ([File A Change With Coentrify](../behavior/file-a-change-with-coentrify.md)).
 
 ## Related
 
