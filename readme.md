@@ -13,6 +13,12 @@ To coentrify a project is to align the project with spec-driven development.
 Prompt your agent to start the [onboarding](onboarding.md):
 
 ```
+npx coentrify
+```
+
+On a machine without Node, the prompt carries the source instead:
+
+```
 set up coentrify in this project: https://github.com/coentrify/coentrify
 ```
 

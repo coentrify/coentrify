@@ -2,7 +2,7 @@
 
 What a director can ask an agent to do with coentrify. A command is matched by intent, so the exact words do not matter.
 
-In a fresh project the first prompt carries the source, as the [Quick Start](readme.md#quick-start) shows. Once the project is set up, its entry point leads to these commands.
+In a fresh project the first prompt is `npx coentrify`, as the [Quick Start](readme.md#quick-start) shows. Once the project is set up, its entry point leads to these commands.
 
 - `coentrify` - set the project up with the director in the loop: the agent recommends, and the director chooses
 - `coentrify make no mistakes` - set the project up autonomously: the agent chooses, and the director vetoes afterward
