@@ -8,15 +8,16 @@ What one project learns reaches every project.
 
 ## How To Apply
 
-- A project files only when its `coentrify.json` says `contributor: true`.
-- `filing` in `coentrify.json` says who files. With `review`, the default, the director looks at the issue first. With `automatic`, the subagent that `healing` starts files it on its own ([Always Make No Mistakes](always-make-no-mistakes.md#a-rule-or-a-check)).
-- A change is filed as an issue at the source that `coentrify.json` names.
+- A project files only when its `coentrify.json` says `contributor: true`. Any project can be a contributor, and the setting is the director's standing go to file at the source.
+- `filing` in `coentrify.json` says who files. With `review`, the default, the director looks at the issue first, and that look is the go for it. With `automatic`, the subagent that `healing` starts files it on its own ([Always Make No Mistakes](always-make-no-mistakes.md#a-rule-or-a-check)).
+- A change is filed as an issue at the source that `coentrify.json` names. Creating the issue is the filing, so the agent creates it there itself once the go is in, without asking again.
+- A session that cannot create an issue at the source asks for that access once, and keeps the drafts ready meanwhile.
 - A change to a module with a source of its own is filed with coentrify only when it is generic, as an addition of the module or the standard that coentrify lacks.
 - An issue holds one point, so issues close one by one.
 - Before filing, search the open issues.
 - A point that is filed already gets an addition on that issue, or a thumbs up.
 - An issue states the trigger, the proposal and the check: what happened, the rule to add, change or loosen and the standards it touches, and whether code could catch it instead, and which.
-- An issue holds no project details, since the source is public.
+- The source is public, and it expects issues from the projects that use it. An issue holds no project details for that reason.
 
 ## Related
 
