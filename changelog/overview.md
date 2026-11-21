@@ -2,7 +2,7 @@
 
 What changed in each version of coentrify. A version has a page of its own, which opens with its summary. The summary is also the text of its release.
 
-- [0.1.1](0.1.1.md) - the first round of changes filed from a project that runs on the package
+- [0.1.1](0.1.1.md) - two new game laws, filing without hesitation, and an update that runs by itself
 - [0.1.0](0.1.0.md) - coentrify ships as an npm package, installed as a dev dependency
 - [0.0.8](0.0.8.md) - a second sweep of every page: a story lands whole, secrets stay away from agents, and every decision of an agent's own is named
 - [0.0.7](0.0.7.md) - a sweep of every page, a first prompt with the source, and the first round on hard traps

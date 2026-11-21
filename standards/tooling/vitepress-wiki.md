@@ -14,7 +14,7 @@ The director reviews the docs, changelogs, captures and reels in the wiki while 
 - A sidebar group is never a page itself, since a group that links cannot be closed by clicking it again. Its overview is the first item inside the dropdown.
 - A page's title is its H1, and a spec nests collapsed under its feature.
 - The record groups run newest first: the log, the activity, the playtests, the user tests and the changelog. The activity and log groups are titled Activity Log and Request Log.
-- A new or deleted page is picked up in place: once the changes settle, the sidebar is rebuilt and the open pages reload. The server never restarts for it, since a burst of new pages made it restart over and over.
+- A new or deleted page is picked up in place: once the changes settle, the sidebar is rebuilt and the open pages reload. The server never restarts for it, since a burst of new pages would restart it over and over.
 - The wiki has one config file, `.vitepress/config`, and a session never creates a second one.
 - The watcher ignores the build output and the cache.
 - Every image in a page enlarges on a click to the full window width, so the director judges a capture at full size, never shrunk to the text column. The arrow keys walk the page's images, Escape or a click closes it, a counter shows the position, and the hidden state has its own display rule.
