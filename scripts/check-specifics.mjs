@@ -51,7 +51,7 @@ ${pages.map((page) => `- ${page}`).join('\n')}
 
 Report one finding per line as \`path:line - the quoted text - why only one project would recognize it\`. Report only what you are sure of. End with exactly one line \`FINDINGS: <count>\`, with 0 when there is nothing.`;
 
-console.log(`specifics: a fresh agent reads ${pages.length} standards${named.length > 0 ? '' : ` changed since ${tag}`}`);
+console.log(`specifics: a fresh agent reads ${pages.length} standards${named.length > 0 || process.argv.includes(ALL_FLAG) ? '' : ` changed since ${tag}`}`);
 const run = spawnSync(
   'claude',
   ['-p', prompt, '--model', MODEL, '--setting-sources', '', '--allowedTools', 'Read,Grep,Glob', '--max-budget-usd', BUDGET_USD],

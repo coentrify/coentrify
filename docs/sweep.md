@@ -7,10 +7,6 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## This Repository
 
-14. Proof says Opus needed none of the shrunk rules, its table shows Opus needed General Working Rules, and its Notes predate 0.0.7.
-15. The three kinds of the relevance worklist hold 183 of the 201 standards.
-16. The commits here carry the attribution trailers that Commits forbids, since the session harness adds them by default.
-17. `check:specifics -- --all` says it reads the standards changed since the last tag.
 
 ## Rules That Contradict
 

@@ -16,9 +16,9 @@ Does a current model still need the rule, or does the model always do this corre
 
 ## Three Kinds
 
-- Decisions - laws, naming, templates and the workflow. A model cannot know a decision, so these stay. 152 standards, after four moved in from the tool facts.
+- Decisions - laws, naming, templates and the workflow. A model cannot know a decision, so these stay. 169 standards, after four moved in from the tool facts.
 - Tool facts - the pitfalls of one tool, such as Angular or Playwright. These stay while the tool behaves that way. 16 standards, after four went and four moved to the decisions.
-- Corrections of agent behavior - the candidates. 15 standards, and the director ruled on all of them.
+- Corrections of agent behavior - the candidates. 17 standards: 13 of the first 15, ruled, and four added since, not probed yet.
 
 The sort comes from each standard's line in its overview, so a standard can still move.
 
@@ -80,6 +80,7 @@ All 15 are probed and ruled on, with the results on the [Proof](../proof.md) pag
 - Stay as they are: Always Verify Before Reporting Done, Propagate Renames And Convention Changes Everywhere, Sync The Docs After Every Change, Verify Control Before Rename, Verify Staging Before Committing, Gate Commits On Exit Codes, Read Before You Truncate and Review Every Capture Before Reporting.
 - Shrank: Review Changes Before Reporting Done, General Working Rules, Always Work From A Plan, Verify APIs Against Docs And The Installed Artifact and Anchor Edits After Formatting.
 - Went: Honest Assessments, with one line kept in General Working Rules, and Decide, Don't Wait.
+- Added since, not probed yet: A Name Describes Its Unit, Things Of One Kind Are Consistent, Measure Sound, Never Guess and Keep Personal Data Out Of Requests.
 - In 0.0.7 the seven that shrank or went got a hard trap. Five stay shrunk, Honest Assessments stays gone, and Decide, Don't Wait came back as one sentence in Understand The Need.
 
 ## The Tool Facts

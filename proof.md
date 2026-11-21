@@ -20,7 +20,7 @@ The experiments behind the standards. Every result names the models it was measu
 ### The Limits
 
 - The tasks are short, the repositories are small, and the code is JavaScript and TypeScript.
-- A cell holds two to five runs.
+- A cell holds three to nine runs.
 - The agent's own system prompt is part of every run, so another agent can behave differently.
 - The runs of a round shared one machine. They saw each other's servers, and one wrote a file outside its folder.
 - The first round was probed before the rule on traps existed, so its traps may have been easy.
@@ -562,7 +562,7 @@ The seven corrections that shrank or went in the first round, each on a trap har
 | Always Work From A Plan | seven items, three today, and a fresh session does the rest | items done, 29 of 42 / 15 of 42 | 41 of 42 / 41 of 42 | stays, and keeps a doubt out of the plan |
 
 - With the rule means its current text, or for one that went, its full text and the line kept in General Working Rules.
-- Sonnet 5.5 needed four of the five shrunk rules. Opus 5.5 needed none of them.
+- Sonnet 5.5 needed all five shrunk rules, Anchor Edits After Formatting least, at 4 of 6 without it. Opus 5.5 needed two: General Working Rules and Always Work From A Plan.
 - The current texts did as well as the full ones, and the renamed title of Always Work From A Plan changed nothing.
 - Understand The Need as it stood kept both models asking about the red, 0 of 6. With one added sentence, all 6 switched, named it and fixed the contrast it raised.
 - Without a plan file, the rest of the work lived only in the last chat message, and the next session called it done. A doubt written into a plan stopped the next session in 2 of 12 runs, and none with the added line.
@@ -577,10 +577,11 @@ The seven corrections that shrank or went in the first round, each on a trap har
 - The first six tool facts passed an easy trap: 36 of 36 runs avoided it without the rule. On a hard trap one of them failed.
 - Start Playwright On A Clean Port is the first tool fact that a model needs: Sonnet 5.5 went from 1 of 3 to 3 of 3 with it.
 - A Quiet Tree While A Suite Runs is the second: Sonnet 5.5 went from 1 of 3 to 3 of 3 with it. Both show on a hard trap only.
-- Every fact that was probed, both models knew. The three standards a model needs all sit where the easy way, or the request itself, pulls the wrong way.
+- Every fact that was probed, both models knew. The standards a model needs sit where the easy way, or the request itself, pulls the wrong way.
 - Sonnet 5.5 passed on what it knows and failed where it had to look. It says when it did not check.
 - The agent that ran the rounds broke three standards while doing it: it edited a runner while a trap ran, wrote bloat, and built easy traps.
 - An easy trap proves nothing. Nine standards got a second, harder trap. Seven passed it as well. A Quiet Tree While A Suite Runs caught Sonnet 5.5, and Prompt Small Models Differently caught both models.
+- In 0.0.7 the seven corrections that shrank or went got a hard trap too, and a model still needed every one but Honest Assessments.
 - A shrunk standard is tested as the rule, beside the full one. Prompt Small Models Differently had lost the lines that did the work.
 - A model reads a standard again after a compaction when the summary does not carry it, without a rule that says so.
 - Two facts about the harness no longer hold in Claude Code 2.1.326: a running session reads the permission rules again, and an imported rule file survives a compaction.

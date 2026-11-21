@@ -27,7 +27,7 @@ In a project on the tickets workflow ([Work Tracking](../tickets-workflow/work-t
 
 ## No Attribution
 
-Commit messages contain only the message itself. No `Co-Authored-By` trailers, no "Generated with Claude Code", no AI attribution of any kind. The same holds for PR descriptions.
+Commit messages contain only the message itself. No `Co-Authored-By` trailers, no "Generated with Claude Code", no AI attribution of any kind. The same holds for PR descriptions. Where the agent adds attribution by itself, its setting switches it off, such as `"attribution": { "commit": "", "pr": "" }` in Claude Code's `.claude/settings.json`.
 
 ## Size
 

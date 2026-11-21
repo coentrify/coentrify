@@ -83,6 +83,7 @@ With `coentrify make no mistakes` the agent asks nothing. The agent takes every 
 - Write the decisions.
 - Set up the `docs` folder.
 - Create the wiki, where chosen.
+- Switch off the agent's own commit attribution where it has a setting for it ([Commits](standards/commits/commits.md#no-attribution)).
 - Build the checks and hooks the chosen standards ask for, in the project's own stack, from their specs in the [tools](tools/overview.md).
 - Offer a setup script for personal content, where the director uses cloud sessions.
 
