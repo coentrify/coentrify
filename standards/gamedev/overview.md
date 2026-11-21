@@ -14,7 +14,7 @@ The Gamedev standards: game development.
 - [Game Design Laws: Story](game-design-laws-story.md) - what the game says
 - [Game Design Laws: UI](game-design-laws-ui.md) - the screen and the controls
 - [Game Design Laws: World](game-design-laws-world.md) - the world the player moves through
-- [Game Phases](game-phases.md) - a game's phases in four stages, each phase ending at a phase gate, with the greybox, demos and outside playtests
+- [Game Phases](game-phases.md) - a game's phases in four stages, each phase but Post-Release ending at a phase gate, with the greybox, demos and outside playtests
 - [Game Phases: Concept](game-phases-concept.md) - the divergent stage: Idea, Gathering, Outline and Prototype, loose inside and without tickets
 - [Game Phases: Design](game-phases-design.md) - the convergent stage: Lore, World Building, Gameplay, First Playable and Game Design. A first playable is never a demo
 - [Game Phases: Development](game-phases-development.md) - Pre-Alpha is functionally complete: every part present, rough allowed, undecided content on the agent's recommendation. Alpha polishes, Beta is for outsiders

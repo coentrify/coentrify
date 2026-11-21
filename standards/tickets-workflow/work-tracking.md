@@ -78,7 +78,7 @@ Gate: the leading question of the phase gate that ends this phase.
 - What waits for a later phase.
 ```
 
-- A phase ends at its phase gate: the leading question together with Done When, which lists what answers it. The answer sends the product on or back a phase.
+- A phase's gate ([Project Lifecycle](../behavior/project-lifecycle.md)) is written as its leading question, with Done When listing what answers it.
 - A hygiene check fails a phase page without its `Gate:` line.
 - Which epics belong to a phase lives only in each epic's `phase` field. The wiki lists them on the phase's page.
 - Anything that does not serve the current phase's goal is filed and waits for its phase, never refined or built early. Bugs and debt too: one that does not hurt the goal waits ([Dev Tiers](../behavior/dev-tiers.md)).

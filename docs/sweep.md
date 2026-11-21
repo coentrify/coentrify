@@ -20,13 +20,11 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Rules With Two Homes
 
-103. The phase gate is defined in Project Lifecycle, Game Phases, Work Tracking and the glossary, and the copies drifted.
 104. File A Change restates the issue shape of Contributions, and the copies drifted.
 105. Roadmap Template restates Work Item Names in sentence case, and speaks of epics the simple workflow lacks.
 106. Answer The Player's Next Question restates Walk The User's Journey, and the copies drifted.
 107. Game Work Workflow and Gamedev Working Cadence restate rules from the tickets workflow, the changelog and the wiki.
 108. Workspace Levels restates Defer Tooling Until The Cost Shows Up as a level threshold.
-109. Parallel Agents restates two rules of The Builder through a section of Agent Roles that only points on.
 110. E2E Tests Must Demonstrate Behavior and Reels And Video Proof make one point three times.
 
 ## Facts That Went Stale
@@ -34,4 +32,3 @@ The worklist from a second sweep over every standard, the top-level pages, the t
 
 ## Left Over From One Project
 
-125. Incremental Pacing writes one game's progression into the rule: a few dozen clicks with the stronger click.

@@ -10,7 +10,7 @@ The game grows in steady steps, and a mistake is caught while it is still cheap.
 
 - A stage groups phases. A studio with several games reads each game's place in one word.
 - A phase is what Work Tracking calls a phase: an epic names it, and every rule about the current phase holds for it.
-- A phase gate is the test that ends a phase: a leading question together with everything it takes to answer it. Its answer sends the game on, or back a phase: a gate finds the right path forward.
+- A phase ends at its phase gate ([Project Lifecycle](../behavior/project-lifecycle.md)): a gate finds the right path forward.
 - The industry also calls a phase gate a milestone.
 - A unit of the game's content is a level, never a stage.
 

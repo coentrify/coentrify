@@ -103,7 +103,7 @@ The stage of development a project is in, such as prototype or production. The p
 
 ### Phase Gate
 
-The test that a phase has to pass before it ends: the definition of done of the phase.
+The test that ends a phase: a leading question together with everything it takes to answer it ([Project Lifecycle](standards/behavior/project-lifecycle.md)).
 
 ## Keeping It Right
 
