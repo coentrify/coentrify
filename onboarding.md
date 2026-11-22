@@ -11,7 +11,7 @@ How an agent sets coentrify up in a project. Every step follows one pattern: a d
 
 ## Greet
 
-Greet the director first, so the director sees that the prompt worked.
+Greet the director first, so the director sees that the prompt worked. The greeting is the agent's first message of a setup, whatever started it: a command, `npx coentrify`, or a plain prompt that means the same. It is posted at once, as a message of its own, before any reading of the project, and never kept for the report.
 
 ```
  ████   ███   █████  █   █  █████  ████   ███  █████  █   █

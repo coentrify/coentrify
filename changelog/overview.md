@@ -2,6 +2,7 @@
 
 What changed in each version of coentrify. A version has a page of its own, which opens with its summary. The summary is also the text of its release.
 
+- [0.1.5](0.1.5.md) - the greeting comes first, whatever starts the setup
 - [0.1.4](0.1.4.md) - game design patterns, starting with the No-Gear level
 - [0.1.3](0.1.3.md) - a template for the Prototype phase page, and lore that starts from the first ideas
 - [0.1.2](0.1.2.md) - ideas wait in a dump until their phase is next, three new game laws, and wayfinding

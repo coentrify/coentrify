@@ -12,6 +12,9 @@ const CONFIG = 'coentrify.json';
 const PROJECT_MANIFEST = 'package.json';
 const DEPENDENCIES_INSTALL = 'npm install';
 const README = new URL('../src/readme.md', import.meta.url);
+const ONBOARDING = new URL('../src/onboarding.md', import.meta.url);
+const GREETING = /^## Greet\n[\s\S]*?^```\n([\s\S]*?)^```/m;
+const SHOW_GREETING = 'Show this greeting to the director first, as a message of its own, then go on.';
 const VERSION_PAGE = /^(\d+\.\d+\.\d+)\.md$/;
 const SUMMARY = /^# .+\n+([^\n]+)/;
 const INSTALL = `npm install --save-dev ${PACKAGE}`;
@@ -23,7 +26,13 @@ const REVIEW_STEP = `The update waits for the director's go. Next step: ask for 
 const USAGE ='usage: npx coentrify [make-no-mistakes | update | explain | check]';
 const HEADER = `coentrify - spec-driven development, ${WIKI}`;
 
+function greet() {
+  process.stdout.write(readFileSync(ONBOARDING, 'utf8').match(GREETING)[1]);
+  console.log(SHOW_GREETING);
+}
+
 function next(step) {
+  greet();
   console.log(HEADER);
   console.log(`Next step: ${step}`);
 }
@@ -77,7 +86,10 @@ const COMMANDS = {
   setup: () => next(`install coentrify with ${INSTALL}, then set it up in this project by following its onboarding, ${SOURCE}/onboarding.md`),
   'make-no-mistakes': () => next(`install coentrify with ${INSTALL}, then set it up in this project autonomously by following coentrify make no mistakes, ${SOURCE}/commands.md#coentrify-make-no-mistakes`),
   update: () => next(`raise coentrify to its latest version with ${RAISE}, then ${UPDATE_STEP}`),
-  explain: () => console.log(readFileSync(README, 'utf8')),
+  explain: () => {
+    greet();
+    console.log(readFileSync(README, 'utf8'));
+  },
   check,
 };
 
