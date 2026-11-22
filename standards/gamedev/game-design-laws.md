@@ -51,7 +51,7 @@ The full text is in [Game Design Laws: Quality](game-design-laws-quality.md).
 The full text is in [Game Design Laws: UI](game-design-laws-ui.md).
 
 - [Communicate State](game-design-laws-ui.md#communicate-state) - what reacts, what is disabled and what changed shows it
-- [Alive App, Static Actions](game-design-laws-ui.md#alive-app-static-actions) - something always moves, actions are instant
+- [Alive World, Static Actions](game-design-laws-ui.md#alive-world-static-actions) - the world always moves, slowly, and actions are instant
 - [No Hard Edges](game-design-laws-ui.md#no-hard-edges) - rounded corners everywhere, and soft edges in the world. Sharp only on purpose
 - [Glow In Contrast](game-design-laws-ui.md#glow-in-contrast) - a glow contrasts the text it wraps
 - [No Layout Shifts](game-design-laws-ui.md#no-layout-shifts) - controls never move while the player acts

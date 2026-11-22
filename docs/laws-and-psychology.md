@@ -7,7 +7,6 @@ The worklist for the game laws checked against what is known about people. The f
 
 ## The Weak Points
 
-- Alive App, Static Actions - "something is always moving on screen". Nothing supports it, and constant motion habituates and tires.
 - Adopt, Repeat, Confirm - the third use as the test. Learning comes from a use without help after a delay, never from a count, and an experienced player is slowed by steps meant for a novice.
 - No Layout Shifts - it rests on Fitts's Law, which models targets that stand still. The rule holds for another reason: the hand is already aimed where the control was.
 - Always Something To Do - the queue. The urge to resume holds for a begun goal, never for one not yet started. The void after a goal is the drop right after a reward, and a visible plan quiets the pull of open goals.

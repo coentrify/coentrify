@@ -19,6 +19,7 @@ The Psychology standards: findings about people that the game laws rest on, each
 - [Hedonic Adaptation](hedonic-adaptation.md) - the feeling of a gain fades, and a break restores it
 - [Loss Aversion](loss-aversion.md) - a loss weighs about twice a gain, on average
 - [Luminance Contrast](luminance-contrast.md) - text is legible by its difference in brightness from what lies behind it
+- [Motion Onset](motion-onset.md) - a movement that starts draws the eye, and steady motion does not
 - [Narrative Transportation](narrative-transportation.md) - absorption into a story, fiction as much as fact
 - [Optimal Arousal](optimal-arousal.md) - too little stimulation bores and too much repels, with a peak that differs per person
 - [Parasocial Bonds](parasocial-bonds.md) - one-sided bonds with media figures, and with game characters

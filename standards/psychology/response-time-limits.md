@@ -23,7 +23,7 @@ An action answered at once feels like the player's own, and a wait the player ca
 
 ## The Laws On It
 
-- [Alive App, Static Actions](../gamedev/game-design-laws-ui.md#alive-app-static-actions) - actions are instant
+- [Alive World, Static Actions](../gamedev/game-design-laws-ui.md#alive-world-static-actions) - actions are instant
 - [Always Something To Do](../gamedev/game-design-laws-experience.md#always-something-to-do) - a technical wait is short, and shows that it is working
 - [Mouse First](../gamedev/game-design-laws-ui.md#mouse-first) - a click in play acts on the press, and one that cannot be undone keeps a way out
 
