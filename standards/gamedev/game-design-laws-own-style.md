@@ -6,6 +6,8 @@ Laws about what makes the game its own: its assets and its inventions. The index
 
 Every asset is the game's own, and nothing looks generic. The style gives the game its identity.
 
+Rests on: [Effort And The IKEA Effect](../psychology/effort-and-the-ikea-effect.md).
+
 ## Blueprint First
 
 Things of one kind come from one blueprint: its style, its guidelines and its artistic choices, cartoony or realistic say. Ten buildings from one blueprint cohere.
@@ -20,7 +22,9 @@ Rests on: [Reference Dependence](../psychology/reference-dependence.md).
 
 ## Generate, Never Reuse
 
-Making an asset is a commodity now. Generate your own, and never reuse a pack. Music is the exception: a track may come from a library, licensed for the game, unless the music is where the game is unique ([Unique Where It Counts](#unique-where-it-counts)).
+Making an asset is a commodity now. Generate your own, and never reuse a pack. Assets generated from one origin are exclusive to the game and more harmonic: they share a coherent vibe, which deepens immersion. Music is the exception: a track may come from a library, licensed for the game, unless the music is where the game is unique ([Unique Where It Counts](#unique-where-it-counts)).
+
+Rests on: [Presence](../psychology/presence.md), [Processing Fluency](../psychology/processing-fluency.md).
 
 ## Unique Where It Counts
 

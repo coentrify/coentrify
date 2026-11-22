@@ -68,6 +68,8 @@ Rests on: [Autonomy, Competence And Relatedness](../psychology/autonomy-competen
 
 Systems whose mere existence opens possibilities for the player, play styles among them, rather than features that each do one thing.
 
+Rests on: [Autonomy, Competence And Relatedness](../psychology/autonomy-competence-and-relatedness.md), [Effort And The IKEA Effect](../psychology/effort-and-the-ikea-effect.md).
+
 ## Know What Is Coming
 
 The player always knows what is coming in the short future: the next upgrade, the next unlock, the distance to the next goal, and when it is the end. There is always something coming, so the next upgrade or level is always looming. Knowing needs no overview or progress bar: the world can show it, by a billboard, a glimpse or a line of dialog. Nothing unlocks before it is introduced ([Adopt, Repeat, Confirm](game-design-laws-guidance.md#adopt-repeat-confirm-arc)). The world still keeps its secrets ([Fair Surprise](game-design-laws-world.md#fair-surprise)).

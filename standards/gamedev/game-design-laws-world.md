@@ -39,6 +39,8 @@ Relevant for: a world that unlocks.
 
 An unlock is never gated arbitrarily. What is out of reach is out of reach for a reason the world gives: the player has no connections there yet, or it lies too far out. No invisible wall, and no lock the world does not explain.
 
+Rests on: [Autonomy, Competence And Relatedness](../psychology/autonomy-competence-and-relatedness.md), [Presence](../psychology/presence.md).
+
 ## Contrast
 
 Relevant for: an open world, and a world or a player that grows.

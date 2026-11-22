@@ -36,9 +36,13 @@ Rests on: [Autonomy, Competence And Relatedness](../psychology/autonomy-competen
 
 A returning player speedrunning the game has just as good an experience as a player starting for the first time.
 
+Rests on: [Hedonic Adaptation](../psychology/hedonic-adaptation.md), [Cognitive Load](../psychology/cognitive-load.md), [Autonomy, Competence And Relatedness](../psychology/autonomy-competence-and-relatedness.md).
+
 ## Once Per Save
 
 A story cutscene plays once per save, the first time its moment comes. Every later run of that save goes past it without stopping. A replayed run or a prestige never replays it, and a new save plays it again. A progression minigame plays once per save too: a later run passes a won minigame at once, its outcome given.
+
+Rests on: [Hedonic Adaptation](../psychology/hedonic-adaptation.md), [Autonomy, Competence And Relatedness](../psychology/autonomy-competence-and-relatedness.md).
 
 ## AFK Safe
 

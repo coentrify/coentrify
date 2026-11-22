@@ -25,6 +25,7 @@ Consistency and familiar conventions make a game easy to take in, and too much s
 - [Unique Where It Counts](../gamedev/game-design-laws-own-style.md#unique-where-it-counts) - familiar where the game is not unique
 - [Same Trigger Both Ways](../gamedev/game-design-laws-ui.md#same-trigger-both-ways) - one expectation, kept
 - [Always Polished](../gamedev/game-design-laws-quality.md#always-polished) - one level of quality, by inference
+- [Generate, Never Reuse](../gamedev/game-design-laws-own-style.md#generate-never-reuse) - assets from one origin read as one harmonic style
 
 ## Related
 

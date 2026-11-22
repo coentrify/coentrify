@@ -12,7 +12,7 @@ The Psychology standards: findings about people that the game laws rest on, each
 - [Controllability](controllability.md) - bad outcomes beyond control breed passivity, and learned control protects
 - [Curiosity As An Information Gap](curiosity-as-an-information-gap.md) - curiosity is a gap in knowing, and the answer is the reward
 - [Curved Over Sharp Contours](curved-over-sharp-contours.md) - a moderate, widespread liking for curves
-- [Effort And The IKEA Effect](effort-and-the-ikea-effect.md) - what people make themselves they value more, when the effort succeeds
+- [Effort And The IKEA Effect](effort-and-the-ikea-effect.md) - what people make themselves they value more, when the effort succeeds, and work is judged by the effort seen in it
 - [Fitts's Law](fitts-law.md) - pointing time rises with distance and falls with target size
 - [Flow](flow.md) - deep absorption, with clear goals, immediate feedback and a fitting challenge
 - [Habituation](habituation.md) - a repeated stimulus fades, and recovers after a pause

@@ -23,6 +23,7 @@ A new player has little room to spare, so a game spends it on what matters, and 
 - [Adopt, Repeat, Confirm (ARC)](../gamedev/game-design-laws-guidance.md#adopt-repeat-confirm-arc) - one new thing per link
 - [Answer The Player's Next Question](../gamedev/game-design-laws-guidance.md#answer-the-players-next-question) and [Dialog Gives Context](../gamedev/game-design-laws-story.md#dialog-gives-context) - every word weighed by what it means to the player
 - [Every Mechanic Matters](../gamedev/game-design-laws-quality.md#every-mechanic-matters) - nothing added that adds nothing
+- [Speedrun Ready](../gamedev/game-design-laws-experience.md#speedrun-ready) - steps meant for a novice slow an expert
 
 ## Related
 
