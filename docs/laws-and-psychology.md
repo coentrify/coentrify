@@ -1,152 +1,33 @@
 # Laws And Psychology
 
-The worklist for checking the game laws against what is known about people. A finding leaves the list once the director has ruled on it and it has a page in the Psychology module, and a gap leaves it once it is a law or ruled out.
+The worklist for the game laws checked against what is known about people. The findings, with their checked sources, are in the [Psychology](../standards/psychology/overview.md) module. What is left is what the check found: weak points in the laws, and gaps no law covers. An item leaves the list once the director has ruled on it.
 
-- The Question - what is asked of every law
-- The Findings - each with its source and how solid it is
-- The Laws - each law and the findings it rests on
+- The Weak Points - a law that claims more than its finding gives, or rests on no finding
 - The Gaps - what people need that no law covers yet
 
-## The Question
+## The Weak Points
 
-Which finding about people does a law rest on? A law on a solid finding gets it as its reason. A law with none known is weighed again, or kept with that said ([Contributions](contributions.md#the-audit)).
-
-## The Findings
-
-Solid means replicated and widely used. Mixed means the evidence is split or the effect small, so a law leans on it lightly.
-
-| Finding | Source | Evidence |
-|---|---|---|
-| Autonomy, competence and relatedness | Deci and Ryan 1985, Ryan, Rigby and Przybylski 2006 | solid |
-| Flow | Csikszentmihalyi 1990 | solid |
-| Wanting apart from liking | Berridge and Robinson 1998 | solid |
-| Curiosity as an information gap | Loewenstein 1994 | solid |
-| The goal gradient | Hull 1932, Kivetz, Urminsky and Zheng 2006 | solid |
-| Resuming an interrupted task | Ovsiankina 1928, Zeigarnik 1927 | mixed: the urge to resume holds, the memory advantage does not replicate well |
-| Effort justification | Aronson and Mills 1959, Norton, Mochon and Ariely 2012 | solid |
-| Reference dependence | Helson 1964, Kahneman and Tversky 1979 | solid |
-| Loss aversion | Kahneman and Tversky 1979 | solid, its size debated |
-| Hedonic adaptation | Brickman and Campbell 1971 | solid |
-| Habituation | Thompson and Spencer 1966 | solid |
-| Optimal arousal | Berlyne 1960 | solid as a pattern |
-| Attention restoration | Kaplan 1995 | mixed |
-| The peak-end rule | Kahneman, Fredrickson, Schreiber and Redelmeier 1993 | solid |
-| Controllability | Maier and Seligman 2016 | solid |
-| Cognitive load | Sweller 1988 | solid |
-| Retrieval practice | Roediger and Karpicke 2006 | solid |
-| Fitts's law | Fitts 1954 | solid |
-| Response time limits | Miller 1968, Card, Moran and Newell 1983 | solid |
-| Curved over sharp contours | Bar and Neta 2006 | solid |
-| Cognitive maps | Tolman 1948, Lynch 1960 | solid |
-| Variable reward schedules | Ferster and Skinner 1957 | solid, and the root of compulsion loops |
-| Processing fluency | Zajonc 1968, Reber, Schwarz and Winkielman 2004 | solid |
-| Overjustification | Deci, Koestner and Ryan 1999 | solid |
-| Scarcity | Worchel, Lee and Adewole 1975 | solid |
-| Narrative transportation | Green and Brock 2000 | solid |
-| Benign violations | McGraw and Warren 2010 | mixed |
-| The Proteus effect | Yee and Bailenson 2007 | mixed: small but steady |
-| Parasocial bonds | Horton and Wohl 1956 | solid |
-
-## The Laws
-
-### Experience
-
-| Law | Rests on |
-|---|---|
-| Never Wait | response time limits, flow |
-| Always Something To Do | the goal gradient, resuming an interrupted task, flow, hedonic adaptation |
-| Exploration Is Rewarded | curiosity as an information gap, variable reward schedules |
-| Full Control | autonomy |
-| Respect | autonomy, competence, overjustification |
-| Speedrun Ready | autonomy, weakly. Mostly a stance on replay |
-| Once Per Save | autonomy, hedonic adaptation |
-| AFK Safe | loss aversion, autonomy |
-| Easy Pause | autonomy |
-| Soft Sound | habituation |
-| Fun First | flow. The clip test is a design test, with no finding of its own |
-| Loop First | flow, competence |
-
-### Progress
-
-| Law | Rests on |
-|---|---|
-| Start And End | the peak-end rule |
-| As Long As It Is Interesting | the peak-end rule, hedonic adaptation |
-| Doable 100% | competence |
-| No Try Hard | autonomy, competence |
-| Bands, Not Bullseyes | flow, controllability |
-| Desire Before Reward | wanting apart from liking |
-| Earned Progress | effort justification, reference dependence, hedonic adaptation |
-| Lasting Impact | autonomy |
-| Emergent Gameplay | autonomy, curiosity as an information gap |
-| Know What Is Coming | the goal gradient, curiosity as an information gap |
-
-### Quality
-
-| Law | Rests on |
-|---|---|
-| Always Polished | processing fluency |
-| Every Mechanic Matters | cognitive load |
-
-### UI
-
-| Law | Rests on |
-|---|---|
-| Communicate State | flow, through clear feedback, cognitive load |
-| Alive App, Static Actions | response time limits, optimal arousal |
-| No Hard Edges | curved over sharp contours: a sharp edge reads as a threat, which is why a canon blade stays sharp |
-| Glow In Contrast | none on this list. It rests on legibility, a fact of perception |
-| No Layout Shifts | Fitts's law |
-| Same Trigger Both Ways | processing fluency, cognitive load |
-| Say What Is Wrong | controllability, cognitive load |
-| Mouse First | Fitts's law, response time limits |
-
-### Story
-
-| Law | Rests on |
-|---|---|
-| Show, Don't Tell | narrative transportation, autonomy |
-| Worth Reading | scarcity |
-| Dialog Gives Context | cognitive load, narrative transportation |
-| Make Yourself | the Proteus effect |
-
-### Guidance
-
-| Law | Rests on |
-|---|---|
-| No Yellow Paint | autonomy, overjustification, curiosity as an information gap |
-| Answer The Player's Next Question | reference dependence: a value means something only against a reference. Cognitive load |
-| Adopt, Repeat, Confirm (ARC) | retrieval practice, cognitive load |
-
-### World
-
-| Law | Rests on |
-|---|---|
-| Fair Surprise | controllability, curiosity as an information gap |
-| The World Reacts | competence, the feeling of having an effect |
-| Friction In The World | flow, competence |
-| No Artificial Gates | controllability, autonomy |
-| Contrast | reference dependence, optimal arousal, attention restoration, variable reward schedules |
-
-### Own Style
-
-| Law | Rests on |
-|---|---|
-| No Asset Flips | none known. A stance on identity in the market |
-| Blueprint First | processing fluency |
-| Shown Together | reference dependence |
-| Generate, Never Reuse | none known. A stance on production |
-| Unique Where It Counts | processing fluency, where the game follows best practice |
-| References Stay References | benign violations, processing fluency |
-
-### Beside The Laws
-
-- Wayfinding rests on cognitive maps.
-- The No-Gear level rests on reference dependence and effort justification.
+1. Desire Before Reward - "a reward that comes before the wanting is worth nothing". Wanting apart from liking says nothing about order, and a reward never wanted can still be liked. Wanting driven by cues is also the mechanism of addiction.
+2. No Yellow Paint - lines that cheer the player on "treat the player as someone who needs encouragement, which nobody does". Feedback that informs raises intrinsic motivation, and feedback that controls lowers it.
+3. Never Wait - "the player never has to wait". The research grades a wait: feedback past a second, progress and a way out past ten. Flow says nothing on waiting.
+4. Mouse First - "every click in the game acts on the press". Right in play. For a menu, the web's accessibility rules ask for action on release, or an undo, and a press responds no faster.
+5. Alive App, Static Actions - "something is always moving on screen". Nothing supports it, and constant motion habituates and tires.
+6. Adopt, Repeat, Confirm - the third use as the test. Learning comes from a use without help after a delay, never from a count, and an experienced player is slowed by steps meant for a novice.
+7. No Layout Shifts - it rests on Fitts's Law, which models targets that stand still. The rule holds for another reason: the hand is already aimed where the control was.
+8. Always Something To Do - the queue. The urge to resume holds for a begun goal, never for one not yet started. The void after a goal is the drop right after a reward, and a visible plan quiets the pull of open goals.
+9. As Long As It Is Interesting - "the game ends while the player still wants more". Untested. The peak-end rule supports ending on a high, and holds for a session or a level more than for a whole game.
+10. Earned Progress and Contrast through time - growth is felt against the start. The reference drifts to the new normal, so the start keeps its pull only while the game keeps it in view.
+11. Contrast - a drive out feels like an escape. Rest comes from soft fascination, never from emptiness, which fits the sparse area with its one find. Optimal arousal supports Contrast only weakly.
+12. Fair Surprise - the player reads a risk and partly steers it. Controllability backs the steering. Reading a risk in advance is predictability, which it does not cover.
+13. Bands, Not Bullseyes - it rests on flow. In the one controlled game study, the balance of challenge and skill alone changed nothing, so the band rests more on competence and control.
+14. Worth Reading - a missed line stays missed. Scarcity was measured with objects, and a line lost for good frustrates a slow reader.
+15. Soft Sound - a repeated sound varies. The variation mainly keeps a repeat from sounding mechanical, spacing lets a sound recover, and a cue the player must notice stays recognizable.
+16. No Hard Edges - the preference for curves is moderate, and the idea that sharp means threat is contested. A blade reads as a threat by what it is.
+17. Laws on no known finding - Speedrun Ready, Once Per Save, Emergent Gameplay, The World Reacts, No Artificial Gates, No Asset Flips and Generate, Never Reuse. Each is weighed again, or kept with that said.
 
 ## The Gaps
 
-- Relatedness: no law covers bonds with allies, companions, characters or other players, and parasocial bonds show that a player bonds with a character as with a person.
-- The rhythm of the story: optimal arousal and the peak-end rule ask for tension and release, and an ending on a peak. The Story laws say what the game says, and nothing on how its intensity moves.
-- Rewards for curiosity, never compulsion: variable rewards feed exploration and compulsion loops alike, and no law draws the line between the two.
-- State never rests on color alone: a color vision deficiency is common, and Communicate State and Glow In Contrast lean on color without saying so.
+- Relatedness - no law covers bonds with allies, companions, characters or other players ([Parasocial Bonds](../standards/psychology/parasocial-bonds.md)).
+- The rhythm of the story - nothing says how intensity rises and falls, or that the story ends on a high ([The Peak-End Rule](../standards/psychology/the-peak-end-rule.md)).
+- Curiosity, never compulsion - nothing draws the line between rewarding curiosity and building a compulsion loop ([Variable Reward Schedules](../standards/psychology/variable-reward-schedules.md)).
+- Color alone - nothing says state never rests on color alone ([Color Vision Deficiency](../standards/psychology/color-vision-deficiency.md)).

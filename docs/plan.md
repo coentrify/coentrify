@@ -2,25 +2,14 @@
 
 Version 0.2.1: the game laws checked against what is known about people, so each law gives the finding it rests on as its reason.
 
-- The worklist (active)
-- The module shape
-- The finding pages
-- The links from the laws
+- The weak points (active)
 - Laws for allies and companions
 - The other gaps
 - Call 0.2.1
 
-## The Worklist
+## The Weak Points
 
-[Laws And Psychology](laws-and-psychology.md) maps every law to the findings it rests on, with each finding's source and how solid it is, and lists the gaps. The director rules on it finding by finding, and gap by gap.
-
-## The Module Shape
-
-A Psychology module in `standards/psychology/`, a page per finding: the finding, its source, how solid it is, and the laws that rest on it. The module is optional. A law names its finding in its own words, so a project that leaves the module out keeps the theory in the wording once the unlink script strips the link.
-
-## The Links From The Laws
-
-Every law links the findings it rests on. The law pages are near their budgets, so the links come with raised budgets or a trim, the director's call per page.
+[Laws And Psychology](laws-and-psychology.md) lists them. The director rules on each one: what the law claims, what its finding gives, and what to learn from it.
 
 ## Laws For Allies And Companions
 
