@@ -20,7 +20,7 @@ A quiet stretch of the world rests the player, when it holds soft fascination.
 
 ## The Laws On It
 
-- [Contrast](../gamedev/game-design-laws-world.md#contrast) - a drive out feels like an escape
+- [Contrast](../gamedev/game-design-laws-world.md#contrast) - a drive out of a busy area and its pressure feels like an escape
 
 ## Related
 

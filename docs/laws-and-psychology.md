@@ -7,7 +7,6 @@ The worklist for the game laws checked against what is known about people. The f
 
 ## The Weak Points
 
-- Contrast - a drive out feels like an escape. Rest comes from soft fascination, never from emptiness, which fits the sparse area with its one find. Optimal arousal supports Contrast only weakly.
 - Fair Surprise - the player reads a risk and partly steers it. Controllability backs the steering. Reading a risk in advance is predictability, which it does not cover.
 - Bands, Not Bullseyes - it rests on flow. In the one controlled game study, the balance of challenge and skill alone changed nothing, so the band rests more on competence and control.
 - Worth Reading - a missed line stays missed. Scarcity was measured with objects, and a line lost for good frustrates a slow reader.

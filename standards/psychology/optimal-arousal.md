@@ -1,6 +1,6 @@
 # Optimal Arousal
 
-Novelty, complexity and surprise raise arousal, and too little leaves a person indifferent while too much turns aversive. Whether liking peaks in the middle depends on the person and the material.
+Novelty, complexity and surprise raise arousal, how stirred up a person is, excited or tense, and too little leaves a person indifferent while too much turns aversive. Whether liking peaks in the middle depends on the person and the material.
 
 ## Why
 
