@@ -25,6 +25,8 @@ Rests on: [Controllability](../psychology/controllability.md), [Predictability](
 
 The world acknowledges the player's presence: an action leaves a trace that can be seen. A trace may fade again. The reaction is what counts.
 
+Rests on: [Presence](../psychology/presence.md).
+
 ## Friction In The World
 
 Friction is something the player does in the world, never a menu or a wait.

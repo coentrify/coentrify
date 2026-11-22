@@ -101,6 +101,7 @@ The full text is in [Game Design Laws: Own Style](game-design-laws-own-style.md)
 ## How To Apply
 
 - The player is a human who walks the dog, answers the door, goes to sleep and continues the next day. Laws about that human, such as Easy Pause, Always Something To Do, Natural Breaks and AFK Safe, translate into any genre. Only their concrete shape changes.
+- Immersion builds in layers. A world that moves, reacts and sounds feeds the senses ([Alive World, Static Actions](game-design-laws-ui.md#alive-world-static-actions), [The World Reacts](game-design-laws-world.md#the-world-reacts), [Soft Sound](game-design-laws-experience.md#soft-sound)). Something to do gives a focus ([Always Something To Do](game-design-laws-experience.md#always-something-to-do)), and something the player cares about and wants holds it ([Desire Before Reward](game-design-laws-progress.md#desire-before-reward)). With a focus, the mind filters out the rest, and the player is almost fully there ([Presence](../psychology/presence.md)).
 - A game's laws doc has three parts: the generic laws it adopts, the ones it leaves out with a reason, and its own laws and overrides in full.
 - An adopted or left-out law is named by its name in this set, never copied.
 - A law for one kind of game says so in its name or in a `Relevant for:` line, and is adopted or left out by it.
