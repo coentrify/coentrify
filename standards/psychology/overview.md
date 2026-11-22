@@ -5,6 +5,7 @@ The Psychology standards: findings about people that the game laws rest on, each
 - [Attention Restoration](attention-restoration.md) - quiet settings with soft fascination let tired attention recover. Mixed evidence
 - [Autonomy, Competence And Relatedness](autonomy-competence-and-relatedness.md) - the three needs of Self-Determination Theory, and why people play
 - [Avatar Identification](avatar-identification.md) - a player who identifies with the character enjoys the game more, and making the character oneself feeds it
+- [Baby Schema](baby-schema.md) - baby-like features look cute and move people to take care
 - [Benign Violations](benign-violations.md) - funny is a break with how things should be that stays harmless, which depends on the audience
 - [Cognitive Load](cognitive-load.md) - working memory is narrow when material is new, and guidance for novices hinders experts
 - [Cognitive Maps](cognitive-maps.md) - the inner picture of a place, patchy and different per person
@@ -26,12 +27,15 @@ The Psychology standards: findings about people that the game laws rest on, each
 - [Predictability](predictability.md) - a danger with a sign ahead is feared only at the sign, and one without keeps fear up
 - [Presence](presence.md) - the sense of being there, fed by the senses, a world that answers, and attention on it
 - [Processing Fluency](processing-fluency.md) - what is easy to process pleases, until sameness wears it out
+- [Reciprocity](reciprocity.md) - closeness grows in turns, as people open up to each other
 - [Reference Dependence](reference-dependence.md) - judgment against a reference that drifts
 - [Response Time Limits](response-time-limits.md) - a tenth of a second feels direct, a second keeps the thought, ten seconds lose it
 - [Resuming An Interrupted Task](resuming-an-interrupted-task.md) - a begun task pulls a person back, and the memory claim does not hold
 - [Retrieval Practice](retrieval-practice.md) - recalling unprompted, after a delay, beats studying again
 - [Rewards And Feedback](rewards-and-feedback.md) - expected rewards and controlling feedback lower intrinsic motivation, and feedback that informs raises it
 - [Scarcity](scarcity.md) - scarce things are valued more, when the scarcity is noticed
+- [Shared Experience](shared-experience.md) - a shared experience is felt more strongly, and hardship binds
+- [Similarity](similarity.md) - people are drawn to those like them
 - [Spatial Memory](spatial-memory.md) - people learn where controls are and go there from memory, so a layout keeps its places
 - [The Goal Gradient](the-goal-gradient.md) - effort rises as a goal comes near
 - [The Peak-End Rule](the-peak-end-rule.md) - a short experience is remembered by its peak and its end

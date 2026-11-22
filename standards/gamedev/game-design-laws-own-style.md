@@ -51,6 +51,7 @@ Rests on: [Benign Violations](../psychology/benign-violations.md).
 - [Game Design Laws: Progress](game-design-laws-progress.md)
 - [Game Design Laws: UI](game-design-laws-ui.md)
 - [Game Design Laws: Story](game-design-laws-story.md)
+- [Game Design Laws: Companions](game-design-laws-companions.md)
 - [Game Design Laws: Guidance](game-design-laws-guidance.md)
 - [Game Design Laws: World](game-design-laws-world.md)
 - [Game Design Laws: Quality](game-design-laws-quality.md)

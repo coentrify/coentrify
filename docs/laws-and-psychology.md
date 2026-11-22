@@ -7,7 +7,7 @@ The worklist for the game laws checked against what is known about people. The f
 
 ## The Gaps
 
-- Relatedness - no law covers bonds with allies, companions, characters or other players ([Parasocial Bonds](../standards/psychology/parasocial-bonds.md)).
+- Relatedness with other players - the Companions laws cover characters, and no law covers bonds with other players ([Autonomy, Competence And Relatedness](../standards/psychology/autonomy-competence-and-relatedness.md)).
 - The rhythm of the story - nothing says how intensity rises and falls, or that the story ends on a high ([The Peak-End Rule](../standards/psychology/the-peak-end-rule.md)).
 - Curiosity, never compulsion - nothing draws the line between rewarding curiosity and building a compulsion loop ([Variable Reward Schedules](../standards/psychology/variable-reward-schedules.md)).
 - Color alone - nothing says state never rests on color alone ([Color Vision Deficiency](../standards/psychology/color-vision-deficiency.md)).
@@ -15,4 +15,3 @@ The worklist for the game laws checked against what is known about people. The f
 ## Findings With No Law
 
 - [Color Vision Deficiency](../standards/psychology/color-vision-deficiency.md) - its law comes from the gap Color alone.
-- [Parasocial Bonds](../standards/psychology/parasocial-bonds.md) - its law comes from the gap Relatedness.

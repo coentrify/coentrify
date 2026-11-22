@@ -1,6 +1,6 @@
 # Game Design Laws
 
-Laws are short rules that hold unless there is a very good reason to break one. The generic set lives in the standards, in eight parts by theme, and this standard is its index. A game's own laws and overrides stand in the game's docs.
+Laws are short rules that hold unless there is a very good reason to break one. The generic set lives in the standards, in nine parts by theme, and this standard is its index. A game's own laws and overrides stand in the game's docs.
 
 ## Why
 
@@ -68,6 +68,17 @@ The full text is in [Game Design Laws: Story](game-design-laws-story.md).
 - [Worth Reading](game-design-laws-story.md#worth-reading) - for dialog: a missed line stays missed
 - [Dialog Gives Context](game-design-laws-story.md#dialog-gives-context) - dialog accompanies the screen as narrative and gives context, never instructions
 - [Make Yourself](game-design-laws-story.md#make-yourself) - for a player character: the player can represent themselves
+
+### Companions
+
+The full text is in [Game Design Laws: Companions](game-design-laws-companions.md).
+
+- [Characters Of Their Own](game-design-laws-companions.md#characters-of-their-own) - a companion has its own conditions and life, never a voice of the hero's ego
+- [Bonds From Shared Circumstance](game-design-laws-companions.md#bonds-from-shared-circumstance) - a bond grows from shared goals, hardship, a rescue or a common enemy
+- [What The Player Cannot See](game-design-laws-companions.md#what-the-player-cannot-see) - a companion tells what the player cannot perceive, and never judges
+- [Mirroring](game-design-laws-companions.md#mirroring) - a companion answers the player's advances in kind
+- [Only What Matters](game-design-laws-companions.md#only-what-matters) - a companion involves the player only in major things
+- [A Loss Is Grieved](game-design-laws-companions.md#a-loss-is-grieved) - losing a companion feels really bad
 
 ### Guidance
 

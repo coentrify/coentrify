@@ -24,6 +24,7 @@ A world that moves, sounds and answers the player's actions holds the player's a
 - [The World Reacts](../gamedev/game-design-laws-world.md#the-world-reacts) - a world the player's actions change
 - [No Artificial Gates](../gamedev/game-design-laws-world.md#no-artificial-gates) - a wall the world does not explain breaks the sense of being there
 - [Generate, Never Reuse](../gamedev/game-design-laws-own-style.md#generate-never-reuse) - assets from one origin share a coherent vibe
+- [Characters Of Their Own](../gamedev/game-design-laws-companions.md#characters-of-their-own) - companions with their own lives enrich the world
 
 ## Related
 

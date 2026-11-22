@@ -2,13 +2,8 @@
 
 Version 0.2.1: the game laws checked against what is known about people, so each law gives the finding it rests on as its reason.
 
-- Laws for allies and companions (active)
-- The other gaps
+- The other gaps (active)
 - Call 0.2.1
-
-## Laws For Allies And Companions
-
-From relatedness, the third need of Self-Determination Theory, and parasocial bonds. The laws come from the director's own view of allies and companions, with the findings as their reasons.
 
 ## Call 0.2.1
 

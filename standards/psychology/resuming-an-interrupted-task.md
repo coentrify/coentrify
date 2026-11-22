@@ -23,6 +23,7 @@ A goal the player has begun pulls the player back, so a session left in the midd
 
 - [Always Something To Do](../gamedev/game-design-laws-experience.md#always-something-to-do) - a begun goal waits for the player, and a visible queue keeps the rest calm
 - [Natural Breaks](../gamedev/game-design-laws-experience.md#natural-breaks) - a break falls where a goal is done, with the next one planned
+- [Only What Matters](../gamedev/game-design-laws-companions.md#only-what-matters) - a companion never interrupts play with menial things
 
 ## Related
 

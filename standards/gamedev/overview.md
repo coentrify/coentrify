@@ -6,6 +6,7 @@ The Gamedev standards: game development.
 - [Captures And Reels](captures-and-reels.md) - proof from scripted captures per item, never by hand, reels on demand, videos untracked in git
 - [Devbox](devbox.md) - a one-key devbox on every scene, on the shared seeded scenarios
 - [Game Design Laws](game-design-laws.md) - the generic game design laws as an index. A game's laws doc adopts, leaves out or overrides them by name
+- [Game Design Laws: Companions](game-design-laws-companions.md) - the characters who stand with the player
 - [Game Design Laws: Experience](game-design-laws-experience.md) - what the player lives moment to moment
 - [Game Design Laws: Guidance](game-design-laws-guidance.md) - what the game hints and teaches
 - [Game Design Laws: Own Style](game-design-laws-own-style.md) - what makes the game its own
