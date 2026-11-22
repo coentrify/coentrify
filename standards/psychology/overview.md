@@ -23,6 +23,7 @@ The Psychology standards: findings about people that the game laws rest on, each
 - [Narrative Transportation](narrative-transportation.md) - absorption into a story, fiction as much as fact
 - [Optimal Arousal](optimal-arousal.md) - too little stimulation bores and too much repels, with a peak that differs per person
 - [Parasocial Bonds](parasocial-bonds.md) - one-sided bonds with media figures, and with game characters
+- [Predictability](predictability.md) - a danger with a sign ahead is feared only at the sign, and one without keeps fear up
 - [Processing Fluency](processing-fluency.md) - what is easy to process pleases, until sameness wears it out
 - [Reference Dependence](reference-dependence.md) - judgment against a reference that drifts
 - [Response Time Limits](response-time-limits.md) - a tenth of a second feels direct, a second keeps the thought, ten seconds lose it

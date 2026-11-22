@@ -19,7 +19,7 @@ An example of the readable risk: speeding with forbidden goods can get the playe
 
 [Full Control](game-design-laws-experience.md#full-control) holds, since the surprise answers the player's own action. [Know What Is Coming](game-design-laws-progress.md#know-what-is-coming) keeps the progress visible, and the world keeps its secrets.
 
-Rests on: [Controllability](../psychology/controllability.md), [Curiosity As An Information Gap](../psychology/curiosity-as-an-information-gap.md).
+Rests on: [Controllability](../psychology/controllability.md), [Predictability](../psychology/predictability.md), [Curiosity As An Information Gap](../psychology/curiosity-as-an-information-gap.md).
 
 ## The World Reacts
 
@@ -50,7 +50,7 @@ A world lives by the contrast between dense and sparse, and between danger and s
 - Never miles and miles of nothing: an explorer gets back to the busy world reasonably quickly.
 - A game names its poles, in space and through time, and where the player meets each.
 
-Rests on: [Attention Restoration](../psychology/attention-restoration.md), [Optimal Arousal](../psychology/optimal-arousal.md), [Reference Dependence](../psychology/reference-dependence.md), [Habituation](../psychology/habituation.md), [Variable Reward Schedules](../psychology/variable-reward-schedules.md).
+Rests on: [Attention Restoration](../psychology/attention-restoration.md), [Optimal Arousal](../psychology/optimal-arousal.md), [Reference Dependence](../psychology/reference-dependence.md), [Habituation](../psychology/habituation.md), [Predictability](../psychology/predictability.md), [Variable Reward Schedules](../psychology/variable-reward-schedules.md).
 
 ## Related
 

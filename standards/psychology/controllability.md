@@ -13,7 +13,7 @@ A risk the player can steer teaches, and a setback the player can do nothing abo
 
 ## Limits
 
-- The finding is about steering. Reading a risk in advance is predictability, a separate matter it does not cover.
+- The finding is about steering. Reading a risk in advance is [Predictability](predictability.md), a separate matter.
 - It says nothing against chance itself. Many players enjoy chance, and the finding concerns bad outcomes the player can do nothing about.
 
 ## The Laws On It
