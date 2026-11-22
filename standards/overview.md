@@ -30,6 +30,7 @@ Every module has an overview of its own standards.
 - [E2E](e2e/overview.md) - end-to-end tests
 - [Electron](electron/overview.md) - the Electron shell
 - [Gamedev](gamedev/overview.md) - game development
+- [Psychology](psychology/overview.md) - findings about people that the game laws rest on
 - [Records](records/overview.md) - the dated trails a project keeps
 - [Reporting](reporting/overview.md) - reports and proof
 - [Scripts](scripts/overview.md) - npm scripts
