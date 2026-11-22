@@ -16,7 +16,7 @@ A world, a scene or a screen can hold too little or too much, and the right amou
 ## Limits
 
 - One best level is no reason to alternate. Alternating rests on [Reference Dependence](reference-dependence.md) and on recovery from [Habituation](habituation.md).
-- Constant motion habituates and tires, which works against an app where something always moves.
+- Steady motion fades into the background and draws no attention, which suits a world that always moves slowly ([Motion Onset](motion-onset.md)).
 
 ## The Laws On It
 
