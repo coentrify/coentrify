@@ -14,3 +14,7 @@ Version 0.2.1: the game laws checked against what is known about people, so each
 ## Laws For Allies And Companions
 
 From relatedness, the third need of Self-Determination Theory, and parasocial bonds. The laws come from the director's own view of allies and companions, with the findings as their reasons.
+
+## Call 0.2.1
+
+- The summary names the migration: a game that adopted Never Wait names Always Something To Do, which took it in.

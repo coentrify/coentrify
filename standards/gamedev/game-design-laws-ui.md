@@ -53,7 +53,7 @@ The game plays best on a mouse and its wheel, the way most gamers play. A trackp
 - Every notch of a wheel moves a list by one step, at once, however fast the wheel turns
 - A trackpad's small movements add up to a step, so a list stays usable on one
 - A close icon carries a lot of padding: a bigger button is easier to click
-- Every click in the game acts on the press, never waiting for the release, so it feels snappier
+- A click in play acts on the press, never waiting for the release, so it feels snappier. A click that cannot be undone, such as deleting a save, acts on the release, so sliding off cancels it, or on a short hold, still quick for a player who is sure
 
 Rests on: [Fitts's Law](../psychology/fitts-law.md), [Response Time Limits](../psychology/response-time-limits.md).
 

@@ -12,8 +12,7 @@ Design builds on what is settled, and an agent decides the small things on its o
 
 The full text is in [Game Design Laws: Experience](game-design-laws-experience.md).
 
-- [Never Wait](game-design-laws-experience.md#never-wait) - the player never waits with nothing to do. What takes time in the world leaves play going
-- [Always Something To Do](game-design-laws-experience.md#always-something-to-do) - a pull short term, a dot on the horizon long term
+- [Always Something To Do](game-design-laws-experience.md#always-something-to-do) - a pull short term, a queue of goals, a dot on the horizon long term, and never a moment of what now
 - [Exploration Is Rewarded](game-design-laws-experience.md#exploration-is-rewarded) - looking around always finds something
 - [Full Control](game-design-laws-experience.md#full-control) - nothing is decided or happens without the player
 - [Respect](game-design-laws-experience.md#respect) - no dumb tutorials
@@ -100,7 +99,7 @@ The full text is in [Game Design Laws: Own Style](game-design-laws-own-style.md)
 
 ## How To Apply
 
-- The player is a human who walks the dog, answers the door, goes to sleep and continues the next day. Laws about that human, such as Easy Pause, Never Wait and AFK Safe, translate into any genre. Only their concrete shape changes.
+- The player is a human who walks the dog, answers the door, goes to sleep and continues the next day. Laws about that human, such as Easy Pause, Always Something To Do and AFK Safe, translate into any genre. Only their concrete shape changes.
 - A game's laws doc has three parts: the generic laws it adopts, the ones it leaves out with a reason, and its own laws and overrides in full.
 - An adopted or left-out law is named by its name in this set, never copied.
 - A law for one kind of game says so in its name or in a `Relevant for:` line, and is adopted or left out by it.

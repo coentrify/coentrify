@@ -19,13 +19,13 @@ An action answered at once feels like the player's own, and a wait the player ca
 
 - A tenth of a second is not instant for fast action, where tens of milliseconds count.
 - The limits grade a wait: feedback past a second, progress and a way out past ten. They never call every wait a failure.
-- Acting on press makes nothing respond faster. For an ordinary menu, the web's accessibility rules ask for action on release, or an undo (WCAG 2.2, criterion 2.5.2).
+- Acting on the press fires the length of a click earlier. For an ordinary menu, the web's accessibility rules ask for action on release, or an undo, so a slip can be taken back (WCAG 2.2, criterion 2.5.2).
 
 ## The Laws On It
 
 - [Alive App, Static Actions](../gamedev/game-design-laws-ui.md#alive-app-static-actions) - actions are instant
-- [Never Wait](../gamedev/game-design-laws-experience.md#never-wait) - a technical wait is short, and shows that it is working
-- [Mouse First](../gamedev/game-design-laws-ui.md#mouse-first) - a click acts on the press
+- [Always Something To Do](../gamedev/game-design-laws-experience.md#always-something-to-do) - a technical wait is short, and shows that it is working
+- [Mouse First](../gamedev/game-design-laws-ui.md#mouse-first) - a click in play acts on the press, and one that cannot be undone keeps a way out
 
 ## Related
 

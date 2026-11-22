@@ -7,7 +7,6 @@ The worklist for the game laws checked against what is known about people. The f
 
 ## The Weak Points
 
-- Mouse First - "every click in the game acts on the press". Right in play. For a menu, the web's accessibility rules ask for action on release, or an undo, and a press responds no faster.
 - Alive App, Static Actions - "something is always moving on screen". Nothing supports it, and constant motion habituates and tires.
 - Adopt, Repeat, Confirm - the third use as the test. Learning comes from a use without help after a delay, never from a count, and an experienced player is slowed by steps meant for a novice.
 - No Layout Shifts - it rests on Fitts's Law, which models targets that stand still. The rule holds for another reason: the hand is already aimed where the control was.

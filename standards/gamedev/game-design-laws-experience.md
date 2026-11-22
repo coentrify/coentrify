@@ -2,17 +2,11 @@
 
 Laws about what the player lives through from moment to moment. The index and the way a game uses them are in [Game Design Laws](game-design-laws.md).
 
-## Never Wait
-
-The player never waits with nothing to do. Things in the world take time, a craft, a train on its way, the weather or the time of day, and meanwhile there is always something to do, so play never falls into a moment of what now ([Always Something To Do](#always-something-to-do)). A technical wait, such as loading, is as short as it can be, and shows that it is working.
-
-Rests on: [Flow](../psychology/flow.md), [Response Time Limits](../psychology/response-time-limits.md).
-
 ## Always Something To Do
 
-The player always has something to do. Short term, the pull to expand and explore. Mid term, the next objective and the one after it: the goals form a queue, so reaching one never leaves the player in the void that follows the last episode of a series. The queue brings no pressure, only something to want next. Long term, a dot on the horizon. When closing in on it, the outline of the next dot is already visible. The ultimate goal is not revealed too soon, but is visible from early mid-game. That holds at every skill level: a skilled player who goes fast never runs out of things to do. Nothing new to pursue for a moment is not nothing to do: there is the state to check and the next choice to think about, such as the balance when there is nothing to buy yet. Leave space for thinking, just not too much when the player already knows what to do. The better the player plays, the less time there is to think.
+The player always has something to do. Short term, the pull to expand and explore. Mid term, the next objective and the one after it: the goals form a queue, so reaching one never leaves the player in the void that follows the last episode of a series. The queue brings no pressure, only something to want next. Long term, a dot on the horizon. When closing in on it, the outline of the next dot is already visible. The ultimate goal is not revealed too soon, but is visible from early mid-game. That holds at every skill level: a skilled player who goes fast never runs out of things to do. Things in the world take time, a craft, a train on its way, the weather or the time of day, and meanwhile there is still something to do, so play never falls into a moment of what now. A technical wait, such as loading, is as short as it can be, and shows that it is working. Nothing new to pursue for a moment is not nothing to do: there is the state to check and the next choice to think about, such as the balance when there is nothing to buy yet. Leave space for thinking, just not too much when the player already knows what to do. The better the player plays, the less time there is to think.
 
-Rests on: [Resuming An Interrupted Task](../psychology/resuming-an-interrupted-task.md), [The Goal Gradient](../psychology/the-goal-gradient.md).
+Rests on: [Flow](../psychology/flow.md), [Resuming An Interrupted Task](../psychology/resuming-an-interrupted-task.md), [The Goal Gradient](../psychology/the-goal-gradient.md), [Response Time Limits](../psychology/response-time-limits.md).
 
 ## Exploration Is Rewarded
 

@@ -22,7 +22,7 @@ Absorption is what a player comes back for, and its conditions are the part a ga
 
 - [Bands, Not Bullseyes](../gamedev/game-design-laws-progress.md#bands-not-bullseyes) - a window of success keeps the challenge within reach
 - [Communicate State](../gamedev/game-design-laws-ui.md#communicate-state) - immediate feedback
-- [Never Wait](../gamedev/game-design-laws-experience.md#never-wait) - no stretch without something to do
+- [Always Something To Do](../gamedev/game-design-laws-experience.md#always-something-to-do) - no stretch without something to do
 - [Fun First](../gamedev/game-design-laws-experience.md#fun-first) and [Friction In The World](../gamedev/game-design-laws-world.md#friction-in-the-world) - absorption in the loop
 
 ## Related
