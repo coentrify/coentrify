@@ -16,11 +16,11 @@ Something the player can miss gains value, if the player knows it can be missed.
 ## Limits
 
 - The research measured objects. Applying it to a line of dialog is a stretch, and no study measured whether scarcity makes people read more closely.
-- A line lost for good frustrates a slow reader, which is a cost to weigh.
+- A line lost for good frustrates a slow reader, and reading speed differs widely between adults (Brysbaert 2019, How many words do we read per minute? A review and meta-analysis of reading rate, Journal of Memory and Language 109, 104047, [doi:10.1016/j.jml.2019.104047](https://doi.org/10.1016/j.jml.2019.104047)). A line that waits for the player keeps the loss to a line the player chose to pass.
 
 ## The Laws On It
 
-- [Worth Reading](../gamedev/game-design-laws-story.md#worth-reading) - a missed line stays missed, once the player knows it
+- [Worth Reading](../gamedev/game-design-laws-story.md#worth-reading) - a missed line stays missed, once the player knows it, and a line waits for the player
 
 ## Related
 

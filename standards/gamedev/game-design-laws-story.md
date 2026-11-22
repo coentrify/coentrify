@@ -16,6 +16,7 @@ Part of what makes a game good is that the player can miss something, which give
 
 - No dialog has arrows to walk its lines again
 - A line missed stays missed
+- A line waits until the player moves on, so the pace is the reader's own
 
 Rests on: [Scarcity](../psychology/scarcity.md).
 
