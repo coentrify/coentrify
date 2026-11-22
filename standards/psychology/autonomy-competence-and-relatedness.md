@@ -25,6 +25,7 @@ The three needs are the best supported account of why people play at all, so mos
 - [Full Control](../gamedev/game-design-laws-experience.md#full-control), [Respect](../gamedev/game-design-laws-experience.md#respect), [No Try Hard](../gamedev/game-design-laws-progress.md#no-try-hard) and [Lasting Impact](../gamedev/game-design-laws-progress.md#lasting-impact) - autonomy
 - [Natural Breaks](../gamedev/game-design-laws-experience.md#natural-breaks) - the player's own pace, with a breather from the clock
 - [Doable 100%](../gamedev/game-design-laws-progress.md#doable-100) and [Loop First](../gamedev/game-design-laws-experience.md#loop-first) - competence
+- [Bands, Not Bullseyes](../gamedev/game-design-laws-progress.md#bands-not-bullseyes) - a beginner scrapes through and any method counts, competence and autonomy
 
 ## Related
 

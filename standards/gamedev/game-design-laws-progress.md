@@ -39,7 +39,7 @@ Relevant for: skill checks, timing and crafting.
 
 Success is a band, never a bullseye. A hit lands in a hitbox, never on a point, and a short grace period absorbs lag and thinking time. A beginner scrapes through, an expert optimizes, and any method that lands in the band counts ([No Try Hard](#no-try-hard)).
 
-Rests on: [Controllability](../psychology/controllability.md), [Flow](../psychology/flow.md).
+Rests on: [Controllability](../psychology/controllability.md), [Autonomy, Competence And Relatedness](../psychology/autonomy-competence-and-relatedness.md), [Fitts's Law](../psychology/fitts-law.md).
 
 ## Desire Before Reward
 

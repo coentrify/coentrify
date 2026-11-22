@@ -7,7 +7,6 @@ The worklist for the game laws checked against what is known about people. The f
 
 ## The Weak Points
 
-- Bands, Not Bullseyes - it rests on flow. In the one controlled game study, the balance of challenge and skill alone changed nothing, so the band rests more on competence and control.
 - Worth Reading - a missed line stays missed. Scarcity was measured with objects, and a line lost for good frustrates a slow reader.
 - Soft Sound - a repeated sound varies. The variation mainly keeps a repeat from sounding mechanical, spacing lets a sound recover, and a cue the player must notice stays recognizable.
 - No Hard Edges - the preference for curves is moderate, and the idea that sharp means threat is contested. A blade reads as a threat by what it is.

@@ -22,6 +22,7 @@ A small target, such as a close icon, is hit faster and with fewer misses when i
 ## The Laws On It
 
 - [Mouse First](../gamedev/game-design-laws-ui.md#mouse-first) - a close icon carries a large hit area
+- [Bands, Not Bullseyes](../gamedev/game-design-laws-progress.md#bands-not-bullseyes) - a hit lands in a hitbox, never on a point
 
 ## Related
 
