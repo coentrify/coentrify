@@ -10,6 +10,7 @@ const ROOT_PAGE_ORDER: readonly string[] = [
   'philosophy.md',
   'standards.md',
   'how-it-works.md',
+  'directing.md',
   'onboarding.md',
   'recommendations.md',
   'coentrify-json.md',

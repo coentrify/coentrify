@@ -49,3 +49,5 @@ The director is the human who directs the project. The director has three respon
 - Steer - set the vision, and direct how the system heals and personalizes itself
 - Own - answer for the result and for everything that touches the outside world
 - Provide - give the agents access, tools and a budget
+
+How the director works with coentrify day to day is in [Directing](directing.md).
