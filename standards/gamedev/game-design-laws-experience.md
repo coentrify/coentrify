@@ -4,9 +4,9 @@ Laws about what the player lives through from moment to moment. The index and th
 
 ## Never Wait
 
-The player never has to wait, unless it is technically impossible to continue right away. When waiting is unavoidable, entertain the player.
+The player never waits with nothing to do. Things in the world take time, a craft, a train on its way, the weather or the time of day, and meanwhile there is always something to do, so play never falls into a moment of what now ([Always Something To Do](#always-something-to-do)). A technical wait, such as loading, is as short as it can be, and shows that it is working.
 
-Rests on: [Response Time Limits](../psychology/response-time-limits.md).
+Rests on: [Flow](../psychology/flow.md), [Response Time Limits](../psychology/response-time-limits.md).
 
 ## Always Something To Do
 

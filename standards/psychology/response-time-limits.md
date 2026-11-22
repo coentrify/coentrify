@@ -24,7 +24,7 @@ An action answered at once feels like the player's own, and a wait the player ca
 ## The Laws On It
 
 - [Alive App, Static Actions](../gamedev/game-design-laws-ui.md#alive-app-static-actions) - actions are instant
-- [Never Wait](../gamedev/game-design-laws-experience.md#never-wait) - an unavoidable wait is filled
+- [Never Wait](../gamedev/game-design-laws-experience.md#never-wait) - a technical wait is short, and shows that it is working
 - [Mouse First](../gamedev/game-design-laws-ui.md#mouse-first) - a click acts on the press
 
 ## Related

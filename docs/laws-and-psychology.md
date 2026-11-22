@@ -7,7 +7,6 @@ The worklist for the game laws checked against what is known about people. The f
 
 ## The Weak Points
 
-- Never Wait - "the player never has to wait". The research grades a wait: feedback past a second, progress and a way out past ten. Flow says nothing on waiting.
 - Mouse First - "every click in the game acts on the press". Right in play. For a menu, the web's accessibility rules ask for action on release, or an undo, and a press responds no faster.
 - Alive App, Static Actions - "something is always moving on screen". Nothing supports it, and constant motion habituates and tires.
 - Adopt, Repeat, Confirm - the third use as the test. Learning comes from a use without help after a delay, never from a count, and an experienced player is slowed by steps meant for a novice.

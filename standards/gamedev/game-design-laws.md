@@ -12,7 +12,7 @@ Design builds on what is settled, and an agent decides the small things on its o
 
 The full text is in [Game Design Laws: Experience](game-design-laws-experience.md).
 
-- [Never Wait](game-design-laws-experience.md#never-wait) - the player never waits unless continuing is technically impossible. Unavoidable waiting entertains
+- [Never Wait](game-design-laws-experience.md#never-wait) - the player never waits with nothing to do. What takes time in the world leaves play going
 - [Always Something To Do](game-design-laws-experience.md#always-something-to-do) - a pull short term, a dot on the horizon long term
 - [Exploration Is Rewarded](game-design-laws-experience.md#exploration-is-rewarded) - looking around always finds something
 - [Full Control](game-design-laws-experience.md#full-control) - nothing is decided or happens without the player

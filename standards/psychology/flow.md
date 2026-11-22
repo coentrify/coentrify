@@ -16,12 +16,13 @@ Absorption is what a player comes back for, and its conditions are the part a ga
 ## Limits
 
 - The balance is one predictor among several, and alone it changed nothing in the one controlled game study.
-- Flow says nothing about waiting. A law against waiting needs a reason of its own.
+- A stretch with nothing to do takes away flow's first condition, a clear goal, and absorption breaks. A technical delay is another matter, covered by [Response Time Limits](response-time-limits.md).
 
 ## The Laws On It
 
 - [Bands, Not Bullseyes](../gamedev/game-design-laws-progress.md#bands-not-bullseyes) - a window of success keeps the challenge within reach
 - [Communicate State](../gamedev/game-design-laws-ui.md#communicate-state) - immediate feedback
+- [Never Wait](../gamedev/game-design-laws-experience.md#never-wait) - no stretch without something to do
 - [Fun First](../gamedev/game-design-laws-experience.md#fun-first) and [Friction In The World](../gamedev/game-design-laws-world.md#friction-in-the-world) - absorption in the loop
 
 ## Related
