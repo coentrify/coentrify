@@ -2,6 +2,7 @@
 
 What changed in each version of coentrify. A version has a page of its own, which opens with its summary. The summary is also the text of its release.
 
+- [0.2.1](0.2.1.md) - the game laws checked against what is known about people
 - [0.2.0](0.2.0.md) - the first round from a second project: the greeting first, proof from a fresh session, Contrast through time, and anchors that hold in the wiki
 - [0.1.4](0.1.4.md) - game design patterns, starting with the No-Gear level
 - [0.1.3](0.1.3.md) - a template for the Prototype phase page, and lore that starts from the first ideas

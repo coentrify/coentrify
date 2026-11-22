@@ -23,7 +23,7 @@ Every message from the director runs through these steps before any work on it s
 ### Classifying A Unit
 
 - A feature, a bug, a piece of debt, a piece of docs work, a spike or an epic is work.
-- An undecided idea becomes a ticket in its epic, its open point under Question, unless it is a maybe to investigate now ([A Maybe Is A Trigger To Investigate](../behavior/a-maybe-is-a-trigger-to-investigate.md)). A later phase's idea gets its ticket with the director's words and little more, refined once its phase comes.
+- An undecided idea becomes a ticket in its epic, its open point under Question, unless it is a maybe to investigate now ([A Maybe Is A Trigger To Investigate](../behavior/a-maybe-is-a-trigger-to-investigate.md)). An idea for the next phase gets its ticket with the director's words and little more, refined once its phase comes. One for a phase beyond the next waits in the dump ([Processing The Ideas](processing-the-ideas.md)).
 - A question for the director goes into the ticket it is about, under Question, which puts the ticket on the refine list.
 - An answer to an open question goes where [Work Tracking](work-tracking.md#the-open-questions) says.
 - Feedback from someone outside the project waits for the director's review before it becomes work.
