@@ -22,6 +22,7 @@ A goal whose distance the player sees pulls the player toward it, harder as it c
 
 - [Know What Is Coming](../gamedev/game-design-laws-progress.md#know-what-is-coming) - the distance to the next goal is visible
 - [Always Something To Do](../gamedev/game-design-laws-experience.md#always-something-to-do) - the next goal is there the moment one is reached
+- [Natural Breaks](../gamedev/game-design-laws-experience.md#natural-breaks) - a goal close by pulls the player to finish it first, and the drop after it is a good place to stop
 
 ## Related
 

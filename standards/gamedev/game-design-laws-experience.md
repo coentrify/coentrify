@@ -8,6 +8,12 @@ The player always has something to do. Short term, the pull to expand and explor
 
 Rests on: [Flow](../psychology/flow.md), [Resuming An Interrupted Task](../psychology/resuming-an-interrupted-task.md), [The Goal Gradient](../psychology/the-goal-gradient.md), [Response Time Limits](../psychology/response-time-limits.md).
 
+## Natural Breaks
+
+Play has natural breaks: quiet moments where stopping feels right, such as a goal just reached with the next one in view. The player can grab a coffee, walk the dog, or save and continue tomorrow, and chooses the pace. The pull to play on comes from wanting, the feel of let me just do this and this before I go, never from pressure. A player who keeps playing while hungry, because they want to, is the sign of a good game. A clock that drives the day may stop at its end and wait until the player ends the day: nothing progresses, and the player finishes what they were doing first, a breather from the clock. A natural break is no moment of what now: the next goal stays in view, and the world waits ([Always Something To Do](#always-something-to-do)).
+
+Rests on: [The Goal Gradient](../psychology/the-goal-gradient.md), [Resuming An Interrupted Task](../psychology/resuming-an-interrupted-task.md), [Autonomy, Competence And Relatedness](../psychology/autonomy-competence-and-relatedness.md).
+
 ## Exploration Is Rewarded
 
 A player who looks around, opens something or goes somewhere unasked always finds something there: a thing to build, a clue, a secret. Curiosity pays, so the explorer keeps exploring.

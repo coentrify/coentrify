@@ -12,6 +12,7 @@ A goal the player has begun pulls the player back, so a session left in the midd
 - Zeigarnik 1927, Das Behalten erledigter und unerledigter Handlungen, Psychologische Forschung 9(1), 1-85, [doi:10.1007/BF02409755](https://doi.org/10.1007/BF02409755). The memory claim.
 - Ghibellini and Meier 2025, Interruption, recall and resumption: a meta-analysis of the Zeigarnik and Ovsiankina effects, Humanities and Social Sciences Communications 12, [doi:10.1057/s41599-025-05000-w](https://doi.org/10.1057/s41599-025-05000-w). The urge to resume is general, and the memory advantage is not.
 - Masicampo and Baumeister 2011, Consider it done! Plan making can eliminate the cognitive effects of unfulfilled goals, Journal of Personality and Social Psychology 101(4), 667-683, [doi:10.1037/a0024192](https://doi.org/10.1037/a0024192). A plan for an open goal quiets its pull.
+- Adamczyk and Bailey 2004, If not now, when? The effects of interruption at different moments within task execution, CHI, 271-278, [doi:10.1145/985692.985727](https://doi.org/10.1145/985692.985727). A break at a boundary between tasks cost less than one in the middle.
 - How solid: the urge to resume is solid. The memory claim is not.
 
 ## Limits
@@ -21,6 +22,7 @@ A goal the player has begun pulls the player back, so a session left in the midd
 ## The Laws On It
 
 - [Always Something To Do](../gamedev/game-design-laws-experience.md#always-something-to-do) - a begun goal waits for the player, and a visible queue keeps the rest calm
+- [Natural Breaks](../gamedev/game-design-laws-experience.md#natural-breaks) - a break falls where a goal is done, with the next one planned
 
 ## Related
 
