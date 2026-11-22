@@ -54,3 +54,4 @@ Each change is weighed against these questions.
 - Is it local to one standard, or structural across several? A structural change is weighed against the whole before any file is touched.
 - Does it fit the budget? A standard over its budget is trimmed before anything is added.
 - Does it hold everywhere? A project specific stays in that project, in the examples as much as in the rule: no names, labels, words in another language, numbers or setups from one project.
+- For a game law: which finding about people does it rest on? A law with none known is weighed again, or kept with that said.
