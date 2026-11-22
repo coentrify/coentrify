@@ -30,6 +30,7 @@ const LOWERCASE_NAMES = new Set(['npm', 'npx']);
 const PARENT_FOLDER = '../';
 const BUDGET_FLAG = '--budget';
 const SEMICOLON = ';';
+const CITATION_MARK = '[doi:';
 const FILLER = /\b(genuinely|genuine|truly|actually|legitimately|demonstrably|basically|essentially|literally)\b/i;
 const BRITISH =
   /\b(catalogues?|catalogued|afterwards|towards|amongst|whilst|colours?|behaviours?|organisations?|organise[ds]?|initialise[ds]?|recognise[ds]?|prioritise[ds]?|optimise[ds]?|customise[ds]?|customisation|analyse[ds]?|centres?|favour(s|ite|ed)?|licence|judgement|travelled|modelled|cancelled|labelled|grey|learnt|spelt)\b/i;
@@ -295,7 +296,7 @@ function proseErrors() {
       if (filler) {
         errors.push(`${page}:${number} holds the filler word "${filler[1]}"`);
       }
-      const british = line.match(BRITISH);
+      const british = line.includes(CITATION_MARK) ? null : line.match(BRITISH);
       if (british) {
         errors.push(`${page}:${number} spells "${british[1]}" the British way`);
       }

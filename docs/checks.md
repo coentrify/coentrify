@@ -9,7 +9,7 @@ The checks this repository runs on itself.
 - `npm run lint:standards -- --why` prints every standard without a Why section.
 - A part page is left out of that list. Its title opens with the title of its parent before a colon, and the parent carries the Why. It keeps the word budget of a standard.
 - `npm run lint:standards` fails on an anchor that names no heading of its page, slugged the way GitHub slugs it. The wiki slugs its headings the same way, from the one function in `scripts/heading-slug.mjs`.
-- `npm run lint:standards` fails on a semicolon in prose, a filler word such as `genuinely` or `truly`, and a British spelling, outside code, on every markdown page as well.
+- `npm run lint:standards` fails on a semicolon in prose, a filler word such as `genuinely` or `truly`, and a British spelling, outside code, on every markdown page as well. A line with a DOI is a citation, which quotes a title as published, so its spelling passes.
 - It also fails on a standard that does not open with its rule, a Why that is not the first section, and a standard that does not end with Related.
 - `npm run lint:standards -- --budget` prints every standard past its word budget: 600 for a standard, 1,200 for a template and 3,000 for a hub. A module's `budget-exceptions.json` raises the budget of a page it lists to the words accepted there.
 - Every version has a page in `changelog/`, and `npm run lint:standards` fails when the overview there does not list it.
