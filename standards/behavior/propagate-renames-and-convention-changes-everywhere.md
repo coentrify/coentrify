@@ -8,7 +8,7 @@ A name or a convention reads the same in every place.
 
 ## How To Apply
 
-Enumerate first: grep the old term to list every site. Sweep them all. Re-grep afterward to confirm none remain.
+Enumerate first: grep the old term to list every site. Where the meaning changes too, grep the old wording as well, since a paraphrase names a concept without its name. Sweep them all. Re-grep afterward to confirm none remain.
 
 ## Related
 
