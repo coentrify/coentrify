@@ -15,6 +15,7 @@ The versions on the way to 1.0.
 - Probe the standards again at every new model release, on new traps.
 - Probe Reload The Standards After Compacting on a long session, where the summary is far smaller than what it replaces, as the [worklist](relevance-vetting.md) says.
 - Finish the test on the first real project: a one-word prompt, the reload after a compaction, the session check and the update from 0.1.0.
+- Write Directing, a guide for the human director, in 0.2.x: the moves gathered from the standards (a go, a verdict, a veto, a maybe, a filing, and what each setting hands over), then the craft from the director's own experience: the director wearing the hats of product owner, designer and tech lead, signals to tighten or loosen, a good session, week and project, and the common failure modes. The part on existing projects comes from the second project.
 - Give Gamedev a list per asset type, with a template for characters, buildings, vehicles, outfits and the like.
 - Probe the bare word again once coentrify is indexed and linked from other sites, and simplify the first prompt when it passes.
 - Run the update and unlink scripts from the package, ported to Node.
