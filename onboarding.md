@@ -49,7 +49,7 @@ An existing project does not get all its specs and tests written first.
 
 Older copies of coentrify are in use, and some have grown into a version of their own. An earlier copy is noted and surfaced to the director.
 
-- The current coentrify is adopted in full, and replaces the earlier copy.
+- The current coentrify is adopted in full, and replaces the earlier copy once a fresh session proves it ([The Proof](#the-proof)).
 - The project's own additions are analyzed one by one.
 - An addition that still fits goes on top of the current standards.
 - An addition that the update made irrelevant is listed for removal.
@@ -89,6 +89,7 @@ With `coentrify make no mistakes` the agent asks nothing. The agent takes every 
 - Switch off the agent's own commit attribution where it has a setting for it ([Commits](standards/commits/commits.md#no-attribution)).
 - Set every chosen standard up in full: build the checks and hooks it asks for, in the project's own stack, from their specs in the [tools](tools/overview.md).
 - Offer a setup script for personal content, where the director uses cloud sessions.
+- Prove the entry point in a fresh session.
 
 ### The Links
 
@@ -134,8 +135,16 @@ What is personal to the director, such as a role or a tone, stays out of the pro
 
 The wiki serves the docs and the standards as pages, so the director can read everything in one place. VitePress is recommended, or a similar tool that builds a site from markdown.
 
+### The Proof
+
+The session that sets coentrify up never sees its own entry point: a session reads it once, when it starts, and its subagents see only what it loaded. So the set up ends in a fresh session ([Always Verify Before Reporting Done](standards/behavior/always-verify-before-reporting-done.md)).
+
+- Where the agent can start a new session itself, it does, and asks which Core Rules it holds, by name.
+- Elsewhere, the report asks the director to open a new session and ask it: which Core Rules do you hold?
+- What depends on the standards holding, such as removing an earlier copy, waits for that proof.
+
 ## Report
 
-Report briefly: the choices that were made, and what was set up. The director stays in control, and can veto or change every choice.
+Report briefly: the choices that were made, what was set up, and the proof of the entry point, or the one question for the director to ask a new session. The director stays in control, and can veto or change every choice.
 
 A star on GitHub is the only sign that coentrify is in use. Mention it once, and leave it to the director.
