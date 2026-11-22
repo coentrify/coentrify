@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress';
 import { buildSidebar } from './sidebar';
 import { sidebarRefresh } from './sidebar-refresh';
+import { headingSlug } from '../scripts/heading-slug.mjs';
 
 const WIKI_PORT: number = 47219;
 const WIKI_BASE: string = process.env.WIKI_BASE ?? '/';
@@ -23,6 +24,10 @@ export default defineConfig({
   },
   cleanUrls: true,
   lastUpdated: true,
+  markdown: {
+    anchor: { slugify: headingSlug },
+    headers: { slugify: headingSlug },
+  },
   themeConfig: {
     sidebar: buildSidebar(ROOT, [...EXCLUDED_FOLDERS, ...EXCLUDED_PAGES]),
     search: {

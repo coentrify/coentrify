@@ -1,6 +1,7 @@
 import { execFileSync } from 'node:child_process';
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
-import { join } from 'node:path';
+import { dirname, join, normalize } from 'node:path';
+import { headingSlug } from './heading-slug.mjs';
 
 const STANDARDS_FOLDER = 'standards';
 const INDEX_PAGE = 'overview.md';
@@ -12,6 +13,7 @@ const LINKS_FLAG = '--links';
 const WHY_FLAG = '--why';
 const VERSION_TAG_PATTERN = 'v[0-9]*';
 const MARKDOWN_LINK = /\]\(([^)#]+\.md)\)/g;
+const ANCHOR_LINK = /\]\(([^)#\s]*)#([^)\s]+)\)/g;
 const WHY_HEADING = /^## (Why|Purpose)$/m;
 const TITLE = /^# (.+)$/m;
 const PART_SEPARATOR = ': ';
@@ -243,6 +245,45 @@ function proseLines(text) {
   return lines;
 }
 
+function headingIds(page) {
+  const ids = new Set();
+  const seen = new Map();
+  let inCode = false;
+  for (const line of readFileSync(page, 'utf8').split('\n')) {
+    if (line.trimStart().startsWith(FENCE)) {
+      inCode = !inCode;
+    }
+    const heading = inCode ? null : line.match(HEADING);
+    if (heading !== null) {
+      const slug = headingSlug(heading[1]);
+      const count = seen.get(slug) ?? 0;
+      ids.add(count === 0 ? slug : `${slug}-${count}`);
+      seen.set(slug, count + 1);
+    }
+  }
+  return ids;
+}
+
+function anchorErrors() {
+  const pages = markdownPages();
+  const ids = new Map(pages.map((page) => [page, headingIds(page)]));
+  const errors = [];
+  for (const page of pages) {
+    for (const [number, line] of proseLines(readFileSync(page, 'utf8'))) {
+      for (const [, target, anchor] of line.matchAll(ANCHOR_LINK)) {
+        if (target !== '' && !target.endsWith(MARKDOWN_EXTENSION)) {
+          continue;
+        }
+        const path = target === '' ? page : normalize(join(dirname(page), target));
+        if (ids.has(path) && !ids.get(path).has(anchor)) {
+          errors.push(`${page}:${number} links #${anchor}, which names no heading of ${path}`);
+        }
+      }
+    }
+  }
+  return errors;
+}
+
 function proseErrors() {
   const errors = [];
   for (const page of markdownPages()) {
@@ -410,6 +451,7 @@ const errors = [
   ...formatErrors(),
   ...relevantForErrors(),
   ...proseErrors(),
+  ...anchorErrors(),
   ...shapeErrors(),
   ...(process.argv.includes(STAGED_FLAG) ? stagedErrors() : []),
 ];
