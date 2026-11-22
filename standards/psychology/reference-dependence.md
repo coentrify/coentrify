@@ -23,7 +23,7 @@ What the player sees means something only against what stands beside it, or what
 - [Contrast](../gamedev/game-design-laws-world.md#contrast) - dense and sparse, the start and the end
 - [Answer The Player's Next Question](../gamedev/game-design-laws-guidance.md#answer-the-players-next-question) - a value means something only against a reference
 - [Shown Together](../gamedev/game-design-laws-own-style.md#shown-together) - a style is judged against its neighbors
-- [Earned Progress](../gamedev/game-design-laws-progress.md#earned-progress) - the gap between the start and the end
+- [Earned Progress](../gamedev/game-design-laws-progress.md#earned-progress) - the gap between the start and the end, with the start brought back into view on purpose
 - [Desire Before Reward](../gamedev/game-design-laws-progress.md#desire-before-reward) - an early reward raises the reference, and the gap shrinks
 
 ## Related
