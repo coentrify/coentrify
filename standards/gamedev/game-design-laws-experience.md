@@ -57,7 +57,7 @@ Rests on: [Hedonic Adaptation](../psychology/hedonic-adaptation.md).
 
 ## Soft Sound
 
-The mix is soft. A repeated sound varies a bit in pitch and length. A layer belongs to its scene: it starts with the scene and stops when the scene leaves. Playtest feedback on sound asks for softer, lower and more varied, never for louder.
+The mix is soft. A repeated sound varies a bit in pitch and length. A sound the player must notice, such as a warning, varies only a little, so it stays recognizable, and is spaced, so it keeps its bite. A layer belongs to its scene: it starts with the scene and stops when the scene leaves. Playtest feedback on sound asks for softer, lower and more varied, never for louder.
 
 Rests on: [Habituation](../psychology/habituation.md).
 
