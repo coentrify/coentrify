@@ -35,14 +35,15 @@ An unlock is never gated arbitrarily. What is out of reach is out of reach for a
 
 ## Contrast
 
-Relevant for: an open world.
+Relevant for: an open world, and a world or a player that grows.
 
-A world lives by the contrast between dense and sparse. A city feels full and busy only beside an empty forest, and the forest feels empty only beside the city. A world crammed full everywhere loses both.
+A world lives by the contrast between dense and sparse, in space and through time. In space, a city feels full and busy only beside an empty forest, and the forest feels empty only beside the city. Through time, an empty or small start sets off a full or large end: the world fills, the player grows, and the growth is felt only against where it began ([Earned Progress](game-design-laws-progress.md#earned-progress)). A world crammed full everywhere, or full from the start, loses both.
 
 - A sparse area holds few points of interest, maybe one: an artifact hidden deep in the forest. It feels quiet, yet the player senses something could be out there, and the wish to explore is fed at irregular moments ([Exploration Is Rewarded](game-design-laws-experience.md#exploration-is-rewarded)).
 - The contrast pulls the player toward the center and away from looking for the edges: the closer to the center, the busier and more exciting, as naturally as possible.
 - A drive out feels like an escape, from the surroundings alone.
 - Never miles and miles of nothing: an explorer gets back to the busy world reasonably quickly.
+- A game names its poles, in space and through time, and where the player meets each.
 
 ## Related
 
