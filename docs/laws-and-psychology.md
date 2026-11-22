@@ -7,7 +7,6 @@ The worklist for the game laws checked against what is known about people. The f
 
 ## The Weak Points
 
-- No Yellow Paint - lines that cheer the player on "treat the player as someone who needs encouragement, which nobody does". Feedback that informs raises intrinsic motivation, and feedback that controls lowers it.
 - Never Wait - "the player never has to wait". The research grades a wait: feedback past a second, progress and a way out past ten. Flow says nothing on waiting.
 - Mouse First - "every click in the game acts on the press". Right in play. For a menu, the web's accessibility rules ask for action on release, or an undo, and a press responds no faster.
 - Alive App, Static Actions - "something is always moving on screen". Nothing supports it, and constant motion habituates and tires.

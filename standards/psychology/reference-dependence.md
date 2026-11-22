@@ -24,6 +24,7 @@ What the player sees means something only against what stands beside it, or what
 - [Answer The Player's Next Question](../gamedev/game-design-laws-guidance.md#answer-the-players-next-question) - a value means something only against a reference
 - [Shown Together](../gamedev/game-design-laws-own-style.md#shown-together) - a style is judged against its neighbors
 - [Earned Progress](../gamedev/game-design-laws-progress.md#earned-progress) - the gap between the start and the end
+- [Desire Before Reward](../gamedev/game-design-laws-progress.md#desire-before-reward) - an early reward raises the reference, and the gap shrinks
 
 ## Related
 
