@@ -22,7 +22,8 @@ The end of a session, a level or a game weighs heavily in how the player remembe
 ## The Laws On It
 
 - [Start And End](../gamedev/game-design-laws-progress.md#start-and-end) - the game has an end
-- [As Long As It Is Interesting](../gamedev/game-design-laws-progress.md#as-long-as-it-is-interesting) - it ends on a high, never trailing off
+- [As Long As It Is Interesting](../gamedev/game-design-laws-progress.md#as-long-as-it-is-interesting) - it ends on a high, with nothing lesser right after the climax
+- [Natural Breaks](../gamedev/game-design-laws-experience.md#natural-breaks) - a break comes after a high, so a session ends well
 
 ## Related
 

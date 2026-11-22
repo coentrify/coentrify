@@ -22,7 +22,7 @@ The thrill of every upgrade fades, so a game keeps the steps coming and ends bef
 
 - [Earned Progress](../gamedev/game-design-laws-progress.md#earned-progress) - small, regular steps felt in play
 - [As Long As It Is Interesting](../gamedev/game-design-laws-progress.md#as-long-as-it-is-interesting) - the game ends before its fun flattens
-- [Easy Pause](../gamedev/game-design-laws-experience.md#easy-pause) - a break restores the pleasure
+- [Easy Pause](../gamedev/game-design-laws-experience.md#easy-pause) and [Natural Breaks](../gamedev/game-design-laws-experience.md#natural-breaks) - a break restores the pleasure
 
 ## Related
 

@@ -15,7 +15,9 @@ The game is as long as it is interesting, not the other way around.
 - No level, scene or story beat has a target length. Everything is there as it should be
 - Nothing is stretched to fill a playtime, and nothing is cut to meet one
 - A fast player goes fast
-- The game ends while the player still wants more
+- The game ends on a high, while the player still wants more. The player walks away with a strong sense of closure and achievement, and a way back in: the itch to do another loop, even when nothing is left to do, because the player misses it
+- The end is a soft closure, never a hard what now: play may go on after it, and slowly matters less. What comes next fits the climax: a minor task right after saving the world leaves a gap
+- A level or a loop ends on a high too, and makes a natural break ([Natural Breaks](game-design-laws-experience.md#natural-breaks))
 
 Rests on: [Hedonic Adaptation](../psychology/hedonic-adaptation.md), [The Peak-End Rule](../psychology/the-peak-end-rule.md).
 

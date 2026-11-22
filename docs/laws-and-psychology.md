@@ -7,7 +7,6 @@ The worklist for the game laws checked against what is known about people. The f
 
 ## The Weak Points
 
-- As Long As It Is Interesting - "the game ends while the player still wants more". Untested. The peak-end rule supports ending on a high, and holds for a session or a level more than for a whole game.
 - Earned Progress and Contrast through time - growth is felt against the start. The reference drifts to the new normal, so the start keeps its pull only while the game keeps it in view.
 - Contrast - a drive out feels like an escape. Rest comes from soft fascination, never from emptiness, which fits the sparse area with its one find. Optimal arousal supports Contrast only weakly.
 - Fair Surprise - the player reads a risk and partly steers it. Controllability backs the steering. Reading a risk in advance is predictability, which it does not cover.
