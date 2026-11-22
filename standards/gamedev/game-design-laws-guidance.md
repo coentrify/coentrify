@@ -10,6 +10,8 @@ Yellow paint is steering applied too much, the exemplary case being the painted 
 - Lines that cheer the player on, almost through, keep going, nearly there, do the opposite of a clue: they say nothing about the world and treat the player as someone who needs encouragement, which nobody does.
 - Telling the player what to do belongs to a concept the player has not met before, and then once. A mechanic that has been introduced is never hinted again, and the line goes as soon as the concept has landed.
 
+Rests on: [Curiosity As An Information Gap](../psychology/curiosity-as-an-information-gap.md), [Rewards And Feedback](../psychology/rewards-and-feedback.md).
+
 ## Answer The Player's Next Question
 
 What the game shows is support for the player's decisions: it answers the question the player would ask at that moment, guiding their thoughts without steering them ([Walk The User's Journey](../ui/walk-the-users-journey.md)). So every word and number is weighed by what it means to the player there, never by what the system holds.
@@ -19,6 +21,8 @@ What the game shows is support for the player's decisions: it answers the questi
 - A tiered value shows where the player stands, where it goes and the difference, and makes plain whether a step adds to the last or multiplies it, and what it comes to in the game.
 - Nothing is told in terms the player has not met yet: a currency is introduced as something to get, the wallet at 0, before a price is told in it. No buff on something that does not exist yet.
 - It serves both ways of thinking: the explorer asking what can be done here, and the follower asking what the game wants done.
+
+Rests on: [Cognitive Load](../psychology/cognitive-load.md), [Reference Dependence](../psychology/reference-dependence.md).
 
 ## Adopt, Repeat, Confirm (ARC)
 
@@ -31,6 +35,8 @@ Every new thing is introduced in five steps, shaped to fit the thing, one new th
 - Confirm: the third time confirms the action as a skill. It is a test that can be failed, an invitation, and the game just moves on
 
 Confirm overlaps the next link's Awareness, so the pattern widens the horizon as it chains.
+
+Rests on: [Cognitive Load](../psychology/cognitive-load.md), [Retrieval Practice](../psychology/retrieval-practice.md).
 
 ## Related
 

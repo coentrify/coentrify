@@ -4,6 +4,8 @@ Relevant for: a world the player finds the way in.
 
 A player finds the way by a mental map built from five elements, after Kevin Lynch's *The Image of the City* (1960): paths, edges, districts, nodes and landmarks. A world is easy to find the way in, and to remember, when the five are strong and clear.
 
+Rests on: [Cognitive Maps](../psychology/cognitive-maps.md).
+
 ## Why
 
 A player who can read the world finds the way without a minimap or an arrow, so the world guides without yellow paint ([No Yellow Paint](game-design-laws-guidance.md#no-yellow-paint)).

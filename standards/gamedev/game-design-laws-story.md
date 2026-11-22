@@ -6,6 +6,8 @@ Laws about what the game says. The index and the way a game uses them are in [Ga
 
 Never tell the player what happened, what to feel or what to experience. Let the player experience it. A bad guy is discovered by doing a bad thing to the player, so the frustration is felt rather than announced. A good thing arrives as emotionless stats that do something, not as lore or explanation. The player attaches their own judgment. When words are needed, they are short and easy to understand, preferably voiced, subtitled and animated, without being too spot on.
 
+Rests on: [Narrative Transportation](../psychology/narrative-transportation.md).
+
 ## Worth Reading
 
 Relevant for: dialog.
@@ -14,6 +16,8 @@ Part of what makes a game good is that the player can miss something, which give
 
 - No dialog has arrows to walk its lines again
 - A line missed stays missed
+
+Rests on: [Scarcity](../psychology/scarcity.md).
 
 ## Dialog Gives Context
 
@@ -26,6 +30,8 @@ Dialog accompanies what is on screen as its narrative: it gives the player the c
 - Dialog gives context, never instructions: what to do stays with [No Yellow Paint](game-design-laws-guidance.md#no-yellow-paint).
 - A narrator explaining what happened or what to feel stays out ([Show, Don't Tell](#show-dont-tell)).
 
+Rests on: [Cognitive Load](../psychology/cognitive-load.md), [Narrative Transportation](../psychology/narrative-transportation.md).
+
 ## Make Yourself
 
 Relevant for: a player character.
@@ -33,6 +39,8 @@ Relevant for: a player character.
 The player can personalize the game to reflect themselves: the character can look like them, their hair, their face, their build, and the world carries what they stand for. Being represented matters more than a look of a certain vibe or graphical realism. A player who cannot make themselves is missing something.
 
 The player needs the ability and the space to represent themselves: the personalization options, and no steering of their judgment. The game stays as neutral as it can, so the character can relate. That is no indifference when a bad guy is being bad. It means not clouding it with external reasoning or noise, the writer's judgment among them.
+
+Rests on: [Avatar Identification](../psychology/avatar-identification.md).
 
 ## Related
 

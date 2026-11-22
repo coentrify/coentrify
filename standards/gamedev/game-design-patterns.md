@@ -16,6 +16,8 @@ A No-Gear level takes the player's gear away for a while: the tools, the money, 
 - It ends with the gear coming back, which makes what was built feel earned a second time ([Earned Progress](game-design-laws-progress.md#earned-progress)).
 - A game may open with one as well: an opening that shows a later setup, then takes it away.
 
+Rests on: [Effort And The IKEA Effect](../psychology/effort-and-the-ikea-effect.md).
+
 ## Related
 
 - [Game Design Laws](game-design-laws.md)

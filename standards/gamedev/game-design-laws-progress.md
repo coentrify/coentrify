@@ -6,6 +6,8 @@ Laws about the shape of the whole game: its length, its completion and the progr
 
 The game has a start and an end. That also counts for prestige and new game plus.
 
+Rests on: [The Peak-End Rule](../psychology/the-peak-end-rule.md).
+
 ## As Long As It Is Interesting
 
 The game is as long as it is interesting, not the other way around.
@@ -15,13 +17,19 @@ The game is as long as it is interesting, not the other way around.
 - A fast player goes fast
 - The game ends while the player still wants more
 
+Rests on: [Hedonic Adaptation](../psychology/hedonic-adaptation.md), [The Peak-End Rule](../psychology/the-peak-end-rule.md).
+
 ## Doable 100%
 
 Completing the game 100% is reasonably doable. No orthogonal gameplay, like a parkour section in an automation game, that demands a different skill for completion. Pride in 100% comes from playing the entire game and doing all the side quests. A player grinding, bored, because of one missing side quest means the side challenges were designed wrong.
 
+Rests on: [Autonomy, Competence And Relatedness](../psychology/autonomy-competence-and-relatedness.md).
+
 ## No Try Hard
 
 Beating the game normally never requires playing try hard. The game supports every type of player, the completionist and the casual alike, by staying flexible and never forcing a play style. Optimizing is there for the player who wants it.
+
+Rests on: [Autonomy, Competence And Relatedness](../psychology/autonomy-competence-and-relatedness.md).
 
 ## Bands, Not Bullseyes
 
@@ -29,9 +37,13 @@ Relevant for: skill checks, timing and crafting.
 
 Success is a band, never a bullseye. A hit lands in a hitbox, never on a point, and a short grace period absorbs lag and thinking time. A beginner scrapes through, an expert optimizes, and any method that lands in the band counts ([No Try Hard](#no-try-hard)).
 
+Rests on: [Controllability](../psychology/controllability.md), [Flow](../psychology/flow.md).
+
 ## Desire Before Reward
 
 The player wants a thing before they can have it. A wreck on the horizon is seen long before it can be reached ([Always Something To Do](game-design-laws-experience.md#always-something-to-do)). The wanting makes the way there worth playing, a dull task included. A reward that comes before the wanting is worth nothing.
+
+Rests on: [Wanting Apart From Liking](../psychology/wanting-apart-from-liking.md).
 
 ## Earned Progress
 
@@ -41,9 +53,13 @@ The player feels the progress made, so the gap between where the player starts a
 - Upgrades come in small, regular steps that are felt in play.
 - Relevant for an economy: every step up brings a new risk beside the new unlock.
 
+Rests on: [Effort And The IKEA Effect](../psychology/effort-and-the-ikea-effect.md), [Hedonic Adaptation](../psychology/hedonic-adaptation.md), [Reference Dependence](../psychology/reference-dependence.md).
+
 ## Lasting Impact
 
 What the player does and decides has a lasting effect on the game's progress.
+
+Rests on: [Autonomy, Competence And Relatedness](../psychology/autonomy-competence-and-relatedness.md).
 
 ## Emergent Gameplay
 
@@ -52,6 +68,8 @@ Systems whose mere existence opens possibilities for the player, play styles amo
 ## Know What Is Coming
 
 The player always knows what is coming in the short future: the next upgrade, the next unlock, the distance to the next goal, and when it is the end. There is always something coming, so the next upgrade or level is always looming. Knowing needs no overview or progress bar: the world can show it, by a billboard, a glimpse or a line of dialog. Nothing unlocks before it is introduced ([Adopt, Repeat, Confirm](game-design-laws-guidance.md#adopt-repeat-confirm-arc)). The world still keeps its secrets ([Fair Surprise](game-design-laws-world.md#fair-surprise)).
+
+Rests on: [The Goal Gradient](../psychology/the-goal-gradient.md).
 
 ## Related
 

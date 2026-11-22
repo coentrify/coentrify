@@ -10,6 +10,8 @@ The game that goes out is polished and fully done: once it is live, every versio
 - The look and the finish wait for Alpha ([Game Phases: Development](game-phases-development.md)).
 - The work follows the spirit of the task, never only its words ([Understand The Need](../behavior/understand-the-need.md)).
 
+Rests on: [Processing Fluency](../psychology/processing-fluency.md).
+
 ## Every Mechanic Matters
 
 Everything added, mechanics, content and systems alike, adds value to the experience, or it lowers the quality of the game by design. None is added for the sake of having one more. A mechanic gone irrelevant makes the player stop caring.
@@ -17,6 +19,8 @@ Everything added, mechanics, content and systems alike, adds value to the experi
 - A thing that fits no purpose is considered for cutting.
 - That look ends one of two ways: a purpose nobody had named is found, or the thing was distracting from the main game.
 - An example: a player who can enter every house gets an endless loop of exploring without reward. The houses stay when the game is about feeling free and needing places to hide, or when a house has something to do.
+
+Rests on: [Cognitive Load](../psychology/cognitive-load.md).
 
 ## Related
 

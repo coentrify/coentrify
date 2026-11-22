@@ -19,6 +19,8 @@ An example of the readable risk: speeding with forbidden goods can get the playe
 
 [Full Control](game-design-laws-experience.md#full-control) holds, since the surprise answers the player's own action. [Know What Is Coming](game-design-laws-progress.md#know-what-is-coming) keeps the progress visible, and the world keeps its secrets.
 
+Rests on: [Controllability](../psychology/controllability.md), [Curiosity As An Information Gap](../psychology/curiosity-as-an-information-gap.md).
+
 ## The World Reacts
 
 The world acknowledges the player's presence: an action leaves a trace that can be seen. A trace may fade again. The reaction is what counts.
@@ -26,6 +28,8 @@ The world acknowledges the player's presence: an action leaves a trace that can 
 ## Friction In The World
 
 Friction is something the player does in the world, never a menu or a wait.
+
+Rests on: [Flow](../psychology/flow.md).
 
 ## No Artificial Gates
 
@@ -44,6 +48,8 @@ A world lives by the contrast between dense and sparse, in space and through tim
 - A drive out feels like an escape, from the surroundings alone.
 - Never miles and miles of nothing: an explorer gets back to the busy world reasonably quickly.
 - A game names its poles, in space and through time, and where the player meets each.
+
+Rests on: [Attention Restoration](../psychology/attention-restoration.md), [Optimal Arousal](../psychology/optimal-arousal.md), [Reference Dependence](../psychology/reference-dependence.md), [Variable Reward Schedules](../psychology/variable-reward-schedules.md).
 
 ## Related
 
