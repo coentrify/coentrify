@@ -30,6 +30,7 @@ The Psychology standards: findings about people that the game laws rest on, each
 - [Retrieval Practice](retrieval-practice.md) - recalling unprompted, after a delay, beats studying again
 - [Rewards And Feedback](rewards-and-feedback.md) - expected rewards and controlling feedback lower intrinsic motivation, and feedback that informs raises it
 - [Scarcity](scarcity.md) - scarce things are valued more, when the scarcity is noticed
+- [Spatial Memory](spatial-memory.md) - people learn where controls are and go there from memory, so a layout keeps its places
 - [The Goal Gradient](the-goal-gradient.md) - effort rises as a goal comes near
 - [The Peak-End Rule](the-peak-end-rule.md) - a short experience is remembered by its peak and its end
 - [Variable Reward Schedules](variable-reward-schedules.md) - unpredictable rewards keep behavior up, and drive compulsion when paid and random

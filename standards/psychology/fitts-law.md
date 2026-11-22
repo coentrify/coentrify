@@ -17,13 +17,13 @@ A small target, such as a close icon, is hit faster and with fewer misses when i
 
 - What counts is the area that takes the click. Padding that only looks bigger does nothing.
 - A target that is easy to hit is easy to hit by accident, so its neighbors need room.
-- It models targets that stand still. A control that moves misses for another reason: the hand is already aimed at where it was.
+- It models targets that stand still. A control that moves misses for another reason, covered by [Spatial Memory](spatial-memory.md).
 
 ## The Laws On It
 
 - [Mouse First](../gamedev/game-design-laws-ui.md#mouse-first) - a close icon carries a large hit area
-- [No Layout Shifts](../gamedev/game-design-laws-ui.md#no-layout-shifts) - a control stays where the hand is aimed
 
 ## Related
 
 - [Response Time Limits](response-time-limits.md)
+- [Spatial Memory](spatial-memory.md)

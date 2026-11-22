@@ -30,7 +30,7 @@ Rests on: [Luminance Contrast](../psychology/luminance-contrast.md).
 
 Controls never move. A button stays where it is while the player acts, so two quick upgrades land where they were aimed. A form keeps every row it can have: a row that does not apply shows grayed out, never left out.
 
-Rests on: [Fitts's Law](../psychology/fitts-law.md).
+Rests on: [Spatial Memory](../psychology/spatial-memory.md).
 
 ## Same Trigger Both Ways
 
