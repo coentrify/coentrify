@@ -7,7 +7,6 @@ The worklist for the game laws checked against what is known about people. The f
 
 ## The Weak Points
 
-- Adopt, Repeat, Confirm - the third use as the test. Learning comes from a use without help after a delay, never from a count, and an experienced player is slowed by steps meant for a novice.
 - No Layout Shifts - it rests on Fitts's Law, which models targets that stand still. The rule holds for another reason: the hand is already aimed where the control was.
 - Always Something To Do - the queue. The urge to resume holds for a begun goal, never for one not yet started. The void after a goal is the drop right after a reward, and a visible plan quiets the pull of open goals.
 - As Long As It Is Interesting - "the game ends while the player still wants more". Untested. The peak-end rule supports ending on a high, and holds for a session or a level more than for a whole game.
@@ -23,6 +22,7 @@ The worklist for the game laws checked against what is known about people. The f
 ## The Gaps
 
 - Relatedness - no law covers bonds with allies, companions, characters or other players ([Parasocial Bonds](../standards/psychology/parasocial-bonds.md)).
+- Chill moments - nothing gives play quiet moments where a break feels natural, so the player chooses the pace. The director's own idea, after the weak points ([Resuming An Interrupted Task](../standards/psychology/resuming-an-interrupted-task.md)).
 - The rhythm of the story - nothing says how intensity rises and falls, or that the story ends on a high ([The Peak-End Rule](../standards/psychology/the-peak-end-rule.md)).
 - Curiosity, never compulsion - nothing draws the line between rewarding curiosity and building a compulsion loop ([Variable Reward Schedules](../standards/psychology/variable-reward-schedules.md)).
 - Color alone - nothing says state never rests on color alone ([Color Vision Deficiency](../standards/psychology/color-vision-deficiency.md)).

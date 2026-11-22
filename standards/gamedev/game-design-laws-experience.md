@@ -22,7 +22,7 @@ Rests on: [Autonomy, Competence And Relatedness](../psychology/autonomy-competen
 
 ## Respect
 
-The player feels respected. No dumb tutorials. Feeling the need for a tutorial is a sign that something is not obvious.
+The player feels respected. No dumb tutorials. Feeling the need for a tutorial is a sign that something is not obvious. A tutorial or a prologue, where a game has one, is a soft onboarding that never holds the hand too much, and may let the player skip ahead.
 
 Rests on: [Autonomy, Competence And Relatedness](../psychology/autonomy-competence-and-relatedness.md), [Rewards And Feedback](../psychology/rewards-and-feedback.md).
 

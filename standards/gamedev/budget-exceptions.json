@@ -1,14 +1,18 @@
 {
   "game-design-laws-experience.md": {
-    "words": 772,
+    "words": 800,
     "reason": "eleven laws of one theme in one part, each with the findings it rests on"
+  },
+  "game-design-laws-guidance.md": {
+    "words": 697,
+    "reason": "three laws of one theme in one part, each with the findings it rests on"
   },
   "game-design-laws-progress.md": {
     "words": 678,
     "reason": "ten laws of one theme in one part, each with the findings it rests on"
   },
   "game-design-laws-ui.md": {
-    "words": 623,
+    "words": 645,
     "reason": "eight laws of one theme in one part, each with the findings it rests on"
   },
   "game-design-laws-world.md": {

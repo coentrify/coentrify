@@ -26,17 +26,19 @@ Rests on: [Cognitive Load](../psychology/cognitive-load.md), [Reference Dependen
 
 ## Adopt, Repeat, Confirm (ARC)
 
-Every new thing is introduced in five steps, shaped to fit the thing, one new thing per link.
+Every new thing is introduced in five steps, shaped to fit the thing, one new thing per link. The steps fit naturally into the world or the game, with time between the uses, so they never hold the player's hand or slow anyone down. An experienced player walks right through them and gets their bearings again. Overloading a new player with everything at once is far worse.
 
 - Awareness: the feature is seen, no action yet
 - Trigger: the conditions for the action are met
 - Adopt: the player does it once
-- Repeat: the player does it again
-- Confirm: the third time confirms the action as a skill. It is a test that can be failed, an invitation, and the game just moves on
+- Repeat: the player does it again, some time later
+- Confirm: the third time, later again and without help, confirms the action as a skill. It is an invitation, and a test that can be failed, or nothing is learned. The game just moves on
+
+A failed Confirm teaches through the result of the action alone. Nothing tells the player what they should have done, judges them, or cheers them on with a you'll get it next time ([No Yellow Paint](#no-yellow-paint)).
 
 Confirm overlaps the next link's Awareness, so the pattern widens the horizon as it chains.
 
-Rests on: [Cognitive Load](../psychology/cognitive-load.md), [Retrieval Practice](../psychology/retrieval-practice.md).
+Rests on: [Cognitive Load](../psychology/cognitive-load.md), [Retrieval Practice](../psychology/retrieval-practice.md), [Rewards And Feedback](../psychology/rewards-and-feedback.md).
 
 ## Related
 

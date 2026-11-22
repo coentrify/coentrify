@@ -10,7 +10,7 @@ Rests on: [Flow](../psychology/flow.md).
 
 ## Alive World, Static Actions
 
-The world feels alive: something always moves, slowly, never flashy. It tells the player the world is not paused: it breathes, and the player is in it, never looking at a still image. A movement that starts or stops draws the eye, so it is placed on purpose, or its pull is weighed first. Actions feel static: each action is just there. No idle animations on buttons, no slow bubble-up animations on modals or pop-ups that hold a secondary action, because those make the player wait again. The player stays in control.
+The world feels alive: something always moves, slowly, never flashy. It tells the player the world is not paused: it breathes, and the player is in it, never looking at a still image. A movement that starts or stops draws the eye, so it is placed on purpose, or its pull is weighed first. Depending on the game, a setting for less motion, such as less head bob or a motion sickness mode, is worth considering. Actions feel static: each action is just there. No idle animations on buttons, no slow bubble-up animations on modals or pop-ups that hold a secondary action, because those make the player wait again. The player stays in control.
 
 Rests on: [Motion Onset](../psychology/motion-onset.md), [Response Time Limits](../psychology/response-time-limits.md).
 

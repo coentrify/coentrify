@@ -74,7 +74,7 @@ The full text is in [Game Design Laws: Guidance](game-design-laws-guidance.md).
 
 - [No Yellow Paint](game-design-laws-guidance.md#no-yellow-paint) - no steering that does the player's thinking. A hint is a context clue
 - [Answer The Player's Next Question](game-design-laws-guidance.md#answer-the-players-next-question) - every word and number is weighed by what it means to the player
-- [Adopt, Repeat, Confirm (ARC)](game-design-laws-guidance.md#adopt-repeat-confirm-arc) - a five step pattern for every new thing: awareness, trigger, adopt, repeat, confirm
+- [Adopt, Repeat, Confirm (ARC)](game-design-laws-guidance.md#adopt-repeat-confirm-arc) - a five step pattern for every new thing, spaced in time: awareness, trigger, adopt, repeat, confirm
 
 ### World
 

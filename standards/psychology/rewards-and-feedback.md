@@ -20,6 +20,7 @@ What a game says when the player succeeds can feed the player's own interest or 
 
 ## The Laws On It
 
+- [Adopt, Repeat, Confirm (ARC)](../gamedev/game-design-laws-guidance.md#adopt-repeat-confirm-arc) - a failed Confirm teaches through its result alone
 - [No Yellow Paint](../gamedev/game-design-laws-guidance.md#no-yellow-paint) - a line states what happened, and never judges or pushes
 - [Respect](../gamedev/game-design-laws-experience.md#respect) - the player is treated as capable
 

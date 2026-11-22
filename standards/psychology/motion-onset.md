@@ -20,7 +20,7 @@ A world can move all the time without pulling at the player, and every start cal
 
 ## The Laws On It
 
-- [Alive World, Static Actions](../gamedev/game-design-laws-ui.md#alive-world-static-actions) - the world moves steadily, and a start or a stop is placed on purpose
+- [Alive World, Static Actions](../gamedev/game-design-laws-ui.md#alive-world-static-actions) - the world moves steadily, a start or a stop is placed on purpose, and a setting for less motion is worth considering
 
 ## Related
 
