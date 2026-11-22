@@ -41,7 +41,7 @@ Rests on: [Controllability](../psychology/controllability.md), [Flow](../psychol
 
 ## Desire Before Reward
 
-The player wants a thing before they can have it. A wreck on the horizon is seen long before it can be reached ([Always Something To Do](game-design-laws-experience.md#always-something-to-do)). The wanting makes the way there worth playing, a dull task included. A reward that comes before the wanting is worth nothing.
+The player wants a thing before they can have it. A wreck on the horizon is seen long before it can be reached ([Always Something To Do](game-design-laws-experience.md#always-something-to-do)). The wanting makes the way there worth playing, a dull task included. A reward that comes before the wanting is enjoyed, and pulls the player nowhere.
 
 Rests on: [Wanting Apart From Liking](../psychology/wanting-apart-from-liking.md).
 
