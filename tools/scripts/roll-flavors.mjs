@@ -11,8 +11,9 @@
 //   - Naming: never Parody Names - the reason
 //   - Naming: favor Serious Names - the reason
 //
-// check fails on a layer or a flavor that Game Flavors does not hold, on two picks that conflict, on a
-// pick whose need is not picked, and on a pick that is ruled out. roll draws a flavor for the layer at
+// check fails on a flavor that Game Flavors does not hold, on two picks that conflict, on a pick whose need
+// is not picked, and on a pick that is ruled out. A game's own strategy at a layer the catalog lacks passes,
+// and check names that layer as one to file. roll draws a flavor for the layer at
 // random, among the ones that fit the picks so far and are not ruled out, and prints the line to add with
 // the favored flavors that fit, for the agent to consider strongly. The draw is code, since a model's
 // random pick drifts to the most likely one.
@@ -80,8 +81,9 @@ function flavorsOf(page) {
 }
 
 // The picks in the doc: [layer, flavor] for a flavor, [layer, null] for the game's own strategy. The flavors
-// it rules out or favors go into stances, by name, with their reason.
-function picks(doc, all, stances) {
+// it rules out or favors go into stances, by name, with their reason, and a layer the catalog lacks, where
+// the game has its own strategy, into newLayers.
+function picks(doc, all, stances, newLayers) {
   if (!existsSync(doc)) {
     return [];
   }
@@ -93,7 +95,12 @@ function picks(doc, all, stances) {
     }
     const [, layer, value] = match;
     if (!all.has(layer)) {
-      fail(`${doc} picks for a layer Game Flavors does not hold: ${layer}. The layers: ${[...all.keys()].join(', ')}.`);
+      if (OWN_STRATEGY.test(value)) {
+        newLayers.add(layer);
+        result.push([layer, null]);
+        continue;
+      }
+      fail(`${doc} picks for a layer Game Flavors does not hold: ${layer}. The layers: ${[...all.keys()].join(', ')}. A strategy of the game's own at a new layer is written as - ${layer}: own - and the strategy.`);
     }
     const stance = value.match(STANCE);
     if (/^(never|favor)\b/i.test(value)) {
@@ -141,7 +148,8 @@ const all = layers();
 const layer = command === 'roll' ? rest[0] : null;
 const doc = (command === 'roll' ? rest[1] : rest[0]) ?? DEFAULT_DOC;
 const stances = { never: new Map(), favor: new Map() };
-const picked = picks(doc, all, stances);
+const newLayers = new Set();
+const picked = picks(doc, all, stances, newLayers);
 const names = picked.map(([, name]) => name).filter((name) => name !== null);
 
 if (command === 'check') {
@@ -165,6 +173,9 @@ if (command === 'check') {
     fail(`${doc} does not hold:\n${problems.map((problem) => `- ${problem}`).join('\n')}`);
   }
   console.log(`flavors: the ${picked.length} picks in ${doc} hold.`);
+  if (newLayers.size) {
+    console.log(`Layers the catalog lacks, to file with coentrify: ${[...newLayers].join(', ')}.`);
+  }
   process.exit(0);
 }
 

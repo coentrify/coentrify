@@ -22,6 +22,7 @@ The layers run from the top down, and a layer is picked within what the layers a
 ## How To Apply
 
 - A game's picks stand in `docs/flavors.md`, one line per pick: `- Naming: Parody Names`, or `- Naming: own - ` and the game's own strategy.
+- The game's own strategy can stand at a layer the catalog lacks, and the check names that layer as one to file.
 - A flavor is named by its name, never copied, the way a laws doc adopts a law.
 - The doc can rule a flavor out, `- Naming: never Parody Names - ` and the reason, often from the audience profile ([Audience Profile Template](audience-profile-template.md)). A roll skips it.
 - The doc can favor a flavor, `- Naming: favor Serious Names - ` and the reason. A roll names the favored flavors that fit, and the agent considers them strongly before it takes the draw.
