@@ -2,7 +2,7 @@
 
 What changed in each version of coentrify. A version has a page of its own, which opens with its summary. The summary is also the text of its release.
 
-- [0.3.1](0.3.1.md) - a round of filings from projects at work
+- [0.3.1](0.3.1.md) - a round of filings: an attribution check, the ticket's id as the scope, the greeting back to its essence, and issue links printed by code
 - [0.3.0](0.3.0.md) - autonomy as an opt-in, piloted on games: the agency dial, flavors, gate questions, an audience, assets in layers, and `coentrify game`
 - [0.2.4](0.2.4.md) - a round of filings: adopting in an update, budget lists that follow the source, a greeting always in view, and filing by link
 - [0.2.3](0.2.3.md) - the advanced release workflow for a live product, a list per asset type, the scripts in Node, and the Proof page as one table
