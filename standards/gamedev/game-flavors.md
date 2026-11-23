@@ -10,6 +10,7 @@ A creative choice has many good answers. A strategy written down once can be pic
 
 The layers run from the top down, and a layer is picked within what the layers above it decided. Each layer has a page of its own flavors.
 
+- [Era](game-flavors-era.md) - when the world is set, and how true it stays to its time
 - [Naming](game-flavors-naming.md) - how the characters are named
 
 ## A Flavor

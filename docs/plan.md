@@ -3,8 +3,8 @@
 Version 0.3.4: the flavors a project's sweep found, #77 to #84, each brought to the director one by one.
 
 - An own strategy at a layer the catalog lacks, #84
-- Era, #77 (active)
-- The Secret, #78
+- Era, #77
+- The Secret, #78 (active)
 - Reveal, #79
 - Conventions, #80
 - Death, #81

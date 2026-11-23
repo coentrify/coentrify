@@ -22,6 +22,7 @@ The Gamedev standards: game development.
 - [Game Design Laws: Values](game-design-laws-values.md) - what a game does to the person playing it
 - [Game Design Patterns](game-design-patterns.md) - named patterns a game uses where they fit, such as the No-Gear level and Ma
 - [Game Flavors](game-flavors.md) - ready-made strategies per layer of a game, picked, rolled by code, or the game's own, and extracted from a project or a public game. No default taste
+- [Game Flavors: Era](game-flavors-era.md) - when the world is set, and how true it stays to its time
 - [Game Flavors: Naming](game-flavors-naming.md) - how the characters are named
 - [Game Onboarding](game-onboarding.md) - `coentrify game` asks for the mode first, sets the project up, and runs the phases to a playable build
 - [Game Phases](game-phases.md) - a game's phases in four stages, each phase but Post-Release ending at a phase gate, with the greybox, demos and outside playtests
