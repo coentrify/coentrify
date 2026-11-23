@@ -2,8 +2,7 @@
 
 Version 0.3.1: the next round of filings, #59 to #62, each brought to the director one by one.
 
-- The ticket id check, #60 (active)
-- The greeting in the entry point, #61, and the greeting again in the reply, #62
+- The greeting in the entry point, #61, and the greeting again in the reply, #62 (active)
 - Call 0.3.1
 
 ## The Greeting

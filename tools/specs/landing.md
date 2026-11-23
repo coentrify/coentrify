@@ -22,7 +22,7 @@ A spec for the three scripts that land work on the main branch when several agen
 
 ## The Check
 
-- A merge of a branch that holds the latest main lands it in one merge commit, its message opening with the story's id.
+- A merge of a branch that holds the latest main lands it in one merge commit, its message's scope the story's id, `feat(STORY-1): description`.
 - A merge of a branch that main has moved past refuses, and main is as it was.
 - A merge on a dirty tree, off main, while the lock is held, or with a message without an id refuses and changes nothing.
 - Main checks with no check named refuses. With a passing and a failing check, it prints both codes and exits with the failure.

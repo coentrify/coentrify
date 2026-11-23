@@ -10,19 +10,20 @@ The history reads and searches by what each commit holds.
 
 Name what changed, specifically, so the subject tells the change at a glance without opening the diff.
 
-- A commit made for a ticket starts with the ticket's id and a colon: `FEAT-123: the upload retries after a dropped connection`. The id already reads as the ticket's name, so no other prefix or trailer is added.
-- Every other commit uses Conventional Commits: `type(scope): description`, its types `feat`, `fix`, `chore`, `docs`, `refactor`, `revert`, its scope freeform (`deps`, `log`, `standards`).
-- The description starts with a lowercase letter. A project's commitlint accepts both forms and enforces the rest.
+- Every commit uses Conventional Commits: `type(scope): description`, its types `feat`, `fix`, `chore`, `docs`, `refactor`, `revert`.
+- In the tickets workflow, a commit made for a ticket takes the ticket's id as its scope: `feat(FEAT-123): the upload retries after a dropped connection`.
+- Every other scope is freeform, such as an area or a kind of change: `feat(upload)`, `chore(deps)`, `docs(log)`.
+- The description starts with a lowercase letter. A project's commitlint enforces the form.
 - Commitlint also enforces `body-max-line-length` 100. Each `-m` of `git commit -m` becomes one unwrapped body line, so split a long body across several `-m` flags. The commit-msg hook rejects the whole commit otherwise, after lint-staged has already run.
 
-## Ticket Prefix
+## Ticket Scope
 
 In a project on the tickets workflow ([Work Tracking](../tickets-workflow/work-tracking.md)):
 
 - Every commit made for a ticket carries its id: its code, its tests, the wiki's tooling, its Done part and its archive move.
-- A story's merge commit carries the story's id: `STORY-1: users sign up and sign in`. A ticket outside a story merges under its own id.
-- The commit message hook refuses a commit of code or tests without a ticket's or a story's id in front.
-- The main session's commits that serve no single ticket, such as a [Request Log](../records/request-log.md) entry, keep the conventional form.
+- A story's merge commit takes the story's id as its scope: `feat(STORY-1): users sign up and sign in`. A ticket outside a story merges under its own id.
+- The commit message hook refuses a commit of code or tests without a ticket's or a story's id as its scope, built from the Ticket Id Check spec in the tools.
+- The main session's commits that serve no single ticket, such as a [Request Log](../records/request-log.md) entry, take a freeform scope.
 - A ticket's commits are found by its id, `git log --grep FEAT-123`, never listed in the ticket.
 
 ## No Attribution
