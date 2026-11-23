@@ -11,6 +11,7 @@ A creative choice has many good answers. A strategy written down once can be pic
 The layers run from the top down, and a layer is picked within what the layers above it decided. Each layer has a page of its own flavors.
 
 - [Era](game-flavors-era.md) - when the world is set, and how true it stays to its time
+- [The Secret](game-flavors-the-secret.md) - what the world's secret turns out to be, in a game built on a mystery
 - [Naming](game-flavors-naming.md) - how the characters are named
 
 ## A Flavor
@@ -24,6 +25,7 @@ The layers run from the top down, and a layer is picked within what the layers a
 
 - A game's picks stand in `docs/flavors.md`, one line per pick: `- Naming: Parody Names`, or `- Naming: own - ` and the game's own strategy.
 - The game's own strategy can stand at a layer the catalog lacks, and the check names that layer as one to file.
+- A layer that does not fit the game, such as The Secret in a game without a mystery, is left out of its doc and never rolled.
 - A flavor is named by its name, never copied, the way a laws doc adopts a law.
 - The doc can rule a flavor out, `- Naming: never Parody Names - ` and the reason, often from the audience profile ([Audience Profile Template](audience-profile-template.md)). A roll skips it.
 - The doc can favor a flavor, `- Naming: favor Serious Names - ` and the reason. A roll names the favored flavors that fit, and the agent considers them strongly before it takes the draw.
