@@ -10,7 +10,6 @@ The versions on the way to 1.0.
 
 ## Next
 
-- Streamline the Proof page into a quick overview: one table with the rule, the trap, a summary and the data per model.
 - Probe the standards again at every new model release, on new traps.
 - Check each new game law against the psychology findings as the laws grow, so it ends with the findings it rests on or says it rests on none.
 - Probe the bare word again once coentrify is indexed and linked from other sites, and simplify the first prompt when it passes.
