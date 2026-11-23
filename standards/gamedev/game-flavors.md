@@ -11,6 +11,7 @@ A creative choice has many good answers. A strategy written down once can be pic
 The layers run from the top down, and a layer is picked within what the layers above it decided. Each layer has a page of its own flavors.
 
 - [Tone](game-flavors-tone.md) - the emotional register the game speaks in
+- [Kind Of Play](game-flavors-kind-of-play.md) - what the player is doing at heart
 - [Era](game-flavors-era.md) - when the world is set, and how true it stays to its time
 - [The Secret](game-flavors-the-secret.md) - what the world's secret turns out to be, in a game built on a mystery
 - [Reveal](game-flavors-reveal.md) - how the secret unfolds over the game's length

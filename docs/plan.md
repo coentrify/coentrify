@@ -4,6 +4,7 @@ Version 0.3.5: our own creative sweep for flavors and patterns, from the roadmap
 
 - The menu: candidate layers and patterns, each with its source
 - Tone
+- Kind Of Play, with Core Fun folded in and off the menu
 - The next layer, one at a time (active)
 - Call 0.3.5
 

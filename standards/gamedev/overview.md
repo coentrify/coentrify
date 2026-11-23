@@ -26,6 +26,7 @@ The Gamedev standards: game development.
 - [Game Flavors: Crafting](game-flavors-crafting.md) - how making things plays, one rule per product
 - [Game Flavors: Death](game-flavors-death.md) - what happens when a character dies, one rule per kind of character, and what each weighs
 - [Game Flavors: Era](game-flavors-era.md) - when the world is set, and how true it stays to its time
+- [Game Flavors: Kind Of Play](game-flavors-kind-of-play.md) - what the player is doing at heart, a main kind with accents
 - [Game Flavors: Maker Presence](game-flavors-maker-presence.md) - whether the people who made the game show in it
 - [Game Flavors: Mistakes](game-flavors-mistakes.md) - what a mistake costs the player
 - [Game Flavors: Naming](game-flavors-naming.md) - how the characters are named
