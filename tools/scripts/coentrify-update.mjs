@@ -9,7 +9,8 @@
 // project's version of the package from npm to compare, and keeps it in node_modules/.cache.
 //
 // Without --apply it prints the plan. With --apply it also replaces every tracked standard that changed,
-// and its line in the module's overview, and writes the new version to coentrify.json. The rest stays with the agent, as the plan says:
+// its line in the module's overview and its entry in the module's budget list, and writes the new version
+// to coentrify.json. The rest stays with the agent, as the plan says:
 // - a customized standard that changed, to show the director
 // - a standard that was renamed, moved or removed at the source
 // - a new standard in a module the project adopted, and a new module, worth considering
@@ -18,9 +19,10 @@
 // - the unlink script, once the replaced standards bring their links back
 //
 // With --adopt it adopts the standards and modules the director accepted, once the project is at the
-// installed version and the standards are committed: it copies them in, lists them as tracked, adds their
-// overview lines and a new module's line in the index, brings every tracked standard back to the package's
-// text and runs the unlink script, so the links to the adopted standards return and the others stay words.
+// installed version and the standards are committed: it copies them in with their budget entries, lists
+// them as tracked, adds their overview lines and a new module's line in the index, brings every tracked
+// standard back to the package's text and runs the unlink script, so the links to the adopted standards
+// return and the others stay words.
 import { spawnSync } from 'node:child_process';
 import { existsSync, mkdirSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { dirname, isAbsolute, join } from 'node:path';
@@ -40,6 +42,7 @@ const TARBALL_ROOT = 'package';
 const STANDARDS = 'standards';
 const SPECS = 'tools/specs';
 const INDEX_PAGE = 'overview.md';
+const BUDGET_LIST = 'budget-exceptions.json';
 const MARKDOWN = '.md';
 const MODULE_SOURCE = 'source';
 const TRACKED = 'tracked';
@@ -240,6 +243,34 @@ function standardOf(path) {
   return [match[1], match[2]];
 }
 
+function readList(path) {
+  return existsSync(path) ? JSON.parse(readFileSync(path, 'utf8')) : null;
+}
+
+// The same value with the keys of every object sorted, so two lists compare by their entries alone.
+function canonical(value) {
+  return JSON.stringify(value, (key, inner) =>
+    inner && typeof inner === 'object' && !Array.isArray(inner)
+      ? Object.fromEntries(Object.entries(inner).sort(([a], [b]) => a.localeCompare(b)))
+      : inner,
+  );
+}
+
+// A module's budget list with the entry of every tracked standard taken from the source: added, changed or
+// removed. The project's other entries stay. Returns null when the list stays as it is.
+function mergedBudget(module) {
+  const own = readList(join(folder, module, BUDGET_LIST));
+  const source = readList(`${current}/${STANDARDS}/${module}/${BUDGET_LIST}`) ?? {};
+  const tracked = ([file]) => config.modules[module]?.[file.slice(0, -MARKDOWN.length)] === TRACKED;
+  const merged = Object.fromEntries(
+    [...Object.entries(own ?? {}).filter((entry) => !tracked(entry)), ...Object.entries(source).filter(tracked)].sort(([a], [b]) =>
+      a.localeCompare(b),
+    ),
+  );
+  const same = own === null ? Object.keys(merged).length === 0 : canonical(own) === canonical(merged);
+  return same ? null : `${JSON.stringify(merged, null, 2)}\n`;
+}
+
 // Adopts the standards and modules the director accepted, once the project is at the installed version.
 function adopt(targets) {
   if (compareVersions(start, end) !== 0) {
@@ -330,6 +361,13 @@ function adopt(targets) {
       byHand.push(`the index line of ${module}`);
     } else {
       writeFileSync(index, inserted);
+    }
+  }
+
+  for (const module of adoptedModules) {
+    const list = mergedBudget(module);
+    if (list !== null) {
+      writeFileSync(join(folder, module, BUDGET_LIST), list);
     }
   }
 
@@ -449,6 +487,10 @@ for (const module of [...modules.keys()].sort()) {
     }
   }
 }
+const budgets = [...modules.keys()]
+  .sort()
+  .map((module) => [module, mergedBudget(module)])
+  .filter(([, list]) => list !== null);
 const specs = changes(old, current, SPECS, '--name-only');
 const diff = (path) => `git diff --no-index ${old}/${path} ${current}/${path}`;
 
@@ -487,6 +529,10 @@ console.log(`\nOverview lines to show the director, customized and changed: ${li
 for (const [module, name] of lineReport) {
   console.log(`- ${module}/${name}: ${diff(`${STANDARDS}/${module}/${INDEX_PAGE}`)}`);
 }
+console.log(`\nBudget lists, the entries of tracked standards changed: ${budgets.length}`);
+for (const [module] of budgets) {
+  console.log(`- ${module}/${BUDGET_LIST}`);
+}
 console.log(`\nSpecs that changed, rebuild what the project built from them: ${specs.length}`);
 for (const spec of specs) {
   console.log(`- ${spec}: ${diff(spec)}`);
@@ -510,9 +556,14 @@ if (apply) {
     }
     writeFileSync(target, content.replace(present, () => line));
   }
+  for (const [module, list] of budgets) {
+    writeFileSync(join(folder, module, BUDGET_LIST), list);
+  }
   config.version = end;
   writeFileSync(FILE, `${JSON.stringify(config, null, 2)}\n`);
-  console.log(`\nReplaced ${replace.length} standards and ${lineReplace.length - missing.length} overview lines, and wrote ${end} to ${FILE}.`);
+  console.log(
+    `\nReplaced ${replace.length} standards, ${lineReplace.length - missing.length} overview lines and ${budgets.length} budget lists, and wrote ${end} to ${FILE}.`,
+  );
   for (const standard of missing) {
     console.log(`- The overview line of ${standard} was not found, update it by hand.`);
   }

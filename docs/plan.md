@@ -2,14 +2,9 @@
 
 Version 0.2.4: a round of filings, each brought to the director one by one.
 
-- Budget lists in an update, #48 (active)
-- Filing without access, #49
+- Filing without access, #49 (active)
 - The Conduct, one change at a time
 - Call 0.2.4
-
-## Budget Lists In An Update
-
-Filed: the update carries each adopted module's `budget-exceptions.json`.
 
 ## Filing Without Access
 

@@ -42,13 +42,13 @@ With `update` on `automatic`, the session check starts the update when the insta
 - Read `standards/decisions.md` for the reasoning behind the earlier choices.
 - With `update` on `review`, show the director a changed rule in a tracked standard before it is replaced. With `automatic`, it is replaced at once, and the report names it.
 - A standard whose update the director declines is set to `customized` first, with the reason in the decisions.
-- Run it again with `--apply`, which replaces the tracked standards and their overview lines, and writes the new version.
+- Run it again with `--apply`, which replaces the tracked standards, their overview lines and their entries in each module's budget list, and writes the new version.
 - Run the unlink script again, since a replaced standard brings its links back.
 - Rebuild each check or helper whose spec the plan names as changed.
 - Apply each setup change the changelog names since the project's version, the way the onboarding now reads.
 - Report the changes for a customized standard, and a standard renamed, moved or removed at the source.
 - Suggest the new standards and modules worth adopting, by name, and surface one that has the same name as one of the project's own.
-- Once the update is committed, adopt the ones the director accepts in one call, `node node_modules/coentrify/src/tools/scripts/coentrify-update.mjs --adopt <module>[/<standard>]...`. It copies them in, lists them as `tracked`, and brings the links to them back in the tracked standards.
+- Once the update is committed, adopt the ones the director accepts in one call, `node node_modules/coentrify/src/tools/scripts/coentrify-update.mjs --adopt <module>[/<standard>]...`. It copies them in with their budget entries, lists them as `tracked`, and brings the links to them back in the tracked standards.
 - An ok in a later session is adopted the same way, while the project is at the installed version.
 - Set every adopted standard up in full, the way [Set Up](onboarding.md#set-up) says, and commit the adoption on its own.
 - Update the decisions.

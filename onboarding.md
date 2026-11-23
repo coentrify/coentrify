@@ -77,7 +77,7 @@ With `coentrify make no mistakes` the agent asks nothing. The agent takes every 
 ## Set Up
 
 - Install coentrify as a dev dependency, `npm install --save-dev coentrify`, so its source sits in the project, in `node_modules/coentrify/src`. A project without a `package.json` gets one.
-- Copy the chosen standards into the `standards` folder of the project, in the same module folders, so the standards sit beside the code.
+- Copy the chosen standards into the `standards` folder of the project, in the same module folders, so the standards sit beside the code, with their entries in each module's `budget-exceptions.json`.
 - Remove or change every link to a standard the project did not adopt.
 - Write the index.
 - Point the entry point at the index.
