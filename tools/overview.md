@@ -21,4 +21,5 @@ A project's agent builds these in the project's own stack, since each project ru
 - [Landing](specs/landing.md) - a guarded merge of a story, the checks on main and a gated docs commit, for several agents at once
 - [Changelog Append](specs/changelog-append.md) - one line in a version's changelog, in a fixed shape
 - [Healing Append](specs/healing-append.md) - one entry in the healing log, in a fixed shape
+- [Attribution Check](specs/attribution-check.md) - refuses a commit message with a line that opens with attribution
 - [Coentrify JSON Check](specs/coentrify-json-check.md) - keeps `coentrify.json` true, and refuses a hand edit of a tracked standard

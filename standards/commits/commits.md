@@ -29,6 +29,8 @@ In a project on the tickets workflow ([Work Tracking](../tickets-workflow/work-t
 
 Commit messages contain only the message itself. No `Co-Authored-By` trailers, no "Generated with Claude Code", no AI attribution of any kind. The same holds for PR descriptions. Where the agent adds attribution by itself, its setting switches it off, such as `"attribution": { "commit": "", "pr": "" }` in Claude Code's `.claude/settings.json`.
 
+A cloud session's harness can ask for attribution lines on its own, apart from that setting. The project's rule wins over it. A commit-msg hook holds the rule where the setting does not reach: it refuses a line that opens with attribution, built from the Attribution Check spec in the tools.
+
 ## Size
 
 Make smaller commits, grouped by review interest. Mechanical changes can batch. Complex changes get their own commit so a reviewer can find and verify them.
