@@ -7,7 +7,7 @@ Laws about what the game hints and teaches. The index and the way a game uses th
 Yellow paint is steering applied too much, the exemplary case being the painted ledge: an arrow, a hint, a helper or a quest log that does the player's thinking. Steering that is needed is not yellow paint. Where it seems needed, the design gets another look first. One thing on screen with a clear hover and interactable state needs no word to click it. Rich context clues drive the narration without deciding or thinking for the player. Two questions test it at any moment: what am I looking at, and what am I expected to do here.
 
 - A hint is a context clue: it encloses what is already on screen in a narrative and gives it meaning, ambiguous and indirect, innocent without the context. It never motivates.
-- A line never judges or pushes the player: no well done, keep going or nearly there. Those say nothing about the world, and praise for an easy success can read as a low opinion of the player. Feedback states what happened, such as a triple kill, and a character voices its own feeling, such as a companion's anger at an enemy: get him! A line that works on the player's feelings, warmly or harshly, is manipulation.
+- A line never judges or pushes the player: no well done, keep going or nearly there. Those say nothing about the world, and praise for an easy success can read as a low opinion of the player. Feedback states what happened, and a character voices its own feeling. A line that works on the player's feelings, warmly or harshly, is manipulation.
 - Telling the player what to do belongs to a concept the player has not met before, and then once. A mechanic that has been introduced is never hinted again, and the line goes as soon as the concept has landed.
 
 Rests on: [Curiosity As An Information Gap](../psychology/curiosity-as-an-information-gap.md), [Rewards And Feedback](../psychology/rewards-and-feedback.md).
@@ -42,7 +42,7 @@ Rests on: [Cognitive Load](../psychology/cognitive-load.md), [Retrieval Practice
 
 ## Tracks, Never Instructs
 
-A quest log is a to-do list, never a job description: it tracks, and never instructs. A task comes with a reason the player cares about: helping the witch cook a magic potion, the player hands her the apple she asks for. A bare help the witch, when the player neither knows nor cares, is weak design, and so is a game rigged so the player wants to follow its instructions.
+A quest log is a to-do list, never a job description: it tracks, and never instructs. A task comes with a reason the player cares about, and a request inside it comes from the world. A bare order to help, when the player neither knows nor cares why, is weak design, and so is a game rigged so the player wants to follow its instructions.
 
 Rests on: [Reactance](../psychology/reactance.md), [Autonomy, Competence And Relatedness](../psychology/autonomy-competence-and-relatedness.md).
 

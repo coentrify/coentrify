@@ -14,7 +14,7 @@ Rests on: [Parasocial Bonds](../psychology/parasocial-bonds.md), [Presence](../p
 
 Relevant for: a game with companions or allies.
 
-A companion who fights or travels with the player pulls its weight. It never gets in the way or needs rescuing over and over, unless its helplessness is the point. It never takes away fun the player can have alone, such as killing all the enemies, unless the moment asks for two: the player casts a spell while the companion guards, or the combat has moves for two.
+A companion who fights or travels with the player pulls its weight. It never gets in the way or needs rescuing over and over, unless its helplessness is the point. It never takes away fun the player can have alone, unless the moment is a job for two.
 
 Rests on: [Autonomy, Competence And Relatedness](../psychology/autonomy-competence-and-relatedness.md), [Effort And The IKEA Effect](../psychology/effort-and-the-ikea-effect.md).
 
@@ -22,7 +22,7 @@ Rests on: [Autonomy, Competence And Relatedness](../psychology/autonomy-competen
 
 Relevant for: a game with companions or allies.
 
-A companion relates to the player in a positive way, without ulterior motives: similar goals or a similar situation, such as both being victims of the same circumstance, a common enemy, or a need of each other. Shared experience bonds, and shared trauma or excitement bonds more. A rescue bonds either way: the companion saves the player, or the player rights an injustice done to them. Someone weak or helpless, like an abandoned puppy, bonds too.
+A companion relates to the player in a positive way, without ulterior motives: similar goals or a similar situation, such as both being victims of the same circumstance, a common enemy, or a need of each other. Shared experience bonds, and shared trauma or excitement bonds more. A rescue bonds either way: the companion saves the player, or the player rights an injustice done to them. Someone weak or helpless bonds too.
 
 Rests on: [Shared Experience](../psychology/shared-experience.md), [Similarity](../psychology/similarity.md), [Reciprocity](../psychology/reciprocity.md), [Baby Schema](../psychology/baby-schema.md).
 
@@ -38,7 +38,7 @@ Rests on: [Shared Experience](../psychology/shared-experience.md).
 
 Relevant for: a game with companions or allies.
 
-A companion reacts from its own experience, and never judges. It tells the player what the player cannot perceive, such as I heard that x happened, and never explains what is going on or what the player can already see ([Dialog Gives Context](game-design-laws-story.md#dialog-gives-context), [No Yellow Paint](game-design-laws-guidance.md#no-yellow-paint)).
+A companion reacts from its own experience, and never judges. It tells the player what the player cannot perceive, and never explains what is going on or what the player can already see ([Dialog Gives Context](game-design-laws-story.md#dialog-gives-context), [No Yellow Paint](game-design-laws-guidance.md#no-yellow-paint)).
 
 Rests on: [Cognitive Load](../psychology/cognitive-load.md), [Rewards And Feedback](../psychology/rewards-and-feedback.md).
 

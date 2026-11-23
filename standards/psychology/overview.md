@@ -34,6 +34,7 @@ The Psychology standards: findings about people that the game laws rest on, each
 - [Response Time Limits](response-time-limits.md) - a tenth of a second feels direct, a second keeps the thought, ten seconds lose it
 - [Resuming An Interrupted Task](resuming-an-interrupted-task.md) - a begun task pulls a person back, and the memory claim does not hold
 - [Retrieval Practice](retrieval-practice.md) - recalling unprompted, after a delay, beats studying again
+- [Reward Prediction Error](reward-prediction-error.md) - a reward better than expected stirs dopamine, and one as expected stirs nothing new
 - [Rewards And Feedback](rewards-and-feedback.md) - expected rewards and controlling feedback lower intrinsic motivation, and feedback that informs raises it
 - [Scarcity](scarcity.md) - scarce things are valued more, when the scarcity is noticed
 - [Shared Experience](shared-experience.md) - a shared experience is felt more strongly, and hardship binds

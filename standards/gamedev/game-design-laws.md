@@ -39,6 +39,7 @@ The full text is in [Game Design Laws: Progress](game-design-laws-progress.md).
 - [Lasting Impact](game-design-laws-progress.md#lasting-impact) - what the player decides lasts
 - [Emergent Gameplay](game-design-laws-progress.md#emergent-gameplay) - systems that open possibilities
 - [Know What Is Coming](game-design-laws-progress.md#know-what-is-coming) - the next step and the distance to the next goal are always visible
+- [Cadence](game-design-laws-progress.md#cadence) - a groove of nested loops that expands, with rewards that grow and room for a solo
 
 ### Quality
 
@@ -134,6 +135,7 @@ The full text is in [Game Design Laws: Values](game-design-laws-values.md).
 - Check a new feature against the laws before its spec. A conflict is surfaced, never averaged.
 - Feature docs link the law they lean on instead of repeating it.
 - A new law goes in the game's docs, in the director's wording. One that holds for other games too, a subset of them included, is filed with coentrify, its game specifics stripped, with a `Relevant for:` line for a subset ([File A Change With Coentrify](../behavior/file-a-change-with-coentrify.md)).
+- An example the director gives to make a point stays out of the law. The law states the theme the example shows.
 
 ## Related
 

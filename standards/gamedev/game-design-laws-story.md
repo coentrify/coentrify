@@ -10,7 +10,7 @@ Rests on: [Narrative Transportation](../psychology/narrative-transportation.md).
 
 ## Embedded Relevance
 
-The strongest message is the experience: one the game never needs to tell or discuss. Everything relates to the value it serves, so the whole game breathes it: small tasks that all heal one forest pay off when every animal of the forest gathers as its soul returns. A meaning or a message is always experienced by the player, never inserted, propagandized or politicized.
+The strongest message is the experience: one the game never needs to tell or discuss. Everything relates to the value it serves, so the whole game breathes it, and small tasks that serve one value pay off in a moment the player lives through. A meaning or a message is always experienced by the player, never inserted, propagandized or politicized.
 
 Rests on: [Narrative Transportation](../psychology/narrative-transportation.md), [Reactance](../psychology/reactance.md).
 

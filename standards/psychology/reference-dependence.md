@@ -25,6 +25,7 @@ What the player sees means something only against what stands beside it, or what
 - [Shown Together](../gamedev/game-design-laws-own-style.md#shown-together) - a style is judged against its neighbors
 - [Earned Progress](../gamedev/game-design-laws-progress.md#earned-progress) - the gap between the start and the end, with the start brought back into view on purpose
 - [Desire Before Reward](../gamedev/game-design-laws-progress.md#desire-before-reward) - an early reward raises the reference, and the gap shrinks
+- [Cadence](../gamedev/game-design-laws-progress.md#cadence) - the reference grows with the player, so rewards grow too
 
 ## Related
 

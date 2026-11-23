@@ -24,6 +24,7 @@ The thrill of every upgrade fades, so a game keeps the steps coming and ends bef
 - [As Long As It Is Interesting](../gamedev/game-design-laws-progress.md#as-long-as-it-is-interesting) - the game ends before its fun flattens
 - [Easy Pause](../gamedev/game-design-laws-experience.md#easy-pause) and [Natural Breaks](../gamedev/game-design-laws-experience.md#natural-breaks) - a break restores the pleasure
 - [Speedrun Ready](../gamedev/game-design-laws-experience.md#speedrun-ready) and [Once Per Save](../gamedev/game-design-laws-experience.md#once-per-save) - a repeat loses its pull, so a returning player goes past what they have seen
+- [Cadence](../gamedev/game-design-laws-progress.md#cadence) - each reward comes bigger, or feels bigger, to land the same
 
 ## Related
 

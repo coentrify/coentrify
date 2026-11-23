@@ -4,7 +4,7 @@ Baby-like features, such as a large head, a round face and big eyes, look cute a
 
 ## Why
 
-A weak or helpless character, such as an abandoned puppy, draws the player in to protect it.
+A weak or helpless character draws the player in to protect it.
 
 ## The Evidence
 

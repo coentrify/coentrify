@@ -10,7 +10,7 @@ Rests on: [Flow](../psychology/flow.md).
 
 ## Every Sense Carries It
 
-A game reaches the player through every sense at once: color and contrast, shape and icon, words, sound and feel. State and meaning travel on more than one of them, so every player understands from their own perspective, the way a film can be understood without its language. Nothing rests on color alone.
+A game reaches the player through every sense at once: color and contrast, shape and icon, words, sound and feel. State and meaning travel on more than one of them, so every player understands from their own perspective. Nothing rests on color alone.
 
 Rests on: [Redundant Signals](../psychology/redundant-signals.md), [Color Vision Deficiency](../psychology/color-vision-deficiency.md).
 

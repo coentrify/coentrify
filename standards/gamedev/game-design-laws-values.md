@@ -4,7 +4,7 @@ Laws about what a game does to the person playing it. The laws aim for truth and
 
 ## Compulsion Is Considered
 
-Compulsion is always explicitly considered. Where the player is compelled, such as in a prison mission, it comes from blocked paths and perhaps a setback, never from being made to do aggravating work. A level built around forced labor exists to break free from it: the player wants to escape, or to defeat the slavemaster.
+Compulsion is always explicitly considered. Where the player is compelled, it comes from blocked paths and perhaps a setback, never from being made to do aggravating work. A level built around forced labor exists to break free from it: the player wants to escape, or to defeat whoever holds them.
 
 Rests on: [Autonomy, Competence And Relatedness](../psychology/autonomy-competence-and-relatedness.md), [Controllability](../psychology/controllability.md), [Reactance](../psychology/reactance.md).
 

@@ -16,7 +16,7 @@ The game is as long as it is interesting, not the other way around.
 - Nothing is stretched to fill a playtime, and nothing is cut to meet one
 - A fast player goes fast
 - The game ends on a high, while the player still wants more. The player walks away with a strong sense of closure and achievement, and a way back in: the itch to do another loop, even when nothing is left to do, because the player misses it
-- The end is a soft closure, never a hard what now: play may go on after it, and slowly matters less. What comes next fits the climax: a minor task right after saving the world leaves a gap
+- The end is a soft closure, never a hard what now: play may go on after it, and slowly matters less. What comes next fits the climax: a minor task right after it leaves a gap
 - A level or a loop ends on a high too, and makes a natural break ([Natural Breaks](game-design-laws-experience.md#natural-breaks))
 
 Rests on: [Hedonic Adaptation](../psychology/hedonic-adaptation.md), [The Peak-End Rule](../psychology/the-peak-end-rule.md).
@@ -75,6 +75,12 @@ Rests on: [Autonomy, Competence And Relatedness](../psychology/autonomy-competen
 The player always knows what is coming in the short future: the next upgrade, the next unlock, the distance to the next goal, and when it is the end. There is always something coming, so the next upgrade or level is always looming. Knowing needs no overview or progress bar: the world can show it, by a billboard, a glimpse or a line of dialog. Nothing unlocks before it is introduced ([Adopt, Repeat, Confirm](game-design-laws-guidance.md#adopt-repeat-confirm-arc)). The world still keeps its secrets ([Fair Surprise](game-design-laws-world.md#fair-surprise)).
 
 Rests on: [The Goal Gradient](../psychology/the-goal-gradient.md).
+
+## Cadence
+
+Good art has an implicit cadence, and without it there is no harmony ([In Harmony](game-design-laws-own-style.md#in-harmony)). Play runs on a groove: a beat of loops and rewards the player comes to expect, nested in larger ones, bigger and bigger. The first loop is small and teaches the mechanics in miniature ([Adopt, Repeat, Confirm (ARC)](game-design-laws-guidance.md#adopt-repeat-confirm-arc)), and the loop expands as the game goes on. As the mechanics grow familiar, time moves faster and the player has more patience for the next reward, and each reward comes bigger, or feels bigger, to land the same. A steady groove leaves room for a solo that colors it in.
+
+Rests on: [Reward Prediction Error](../psychology/reward-prediction-error.md), [Hedonic Adaptation](../psychology/hedonic-adaptation.md), [Reference Dependence](../psychology/reference-dependence.md), [Cognitive Load](../psychology/cognitive-load.md), [Predictability](../psychology/predictability.md).
 
 ## Related
 

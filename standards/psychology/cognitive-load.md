@@ -25,6 +25,7 @@ A new player has little room to spare, so a game spends it on what matters, and 
 - [Every Mechanic Matters](../gamedev/game-design-laws-quality.md#every-mechanic-matters) - nothing added that adds nothing
 - [Speedrun Ready](../gamedev/game-design-laws-experience.md#speedrun-ready) - steps meant for a novice slow an expert
 - [What The Player Cannot See](../gamedev/game-design-laws-companions.md#what-the-player-cannot-see) - a companion never repeats what the player can see
+- [Cadence](../gamedev/game-design-laws-progress.md#cadence) - the first loop is small and teaches the mechanics in miniature
 
 ## Related
 
