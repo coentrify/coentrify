@@ -18,8 +18,20 @@ A No-Gear level takes the player's gear away for a while: the tools, the money, 
 
 Rests on: [Effort And The IKEA Effect](../psychology/effort-and-the-ikea-effect.md).
 
+## Ma
+
+Ma (間), from Japanese art, is a designed pause: an interval between moments of intensity that gives them their shape. The player does little, and the moment still holds what came before and what is coming. Ma is an aesthetic concept more than a finding or a law, so a game uses it as a choice of style.
+
+- The pause is placed on purpose and charged, never a moment of what now ([Always Something To Do](game-design-laws-experience.md#always-something-to-do)).
+- The world keeps breathing through it, so it never reads as a frozen screen ([Alive World, Static Actions](game-design-laws-ui.md#alive-world-static-actions)).
+- It is the rest in the groove ([Cadence](game-design-laws-progress.md#cadence)), and it gives the sparse its meaning ([Contrast](game-design-laws-world.md#contrast)).
+- Where the player can step away, the pause doubles as a natural break ([Natural Breaks](game-design-laws-experience.md#natural-breaks)).
+
+Rests on, as the nearest findings: [Hedonic Adaptation](../psychology/hedonic-adaptation.md), [Habituation](../psychology/habituation.md), [Attention Restoration](../psychology/attention-restoration.md).
+
 ## Related
 
 - [Game Design Laws](game-design-laws.md)
+- [Game Design Laws: Experience](game-design-laws-experience.md)
 - [Game Design Laws: Progress](game-design-laws-progress.md)
 - [Game Design Laws: World](game-design-laws-world.md)

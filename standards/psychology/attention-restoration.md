@@ -21,6 +21,7 @@ A quiet stretch of the world rests the player, when it holds soft fascination.
 ## The Laws On It
 
 - [Contrast](../gamedev/game-design-laws-world.md#contrast) - a drive out of a busy area and its pressure feels like an escape
+- The [Ma](../gamedev/game-design-patterns.md#ma) pattern - a quiet, charged pause rests attention
 
 ## Related
 
