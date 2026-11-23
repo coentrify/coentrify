@@ -17,6 +17,10 @@ The human in charge of a project. The director decides what is built and in what
 
 An AI model that does the work of a project: it writes the documentation, the tests and the code.
 
+### Agency
+
+How far an agent goes on its own with a creative choice: from the director making each choice to the agent directing, with the director as a stakeholder ([Creative Agency](standards/autonomy/creative-agency.md)).
+
 ## The System
 
 ### Spec-Driven Development

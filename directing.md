@@ -43,6 +43,7 @@ In the simple workflow you ask one question, what's next, and pick from the reco
 - `update` on `automatic` - a newer coentrify is applied when a session starts, and only what needs judgment comes to you.
 - `contributor` and `filing` - whether what your project learns goes back to coentrify, and whether you look at each issue first.
 - `make no mistakes` - a set up where the agent makes every choice and you veto afterward.
+- `agency` - how far the agents go on their own with a creative choice, from asking you for each to directing the work with you as a stakeholder ([Creative Agency](standards/autonomy/creative-agency.md)).
 
 Each setting trades your attention for speed. Start from the defaults, and turn a setting back to `review` when its reports surprise you.
 

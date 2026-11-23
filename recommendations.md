@@ -41,6 +41,7 @@ Use US English Everywhere is a choice. One variant everywhere is what counts, an
 - Gamedev - a game, where the director picks the game design laws that apply. It brings the tickets workflow, the activity log, and playtests once others play
 - Psychology - a game whose laws should carry the findings about people they rest on, with their sources. Without it, every law keeps its finding named in its own words
 - Reporting - a project whose director wants reports and reels
+- Autonomy - experimental: the agents direct and the director is a stakeholder, piloted on games. It comes with `agency` set past `director`
 - Commits - how work is committed and gated. The module is strongly opinionated, so the director decides which of its standards to adopt
 
 ## Workflow

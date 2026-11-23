@@ -23,6 +23,7 @@ Every module has an overview of its own standards.
 - [AI](ai/overview.md) - building with models
 - [Angular](angular/overview.md) - rules for Angular
 - [Architecture](architecture/overview.md) - patterns that cut across a codebase
+- [Autonomy](autonomy/overview.md) - how far an agent directs on its own, opt-in and piloted on games
 - [Behavior](behavior/overview.md) - how an agent works and what an agent checks
 - [Code](code/overview.md) - rules that hold in any language
 - [Commits](commits/overview.md) - how work is committed
