@@ -25,7 +25,7 @@ Its filename is the slug of its name ([Work Item Names](work-item-names.md)). It
 | Can we split it, or leave something out? | Left Out | each part split off into a ticket of its own, or left out with its reason |
 | What could go wrong? | Risks | each risk with its mitigation, decided in refinement: a step inside the ticket when it is small and relevant, a design risk mitigated by design say, otherwise the ticket that closes the gap. A mitigation never grows the ticket's work ([Building A Ticket](building-a-ticket.md#a-ticket-lands-right)) |
 | What does it wait on? | Depends On | the tickets of its own story it waits on |
-| Where did it come from? | Source | the log entries it came from, linked from the root: `/records/log/2026-10-25#_12-57` |
+| Where did it come from? | Source | the log entries it came from, linked from the root: `/records/log/2026-10-25#1257` |
 
 ## Sections Per Type
 
@@ -58,9 +58,9 @@ workshop: true               (while it needs a workshop or waits on one)
 last: true                   (a ticket that closes its phase, a phase gate spike say)
 long: true                   (a ticket kept past about 300 words before Done)
 long-done: true              (a Done part kept past about 100 words)
-go: 2026-10-23#_14-05        (the log entry of the director's go, written by the conductor)
+go: 2026-10-23#1405          (the log entry of the director's go, written by the conductor)
 agent: builder-1             (its builder's name as a slug, docs-agent-1 or scout-1 say, written by the conductor)
-feedback: 2026-10-23#_15-10  (while the director's feedback on it is worked in)
+feedback: 2026-10-23#1510    (while the director's feedback on it is worked in)
 ---
 
 # Fix Auth Session Redirect

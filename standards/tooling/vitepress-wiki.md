@@ -17,9 +17,9 @@ The director reviews the docs, changelogs, captures and reels in the wiki while 
 - A new or deleted page is picked up in place: once the changes settle, the sidebar is rebuilt and the open pages reload. The server never restarts for it, since a burst of new pages would restart it over and over.
 - The wiki has one config file, `.vitepress/config`, and a session never creates a second one.
 - The watcher ignores the build output and the cache.
-- Every image enlarges on a click to the full window width, so the director judges a capture at full size, never shrunk to the text column. The arrow keys walk the page's images, Escape or a click closes it, a counter shows the position, and the hidden state has its own display rule.
+- Every image enlarges on a click to the full window width, so the director judges a capture at full size. The arrow keys walk the page's images, Escape or a click closes it, a counter shows the position, and the hidden state has its own display rule.
 - Local search, last updated dates and clean URLs are on.
-- Headings are slugged as GitHub slugs them, set once in the config, so an anchor holds on GitHub, in an editor and the wiki.
+- Headings are slugged as GitHub slugs them, set once in the config, so an anchor holds on GitHub, in an editor and the wiki. A log heading `## 12:57` links as `#1257`.
 - The dev server sends `Cache-Control: no-store`, so the director never reviews a stale image.
 - Videos sit in the public folder and embed with a plain video tag.
 - A bare word in angle brackets in a page, `<name>`, reads as an html tag and fails the build. It goes in code marks.
