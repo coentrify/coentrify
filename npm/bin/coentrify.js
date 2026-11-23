@@ -13,8 +13,7 @@ const PROJECT_MANIFEST = 'package.json';
 const DEPENDENCIES_INSTALL = 'npm install';
 const README = new URL('../src/readme.md', import.meta.url);
 const ONBOARDING = new URL('../src/onboarding.md', import.meta.url);
-const GREETING = /^## Greet\n[\s\S]*?^```\n([\s\S]*?)^```/m;
-const SHOW_GREETING = 'Write this greeting out in full in your own message to the director first, since the output of this command can be hidden, then go on.';
+const GREETING = /^## Greet\n\n([\s\S]*?)\n\n```\n([\s\S]*?)^```/m;
 const VERSION_PAGE = /^(\d+\.\d+\.\d+)\.md$/;
 const SUMMARY = /^# .+\n+([^\n]+)/;
 const INSTALL = `npm install --save-dev ${PACKAGE}`;
@@ -28,9 +27,11 @@ const REVIEW_STEP = `The update waits for the director's go. Next step: ask for 
 const USAGE ='usage: npx coentrify [make-no-mistakes | update | explain | check | game [input] | extract flavors [game]]';
 const HEADER = `coentrify - spec-driven development, ${WIKI}`;
 
+// The banner, then the instruction from Greet itself, so the two never drift.
 function greet() {
-  process.stdout.write(readFileSync(ONBOARDING, 'utf8').match(GREETING)[1]);
-  console.log(SHOW_GREETING);
+  const [, instruction, banner] = readFileSync(ONBOARDING, 'utf8').match(GREETING);
+  process.stdout.write(banner);
+  console.log(instruction);
 }
 
 function next(step) {
