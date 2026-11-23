@@ -19,3 +19,4 @@ The versions on the way to 1.0.
 - Standards to make a book or a movie from a game's wiki, as an extra output of the game.
 - Pilot sessions on `autonomous` and `guided`, once 0.3.0 is released, with the template in [Pilots](pilots.md).
 - Run `coentrify extract flavors` on the projects at work and on a few public games, once 0.3.0 is released, to grow the flavors.
+- A research sweep for many more game design patterns and flavors, from design writing, postmortems and public games, each with its source, brought to the director in batches.
