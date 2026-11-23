@@ -12,6 +12,7 @@ The layers run from the top down, and a layer is picked within what the layers a
 
 - [Era](game-flavors-era.md) - when the world is set, and how true it stays to its time
 - [The Secret](game-flavors-the-secret.md) - what the world's secret turns out to be, in a game built on a mystery
+- [Reveal](game-flavors-reveal.md) - how the secret unfolds over the game's length
 - [Naming](game-flavors-naming.md) - how the characters are named
 
 ## A Flavor
