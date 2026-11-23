@@ -71,4 +71,4 @@ A check built from its spec in the [tools](tools/overview.md) keeps the file tru
 - A state is `tracked` or `customized`.
 - `healing`, `filing` and `update` are `automatic` or `review`, and `filing` stands only beside `contributor: true`.
 
-With `--staged`, as a pre-commit step, the check also refuses a commit that changes a tracked standard by hand. The commit passes once the state is `customized`, or when the commit changes the version, as an update does.
+With `--staged`, as a pre-commit step, the check also refuses a commit that changes a tracked standard by hand. The commit passes once the state is `customized`, when the commit changes the version, as an update does, or when it adopts a standard, which brings the links to it back.

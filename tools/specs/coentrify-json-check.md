@@ -9,6 +9,7 @@ A spec for the check that keeps a project's `coentrify.json` true ([coentrify.js
 - It fails on a `healing`, `filing` or `update` other than `automatic` or `review`, and on `filing` without `contributor: true`.
 - It fails on a library under `libraries` without a `source`, or with a `filing` other than `automatic` or `review`.
 - As a pre-commit step it also refuses a commit that changes a tracked standard by hand. The commit passes once the state is `customized`, or when the commit changes the version, as an update does.
+- A commit that adopts a standard passes the same way: the staged file lists a standard that the last commit's does not, a module's `source` key aside, since an adoption brings the links to it back in the tracked standards.
 
 ## The Check
 
@@ -19,3 +20,5 @@ A spec for the check that keeps a project's `coentrify.json` true ([coentrify.js
 - A commit that edits a tracked standard by hand refuses, and passes once its state is `customized`.
 - A module with a `source` of its own passes.
 - A commit that edits tracked standards and changes the version passes.
+- A commit that adopts a standard and edits tracked standards passes.
+- A commit that changes `coentrify.json` without adopting a standard, and edits a tracked standard, refuses.

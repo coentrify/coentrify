@@ -47,5 +47,8 @@ With `update` on `automatic`, the session check starts the update when the insta
 - Rebuild each check or helper whose spec the plan names as changed.
 - Apply each setup change the changelog names since the project's version, the way the onboarding now reads.
 - Report the changes for a customized standard, and a standard renamed, moved or removed at the source.
-- Report new standards worth considering, and surface one that has the same name as one of the project's own.
+- Suggest the new standards and modules worth adopting, by name, and surface one that has the same name as one of the project's own.
+- Once the update is committed, adopt the ones the director accepts in one call, `node node_modules/coentrify/src/tools/scripts/coentrify-update.mjs --adopt <module>[/<standard>]...`. It copies them in, lists them as `tracked`, and brings the links to them back in the tracked standards.
+- An ok in a later session is adopted the same way, while the project is at the installed version.
+- Set every adopted standard up in full, the way [Set Up](onboarding.md#set-up) says, and commit the adoption on its own.
 - Update the decisions.
