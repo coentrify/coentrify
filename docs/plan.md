@@ -6,8 +6,8 @@ Version 0.3.4: the flavors a project's sweep found, #77 to #84, each brought to 
 - Era, #77
 - The Secret, #78
 - Reveal, #79
-- Conventions, #80 (active)
-- Death, #81
+- Conventions, #80
+- Death, #81 (active)
 - Crafting, #82
 - Maker Presence, #83
 - The leak of a game's design through extracted flavors, once its filing is in
