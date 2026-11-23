@@ -15,3 +15,4 @@ The versions on the way to 1.0.
 - Probe the bare word again once coentrify is indexed and linked from other sites, and simplify the first prompt when it passes.
 - Record a video of the install, as proof that it works.
 - Sweep every page once more for sanity, the way 0.0.8 did, after all that 0.2.x added.
+- Standards to make a book or a movie from a game's wiki, as an extra output of the game.
