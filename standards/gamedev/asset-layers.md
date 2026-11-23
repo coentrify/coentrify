@@ -26,6 +26,7 @@ Assets made one prompt at a time differ in style and in scale. Decided in layers
 ## How To Apply
 
 - A choice belongs on the highest layer it holds for. A blueprint never repeats the style, and an entry never repeats its blueprint.
+- The instruction that makes an asset, a prompt or a brief, is written from its layers: the style, the blueprint, the traits, and the qualities and characteristics it aims for, focused on that one asset.
 - A layer can be picked from flavors, where flavors for it exist ([Game Flavors](game-flavors.md)).
 - A blueprint can draw on a reference set, such as the buildings of one real town ([References Stay References](game-design-laws-own-style.md#references-stay-references)).
 - `node node_modules/coentrify/src/tools/scripts/check-assets.mjs` checks the chain: the style fills its fields, every list links it and fills its blueprint, every trait exists, and every entry's states cover its traits.
