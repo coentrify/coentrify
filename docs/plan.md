@@ -18,3 +18,7 @@ Version 0.3.0: autonomy as an opt-in, piloted on games, built bottom up from the
 - Flexible, and strongly convinced of the practices proven to work.
 - Pilots and playtests are essential. A pilot measures fun, coherence, vibe and how well the choices and assets work together, beside the share the director vetoed.
 - Each piece is filed one by one, and settled with the director one by one.
+
+## A Game From One Input
+
+- One of the guided questions: how niche should the game be? The answer directs many later choices: more depth and more specific references, or more width.
