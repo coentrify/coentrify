@@ -32,6 +32,7 @@ The three needs are the best supported account of why people play at all, so mos
 - [Doable 100%](../gamedev/game-design-laws-progress.md#doable-100) and [Loop First](../gamedev/game-design-laws-experience.md#loop-first) - competence
 - [Bands, Not Bullseyes](../gamedev/game-design-laws-progress.md#bands-not-bullseyes) - a beginner scrapes through and any method counts, competence and autonomy
 - [Only What Matters](../gamedev/game-design-laws-companions.md#only-what-matters) - the player decides what to spend play on
+- [Helps, Never Takes Over](../gamedev/game-design-laws-companions.md#helps-never-takes-over) - the player solves what they can alone
 
 ## Related
 

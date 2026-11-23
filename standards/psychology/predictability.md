@@ -22,6 +22,7 @@ A risk the player can read leaves the rest of the world safe, and a risk that ca
 
 - [Fair Surprise](../gamedev/game-design-laws-world.md#fair-surprise) - after the first time a risk is readable, and one that can never be read is a dice roll
 - [Contrast](../gamedev/game-design-laws-world.md#contrast) - danger keeps to its area, so the safe haven feels safe
+- [A Loss Is Grieved](../gamedev/game-design-laws-companions.md#a-loss-is-grieved) - a companion is lost only to a risk the player could see coming
 
 ## Related
 

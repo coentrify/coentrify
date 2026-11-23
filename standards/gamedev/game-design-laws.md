@@ -74,11 +74,14 @@ The full text is in [Game Design Laws: Story](game-design-laws-story.md).
 The full text is in [Game Design Laws: Companions](game-design-laws-companions.md).
 
 - [Characters Of Their Own](game-design-laws-companions.md#characters-of-their-own) - a companion has its own conditions and life, never a voice of the hero's ego
+- [Helps, Never Takes Over](game-design-laws-companions.md#helps-never-takes-over) - a companion pulls its weight, and never takes the fun the player can have alone
 - [Bonds From Shared Circumstance](game-design-laws-companions.md#bonds-from-shared-circumstance) - a bond grows from shared goals, hardship, a rescue or a common enemy
+- [Shared Memories](game-design-laws-companions.md#shared-memories) - a companion remembers what it went through with the player
 - [What The Player Cannot See](game-design-laws-companions.md#what-the-player-cannot-see) - a companion tells what the player cannot perceive, and never judges
+- [No Looping Lines](game-design-laws-companions.md#no-looping-lines) - a remark is never repeated every few minutes
 - [Mirroring](game-design-laws-companions.md#mirroring) - a companion answers the player's advances in kind
 - [Only What Matters](game-design-laws-companions.md#only-what-matters) - a companion involves the player only in major things
-- [A Loss Is Grieved](game-design-laws-companions.md#a-loss-is-grieved) - losing a companion feels really bad
+- [A Loss Is Grieved](game-design-laws-companions.md#a-loss-is-grieved) - losing a companion feels really bad, and is never down to chance
 
 ### Guidance
 

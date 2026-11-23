@@ -10,6 +10,14 @@ A companion or ally is a character of its own, never a voice for a part of the h
 
 Rests on: [Parasocial Bonds](../psychology/parasocial-bonds.md), [Presence](../psychology/presence.md).
 
+## Helps, Never Takes Over
+
+Relevant for: a game with companions or allies.
+
+A companion who fights or travels with the player pulls its weight. It never gets in the way or needs rescuing over and over, unless its helplessness is the point. It never takes away fun the player can have alone, such as killing all the enemies, unless the moment asks for two: the player casts a spell while the companion guards, or the combat has moves for two.
+
+Rests on: [Autonomy, Competence And Relatedness](../psychology/autonomy-competence-and-relatedness.md), [Effort And The IKEA Effect](../psychology/effort-and-the-ikea-effect.md).
+
 ## Bonds From Shared Circumstance
 
 Relevant for: a game with companions or allies.
@@ -18,6 +26,14 @@ A companion relates to the player in a positive way, without ulterior motives: s
 
 Rests on: [Shared Experience](../psychology/shared-experience.md), [Similarity](../psychology/similarity.md), [Reciprocity](../psychology/reciprocity.md), [Baby Schema](../psychology/baby-schema.md).
 
+## Shared Memories
+
+Relevant for: a game with companions or allies.
+
+A companion remembers what it went through with the player, and refers back to it.
+
+Rests on: [Shared Experience](../psychology/shared-experience.md).
+
 ## What The Player Cannot See
 
 Relevant for: a game with companions or allies.
@@ -25,6 +41,14 @@ Relevant for: a game with companions or allies.
 A companion reacts from its own experience, and never judges. It tells the player what the player cannot perceive, such as I heard that x happened, and never explains what is going on or what the player can already see ([Dialog Gives Context](game-design-laws-story.md#dialog-gives-context), [No Yellow Paint](game-design-laws-guidance.md#no-yellow-paint)).
 
 Rests on: [Cognitive Load](../psychology/cognitive-load.md), [Rewards And Feedback](../psychology/rewards-and-feedback.md).
+
+## No Looping Lines
+
+Relevant for: a game with companions or allies.
+
+A companion's remark is not repeated every few minutes. A line said too often stops landing and starts to grate.
+
+Rests on: [Habituation](../psychology/habituation.md), [Processing Fluency](../psychology/processing-fluency.md).
 
 ## Mirroring
 
@@ -46,9 +70,9 @@ Rests on: [Resuming An Interrupted Task](../psychology/resuming-an-interrupted-t
 
 Relevant for: a game with companions or allies.
 
-Losing a companion feels really bad, and the player grieves.
+Losing a companion feels really bad, and the player grieves. A companion lost in play is lost to a risk the player could see coming, never to chance and never while the player is away ([Fair Surprise](game-design-laws-world.md#fair-surprise), [AFK Safe](game-design-laws-experience.md#afk-safe)). A loss written into the story stays the story's choice.
 
-Rests on: [Parasocial Bonds](../psychology/parasocial-bonds.md).
+Rests on: [Parasocial Bonds](../psychology/parasocial-bonds.md), [Predictability](../psychology/predictability.md), [Controllability](../psychology/controllability.md).
 
 ## Related
 

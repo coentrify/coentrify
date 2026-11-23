@@ -25,6 +25,7 @@ Earned progress is worth more to the player than progress handed over, and only 
 - The [No-Gear Level](../gamedev/game-design-patterns.md#no-gear-level) - the gear comes back, earned a second time
 - [Emergent Gameplay](../gamedev/game-design-laws-progress.md#emergent-gameplay) - a solution the player found is valued more
 - [No Asset Flips](../gamedev/game-design-laws-own-style.md#no-asset-flips) - a game is judged by the effort seen in it
+- [Helps, Never Takes Over](../gamedev/game-design-laws-companions.md#helps-never-takes-over) - what the player does themselves is worth more
 
 ## Related
 

@@ -21,6 +21,7 @@ A sound that repeats the same way fades into the background, which suits an ambi
 
 - [Soft Sound](../gamedev/game-design-laws-experience.md#soft-sound) - a repeated sound varies, a cue the player must notice is spaced, and an ambient layer may fade into the background
 - [Contrast](../gamedev/game-design-laws-world.md#contrast) - busy and calm alternate, so each hits again after the other
+- [No Looping Lines](../gamedev/game-design-laws-companions.md#no-looping-lines) - a line said again and again stops landing
 
 ## Related
 
