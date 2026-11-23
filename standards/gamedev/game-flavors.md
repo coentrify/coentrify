@@ -14,6 +14,7 @@ The layers run from the top down, and a layer is picked within what the layers a
 - [Kind Of Play](game-flavors-kind-of-play.md) - what the player is doing at heart
 - [Story Delivery](game-flavors-story-delivery.md) - how the story reaches the player
 - [Protagonist](game-flavors-protagonist.md) - who the player is in the game
+- [Story Structure](game-flavors-story-structure.md) - the shape of the story over the whole game
 - [Era](game-flavors-era.md) - when the world is set, and how true it stays to its time
 - [The Secret](game-flavors-the-secret.md) - what the world's secret turns out to be, in a game built on a mystery
 - [Reveal](game-flavors-reveal.md) - how the secret unfolds over the game's length

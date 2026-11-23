@@ -33,6 +33,7 @@ The Gamedev standards: game development.
 - [Game Flavors: Protagonist](game-flavors-protagonist.md) - who the player is in the game, weighed against Make Yourself
 - [Game Flavors: Reveal](game-flavors-reveal.md) - how the secret unfolds over the game's length
 - [Game Flavors: Story Delivery](game-flavors-story-delivery.md) - how the story reaches the player, a main channel with accents
+- [Game Flavors: Story Structure](game-flavors-story-structure.md) - the shape of the story over the whole game, mixing by scope
 - [Game Flavors: The Secret](game-flavors-the-secret.md) - what the world's secret turns out to be, in a game built on a mystery
 - [Game Flavors: Tone](game-flavors-tone.md) - the emotional register the game speaks in, a main tone with accents
 - [Game Onboarding](game-onboarding.md) - `coentrify game` asks for the mode first, sets the project up, and runs the phases to a playable build
