@@ -22,7 +22,7 @@ Agents that work at the same time should not conflict.
 
 ## Landing
 
-- A story lands on main whole, once its tickets are done, and again after rework: the simplified release workflow. Its branch goes through the project's merge script, in a command of its own, never beside anything else. The merge commit carries the story's id ([Commits](../commits/commits.md#ticket-prefix)).
+- A story lands on main whole, once its tickets are done, and again after rework: the simplified release workflow. A live product runs the [Advanced Release Workflow](../tickets-workflow/advanced-release-workflow.md). Its branch goes through the project's merge script, in a command of its own, never beside anything else. The merge commit carries the story's id ([Commits](../commits/commits.md#ticket-prefix)).
 - The main checks go through the project's main checks script with the checks named as npm scripts, such as the hygiene, types, unit and wiki checks and the development build. A docs landing names hygiene and the wiki at least.
 - A docs commit outside a landing goes through the project's docs commit script, hygiene among its checks, which commits only when every check exits 0.
 - After any `git merge --abort`, `git cherry main <branch>` runs before a landing is reported.

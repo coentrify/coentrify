@@ -2,15 +2,10 @@
 
 Version 0.2.3: the roadmap items an agent can do on its own.
 
-- The advanced release workflow (active)
-- Asset types
+- Asset types (active)
 - The Node port
 - The Proof page
 - Call 0.2.3
-
-## The Advanced Release Workflow
-
-A standard for a product that is live: stories merge into a development branch, which is promoted to a release branch, accepted there and merged into main.
 
 ## Asset Types
 

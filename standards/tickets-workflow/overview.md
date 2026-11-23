@@ -2,6 +2,7 @@
 
 The Tickets Workflow standards: the work tracked in tickets.
 
+- [Advanced Release Workflow](advanced-release-workflow.md) - for a live product, stories land on develop, a release branch is accepted, and main holds only what is live
 - [Agent Roles](agent-roles.md) - the conductor runs the agents, a builder per story until its verdict, a docs agent for sweeps and queues, a scout for spikes. The number of agents follows token and machine capacity. No agent names in the docs
 - [Building A Ticket](building-a-ticket.md) - the builder's page: work comes from the plan only, one ticket in flight. A ticket lands right, solved now, a follow-up only as a split. The Definition of Done: every criterion met and verified, checks green by exit code, proof in the Done part, docs synced, no new debt, own decisions under Veto, a commit of its own
 - [The Builder](the-builder.md) - builds one story in a worktree of its own, ticket by ticket, until the director's verdict, or the merge of a debt story
