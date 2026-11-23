@@ -21,7 +21,7 @@ A builder can build from the ticket alone.
 - The Current Situation is written first. A ticket asking for something built already shows it there and never reaches the plan.
 - Left Out holds decisions only. Something built already or decided elsewhere is refined away. An unsure split is a Question.
 - The ticket is functional. Tests, specs, docs and code are the Definition of Done and the builder's.
-- A ticket describes the work. The product is described in its feature docs, which a feature ticket updates. A feature doc links the ticket of a part not built yet beside its `(Not Yet Implemented)` mark. A hygiene check flags a mark whose ticket is archived, the cue to update the doc.
+- A ticket describes the work. The product is described in its feature docs, which a feature ticket updates. A part not built yet carries a `(Not Yet Implemented)` mark with its ticket's link. A hygiene check flags a mark without a ticket or with an archived one, the cue to update the doc.
 
 ## Acceptance Criteria
 
