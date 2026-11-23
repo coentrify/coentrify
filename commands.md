@@ -9,7 +9,7 @@ In a fresh project the first prompt is `npx coentrify`, as the [Quick Start](rea
 - `coentrify explain` - say what coentrify is
 - `coentrify update` - bring the project up to date
 
-An agent shows the greeting from the [onboarding](onboarding.md#greet) before any command, and before a plain prompt matched to one by intent.
+Every command opens with the greeting, the way [Greet](onboarding.md#greet) says, and so does a plain prompt matched to one by intent.
 
 ## `coentrify`
 
