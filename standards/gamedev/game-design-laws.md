@@ -116,6 +116,7 @@ The full text is in [Game Design Laws: Own Style](game-design-laws-own-style.md)
 - [Unique Where It Counts](game-design-laws-own-style.md#unique-where-it-counts) - unique in what makes the game, best practice for the rest
 - [References Stay References](game-design-laws-own-style.md#references-stay-references) - a parody, a spin or a nod, never a copy
 - [In Harmony](game-design-laws-own-style.md#in-harmony) - the senses carry one message, never overloaded or underloaded
+- [Rules Broken On Purpose](game-design-laws-own-style.md#rules-broken-on-purpose) - a rare break that resonates, a solo over the groove, and an easter egg needs no reason
 
 ### Values
 

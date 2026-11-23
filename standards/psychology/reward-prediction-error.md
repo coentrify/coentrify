@@ -20,6 +20,7 @@ A reward that comes as expected stops landing, so rewards grow or surprise, and 
 ## The Laws On It
 
 - [Cadence](../gamedev/game-design-laws-progress.md#cadence) - rewards come bigger, or feel bigger, and a solo colors in the groove
+- [Rules Broken On Purpose](../gamedev/game-design-laws-own-style.md#rules-broken-on-purpose) - a break the player did not expect lands as a surprise
 
 ## Related
 

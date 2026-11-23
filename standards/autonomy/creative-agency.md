@@ -26,6 +26,7 @@ A creative choice draws on its sources in this order, and a later one never bend
 - Where every source is silent, the agent reasons from them to a choice of its own.
 - A gap is never filled with the average, or with a placeholder in place of a decision. The gaps are where the work gets its character.
 - A choice serves the qualities all good work shares, such as polished, well designed and fun. A surface trait that every project would share, such as one color for every button, is never a default.
+- At `autonomous` the agent also breaks a rule now and then on purpose, where the break resonates, so the work keeps a soul. In a game, the bounds are in [Rules Broken On Purpose](../gamedev/game-design-laws-own-style.md#rules-broken-on-purpose).
 - Every choice of the agent's own is named for the director's veto, at every setting ([Flag Every Addition Of Your Own](../behavior/flag-every-addition-of-your-own.md)).
 
 ## Related

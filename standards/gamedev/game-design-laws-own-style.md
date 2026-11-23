@@ -51,6 +51,12 @@ The senses form one whole: music, picture, story and feel carry the same message
 
 Rests on: [Processing Fluency](../psychology/processing-fluency.md), [Optimal Arousal](../psychology/optimal-arousal.md).
 
+## Rules Broken On Purpose
+
+A game holds to its laws and standards like a groove, and breaks one now and then on purpose, where the break resonates: a moment that breaks the game's own tone or frame, or a secret that is there only for the fun of finding it. An easter egg needs no other reason, while everything else is weighed. The ratio is a feeling, never a number, and a break stays rare, so it reads as a solo over a solid groove ([Cadence](game-design-laws-progress.md#cadence)). The Values laws never break. A game with no break at all is weighed at the Game Design gate, never forced.
+
+Rests on: [Benign Violations](../psychology/benign-violations.md), [Habituation](../psychology/habituation.md), [Reward Prediction Error](../psychology/reward-prediction-error.md).
+
 ## Related
 
 - [Game Design Laws: Experience](game-design-laws-experience.md)
