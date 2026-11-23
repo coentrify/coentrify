@@ -30,6 +30,7 @@ The Gamedev standards: game development.
 - [Game Flavors: Maker Presence](game-flavors-maker-presence.md) - whether the people who made the game show in it
 - [Game Flavors: Mistakes](game-flavors-mistakes.md) - what a mistake costs the player
 - [Game Flavors: Naming](game-flavors-naming.md) - how the characters are named
+- [Game Flavors: Protagonist](game-flavors-protagonist.md) - who the player is in the game, weighed against Make Yourself
 - [Game Flavors: Reveal](game-flavors-reveal.md) - how the secret unfolds over the game's length
 - [Game Flavors: Story Delivery](game-flavors-story-delivery.md) - how the story reaches the player, a main channel with accents
 - [Game Flavors: The Secret](game-flavors-the-secret.md) - what the world's secret turns out to be, in a game built on a mystery
