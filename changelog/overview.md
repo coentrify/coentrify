@@ -2,6 +2,7 @@
 
 What changed in each version of coentrify. A version has a page of its own, which opens with its summary. The summary is also the text of its release.
 
+- [0.3.3](0.3.3.md) - a round of filings from projects at work
 - [0.3.2](0.3.2.md) - memory reconsolidation, a twist for ARC's Repeat, and names from the maker's own circle
 - [0.3.1](0.3.1.md) - a round of filings: an attribution check, the ticket's id as the scope, the greeting back to its essence, and issue links printed by code
 - [0.3.0](0.3.0.md) - autonomy as an opt-in, piloted on games: the agency dial, flavors, gate questions, an audience, assets in layers, and `coentrify game`
