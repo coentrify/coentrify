@@ -4,7 +4,7 @@ The first stage of a game ([Game Phases](game-phases.md)). Concept is divergent:
 
 ## Idea
 
-The opening of `docs/overview.md`: the game in one line, its pillars and its Something Special. A pillar is something the game does not hold without. Something Special is the little extra that sets the game apart: not essential, the cherry on top, such as running references and parodies ([Game Work Workflow](game-work-workflow.md#terms)). Gate: does the line excite?
+The opening of `docs/overview.md`: the game in one line, its pillars, its Something Special, and who it is for, by what binds them and how broad or niche they are ([Audience Profile Template](audience-profile-template.md)). A pillar is something the game does not hold without. Something Special is the little extra that sets the game apart: not essential, the cherry on top, such as running references and parodies ([Game Work Workflow](game-work-workflow.md#terms)). Gate: does the line excite?
 
 ## Gathering
 

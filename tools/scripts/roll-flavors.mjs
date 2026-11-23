@@ -4,14 +4,18 @@
 // usage: roll-flavors.mjs check [doc]
 //        roll-flavors.mjs roll <layer> [doc]
 //
-// Run from the root of the project. The doc defaults to docs/flavors.md, and holds one line per pick:
+// Run from the root of the project. The doc defaults to docs/flavors.md, and holds one line per pick, and
+// a line per flavor it rules out or favors:
 //   - Naming: Parody Names
 //   - Naming: own - the game's own strategy
+//   - Naming: never Parody Names - the reason
+//   - Naming: favor Serious Names - the reason
 //
-// check fails on a layer or a flavor that Game Flavors does not hold, on two picks that conflict, and on a
-// pick whose need is not picked. roll draws a flavor for the layer at random, among the ones that fit the
-// picks so far, and prints the line to add. The draw is code, since a model's random pick drifts to the
-// most likely one.
+// check fails on a layer or a flavor that Game Flavors does not hold, on two picks that conflict, on a
+// pick whose need is not picked, and on a pick that is ruled out. roll draws a flavor for the layer at
+// random, among the ones that fit the picks so far and are not ruled out, and prints the line to add with
+// the favored flavors that fit, for the agent to consider strongly. The draw is code, since a model's
+// random pick drifts to the most likely one.
 import { randomInt } from 'node:crypto';
 import { existsSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
@@ -29,6 +33,7 @@ const NAMES = /, | and /;
 const PICK = /^- ([^:]+): (.+)$/;
 const OWN = /^own\b/i;
 const OWN_STRATEGY = /^own - \S/i;
+const STANCE = /^(never|favor) (.+?) - (\S.*)$/i;
 
 function fail(message) {
   console.error(`flavors: ${message}`);
@@ -74,8 +79,9 @@ function flavorsOf(page) {
   return flavors;
 }
 
-// The picks in the doc: [layer, flavor] for a flavor, [layer, null] for the game's own strategy.
-function picks(doc, all) {
+// The picks in the doc: [layer, flavor] for a flavor, [layer, null] for the game's own strategy. The flavors
+// it rules out or favors go into stances, by name, with their reason.
+function picks(doc, all, stances) {
   if (!existsSync(doc)) {
     return [];
   }
@@ -89,7 +95,17 @@ function picks(doc, all) {
     if (!all.has(layer)) {
       fail(`${doc} picks for a layer Game Flavors does not hold: ${layer}. The layers: ${[...all.keys()].join(', ')}.`);
     }
-    if (OWN.test(value)) {
+    const stance = value.match(STANCE);
+    if (/^(never|favor)\b/i.test(value)) {
+      if (!stance) {
+        fail(`${doc} gives no reason for its ${value}. Write it as - ${layer}: ${value} - and the reason.`);
+      }
+      const [, kind, name, reason] = stance;
+      if (!all.get(layer).has(name)) {
+        fail(`${doc} ${kind.toLowerCase()}s a flavor ${layer} does not hold: ${name}. The flavors: ${[...all.get(layer).keys()].join(', ')}.`);
+      }
+      stances[kind.toLowerCase()].set(name, reason);
+    } else if (OWN.test(value)) {
       if (!OWN_STRATEGY.test(value)) {
         fail(`${doc} names no strategy for its own ${layer}. Write it as - ${layer}: own - and the strategy.`);
       }
@@ -124,11 +140,15 @@ if (!(command === 'check' && rest.length <= 1) && !(command === 'roll' && rest.l
 const all = layers();
 const layer = command === 'roll' ? rest[0] : null;
 const doc = (command === 'roll' ? rest[1] : rest[0]) ?? DEFAULT_DOC;
-const picked = picks(doc, all);
+const stances = { never: new Map(), favor: new Map() };
+const picked = picks(doc, all, stances);
 const names = picked.map(([, name]) => name).filter((name) => name !== null);
 
 if (command === 'check') {
   const problems = [];
+  for (const name of names.filter((name) => stances.never.has(name))) {
+    problems.push(`${name} is picked, and ruled out: ${stances.never.get(name)}`);
+  }
   for (const [index, name] of names.entries()) {
     for (const other of names.slice(index + 1)) {
       if (conflict(all, name, other)) {
@@ -153,7 +173,7 @@ if (!all.has(layer)) {
 }
 const decided = new Set(picked.map(([pickedLayer]) => pickedLayer));
 const fits = [...all.get(layer).entries()]
-  .filter(([name]) => !names.includes(name))
+  .filter(([name]) => !names.includes(name) && !stances.never.has(name))
   .filter(([name]) => names.every((other) => !conflict(all, name, other)))
   .filter(([, { needs }]) => needs.every((need) => names.includes(need) || !decided.has(flavor(all, need)?.layer)))
   .map(([name]) => name);
@@ -163,3 +183,10 @@ if (fits.length === 0) {
 const rolled = fits[randomInt(fits.length)];
 console.log(`- ${layer}: ${rolled}`);
 console.log(`Rolled from the ${fits.length} that fit. Add the line to ${doc}, and run check.`);
+const favored = fits.filter((name) => stances.favor.has(name));
+if (favored.length) {
+  console.log('Favored, to consider strongly before taking the draw:');
+  for (const name of favored) {
+    console.log(`- ${name} - ${stances.favor.get(name)}`);
+  }
+}

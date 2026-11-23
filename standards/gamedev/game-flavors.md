@@ -23,6 +23,8 @@ The layers run from the top down, and a layer is picked within what the layers a
 
 - A game's picks stand in `docs/flavors.md`, one line per pick: `- Naming: Parody Names`, or `- Naming: own - ` and the game's own strategy.
 - A flavor is named by its name, never copied, the way a laws doc adopts a law.
+- The doc can rule a flavor out, `- Naming: never Parody Names - ` and the reason, often from the audience profile ([Audience Profile Template](audience-profile-template.md)). A roll skips it.
+- The doc can favor a flavor, `- Naming: favor Serious Names - ` and the reason. A roll names the favored flavors that fit, and the agent considers them strongly before it takes the draw.
 - A layer is picked by the director, or rolled. A roll is drawn by code, since a model's random pick drifts to the most likely one: `node node_modules/coentrify/src/tools/scripts/roll-flavors.mjs roll <layer>`.
 - A roll draws among the flavors that fit the picks so far. `roll-flavors.mjs check` holds the picks to their conflicts and needs, after every change to the doc.
 - A game's own strategy that holds for other games is filed with coentrify as a flavor, its game specifics stripped ([File A Change With Coentrify](../behavior/file-a-change-with-coentrify.md)).

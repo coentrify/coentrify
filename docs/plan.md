@@ -2,8 +2,7 @@
 
 Version 0.3.0: autonomy as an opt-in, piloted on games, built bottom up from the filings #50 to #58.
 
-- An audience profile, #53 (active)
-- Layered templates, #55
+- Layered templates, #55 (active)
 - A game from one input, #50 and #56
 - Pilots, #57, and flavors from the projects, #58
 - Call 0.3.0
