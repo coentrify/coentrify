@@ -2,7 +2,7 @@
 
 What changed in each version of coentrify. A version has a page of its own, which opens with its summary. The summary is also the text of its release.
 
-- [0.2.3](0.2.3.md) - the advanced release workflow for a live product, and a list per asset type
+- [0.2.3](0.2.3.md) - the advanced release workflow for a live product, a list per asset type, and the scripts in Node
 - [0.2.2](0.2.2.md) - Ma as a game design pattern, and a round of filings from projects at work
 - [0.2.1](0.2.1.md) - the game laws checked against what is known about people
 - [0.2.0](0.2.0.md) - the first round from a second project: the greeting first, proof from a fresh session, Contrast through time, and anchors that hold in the wiki

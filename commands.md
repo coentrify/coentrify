@@ -37,7 +37,7 @@ With `update` on `automatic`, the session check starts the update when the insta
 
 - In the tickets workflow, file a heal ticket first, commit the update under its id, and land it archived like any heal ticket ([Work Tracking](standards/tickets-workflow/work-tracking.md)).
 - Raise coentrify to its latest version, `npm install --save-dev coentrify@latest`, unless the session check started the update.
-- Run the update script from the installed package for the plan, `python3 node_modules/coentrify/src/tools/scripts/coentrify-update.py`, and read the [changelog](changelog/overview.md) from the project's version on. The script fetches the project's version from npm to compare with.
+- Run the update script from the installed package for the plan, `node node_modules/coentrify/src/tools/scripts/coentrify-update.mjs`, and read the [changelog](changelog/overview.md) from the project's version on. The script fetches the project's version from npm to compare with.
 - A project from before 0.1.0 sets coentrify up again, the way the [onboarding](onboarding.md#an-earlier-coentrify) says for an earlier coentrify.
 - Read `standards/decisions.md` for the reasoning behind the earlier choices.
 - With `update` on `review`, show the director a changed rule in a tracked standard before it is replaced. With `automatic`, it is replaced at once, and the report names it.
