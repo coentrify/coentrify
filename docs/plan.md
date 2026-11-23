@@ -2,15 +2,10 @@
 
 Version 0.2.4: a round of filings, each brought to the director one by one.
 
-- The greeting in an app, #47 (active)
-- Budget lists in an update, #48
+- Budget lists in an update, #48 (active)
 - Filing without access, #49
 - The Conduct, one change at a time
 - Call 0.2.4
-
-## The Greeting In An App
-
-Filed: where the app shows text between tool calls only as a summary, the greeting opens the turn's closing message.
 
 ## Budget Lists In An Update
 

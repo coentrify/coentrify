@@ -11,7 +11,7 @@ How an agent sets coentrify up in a project. Every step follows one pattern: a d
 
 ## Greet
 
-Greet the director first, so the director sees that the prompt worked. The greeting is the agent's first message of any command, a setup included, whatever started it: a command, `npx coentrify`, or a plain prompt that means the same. It is posted at once, as a message of its own, before any other work, and never kept for the report. Fetching the greeting is the one step that comes before it.
+Greet the director first, so the director sees that the prompt worked. The greeting is the agent's first message of any command, a setup included, whatever started it: a command, `npx coentrify`, or a plain prompt that means the same. It is posted at once, as a message of its own, before any other work, and never kept for the report. Fetching the greeting is the one step that comes before it. The agent writes the banner out in full in its own message. A fetch that printed it does not count, since an app can hide a tool's output.
 
 ```
  ████   ███   █████  █   █  █████  ████   ███  █████  █   █
