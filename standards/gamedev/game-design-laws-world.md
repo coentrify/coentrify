@@ -66,3 +66,4 @@ Rests on: [Attention Restoration](../psychology/attention-restoration.md), [Opti
 - [Game Design Laws: Guidance](game-design-laws-guidance.md)
 - [Game Design Laws: Own Style](game-design-laws-own-style.md)
 - [Game Design Laws: Quality](game-design-laws-quality.md)
+- [Game Design Laws: Values](game-design-laws-values.md)

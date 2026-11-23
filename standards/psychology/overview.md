@@ -27,7 +27,9 @@ The Psychology standards: findings about people that the game laws rest on, each
 - [Predictability](predictability.md) - a danger with a sign ahead is feared only at the sign, and one without keeps fear up
 - [Presence](presence.md) - the sense of being there, fed by the senses, a world that answers, and attention on it
 - [Processing Fluency](processing-fluency.md) - what is easy to process pleases, until sameness wears it out
+- [Reactance](reactance.md) - a freedom threatened by an order or a pressed message makes people push back
 - [Reciprocity](reciprocity.md) - closeness grows in turns, as people open up to each other
+- [Redundant Signals](redundant-signals.md) - a signal on two senses is caught faster, and people differ in what they take in best
 - [Reference Dependence](reference-dependence.md) - judgment against a reference that drifts
 - [Response Time Limits](response-time-limits.md) - a tenth of a second feels direct, a second keeps the thought, ten seconds lose it
 - [Resuming An Interrupted Task](resuming-an-interrupted-task.md) - a begun task pulls a person back, and the memory claim does not hold

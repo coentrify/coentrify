@@ -20,6 +20,7 @@ A story the player is absorbed in carries the game, and an invented world does t
 
 - [Show, Don't Tell](../gamedev/game-design-laws-story.md#show-dont-tell) - absorption in the story world
 - [Dialog Gives Context](../gamedev/game-design-laws-story.md#dialog-gives-context) - context that keeps the player inside the story
+- [Embedded Relevance](../gamedev/game-design-laws-story.md#embedded-relevance) - the experience is the message
 
 ## Related
 

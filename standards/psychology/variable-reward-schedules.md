@@ -21,6 +21,7 @@ Irregular rewards keep a player exploring, and the line between curiosity and co
 ## The Laws On It
 
 - [Exploration Is Rewarded](../gamedev/game-design-laws-experience.md#exploration-is-rewarded) and [Contrast](../gamedev/game-design-laws-world.md#contrast) - finds at irregular moments
+- [No Real Money In Play](../gamedev/game-design-laws-values.md#no-real-money-in-play) - no loot boxes and no bought currency
 
 ## Related
 

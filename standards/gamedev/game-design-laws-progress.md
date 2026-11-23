@@ -86,3 +86,4 @@ Rests on: [The Goal Gradient](../psychology/the-goal-gradient.md).
 - [Game Design Laws: World](game-design-laws-world.md)
 - [Game Design Laws: Own Style](game-design-laws-own-style.md)
 - [Game Design Laws: Quality](game-design-laws-quality.md)
+- [Game Design Laws: Values](game-design-laws-values.md)

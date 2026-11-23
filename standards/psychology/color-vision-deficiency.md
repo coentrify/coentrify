@@ -18,7 +18,7 @@ State shown by color alone is invisible to a part of the players.
 
 ## The Laws On It
 
-None yet. A law that state never rests on color alone is a gap.
+- [Every Sense Carries It](../gamedev/game-design-laws-ui.md#every-sense-carries-it) - nothing rests on color alone
 
 ## Related
 

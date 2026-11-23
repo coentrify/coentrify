@@ -45,6 +45,12 @@ A reference stays a reference: a parody, a spin or a nod, never a copy that infr
 
 Rests on: [Benign Violations](../psychology/benign-violations.md).
 
+## In Harmony
+
+The senses form one whole: music, picture, story and feel carry the same message together, and the game is never one of them alone. They may be slightly misaligned, one cue stronger than another, as long as the pattern correlates, and a clash between them is a deliberate contrast. A moment may be all chill, or any other vibe, and the game as a whole balances chill and excitement. The senses are never overloaded or underloaded, unless the level is built for it.
+
+Rests on: [Processing Fluency](../psychology/processing-fluency.md), [Optimal Arousal](../psychology/optimal-arousal.md).
+
 ## Related
 
 - [Game Design Laws: Experience](game-design-laws-experience.md)
@@ -55,3 +61,4 @@ Rests on: [Benign Violations](../psychology/benign-violations.md).
 - [Game Design Laws: Guidance](game-design-laws-guidance.md)
 - [Game Design Laws: World](game-design-laws-world.md)
 - [Game Design Laws: Quality](game-design-laws-quality.md)
+- [Game Design Laws: Values](game-design-laws-values.md)

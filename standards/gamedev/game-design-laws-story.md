@@ -8,6 +8,12 @@ Never tell the player what happened, what to feel or what to experience. Let the
 
 Rests on: [Narrative Transportation](../psychology/narrative-transportation.md).
 
+## Embedded Relevance
+
+The strongest message is the experience: one the game never needs to tell or discuss. Everything relates to the value it serves, so the whole game breathes it: small tasks that all heal one forest pay off when every animal of the forest gathers as its soul returns. A meaning or a message is always experienced by the player, never inserted, propagandized or politicized.
+
+Rests on: [Narrative Transportation](../psychology/narrative-transportation.md), [Reactance](../psychology/reactance.md).
+
 ## Worth Reading
 
 Relevant for: dialog.
@@ -53,3 +59,4 @@ Rests on: [Avatar Identification](../psychology/avatar-identification.md).
 - [Game Design Laws: World](game-design-laws-world.md)
 - [Game Design Laws: Own Style](game-design-laws-own-style.md)
 - [Game Design Laws: Quality](game-design-laws-quality.md)
+- [Game Design Laws: Values](game-design-laws-values.md)

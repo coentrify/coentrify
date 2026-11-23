@@ -33,3 +33,4 @@ Rests on: [Cognitive Load](../psychology/cognitive-load.md).
 - [Game Design Laws: World](game-design-laws-world.md)
 - [Game Design Laws: Own Style](game-design-laws-own-style.md)
 - [Game Phases: Development](game-phases-development.md)
+- [Game Design Laws: Values](game-design-laws-values.md)

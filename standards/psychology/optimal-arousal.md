@@ -21,6 +21,7 @@ A world, a scene or a screen can hold too little or too much, and the right amou
 ## The Laws On It
 
 - [Contrast](../gamedev/game-design-laws-world.md#contrast) - neither crammed nor empty, weakly
+- [In Harmony](../gamedev/game-design-laws-own-style.md#in-harmony) - the senses are never overloaded or underloaded
 
 ## Related
 

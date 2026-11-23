@@ -15,6 +15,7 @@ The Gamedev standards: game development.
 - [Game Design Laws: Story](game-design-laws-story.md) - what the game says
 - [Game Design Laws: UI](game-design-laws-ui.md) - the screen and the controls
 - [Game Design Laws: World](game-design-laws-world.md) - the world the player moves through
+- [Game Design Laws: Values](game-design-laws-values.md) - what a game does to the person playing it
 - [Game Design Patterns](game-design-patterns.md) - named patterns a game uses where they fit, such as the No-Gear level
 - [Game Phases](game-phases.md) - a game's phases in four stages, each phase but Post-Release ending at a phase gate, with the greybox, demos and outside playtests
 - [Game Phases: Concept](game-phases-concept.md) - the divergent stage: Idea, Gathering, Outline and Prototype, loose inside and without tickets

@@ -33,6 +33,8 @@ The three needs are the best supported account of why people play at all, so mos
 - [Bands, Not Bullseyes](../gamedev/game-design-laws-progress.md#bands-not-bullseyes) - a beginner scrapes through and any method counts, competence and autonomy
 - [Only What Matters](../gamedev/game-design-laws-companions.md#only-what-matters) - the player decides what to spend play on
 - [Helps, Never Takes Over](../gamedev/game-design-laws-companions.md#helps-never-takes-over) - the player solves what they can alone
+- [Tracks, Never Instructs](../gamedev/game-design-laws-guidance.md#tracks-never-instructs) - a task comes with a reason the player cares about
+- [Compulsion Is Considered](../gamedev/game-design-laws-values.md#compulsion-is-considered) - compulsion only from blocked paths, always on purpose
 
 ## Related
 

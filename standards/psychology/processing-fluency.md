@@ -27,6 +27,7 @@ Consistency and familiar conventions make a game easy to take in, and too much s
 - [Always Polished](../gamedev/game-design-laws-quality.md#always-polished) - one level of quality, by inference
 - [Generate, Never Reuse](../gamedev/game-design-laws-own-style.md#generate-never-reuse) - assets from one origin read as one harmonic style
 - [No Looping Lines](../gamedev/game-design-laws-companions.md#no-looping-lines) - a line heard too often wears out its welcome
+- [In Harmony](../gamedev/game-design-laws-own-style.md#in-harmony) - the senses carry one message
 
 ## Related
 

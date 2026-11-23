@@ -1,6 +1,6 @@
 # Game Design Laws
 
-Laws are short rules that hold unless there is a very good reason to break one. The generic set lives in the standards, in nine parts by theme, and this standard is its index. A game's own laws and overrides stand in the game's docs.
+Laws are short rules that hold unless there is a very good reason to break one. The generic set lives in the standards, in ten parts by theme, and this standard is its index. A game's own laws and overrides stand in the game's docs.
 
 ## Why
 
@@ -52,6 +52,7 @@ The full text is in [Game Design Laws: Quality](game-design-laws-quality.md).
 The full text is in [Game Design Laws: UI](game-design-laws-ui.md).
 
 - [Communicate State](game-design-laws-ui.md#communicate-state) - what reacts, what is disabled and what changed shows it
+- [Every Sense Carries It](game-design-laws-ui.md#every-sense-carries-it) - state and meaning travel on several senses, never on color alone
 - [Alive World, Static Actions](game-design-laws-ui.md#alive-world-static-actions) - the world always moves, slowly, and actions are instant
 - [No Hard Edges](game-design-laws-ui.md#no-hard-edges) - rounded corners everywhere, and soft edges in the world. Sharp only on purpose
 - [Glow In Contrast](game-design-laws-ui.md#glow-in-contrast) - a glow contrasts the text it wraps
@@ -65,6 +66,7 @@ The full text is in [Game Design Laws: UI](game-design-laws-ui.md).
 The full text is in [Game Design Laws: Story](game-design-laws-story.md).
 
 - [Show, Don't Tell](game-design-laws-story.md#show-dont-tell) - the player experiences it. Words short and never too spot on
+- [Embedded Relevance](game-design-laws-story.md#embedded-relevance) - the experience is the message, never inserted or politicized
 - [Worth Reading](game-design-laws-story.md#worth-reading) - for dialog: a missed line stays missed
 - [Dialog Gives Context](game-design-laws-story.md#dialog-gives-context) - dialog accompanies the screen as narrative and gives context, never instructions
 - [Make Yourself](game-design-laws-story.md#make-yourself) - for a player character: the player can represent themselves
@@ -90,6 +92,7 @@ The full text is in [Game Design Laws: Guidance](game-design-laws-guidance.md).
 - [No Yellow Paint](game-design-laws-guidance.md#no-yellow-paint) - no steering that does the player's thinking. A hint is a context clue
 - [Answer The Player's Next Question](game-design-laws-guidance.md#answer-the-players-next-question) - every word and number is weighed by what it means to the player
 - [Adopt, Repeat, Confirm (ARC)](game-design-laws-guidance.md#adopt-repeat-confirm-arc) - a five step pattern for every new thing, spaced in time: awareness, trigger, adopt, repeat, confirm
+- [Tracks, Never Instructs](game-design-laws-guidance.md#tracks-never-instructs) - a quest log is a to-do list, and a task comes with a reason
 
 ### World
 
@@ -111,6 +114,14 @@ The full text is in [Game Design Laws: Own Style](game-design-laws-own-style.md)
 - [Generate, Never Reuse](game-design-laws-own-style.md#generate-never-reuse) - generate an asset, never reuse a pack, music aside
 - [Unique Where It Counts](game-design-laws-own-style.md#unique-where-it-counts) - unique in what makes the game, best practice for the rest
 - [References Stay References](game-design-laws-own-style.md#references-stay-references) - a parody, a spin or a nod, never a copy
+- [In Harmony](game-design-laws-own-style.md#in-harmony) - the senses carry one message, never overloaded or underloaded
+
+### Values
+
+The full text is in [Game Design Laws: Values](game-design-laws-values.md).
+
+- [Compulsion Is Considered](game-design-laws-values.md#compulsion-is-considered) - compulsion comes from blocked paths, never from aggravating work, and always on purpose
+- [No Real Money In Play](game-design-laws-values.md#no-real-money-in-play) - no loot boxes, no bought currency, no subscriptions
 
 ## How To Apply
 

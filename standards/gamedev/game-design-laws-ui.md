@@ -8,6 +8,12 @@ Always communicate state and interaction ([Communicate State](../ui/communicate-
 
 Rests on: [Flow](../psychology/flow.md).
 
+## Every Sense Carries It
+
+A game reaches the player through every sense at once: color and contrast, shape and icon, words, sound and feel. State and meaning travel on more than one of them, so every player understands from their own perspective, the way a film can be understood without its language. Nothing rests on color alone.
+
+Rests on: [Redundant Signals](../psychology/redundant-signals.md), [Color Vision Deficiency](../psychology/color-vision-deficiency.md).
+
 ## Alive World, Static Actions
 
 The world feels alive: something always moves, slowly, never flashy. It tells the player the world is not paused: it breathes, and the player is in it, never looking at a still image. A movement that starts or stops draws the eye, so it is placed on purpose, or its pull is weighed first. Depending on the game, a setting for less motion, such as less head bob or a motion sickness mode, is worth considering. Actions feel static: each action is just there. No idle animations on buttons, no slow bubble-up animations on modals or pop-ups that hold a secondary action, because those make the player wait again. The player stays in control.
@@ -67,3 +73,4 @@ Rests on: [Fitts's Law](../psychology/fitts-law.md), [Response Time Limits](../p
 - [Game Design Laws: World](game-design-laws-world.md)
 - [Game Design Laws: Own Style](game-design-laws-own-style.md)
 - [Game Design Laws: Quality](game-design-laws-quality.md)
+- [Game Design Laws: Values](game-design-laws-values.md)

@@ -40,6 +40,12 @@ Confirm overlaps the next link's Awareness, so the pattern widens the horizon as
 
 Rests on: [Cognitive Load](../psychology/cognitive-load.md), [Retrieval Practice](../psychology/retrieval-practice.md), [Rewards And Feedback](../psychology/rewards-and-feedback.md).
 
+## Tracks, Never Instructs
+
+A quest log is a to-do list, never a job description: it tracks, and never instructs. A task comes with a reason the player cares about: helping the witch cook a magic potion, the player hands her the apple she asks for. A bare help the witch, when the player neither knows nor cares, is weak design, and so is a game rigged so the player wants to follow its instructions.
+
+Rests on: [Reactance](../psychology/reactance.md), [Autonomy, Competence And Relatedness](../psychology/autonomy-competence-and-relatedness.md).
+
 ## Related
 
 - [Game Design Laws: Experience](game-design-laws-experience.md)
@@ -50,3 +56,4 @@ Rests on: [Cognitive Load](../psychology/cognitive-load.md), [Retrieval Practice
 - [Game Design Laws: World](game-design-laws-world.md)
 - [Game Design Laws: Own Style](game-design-laws-own-style.md)
 - [Game Design Laws: Quality](game-design-laws-quality.md)
+- [Game Design Laws: Values](game-design-laws-values.md)
