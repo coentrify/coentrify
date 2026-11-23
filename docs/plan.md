@@ -14,6 +14,13 @@ Each filing is weighed by how often its mistake comes back and what it costs. On
 - The way to reach a story, #72
 - Only the images a page shows are tracked, #73
 - A Not Yet Implemented mark names its ticket, #74
-- A failing case is fixed, never steadied, #75 (active)
-- Ticket marks and their checks, #76
+- A failing case is fixed, never steadied, #75, closed as not planned
+- Ticket marks and their checks, #76 (active)
+- The greeting the app's summary drops
 - Call 0.3.3
+
+## The Greeting The App's Summary Drops
+
+- In the desktop app, text between tool calls is summarized by a model, and it drops the banner every time: it is just ASCII art with no process step or finding in it.
+- The banner then shows in full in the turn's closing reply, which the app never summarizes.
+- So #47's first diagnosis held, and 0.3.1's Greet is labeled in a way the summary reads as decoration.
