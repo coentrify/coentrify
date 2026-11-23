@@ -49,6 +49,7 @@ This repository has no `coentrify.json` of its own, so a harness change here is 
 
 Each change is weighed against these questions.
 
+- Does its mistake come back, and does it cost? One that happens now and then and is found quickly is expected, and fine. One a model avoids with the standards it already has stays out, however often a project wrote it down.
 - Is it easy to get wrong? Then a check that catches it is the fix, and the rule shrinks to a line pointing at it. A simple, obvious rule stays an instruction.
 - Does another standard own it already, or contradict it? Then it merges there, and the conflict is settled once.
 - Is it local to one standard, or structural across several? A structural change is weighed against the whole before any file is touched.
