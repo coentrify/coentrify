@@ -21,7 +21,9 @@ What one project learns reaches every project.
 - A point that is filed already gets an addition on that issue, or a thumbs up.
 - A trigger is a mistake that comes back and costs. A rule a project keeps for itself is no trigger on its own.
 - An issue states the trigger, the proposal and the check: what happened, the rule to add, change or loosen and the standards it touches, and whether code could catch it instead, and which.
-- The source is public, and it expects issues from the projects that use it. An issue holds no project details for that reason.
+- The source is public, and it expects issues from the projects that use it. An issue tells nothing of its project's content for that reason: its story, its world, its characters, its mechanics and its names stay out.
+- It states the strategy or the gap in the abstract, the trigger included, and an example in it is made up for the filing.
+- Before a draft is saved, the agent reads it as one who knows the project would. That reader finds nothing to recognize the project by.
 
 ## Related
 

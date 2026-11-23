@@ -47,7 +47,7 @@ The layers run from the top down, and a layer is picked within what the layers a
 - `coentrify extract flavors <game>` sweeps a public game, from what is public about it, as a reference ([References Stay References](game-design-laws-own-style.md#references-stay-references)).
 - It names each strategy used, per layer, with the reasoning behind it.
 - In a project, each one is recorded in `docs/flavors.md`, as the flavor it already is or as the game's own.
-- A strategy that holds for other games and is not in the catalog is filed with coentrify as a flavor, a new layer with its first flavors, its personal details and project specifics stripped ([File A Change With Coentrify](../behavior/file-a-change-with-coentrify.md)). Running the command is the director's go to file.
+- A strategy that holds for other games and is not in the catalog is filed with coentrify as a flavor, a new layer with its first flavors, in the abstract and with made-up examples, so nothing of the game's content shows ([File A Change With Coentrify](../behavior/file-a-change-with-coentrify.md)). Running the command is the director's go to file.
 
 ## Related
 
