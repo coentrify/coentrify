@@ -14,6 +14,7 @@ The layers run from the top down, and a layer is picked within what the layers a
 - [The Secret](game-flavors-the-secret.md) - what the world's secret turns out to be, in a game built on a mystery
 - [Reveal](game-flavors-reveal.md) - how the secret unfolds over the game's length
 - [Conventions](game-flavors-conventions.md) - whether the game explains its own artifice
+- [Death](game-flavors-death.md) - what happens when a character dies, one rule per kind of character
 - [Naming](game-flavors-naming.md) - how the characters are named
 
 ## A Flavor
@@ -28,6 +29,7 @@ The layers run from the top down, and a layer is picked within what the layers a
 - A game's picks stand in `docs/flavors.md`, one line per pick: `- Naming: Parody Names`, or `- Naming: own - ` and the game's own strategy.
 - The game's own strategy can stand at a layer the catalog lacks, and the check names that layer as one to file.
 - A layer that does not fit the game, such as The Secret in a game without a mystery, is left out of its doc and never rolled.
+- A layer whose flavors do not conflict can hold several picks, each naming what it covers after a dash: `- Death: Respawn - the player`.
 - A flavor is named by its name, never copied, the way a laws doc adopts a law.
 - The doc can rule a flavor out, `- Naming: never Parody Names - ` and the reason, often from the audience profile ([Audience Profile Template](audience-profile-template.md)). A roll skips it.
 - The doc can favor a flavor, `- Naming: favor Serious Names - ` and the reason. A roll names the favored flavors that fit, and the agent considers them strongly before it takes the draw.

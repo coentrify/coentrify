@@ -10,6 +10,7 @@
 //   - Naming: own - the game's own strategy
 //   - Naming: never Parody Names - the reason
 //   - Naming: favor Serious Names - the reason
+//   - Death: Respawn - what the pick covers, where a layer holds several
 //
 // check fails on a flavor that Game Flavors does not hold, on two picks that conflict, on a pick whose need
 // is not picked, and on a pick that is ruled out. A game's own strategy at a layer the catalog lacks passes,
@@ -35,6 +36,7 @@ const PICK = /^- ([^:]+): (.+)$/;
 const OWN = /^own\b/i;
 const OWN_STRATEGY = /^own - \S/i;
 const STANCE = /^(never|favor) (.+?) - (\S.*)$/i;
+const NOTE = ' - ';
 
 function fail(message) {
   console.error(`flavors: ${message}`);
@@ -117,10 +119,12 @@ function picks(doc, all, stances, newLayers) {
         fail(`${doc} names no strategy for its own ${layer}. Write it as - ${layer}: own - and the strategy.`);
       }
       result.push([layer, null]);
-    } else if (!all.get(layer).has(value)) {
-      fail(`${doc} picks a flavor ${layer} does not hold: ${value}. The flavors: ${[...all.get(layer).keys()].join(', ')}.`);
     } else {
-      result.push([layer, value]);
+      const name = value.split(NOTE)[0].trim();
+      if (!all.get(layer).has(name)) {
+        fail(`${doc} picks a flavor ${layer} does not hold: ${name}. The flavors: ${[...all.get(layer).keys()].join(', ')}.`);
+      }
+      result.push([layer, name]);
     }
   }
   return result;
