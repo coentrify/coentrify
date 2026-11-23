@@ -31,6 +31,7 @@ The Gamedev standards: game development.
 - [Game Flavors: Naming](game-flavors-naming.md) - how the characters are named
 - [Game Flavors: Reveal](game-flavors-reveal.md) - how the secret unfolds over the game's length
 - [Game Flavors: The Secret](game-flavors-the-secret.md) - what the world's secret turns out to be, in a game built on a mystery
+- [Game Flavors: Tone](game-flavors-tone.md) - the emotional register the game speaks in, a main tone with accents
 - [Game Onboarding](game-onboarding.md) - `coentrify game` asks for the mode first, sets the project up, and runs the phases to a playable build
 - [Game Phases](game-phases.md) - a game's phases in four stages, each phase but Post-Release ending at a phase gate, with the greybox, demos and outside playtests
 - [Game Phases: Concept](game-phases-concept.md) - the divergent stage: Idea, Gathering, Outline and Prototype, loose inside and without tickets

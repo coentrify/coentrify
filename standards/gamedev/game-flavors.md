@@ -10,6 +10,7 @@ A creative choice has many good answers. A strategy written down once can be pic
 
 The layers run from the top down, and a layer is picked within what the layers above it decided. Each layer has a page of its own flavors.
 
+- [Tone](game-flavors-tone.md) - the emotional register the game speaks in
 - [Era](game-flavors-era.md) - when the world is set, and how true it stays to its time
 - [The Secret](game-flavors-the-secret.md) - what the world's secret turns out to be, in a game built on a mystery
 - [Reveal](game-flavors-reveal.md) - how the secret unfolds over the game's length
@@ -23,6 +24,7 @@ The layers run from the top down, and a layer is picked within what the layers a
 ## A Flavor
 
 - A flavor is a heading on its layer's page: what it decides and how, then an `Example:` line.
+- A layer's flavors are its main ones, never all there are. A game's own is an `own` pick, and the catalog grows with every sweep.
 - A `Conflicts:` line names the flavors it never goes with, and a `Needs:` line the flavors it needs. Each is left out when it is empty.
 - A flavor with real implications names them on a `Weighs:` line: what it gives, and what it costs. A pick weighs both.
 - No flavor is better than another. A device proven to work is a pattern ([Game Design Patterns](game-design-patterns.md)), and a rule that holds for every game is a law ([Game Design Laws](game-design-laws.md)).

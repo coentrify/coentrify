@@ -30,6 +30,7 @@ const LAYERS_HEADING = '## The Layers';
 const LAYER_LINE = /^- \[([^\]]+)\]\(([^)]+\.md)\)/;
 const FLAVOR_HEADING = /^## (.+)$/;
 const RELATED_HEADING = '## Related';
+const EXAMPLE = /^Example: /;
 const RELATION = /^(Conflicts|Needs): (.+?)\.?$/;
 const NAMES = /, | and /;
 const PICK = /^- ([^:]+): (.+)$/;
@@ -60,9 +61,10 @@ function layers() {
   return result;
 }
 
-// The flavors on a layer's page, each with the flavors it conflicts with and needs.
+// The flavors on a layer's page, each with the flavors it conflicts with and needs. A flavor is a heading
+// with an Example line, so a section such as one on how the layer mixes is no flavor.
 function flavorsOf(page) {
-  const flavors = new Map();
+  const sections = new Map();
   let current = null;
   for (const line of readFileSync(page, 'utf8').split('\n')) {
     if (line === RELATED_HEADING) {
@@ -70,16 +72,19 @@ function flavorsOf(page) {
     }
     const heading = line.match(FLAVOR_HEADING);
     if (heading) {
-      current = { conflicts: [], needs: [] };
-      flavors.set(heading[1], current);
+      current = { conflicts: [], needs: [], example: false };
+      sections.set(heading[1], current);
       continue;
+    }
+    if (current && EXAMPLE.test(line)) {
+      current.example = true;
     }
     const relation = current && line.match(RELATION);
     if (relation) {
       current[relation[1] === 'Conflicts' ? 'conflicts' : 'needs'].push(...relation[2].split(NAMES));
     }
   }
-  return flavors;
+  return new Map([...sections].filter(([, flavor]) => flavor.example));
 }
 
 // The picks in the doc: [layer, flavor] for a flavor, [layer, null] for the game's own strategy. The flavors
