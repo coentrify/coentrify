@@ -2,6 +2,7 @@
 
 What changed in each version of coentrify. A version has a page of its own, which opens with its summary. The summary is also the text of its release.
 
+- [0.3.5](0.3.5.md) - a creative sweep for flavors and patterns
 - [0.3.4](0.3.4.md) - eight new flavor layers with their weights, the law No Softlock, and filings that tell nothing of their project
 - [0.3.3](0.3.3.md) - a round of filings under a new filter, structural mistakes get standards, and a casual greeting
 - [0.3.2](0.3.2.md) - memory reconsolidation, a twist for ARC's Repeat, and names from the maker's own circle
