@@ -1,6 +1,6 @@
 # Game Design Laws: Companions
 
-Laws about the characters who stand with the player: companions, allies, associates and the people under or over the player. The index and the way a game uses them are in [Game Design Laws](game-design-laws.md).
+Laws about the characters who stand with the player: companions, allies, associates and the people under or over the player. The index and the way a game uses them are in [Game Design Laws](game-design-laws.md). Much of it holds for other players too, and a game with multiplayer files what it adds ([File A Change With Coentrify](../behavior/file-a-change-with-coentrify.md)).
 
 ## Characters Of Their Own
 
