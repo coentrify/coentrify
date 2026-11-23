@@ -2,11 +2,13 @@
 
 Version 0.3.3: the round of filings #65 to #76, each brought to the director one by one.
 
+Each filing is weighed by how often its mistake comes back and what it costs. One that happens now and then and is found quickly is expected, and needs no rule.
+
 - A story or an epic linked by its id, #65
 - Work asked for now gets a ticket, #66
-- A fixed bug the director still sees, #67 (active)
-- Builders by the machine's load, #68
-- Grooming in few commits, #69
+- A fixed bug the director still sees, #67, closed as not planned
+- Agents by the machine's load and the budget, #68
+- Grooming in few commits, #69 (active)
 - The hygiene suite on every commit, #70
 - Three iterations on a visible change, #71
 - What to play on a story's page, #72

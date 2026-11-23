@@ -28,8 +28,8 @@ Every message from the director is handled at once, while the work keeps landing
 
 ## How Many
 
-- The number of agents running at once follows token and machine capacity. Nothing else fixes it.
-- The machine's capacity counts only the agents that run browser suites. An agent whose checks are hygiene, types, unit and the wiki build starts whatever the machine's load: a docs agent, and a builder on a light debt story ([Work Tracking](work-tracking.md#stories)).
+- The number of agents running at once follows the machine's load and the budget. A cap the director names, on agents or on tokens, holds over the load.
+- At each landing the conductor reads the five-minute load average, and adds one agent while it stays below the core count, a few landings apart.
 - One builder per story. Stories run side by side only where the files they touch are disjoint.
 - A large job, a hundred tickets say, goes to one docs agent with the whole queue, in the background.
 - Read-only lookups the conductor can do itself are done there, without an agent.
