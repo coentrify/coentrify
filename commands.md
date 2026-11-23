@@ -9,6 +9,7 @@ In a fresh project the first prompt is `npx coentrify`, as the [Quick Start](rea
 - `coentrify explain` - say what coentrify is
 - `coentrify update` - bring the project up to date
 - `coentrify game` - start a game: the agent asks for the mode first, sets the project up, and runs the phases
+- `coentrify extract flavors` - sweep the project, or a public game, for the strategies it used, record them, and file the generic ones as flavors
 
 Every command opens with the greeting, the way [Greet](onboarding.md#greet) says, and so does a plain prompt matched to one by intent.
 
@@ -57,3 +58,7 @@ With `update` on `automatic`, the session check starts the update when the insta
 ## `coentrify game`
 
 Any request to start or make a game. Follow [Game Onboarding](standards/gamedev/game-onboarding.md): the mode comes first, before any other question.
+
+## `coentrify extract flavors`
+
+Any request to extract the flavors a game used, from this project or from a public game by name. Follow [Extracting Flavors](standards/gamedev/game-flavors.md#extracting-flavors).

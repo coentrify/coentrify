@@ -27,8 +27,15 @@ The layers run from the top down, and a layer is picked within what the layers a
 - The doc can favor a flavor, `- Naming: favor Serious Names - ` and the reason. A roll names the favored flavors that fit, and the agent considers them strongly before it takes the draw.
 - A layer is picked by the director, or rolled. A roll is drawn by code, since a model's random pick drifts to the most likely one: `node node_modules/coentrify/src/tools/scripts/roll-flavors.mjs roll <layer>`.
 - A roll draws among the flavors that fit the picks so far. `roll-flavors.mjs check` holds the picks to their conflicts and needs, after every change to the doc.
-- A game's own strategy that holds for other games is filed with coentrify as a flavor, its game specifics stripped ([File A Change With Coentrify](../behavior/file-a-change-with-coentrify.md)).
 - Once a second kind of project uses flavors, the mechanism moves to a standard they share ([Converge Only Once Proven](../architecture/converge-only-once-proven.md)).
+
+## Extracting Flavors
+
+- `coentrify extract flavors` sweeps the project: its request log and its decided docs ([Request Log](../records/request-log.md)).
+- `coentrify extract flavors <game>` sweeps a public game, from what is public about it, as a reference ([References Stay References](game-design-laws-own-style.md#references-stay-references)).
+- It names each strategy used, per layer, with the reasoning behind it.
+- In a project, each one is recorded in `docs/flavors.md`, as the flavor it already is or as the game's own.
+- A strategy that holds for other games and is not in the catalog is filed with coentrify as a flavor, a new layer with its first flavors, its personal details and project specifics stripped ([File A Change With Coentrify](../behavior/file-a-change-with-coentrify.md)). Running the command is the director's go to file.
 
 ## Related
 

@@ -22,9 +22,10 @@ const RAISE = `npm install --save-dev ${PACKAGE}@latest`;
 const UPDATE_STEP = `bring this project up to date by following coentrify update, ${SOURCE}/commands.md#coentrify-update`;
 const AUTOMATIC = 'automatic';
 const GAME = 'game';
+const EXTRACT_FLAVORS = 'extract-flavors';
 const AUTOMATIC_STEP = `The update is automatic, so without waiting for a go: ${UPDATE_STEP}. With builders at work, the conductor hands it to an agent of its own, and a builder leaves it to the conductor.`;
 const REVIEW_STEP = `The update waits for the director's go. Next step: ask for it, then ${UPDATE_STEP}`;
-const USAGE ='usage: npx coentrify [make-no-mistakes | update | explain | check | game [input]]';
+const USAGE ='usage: npx coentrify [make-no-mistakes | update | explain | check | game [input] | extract flavors [game]]';
 const HEADER = `coentrify - spec-driven development, ${WIKI}`;
 
 function greet() {
@@ -91,6 +92,10 @@ const COMMANDS = {
     next(
       `install coentrify with ${INSTALL}, then start the game by following its game onboarding, ${SOURCE}/standards/gamedev/game-onboarding.md. Ask the director for the mode before any other question${input ? `. The director's input, kept for after the mode: ${input}` : ''}`,
     ),
+  [EXTRACT_FLAVORS]: (game) =>
+    next(
+      `install coentrify with ${INSTALL} if it is missing, then extract the flavors by following ${SOURCE}/standards/gamedev/game-flavors.md#extracting-flavors, ${game ? `for the public game ${game}` : 'from this project'}. Running the command is the director's go to file what holds for other games`,
+    ),
   explain: () => {
     greet();
     console.log(readFileSync(README, 'utf8'));
@@ -99,10 +104,11 @@ const COMMANDS = {
 };
 
 const args = process.argv.slice(2);
-const command = args[0] === GAME ? GAME : args.join('-') || 'setup';
+const extracting = args.slice(0, 2).join('-') === EXTRACT_FLAVORS;
+const command = args[0] === GAME ? GAME : extracting ? EXTRACT_FLAVORS : args.join('-') || 'setup';
 const run = COMMANDS[command];
 if (run === undefined) {
   console.error(USAGE);
   process.exit(1);
 }
-run(command === GAME ? args.slice(1).join(' ') : undefined);
+run(command === GAME ? args.slice(1).join(' ') : extracting ? args.slice(2).join(' ') : undefined);

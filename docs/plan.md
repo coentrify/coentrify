@@ -2,8 +2,7 @@
 
 Version 0.3.0: autonomy as an opt-in, piloted on games, built bottom up from the filings #50 to #58.
 
-- Flavors from the projects, #58 (active)
-- Call 0.3.0
+- Call 0.3.0 (active)
 
 ## The Direction
 
