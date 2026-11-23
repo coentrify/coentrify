@@ -10,7 +10,7 @@ A gate that waits on taste stalls an agent, and a question tied to a law turns t
 
 - The questions stand on the phase page under `## Check Questions`, each with its answer and the reasoning behind it, written before the gate is called.
 - The `Gate:` line stays the gate, and its questions prepare it ([Project Lifecycle](../behavior/project-lifecycle.md)).
-- At `director` and `guided`, the director calls the gate. At `autonomous`, the gate passes when its questions do, and the reasoning stands for the director's veto ([Creative Agency](../autonomy/creative-agency.md)).
+- Below `autonomous`, the director calls the gate. At `autonomous`, the gate passes when its questions do, and the reasoning stands for the director's veto ([Creative Agency](../autonomy/creative-agency.md)).
 - A game adds questions for its own laws, and leaves one out with a reason, the way its laws doc does ([Game Design Laws](game-design-laws.md)).
 - The hygiene check that fails a phase page without its `Gate:` line also fails a passed phase whose questions have no answer ([Work Tracking](../tickets-workflow/work-tracking.md#phases)).
 - The Prototype keeps its own questions ([Prototype Phase Template](prototype-phase-template.md)).

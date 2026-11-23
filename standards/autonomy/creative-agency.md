@@ -8,9 +8,12 @@ A gap filled with the average makes work like any other. A choice that bends the
 
 ## The Setting
 
-- `director` - the default. The director makes the creative choices, and the agent runs its own ideas by the director first ([Docs Hold Only What The Director Decided](../behavior/docs-hold-only-what-the-director-decided.md)).
-- `guided` - the agent gathers the director's ideas. It asks for each creative choice the work needs, and offers picks. The director answers, picks one, or leaves it to the agent, whose choice lands under veto.
-- `autonomous` - the agent directs, and the director is a stakeholder. The director's input is the brief and the go, in any shape and any length: a theme, a pitch, a list of elements, a book. The agent fills every gap, and its choices land in the docs at once, under veto.
+The steps differ in who leads and who decides.
+
+- `manual` - the default. The director leads and decides. The agent processes what the director gives, suggests only at gates and checks, and runs its own ideas by the director first ([Docs Hold Only What The Director Decided](../behavior/docs-hold-only-what-the-director-decided.md)).
+- `assisted` - the director leads and decides. When a choice comes up, the agent advises: the options that fit, from the flavors where they exist.
+- `guided` - the agent leads, and the director decides. The agent walks the work and asks for each creative choice, with open questions and picks. The director answers, picks one, or leaves it to the agent, whose choice lands under veto.
+- `autonomous` - the agent leads and decides, and the director is a stakeholder. The director's input is the brief and the go, in any shape and any length: a theme, a pitch, a list of elements, a book to adapt. The agent fills every gap, and its choices land in the docs at once, under veto.
 
 ## The Order
 

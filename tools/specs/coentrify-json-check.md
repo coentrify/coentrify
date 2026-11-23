@@ -7,7 +7,7 @@ A spec for the check that keeps a project's `coentrify.json` true ([coentrify.js
 - It fails when the file does not parse, when a folder it names is missing, and when a standard it lists is not on disk.
 - It fails on a state other than `tracked` or `customized`. A module's `source` key is no standard.
 - It fails on a `healing`, `filing` or `update` other than `automatic` or `review`, and on `filing` without `contributor: true`.
-- It fails on an `agency` other than `director`, `guided` or `autonomous`.
+- It fails on an `agency` other than `manual`, `assisted`, `guided` or `autonomous`.
 - It fails on a library under `libraries` without a `source`, or with a `filing` other than `automatic` or `review`.
 - As a pre-commit step it also refuses a commit that changes a tracked standard by hand. The commit passes once the state is `customized`, or when the commit changes the version, as an update does.
 - A commit that adopts a standard passes the same way: the staged file lists a standard that the last commit's does not, a module's `source` key aside, since an adoption brings the links to it back in the tracked standards.

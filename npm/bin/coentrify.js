@@ -14,16 +14,17 @@ const DEPENDENCIES_INSTALL = 'npm install';
 const README = new URL('../src/readme.md', import.meta.url);
 const ONBOARDING = new URL('../src/onboarding.md', import.meta.url);
 const GREETING = /^## Greet\n[\s\S]*?^```\n([\s\S]*?)^```/m;
-const SHOW_GREETING = 'Show this greeting to the director first, as a message of its own, then go on.';
+const SHOW_GREETING = 'Write this greeting out in full in your own message to the director first, since the output of this command can be hidden, then go on.';
 const VERSION_PAGE = /^(\d+\.\d+\.\d+)\.md$/;
 const SUMMARY = /^# .+\n+([^\n]+)/;
 const INSTALL = `npm install --save-dev ${PACKAGE}`;
 const RAISE = `npm install --save-dev ${PACKAGE}@latest`;
 const UPDATE_STEP = `bring this project up to date by following coentrify update, ${SOURCE}/commands.md#coentrify-update`;
 const AUTOMATIC = 'automatic';
+const GAME = 'game';
 const AUTOMATIC_STEP = `The update is automatic, so without waiting for a go: ${UPDATE_STEP}. With builders at work, the conductor hands it to an agent of its own, and a builder leaves it to the conductor.`;
 const REVIEW_STEP = `The update waits for the director's go. Next step: ask for it, then ${UPDATE_STEP}`;
-const USAGE ='usage: npx coentrify [make-no-mistakes | update | explain | check]';
+const USAGE ='usage: npx coentrify [make-no-mistakes | update | explain | check | game [input]]';
 const HEADER = `coentrify - spec-driven development, ${WIKI}`;
 
 function greet() {
@@ -86,6 +87,10 @@ const COMMANDS = {
   setup: () => next(`install coentrify with ${INSTALL}, then set it up in this project by following its onboarding, ${SOURCE}/onboarding.md`),
   'make-no-mistakes': () => next(`install coentrify with ${INSTALL}, then set it up in this project autonomously by following coentrify make no mistakes, ${SOURCE}/commands.md#coentrify-make-no-mistakes`),
   update: () => next(`raise coentrify to its latest version with ${RAISE}, then ${UPDATE_STEP}`),
+  game: (input) =>
+    next(
+      `install coentrify with ${INSTALL}, then start the game by following its game onboarding, ${SOURCE}/standards/gamedev/game-onboarding.md. Ask the director for the mode before any other question${input ? `. The director's input, kept for after the mode: ${input}` : ''}`,
+    ),
   explain: () => {
     greet();
     console.log(readFileSync(README, 'utf8'));
@@ -93,10 +98,11 @@ const COMMANDS = {
   check,
 };
 
-const command = process.argv.slice(2).join('-') || 'setup';
+const args = process.argv.slice(2);
+const command = args[0] === GAME ? GAME : args.join('-') || 'setup';
 const run = COMMANDS[command];
 if (run === undefined) {
   console.error(USAGE);
   process.exit(1);
 }
-run();
+run(command === GAME ? args.slice(1).join(' ') : undefined);

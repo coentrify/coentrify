@@ -8,6 +8,7 @@ In a fresh project the first prompt is `npx coentrify`, as the [Quick Start](rea
 - `coentrify make no mistakes` - set the project up autonomously: the agent chooses, and the director vetoes afterward
 - `coentrify explain` - say what coentrify is
 - `coentrify update` - bring the project up to date
+- `coentrify game` - start a game: the agent asks for the mode first, sets the project up, and runs the phases
 
 Every command opens with the greeting, the way [Greet](onboarding.md#greet) says, and so does a plain prompt matched to one by intent.
 
@@ -52,3 +53,7 @@ With `update` on `automatic`, the session check starts the update when the insta
 - An ok in a later session is adopted the same way, while the project is at the installed version.
 - Set every adopted standard up in full, the way [Set Up](onboarding.md#set-up) says, and commit the adoption on its own.
 - Update the decisions.
+
+## `coentrify game`
+
+Any request to start or make a game. Follow [Game Onboarding](standards/gamedev/game-onboarding.md): the mode comes first, before any other question.
