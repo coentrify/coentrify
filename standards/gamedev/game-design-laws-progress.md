@@ -82,6 +82,12 @@ Good art has an implicit cadence, and without it there is no harmony ([In Harmon
 
 Rests on: [Reward Prediction Error](../psychology/reward-prediction-error.md), [Hedonic Adaptation](../psychology/hedonic-adaptation.md), [Reference Dependence](../psychology/reference-dependence.md), [Cognitive Load](../psychology/cognitive-load.md), [Predictability](../psychology/predictability.md).
 
+## No Softlock
+
+Whatever the game's flavors, a mistake never makes the game unwinnable. An item the game needs that leaves the world, falls out of reach or is used up comes back, and a scarce item is never the only way through. The player can fail, and can always go on.
+
+Rests on: [Controllability](../psychology/controllability.md), [Loss Aversion](../psychology/loss-aversion.md).
+
 ## Related
 
 - [Game Design Laws: Experience](game-design-laws-experience.md)

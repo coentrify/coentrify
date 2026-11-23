@@ -32,6 +32,7 @@ The full text is in [Game Design Laws: Progress](game-design-laws-progress.md).
 - [Start And End](game-design-laws-progress.md#start-and-end) - the game has both, prestige and new game plus included
 - [As Long As It Is Interesting](game-design-laws-progress.md#as-long-as-it-is-interesting) - no target length, and an end with closure and a way back in
 - [Doable 100%](game-design-laws-progress.md#doable-100) - no orthogonal skill demanded for completion
+- [No Softlock](game-design-laws-progress.md#no-softlock) - a mistake never makes the game unwinnable, and a needed item always comes back
 - [No Try Hard](game-design-laws-progress.md#no-try-hard) - every play style is supported
 - [Bands, Not Bullseyes](game-design-laws-progress.md#bands-not-bullseyes) - success is a tolerance window, never an exact point
 - [Desire Before Reward](game-design-laws-progress.md#desire-before-reward) - the player wants a thing before they can have it

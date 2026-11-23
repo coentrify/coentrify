@@ -23,8 +23,10 @@ The Gamedev standards: game development.
 - [Game Design Patterns](game-design-patterns.md) - named patterns a game uses where they fit, such as the No-Gear level and Ma
 - [Game Flavors](game-flavors.md) - ready-made strategies per layer of a game, picked, rolled by code, or the game's own, and extracted from a project or a public game. No default taste
 - [Game Flavors: Conventions](game-flavors-conventions.md) - whether the game explains its own artifice
-- [Game Flavors: Death](game-flavors-death.md) - what happens when a character dies, one rule per kind of character
+- [Game Flavors: Crafting](game-flavors-crafting.md) - how making things plays, one rule per product
+- [Game Flavors: Death](game-flavors-death.md) - what happens when a character dies, one rule per kind of character, and what each weighs
 - [Game Flavors: Era](game-flavors-era.md) - when the world is set, and how true it stays to its time
+- [Game Flavors: Mistakes](game-flavors-mistakes.md) - what a mistake costs the player
 - [Game Flavors: Naming](game-flavors-naming.md) - how the characters are named
 - [Game Flavors: Reveal](game-flavors-reveal.md) - how the secret unfolds over the game's length
 - [Game Flavors: The Secret](game-flavors-the-secret.md) - what the world's secret turns out to be, in a game built on a mystery

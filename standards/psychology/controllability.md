@@ -21,6 +21,7 @@ A risk the player can steer teaches, and a setback the player can do nothing abo
 - [Fair Surprise](../gamedev/game-design-laws-world.md#fair-surprise) - the player can partly steer a risk
 - [Bands, Not Bullseyes](../gamedev/game-design-laws-progress.md#bands-not-bullseyes) - success is within the player's reach
 - [Say What Is Wrong](../gamedev/game-design-laws-ui.md#say-what-is-wrong) - a warning tells the player what to change
+- [No Softlock](../gamedev/game-design-laws-progress.md#no-softlock) - a mistake never takes the way forward out of the player's hands
 - [A Loss Is Grieved](../gamedev/game-design-laws-companions.md#a-loss-is-grieved) - never to chance
 - [Compulsion Is Considered](../gamedev/game-design-laws-values.md#compulsion-is-considered) - a forced situation is there to break free from
 

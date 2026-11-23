@@ -22,6 +22,7 @@ A player who expects to lose something while away dreads coming back, and may no
 ## The Laws On It
 
 - [AFK Safe](../gamedev/game-design-laws-experience.md#afk-safe) - nothing is lost while the player is away
+- [No Softlock](../gamedev/game-design-laws-progress.md#no-softlock) - a needed item is never lost for good
 
 ## Related
 

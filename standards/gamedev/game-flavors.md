@@ -15,12 +15,15 @@ The layers run from the top down, and a layer is picked within what the layers a
 - [Reveal](game-flavors-reveal.md) - how the secret unfolds over the game's length
 - [Conventions](game-flavors-conventions.md) - whether the game explains its own artifice
 - [Death](game-flavors-death.md) - what happens when a character dies, one rule per kind of character
+- [Crafting](game-flavors-crafting.md) - how making things plays, one rule per product
+- [Mistakes](game-flavors-mistakes.md) - what a mistake costs the player
 - [Naming](game-flavors-naming.md) - how the characters are named
 
 ## A Flavor
 
 - A flavor is a heading on its layer's page: what it decides and how, then an `Example:` line.
 - A `Conflicts:` line names the flavors it never goes with, and a `Needs:` line the flavors it needs. Each is left out when it is empty.
+- A flavor with real implications names them on a `Weighs:` line: what it gives, and what it costs. A pick weighs both.
 - No flavor is better than another. A device proven to work is a pattern ([Game Design Patterns](game-design-patterns.md)), and a rule that holds for every game is a law ([Game Design Laws](game-design-laws.md)).
 - Coentrify holds no default taste. A game's character comes from its picks ([Creative Agency](../autonomy/creative-agency.md)).
 
