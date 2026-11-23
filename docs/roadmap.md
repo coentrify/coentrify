@@ -17,3 +17,4 @@ The versions on the way to 1.0.
 - Record a video of the install, as proof that it works.
 - Sweep every page once more for sanity, the way 0.0.8 did, after all that 0.2.x added.
 - Standards to make a book or a movie from a game's wiki, as an extra output of the game.
+- Pilot sessions on `autonomous` and `guided`, once 0.3.0 is released, with the template in [Pilots](pilots.md).

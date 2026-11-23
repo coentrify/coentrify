@@ -2,7 +2,7 @@
 
 Version 0.3.0: autonomy as an opt-in, piloted on games, built bottom up from the filings #50 to #58.
 
-- Pilots, #57, and flavors from the projects, #58 (active)
+- Flavors from the projects, #58 (active)
 - Call 0.3.0
 
 ## The Direction
@@ -15,3 +15,9 @@ Version 0.3.0: autonomy as an opt-in, piloted on games, built bottom up from the
 - Flexible, and strongly convinced of the practices proven to work.
 - Pilots and playtests are essential. A pilot measures fun, coherence, vibe and how well the choices and assets work together, beside the share the director vetoed.
 - Each piece is filed one by one, and settled with the director one by one.
+
+## After 0.3.0
+
+- The next batch: #59 to #62, two on the commits and two on the greeting.
+- With the greeting, an agent once showed only the tagline, since the banner was just ASCII art. The greeting filings cover that case.
+- The npx greeting could read its instruction from Greet, the way it reads the banner, so the two never drift.
