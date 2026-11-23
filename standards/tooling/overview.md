@@ -10,7 +10,7 @@ The Tooling standards: development tools.
 - [Lightweight Test Reporting Only](lightweight-test-reporting-only.md) - reporting shows only whether the suite is green
 - [Node Versions](node-versions.md) - a Node major in Long-Term Support
 - [Parallel Agents](parallel-agents.md) - a git worktree, an e2e port and a scratchpad per agent. Reset to main first, commit then rebase, builders on the cheaper model, a story lands whole through the project's merge script, clean up only after git cherry
-- [Playwright Parallel Runs](playwright-parallel-runs.md) - one worker per agent run, and a full suite as one background command, in two halves only past its limit
+- [Playwright Parallel Runs](playwright-parallel-runs.md) - one worker per agent run, no load an agent makes, and a full suite as one background command, in two halves only past its limit
 - [Playwright Video Recording](playwright-video-recording.md) - video options per file, and variants share one flow function
 - [Read Before You Truncate](read-before-you-truncate.md) - read a file into a variable before opening it for write
 - [Start Playwright On A Clean Port](start-playwright-on-a-clean-port.md) - lsof the e2e port before a run, since reuseExistingServer takes anything

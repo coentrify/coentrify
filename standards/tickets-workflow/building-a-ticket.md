@@ -12,7 +12,7 @@ The director can trust a ticket that is called done.
 - One ticket in flight per agent: the next in its story's order ([Work Tracking](work-tracking.md#stories)).
 - Every word and number a change shows, configuration data included, is weighed along the ticket's entry points by what it means to the user at that moment ([Walk The User's Journey](../ui/walk-the-users-journey.md)). A text the user reads speaks the product's own words, never the workspace's internal terms.
 - A feature runs the feature workflow inside its ticket ([Feature Workflow](../behavior/feature-workflow.md)).
-- Per ticket, only what the change affects runs: the cases of every feature that uses what it touched, and the reels and captures that cross it. The whole touched suites run at the end of the story, and the full suites at the version's close.
+- Per ticket, only what the change affects runs: the cases of every feature that uses what it touched, and the reels and captures that cross it. The whole touched suites run at the end of the story, and the full suites at the version's close. Runs keep to [Playwright Parallel Runs](../tooling/playwright-parallel-runs.md).
 - Easy-to-change choices are made and written under Veto.
 - Only costly-to-undo choices wait, as a question in their ticket.
 
