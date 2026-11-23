@@ -115,7 +115,7 @@ A model cannot know these, so they were never candidates.
 ### The Facts About The Harness
 
 - A Quiet Tree While A Suite Runs stays. Sonnet 5.5 needs it: 1 of 3 without the rule, 3 of 3 with it.
-- Reload The Standards After Compacting stays for now. An imported rule file is read again from disk after a compaction, and both models read the other standards again unasked. A long session is not probed yet.
+- Reload The Standards After Compacting stays for now. An imported rule file is read again from disk after a compaction, and both models read the other standards again unasked. A long session held too: compacted into a summary far smaller than what it replaced, it came back with every Core Rule in its context and kept to them.
 - Settings Changes Need A Fresh Session went. A headless session reads the permission rules again, so its fact no longer holds.
 - Browser Captures Go To Disk and Check Where A Pane Click Landed are about the browser pane of the app. A headless run has no pane, so these stay.
 
