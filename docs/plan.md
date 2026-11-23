@@ -9,8 +9,8 @@ Version 0.3.4: the flavors a project's sweep found, #77 to #84, each brought to 
 - Conventions, #80
 - Death, #81
 - Crafting, #82, with Mistakes, Weighs and No Softlock
-- Maker Presence, #83 (active)
-- The leak of a game's design through extracted flavors, once its filing is in
+- Maker Presence, #83
+- The leak of a game's design through extracted flavors, once its filing is in (active)
 - Call 0.3.4
 
 ## The Flavors
