@@ -11,7 +11,7 @@ How an agent sets coentrify up in a project. Every step follows one pattern: a d
 
 ## Greet
 
-Greet the director first, so the director sees that the prompt worked. The greeting opens the agent's first reply to any command, a setup included, whatever started it: a command, `npx coentrify`, or a plain prompt that means the same. The agent writes the banner out in full in its own text, every line, before any other work: never only its tagline, and never only in a tool's output. Fetching it is the one step that comes before it.
+Start by showing the greeting. The banner is a visual signal that coentrify picked up the command, so the director sees it worked. Show it as it is, then go on.
 
 ```
  ████   ███   █████  █   █  █████  ████   ███  █████  █   █

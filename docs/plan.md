@@ -16,11 +16,12 @@ Each filing is weighed by how often its mistake comes back and what it costs. On
 - A Not Yet Implemented mark names its ticket, #74
 - A failing case is fixed, never steadied, #75, closed as not planned
 - Ticket marks and their checks, #76, closed as not planned
-- The greeting the app's summary drops (active)
-- Call 0.3.3
+- The greeting the app's summary drops, Greet made casual
+- Call 0.3.3 (active)
 
 ## The Greeting The App's Summary Drops
 
 - In the desktop app, text between tool calls is summarized by a model, and it drops the banner every time: it is just ASCII art with no process step or finding in it.
 - The banner then shows in full in the turn's closing reply, which the app never summarizes.
 - So #47's first diagnosis held, and 0.3.1's Greet is labeled in a way the summary reads as decoration.
+- Greet turns short and casual, without the fetch wording, and says what the banner means. If the app still drops it, the reply that ends the turn is the fallback.
