@@ -18,6 +18,8 @@ The Gamedev standards: game development.
 - [Game Design Laws: World](game-design-laws-world.md) - the world the player moves through
 - [Game Design Laws: Values](game-design-laws-values.md) - what a game does to the person playing it
 - [Game Design Patterns](game-design-patterns.md) - named patterns a game uses where they fit, such as the No-Gear level and Ma
+- [Game Flavors](game-flavors.md) - ready-made strategies per layer of a game, picked, rolled by code, or the game's own. No default taste
+- [Game Flavors: Naming](game-flavors-naming.md) - how the characters are named
 - [Game Phases](game-phases.md) - a game's phases in four stages, each phase but Post-Release ending at a phase gate, with the greybox, demos and outside playtests
 - [Game Phases: Concept](game-phases-concept.md) - the divergent stage: Idea, Gathering, Outline and Prototype, loose inside and without tickets
 - [Game Phases: Design](game-phases-design.md) - the convergent stage: Lore, World Building, Gameplay, First Playable and Game Design. A first playable is never a demo

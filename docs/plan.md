@@ -2,8 +2,7 @@
 
 Version 0.3.0: autonomy as an opt-in, piloted on games, built bottom up from the filings #50 to #58.
 
-- Flavors, #52 (active)
-- Rules broken on purpose, the director's idea
+- Rules broken on purpose, the director's idea (active)
 - Gate check questions, #54
 - An audience profile, #53
 - Layered templates, #55

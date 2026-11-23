@@ -1,12 +1,13 @@
 # Tools
 
-What coentrify provides beside the standards: the scripts behind its own commands, and a spec for every check or helper a project builds for itself.
+What coentrify provides beside the standards: the scripts behind its own commands and standards, and a spec for every check or helper a project builds for itself.
 
 ## Scripts
 
 These run with Node from the installed package, in `node_modules/coentrify/src/tools/scripts`, never copied into a project, so they follow every change to coentrify's own format.
 
 - `scripts/coentrify-update.mjs` - works out an update from the installed package and the project's version on npm: replaces the tracked standards that changed with their overview lines and budget entries, reports the rest for the agent, the changed specs included, and adopts the standards and modules the director accepts, with the links to them ([Commands](../commands.md#coentrify-update))
+- `scripts/roll-flavors.mjs` - rolls a flavor for a layer of a game, among the ones that fit its picks, and checks the picks against their conflicts and needs ([Game Flavors](../standards/gamedev/game-flavors.md))
 - `scripts/unlink-missing-standards.mjs` - removes every link to a standard the project did not adopt, and keeps the words, but drops its line from an overview, after the setup and after every update
 
 ## Specs

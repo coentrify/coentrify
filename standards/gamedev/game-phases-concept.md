@@ -24,6 +24,7 @@ Trying things: a greybox, the outline and the size of the map, features. A proto
 - The phases of Concept may overlap and loop back.
 - A phase page holds its goal, its gate and its Done When, never the content itself ([Work Tracking](../tickets-workflow/work-tracking.md#phases)).
 - From Design on, the overview stays the short functional description of the game, and the decided docs take over the detail ([Docs Folder Structure](../docs/docs-folder-structure.md#knowledge)).
+- The flavors a game picks stand in `docs/flavors.md` from the Idea on, as they are decided ([Game Flavors](game-flavors.md)).
 - Concept's gathering is logged, and needs no tickets. A prototype is tracked by its one ticket ([Prototype Mode Is Speed First](../behavior/prototype-mode-is-speed-first.md)).
 
 ## Related
