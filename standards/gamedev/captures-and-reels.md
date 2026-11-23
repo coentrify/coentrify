@@ -30,7 +30,7 @@ The director can reproduce every state a capture shows.
 
 - Suites and capture runs are muted ([Silent Runs](silent-runs.md)).
 - Only the reel records sound.
-- The videos stay untracked in git, the reels and the changelog's copies alike, since they are heavy and a reel, when one is made, is made for one version. Only chosen ones, such as a store page's, get tracked later. Ignore the video folders on day one.
+- The videos stay untracked in git, the reels and the changelog's copies alike, since they are heavy and a reel, when one is made, is made for one version. Only chosen ones, such as a store page's, get tracked later. Ignore the video folders on day one. A still is tracked only while a page shows it ([Docs Folder Structure](../docs/docs-folder-structure.md#images)).
 
 ## Related
 

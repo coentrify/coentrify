@@ -12,8 +12,8 @@ Each filing is weighed by how often its mistake comes back and what it costs. On
 - The hygiene suite on every commit, #70, closed as not planned
 - Three iterations on a visible change, #71, closed for the instruction an asset is made from
 - The way to reach a story, #72
-- Only the images a page shows are tracked, #73 (active)
-- A Not Yet Implemented mark names its ticket, #74
+- Only the images a page shows are tracked, #73
+- A Not Yet Implemented mark names its ticket, #74 (active)
 - A failing case is fixed, never steadied, #75
 - Ticket marks and their checks, #76
 - Call 0.3.3

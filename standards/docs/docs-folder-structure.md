@@ -43,6 +43,11 @@ All records sit together under `docs/records/`, one group in the wiki with an `o
 - `docs/records/changelog/` - one page per version ([Changelog Per Version](../records/changelog-per-version.md)).
 - Any other dated trail a project keeps joins them under `docs/records/`, never at the docs root.
 
+## Images
+
+- Only an image a page shows is tracked. The rest go to an ignored `unused` folder beside it, on the local disk.
+- A hygiene check fails a tracked image that no page links.
+
 ## Related
 
 - [Docs Are Hierarchical, Explicit And Short](docs-are-hierarchical-explicit-and-short.md)
