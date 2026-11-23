@@ -30,3 +30,5 @@ The director's idea, not filed: work aligned perfectly is a singer with no soul.
 - Breaking a rule creatively, within bounds, is fine and even encouraged.
 - A serious movie with one joke that breaks the fourth wall, an easter egg that only has to be fun, a hidden picture of the team on a wall: that is what turns great into legendary.
 - It ties to Wardley mapping, the way Unique Where It Counts does.
+- The ratio is a feeling, never a number: a solo needs a solid baseline and groove, as Cadence says.
+- The bounds: the Values laws never break, and a break is deliberate and rare.
