@@ -3,6 +3,7 @@
 The Gamedev standards: game development.
 
 - [2D Visual Design](2d-visual-design.md) - drawn scenes keep one perspective: verticals vertical, edges to the vanishing point, repeats converging, patterns foreshortened. Checked with lines drawn over a capture
+- [Asset List Template](asset-list-template.md) - a list per asset type in the docs: the blueprint first, then an entry per asset, with fields per type
 - [Captures And Reels](captures-and-reels.md) - proof from scripted captures per item, never by hand, reels on demand, videos untracked in git
 - [Devbox](devbox.md) - a one-key devbox on every scene, on the shared seeded scenarios
 - [Game Design Laws](game-design-laws.md) - the generic game design laws as an index. A game's laws doc adopts, leaves out or overrides them by name

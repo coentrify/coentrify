@@ -2,14 +2,9 @@
 
 Version 0.2.3: the roadmap items an agent can do on its own.
 
-- Asset types (active)
-- The Node port
+- The Node port (active)
 - The Proof page
 - Call 0.2.3
-
-## Asset Types
-
-Gamedev gets a list per asset type, with a template for characters, buildings, vehicles, outfits and the like.
 
 ## The Node Port
 
