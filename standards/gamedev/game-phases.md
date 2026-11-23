@@ -29,7 +29,7 @@ The game grows in steady steps, and a mistake is caught while it is still cheap.
 - For every rule about the current phase, Concept counts as one phase.
 - From Design on, a game is in one phase at a time.
 - Every phase holds for every game, even when it is short: Pong's world is a black void, and its story can be a single line.
-- The page of a phase carries the leading question of its phase gate in a `Gate:` line.
+- The page of a phase carries the leading question of its phase gate in a `Gate:` line, and its check questions with their answers ([Gate Check Questions](gate-check-questions.md)).
 - Post-Release, the last phase of Live, has no phase gate, since the game is an everlasting project. Its page reads `Gate: none - the game is an everlasting project`.
 
 ## The Greybox

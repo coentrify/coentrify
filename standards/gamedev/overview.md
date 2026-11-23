@@ -27,6 +27,7 @@ The Gamedev standards: game development.
 - [Game Phases: Live](game-phases-live.md) - Release, Aftercare and Post-Release. An everlasting project, so Post-Release has no phase gate
 - [Game Work Workflow](game-work-workflow.md) - the game layer on the work workflow: the user is the player, addressed as you, the game's own words, playtests feed intake, Lore and Game ticket types, the four stages in a line each
 - [Gamedev Working Cadence](gamedev-working-cadence.md) - the game day loop, feedback on an open version is a cutoff, full pre-push hook before the tag, nothing new after a wind-down
+- [Gate Check Questions](gate-check-questions.md) - a few questions per phase gate, each tied to a law, answered with reasoning. They prepare the director's call, and make it at `autonomous`
 - [Incremental Pacing](incremental-pacing.md) - a pacing doc per level mirroring the configuration
 - [Launch Strategy](launch-strategy.md) - how a game goes out: the quiet launch by default, the other choices, and what to weigh
 - [Measure Sound, Never Guess](measure-sound-never-guess.md) - the level of a new sound is measured against a known sound, never guessed

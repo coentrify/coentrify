@@ -25,7 +25,7 @@ One of everything, rough, in the real project: one of each kind of content and o
 
 ## Game Design
 
-The world translated into the game's levels and features, represented by docs and tickets. Nothing is built. Done When: every part of the world has its levels and features in docs and filed tickets, refined once their phase comes, and the director has approved the design as a whole. Its work is Game tickets. Gate: is the whole game on paper? The gate also weighs the mix: the ratio, the composition and the synergy of the standards, the flavors, the game's own choices and its rules broken on purpose, and how it holds up ([Rules Broken On Purpose](game-design-laws-own-style.md#rules-broken-on-purpose)). The call is the director's, or at `autonomous` the agent's, under veto ([Creative Agency](../autonomy/creative-agency.md)).
+The world translated into the game's levels and features, represented by docs and tickets. Nothing is built. Done When: every part of the world has its levels and features in docs and filed tickets, refined once their phase comes, and the director has approved the design as a whole. Its work is Game tickets. Gate: is the whole game on paper? Its check questions weigh the mix too ([Gate Check Questions](gate-check-questions.md#design)).
 
 ## The Order
 
