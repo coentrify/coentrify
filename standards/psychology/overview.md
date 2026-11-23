@@ -33,6 +33,7 @@ The Psychology standards: findings about people that the game laws rest on, each
 - [Reference Dependence](reference-dependence.md) - judgment against a reference that drifts
 - [Response Time Limits](response-time-limits.md) - a tenth of a second feels direct, a second keeps the thought, ten seconds lose it
 - [Resuming An Interrupted Task](resuming-an-interrupted-task.md) - a begun task pulls a person back, and the memory claim does not hold
+- [Memory Reconsolidation](memory-reconsolidation.md) - a recall reopens a memory when what happens differs a little from what was expected, and it is stored again, stronger. A large difference starts a new memory
 - [Retrieval Practice](retrieval-practice.md) - recalling unprompted, after a delay, beats studying again
 - [Reward Prediction Error](reward-prediction-error.md) - a reward better than expected stirs dopamine, and one as expected stirs nothing new
 - [Rewards And Feedback](rewards-and-feedback.md) - expected rewards and controlling feedback lower intrinsic motivation, and feedback that informs raises it

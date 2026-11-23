@@ -25,4 +25,5 @@ A player learns a mechanic by using it again without help, after some time has p
 
 ## Related
 
+- [Memory Reconsolidation](memory-reconsolidation.md)
 - [Cognitive Load](cognitive-load.md)
