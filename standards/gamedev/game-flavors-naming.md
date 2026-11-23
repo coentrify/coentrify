@@ -18,11 +18,17 @@ Example: a medieval village whose people carry the names of that time and place.
 
 Conflicts: Parody Names.
 
-## Numbered Clones
+## Personal Circle Names
 
-Characters that look alike share a base name and a number, and the sameness is the joke.
+The cast carries the first names of people from the maker's own life, often paired with a trait of theirs, and never a full name. It is an in-joke the player meets as plain names.
 
-Example: three guards at a gate, named Bob1, Bob2 and Bob3.
+Example: a bartender named after the developer's brother.
+
+## Named By Type
+
+Characters go by what they are, such as the guard or the baker, or stay unnamed, so the names never pull focus.
+
+Example: a guard, a baker and a ferryman, each called by their trade.
 
 ## Related
 
