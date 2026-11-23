@@ -34,8 +34,8 @@ A mistake is a gap in the instructions and context, never a personal failing of 
 ### The Cost Of A Rule
 
 - A tighter rule can cost more than the mistake it prevents.
-- A mistake that happens now and then and is found quickly is expected, and fine.
-- A mistake that comes back and costs gets a rule or a check.
+- A structural mistake, one that comes back and costs, gets a rule or a check.
+- A solvable incident, one that happens now and then and is found quickly, is expected, and fine.
 - Some rules are considerations, and some tension between rules never fully resolves.
 - Resolving it anyway overcomplicates the rules, which costs more.
 - A deliberate concession leaves the tension in place, and is mitigated with a written exception or consideration.

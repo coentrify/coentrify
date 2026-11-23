@@ -8,8 +8,8 @@ Each filing is weighed by how often its mistake comes back and what it costs. On
 - Work asked for now gets a ticket, #66
 - A fixed bug the director still sees, #67, closed as not planned
 - Agents by the machine's load and the budget, #68
-- Grooming in few commits, #69 (active)
-- The hygiene suite on every commit, #70
+- Grooming in few commits, #69, closed as not planned
+- The hygiene suite on every commit, #70 (active)
 - Three iterations on a visible change, #71
 - What to play on a story's page, #72
 - Only the images a page shows are tracked, #73
