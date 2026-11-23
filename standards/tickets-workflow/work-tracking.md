@@ -98,9 +98,9 @@ A story is one layer between the epic and the ticket: the unit the director refi
 - A story of product work is a stretch of the product the director uses from start to end.
 - A story of debt or docs is a group of tickets of one epic that share an area and the load of their checks.
 - A debt story gets a go and no verdict: it ends when its last ticket lands. A docs story gets the director's verdict, like a feature, since the director decides what the docs say.
-- A debt story is cut in refinement to be light or heavy, never mixed. A light one needs no browser suite. When each starts is in [Agent Roles](agent-roles.md#how-many).
+- A debt story is cut in refinement to be light, with no browser suite, or heavy, never mixed.
 - A ticket names its story in its `story` field. A ticket outside any story is the exception, refined, planned and accepted by itself. Loose tickets of one epic are grouped into a story, so they show as one line and get one go and one agent.
-- A story is a page in `stories` with an id of its own, `STORY-8`, and its epic in its `epic` field: what to use and how to start it.
+- A story is a page in `stories` with an id of its own, `STORY-8`, and its epic in its `epic` field: what to use, and how to reach and test it: a seeded scenario, a level, an editor, or the wiki page for docs.
 - The wiki lists a story's tickets on its page from their `story` field, in three lists: to refine, ready and done. A rework ticket carries a rework mark there.
 - A story's done list runs newest first, and each line ends with the date and time its ticket was done, read from its landing commit: `` `2026-12-31` `11:23` ``.
 - The director gives a story's go and verdict by its id: `STORY-8 go`, `STORY-8 accepted`.
