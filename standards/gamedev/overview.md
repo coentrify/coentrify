@@ -3,7 +3,9 @@
 The Gamedev standards: game development.
 
 - [2D Visual Design](2d-visual-design.md) - drawn scenes keep one perspective: verticals vertical, edges to the vanishing point, repeats converging, patterns foreshortened. Checked with lines drawn over a capture
+- [Asset Layers](asset-layers.md) - assets decided in layers like a feature: the style, the blueprint of a type, the traits of an asset, its spec and its files. One style connects every list
 - [Asset List Template](asset-list-template.md) - a list per asset type in the docs: the blueprint first, then an entry per asset, with fields per type
+- [Asset Traits](asset-traits.md) - what the player can do with an asset, picked from a catalog, each with the states it needs and the law it serves
 - [Audience Profile Template](audience-profile-template.md) - who a game is for, by what binds them and how broad or niche they are, never a persona. It rules flavors out and favors others
 - [Captures And Reels](captures-and-reels.md) - proof from scripted captures per item, never by hand, reels on demand, videos untracked in git
 - [Devbox](devbox.md) - a one-key devbox on every scene, on the shared seeded scenarios

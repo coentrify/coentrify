@@ -20,7 +20,7 @@ One of everything, rough, in the real project: one of each kind of content and o
 
 - A first playable is never a demo. A demo is public, and the first playable stays internal.
 - It shows that the core holds up when played, and that the project builds end to end.
-- Beside it stands a style sample: a few assets at target quality, which set the look and show what a part costs.
+- Beside it stands a style sample: a few assets at target quality, which set the look and show what a part costs. The look is written into the game's style, which every asset list takes ([Asset Layers](asset-layers.md)).
 - Nothing else is polished, since polish waits for Alpha.
 
 ## Game Design
