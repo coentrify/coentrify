@@ -3,8 +3,8 @@
 Version 0.3.3: the round of filings #65 to #76, each brought to the director one by one.
 
 - A story or an epic linked by its id, #65
-- Work asked for now gets a ticket, #66 (active)
-- A fixed bug the director still sees, #67
+- Work asked for now gets a ticket, #66
+- A fixed bug the director still sees, #67 (active)
 - Builders by the machine's load, #68
 - Grooming in few commits, #69
 - The hygiene suite on every commit, #70
