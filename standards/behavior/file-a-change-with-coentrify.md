@@ -19,7 +19,9 @@ What one project learns reaches every project.
 - An issue holds one point, so issues close one by one.
 - Before filing, search the open issues.
 - A point that is filed already gets an addition on that issue, or a thumbs up.
-- A trigger is a mistake that comes back and costs. A rule a project keeps for itself is no trigger on its own.
+- A trigger is a mistake that comes back and costs, within the project or across projects. A rule a project keeps for itself is no trigger on its own.
+- A mistake that coentrify's own text or steps cause, at a step every project goes through, comes back across projects, so one time is enough to file it. A mistake the project's own content causes has to come back first.
+- The test: would another project, following the same steps, meet it too?
 - An issue states the trigger, the proposal and the check: what happened, the rule to add, change or loosen and the standards it touches, and whether code could catch it instead, and which.
 - The source is public, and it expects issues from the projects that use it. An issue tells nothing of its project's content for that reason: its story, its world, its characters, its mechanics and its names stay out.
 - It states the strategy or the gap in the abstract, the trigger included, and an example in it is made up for the filing.
