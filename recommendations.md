@@ -23,6 +23,8 @@ Use US English Everywhere is a choice. One variant everywhere is what counts, an
 
 ### When The Stack Fits
 
+A stack module follows the stack the project chose, and never leads the choice.
+
 - Code - any codebase
 - Architecture - a codebase with more than one application or layer
 - Tests - a project that has tests, or needs them

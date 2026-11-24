@@ -21,17 +21,19 @@ The agent asks for the mode first, with a line per mode, and recommends `guided`
 - `guided` - a start prompt if the director has one, then the questions layer by layer, open ones and flavor picks, with how niche the game should be among the first ([Audience Profile Template](audience-profile-template.md)).
 - `assisted` and `manual` - "What do you want?" The director leads from there.
 - An input given with the command is kept for after the mode.
-- Once the scope is known, the agent says in one line what the run holds: the phases ahead, where the director's playtests come in, and where this session stops.
+- Once the scope is known, the agent says in a line what the run holds: the phases ahead, the director's playtests, and where this session stops.
 
 ## The Set Up
 
 - A folder that is not set up yet is set up the way `coentrify make no mistakes` does, with the game's defaults: the Gamedev, Psychology and Autonomy modules beside the core ones, the tickets workflow and the VitePress wiki.
 - `agency` in `coentrify.json` takes the mode.
-- The stack and the engine are chosen from the input and the scope, as a choice named for the veto.
+- The engine and the stack are chosen from the game's needs: its scope, kind of play and world, its platforms, and who builds what and where, such as a director building levels in an editor.
+- Neither the agent's environment nor a module coentrify ships decides the engine. A limit of the environment is named as a cost, and the work moves to a machine that fits. An engine coentrify lacks gets a module of the project's own.
+- The engine is a costly choice ([Reason Or Ask](../behavior/understand-the-need.md#reason-or-ask)). Below `autonomous`, the agent recommends one with its reasons, and the director picks before any stack module is adopted. At `autonomous`, the agent picks, and names any pull its environment had.
 
 ## The Run
 
-- A run is as long as its scope. A game jam entry can reach its playable build in one sitting. A full game takes many sessions, with the director's playtests at the gates, and each session ends at a playable build of where the game stands.
+- A run is as long as its scope. A jam entry can reach its playable build in one sitting. A full game takes many sessions, with the director's playtests at the gates, and each session ends at a playable build.
 - The phases run in order, compressed to the scope, which comes from the input and is a game jam entry by default ([Game Phases](game-phases.md)).
 - A choice comes from the input, the audience profile and the laws, or is picked or rolled from the flavors ([Game Flavors](game-flavors.md)).
 - A gate is called on its check questions, by the director, or by the agent at `autonomous` ([Gate Check Questions](gate-check-questions.md)).
