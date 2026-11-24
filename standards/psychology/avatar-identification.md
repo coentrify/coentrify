@@ -20,6 +20,7 @@ A character the player can recognize as themselves becomes the player's own, and
 ## The Laws On It
 
 - [Make Yourself](../gamedev/game-design-laws-story.md#make-yourself) - the player can make the character themselves
+- [The Body Tells The Story](../gamedev/game-design-patterns.md#the-body-tells-the-story) - a body grown from the player's own deeds
 
 ## Related
 

@@ -98,6 +98,17 @@ Small rewards along the intended path lead the player on without a marker: a tra
 
 Rests on: [The Goal Gradient](../psychology/the-goal-gradient.md), [Rewards And Feedback](../psychology/rewards-and-feedback.md).
 
+## The Body Tells The Story
+
+The character's body changes with what the player does: stronger with strength, scarred by battles, older over the years, marked by their deeds. The changes are gradual and they last ([The World Reacts](game-design-laws-world.md#the-world-reacts), [Lasting Impact](game-design-laws-progress.md#lasting-impact)).
+
+- A change follows what the player meant, never a side effect of a play style or of a deed the game judged flat. A scar the player can only avoid by always blocking forces one way to play ([Full Control](game-design-laws-experience.md#full-control)).
+- Others react to the look, as part of the public face ([Game Flavors: Morality](game-flavors-morality.md#layered-reputation)).
+- The body stays the player's own: gear or a setting keeps a look the player chose ([Make Yourself](game-design-laws-story.md#make-yourself)).
+- Each state of the body is a state its asset holds ([Asset Traits](asset-traits.md)).
+
+Rests on: [Avatar Identification](../psychology/avatar-identification.md), [Effort And The IKEA Effect](../psychology/effort-and-the-ikea-effect.md).
+
 ## Ma
 
 Ma (間), from Japanese art, is a designed pause: an interval between moments of intensity that gives them their shape. The player does little, and the moment still holds what came before and what is coming. Ma is an aesthetic concept more than a finding or a law, so a game uses it as a choice of style.
