@@ -9,4 +9,5 @@ Version 0.3.9: a round of filings and the director's notes from the first runs, 
 - The engine from the game's needs, the director's pick, #93, done
 - Naming: Telling Names, #94, done
 - The Secret: Perspective Shift, #95, done
+- Protagonist: Rooted Hero, #96, done
 - Call 0.3.9 (active)
