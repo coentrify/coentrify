@@ -24,6 +24,7 @@ A player who expects to lose something while away dreads coming back, and may no
 - [AFK Safe](../gamedev/game-design-laws-experience.md#afk-safe) - nothing is lost while the player is away
 - [No Softlock](../gamedev/game-design-laws-progress.md#no-softlock) - a needed item is never lost for good
 - [The Fall](../gamedev/game-design-patterns.md#the-fall) - the loss is felt, so the rebuild has to be quicker and cheaper
+- [Pity Timer](../gamedev/game-design-patterns.md#pity-timer) - a streak of misses weighs more than the same run of hits
 
 ## Related
 

@@ -66,6 +66,16 @@ Small, invisible windows of forgiveness, so the game does what the player meant 
 
 Rests on: [Controllability](../psychology/controllability.md), [Fitts's Law](../psychology/fitts-law.md).
 
+## Pity Timer
+
+Bad luck protection for a random reward: each miss raises the chance of the next, so a cruel streak cannot happen. It makes chance livable over a long game ([Game Flavors: Kind Of Play](game-flavors-kind-of-play.md#chance)).
+
+- The chance grows with every miss and resets on a hit, or the reward comes by a set number of tries at the latest.
+- Shown, it turns the gamble into a countdown ([Know What Is Coming](game-design-laws-progress.md#know-what-is-coming)). Hidden, it keeps the hope of luck.
+- It softens chance and never feeds a slot machine: never with real money, and compulsion is always weighed. A pity timer in a paid gacha is exactly what the Values laws rule out ([No Real Money In Play](game-design-laws-values.md#no-real-money-in-play), [Compulsion Is Considered](game-design-laws-values.md#compulsion-is-considered)).
+
+Rests on: [Variable Reward Schedules](../psychology/variable-reward-schedules.md), [Loss Aversion](../psychology/loss-aversion.md).
+
 ## Ma
 
 Ma (間), from Japanese art, is a designed pause: an interval between moments of intensity that gives them their shape. The player does little, and the moment still holds what came before and what is coming. Ma is an aesthetic concept more than a finding or a law, so a game uses it as a choice of style.
