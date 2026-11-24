@@ -76,6 +76,17 @@ Bad luck protection for a random reward: each miss raises the chance of the next
 
 Rests on: [Variable Reward Schedules](../psychology/variable-reward-schedules.md), [Loss Aversion](../psychology/loss-aversion.md).
 
+## Chekhov's Gun
+
+What the game shows with weight early pays off later, and what pays off later was shown before, so a payoff reads as fair afterward ([Fair Surprise](game-design-laws-world.md#fair-surprise)).
+
+- An object, a character, a skill or a place shown with emphasis comes back with meaning. In a game the gun can be a mechanic: a skill learned in the first hour is the key to the last fight.
+- Weight makes the promise: only what the game lingers on owes a payoff, and a gun that never fires is a broken promise.
+- At its best it hides in plain sight. It reads as an odd detail, a small break in the harmony, until the payoff ties it back in ([In Harmony](game-design-laws-own-style.md#in-harmony)).
+- A plant that is too plain gives the twist away. Clues are guns too ([Game Flavors: Reveal](game-flavors-reveal.md)).
+
+Rests on: [Curiosity As An Information Gap](../psychology/curiosity-as-an-information-gap.md), [Reward Prediction Error](../psychology/reward-prediction-error.md).
+
 ## Ma
 
 Ma (間), from Japanese art, is a designed pause: an interval between moments of intensity that gives them their shape. The player does little, and the moment still holds what came before and what is coming. Ma is an aesthetic concept more than a finding or a law, so a game uses it as a choice of style.

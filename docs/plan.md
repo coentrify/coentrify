@@ -10,7 +10,7 @@ Version 0.3.6: the gameplay side of our own creative sweep, and its patterns, br
 - Art Style
 - Music
 - Together
-- The patterns, one by one (active): The Fall, Kishōtenketsu Level, Juice, Coyote Time And Input Buffer and Pity Timer done, then Chekhov's Gun, Breadcrumbs, The Body Tells The Story
+- The patterns, one by one (active): The Fall, Kishōtenketsu Level, Juice, Coyote Time And Input Buffer, Pity Timer and Chekhov's Gun done, then Breadcrumbs, The Body Tells The Story
 - Call 0.3.6
 
 ## How A Layer Is Brought

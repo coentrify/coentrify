@@ -22,6 +22,7 @@ A game raises curiosity by opening a gap the player can see, and pays it off wit
 - [Exploration Is Rewarded](../gamedev/game-design-laws-experience.md#exploration-is-rewarded) - looking around finds something to know
 - [Fair Surprise](../gamedev/game-design-laws-world.md#fair-surprise) - a surprise opens a gap the player wants to close
 - [No Yellow Paint](../gamedev/game-design-laws-guidance.md#no-yellow-paint) - a hint leaves the gap for the player
+- [Chekhov's Gun](../gamedev/game-design-patterns.md#chekhovs-gun) - an odd detail keeps a question open until it pays off
 
 ## Related
 

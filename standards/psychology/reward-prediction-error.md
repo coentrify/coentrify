@@ -21,6 +21,7 @@ A reward that comes as expected stops landing, so rewards grow or surprise, and 
 
 - [Cadence](../gamedev/game-design-laws-progress.md#cadence) - rewards come bigger, or feel bigger, and a solo colors in the groove
 - [Rules Broken On Purpose](../gamedev/game-design-laws-own-style.md#rules-broken-on-purpose) - a break the player did not expect lands as a surprise
+- [Chekhov's Gun](../gamedev/game-design-patterns.md#chekhovs-gun) - a payoff from something long in plain sight lands better than expected
 
 ## Related
 
