@@ -32,6 +32,18 @@ Weighs: a warm personal touch, and a cameo can break the frame.
 
 Conflicts: Invisible Maker.
 
+## Real Counterparts
+
+The game shows the real people and animals behind its cast, a photo beside each character, most often in the credits, as a film based on a true story closes. It pairs with [Personal Circle Names](game-flavors-naming.md#personal-circle-names).
+
+Example: after the last scene, the old ferryman stands beside a photo of the developer's grandfather at his own boat.
+
+Weighs: a warm close that makes the story feel lived. Every likeness needs its owner's consent, and shown before the end it pulls the player out of the world.
+
+## Sources
+
+- Films based on a true story that close on the real people, such as Schindler's List, for Real Counterparts.
+
 ## Related
 
 - [Game Flavors](game-flavors.md)
