@@ -43,6 +43,17 @@ A level built in four beats around one idea, after the old four-part form: intro
 
 Rests on: [Cognitive Load](../psychology/cognitive-load.md), [Memory Reconsolidation](../psychology/memory-reconsolidation.md), [Retrieval Practice](../psychology/retrieval-practice.md).
 
+## Juice
+
+Every action gets generous feedback across the senses at once: a squash and stretch, a sound, a burst of particles, a nudge of the screen, so it feels alive and good to do ([Every Sense Carries It](game-design-laws-ui.md#every-sense-carries-it)).
+
+- Every input answers at once, and the feedback plays around the action, never in front of it, so the action stays instant ([Alive World, Static Actions](game-design-laws-ui.md#alive-world-static-actions)).
+- Its strength follows what matters: a small action gets a small answer, a big one a big answer.
+- It follows the tone and stays in harmony with the rest, so it never turns a serious or a calm game into a circus ([In Harmony](game-design-laws-own-style.md#in-harmony), [Game Flavors: Tone](game-flavors-tone.md)).
+- A setting tones down shake and flashes for the players who need it.
+
+Rests on: [Rewards And Feedback](../psychology/rewards-and-feedback.md), [Response Time Limits](../psychology/response-time-limits.md).
+
 ## Ma
 
 Ma (間), from Japanese art, is a designed pause: an interval between moments of intensity that gives them their shape. The player does little, and the moment still holds what came before and what is coming. Ma is an aesthetic concept more than a finding or a law, so a game uses it as a choice of style.
