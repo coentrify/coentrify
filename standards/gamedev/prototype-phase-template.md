@@ -9,12 +9,12 @@ A prototype answers its gate only when its questions are written before playing 
 ## Sections
 
 - What It Tries - the core loop from the outline, in a limited environment, never the whole world.
-- The Round - one full round of the loop, a step per bullet, as the player does it.
+- The Round - one full round of the loop, a step per bullet, as the player does it. It holds every activity the main Kind Of Play picks name, so the loop is tried the way the player will play it ([Game Flavors: Kind Of Play](game-flavors-kind-of-play.md)).
 - The Loop Mechanism - the loop's primary mechanism by name, and what balances it. It is not necessarily timed: a wait against the time the player is away is one kind, and a turn-based battle balanced in its count of attacks is another. Being able to change the balance while playing finds the right one in a single sitting, never over several builds.
-- What It Needs - the few systems the round cannot do without, each in its simplest version: movement, a way to carry things, a way to talk.
+- What It Needs - the few systems the round cannot do without, each in its simplest version: movement, a way to carry things, a way to talk. Each main Kind Of Play pick keeps its simplest version here.
 - What We Want To Learn - questions, each with its answer after playing. A question names the law it tests, so a no points at the law the loop breaks.
 - What Comes Out Of It - the answer to the gate, a short list of what to change, and what the next phase decides first.
-- Not In It - what the prototype cannot tell: the size of the world, the balance, the look, the story.
+- Not In It - what the prototype cannot tell: the size of the world, the balance, the look, the story. A main Kind Of Play pick is never in it.
 
 ## The Questions
 

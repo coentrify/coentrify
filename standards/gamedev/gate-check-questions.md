@@ -21,7 +21,7 @@ A gate that waits on taste stalls an agent, and a question tied to a law turns t
 - Idea: does the game fall without each of its pillars, and is what sets it apart named? ([Unique Where It Counts](game-design-laws-own-style.md#unique-where-it-counts))
 - Idea: was the engine picked from the game's needs, and below `autonomous`, by the director? ([Game Onboarding](game-onboarding.md#the-set-up))
 - Gathering: does the dump hold enough to outline a start, an end and the loop between? ([Start And End](game-design-laws-progress.md#start-and-end))
-- Outline: does it name the core loop to prototype? ([Loop First](game-design-laws-experience.md#loop-first))
+- Outline: does it name the core loop to prototype, with every main Kind Of Play pick in it? ([Loop First](game-design-laws-experience.md#loop-first), [Prototype Phase Template](prototype-phase-template.md))
 - Outline: does every mechanic in it add value? ([Every Mechanic Matters](game-design-laws-quality.md#every-mechanic-matters))
 
 ## Design

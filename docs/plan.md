@@ -14,4 +14,5 @@ Version 0.3.9: a round of filings and the director's notes from the first runs, 
 - Maker Presence: Real Counterparts, #98, done
 - Plot renamed Basic Plot, #99, done
 - A trigger across projects, #100, done
+- The prototype round holds every main Kind Of Play pick, #101, done
 - Call 0.3.9 (active)
