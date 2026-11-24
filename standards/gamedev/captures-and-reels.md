@@ -30,7 +30,9 @@ The director can reproduce every state a capture shows.
 
 - Suites and capture runs are muted ([Silent Runs](silent-runs.md)).
 - Only the reel records sound.
-- The videos stay untracked in git, the reels and the changelog's copies alike, since they are heavy and a reel, when one is made, is made for one version. Only chosen ones, such as a store page's, get tracked later. Ignore the video folders on day one. A still is tracked only while a page shows it ([Docs Folder Structure](../docs/docs-folder-structure.md#images)).
+- The videos stay untracked in git, the reels and the changelog's copies alike: they are heavy, and generated from the code, like a build. Ignore the video folders on day one.
+- A video of a state that can no longer be made, such as a reel of a retired build, is a historical reference, worth having when looking back. A project may track it, or a store page's video, as an explicit choice, linked from a page such as the retired prototype's phase page. Git stays small, so each one is chosen.
+- A still or a video is tracked only while a page shows it ([Docs Folder Structure](../docs/docs-folder-structure.md#images)).
 
 ## Related
 

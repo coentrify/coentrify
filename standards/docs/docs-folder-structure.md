@@ -45,8 +45,8 @@ All records sit together under `docs/records/`, one group in the wiki with an `o
 
 ## Images
 
-- Only an image a page shows is tracked. The rest go to an ignored `unused` folder beside it, on the local disk.
-- A hygiene check fails a tracked image that no page links.
+- Only an image or a video a page shows is tracked. The rest go to an ignored `unused` folder beside it, on the local disk.
+- A hygiene check fails a tracked image or video that no page links.
 
 ## Related
 
