@@ -25,3 +25,4 @@ A project's agent builds these in the project's own stack, since each project ru
 - [Attribution Check](specs/attribution-check.md) - refuses a commit message with a line that opens with attribution
 - [Coentrify JSON Check](specs/coentrify-json-check.md) - keeps `coentrify.json` true, and refuses a hand edit of a tracked standard
 - [Ticket Id Check](specs/ticket-id-check.md) - refuses a commit of code or tests without a ticket's or a story's id as its scope, in the tickets workflow
+- [Anchor Check](specs/anchor-check.md) - refuses a link whose anchor names no heading on its page, and a ticket's `go` or `feedback` that names no log entry

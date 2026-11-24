@@ -18,6 +18,7 @@ Every doc and ticket can be checked against the words that produced it.
 - A message that lands mid-turn is logged the same way, with its own time, before the work goes on.
 - A question the director asks is logged too, since the answer shapes the project.
 - A secret in a message is left out ([Keep Secrets Away From Agents](../security/keep-secrets-away-from-agents.md)).
+- A link to an entry, and a ticket's `go` and `feedback`, is written from the entry's heading read back, never from memory. A check built from the Anchor Check spec in the tools holds it.
 - Past entries only get typo fixes.
 - New understanding gets a new entry.
 - The log entry is committed with the turn's other records, in the same pass as what was parsed from it ([A Turn's Records Land Together](../commits/a-turns-records-land-together.md)). Never left uncommitted waiting for a go.
