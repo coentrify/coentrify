@@ -15,6 +15,13 @@ The steps differ in who leads and who decides.
 - `guided` - the agent leads, and the director decides. The agent walks the work and asks for each creative choice, with open questions and picks. The director answers, picks one, or leaves it to the agent, whose choice lands under veto.
 - `autonomous` - the agent leads and decides, and the director is a stakeholder. The director's input is the brief and the go, in any shape and any length: a theme, a pitch, a list of elements, a book to adapt. The agent fills every gap, and its choices land in the docs at once, under veto.
 
+## Asking At Guided
+
+- The agent asks one creative choice per message, with no other news around it.
+- While a question waits for its answer, other news waits too. A report that cannot wait ends with the question asked again in full.
+- A question reads in three parts. The context says what it is about, as the player or the reader meets it. The explanation says what the answer decides, with the options one per bullet. The recommendation names the pick and its reason.
+- The question still lives where the workflow puts it, such as its ticket, and the chat asks it in full.
+
 ## The Order
 
 A creative choice draws on its sources in this order, and a later one never bends an earlier one.

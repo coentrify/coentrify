@@ -77,7 +77,7 @@ A ticket with its go is built from the plan and checked against the Definition o
 
 A refinement makes the current phase's tickets ready, one story from the refine list at a time, its tickets' questions together. Only the current phase is refined: the director's attention goes to what this phase needs, and a later phase refined now is refined again once things change.
 
-- The refine list carries links alone, and the chat points to it without repeating what a ticket holds. The director works from the ticket, its questions shaped as [Work Tracking](work-tracking.md#the-open-questions) says.
+- The refine list carries links alone, and the chat points to it without repeating what a ticket holds, except a creative choice at `guided`, which the chat asks in full ([Creative Agency](../autonomy/creative-agency.md#asking-at-guided)). The director works from the ticket, its questions shaped as [Work Tracking](work-tracking.md#the-open-questions) says.
 - A scheme, a mechanic or an idea grown big enough to discuss gets a ticket of its own, so a ticket never carries several at once.
 - Answers go where [Work Tracking](work-tracking.md#the-open-questions) says, and a ticket that passes leaves the refine list by itself.
 - Unblock as much as possible: a question goes into a ticket only when its choice is costly to undo or the director's words leave it open. A point whose recommended answer follows from the docs and is cheap to change is decided by the agent and written under Veto, so the ticket stays ready.
