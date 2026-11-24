@@ -25,6 +25,7 @@ What a game says when the player succeeds can feed the player's own interest or 
 - [Respect](../gamedev/game-design-laws-experience.md#respect) - the player is treated as capable
 - [What The Player Cannot See](../gamedev/game-design-laws-companions.md#what-the-player-cannot-see) - a companion never judges
 - [Juice](../gamedev/game-design-patterns.md#juice) - every action answered at once, across the senses
+- [Breadcrumbs](../gamedev/game-design-patterns.md#breadcrumbs) - small rewards that mark the way without a sign
 
 ## Related
 

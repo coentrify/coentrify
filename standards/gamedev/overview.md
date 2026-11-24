@@ -20,7 +20,7 @@ The Gamedev standards: game development.
 - [Game Design Laws: UI](game-design-laws-ui.md) - the screen and the controls
 - [Game Design Laws: World](game-design-laws-world.md) - the world the player moves through
 - [Game Design Laws: Values](game-design-laws-values.md) - what a game does to the person playing it
-- [Game Design Patterns](game-design-patterns.md) - named patterns a game uses where they fit, such as the No-Gear level, The Fall, the Kishōtenketsu level, Juice, Coyote Time And Input Buffer, the Pity Timer, Chekhov's Gun and Ma
+- [Game Design Patterns](game-design-patterns.md) - named patterns a game uses where they fit, such as the No-Gear level, The Fall, the Kishōtenketsu level, Juice, Coyote Time And Input Buffer, the Pity Timer, Chekhov's Gun, Breadcrumbs and Ma
 - [Game Flavors](game-flavors.md) - ready-made strategies per layer of a game, picked, rolled by code, or the game's own, and extracted from a project or a public game. No default taste
 - [Game Flavors: Art Style](game-flavors-art-style.md) - the look of the game at its base, which the style in Asset Layers starts from
 - [Game Flavors: Choice](game-flavors-choice.md) - how much the player's decisions shape the story

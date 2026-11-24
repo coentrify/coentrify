@@ -87,6 +87,17 @@ What the game shows with weight early pays off later, and what pays off later wa
 
 Rests on: [Curiosity As An Information Gap](../psychology/curiosity-as-an-information-gap.md), [Reward Prediction Error](../psychology/reward-prediction-error.md).
 
+## Breadcrumbs
+
+Small rewards along the intended path lead the player on without a marker: a trail of coins, a glint, a pickup around the corner.
+
+- A crumb invites and never commands. It is a small reward the world would plausibly hold, never a sign that does the player's thinking ([No Yellow Paint](game-design-laws-guidance.md#no-yellow-paint)).
+- Crumbs gather where the path matters, and thin out where the player should roam freely.
+- A trail can lead off the path to a secret ([Exploration Is Rewarded](game-design-laws-experience.md#exploration-is-rewarded)).
+- Crumbs supplement the landmarks and never replace them ([Wayfinding](wayfinding.md)). Too many turn the world into a theme-park ride.
+
+Rests on: [The Goal Gradient](../psychology/the-goal-gradient.md), [Rewards And Feedback](../psychology/rewards-and-feedback.md).
+
 ## Ma
 
 Ma (間), from Japanese art, is a designed pause: an interval between moments of intensity that gives them their shape. The player does little, and the moment still holds what came before and what is coming. Ma is an aesthetic concept more than a finding or a law, so a game uses it as a choice of style.
