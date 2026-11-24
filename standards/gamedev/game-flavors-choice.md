@@ -1,6 +1,6 @@
 # Game Flavors: Choice
 
-How much the player's decisions shape the story. What the player decides lasts ([Lasting Impact](game-design-laws-progress.md#lasting-impact)), and a flavor that sets that aside says so. These are the four main ones, never all there are. The index and the way a game uses its flavors are in [Game Flavors](game-flavors.md).
+How much the player's decisions shape the story. What the player decides lasts ([Lasting Impact](game-design-laws-progress.md#lasting-impact)), and a flavor that sets that aside says so. These are the five main ones, never all there are. The index and the way a game uses its flavors are in [Game Flavors](game-flavors.md).
 
 ## How Choices Mix
 
@@ -23,6 +23,14 @@ Example: siding with the miners or the owners splits the second half.
 
 Weighs: choices with real weight, and it is costly, and fewer players see each path.
 
+## Open Order
+
+One story, whose parts the player takes in any order, and the story lands whichever order they took. The player's say is the order and the pace, never the outcome.
+
+Example: the four witnesses can be questioned in any order, and the trial opens once all four have spoken.
+
+Weighs: the player feels free while the story stays authored, and each part has to stand without knowing what came before.
+
 ## Lasting Choices
 
 No big branches, and small choices leave marks that stay ([Shared Memories](game-design-laws-companions.md#shared-memories)).
@@ -42,7 +50,7 @@ Weighs: the feel of agency at low cost, and once noticed it cheapens every choic
 ## Sources
 
 - Sid Meier, Interesting Decisions, GDC 2012, on a game as a series of interesting decisions.
-- Public games, as references only: The Last of Us for Linear Story, Detroit: Become Human for Branching, Telltale's series for the critique of Illusion Of Choice.
+- Public games, as references only: The Last of Us for Linear Story, Detroit: Become Human for Branching, Mega Man's stage select and Breath of the Wild's four Divine Beasts for Open Order, Telltale's series for the critique of Illusion Of Choice.
 
 ## Related
 
