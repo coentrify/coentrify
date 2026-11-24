@@ -35,6 +35,7 @@ The Gamedev standards: game development.
 - [Game Flavors: Naming](game-flavors-naming.md) - how the characters are named
 - [Game Flavors: Opening](game-flavors-opening.md) - how the game begins, its first minutes
 - [Game Flavors: Plot](game-flavors-plot.md) - what the story is about at heart, Booker's seven basic plots and two more
+- [Game Flavors: Power](game-flavors-power.md) - how the player grows stronger, from skill alone to an empire
 - [Game Flavors: Protagonist](game-flavors-protagonist.md) - who the player is in the game, weighed against Make Yourself
 - [Game Flavors: Reveal](game-flavors-reveal.md) - how the secret unfolds over the game's length
 - [Game Flavors: Story Delivery](game-flavors-story-delivery.md) - how the story reaches the player, a main channel with accents

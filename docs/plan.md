@@ -3,7 +3,8 @@
 Version 0.3.6: the gameplay side of our own creative sweep, and its patterns, brought to the director one by one.
 
 - World Structure
-- Power (active)
+- Power
+- No Try Hard, the director's taste or a law (active)
 - Difficulty
 - Time
 - Art Style
@@ -42,3 +43,4 @@ Each layer comes to the director one at a time, with its title, description, fla
 - Chekhov's Gun: what is shown early pays off later.
 - Breadcrumbs: small rewards along the intended path, tied to Wayfinding.
 - The Body Tells The Story: the character's body grows with strength and deeds.
+- No Try Hard came from the director's own kind of games: skill-only and competitive games are try-hard by nature. It comes to the director as its own item: a Relevant for line, a flavor, or as it is.

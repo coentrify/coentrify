@@ -28,6 +28,7 @@ The layers run from the top down, and a layer is picked within what the layers a
 - [Crafting](game-flavors-crafting.md) - how making things plays, one rule per product
 - [Mistakes](game-flavors-mistakes.md) - what a mistake costs the player
 - [World Structure](game-flavors-world-structure.md) - how the world is laid out, and how it opens up
+- [Power](game-flavors-power.md) - how the player grows stronger
 - [Maker Presence](game-flavors-maker-presence.md) - whether the people who made the game show in it
 - [Naming](game-flavors-naming.md) - how the characters are named
 
@@ -37,6 +38,7 @@ The layers run from the top down, and a layer is picked within what the layers a
 - A layer's flavors are its main ones, never all there are. A game's own is an `own` pick, and the catalog grows with every sweep.
 - A `Conflicts:` line names the flavors it never goes with, and a `Needs:` line the flavors it needs. Each is left out when it is empty.
 - A flavor with real implications names them on a `Weighs:` line: what it gives, and what it costs. A pick weighs both.
+- A cost is no verdict. Many loved games pick a flavor for its gain, and live with its cost or soften it.
 - No flavor is better than another. A device proven to work is a pattern ([Game Design Patterns](game-design-patterns.md)), and a rule that holds for every game is a law ([Game Design Laws](game-design-laws.md)).
 - Coentrify holds no default taste. A game's character comes from its picks ([Creative Agency](../autonomy/creative-agency.md)).
 
