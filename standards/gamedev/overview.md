@@ -30,6 +30,7 @@ The Gamedev standards: game development.
 - [Game Flavors: Maker Presence](game-flavors-maker-presence.md) - whether the people who made the game show in it
 - [Game Flavors: Mistakes](game-flavors-mistakes.md) - what a mistake costs the player
 - [Game Flavors: Naming](game-flavors-naming.md) - how the characters are named
+- [Game Flavors: Opening](game-flavors-opening.md) - how the game begins, its first minutes
 - [Game Flavors: Plot](game-flavors-plot.md) - what the story is about at heart, Booker's seven basic plots and two more
 - [Game Flavors: Protagonist](game-flavors-protagonist.md) - who the player is in the game, weighed against Make Yourself
 - [Game Flavors: Reveal](game-flavors-reveal.md) - how the secret unfolds over the game's length
