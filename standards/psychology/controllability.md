@@ -24,6 +24,7 @@ A risk the player can steer teaches, and a setback the player can do nothing abo
 - [No Softlock](../gamedev/game-design-laws-progress.md#no-softlock) - a mistake never takes the way forward out of the player's hands
 - [A Loss Is Grieved](../gamedev/game-design-laws-companions.md#a-loss-is-grieved) - never to chance
 - [Compulsion Is Considered](../gamedev/game-design-laws-values.md#compulsion-is-considered) - a forced situation is there to break free from
+- [Coyote Time And Input Buffer](../gamedev/game-design-patterns.md#coyote-time-and-input-buffer) - the game does what the player meant, and the player can still fail
 
 ## Related
 

@@ -54,6 +54,18 @@ Every action gets generous feedback across the senses at once: a squash and stre
 
 Rests on: [Rewards And Feedback](../psychology/rewards-and-feedback.md), [Response Time Limits](../psychology/response-time-limits.md).
 
+## Coyote Time And Input Buffer
+
+Small, invisible windows of forgiveness, so the game does what the player meant ([Bands, Not Bullseyes](game-design-laws-progress.md#bands-not-bullseyes)).
+
+- Coyote time: for a moment after running off a ledge, a jump still counts.
+- An input buffer: a press a moment too early is remembered, and acted on as soon as it can be.
+- Its relatives: a jump that clips a corner is nudged over it, and the player's hitbox is generous while an enemy's stays exact.
+- The windows stay invisible, sized by playtest, and identical for every player in a competitive game.
+- The player can still fail. Forgiveness that never lets a move miss plays the game for the player, and a game beaten with the controller down is a film ([Full Control](game-design-laws-experience.md#full-control)).
+
+Rests on: [Controllability](../psychology/controllability.md), [Fitts's Law](../psychology/fitts-law.md).
+
 ## Ma
 
 Ma (間), from Japanese art, is a designed pause: an interval between moments of intensity that gives them their shape. The player does little, and the moment still holds what came before and what is coming. Ma is an aesthetic concept more than a finding or a law, so a game uses it as a choice of style.

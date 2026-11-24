@@ -23,6 +23,7 @@ A small target, such as a close icon, is hit faster and with fewer misses when i
 
 - [Mouse First](../gamedev/game-design-laws-ui.md#mouse-first) - a close icon carries a large hit area
 - [Bands, Not Bullseyes](../gamedev/game-design-laws-progress.md#bands-not-bullseyes) - a hit lands in a hitbox, never on a point
+- [Coyote Time And Input Buffer](../gamedev/game-design-patterns.md#coyote-time-and-input-buffer) - a window in time, like a target in space, is hit more often when it is wider
 
 ## Related
 
