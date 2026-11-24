@@ -65,8 +65,12 @@ The layers run from the top down, and a layer is picked within what the layers a
 - `coentrify extract flavors` sweeps the project: its request log and its decided docs ([Request Log](../records/request-log.md)).
 - `coentrify extract flavors <game>` sweeps a public game, from what is public about it, as a reference ([References Stay References](game-design-laws-own-style.md#references-stay-references)).
 - It names each strategy used, per layer, with the reasoning behind it.
-- In a project, each one is recorded in `docs/flavors.md`, as the flavor it already is or as the game's own.
-- A strategy that holds for other games and is not in the catalog is filed with coentrify as a flavor, a new layer with its first flavors, in the abstract and with made-up examples, so nothing of the game's content shows ([File A Change With Coentrify](../behavior/file-a-change-with-coentrify.md)). Running the command is the director's go to file.
+- Each strategy is matched against the catalog and the patterns first ([Game Design Patterns](game-design-patterns.md)).
+- A match is the flavor or pattern it already is. In a project, a flavor is recorded in `docs/flavors.md` by its name.
+- A near match is recorded as that flavor, with how the game differs after the dash.
+- A strategy that no flavor or pattern holds is recorded as the game's own.
+- Only a real gap is filed with coentrify: a strategy that holds for other games, which no flavor or pattern holds. It is filed as a flavor, a pattern, or a new layer with its first flavors, in the abstract and with made-up examples, so nothing of the game's content shows ([File A Change With Coentrify](../behavior/file-a-change-with-coentrify.md)). Running the command is the director's go to file.
+- The report names what the sweep confirmed beside what it found new.
 
 ## Related
 

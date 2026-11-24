@@ -12,9 +12,9 @@ Version 0.3.6: the gameplay side of our own creative sweep, and its patterns, br
 - Together
 - The patterns, one by one: The Fall, Kishōtenketsu Level, Juice, Coyote Time And Input Buffer, Pity Timer, Chekhov's Gun, Breadcrumbs and The Body Tells The Story done
 - A bare issue link keeps its last character, #86
-- Extract flavors matches against the catalog first, the director's idea
-- A command that weighs a game's picks before release, the director's idea
-- Call 0.3.6 (active)
+- Extract flavors matches against the catalog first, the director's idea, done
+- A command that weighs a game's picks before release, the director's idea (active)
+- Call 0.3.6
 
 ## How A Layer Is Brought
 

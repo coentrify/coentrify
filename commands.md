@@ -9,7 +9,7 @@ In a fresh project the first prompt is `npx coentrify`, as the [Quick Start](rea
 - `coentrify explain` - say what coentrify is
 - `coentrify update` - bring the project up to date
 - `coentrify game` - start a game: the agent asks for the mode first, sets the project up, and runs the phases
-- `coentrify extract flavors` - sweep the project, or a public game, for the strategies it used, record them, and file the generic ones as flavors
+- `coentrify extract flavors` - sweep the project, or a public game, for the strategies it used, match them against the catalog, record them, and file only what the catalog lacks
 
 Every command opens with the greeting, the way [Greet](onboarding.md#greet) says, and so does a plain prompt matched to one by intent.
 
