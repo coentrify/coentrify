@@ -15,7 +15,7 @@ The layers run from the top down, and a layer is picked within what the layers a
 - [Story Delivery](game-flavors-story-delivery.md) - how the story reaches the player
 - [Protagonist](game-flavors-protagonist.md) - who the player is in the game
 - [Story Structure](game-flavors-story-structure.md) - the shape of the story over the whole game
-- [Plot](game-flavors-plot.md) - what the story is about at heart, after Booker
+- [Basic Plot](game-flavors-plot.md) - what the story is about at heart, after Booker's seven basic plots
 - [Choice](game-flavors-choice.md) - how much the player's decisions shape the story
 - [Morality](game-flavors-morality.md) - how the game judges what the player does
 - [Opening](game-flavors-opening.md) - how the game begins

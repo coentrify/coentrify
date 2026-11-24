@@ -12,4 +12,5 @@ Version 0.3.9: a round of filings and the director's notes from the first runs, 
 - Protagonist: Rooted Hero, #96, done
 - Reveal: Nested Secrets, #97, done
 - Maker Presence: Real Counterparts, #98, done
+- Plot renamed Basic Plot, #99, done
 - Call 0.3.9 (active)

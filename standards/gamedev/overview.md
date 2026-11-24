@@ -23,6 +23,7 @@ The Gamedev standards: game development.
 - [Game Design Patterns](game-design-patterns.md) - named patterns a game uses where they fit, such as the No-Gear level, The Fall, the Kishōtenketsu level, Juice, Coyote Time And Input Buffer, the Pity Timer, Chekhov's Gun, Breadcrumbs, The Body Tells The Story and Ma
 - [Game Flavors](game-flavors.md) - ready-made strategies per layer of a game, picked, rolled by code, or the game's own, and extracted from a project or a public game. No default taste
 - [Game Flavors: Art Style](game-flavors-art-style.md) - the look of the game at its base, which the style in Asset Layers starts from
+- [Game Flavors: Basic Plot](game-flavors-plot.md) - what the story is about at heart, Booker's seven basic plots and two more
 - [Game Flavors: Choice](game-flavors-choice.md) - how much the player's decisions shape the story
 - [Game Flavors: Conventions](game-flavors-conventions.md) - whether the game explains its own artifice
 - [Game Flavors: Crafting](game-flavors-crafting.md) - how making things plays, one rule per product
@@ -37,7 +38,6 @@ The Gamedev standards: game development.
 - [Game Flavors: Music](game-flavors-music.md) - how music works, and how it follows play
 - [Game Flavors: Naming](game-flavors-naming.md) - how the characters are named
 - [Game Flavors: Opening](game-flavors-opening.md) - how the game begins, its first minutes
-- [Game Flavors: Plot](game-flavors-plot.md) - what the story is about at heart, Booker's seven basic plots and two more
 - [Game Flavors: Power](game-flavors-power.md) - how the player grows stronger, from skill alone to an empire
 - [Game Flavors: Protagonist](game-flavors-protagonist.md) - who the player is in the game, weighed against Make Yourself
 - [Game Flavors: Reveal](game-flavors-reveal.md) - how the secret unfolds over the game's length

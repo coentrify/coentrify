@@ -55,5 +55,5 @@ Weighs: the feel of agency at low cost, and once noticed it cheapens every choic
 ## Related
 
 - [Game Flavors](game-flavors.md)
-- [Game Flavors: Plot](game-flavors-plot.md)
+- [Game Flavors: Basic Plot](game-flavors-plot.md)
 - [Lasting Impact](game-design-laws-progress.md#lasting-impact)

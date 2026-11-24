@@ -27,7 +27,7 @@ Well into the game, the player loses what they built, and builds it again by pla
 - Something small survives, a keepsake or one ally, and what the game needs comes back ([No Softlock](game-design-laws-progress.md#no-softlock)).
 - The second climb runs in a slightly changed situation, recognizably the same, and can turn out better than the first.
 - Chosen, it is prestige or new game plus: the player gives up what they built for a lasting edge ([Start And End](game-design-laws-progress.md#start-and-end)).
-- It is the central crisis of Rags To Riches ([Game Flavors: Plot](game-flavors-plot.md)), and it often takes an empire or allies ([Game Flavors: Power](game-flavors-power.md)).
+- It is the central crisis of Rags To Riches ([Game Flavors: Basic Plot](game-flavors-plot.md)), and it often takes an empire or allies ([Game Flavors: Power](game-flavors-power.md)).
 
 Rests on: [Effort And The IKEA Effect](../psychology/effort-and-the-ikea-effect.md), [Loss Aversion](../psychology/loss-aversion.md), [Memory Reconsolidation](../psychology/memory-reconsolidation.md).
 

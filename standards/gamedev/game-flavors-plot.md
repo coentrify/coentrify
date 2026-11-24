@@ -1,11 +1,11 @@
-# Game Flavors: Plot
+# Game Flavors: Basic Plot
 
-What the story is about at heart: the kind of change it tells. [Story Structure](game-flavors-story-structure.md) is the shape, and the plot fills it. These are Christopher Booker's seven basic plots and the two he adds, never all there are. The index and the way a game uses its flavors are in [Game Flavors](game-flavors.md).
+What the story is about at heart: the kind of change it tells. [Story Structure](game-flavors-story-structure.md) is the shape, and the basic plot fills it. The name is Booker's, since in everyday use a plot is what happens. These are Christopher Booker's seven basic plots and the two he adds, never all there are. The index and the way a game uses its flavors are in [Game Flavors](game-flavors.md).
 
-## How Plots Mix
+## How Basic Plots Mix
 
-- Plots mix by scope: a main plot and its subplots: `- Plot: Rags To Riches - main`, `- Plot: Rebellion Against The One - the town`.
-- Mystery chains with the layers below it: the plot is a question, [The Secret](game-flavors-the-secret.md) is the answer, and [Reveal](game-flavors-reveal.md) is how it comes out.
+- Basic plots mix by scope: the main story's and a subplot's: `- Basic Plot: Rags To Riches - main`, `- Basic Plot: Rebellion Against The One - the town`.
+- Mystery chains with the layers below it: the basic plot is a question, [The Secret](game-flavors-the-secret.md) is the answer, and [Reveal](game-flavors-reveal.md) is how it comes out.
 
 ## Overcoming The Monster
 

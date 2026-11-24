@@ -40,6 +40,8 @@ const OWN = /^own\b/i;
 const OWN_STRATEGY = /^own - \S/i;
 const STANCE = /^(never|favor) (.+?) - (\S.*)$/i;
 const NOTE = ' - ';
+// Layers renamed at the source, by their old name, so a pick left under the old name hears the new one.
+const RENAMED = new Map([['Plot', 'Basic Plot']]);
 const pages = new Map();
 
 function fail(message) {
@@ -109,6 +111,9 @@ function picks(doc, all, stances, newLayers) {
       continue;
     }
     const [, layer, value] = match;
+    if (RENAMED.has(layer) && !all.has(layer)) {
+      fail(`${doc} picks for ${layer}, which is now ${RENAMED.get(layer)}. Rename the line to - ${RENAMED.get(layer)}: ${value}`);
+    }
     if (!all.has(layer)) {
       if (OWN_STRATEGY.test(value)) {
         newLayers.add(layer);
