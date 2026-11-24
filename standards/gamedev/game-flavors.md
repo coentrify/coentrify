@@ -16,6 +16,7 @@ The layers run from the top down, and a layer is picked within what the layers a
 - [Protagonist](game-flavors-protagonist.md) - who the player is in the game
 - [Story Structure](game-flavors-story-structure.md) - the shape of the story over the whole game
 - [Plot](game-flavors-plot.md) - what the story is about at heart, after Booker
+- [Choice](game-flavors-choice.md) - how much the player's decisions shape the story
 - [Opening](game-flavors-opening.md) - how the game begins
 - [Ending](game-flavors-ending.md) - how the game ends, and what the player is left with
 - [Era](game-flavors-era.md) - when the world is set, and how true it stays to its time

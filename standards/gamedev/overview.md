@@ -22,6 +22,7 @@ The Gamedev standards: game development.
 - [Game Design Laws: Values](game-design-laws-values.md) - what a game does to the person playing it
 - [Game Design Patterns](game-design-patterns.md) - named patterns a game uses where they fit, such as the No-Gear level and Ma
 - [Game Flavors](game-flavors.md) - ready-made strategies per layer of a game, picked, rolled by code, or the game's own, and extracted from a project or a public game. No default taste
+- [Game Flavors: Choice](game-flavors-choice.md) - how much the player's decisions shape the story
 - [Game Flavors: Conventions](game-flavors-conventions.md) - whether the game explains its own artifice
 - [Game Flavors: Crafting](game-flavors-crafting.md) - how making things plays, one rule per product
 - [Game Flavors: Death](game-flavors-death.md) - what happens when a character dies, one rule per kind of character, and what each weighs
