@@ -31,6 +31,18 @@ Well into the game, the player loses what they built, and builds it again by pla
 
 Rests on: [Effort And The IKEA Effect](../psychology/effort-and-the-ikea-effect.md), [Loss Aversion](../psychology/loss-aversion.md), [Memory Reconsolidation](../psychology/memory-reconsolidation.md).
 
+## Kishōtenketsu Level
+
+A level built in four beats around one idea, after the old four-part form: introduce it, develop it, twist it, conclude it. It is [Adopt, Repeat, Confirm](game-design-laws-guidance.md#adopt-repeat-confirm-arc) inside one level.
+
+- Ki introduces the idea in a safe spot, where nothing can go wrong.
+- Shō develops it, a little harder.
+- Ten twists it, used in a way the player did not see coming, and still answering the idea ([Fair Surprise](game-design-laws-world.md#fair-surprise)).
+- Ketsu concludes it with a last flourish, and the idea is retired. The next level brings a new one.
+- One new idea per level, so each one lands. The story's own four-part form is in [Game Flavors: Story Structure](game-flavors-story-structure.md).
+
+Rests on: [Cognitive Load](../psychology/cognitive-load.md), [Memory Reconsolidation](../psychology/memory-reconsolidation.md), [Retrieval Practice](../psychology/retrieval-practice.md).
+
 ## Ma
 
 Ma (間), from Japanese art, is a designed pause: an interval between moments of intensity that gives them their shape. The player does little, and the moment still holds what came before and what is coming. Ma is an aesthetic concept more than a finding or a law, so a game uses it as a choice of style.

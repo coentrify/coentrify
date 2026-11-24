@@ -22,6 +22,7 @@ A player learns a mechanic by using it again without help, after some time has p
 ## The Laws On It
 
 - [Adopt, Repeat, Confirm (ARC)](../gamedev/game-design-laws-guidance.md#adopt-repeat-confirm-arc) - time between the uses, and Confirm is a later use without help
+- [Kishōtenketsu Level](../gamedev/game-design-patterns.md#kishōtenketsu-level) - each beat uses the idea again, later and harder
 
 ## Related
 
