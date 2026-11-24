@@ -11,6 +11,7 @@ Version 0.3.5: our own creative sweep for flavors and patterns, from the roadmap
 - The law Recognizable With Tension
 - Plot, after Booker's seven basic plots
 - Opening
+- Ending
 - The next layer, one at a time (active)
 - Call 0.3.5
 
