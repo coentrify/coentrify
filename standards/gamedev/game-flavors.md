@@ -29,6 +29,7 @@ The layers run from the top down, and a layer is picked within what the layers a
 - [Mistakes](game-flavors-mistakes.md) - what a mistake costs the player
 - [World Structure](game-flavors-world-structure.md) - how the world is laid out, and how it opens up
 - [Power](game-flavors-power.md) - how the player grows stronger
+- [Difficulty](game-flavors-difficulty.md) - how hard the game is, and who sets it
 - [Maker Presence](game-flavors-maker-presence.md) - whether the people who made the game show in it
 - [Naming](game-flavors-naming.md) - how the characters are named
 

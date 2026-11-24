@@ -5,8 +5,8 @@ Version 0.3.6: the gameplay side of our own creative sweep, and its patterns, br
 - World Structure
 - Power
 - No Try Hard, relevant for a game made for every type of player
-- Difficulty (active)
-- Time
+- Difficulty
+- Time (active)
 - Art Style
 - Music
 - Together

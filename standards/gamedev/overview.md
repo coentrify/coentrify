@@ -26,6 +26,7 @@ The Gamedev standards: game development.
 - [Game Flavors: Conventions](game-flavors-conventions.md) - whether the game explains its own artifice
 - [Game Flavors: Crafting](game-flavors-crafting.md) - how making things plays, one rule per product
 - [Game Flavors: Death](game-flavors-death.md) - what happens when a character dies, one rule per kind of character, and what each weighs
+- [Game Flavors: Difficulty](game-flavors-difficulty.md) - how hard the game is, and who sets it
 - [Game Flavors: Ending](game-flavors-ending.md) - how the game ends, and what the player is left with
 - [Game Flavors: Era](game-flavors-era.md) - when the world is set, and how true it stays to its time
 - [Game Flavors: Kind Of Play](game-flavors-kind-of-play.md) - what the player is doing at heart, a main kind with accents
