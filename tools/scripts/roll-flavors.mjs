@@ -117,6 +117,12 @@ function picks(doc, all, stances, newLayers) {
       }
       fail(`${doc} picks for a layer Game Flavors does not hold: ${layer}. The layers: ${[...all.keys()].join(', ')}. A strategy of the game's own at a new layer is written as - ${layer}: own - and the strategy.`);
     }
+    // A flavor's own name comes first, so a flavor that starts with never, such as Never Confirmed, stays a pick.
+    const named = value.split(NOTE)[0].trim();
+    if (all.get(layer).has(named)) {
+      result.push([layer, named, value]);
+      continue;
+    }
     const stance = value.match(STANCE);
     if (/^(never|favor)\b/i.test(value)) {
       if (!stance) {
