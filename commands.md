@@ -12,7 +12,7 @@ In a fresh project the first prompt is `npx coentrify`, as the [Quick Start](rea
 - `coentrify extract flavors` - sweep the project, or a public game, for the strategies it used, match them against the catalog, record them, and file only what the catalog lacks
 - `coentrify weigh` - weigh a game's choices as a whole, and name what could bite once players have it
 
-Every command opens with the greeting, the way [Greet](onboarding.md#greet) says, and so does a plain prompt matched to one by intent.
+Every command ends with the greeting, the way [Greet](onboarding.md#greet) says, and so does a plain prompt matched to one by intent.
 
 ## `coentrify`
 

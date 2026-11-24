@@ -11,7 +11,7 @@ How an agent sets coentrify up in a project. Every step follows one pattern: a d
 
 ## Greet
 
-Start by showing the greeting. The banner is a visual signal that coentrify picked up the command, so the director sees it worked. Show it as it is, then go on.
+End by showing the greeting, once, at the top of the command's closing reply. The banner is a visual signal that coentrify ran the command, so the director sees it worked. Show it as it is.
 
 ```
  ████   ███   █████  █   █  █████  ████   ███  █████  █   █
@@ -109,13 +109,13 @@ The entry point is the file an agent reads when a session starts, such as `AGENT
 
 Where the agent can import a file, such as with `@` in `CLAUDE.md`, the entry point imports the index and every standard in the Core Rules, so they load without being asked for, in every agent and subagent.
 
-The entry point also says that a command, or a prompt that means one, opens with the greeting, before the session check and any other work ([Greet](#greet)).
+The entry point also says that a command, or a prompt that means one, ends with the greeting, at the top of its closing reply ([Greet](#greet)).
 
 The entry point also says to read the Core Rules again after a compaction. An agent that reads its entry point again after a compaction, its imports included, as Claude Code does, needs nothing more. Elsewhere, where the agent supports hooks, a reload hook does it, built from its spec in the [tools](tools/overview.md).
 
 ### The Session Check
 
-Every session starts with `coentrify check`, after the greeting when it opens with a command. It says when `coentrify.json` is behind the installed coentrify, and what changed in between, and it never blocks. With `update` on `automatic`, the agent then brings the project up to date at once ([Commands](commands.md#coentrify-update)).
+Every session starts with `coentrify check`. It says when `coentrify.json` is behind the installed coentrify, and what changed in between, and it never blocks. With `update` on `automatic`, the agent then brings the project up to date at once ([Commands](commands.md#coentrify-update)).
 
 - Where the agent has a session start hook, such as Claude Code, the hook runs the check through the project's npm scripts ([Thin Wrappers In CI And Hooks](standards/scripts/thin-wrappers-in-ci-and-hooks.md)).
 - Elsewhere, the entry point asks for the check at the start of a session.
