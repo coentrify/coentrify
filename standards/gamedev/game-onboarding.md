@@ -21,6 +21,7 @@ The agent asks for the mode first, with a line per mode, and recommends `guided`
 - `guided` - a start prompt if the director has one, then the questions layer by layer, open ones and flavor picks, with how niche the game should be among the first ([Audience Profile Template](audience-profile-template.md)).
 - `assisted` and `manual` - "What do you want?" The director leads from there.
 - An input given with the command is kept for after the mode.
+- Once the scope is known, the agent says in one line what the run holds: the phases ahead, where the director's playtests come in, and where this session stops.
 
 ## The Set Up
 
@@ -30,12 +31,13 @@ The agent asks for the mode first, with a line per mode, and recommends `guided`
 
 ## The Run
 
+- A run is as long as its scope. A game jam entry can reach its playable build in one sitting. A full game takes many sessions, with the director's playtests at the gates, and each session ends at a playable build of where the game stands.
 - The phases run in order, compressed to the scope, which comes from the input and is a game jam entry by default ([Game Phases](game-phases.md)).
 - A choice comes from the input, the audience profile and the laws, or is picked or rolled from the flavors ([Game Flavors](game-flavors.md)).
 - A gate is called on its check questions, by the director, or by the agent at `autonomous` ([Gate Check Questions](gate-check-questions.md)).
 - The director can step in at any time. A new idea is the director's word, which outranks every choice of the agent's own, and a choice it conflicts with is redone ([Creative Agency](../autonomy/creative-agency.md#the-order)).
 - Each phase page holds a veto list of the agent's own choices in that phase ([Flag Every Addition Of Your Own](../behavior/flag-every-addition-of-your-own.md)).
-- The run ends at a playable build, with the veto lists and the gate answers in the wiki.
+- The veto lists and the gate answers stand in the wiki.
 
 ## Related
 

@@ -48,7 +48,7 @@ The Gamedev standards: game development.
 - [Game Flavors: Together](game-flavors-together.md) - who the player plays with, from solo to asynchronous traces
 - [Game Flavors: Tone](game-flavors-tone.md) - the emotional register the game speaks in, a main tone with accents
 - [Game Flavors: World Structure](game-flavors-world-structure.md) - how the world is laid out and opens up, from linear to generated each run
-- [Game Onboarding](game-onboarding.md) - `coentrify game` asks for the mode first, sets the project up, and runs the phases to a playable build
+- [Game Onboarding](game-onboarding.md) - `coentrify game` asks for the mode first, sets the project up, and runs the phases: a jam entry in one sitting, a full game over many sessions with playtests
 - [Game Phases](game-phases.md) - a game's phases in four stages, each phase but Post-Release ending at a phase gate, with the greybox, demos and outside playtests
 - [Game Phases: Concept](game-phases-concept.md) - the divergent stage: Idea, Gathering, Outline and Prototype, loose inside and without tickets
 - [Game Phases: Design](game-phases-design.md) - the convergent stage: Lore, World Building, Gameplay, First Playable and Game Design. A first playable is never a demo
