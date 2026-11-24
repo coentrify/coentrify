@@ -14,7 +14,7 @@ Skill measured against others or the game, in a fair contest. Caillois's agôn.
 
 Example: a sword duel where the better reader of tells wins.
 
-Weighs: mastery and fairness matter, and the less skilled are shut out, so it stays within [No Try Hard](game-design-laws-progress.md#no-try-hard).
+Weighs: mastery and fairness matter, and the less skilled are shut out, so a competitive game stands outside [No Try Hard](game-design-laws-progress.md#no-try-hard).
 
 ## Chance
 

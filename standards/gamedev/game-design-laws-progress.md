@@ -29,6 +29,8 @@ Rests on: [Autonomy, Competence And Relatedness](../psychology/autonomy-competen
 
 ## No Try Hard
 
+Relevant for: a game made for every type of player, never a competitive one.
+
 Beating the game normally never requires playing try hard. The game supports every type of player, the completionist and the casual alike, by staying flexible and never forcing a play style. Optimizing is there for the player who wants it.
 
 Rests on: [Autonomy, Competence And Relatedness](../psychology/autonomy-competence-and-relatedness.md).
