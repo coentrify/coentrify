@@ -86,7 +86,7 @@ With `coentrify make no mistakes` the agent asks nothing. The agent takes every 
 - Write the decisions.
 - Set up the `docs` folder.
 - Create the wiki, where chosen.
-- Switch off the agent's own commit attribution where it has a setting for it ([Commits](standards/commits/commits.md#no-attribution)).
+- Switch off the agent's own commit attribution where it has a setting for it, as the No Attribution rule the director adopts with Commits asks ([Commits](standards/commits/commits.md#no-attribution)).
 - Set every chosen standard up in full: build the checks and hooks it asks for, in the project's own stack, from their specs in the [tools](tools/overview.md). A check a standard asks for without a spec is built from the standard's own words.
 - Offer a setup script for personal content, where the director uses cloud sessions.
 - Prove the entry point in a fresh session.
@@ -115,7 +115,7 @@ The entry point also says to read the Core Rules again after a compaction. An ag
 
 ### The Session Check
 
-Every session starts with `coentrify check`. It says when `coentrify.json` is behind the installed coentrify, and what changed in between, and it never blocks. With `update` on `automatic`, the agent then brings the project up to date at once ([Commands](commands.md#coentrify-update)).
+Every session starts with `coentrify check`. It says when `coentrify.json` is behind the installed coentrify, and what changed in between, and it never blocks. With `update` on `automatic`, the director's setting, the agent then brings the project up to date at once ([Commands](commands.md#coentrify-update)).
 
 - Where the agent has a session start hook, such as Claude Code, the hook runs the check through the project's npm scripts ([Thin Wrappers In CI And Hooks](standards/scripts/thin-wrappers-in-ci-and-hooks.md)).
 - Elsewhere, the entry point asks for the check at the start of a session.

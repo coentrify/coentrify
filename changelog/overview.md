@@ -2,6 +2,7 @@
 
 What changed in each version of coentrify. A version has a page of its own, which opens with its summary. The summary is also the text of its release.
 
+- [0.3.9](0.3.9.md) - a round of filings
 - [0.3.8](0.3.8.md) - the greeting moves to the end of a command, at the top of its closing reply
 - [0.3.7](0.3.7.md) - a round of filings: a turn's records in one commit, and two flavors an extract found, Taste Of Power and Open Order
 - [0.3.6](0.3.6.md) - the gameplay side of our creative sweep: seven flavor layers, eight patterns, an extraction that matches the catalog first, and `coentrify weigh`

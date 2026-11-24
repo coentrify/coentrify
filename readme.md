@@ -13,7 +13,13 @@ To coentrify a project is to align the project with spec-driven development.
 Prompt your agent to start the [onboarding](onboarding.md):
 
 ```
-npx coentrify
+install coentrify from npm, then set it up
+```
+
+For a game, the command takes the place of the setup:
+
+```
+install coentrify from npm, then coentrify game
 ```
 
 On a machine without Node, the prompt carries the source instead:

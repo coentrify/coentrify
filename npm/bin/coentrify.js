@@ -22,10 +22,11 @@ const UPDATE_STEP = `bring this project up to date by following coentrify update
 const AUTOMATIC = 'automatic';
 const GAME = 'game';
 const EXTRACT_FLAVORS = 'extract-flavors';
-const AUTOMATIC_STEP = `The update is automatic, so without waiting for a go: ${UPDATE_STEP}. With builders at work, the conductor hands it to an agent of its own, and a builder leaves it to the conductor.`;
-const REVIEW_STEP = `The update waits for the director's go. Next step: ask for it, then ${UPDATE_STEP}`;
+const AUTOMATIC_STEP = `${CONFIG} has update on automatic, the director's setting, so the update runs with no other go. Next step: ${UPDATE_STEP}. With builders at work, the conductor hands it to an agent of its own, and a builder leaves it to the conductor.`;
+const REVIEW_STEP = `${CONFIG} has update on review, the director's setting, so the update waits for their go. Next step: ask for it, then ${UPDATE_STEP}`;
 const USAGE ='usage: npx coentrify [make-no-mistakes | update | explain | check | game [input] | extract flavors [game] | weigh]';
 const HEADER = `coentrify - spec-driven development, ${WIKI}`;
+const GO = "The director's words carry the go. Where they did not ask for a part of the step, such as the install, ask the director first.";
 
 // The banner, then the instruction from Greet itself, so the two never drift.
 function greet() {
@@ -38,6 +39,7 @@ function next(step) {
   greet();
   console.log(HEADER);
   console.log(`Next step: ${step}`);
+  console.log(GO);
 }
 
 function readJson(path) {

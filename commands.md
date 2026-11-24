@@ -2,7 +2,7 @@
 
 What a director can ask an agent to do with coentrify. A command is matched by intent, so the exact words do not matter.
 
-In a fresh project the first prompt is `npx coentrify`, as the [Quick Start](readme.md#quick-start) shows. Once the project is set up, its entry point leads to these commands.
+In a fresh project the first prompt is `install coentrify from npm, then set it up`, or a command in place of the setup, as the [Quick Start](readme.md#quick-start) shows. The install stands in the director's words, so no agent takes it as a tool's order. Once the project is set up, its entry point leads to these commands.
 
 - `coentrify` - set the project up with the director in the loop: the agent recommends, and the director chooses
 - `coentrify make no mistakes` - set the project up autonomously: the agent chooses, and the director vetoes afterward
@@ -36,7 +36,7 @@ Any question about what coentrify is. Explain from the [readme](readme.md), the 
 
 Any request to bring the project up to date. The update script from the [tools](tools/overview.md) works out what changed since the project's version, and the agent handles what needs judgment.
 
-With `update` on `automatic`, the session check starts the update when the installed coentrify is newer than the project, and no go is waited for. Nothing is raised then: the installed version is the one to reach. With builders at work, the conductor hands the update to an agent of its own, and a builder leaves it to the conductor.
+With `update` on `automatic`, the director's setting in `coentrify.json`, the session check starts the update when the installed coentrify is newer than the project, with no other go. Nothing is raised then: the installed version is the one to reach. With builders at work, the conductor hands the update to an agent of its own, and a builder leaves it to the conductor.
 
 - In the tickets workflow, file a heal ticket first, commit the update under its id, and land it archived like any heal ticket ([Work Tracking](standards/tickets-workflow/work-tracking.md)).
 - Raise coentrify to its latest version, `npm install --save-dev coentrify@latest`, unless the session check started the update.
