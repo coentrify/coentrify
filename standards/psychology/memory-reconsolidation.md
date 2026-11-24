@@ -25,6 +25,7 @@ A player cements a mechanic by using it again in a slightly changed situation, c
 ## The Laws On It
 
 - [Adopt, Repeat, Confirm (ARC)](../gamedev/game-design-laws-guidance.md#adopt-repeat-confirm-arc) - Repeat comes in a slightly changed situation, recognizably the same action
+- [The Fall](../gamedev/game-design-patterns.md#the-fall) - the second climb in a slightly changed situation cements it
 
 ## Related
 

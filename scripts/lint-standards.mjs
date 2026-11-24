@@ -45,6 +45,7 @@ const HUBS = new Set([
   'tickets-workflow/work-workflow.md',
   'gamedev/game-design-laws.md',
   'gamedev/game-flavors.md',
+  'gamedev/game-design-patterns.md',
   'gamedev/game-phases.md',
   'simple-workflow/the-simple-workflow.md',
 ]);

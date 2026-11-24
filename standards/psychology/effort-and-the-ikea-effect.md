@@ -26,6 +26,7 @@ Earned progress is worth more to the player than progress handed over, and only 
 - [Emergent Gameplay](../gamedev/game-design-laws-progress.md#emergent-gameplay) - a solution the player found is valued more
 - [No Asset Flips](../gamedev/game-design-laws-own-style.md#no-asset-flips) - a game is judged by the effort seen in it
 - [Helps, Never Takes Over](../gamedev/game-design-laws-companions.md#helps-never-takes-over) - what the player does themselves is worth more
+- [The Fall](../gamedev/game-design-patterns.md#the-fall) - rebuilding one's own creation, quicker the second time
 
 ## Related
 

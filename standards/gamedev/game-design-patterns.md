@@ -1,6 +1,6 @@
 # Game Design Patterns
 
-Named patterns a game can use, each with what it does and when it fits. A game uses a pattern where it fits. A law holds everywhere, unless there is a very good reason ([Game Design Laws](game-design-laws.md)).
+Named patterns a game can use, each with what it does and when it fits: devices proven to work, never all there are. A game uses a pattern where it fits. A law holds everywhere, unless there is a very good reason ([Game Design Laws](game-design-laws.md)).
 
 ## Why
 
@@ -17,6 +17,19 @@ A No-Gear level takes the player's gear away for a while: the tools, the money, 
 - A game may open with one as well: an opening that shows a later setup, then takes it away.
 
 Rests on: [Effort And The IKEA Effect](../psychology/effort-and-the-ikea-effect.md).
+
+## The Fall
+
+Well into the game, the player loses what they built, and builds it again by playing. It is the No-Gear level's harder sibling: the gear does not come back, and the rebuild is the point.
+
+- The loss answers something the player did, or a turn the story set up ([Fair Surprise](game-design-laws-world.md#fair-surprise)). It comes in the middle, never at the very start or the end.
+- The rebuild is quicker and cheaper than the first climb: what the player knows carries over, and shortcuts open, so it never feels like a do-over punishment.
+- Something small survives, a keepsake or one ally, and what the game needs comes back ([No Softlock](game-design-laws-progress.md#no-softlock)).
+- The second climb runs in a slightly changed situation, recognizably the same, and can turn out better than the first.
+- Chosen, it is prestige or new game plus: the player gives up what they built for a lasting edge ([Start And End](game-design-laws-progress.md#start-and-end)).
+- It is the central crisis of Rags To Riches ([Game Flavors: Plot](game-flavors-plot.md)), and it often takes an empire or allies ([Game Flavors: Power](game-flavors-power.md)).
+
+Rests on: [Effort And The IKEA Effect](../psychology/effort-and-the-ikea-effect.md), [Loss Aversion](../psychology/loss-aversion.md), [Memory Reconsolidation](../psychology/memory-reconsolidation.md).
 
 ## Ma
 
