@@ -7,4 +7,5 @@ Version 0.3.9: a round of filings and the director's notes from the first runs, 
 - Guided mode reads as the whole game made at once, the director's note, done
 - The star as one sign of use, with a link, #92, done
 - The engine from the game's needs, the director's pick, #93, done
+- Naming: Telling Names, #94, done
 - Call 0.3.9 (active)

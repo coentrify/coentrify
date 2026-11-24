@@ -30,6 +30,18 @@ Characters go by what they are, such as the guard or the baker, or stay unnamed,
 
 Example: a guard, a baker and a ferryman, each called by their trade.
 
+## Telling Names
+
+A name tells what its bearer is or will become. It says so plainly by its meaning, hides it in an anagram or a word spelled backward, or turns it around by irony. At its plainest it is a cliche the player reads at once.
+
+Example: a gentle herbalist named Nosiop, poison spelled backward, and a towering ogre everyone calls Pebble.
+
+Weighs: a hidden name rewards the attentive player and foreshadows fairly, and a plain one gives the twist away.
+
+## Sources
+
+- Dickens, for telling names such as Gradgrind and Scrooge, and the aptronym, a name that fits its bearer.
+
 ## Related
 
 - [Game Flavors](game-flavors.md)

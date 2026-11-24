@@ -84,6 +84,7 @@ What the game shows with weight early pays off later, and what pays off later wa
 - Weight makes the promise: only what the game lingers on owes a payoff, and a gun that never fires is a broken promise.
 - At its best it hides in plain sight. It reads as an odd detail, a small break in the harmony, until the payoff ties it back in ([In Harmony](game-design-laws-own-style.md#in-harmony)).
 - A plant that is too plain gives the twist away. Clues are guns too ([Game Flavors: Reveal](game-flavors-reveal.md)).
+- A hidden name is the gun at the scale of a word: the name is the plant, and the reveal pays it off ([Game Flavors: Naming](game-flavors-naming.md#telling-names)).
 
 Rests on: [Curiosity As An Information Gap](../psychology/curiosity-as-an-information-gap.md), [Reward Prediction Error](../psychology/reward-prediction-error.md).
 
