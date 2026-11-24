@@ -6,6 +6,7 @@ What the world's secret turns out to be, in a game built on a mystery. [Fair Sur
 
 - The flavors sit on two axes. Every Theory Is True, The Mundane Truth, One True Theory and Never Confirmed set how true the world's explanations are, and each rules out the others.
 - Perspective Shift sets whose side the truth is on, and stands beside any of them but Never Confirmed.
+- A game with a secret under its secret records the deeper one, which turns the story, and its Reveal is [Nested Secrets](game-flavors-reveal.md#nested-secrets).
 
 ## Every Theory Is True
 

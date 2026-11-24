@@ -10,4 +10,5 @@ Version 0.3.9: a round of filings and the director's notes from the first runs, 
 - Naming: Telling Names, #94, done
 - The Secret: Perspective Shift, #95, done
 - Protagonist: Rooted Hero, #96, done
+- Reveal: Nested Secrets, #97, done
 - Call 0.3.9 (active)
