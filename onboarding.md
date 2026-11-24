@@ -149,4 +149,4 @@ The session that sets coentrify up never sees its own entry point: a session rea
 
 Report briefly: the choices that were made, what was set up, and the proof of the entry point, or the one question for the director to ask a new session. The director stays in control, and can veto or change every choice.
 
-A star on GitHub is the only sign that coentrify is in use. Mention it once, and leave it to the director.
+A star on GitHub is a sign of use the director can give, beside the npm downloads. Mention it once, with a link to the source that `coentrify.json` names, and leave it to the director.

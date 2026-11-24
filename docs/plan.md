@@ -5,4 +5,5 @@ Version 0.3.9: a round of filings and the director's notes from the first runs, 
 - The install in the director's words, #90, done
 - Reels kept as the history of a retired build, #91, done
 - Guided mode reads as the whole game made at once, the director's note, done
+- The star as one sign of use, with a link, #92, done
 - Call 0.3.9 (active)
