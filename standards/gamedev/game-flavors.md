@@ -31,6 +31,7 @@ The layers run from the top down, and a layer is picked within what the layers a
 - [Power](game-flavors-power.md) - how the player grows stronger
 - [Difficulty](game-flavors-difficulty.md) - how hard the game is, and who sets it
 - [Time](game-flavors-time.md) - how time runs, and who controls it
+- [Art Style](game-flavors-art-style.md) - the look of the game at its base
 - [Maker Presence](game-flavors-maker-presence.md) - whether the people who made the game show in it
 - [Naming](game-flavors-naming.md) - how the characters are named
 

@@ -8,7 +8,7 @@ Assets made one prompt at a time differ in style and in scale. Decided in layers
 
 ## The Layers
 
-- The style - the look of the whole game, in `docs/assets/style.md`, set by the style sample ([Game Phases: Design](game-phases-design.md#first-playable)). Every list links it.
+- The style - the look of the whole game, in `docs/assets/style.md`, set by the style sample ([Game Phases: Design](game-phases-design.md#first-playable)) and starting from an Art Style pick ([Game Flavors: Art Style](game-flavors-art-style.md)). Every list links it.
 - The blueprint - what a type adds to the style, at the head of its list ([Blueprint First](game-design-laws-own-style.md#blueprint-first)).
 - The traits - what the player can do with an asset, picked from a catalog, like the use cases of a feature ([Asset Traits](asset-traits.md)).
 - The spec - the states, the animations and the sounds of an asset, which cover what its traits need.
