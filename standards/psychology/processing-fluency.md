@@ -22,6 +22,7 @@ Consistency and familiar conventions make a game easy to take in, and too much s
 ## The Laws On It
 
 - [Blueprint First](../gamedev/game-design-laws-own-style.md#blueprint-first) - things of one kind from one blueprint
+- [Recognizable With Tension](../gamedev/game-design-laws-story.md#recognizable-with-tension) - a type the player knows reads at a glance
 - [Unique Where It Counts](../gamedev/game-design-laws-own-style.md#unique-where-it-counts) - familiar where the game is not unique
 - [Same Trigger Both Ways](../gamedev/game-design-laws-ui.md#same-trigger-both-ways) - one expectation, kept
 - [Always Polished](../gamedev/game-design-laws-quality.md#always-polished) - one level of quality, by inference

@@ -71,6 +71,7 @@ The full text is in [Game Design Laws: Story](game-design-laws-story.md).
 - [Embedded Relevance](game-design-laws-story.md#embedded-relevance) - the experience is the message, never inserted or politicized
 - [Worth Reading](game-design-laws-story.md#worth-reading) - for dialog: a missed line stays missed
 - [Dialog Gives Context](game-design-laws-story.md#dialog-gives-context) - dialog accompanies the screen as narrative and gives context, never instructions
+- [Recognizable With Tension](game-design-laws-story.md#recognizable-with-tension) - a type the player knows at a glance, with a true detail that pulls against it
 - [Make Yourself](game-design-laws-story.md#make-yourself) - for a player character: the player can represent themselves
 
 ### Companions

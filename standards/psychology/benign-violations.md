@@ -21,6 +21,7 @@ A parody lands when it breaks with its source and still reads as harmless to the
 
 - [References Stay References](../gamedev/game-design-laws-own-style.md#references-stay-references) - a parody, a spin or a nod
 - [Rules Broken On Purpose](../gamedev/game-design-laws-own-style.md#rules-broken-on-purpose) - a break of the game's own tone or frame lands as a joke when it stays harmless
+- [Recognizable With Tension](../gamedev/game-design-laws-story.md#recognizable-with-tension) - a true detail breaks the type harmlessly, and lands as a joke
 
 ## Related
 

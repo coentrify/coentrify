@@ -39,6 +39,12 @@ Dialog accompanies what is on screen as its narrative: it gives the player the c
 
 Rests on: [Cognitive Load](../psychology/cognitive-load.md), [Narrative Transportation](../psychology/narrative-transportation.md).
 
+## Recognizable With Tension
+
+A character, a situation, an item or a building reads at a glance as something the player knows, and carries a specific, true detail or two that pull against it. The recognition makes it land, and the tension makes it funny or touching. A self-insert the player cannot read, and a message forced in, carry neither ([Embedded Relevance](#embedded-relevance)).
+
+Rests on: [Benign Violations](../psychology/benign-violations.md), [Processing Fluency](../psychology/processing-fluency.md).
+
 ## Make Yourself
 
 Relevant for: a player character.
