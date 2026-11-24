@@ -14,7 +14,7 @@ A No-Gear level takes the player's gear away for a while: the tools, the money, 
 - The loop the player knows carries it, so nothing new has to be taught: the player proves the skill without the gear.
 - The loss answers something the player did, such as getting caught, never a twist out of nothing ([Fair Surprise](game-design-laws-world.md#fair-surprise)).
 - It ends with the gear coming back, which makes what was built feel earned a second time ([Earned Progress](game-design-laws-progress.md#earned-progress)).
-- A game may open with one as well: an opening that shows a later setup, then takes it away.
+- At a game's start, its sibling is the opening Taste Of Power ([Game Flavors: Opening](game-flavors-opening.md#taste-of-power)).
 
 Rests on: [Effort And The IKEA Effect](../psychology/effort-and-the-ikea-effect.md).
 
@@ -22,7 +22,7 @@ Rests on: [Effort And The IKEA Effect](../psychology/effort-and-the-ikea-effect.
 
 Well into the game, the player loses what they built, and builds it again by playing. It is the No-Gear level's harder sibling: the gear does not come back, and the rebuild is the point.
 
-- The loss answers something the player did, or a turn the story set up ([Fair Surprise](game-design-laws-world.md#fair-surprise)). It comes in the middle, never at the very start or the end.
+- The loss answers something the player did, or a turn the story set up ([Fair Surprise](game-design-laws-world.md#fair-surprise)). It comes in the middle, never at the very start or the end. At the start, it is the opening Taste Of Power ([Game Flavors: Opening](game-flavors-opening.md#taste-of-power)).
 - The rebuild is quicker and cheaper than the first climb: what the player knows carries over, and shortcuts open, so it never feels like a do-over punishment.
 - Something small survives, a keepsake or one ally, and what the game needs comes back ([No Softlock](game-design-laws-progress.md#no-softlock)).
 - The second climb runs in a slightly changed situation, recognizably the same, and can turn out better than the first.
