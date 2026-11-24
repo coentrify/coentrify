@@ -65,3 +65,4 @@ The Gamedev standards: game development.
 - [Silent Runs](silent-runs.md) - an agent's runs of a game make no sound: muted Playwright captures for a walk, never the browser pane on a game with sound
 - [Sprite Sheet Frames](sprite-sheet-frames.md) - read frame size and row order from the sheet's pixels
 - [Wayfinding](wayfinding.md) - for a world the player finds the way in: paths, edges, districts, nodes and landmarks, strong and clear, after Kevin Lynch. A sketch-map test after a playtest checks it
+- [Weighing A Game](weighing-a-game.md) - `coentrify weigh` reads a game's choices as a whole, at the Game Design gate and before Release: a cost nothing answers, choices that pull against each other, choices left unmade

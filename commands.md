@@ -10,6 +10,7 @@ In a fresh project the first prompt is `npx coentrify`, as the [Quick Start](rea
 - `coentrify update` - bring the project up to date
 - `coentrify game` - start a game: the agent asks for the mode first, sets the project up, and runs the phases
 - `coentrify extract flavors` - sweep the project, or a public game, for the strategies it used, match them against the catalog, record them, and file only what the catalog lacks
+- `coentrify weigh` - weigh a game's choices as a whole, and name what could bite once players have it
 
 Every command opens with the greeting, the way [Greet](onboarding.md#greet) says, and so does a plain prompt matched to one by intent.
 
@@ -62,3 +63,7 @@ Any request to start or make a game. Follow [Game Onboarding](standards/gamedev/
 ## `coentrify extract flavors`
 
 Any request to extract the flavors a game used, from this project or from a public game by name. Follow [Extracting Flavors](standards/gamedev/game-flavors.md#extracting-flavors).
+
+## `coentrify weigh`
+
+Any request to weigh a game's choices, check its picks before a gate or a release, or find what could bite once it is out. Follow [Weighing A Game](standards/gamedev/weighing-a-game.md).

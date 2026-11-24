@@ -34,7 +34,7 @@ A gate that waits on taste stalls an agent, and a question tied to a law turns t
 - First Playable: is it fun, and does plain footage of it hold a viewer? ([Fun First](game-design-laws-experience.md#fun-first))
 - First Playable: does each new thing land, one at a time? ([Adopt, Repeat, Confirm](game-design-laws-guidance.md#adopt-repeat-confirm-arc))
 - Game Design: does the groove expand, with rewards that grow? ([Cadence](game-design-laws-progress.md#cadence))
-- Game Design: how do the ratio, the composition and the synergy of the standards, the flavors, the game's own choices and its rules broken on purpose hold up? ([Rules Broken On Purpose](game-design-laws-own-style.md#rules-broken-on-purpose))
+- Game Design: how do the ratio, the composition and the synergy of the standards, the flavors, the game's own choices and its rules broken on purpose hold up, once the game is weighed? ([Rules Broken On Purpose](game-design-laws-own-style.md#rules-broken-on-purpose), [Weighing A Game](weighing-a-game.md))
 
 ## Development
 
@@ -48,6 +48,7 @@ A gate that waits on taste stalls an agent, and a question tied to a law turns t
 ## Live
 
 - Release: does the launch follow the strategy the game chose? ([Launch Strategy](launch-strategy.md))
+- Release: is the game weighed once more, and every finding decided? ([Weighing A Game](weighing-a-game.md))
 - Aftercare: does the first feedback reach intake, through its playtest file? ([Game Work Workflow](game-work-workflow.md))
 
 ## Related
@@ -55,4 +56,5 @@ A gate that waits on taste stalls an agent, and a question tied to a law turns t
 - [Game Phases](game-phases.md)
 - [Prototype Phase Template](prototype-phase-template.md)
 - [Creative Agency](../autonomy/creative-agency.md)
+- [Weighing A Game](weighing-a-game.md)
 - [Project Lifecycle](../behavior/project-lifecycle.md)

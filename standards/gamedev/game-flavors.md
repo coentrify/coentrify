@@ -58,6 +58,7 @@ The layers run from the top down, and a layer is picked within what the layers a
 - The doc can favor a flavor, `- Naming: favor Serious Names - ` and the reason. A roll names the favored flavors that fit, and the agent considers them strongly before it takes the draw.
 - A layer is picked by the director, or rolled. A roll is drawn by code, since a model's random pick drifts to the most likely one: `node node_modules/coentrify/src/tools/scripts/roll-flavors.mjs roll <layer>`.
 - A roll draws among the flavors that fit the picks so far. `roll-flavors.mjs check` holds the picks to their conflicts and needs, after every change to the doc.
+- The picks are weighed as a whole, at the Game Design gate and before Release ([Weighing A Game](weighing-a-game.md)).
 - Once a second kind of project uses flavors, the mechanism moves to a standard they share ([Converge Only Once Proven](../architecture/converge-only-once-proven.md)).
 
 ## Extracting Flavors
@@ -78,3 +79,4 @@ The layers run from the top down, and a layer is picked within what the layers a
 - [Creative Agency](../autonomy/creative-agency.md)
 - [Game Design Patterns](game-design-patterns.md)
 - [Game Phases: Concept](game-phases-concept.md)
+- [Weighing A Game](weighing-a-game.md)

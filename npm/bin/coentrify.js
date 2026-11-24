@@ -24,7 +24,7 @@ const GAME = 'game';
 const EXTRACT_FLAVORS = 'extract-flavors';
 const AUTOMATIC_STEP = `The update is automatic, so without waiting for a go: ${UPDATE_STEP}. With builders at work, the conductor hands it to an agent of its own, and a builder leaves it to the conductor.`;
 const REVIEW_STEP = `The update waits for the director's go. Next step: ask for it, then ${UPDATE_STEP}`;
-const USAGE ='usage: npx coentrify [make-no-mistakes | update | explain | check | game [input] | extract flavors [game]]';
+const USAGE ='usage: npx coentrify [make-no-mistakes | update | explain | check | game [input] | extract flavors [game] | weigh]';
 const HEADER = `coentrify - spec-driven development, ${WIKI}`;
 
 // The banner, then the instruction from Greet itself, so the two never drift.
@@ -96,6 +96,10 @@ const COMMANDS = {
   [EXTRACT_FLAVORS]: (game) =>
     next(
       `install coentrify with ${INSTALL} if it is missing, then extract the flavors by following ${SOURCE}/standards/gamedev/game-flavors.md#extracting-flavors, ${game ? `for the public game ${game}` : 'from this project'}. Running the command is the director's go to file what holds for other games`,
+    ),
+  weigh: () =>
+    next(
+      `install coentrify with ${INSTALL} if it is missing, then weigh the game's choices as a whole by following ${SOURCE}/standards/gamedev/weighing-a-game.md. A finding is no verdict, and the report names what holds up too`,
     ),
   explain: () => {
     greet();
