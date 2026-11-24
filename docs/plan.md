@@ -8,4 +8,5 @@ Version 0.3.9: a round of filings and the director's notes from the first runs, 
 - The star as one sign of use, with a link, #92, done
 - The engine from the game's needs, the director's pick, #93, done
 - Naming: Telling Names, #94, done
+- The Secret: Perspective Shift, #95, done
 - Call 0.3.9 (active)
