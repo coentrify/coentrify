@@ -42,6 +42,7 @@ The Gamedev standards: game development.
 - [Game Flavors: Story Delivery](game-flavors-story-delivery.md) - how the story reaches the player, a main channel with accents
 - [Game Flavors: Story Structure](game-flavors-story-structure.md) - the shape of the story over the whole game, mixing by scope
 - [Game Flavors: The Secret](game-flavors-the-secret.md) - what the world's secret turns out to be, in a game built on a mystery
+- [Game Flavors: Time](game-flavors-time.md) - how time runs, and who controls it
 - [Game Flavors: Tone](game-flavors-tone.md) - the emotional register the game speaks in, a main tone with accents
 - [Game Flavors: World Structure](game-flavors-world-structure.md) - how the world is laid out and opens up, from linear to generated each run
 - [Game Onboarding](game-onboarding.md) - `coentrify game` asks for the mode first, sets the project up, and runs the phases to a playable build
