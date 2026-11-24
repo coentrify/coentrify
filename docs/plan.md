@@ -8,8 +8,8 @@ Version 0.3.6: the gameplay side of our own creative sweep, and its patterns, br
 - Difficulty
 - Time
 - Art Style
-- Music (active)
-- Together
+- Music
+- Together (active)
 - The patterns, one by one: The Fall, Kishōtenketsu Level, Juice, Coyote Time And Input Buffer, Pity Timer, Chekhov's Gun, Breadcrumbs, The Body Tells The Story
 - Call 0.3.6
 

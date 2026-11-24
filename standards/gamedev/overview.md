@@ -34,6 +34,7 @@ The Gamedev standards: game development.
 - [Game Flavors: Maker Presence](game-flavors-maker-presence.md) - whether the people who made the game show in it
 - [Game Flavors: Mistakes](game-flavors-mistakes.md) - what a mistake costs the player
 - [Game Flavors: Morality](game-flavors-morality.md) - how the game judges what the player does, from a karma meter to layered reputation
+- [Game Flavors: Music](game-flavors-music.md) - how music works, and how it follows play
 - [Game Flavors: Naming](game-flavors-naming.md) - how the characters are named
 - [Game Flavors: Opening](game-flavors-opening.md) - how the game begins, its first minutes
 - [Game Flavors: Plot](game-flavors-plot.md) - what the story is about at heart, Booker's seven basic plots and two more
