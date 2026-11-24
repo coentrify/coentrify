@@ -9,7 +9,7 @@ Version 0.3.5: our own creative sweep for flavors and patterns, from the roadmap
 - Protagonist
 - Story Structure
 - The law Recognizable With Tension
-- Plot, after Booker's seven basic plots (next)
+- Plot, after Booker's seven basic plots
 - The next layer, one at a time (active)
 - Call 0.3.5
 
