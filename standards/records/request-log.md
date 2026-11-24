@@ -20,7 +20,7 @@ Every doc and ticket can be checked against the words that produced it.
 - A secret in a message is left out ([Keep Secrets Away From Agents](../security/keep-secrets-away-from-agents.md)).
 - Past entries only get typo fixes.
 - New understanding gets a new entry.
-- The log entry is committed as its own `docs(log)` commit, in the same pass as what was parsed from it. Never left uncommitted waiting for a go.
+- The log entry is committed with the turn's other records, in the same pass as what was parsed from it ([A Turn's Records Land Together](../commits/a-turns-records-land-together.md)). Never left uncommitted waiting for a go.
 - The raw chat transcripts stay where the tool keeps them, on disk and uncommitted. The log is the curated record. Now and then a debt ticket schedules a gap analysis of the raw transcripts against the log and the docs, looking for interpretation errors.
 
 ## Related
@@ -28,3 +28,4 @@ Every doc and ticket can be checked against the words that produced it.
 - [Docs Hold Only What The Director Decided](../behavior/docs-hold-only-what-the-director-decided.md)
 - [Activity Log](activity-log.md)
 - [Playtest Files](playtest-files.md)
+- [A Turn's Records Land Together](../commits/a-turns-records-land-together.md)
