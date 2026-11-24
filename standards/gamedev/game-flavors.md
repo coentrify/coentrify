@@ -27,6 +27,7 @@ The layers run from the top down, and a layer is picked within what the layers a
 - [Death](game-flavors-death.md) - what happens when a character dies, one rule per kind of character
 - [Crafting](game-flavors-crafting.md) - how making things plays, one rule per product
 - [Mistakes](game-flavors-mistakes.md) - what a mistake costs the player
+- [World Structure](game-flavors-world-structure.md) - how the world is laid out, and how it opens up
 - [Maker Presence](game-flavors-maker-presence.md) - whether the people who made the game show in it
 - [Naming](game-flavors-naming.md) - how the characters are named
 

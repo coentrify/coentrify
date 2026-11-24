@@ -2,8 +2,8 @@
 
 Version 0.3.6: the gameplay side of our own creative sweep, and its patterns, brought to the director one by one.
 
-- World Structure (active)
-- Power
+- World Structure
+- Power (active)
 - Difficulty
 - Time
 - Art Style
