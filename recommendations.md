@@ -44,7 +44,7 @@ A stack module follows the stack the project chose, and never leads the choice.
 - Psychology - a game whose laws should carry the findings about people they rest on, with their sources. Without it, every law keeps its finding named in its own words
 - Reporting - a project whose director wants reports and reels
 - Autonomy - experimental: the agents direct and the director is a stakeholder, piloted on games. It comes with `agency` set past `manual`, and `coentrify game` starts a game with it
-- Commits - how work is committed and gated. The module is strongly opinionated, so the director decides which of its standards to adopt
+- Commits - how work is committed and gated. The module is strongly opinionated, so the director decides which of its standards to adopt. [Gate Commits On Exit Codes](standards/commits/gate-commits-on-exit-codes.md) is advised at least: every project's agent commits, and it keeps a red check from landing
 
 ## Workflow
 
