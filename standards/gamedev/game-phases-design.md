@@ -4,7 +4,7 @@ The second stage of a game ([Game Phases](game-phases.md)). Design is convergent
 
 ## Lore
 
-The skeleton of the lore, the red thread of the world: how the story starts, how it ends and how its parts connect. The main parts are there and fit. Not every dialog and every person: the details come later. Done When: the lore holds that framework and the director has approved it. Its work is Lore tickets, which may start from Concept on ([Game Work Workflow](game-work-workflow.md#design-ticket-types)). Gate: do the main parts fit together?
+The skeleton of the lore, the red thread of the world: how the story starts, how it ends and how its parts connect, with the main questline, its key people, its secret, and the side lines the main one cannot do without. The main parts are there and fit. Not every dialog and every person: side characters, side quests and references are Content, made later ([Content Template](content-template.md)). Done When: the lore holds that framework and the director has approved it. Its work is Lore tickets, which may start from Concept on ([Game Work Workflow](game-work-workflow.md#design-ticket-types)). Gate: do the main parts fit together?
 
 ## World Building
 
@@ -30,6 +30,8 @@ The world translated into the game's levels and features, represented by docs an
 ## The Order
 
 - Lore, World Building and Gameplay lean on each other.
+- Each phase goes only as deep as its gate needs, and leaves the details as Content ([Processing The Ideas](../tickets-workflow/processing-the-ideas.md)).
+- The skeleton they decide is the frame: decided once and kept stable, so content fills its gaps later.
 - The order on this page is the default, and a phase gate may send the game back a phase.
 
 ## Related

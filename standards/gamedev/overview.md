@@ -8,6 +8,7 @@ The Gamedev standards: game development.
 - [Asset Traits](asset-traits.md) - what the player can do with an asset, picked from a catalog, each with the states it needs and the law it serves
 - [Audience Profile Template](audience-profile-template.md) - who a game is for, by what binds them and how broad or niche they are, never a persona. It rules flavors out and favors others
 - [Captures And Reels](captures-and-reels.md) - proof from scripted captures per item, never by hand, reels on demand, videos untracked in git
+- [Content Template](content-template.md) - a game's decided content in `docs/content/`, a folder per kind such as characters and questlines: an overview with the kind's fields, and a file per entry that names where it hangs on the skeleton
 - [Devbox](devbox.md) - a one-key devbox on every scene, on the shared seeded scenarios
 - [Game Design Laws](game-design-laws.md) - the generic game design laws as an index. A game's laws doc adopts, leaves out or overrides them by name
 - [Game Design Laws: Companions](game-design-laws-companions.md) - the characters who stand with the player

@@ -17,8 +17,9 @@ Every folder answers one question, so a reader knows where a fact belongs before
 - `docs/features/` - the feature docs: the product as decided ([Feature Template](feature-template.md)).
 - `docs/<app>/` - in a workspace with several apps, each app's docs, shaped like the root: its overview, architecture and features ([Application Template](application-template.md)).
 - `docs/workspace/` - the cross-cutting concern docs as flat files: `authentication.md`, `design-system.md`, `testing.md` and the like ([Workspace Template](workspace-template.md)).
-- `docs/lore/` - in a game, the decided lore: the story, its characters and how its parts connect ([Game Phases: Design](../gamedev/game-phases-design.md#lore)).
+- `docs/lore/` - in a game, the decided lore, the skeleton: the story, its key characters and how its parts connect ([Game Phases: Design](../gamedev/game-phases-design.md#lore)).
 - `docs/world/` - in a game, the decided world: its places, how they connect and how big it is ([Game Phases: Design](../gamedev/game-phases-design.md#world-building)).
+- `docs/content/<kind>/` - in a game, the decided content, a folder per kind such as `characters/` and `questlines/`: an overview with the kind's fields and entries, and a file per entry ([Content Template](../gamedev/content-template.md)).
 
 ## Ideas
 

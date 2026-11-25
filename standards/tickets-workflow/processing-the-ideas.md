@@ -15,8 +15,10 @@ A pile of a hundred ideas stays findable, and nothing fixes a phase or a design 
 ## How To Apply
 
 - Sort: every entry gets the phase that will use it. An entry with several destinations is processed in parts.
+- A detail within a topic, such as a single side character, a side quest, a reference or a name in a game, is Content. It waits in the dump until its content is made ([Content Template](../gamedev/content-template.md)).
 - What needs no later phase is processed at once: a law, a rule about the process, a choice about the launch.
-- Everything else waits until its phase is next, or starts earlier where its phase allows it, as a game's lore does ([Work Tracking](work-tracking.md#phases)). Then it is processed per topic, never per entry: every entry that touches the topic is read, what stands now is kept, and a conflict goes to the director.
+- Everything else waits until its phase is next, or starts earlier where its phase allows it, as a game's lore does ([Work Tracking](work-tracking.md#phases)). Then it is processed per topic, never per entry, only as deep as the phase's gate needs: every entry of the topic that the gate needs is read, what stands now is kept, and a conflict goes to the director.
+- Before a topic's ticket is refined, each entry it would read is sorted: what its phase decides, or Content. Its acceptance criteria name only the first.
 - A topic is processed under a ticket of its phase, such as a game's Lore or Game ticket, and ends in a decided doc with the director's verdict.
 - A processed part leaves the dump and its category pages. The dump shrinks toward empty, and new ideas keep coming in.
 
