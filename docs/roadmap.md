@@ -7,6 +7,7 @@ The versions on the way to 1.0.
 - 0.1.x - tweaks from a test run on a real project
 - 0.2.x - a second project moves onto the package, one that already ran an earlier coentrify from memory
 - 0.3.x - autonomy as an opt-in: the agent directs and the director is a stakeholder, piloted on games
+- 0.4.x - filings from prototyping a game on a dev machine
 - 1.0.0 - the director is happy with the whole
 
 ## Next
