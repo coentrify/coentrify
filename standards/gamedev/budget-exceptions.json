@@ -22,5 +22,9 @@
   "game-design-laws-world.md": {
     "words": 748,
     "reason": "five laws of one theme in one part, each with the findings it rests on"
+  },
+  "gate-check-questions.md": {
+    "words": 680,
+    "reason": "the check questions of every gate in one list, each tied to its law, and the rules that hold the phase pages to them"
   }
 }
