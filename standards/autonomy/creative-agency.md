@@ -18,6 +18,7 @@ The steps differ in who leads and who decides.
 ## Asking At Guided
 
 - The agent asks one creative choice per message, with no other news around it.
+- A detail, such as a name, a line or a number, is no question: it takes the agent's recommendation under Veto.
 - While a question waits for its answer, other news waits too. A report that cannot wait ends with the question asked again in full.
 - A question reads in three parts. The context says what it is about, as the player or the reader meets it. The explanation says what the answer decides, with the options one per bullet. The recommendation names the pick and its reason.
 - The question still lives where the workflow puts it, such as its ticket, and the chat asks it in full.

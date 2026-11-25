@@ -31,6 +31,7 @@ A game's work in the Design stage is tracked in two types of its own, on top of 
 - Game, in `game`, prefix `GAME`: the design of the game. Its outcome is a decided feature doc and the feature tickets it leads to, refined once their phase comes. Game tickets carry the Gameplay, First Playable and Game Design phases.
 - The Concept stage has no tickets, apart from its prototype's and the Lore tickets that start there. Any other idea waits in `docs/ideas/` until its phase is next ([Processing The Ideas](../tickets-workflow/processing-the-ideas.md)).
 - A Game or Lore ticket names, in its Current Situation, each conflict between the docs and the intended design that it resolves, one per bullet.
+- A Lore or Game ticket asks the director only what its skeleton needs to hold together. Each open point is marked skeleton or detail first. A detail takes the content rule under Veto, or waits as Content ([Content Template](content-template.md)), and the report names the details it filled.
 
 ## Phases
 
