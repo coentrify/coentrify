@@ -2,6 +2,7 @@
 
 What changed in each version of coentrify. A version has a page of its own, which opens with its summary. The summary is also the text of its release.
 
+- [0.3.13](0.3.13.md) - a round of filings
 - [0.3.12](0.3.12.md) - content apart from the skeleton: a folder per kind, each phase only as deep as its gate, and only skeleton questions for the director
 - [0.3.11](0.3.11.md) - at guided, one creative choice per message: its context, the options and the recommendation
 - [0.3.10](0.3.10.md) - an anchor check, so every link to a log entry lands on its heading

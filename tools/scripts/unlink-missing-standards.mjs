@@ -13,6 +13,9 @@
 // - Every other such link becomes its own words.
 // - A Related section that ends up empty is removed.
 // - Code is left alone.
+//
+// Each removed link that pointed at a section is listed at the end: a section often carries a rule the
+// page rests on, so the agent offers that standard to the director.
 import { readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs';
 import { basename, dirname, join } from 'node:path';
 
@@ -30,6 +33,15 @@ const LINK_ONLY_BRACKETS = String.raw` ?\((${ONE_LINK}(?:(?:, | and )${ONE_LINK}
 const CODE_SPAN = /(`+).+?\1/g;
 const PLACEHOLDER_PATTERN = /\x00(\d+)\x00/g;
 const TRAILING_NEWLINES = /\n+$/;
+const SECTION = '#';
+const sections = [];
+
+// Notes a removed link that pointed at a section of its page.
+function noteSection(page, words, target) {
+  if (target.includes(SECTION)) {
+    sections.push(`- ${page}: ${words}, ${target}`);
+  }
+}
 
 function isFile(path) {
   try {
@@ -57,6 +69,9 @@ function unlinkLine(line, page) {
   });
   text = text.replace(new RegExp(LINK_ONLY_BRACKETS, 'g'), (whole, inside) => {
     const links = [...inside.matchAll(new RegExp(LINK, 'g'))];
+    for (const [, words, target] of links.filter(([, , target]) => isMissing(target, page))) {
+      noteSection(page, words, target);
+    }
     const kept = links.filter(([, , target]) => !isMissing(target, page)).map(([, words, target]) => `[${words}](${target})`);
     removed += links.length - kept.length;
     if (kept.length === links.length) {
@@ -73,6 +88,7 @@ function unlinkLine(line, page) {
       return whole;
     }
     removed += 1;
+    noteSection(page, words, target);
     return words;
   });
   return [text.replace(PLACEHOLDER_PATTERN, (_, index) => spans[Number(index)]), removed];
@@ -116,9 +132,10 @@ function unlinkPage(page) {
       continue;
     }
     if (pattern.test(line)) {
-      const target = line.match(new RegExp(LINK))[2];
+      const [, words, target] = line.match(new RegExp(LINK));
       if (isMissing(target, page)) {
         removed += 1;
+        noteSection(page, words, target);
         continue;
       }
     }
@@ -179,3 +196,7 @@ for (const page of pages(folder)) {
   }
 }
 console.log(`unlink: ${total} links removed in ${changedPages} pages`);
+if (sections.length) {
+  console.log('Links removed from a section, each often a rule the page rests on. Offer the standard it named:');
+  console.log(sections.join('\n'));
+}

@@ -8,8 +8,8 @@ Every doc and ticket can be checked against the words that produced it.
 
 ## The File
 
-- The H1 is the date with its DEV day: `2026-09-14 - DEV day 6` ([Changelog Per Version](changelog-per-version.md#the-dev-day)).
-- One `##` per message, titled with its time. The heading is written by the shell itself in the append, `printf '\n## %s\n\n' "$(date +%H:%M)"`, never typed: typed headings run ahead of the clock.
+- The H1 is the date with its DEV day: `2026-09-14 - DEV day 6` ([The DEV Day](the-dev-day.md)).
+- One `##` per message, titled with its time. The heading and the page are written by the append script, built from the Log Append spec in the tools, never typed: typed headings run ahead of the clock, and a page picked by hand past midnight lands on the wrong day.
 - The days before the agent are reconstructed from the commit history as entries of their own, so the log starts at the project's first day.
 
 ## How To Apply
@@ -29,4 +29,5 @@ Every doc and ticket can be checked against the words that produced it.
 - [Docs Hold Only What The Director Decided](../behavior/docs-hold-only-what-the-director-decided.md)
 - [Activity Log](activity-log.md)
 - [Playtest Files](playtest-files.md)
+- [The DEV Day](the-dev-day.md)
 - [A Turn's Records Land Together](../commits/a-turns-records-land-together.md)

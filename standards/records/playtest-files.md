@@ -9,7 +9,7 @@ A playtest file records what was felt about a build, and the next build is held 
 ## The File
 
 - The number gives the director and the playtesters a shared name for a session.
-- The H1 carries the number and the DEV day, the way the log's does: `# Playtest 46 - DEV day 13`, so the wiki's menu shows it. The head repeats the day (`- Day: DEV day 13`), counted as [Changelog Per Version](changelog-per-version.md#the-dev-day) says.
+- The H1 carries the number and the DEV day, the way the log's does: `# Playtest 46 - DEV day 13`, so the wiki's menu shows it. The head repeats the day (`- Day: DEV day 13`), counted as [The DEV Day](the-dev-day.md) says.
 - A playtest on an untagged build names the version in progress.
 - The summary is two or three lines naming the themes. The items stay in the list.
 

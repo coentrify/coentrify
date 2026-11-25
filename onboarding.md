@@ -65,6 +65,7 @@ Every choice has a default, and the default is the recommendation. The [recommen
 - A standard for one kind of project is picked by its title or its Relevant For list.
 - Adoption grows with the phase: an idea takes the Always modules and a workflow, and the stack modules join once it is built.
 - A standard that an adopted standard links to, in a module the project did not pick, is offered as an option.
+- A standard the adopted ones rest on comes with them, such as The DEV Day with any dated record.
 - A workflow is strongly recommended, since tracking the work is part of coentrify.
 - Healing and updates are automatic, and for a contributor, filing with coentrify waits for the director.
 
@@ -93,7 +94,7 @@ With `coentrify make no mistakes` the agent asks nothing. The agent takes every 
 
 ### The Links
 
-A link to a standard the project did not adopt points at nothing. The unlink script from the [tools](tools/overview.md) removes every such link and keeps the words, and drops the line of such a standard from its overview.
+A link to a standard the project did not adopt points at nothing. The unlink script from the [tools](tools/overview.md) removes every such link and keeps the words, and drops the line of such a standard from its overview. It lists each removed link that pointed at a section, which often carries a rule the page rests on, and the agent offers that standard.
 
 ### The Index
 

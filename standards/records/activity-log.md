@@ -1,6 +1,6 @@
 # Activity Log
 
-Completed work goes to `docs/records/activity/<date>.md`, one file per day, H1 the date with the DEV day (`2026-09-14 - DEV day 6`). The days before the agent are reconstructed from the commit history. Plans and lists still drop finished items. The activity log is where a day's progress stays readable.
+Completed work goes to `docs/records/activity/<date>.md`, one file per day, H1 the date with the DEV day (`2026-09-14 - DEV day 6`, [The DEV Day](the-dev-day.md)). The days before the agent are reconstructed from the commit history. Plans and lists still drop finished items. The activity log is where a day's progress stays readable.
 
 ## Why
 

@@ -12,7 +12,7 @@ A user test records what real users did with a version, and the next version is 
 - The tasks the users were given come before the feedback, one per bullet.
 - What a user did and what a user said are separate items, since the two often differ.
 - The feedback stays in the file until the director has reviewed it: no ticket and no agent brief from it before that review.
-- The number, the H1 with the DEV day, a version in progress and the summary follow Playtest Files.
+- The number, the H1 with the DEV day ([The DEV Day](the-dev-day.md)), a version in progress and the summary follow Playtest Files.
 
 ## Related
 
