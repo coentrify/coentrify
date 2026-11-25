@@ -48,8 +48,8 @@ Every section of a type's set stands in every ticket of that type, `` `-` `` whe
 ```
 ---
 id: BUG-31
-epic: <epic-slug>
-story: <story-slug>          (when it belongs to one)
+epic: EPIC-12                (its epic by id)
+story: STORY-8               (its story by id, when it belongs to one)
 rework: FEAT-214             (the landed ticket it redoes, from the director's findings)
 phase: <phase-slug>          (epics only)
 area: <area-slug>            (epics only, when it has one)
@@ -87,6 +87,8 @@ What should change, in one or two plain sentences.
 ### Proof
 ### Veto
 ```
+
+The `epic` and `story` fields name their epic and story by id, never by name, so a name used twice never moves a ticket. The hygiene check fails a field that names no epic or story by its id.
 
 ## Related
 
