@@ -26,7 +26,7 @@ Agents that work at the same time should not conflict.
 - The main checks go through the project's main checks script with the checks named as npm scripts, such as the hygiene, types, unit and wiki checks and the development build. A docs landing names hygiene and the wiki at least.
 - A docs commit outside a landing goes through the project's docs commit script, hygiene among its checks, which commits only when every check exits 0.
 - After any `git merge --abort`, `git cherry main <branch>` runs before a landing is reported.
-- Before its story merges, the builder rebases the branch onto main and runs the main checks green, the development build's warnings read. The merge script refuses a branch that main has moved past.
+- Before its story merges, the builder rebases the branch onto main and runs the main checks green on its last commit, with nothing beside it, the development build's warnings read. The merge script refuses a branch that main has moved past, and names the checks that passed on the tree it lands.
 - A landing that changes the app's shell, its routes, how screens load or what boots first gets the whole browser suite in its builder's worktree before it merges.
 - A docs commit that adds spec cases lands together with the commit tagging their tests.
 
