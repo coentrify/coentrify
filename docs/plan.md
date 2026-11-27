@@ -9,5 +9,6 @@ Version 0.4.0: the filings from prototyping a game on a dev machine, each brough
 - After a landing, rerun only the checks that never passed on its tree, #114, done
 - A story being built stays on the plan, #115, done
 - A test world for every asset, #116, done
-- The rest of the filings, #117 to #123, one by one
+- A heal carries its healer as its agent, #117, done
+- The rest of the filings, #118 to #123, one by one
 - Call 0.4.0 (active)
