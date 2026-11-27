@@ -86,6 +86,7 @@ What should change, in one or two plain sentences.
 ## Done                     (written when it lands)
 ### Proof
 ### Veto
+### Issue For Coentrify    (when its change holds beyond the project)
 ```
 
 The `epic` and `story` fields name their epic and story by id, never by name, so a name used twice never moves a ticket. The hygiene check fails a field that names no epic or story by its id.

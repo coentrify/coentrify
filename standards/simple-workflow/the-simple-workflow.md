@@ -38,6 +38,7 @@ A finding in the middle of other work is filed by its kind ([Note Issues](../beh
 - A functional doc out of date or wrong, where the gap is larger -> the inbox.
 - A missing prerequisite -> the plan, above the current item ([Backward-Trace Missing Prerequisites](../behavior/backward-trace-missing-prerequisites.md)).
 - A sweep -> one entry in the debt list that lists every instance ([Sweeps Enumerate Into Tech-Debt First](../behavior/sweeps-enumerate-into-tech-debt-first.md)).
+- A draft of an issue for coentrify -> a file of its own beside the lists, linked from an inbox item for the director's look ([File A Change With Coentrify](../behavior/file-a-change-with-coentrify.md)).
 
 ## Related
 

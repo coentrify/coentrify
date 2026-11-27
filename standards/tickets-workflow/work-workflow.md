@@ -40,6 +40,7 @@ A finding in the middle of other work is filed by its kind ([Note Issues](../beh
 - A functional doc out of date or wrong (feature doc, spec) -> a small fix rides on the current ticket's go as a Veto line. A larger gap is a docs ticket.
 - A missing prerequisite -> a ticket of its own, named in the current ticket's Depends On, so the builder takes it first once it has its go ([Backward-Trace Missing Prerequisites](../behavior/backward-trace-missing-prerequisites.md)).
 - A sweep -> one debt ticket that lists every instance, or an epic when the sweep is too big for one item ([Sweeps Enumerate Into Tech-Debt First](../behavior/sweeps-enumerate-into-tech-debt-first.md)).
+- A draft of an issue for coentrify -> the Done part of the ticket whose change it carries, under Issue For Coentrify, before that ticket lands ([File A Change With Coentrify](../behavior/file-a-change-with-coentrify.md)).
 - A ticket filed this way lands in the phase where it hurts the goal, a later one unless it hurts the current goal now ([Dev Tiers](../behavior/dev-tiers.md)), and stays unscheduled until the director plans it. The report names it.
 
 ## The Go

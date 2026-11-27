@@ -14,7 +14,8 @@ What one project learns reaches every project.
 - Filing needs no clone of the source and no rights on it, only an issue opened there.
 - A session whose tools cannot create the issue shows the director a prefilled link to a new one, which files it in one click. `node node_modules/coentrify/src/tools/scripts/issue-link.mjs <draft>` prints it from the draft's title and body.
 - The link appears in the chat, copied whole from what the script printed right before the reply, one link per print. It never stands only in a tool's output or a file, and is never typed out or pieced together.
-- The draft is saved where the project's workflow puts a finding ([Note Issues](note-issues.md)), so its link can be printed again until the issue is filed.
+- The draft stays in the repository until the issue is filed: under `### Issue For Coentrify` in the Done part of the ticket carrying its change, or in a file beside the simple workflow's lists, linked from the inbox.
+- A draft opens with a line saying it waits for the director's look and a `Title:` line, then Trigger, Proposal and Check as headings. The decisions link it while it waits, so a claim without a draft fails the link check.
 - A change to a module with a source of its own is filed with coentrify only when it is generic, as an addition of the module or the standard that coentrify lacks.
 - An issue holds one point, so issues close one by one.
 - Before filing, search the open issues.
