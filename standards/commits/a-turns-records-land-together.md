@@ -13,7 +13,7 @@ A commit per record buries the work in bookkeeping. One commit per turn keeps ev
 - A turn that lands a branch commits its records before the landing, since a merge wants a clean tree, and what follows from the landing in one commit after it: two commits at most.
 - The work itself keeps its own commits, grouped by review interest ([Commits](commits.md#size)).
 - With `push` on `automatic`, a turn that committed to main ends with main pushed, once its records have landed: `git push --no-verify origin main`. The push skips the pre-push hook, since the main checks gate every landing and the full chain runs at a version's close. A check built from the Push Check spec in the tools holds it.
-- A tag is pushed by name the moment it is added, `git push --no-verify origin main <tag>`, since `--follow-tags` leaves a lightweight tag behind.
+- With `push` on `automatic`, a tag is pushed by name the moment it is added, `git push --no-verify origin main <tag>`, since `--follow-tags` leaves a lightweight tag behind.
 - In a tickets project the conductor commits the records. A builder or a healer hands its words to the conductor in its report ([The Conductor](../tickets-workflow/the-conductor.md)).
 
 ## Related
