@@ -5,5 +5,6 @@ Version 0.4.1: the rest of the filings from prototyping a game on a dev machine,
 - Vertical Slice, an optional phase before Gameplay, #118, done
 - An unmet criterion reaches the director as a list, #119, done
 - A gate called in a fixed shape, its purpose first, the director's idea, done
-- The rest of the filings, #120 to #123, one by one
+- A push setting, following agency, #120, done
+- The rest of the filings, #121 to #123, one by one
 - Call 0.4.1 (active)

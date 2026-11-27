@@ -26,4 +26,5 @@ A project's agent builds these in the project's own stack, since each project ru
 - [Coentrify JSON Check](specs/coentrify-json-check.md) - keeps `coentrify.json` true, and refuses a hand edit of a tracked standard
 - [Ticket Id Check](specs/ticket-id-check.md) - refuses a commit of code or tests without a ticket's or a story's id as its scope, in the tickets workflow
 - [Log Append](specs/log-append.md) - adds a message's time heading to the request log, on the page of its DEV day, which turns at 04:00
+- [Push Check](specs/push-check.md) - refuses the end of a turn once while main is ahead of its upstream, with `push` on `automatic`
 - [Anchor Check](specs/anchor-check.md) - refuses a link whose anchor names no heading on its page, and a ticket's `go` or `feedback` that names no log entry

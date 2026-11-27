@@ -2,7 +2,7 @@
 
 The Commits standards: how work is committed.
 
-- [A Turn's Records Land Together](a-turns-records-land-together.md) - the log entry, tickets, gos, moves, playtest notes and healing-log entries of a turn land in one commit before it ends, two around a landing
+- [A Turn's Records Land Together](a-turns-records-land-together.md) - the log entry, tickets, gos, moves, playtest notes and healing-log entries of a turn land in one commit before it ends, two around a landing. With push automatic, main and its tags are pushed as they land
 - [Commits](commits.md) - every commit is a lowercase conventional commit, and a ticket's commits take its id as the scope, feat(FEAT-123): description. NO AI attribution anywhere. Split by review interest
 - [Gate Commits On Exit Codes](gate-commits-on-exit-codes.md) - only `&&` stands between the exit-code test and the commit or tag. Never pipe a check into grep or tail
 - [Main Stays Green, Work Stays Clean](main-stays-green-work-stays-clean.md) - main always green and versionable. Nothing lands red. Agents clean their own mess

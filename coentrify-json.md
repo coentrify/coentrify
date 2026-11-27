@@ -41,6 +41,7 @@ The onboarding writes `coentrify.json`, and the director changes it after.
 - `modules` - every standard taken from coentrify, by module, with its state
 - `healing` - who makes a harness change: `automatic` by default, where a subagent makes it, logs it in the healing log and the report names it for a veto, or `review`, where it is filed for the director
 - `update` - what a session does when the installed coentrify is newer than `version`: `automatic` by default, where the agent brings the project up to date at once and reports, or `review`, where it says so and waits for the director's go
+- `push` - who pushes main and its tags: `review`, where the director pushes, or `automatic`, where the agent pushes them as they land ([A Turn's Records Land Together](standards/commits/a-turns-records-land-together.md)). Left out, it follows `agency`: `review` at `manual` and `assisted`, and `automatic` at `guided` and `autonomous`.
 - `contributor` - left out by default. Set to `true`, the project may file changes at the source.
 - `filing` - for a contributor: `review` by default, where the director looks at an issue before it is filed at the source, or `automatic`, where the subagent files it on its own
 - `agency` - left out by default, which means `manual`. How far the agent goes on its own with a creative choice: `manual`, `assisted`, `guided` or `autonomous` ([Creative Agency](standards/autonomy/creative-agency.md))
