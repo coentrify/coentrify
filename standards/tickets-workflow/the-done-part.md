@@ -14,6 +14,7 @@ The director can tell quickly whether the work is really done.
 - No spec case ids, no tests line, no checks and no parts list: those go in the builder's report and the commits. A hygiene check fails a Done part holding a spec case id.
 - Past about 100 words a Done part counts as long. One kept long carries `long-done: true`, which a hygiene check requires, so its length is always a choice.
 - Veto: each choice the build made that the ticket did not and the director could want undone, in a few words. A departure from a criterion is a Veto line. Placement, wording that follows the page and bookkeeping are no decisions.
+- An unmet criterion is no departure. Before the Done part is written, each criterion is held against what was done, every unmet one is listed to the director with one push back ([Honest Assessments](../behavior/general-working-rules.md#honest-assessments)), and the ticket waits for the answer. A Veto line then records the director's call.
 - Code details stay in the commit messages.
 - A spike's Proof holds its findings, a line per criterion with how it was checked.
 - Commits are never listed in a ticket: every commit made for it takes its id as the scope ([Commits](../commits/commits.md#ticket-scope)), so `git log --grep FEAT-214` finds them.
