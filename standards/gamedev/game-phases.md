@@ -19,7 +19,7 @@ The game grows in steady steps, and a mistake is caught while it is still cheap.
 | Stage | What It Is | Phases |
 |---|---|---|
 | [Concept](game-phases-concept.md) | divergent: everything can change and nothing is wrong | Idea, Gathering, Outline, Prototype |
-| [Design](game-phases-design.md) | convergent: the game is decided, on paper and in a first playable | Lore, World Building, Gameplay, First Playable, Game Design |
+| [Design](game-phases-design.md) | convergent: the game is decided, on paper and in a first playable | Lore, World Building, Vertical Slice (optional), Gameplay, First Playable, Game Design |
 | [Development](game-phases-development.md) | the designed game is built | Pre-Alpha, Alpha, Beta |
 | [Live](game-phases-live.md) | the game is out | Release, Aftercare, Post-Release |
 
@@ -28,7 +28,7 @@ The game grows in steady steps, and a mistake is caught while it is still cheap.
 - Concept is loose inside: its phases may overlap and loop back.
 - For every rule about the current phase, Concept counts as one phase.
 - From Design on, a game is in one phase at a time.
-- Every phase holds for every game, even when it is short: Pong's world is a black void, and its story can be a single line.
+- Every phase holds for every game, even when it is short: Pong's world is a black void, and its story can be a single line. Vertical Slice is the one exception, taken where the look is the bigger unknown.
 - The page of a phase carries the leading question of its phase gate in a `Gate:` line, and its check questions with their answers ([Gate Check Questions](gate-check-questions.md)).
 - Post-Release, the last phase of Live, has no phase gate, since the game is an everlasting project. Its page reads `Gate: none - the game is an everlasting project`.
 

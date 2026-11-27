@@ -33,6 +33,7 @@ A gate that waits on taste stalls an agent, and a question tied to a law turns t
 - World Building: do dense and sparse, danger and safety set each other off? ([Contrast](game-design-laws-world.md#contrast))
 - Gameplay: does the player want each thing before having it, and earn it? ([Desire Before Reward](game-design-laws-progress.md#desire-before-reward), [Earned Progress](game-design-laws-progress.md#earned-progress))
 - Gameplay: do the systems open possibilities? ([Emergent Gameplay](game-design-laws-progress.md#emergent-gameplay))
+- Vertical Slice: do its look, sound and play carry one message, and is what it taught written into the style? ([In Harmony](game-design-laws-own-style.md#in-harmony), [Asset Layers](asset-layers.md))
 - First Playable: is it fun, and does plain footage of it hold a viewer? ([Fun First](game-design-laws-experience.md#fun-first))
 - First Playable: does each new thing land, one at a time? ([Adopt, Repeat, Confirm](game-design-laws-guidance.md#adopt-repeat-confirm-arc))
 - Game Design: does the groove expand, with rewards that grow? ([Cadence](game-design-laws-progress.md#cadence))
