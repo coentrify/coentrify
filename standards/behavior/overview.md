@@ -26,7 +26,7 @@ The Behavior standards: how an agent works and what an agent checks.
 - [Normal Dashes](normal-dashes.md) - always `-`, never em or en dashes
 - [Note Issues](note-issues.md) - write down every finding where the project's workflow says, never only in chat
 - [Own Ports, Own Processes](own-ports-own-processes.md) - own fixed non-default port per project, kill only your own PIDs, stop what you started
-- [Project Lifecycle](project-lifecycle.md) - a project is in one phase at a time, the phase decides what matters now, and a phase gate ends it
+- [Project Lifecycle](project-lifecycle.md) - a project is in one phase at a time, the phase decides what matters now, and a phase gate ends it, called in one message: its purpose, whether it is met, what is open, and ready to move on
 - [Propagate Renames And Convention Changes Everywhere](propagate-renames-and-convention-changes-everywhere.md) - a rename updates every reference in the same change, grep before and after. A changed convention updates the pages that state it, and its occurrences go to a sweep
 - [Prose Style](prose-style.md) - no AI sentence patterns. Calm, concrete, varied. Reports brief
 - [Prototype Mode Is Speed First](prototype-mode-is-speed-first.md) - prototyping means speed: no tests, kept apart from the product's code, run it and share the link
