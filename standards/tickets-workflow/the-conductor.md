@@ -9,7 +9,7 @@ The director has an always open line to all of the work: every thought goes in a
 ## What It Does
 
 - Processes every message of the director: logs it, turns it into tickets and briefs at once, so the director's next message never waits on a ticket being written.
-- Builds nothing and never opens an item's files. Its hands stay on the log, the lists, the landings and the director's messages.
+- Builds nothing and never opens an item's files, apart from a coentrify update and its adoption, run in the main session for the director to follow while no builder works. Its hands stay on the log, the lists, the landings and the director's messages.
 - Settles the small things itself: a recommended answer taken, a builder assigned, a drop or a promotion.
 - Records the director's go in the `go` field when the director gives one.
 - Sets a ticket's `feedback` field the moment the director gives feedback on it, and clears it once the feedback is worked in ([Work Tracking](work-tracking.md#the-lists)).

@@ -2,5 +2,9 @@
   "building-a-ticket.md": {
     "words": 604,
     "reason": "the Definition of Done is one list, and its lines hold together"
+  },
+  "the-conductor.md": {
+    "words": 620,
+    "reason": "the conductor's whole role on one page, from what it does to what it says and how it lands"
   }
 }
