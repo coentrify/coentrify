@@ -24,6 +24,7 @@ The Gamedev standards: game development.
 - [Game Design Patterns](game-design-patterns.md) - named patterns a game uses where they fit, such as the No-Gear level, The Fall, the Kishōtenketsu level, Juice, Coyote Time And Input Buffer, the Pity Timer, Chekhov's Gun, Breadcrumbs, The Body Tells The Story and Ma
 - [Game Flavors](game-flavors.md) - ready-made strategies per layer of a game, picked, rolled by code, or the game's own, and extracted from a project or a public game. No default taste
 - [Game Flavors: Art Style](game-flavors-art-style.md) - the look of the game at its base, which the style in Asset Layers starts from
+- [Game Flavors: Away Time](game-flavors-away-time.md) - what the world does while the game is closed, from a frozen world to one that moves on
 - [Game Flavors: Basic Plot](game-flavors-plot.md) - what the story is about at heart, Booker's seven basic plots and two more
 - [Game Flavors: Choice](game-flavors-choice.md) - how much the player's decisions shape the story
 - [Game Flavors: Conventions](game-flavors-conventions.md) - whether the game explains its own artifice

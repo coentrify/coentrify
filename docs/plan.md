@@ -7,5 +7,6 @@ Version 0.4.1: the rest of the filings from prototyping a game on a dev machine,
 - A gate called in a fixed shape, its purpose first, the director's idea, done
 - A push setting, following agency, #120, done
 - A draft's home in the repository, #121, done
-- The rest of the filings, #122 and #123, one by one
+- A layer for what the world does while the game is closed, #122, done
+- The last filing, #123
 - Call 0.4.1 (active)

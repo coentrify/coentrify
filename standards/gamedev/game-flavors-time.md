@@ -6,7 +6,7 @@ How time runs in the game, and who controls it. These are the six main ones, nev
 
 - Time mixes by scope: real-time exploring with turn-based battles is the classic pairing: `- Time: Real Time - exploring`, `- Time: Turn Based - battles`.
 - The laws hold over every flavor: pausing is always easy ([Easy Pause](game-design-laws-experience.md#easy-pause)), a clock may stop at the day's end until the player ends the day ([Natural Breaks](game-design-laws-experience.md#natural-breaks)), and its pressure is weighed ([Compulsion Is Considered](game-design-laws-values.md#compulsion-is-considered)).
-- Nothing is lost while the player is away ([AFK Safe](game-design-laws-experience.md#afk-safe)), with a pause button or a world that waits. A game can make a world that moves on into a feature, and leaves the law out with its reason.
+- Nothing is lost while the player is away ([AFK Safe](game-design-laws-experience.md#afk-safe)), with a pause button or a world that waits. What the world does while the game is closed is [Away Time](game-flavors-away-time.md).
 
 ## Real Time
 
