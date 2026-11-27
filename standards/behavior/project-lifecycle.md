@@ -20,9 +20,11 @@ The same work is right in one phase and wasted in another.
 
 The agent puts a gate to the director in one message, in a fixed shape, so the purpose is never lost in detail.
 
+Before the call, the agent sweeps the adopted standards for every check, hook, script or generated view they say the project has, and files each one missing or only partly built as debt in the next phase. The phase page holds the sweep under `## Standards Sweep`: the gaps it found and where each is filed. In the tickets workflow, a hygiene check fails a passed phase without one.
+
 - Purpose - the phase's goal in one line, as a reminder of what the phase was for.
 - Met - the gate's leading question answered with its reasoning, and its check questions in brief.
-- Open - each part left unmet, in a list, with one push back ([Honest Assessments](general-working-rules.md#honest-assessments)). A gate with a part unmet passes only once the director has seen it.
+- Open - each part left unmet, in a list, with one push back ([Honest Assessments](general-working-rules.md#honest-assessments)), and the gaps the sweep filed. A gate with a part unmet passes only once the director has seen it.
 - What does not bear on the purpose stays out of the call: a detail stands under Veto, and content waits as Content.
 - The question - "Ready to move on to" the next phase, by name.
 - Where the agent calls the gate itself, at `autonomous` say, the same shape reports the call, under veto.

@@ -8,5 +8,5 @@ Version 0.4.1: the rest of the filings from prototyping a game on a dev machine,
 - A push setting, following agency, #120, done
 - A draft's home in the repository, #121, done
 - A layer for what the world does while the game is closed, #122, done
-- The last filing, #123
+- A sweep of the standards at every phase gate, #123, done
 - Call 0.4.1 (active)
