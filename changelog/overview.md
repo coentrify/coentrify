@@ -2,7 +2,7 @@
 
 What changed in each version of coentrify. A version has a page of its own, which opens with its summary. The summary is also the text of its release.
 
-- [0.4.0](0.4.0.md) - a round of filings from prototyping a game on a dev machine
+- [0.4.0](0.4.0.md) - the first filings from prototyping a game on a dev machine: required standards in an update, checks recorded per tree, the work in progress on the plan, and a test world for assets
 - [0.3.13](0.3.13.md) - a round of filings: the DEV day as a standard with a log append spec, the gate on exit codes advised, epics and stories by id, and phase pages held to their gates
 - [0.3.12](0.3.12.md) - content apart from the skeleton: a folder per kind, each phase only as deep as its gate, and only skeleton questions for the director
 - [0.3.11](0.3.11.md) - at guided, one creative choice per message: its context, the options and the recommendation
