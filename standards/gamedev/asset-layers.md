@@ -23,6 +23,13 @@ Assets made one prompt at a time differ in style and in scale. Decided in layers
 - Light - how the world is lit.
 - References - what the style draws on, and the style sample.
 
+## The Test World
+
+- An asset is made and checked in the test world first: a flat, neutral level with the game's camera, light and style, where the assets of a type stand in a row beside a human-sized reference. In a 2D game it is a test scene.
+- A character is walked there, and a vehicle driven, so scale and motion are checked before the asset is placed.
+- An asset is placed in the world once it passes there, and a capture from the test world stands as the proof in its ticket's Done part ([Captures And Reels](captures-and-reels.md)).
+- The test world stands from the style sample on, and serves every asset list.
+
 ## How To Apply
 
 - A choice belongs on the highest layer it holds for. A blueprint never repeats the style, and an entry never repeats its blueprint.

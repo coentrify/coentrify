@@ -8,5 +8,6 @@ Version 0.4.0: the filings from prototyping a game on a dev machine, each brough
 - The conductor runs an update itself, #112, done
 - After a landing, rerun only the checks that never passed on its tree, #114, done
 - A story being built stays on the plan, #115, done
-- The rest of the filings, #116 to #123, one by one
+- A test world for every asset, #116, done
+- The rest of the filings, #117 to #123, one by one
 - Call 0.4.0 (active)
