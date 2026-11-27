@@ -13,6 +13,7 @@
 // to coentrify.json. The rest stays with the agent, as the plan says:
 // - a customized standard that changed, to show the director
 // - a standard that was renamed, moved or removed at the source
+// - a new standard that a replaced tracked standard now links to, which the project rests on, to adopt
 // - a new standard in a module the project adopted, and a new module, worth considering
 // - the overview line of a customized standard that changed, to show the director
 // - a tool spec that changed, so the project rebuilds what it built from it
@@ -471,7 +472,16 @@ const replace = changed.filter(([module, name]) => adopted(module, name) === TRA
 const report = changed.filter(([module, name]) => ![undefined, null, TRACKED].includes(adopted(module, name)));
 const moves = renamed.filter(([before]) => adopted(...before));
 const gone = removed.filter((before) => adopted(...before));
-const fresh = added.filter(([module]) => modules.has(module));
+// A new standard that a replaced tracked standard links to is one the project now rests on, such as a
+// section moved into a standard of its own: it is adopted, never only suggested.
+const linksTo = ([fromModule, fromName], [module, name]) => {
+  const target = fromModule === module ? `${name}${MARKDOWN}` : `../${module}/${name}${MARKDOWN}`;
+  const escaped = target.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return new RegExp(`\\]\\(${escaped}(#[^)]*)?\\)`).test(readFileSync(`${current}/${STANDARDS}/${fromModule}/${fromName}${MARKDOWN}`, 'utf8'));
+};
+const newcomers = added.filter(([module]) => modules.has(module));
+const required = newcomers.filter((standard) => replace.some((from) => linksTo(from, standard)));
+const fresh = newcomers.filter((standard) => !required.includes(standard));
 const packageModules = moduleLines(current);
 const freshModules = [...new Set(added.map(([module]) => module))]
   .filter((module) => !(module in config.modules) && !isFolder(`${old}/${STANDARDS}/${module}`))
@@ -510,6 +520,10 @@ for (const [[oldModule, oldName], [newModule, newName]] of moves) {
 console.log(`\nRemoved at the source: ${gone.length}`);
 for (const [module, name] of gone) {
   console.log(`- ${module}/${name}`);
+}
+console.log(`\nNew and required, a replaced tracked standard now rests on it: ${required.length}`);
+for (const [module, name] of required) {
+  console.log(`- ${module}/${name}, ${title(current, `${STANDARDS}/${module}/${name}.md`)}`);
 }
 console.log(`\nNew in an adopted module, worth considering: ${fresh.length}`);
 for (const [module, name] of fresh) {
@@ -568,5 +582,8 @@ if (apply) {
     console.log(`- The overview line of ${standard} was not found, update it by hand.`);
   }
   console.log('Run the unlink script next.');
+  if (required.length) {
+    console.log(`Once the update is committed, adopt the required ones at once, as part of the update: --adopt ${required.map(([module, name]) => `${module}/${name}`).join(' ')}`);
+  }
   console.log('Then suggest the new standards and modules worth adopting, and adopt the ones the director accepts with --adopt.');
 }
